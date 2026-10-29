@@ -1,5 +1,5 @@
 // Offline support: app shell is cached on install; everything else is cached as it's fetched.
-const VERSION = "azcorra-v2";
+const VERSION = "azcorra-v3";
 const SHELL = [
   "./", "index.html", "css/app.css", "manifest.webmanifest", "icons/favicon.svg", "icons/icon-192.png",
   "js/app.js", "js/ui.js", "js/store.js", "js/course.js",

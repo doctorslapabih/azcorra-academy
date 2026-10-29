@@ -281,5 +281,18 @@ window.addEventListener("beforeinstallprompt", e => {
   e.preventDefault(); deferred = e;
   const slot = document.getElementById("install-slot");
   slot.innerHTML = '<button class="btn ghost" style="padding:5px 12px;font-size:13px" data-install>Install app</button>';
-  slot.querySelector("[data-install]").addEventListener("click", async () => { deferred.prompt(); await deferred.userChoice; deferred = null; slot.innerHTML = ""; });
+  slot.querySelector("[data-install]").addEventListener("click", async () => {
+    if (!deferred) { toast("Use Chrome's ⋮ menu → Cast, save and share → Install page as app."); return; }
+    try {
+      toast("Look for the install box at the top of your browser window.");
+      await deferred.prompt();
+      const choice = await deferred.userChoice;
+      toast(choice.outcome === "accepted" ? "Installed. Find Azcorra Academy in your app launcher." : "Install canceled.");
+    } catch (err) {
+      toast("Use Chrome's ⋮ menu → Cast, save and share → Install page as app.");
+    }
+    deferred = null; slot.innerHTML = "";
+  });
 });
+
+window.addEventListener("appinstalled", () => { const slot = document.getElementById("install-slot"); if (slot) slot.innerHTML = ""; toast("Installed. Find Azcorra Academy in your app launcher."); });

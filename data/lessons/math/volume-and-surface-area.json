@@ -1,0 +1,107 @@
+{
+ "id": "volume-and-surface-area",
+ "title": "Volume and surface area",
+ "band": "Grades 7–8",
+ "minutes": 18,
+ "lede": "Volume is how much a box holds; surface area is how much cardboard it takes. Prisms, cylinders, cones and spheres.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Volume = base × height\nFor any **prism** or **cylinder** (same shape all the way up), volume is the area of the base times the height.\n\n| Solid | Volume |\n|---|---|\n| Rectangular box | l × w × h |\n| Cube | s³ |\n| Cylinder | πr²h |\n| Triangular prism | (½bh of triangle) × length |\n\nUnits are **cubed**: in³, m³."
+  },
+  {
+   "type": "text",
+   "md": "## Pointy shapes are one third\nA **cone** or **pyramid** holds exactly **one third** of the prism or cylinder with the same base and height.\n\n- Cone: V = ⅓πr²h\n- Pyramid: V = ⅓ × base area × h\n- Sphere: V = ⁴⁄₃πr³"
+  },
+  {
+   "type": "text",
+   "md": "## Surface area\nSurface area is the total area of all the faces, the wrapping paper. Units are **squared**.\n\n- **Box:** 2(lw + lh + wh), three pairs of matching rectangles.\n- **Cylinder:** 2πr² (top and bottom) + 2πrh (the label, unrolled into a rectangle)."
+  },
+  {
+   "type": "example",
+   "title": "Box",
+   "problem": "A shipping box is 2 ft × 3 ft × 4 ft. Find the volume and surface area.",
+   "steps": [
+    "Volume: 2 × 3 × 4 = 24 ft³.",
+    "Faces: 2×3 = 6, 2×4 = 8, 3×4 = 12.",
+    "Surface area: 2(6 + 8 + 12) = 52 ft²."
+   ],
+   "answer": "**24 ft³** and **52 ft²**"
+  },
+  {
+   "type": "example",
+   "title": "Cylinder",
+   "problem": "A can has radius 3 cm and height 10 cm. Volume?",
+   "steps": [
+    "V = πr²h = π × 9 × 10 = 90π.",
+    "90 × 3.14159 ≈ 282.7."
+   ],
+   "answer": "**90π ≈ 282.7 cm³**"
+  },
+  {
+   "type": "note",
+   "label": "Scaling again",
+   "md": "Scale every length by k: surface area scales by k², volume by **k³**. Double the size of a box and it holds 8 times as much."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Volume of a cube with side 5?",
+   "answer": 125,
+   "why": "5³.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Volume of a box 4 × 5 × 6?",
+   "answer": 120,
+   "why": "Multiply.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Surface area of a box 2 × 3 × 4?",
+   "answer": 52,
+   "why": "2(6 + 8 + 12).",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "A cone and a cylinder have the same base and height. The cone holds…",
+   "options": [
+    "The same",
+    "Half as much",
+    "One third as much",
+    "Twice as much"
+   ],
+   "answer": 2,
+   "why": "Cone = ⅓πr²h."
+  },
+  {
+   "type": "num",
+   "q": "Volume of a cylinder with radius 2 and height 7, rounded to one decimal?",
+   "answer": 88.0,
+   "why": "28π ≈ 87.96.",
+   "tol": 0.1
+  },
+  {
+   "type": "mc",
+   "q": "You double every dimension of a box. Its volume becomes…",
+   "options": [
+    "2×",
+    "4×",
+    "6×",
+    "8×"
+   ],
+   "answer": 3,
+   "why": "2³ = 8."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Prealgebra 2e, Ch. 9: Math Models and Geometry",
+   "url": "https://openstax.org/details/books/prealgebra-2e"
+  }
+ ]
+}

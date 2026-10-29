@@ -95,27 +95,32 @@
      {
       "id": "angles-and-lines",
       "title": "Angles and lines",
-      "ready": false
+      "ready": true,
+      "desc": "Angles are measured turns. A handful of rules about straight lines and parallel lines solve most angle puzzles."
      },
      {
       "id": "area-and-perimeter",
       "title": "Area and perimeter",
-      "ready": false
+      "ready": true,
+      "desc": "Perimeter is the fence; area is the grass. Learn the core formulas and the trick for odd shapes."
      },
      {
       "id": "circles-and-pi",
       "title": "Circles and pi",
-      "ready": false
+      "ready": true,
+      "desc": "Every circle hides the same number, π. With it you can find any circle's distance around and area."
      },
      {
       "id": "volume-and-surface-area",
       "title": "Volume and surface area",
-      "ready": false
+      "ready": true,
+      "desc": "Volume is how much a box holds; surface area is how much cardboard it takes. Prisms, cylinders, cones and spheres."
      },
      {
       "id": "the-pythagorean-theorem",
       "title": "The Pythagorean theorem",
-      "ready": false
+      "ready": true,
+      "desc": "In every right triangle, a² + b² = c². It lets you find any distance you can't measure directly."
      }
     ]
    },

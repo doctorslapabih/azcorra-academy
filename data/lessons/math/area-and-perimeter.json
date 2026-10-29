@@ -1,0 +1,109 @@
+{
+ "id": "area-and-perimeter",
+ "title": "Area and perimeter",
+ "band": "Grades 7–8",
+ "minutes": 18,
+ "lede": "Perimeter is the fence; area is the grass. Learn the core formulas and the trick for odd shapes.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Two different questions\n- **Perimeter** is the distance **around** a shape. Add up the side lengths. Units: feet, meters.\n- **Area** is the space **inside**. Units are squared: ft², m², because you're counting unit squares."
+  },
+  {
+   "type": "text",
+   "md": "## The formulas\n| Shape | Area |\n|---|---|\n| Rectangle | length × width |\n| Square | side² |\n| Parallelogram | base × height |\n| Triangle | ½ × base × height |\n| Trapezoid | ½ × (base₁ + base₂) × height |\n\nThe **height** is always measured **straight up** (perpendicular to the base), not along a slanted side."
+  },
+  {
+   "type": "text",
+   "md": "## Why the triangle is half\nAny triangle is exactly half of a parallelogram with the same base and height. Copy it, flip the copy, and the two fit together. That's where the ½ comes from."
+  },
+  {
+   "type": "text",
+   "md": "## Odd shapes: split or subtract\nFor an L-shape or a room with a cutout, either **split** it into rectangles and add the areas, or draw the big rectangle around it and **subtract** the missing piece."
+  },
+  {
+   "type": "example",
+   "title": "Composite shape",
+   "problem": "An L-shaped floor: a 12 ft × 10 ft rectangle with a 4 ft × 5 ft corner cut out. Find the area.",
+   "steps": [
+    "Big rectangle: 12 × 10 = 120 ft².",
+    "Cut-out: 4 × 5 = 20 ft².",
+    "120 − 20 = 100."
+   ],
+   "answer": "**100 ft²**"
+  },
+  {
+   "type": "example",
+   "title": "Scaling trap",
+   "problem": "You double every side of a square. What happens to the area?",
+   "steps": [
+    "A side of s has area s².",
+    "A side of 2s has area (2s)² = 4s²."
+   ],
+   "answer": "The area becomes **4 times** bigger, not 2 times."
+  },
+  {
+   "type": "note",
+   "label": "Remember",
+   "md": "When you scale a shape by a factor k, perimeter scales by k but area scales by **k²**. This is why a 16-inch pizza has about 1.8 times the pizza of a 12-inch one."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "A rectangle is 9 m by 6 m. What is its perimeter?",
+   "answer": 30,
+   "why": "2(9 + 6).",
+   "tol": 0.001,
+   "unit": "m"
+  },
+  {
+   "type": "num",
+   "q": "Find the area of a triangle with base 10 and height 7.",
+   "answer": 35,
+   "why": "½ × 10 × 7.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "A trapezoid has bases 8 and 12 and height 5. Area?",
+   "answer": 50,
+   "why": "½ × (8 + 12) × 5.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "A parallelogram has base 11 cm and height 4 cm. Its slanted side is 5 cm. Area?",
+   "answer": 44,
+   "why": "Base × height. The slanted side is a distractor.",
+   "tol": 0.001,
+   "unit": "cm²"
+  },
+  {
+   "type": "mc",
+   "q": "You triple every side of a rectangle. The area becomes…",
+   "options": [
+    "3 times bigger",
+    "6 times bigger",
+    "9 times bigger",
+    "27 times bigger"
+   ],
+   "answer": 2,
+   "why": "Area scales by 3² = 9."
+  },
+  {
+   "type": "num",
+   "q": "A 20 ft × 15 ft yard has a 6 ft × 6 ft patio. How much area is grass?",
+   "answer": 264,
+   "why": "300 − 36.",
+   "tol": 0.001,
+   "unit": "ft²"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Prealgebra 2e, Ch. 9: Math Models and Geometry",
+   "url": "https://openstax.org/details/books/prealgebra-2e"
+  }
+ ]
+}

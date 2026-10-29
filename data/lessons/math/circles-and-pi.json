@@ -1,0 +1,125 @@
+{
+ "id": "circles-and-pi",
+ "title": "Circles and π",
+ "band": "Grade 7",
+ "minutes": 16,
+ "lede": "Every circle hides the same number, π. With it you can find any circle's distance around and area.",
+ "sections": [
+  {
+   "type": "terms",
+   "terms": [
+    {
+     "term": "Radius (r)",
+     "def": "Distance from the center to the edge."
+    },
+    {
+     "term": "Diameter (d)",
+     "def": "Distance straight across through the center. d = 2r."
+    },
+    {
+     "term": "Circumference (C)",
+     "def": "The distance around the circle: its perimeter."
+    },
+    {
+     "term": "π (pi)",
+     "def": "The ratio C ÷ d, the same for every circle: about 3.14159. It's irrational, so its decimals never end or repeat."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "md": "## The two formulas\n- **Circumference:** C = πd = 2πr\n- **Area:** A = πr²\n\nThe most common mistake is using the diameter in the area formula. Area always uses the **radius**: halve the diameter first."
+  },
+  {
+   "type": "text",
+   "md": "## Where πr² comes from\nCut a circle into many thin pizza slices and arrange them alternating point-up and point-down. They form a shape close to a rectangle: its height is r and its length is half the circumference, πr. Area ≈ πr × r = **πr²**."
+  },
+  {
+   "type": "example",
+   "title": "Area from diameter",
+   "problem": "A circular table is 6 ft across. What's its area?",
+   "steps": [
+    "Radius = 6 ÷ 2 = 3 ft.",
+    "A = π × 3² = 9π.",
+    "9 × 3.14159 ≈ 28.3."
+   ],
+   "answer": "**9π ≈ 28.3 ft²**"
+  },
+  {
+   "type": "example",
+   "title": "Distance traveled",
+   "problem": "A wheel has radius 14 inches. How far does it roll in one full turn?",
+   "steps": [
+    "One turn rolls one circumference.",
+    "C = 2π(14) = 28π ≈ 88."
+   ],
+   "answer": "**About 88 inches**"
+  },
+  {
+   "type": "note",
+   "label": "Leave it in π",
+   "md": "If a question says \"exact\" or \"in terms of π\", write 9π instead of 28.27. Exact answers avoid rounding errors in multi-step problems."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "A circle has radius 5. What is its diameter?",
+   "answer": 10,
+   "why": "d = 2r.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Circumference of a circle with diameter 10, rounded to one decimal (use π ≈ 3.14159)?",
+   "answer": 31.4,
+   "why": "π × 10.",
+   "tol": 0.06
+  },
+  {
+   "type": "num",
+   "q": "Area of a circle with radius 3, rounded to one decimal?",
+   "answer": 28.3,
+   "why": "9π.",
+   "tol": 0.06
+  },
+  {
+   "type": "mc",
+   "q": "A pizza is 14 inches across. Which expression gives its area?",
+   "options": [
+    "π × 14²",
+    "π × 7²",
+    "2π × 7",
+    "π × 14"
+   ],
+   "answer": 1,
+   "why": "Use the radius, 7."
+  },
+  {
+   "type": "mc",
+   "q": "If you double a circle's radius, its area…",
+   "options": [
+    "Doubles",
+    "Triples",
+    "Quadruples",
+    "Stays the same"
+   ],
+   "answer": 2,
+   "why": "Area depends on r², so 2² = 4."
+  },
+  {
+   "type": "num",
+   "q": "A wheel's circumference is 88 in. About how many full turns does it make in 880 in?",
+   "answer": 10,
+   "why": "880 ÷ 88.",
+   "tol": 0.001,
+   "unit": "turns"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Prealgebra 2e, Ch. 9: Math Models and Geometry",
+   "url": "https://openstax.org/details/books/prealgebra-2e"
+  }
+ ]
+}

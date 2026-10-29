@@ -1,0 +1,112 @@
+{
+ "id": "the-pythagorean-theorem",
+ "title": "The Pythagorean theorem",
+ "band": "Grade 8",
+ "minutes": 18,
+ "lede": "In every right triangle, a² + b² = c². It lets you find any distance you can't measure directly.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The rule\nIn a **right triangle**, the side across from the right angle is the **hypotenuse** (c). It's always the longest side. The other two are the **legs** (a and b).\n\n**a² + b² = c²**\n\nIt only works for right triangles."
+  },
+  {
+   "type": "text",
+   "md": "## Why it's true\nBuild a big square with side a + b. Put four copies of the triangle inside, one in each corner. The space left in the middle is a tilted square of side c, area c². Rearrange the same four triangles and the leftover space becomes two squares, a² and b². Same big square, same four triangles, so the leftover areas match: **a² + b² = c²**."
+  },
+  {
+   "type": "text",
+   "md": "## Triples worth memorizing\nWhole-number right triangles: **3-4-5**, **5-12-13**, **8-15-17**, **7-24-25**. Multiples work too: 6-8-10, 9-12-15. Spotting one saves a calculation."
+  },
+  {
+   "type": "example",
+   "title": "Find the hypotenuse",
+   "problem": "Legs are 6 and 8.",
+   "steps": [
+    "6² + 8² = 36 + 64 = 100.",
+    "c = √100 = 10."
+   ],
+   "answer": "**10** (a 3-4-5 triple, doubled)"
+  },
+  {
+   "type": "example",
+   "title": "Find a leg",
+   "problem": "A 13 ft ladder leans on a wall. Its foot is 5 ft from the wall. How high does it reach?",
+   "steps": [
+    "The ladder is the hypotenuse: 5² + h² = 13².",
+    "25 + h² = 169, so h² = 144.",
+    "h = 12."
+   ],
+   "answer": "**12 ft**"
+  },
+  {
+   "type": "example",
+   "title": "Distance on a grid",
+   "problem": "How far is (1, 2) from (7, 10)?",
+   "steps": [
+    "Horizontal gap: 7 − 1 = 6. Vertical gap: 10 − 2 = 8.",
+    "Distance = √(6² + 8²) = √100."
+   ],
+   "answer": "**10 units**"
+  },
+  {
+   "type": "note",
+   "label": "Is it a right triangle?",
+   "md": "Check whether the two shorter sides squared add up to the longest side squared. 9, 12, 15: 81 + 144 = 225 = 15². Yes. This is how builders square a corner: measure 3 ft one way, 4 ft the other, and the diagonal must be 5 ft."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Legs 3 and 4. Hypotenuse?",
+   "answer": 5,
+   "why": "9 + 16 = 25.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Legs 5 and 12. Hypotenuse?",
+   "answer": 13,
+   "why": "25 + 144 = 169.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Hypotenuse 17, one leg 8. Other leg?",
+   "answer": 15,
+   "why": "289 − 64 = 225.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Legs 1 and 1. Hypotenuse, to two decimals?",
+   "answer": 1.41,
+   "why": "√2.",
+   "tol": 0.006
+  },
+  {
+   "type": "mc",
+   "q": "Which side lengths form a right triangle?",
+   "options": [
+    "4, 5, 6",
+    "6, 8, 10",
+    "5, 6, 7",
+    "2, 3, 4"
+   ],
+   "answer": 1,
+   "why": "36 + 64 = 100."
+  },
+  {
+   "type": "num",
+   "q": "Distance from (0, 0) to (9, 12)?",
+   "answer": 15,
+   "why": "√(81 + 144) = √225.",
+   "tol": 0.001
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Prealgebra 2e, Ch. 9: Math Models and Geometry",
+   "url": "https://openstax.org/details/books/prealgebra-2e"
+  }
+ ]
+}

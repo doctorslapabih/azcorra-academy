@@ -1,0 +1,114 @@
+{
+ "id": "angles-and-lines",
+ "title": "Angles and lines",
+ "band": "Grades 7–8",
+ "minutes": 16,
+ "lede": "Angles are measured turns. A handful of rules about straight lines and parallel lines solve most angle puzzles.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Measuring a turn\nAn **angle** is formed by two rays from a shared point (the **vertex**). It's measured in **degrees**: a full turn is 360°.\n\n| Name | Size |\n|---|---|\n| Acute | less than 90° |\n| Right | exactly 90° (the little square in the corner) |\n| Obtuse | between 90° and 180° |\n| Straight | exactly 180° |\n| Reflex | between 180° and 360° |"
+  },
+  {
+   "type": "text",
+   "md": "## Angle pairs\n- **Complementary** angles add to **90°**.\n- **Supplementary** angles add to **180°**. Angles side by side on a straight line are supplementary.\n- **Vertical angles** are the opposite angles where two lines cross. They are always **equal**.\n- Angles all the way around a point add to **360°**."
+  },
+  {
+   "type": "text",
+   "md": "## Parallel lines and a transversal\nWhen a line (the **transversal**) cuts across two parallel lines, it makes 8 angles but only **two different sizes**. Every angle is equal to one size or the other, and the two sizes add to 180°.\n\n- **Corresponding** angles (same position at each crossing) are equal.\n- **Alternate interior** angles (inside the parallels, opposite sides of the transversal, a Z shape) are equal.\n- **Co-interior** angles (inside, same side, a C shape) add to 180°."
+  },
+  {
+   "type": "text",
+   "md": "## Triangles\nThe three angles of any triangle add to **180°**. Tear the corners off a paper triangle and line them up: they make a straight line.\n\nFor any polygon with n sides, the interior angles add to **(n − 2) × 180°**. A square: 2 × 180 = 360°. A hexagon: 4 × 180 = 720°."
+  },
+  {
+   "type": "example",
+   "title": "Find the missing angle",
+   "problem": "A triangle has angles 47° and 68°. What is the third?",
+   "steps": [
+    "Angles in a triangle add to 180°.",
+    "180 − 47 − 68 = 65."
+   ],
+   "answer": "**65°**"
+  },
+  {
+   "type": "example",
+   "title": "Use a straight line",
+   "problem": "Two lines cross. One angle is 112°. Find the other three.",
+   "steps": [
+    "The angle next to it is supplementary: 180 − 112 = 68°.",
+    "Vertical angles are equal, so the opposite angles are 112° and 68°."
+   ],
+   "answer": "**68°, 112°, 68°**"
+  },
+  {
+   "type": "note",
+   "label": "Puzzle habit",
+   "md": "In an angle problem, label every angle you can find in one step, even if the question didn't ask for it. The answer is usually two or three easy steps chained together."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "What is the complement of 34°?",
+   "answer": 56,
+   "why": "90 − 34.",
+   "tol": 0.001,
+   "unit": "degrees"
+  },
+  {
+   "type": "num",
+   "q": "What is the supplement of 125°?",
+   "answer": 55,
+   "why": "180 − 125.",
+   "tol": 0.001,
+   "unit": "degrees"
+  },
+  {
+   "type": "mc",
+   "q": "Two lines cross. Vertical angles are…",
+   "options": [
+    "Always equal",
+    "Always supplementary",
+    "Always 90°",
+    "Equal only if the lines are parallel"
+   ],
+   "answer": 0,
+   "why": "Opposite angles at a crossing match."
+  },
+  {
+   "type": "num",
+   "q": "A triangle has angles 90° and 38°. Find the third.",
+   "answer": 52,
+   "why": "180 − 90 − 38.",
+   "tol": 0.001,
+   "unit": "degrees"
+  },
+  {
+   "type": "num",
+   "q": "What do the interior angles of a pentagon (5 sides) add to?",
+   "answer": 540,
+   "why": "(5 − 2) × 180.",
+   "tol": 0.001,
+   "unit": "degrees"
+  },
+  {
+   "type": "mc",
+   "q": "Parallel lines are cut by a transversal. One angle is 70°. Which sizes appear among the 8 angles?",
+   "options": [
+    "Only 70°",
+    "70° and 110°",
+    "70°, 90° and 110°",
+    "70° and 20°"
+   ],
+   "answer": 1,
+   "why": "Only two sizes, and they add to 180°."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Prealgebra 2e, Ch. 9: Math Models and Geometry",
+   "url": "https://openstax.org/details/books/prealgebra-2e"
+  }
+ ]
+}

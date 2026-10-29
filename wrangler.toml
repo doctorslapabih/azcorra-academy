@@ -7,3 +7,6 @@ compatibility_date = "2025-09-01"
 binding = "DB"
 database_name = "azcorra-os"
 database_id = "bbd4c623-9631-47f1-bfba-ad5041b7077f"
+
+[vars]
+TIMEZONE = "America/New_York"

@@ -1,0 +1,110 @@
+{
+ "id": "measurement-and-units",
+ "title": "Measurement and units",
+ "band": "Grade 7",
+ "minutes": 18,
+ "lede": "The metric system, the prefixes that make it easy, and the difference between accurate and precise.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The SI system\nScience worldwide uses the **International System of Units (SI)**, the modern metric system. Seven base units define everything else:\n\n| Quantity | Unit | Symbol |\n|---|---|---|\n| Length | meter | m |\n| Mass | kilogram | kg |\n| Time | second | s |\n| Temperature | kelvin | K |\n| Electric current | ampere | A |\n| Amount of substance | mole | mol |\n| Light intensity | candela | cd |"
+  },
+  {
+   "type": "text",
+   "md": "## Prefixes do the heavy lifting\nEvery metric unit scales by powers of 10, using the same prefixes:\n\n| Prefix | Symbol | Means |\n|---|---|---|\n| mega | M | 1,000,000 |\n| kilo | k | 1,000 |\n| centi | c | 1/100 |\n| milli | m | 1/1,000 |\n| micro | μ | 1/1,000,000 |\n\nSo 1 kilometer = 1,000 meters, 1 milligram = 1/1,000 of a gram. To convert, just move the decimal."
+  },
+  {
+   "type": "example",
+   "title": "Metric conversion",
+   "problem": "Convert 2.4 kilometers to meters, then to centimeters.",
+   "steps": [
+    "1 km = 1,000 m, so 2.4 km = 2,400 m.",
+    "1 m = 100 cm, so 2,400 m = 240,000 cm."
+   ],
+   "answer": "**2,400 m = 240,000 cm**"
+  },
+  {
+   "type": "text",
+   "md": "## Accuracy vs precision\n- **Accurate:** close to the true value.\n- **Precise:** repeated measurements are close to each other.\n\nA scale that always reads 2 lb heavy is precise but not accurate. Good measurement needs both. That's why trucks get weighed on certified scales."
+  },
+  {
+   "type": "note",
+   "label": "Useful conversions",
+   "md": "1 inch = 2.54 cm (exactly). 1 mile ≈ 1.609 km. 1 kg ≈ 2.205 lb. 1 gallon ≈ 3.785 liters."
+  },
+  {
+   "type": "example",
+   "title": "Imperial to metric",
+   "problem": "A loaded truck weighs 80,000 lb. About how many kilograms?",
+   "steps": [
+    "1 kg ≈ 2.205 lb, so divide.",
+    "80,000 ÷ 2.205 ≈ 36,281."
+   ],
+   "answer": "**About 36,300 kg** (about 36 metric tons)"
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "How many meters are in 3.5 km?",
+   "answer": 3500,
+   "why": "1 km = 1,000 m.",
+   "tol": 0.001,
+   "unit": "m"
+  },
+  {
+   "type": "num",
+   "q": "How many grams are in 750 mg?",
+   "answer": 0.75,
+   "why": "750 ÷ 1,000.",
+   "tol": 0.001,
+   "unit": "g"
+  },
+  {
+   "type": "mc",
+   "q": "What is the SI base unit of mass?",
+   "options": [
+    "Gram",
+    "Pound",
+    "Kilogram",
+    "Newton"
+   ],
+   "answer": 2,
+   "why": "The kilogram is the base unit, even though it has a prefix."
+  },
+  {
+   "type": "mc",
+   "q": "A dart player's darts all land tightly together but far from the bullseye. They are…",
+   "options": [
+    "Accurate and precise",
+    "Precise but not accurate",
+    "Accurate but not precise",
+    "Neither"
+   ],
+   "answer": 1,
+   "why": "Close to each other, far from the target."
+  },
+  {
+   "type": "num",
+   "q": "How many centimeters are in 6 inches? (1 in = 2.54 cm)",
+   "answer": 15.24,
+   "why": "6 × 2.54.",
+   "tol": 0.001,
+   "unit": "cm"
+  },
+  {
+   "type": "num",
+   "q": "About how many liters is a 150-gallon fuel tank? Round to the nearest whole number. (1 gal ≈ 3.785 L)",
+   "answer": 568,
+   "why": "150 × 3.785 = 567.75.",
+   "tol": 1,
+   "unit": "L"
+  }
+ ],
+ "sources": [
+  {
+   "title": "SI units (NIST)",
+   "url": "https://www.nist.gov/pml/owm/metric-si/si-units"
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "id": "the-scientific-method",
+ "title": "The scientific method",
+ "band": "Grade 7",
+ "minutes": 16,
+ "lede": "Science is a method for not fooling yourself. Here's how it works, and what hypothesis, theory and law really mean.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## A loop, not a recipe\nScientists don't march through fixed steps. They loop:\n\n1. **Observe** and ask a question.\n2. **Research** what's already known.\n3. Form a **hypothesis**: a testable prediction.\n4. **Test** it with an experiment or careful observations.\n5. **Analyze** the data.\n6. **Conclude** and share, which leads to new questions.\n\nA result that disagrees with the hypothesis isn't a failure. It's information."
+  },
+  {
+   "type": "text",
+   "md": "## What makes a good hypothesis\nA hypothesis must be **testable** and **falsifiable**: there has to be some result that would prove it wrong.\n\n- Weak: \"Premium diesel is better.\" (Better how? How would you know?)\n- Strong: \"If we switch to premium diesel, the truck's miles per gallon will increase by at least 3% over 2,000 miles.\"\n\nThe if-then format forces you to name what you'll change and what you'll measure."
+  },
+  {
+   "type": "terms",
+   "label": "Words scientists use carefully",
+   "terms": [
+    {
+     "term": "Hypothesis",
+     "def": "A testable prediction for a specific question."
+    },
+    {
+     "term": "Theory",
+     "def": "A well-tested explanation of how something works, supported by large amounts of evidence. Evolution and germ theory are theories. In science, \"theory\" does not mean \"guess.\""
+    },
+    {
+     "term": "Law",
+     "def": "A description of what always happens, often as an equation, like Newton's law of gravity. Laws describe; theories explain why."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "md": "## The practices scientists actually use\nThe Next Generation Science Standards describe eight practices: asking questions, developing models, planning investigations, analyzing data, using math, constructing explanations, arguing from evidence, and communicating results. Notice how many are about **evidence** and **communication**. Science is a public argument, settled by data."
+  },
+  {
+   "type": "example",
+   "title": "Design a quick test",
+   "problem": "Question: does a cold call get more answers at 9 a.m. or 2 p.m.?",
+   "steps": [
+    "Hypothesis: if I call at 9 a.m., more people will answer than at 2 p.m.",
+    "Test: make 50 calls at each time to similar lists.",
+    "Measure: percent answered at each time.",
+    "Conclude: compare the two percents, then repeat with new lists to be sure."
+   ],
+   "answer": "A real experiment you could run this week."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is a testable hypothesis?",
+   "options": [
+    "Blue is the best color.",
+    "If plants get more light, they will grow taller in 3 weeks.",
+    "Science is interesting.",
+    "Some people like trucks."
+   ],
+   "answer": 1,
+   "why": "It names a change (light) and a measurement (height)."
+  },
+  {
+   "type": "mc",
+   "q": "In science, a theory is…",
+   "options": [
+    "A wild guess",
+    "A well-tested explanation backed by lots of evidence",
+    "Something that hasn't been proven",
+    "The same as a hypothesis"
+   ],
+   "answer": 1,
+   "why": "Everyday \"theory\" and scientific \"theory\" mean very different things."
+  },
+  {
+   "type": "mc",
+   "q": "An experiment's result contradicts your hypothesis. What should you do?",
+   "options": [
+    "Hide the result",
+    "Change the data",
+    "Accept it, revise the hypothesis and test again",
+    "Stop doing science"
+   ],
+   "answer": 2,
+   "why": "Disproved hypotheses move science forward."
+  },
+  {
+   "type": "mc",
+   "q": "What does \"falsifiable\" mean?",
+   "options": [
+    "It's false",
+    "Some possible result could prove it wrong",
+    "It's been proven",
+    "It's a lie"
+   ],
+   "answer": 1,
+   "why": "If nothing could ever disprove it, it isn't scientific."
+  },
+  {
+   "type": "mc",
+   "q": "Laws vs theories: which is true?",
+   "options": [
+    "Theories become laws when proven",
+    "Laws describe what happens; theories explain why",
+    "Laws are guesses",
+    "They're the same"
+   ],
+   "answer": 1,
+   "why": "They're different kinds of knowledge. A theory never \"graduates\" into a law."
+  }
+ ],
+ "sources": [
+  {
+   "title": "NGSS Science and Engineering Practices (ExploreLearning)",
+   "url": "https://explorelearning.com/resources/insights/ngss-science-and-engineering-practices"
+  }
+ ]
+}

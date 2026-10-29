@@ -1,0 +1,98 @@
+{
+ "id": "active-voice",
+ "title": "Active voice",
+ "band": "Grade 7",
+ "minutes": 14,
+ "lede": "Put the doer first. It's the single easiest way to make writing clearer and stronger.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Active vs passive\n- **Active:** the subject does the action. \"Mike loaded the truck.\"\n- **Passive:** the subject receives the action. \"The truck was loaded by Mike.\"\n\nPassive sentences are longer, weaker, and often hide who did what."
+  },
+  {
+   "type": "text",
+   "md": "## How to spot passive voice\nLook for a form of **be** (is, are, was, were, been, being) plus a past-tense verb (loaded, sent, made).\n\nThe zombie test: if you can add \"by zombies\" after the verb and it still makes sense, it's passive. \"Mistakes were made (by zombies).\" Passive."
+  },
+  {
+   "type": "example",
+   "title": "Flip it",
+   "problem": "\"The payment was not received by our office.\"",
+   "steps": [
+    "Who did the action? Our office (didn't receive).",
+    "Put the doer first."
+   ],
+   "answer": "\"Our office didn't receive the payment.\""
+  },
+  {
+   "type": "text",
+   "md": "## When passive is fine\nPassive is useful when the doer is unknown or doesn't matter: \"The road was closed for repairs.\" Use it on purpose, not by accident."
+  },
+  {
+   "type": "note",
+   "label": "Strong verbs",
+   "md": "Active voice pairs with strong verbs. Replace \"made a decision\" with \"decided,\" \"gave approval\" with \"approved,\" and \"is in need of\" with \"needs.\""
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is active?",
+   "options": [
+    "The contract was signed by both parties.",
+    "Both parties signed the contract.",
+    "The contract has been signed.",
+    "Signing was done."
+   ],
+   "answer": 1,
+   "why": "The doers come first."
+  },
+  {
+   "type": "mc",
+   "q": "Which is passive?",
+   "options": [
+    "We missed the deadline.",
+    "The deadline was missed.",
+    "She drove all night.",
+    "They paid on time."
+   ],
+   "answer": 1,
+   "why": "\"Was missed\" — missed by whom? (By zombies works.)"
+  },
+  {
+   "type": "mc",
+   "q": "Best rewrite of \"A decision was made by the board to expand.\"",
+   "options": [
+    "The board decided to expand.",
+    "Expansion was decided by the board.",
+    "It was decided to expand.",
+    "A decision to expand was made."
+   ],
+   "answer": 0,
+   "why": "Doer first, strong verb."
+  },
+  {
+   "type": "mc",
+   "q": "When is passive voice a good choice?",
+   "options": [
+    "Always",
+    "Never",
+    "When the doer is unknown or doesn't matter",
+    "In every email"
+   ],
+   "answer": 2,
+   "why": "\"My truck was stolen\": you don't know who did it."
+  },
+  {
+   "type": "mc",
+   "q": "Replace \"is in need of\" with one strong verb.",
+   "options": [
+    "requires of",
+    "needs",
+    "is needing",
+    "has need"
+   ],
+   "answer": 1,
+   "why": "Shorter and stronger."
+  }
+ ]
+}

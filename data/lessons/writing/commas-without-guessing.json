@@ -1,0 +1,106 @@
+{
+ "id": "commas-without-guessing",
+ "title": "Commas without guessing",
+ "band": "Grade 7",
+ "minutes": 18,
+ "lede": "Six rules cover almost every comma you'll ever need. If none applies, leave it out.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The six rules\n1. **Lists of three or more:** fuel, tires, and oil. (The last comma, called the Oxford comma, is optional. Pick one style and stay consistent.)\n2. **Two sentences joined by FANBOYS:** We called, but nobody answered.\n3. **After an introduction:** After the meeting, we signed. / However, the rate changed.\n4. **Around extra information** that could be removed: My truck, which is a 2019 Freightliner, needs tires.\n5. **Direct address:** Isaac, call me back.\n6. **Between equal adjectives:** a long, hot drive. (Test: if you can put \"and\" between them, use a comma.)"
+  },
+  {
+   "type": "text",
+   "md": "## Which vs that\n- **That** introduces information you need: \"The truck **that** broke down is in the shop.\" (Which truck? The one that broke down.) No commas.\n- **Which** introduces extra information: \"Our newest truck, **which** cost $160,000, broke down.\" Commas around it.\n\nIf you can delete the clause and the sentence still identifies what you mean, it's extra: use which and commas."
+  },
+  {
+   "type": "note",
+   "label": "The big comma mistake",
+   "md": "Never put a single comma between a subject and its verb. \"The man who called this morning, wants a quote\" is wrong. The subject (the man who called this morning) and the verb (wants) stay together."
+  },
+  {
+   "type": "example",
+   "title": "Add the commas",
+   "problem": "\"Before we left Mike checked the oil the tires and the lights.\"",
+   "steps": [
+    "\"Before we left\" is an introduction: comma after it.",
+    "The oil, the tires and the lights is a list: commas between items."
+   ],
+   "answer": "\"Before we left, Mike checked the oil, the tires and the lights.\""
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is correct?",
+   "options": [
+    "After we eat we'll talk.",
+    "After we eat, we'll talk.",
+    "After, we eat we'll talk.",
+    "After we eat we'll, talk."
+   ],
+   "answer": 1,
+   "why": "Comma after an introductory clause."
+  },
+  {
+   "type": "mc",
+   "q": "Which is correct?",
+   "options": [
+    "The driver, who was late got fired.",
+    "The driver who was late, got fired.",
+    "The driver who was late got fired.",
+    "The driver, who was late, got, fired."
+   ],
+   "answer": 2,
+   "why": "\"Who was late\" identifies which driver, so no commas."
+  },
+  {
+   "type": "mc",
+   "q": "Which is correct?",
+   "options": [
+    "My brother, who lives in Tampa, is visiting.",
+    "My brother who lives in Tampa, is visiting.",
+    "My brother, who lives in Tampa is visiting.",
+    "My, brother who lives in Tampa is visiting."
+   ],
+   "answer": 0,
+   "why": "If you have one brother, where he lives is extra information: commas on both sides."
+  },
+  {
+   "type": "mc",
+   "q": "Which is correct?",
+   "options": [
+    "I bid on the load but I didn't get it.",
+    "I bid on the load, but I didn't get it.",
+    "I bid on the load but, I didn't get it.",
+    "I bid, on the load but I didn't get it."
+   ],
+   "answer": 1,
+   "why": "Two full sentences joined by \"but\": comma before it."
+  },
+  {
+   "type": "mc",
+   "q": "Which needs a comma?",
+   "options": [
+    "Call me tomorrow.",
+    "Mike call me tomorrow.",
+    "I'll call tomorrow.",
+    "Tomorrow works."
+   ],
+   "answer": 1,
+   "why": "Direct address: \"Mike, call me tomorrow.\""
+  },
+  {
+   "type": "mc",
+   "q": "Which is wrong?",
+   "options": [
+    "The report that you sent was great.",
+    "The report, which you sent Monday, was great.",
+    "The man who called this morning, wants a quote.",
+    "Honestly, it was great."
+   ],
+   "answer": 2,
+   "why": "Comma between subject and verb."
+  }
+ ]
+}

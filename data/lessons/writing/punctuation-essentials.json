@@ -1,0 +1,113 @@
+{
+ "id": "punctuation-essentials",
+ "title": "Punctuation essentials",
+ "band": "Grade 7",
+ "minutes": 18,
+ "lede": "Apostrophes, colons, semicolons, dashes and quotation marks, with the rules that actually matter.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Apostrophes do two jobs\n1. **Possession:** the driver's truck (one driver), the drivers' trucks (several drivers). For a plural ending in s, put the apostrophe after the s.\n2. **Contractions:** it's = it is, don't = do not, you're = you are.\n\nApostrophes **never** make a plain plural. \"Three truck's\" is wrong; it's \"three trucks.\""
+  },
+  {
+   "type": "note",
+   "label": "Its vs it's",
+   "md": "**It's** always means \"it is\" or \"it has.\" **Its** is possessive, like his or her. Test: swap in \"it is.\" \"The company lost **its** best client\" can't become \"lost it is best client,\" so no apostrophe."
+  },
+  {
+   "type": "text",
+   "md": "## Colons and semicolons\n- **Colon (:)** introduces something: a list, an explanation, or a punchline. It must come after a complete sentence. \"You need three things: a CDL, insurance and a truck.\"\n- **Semicolon (;)** joins two complete sentences that are closely related. \"The price was fair; we signed.\" It can also separate list items that contain commas."
+  },
+  {
+   "type": "text",
+   "md": "## Dashes\nA dash (—) adds emphasis or an interruption. \"We had one problem — the broker never paid.\" Use dashes sparingly; too many make writing feel breathless."
+  },
+  {
+   "type": "text",
+   "md": "## Quotation marks (American style)\n- Periods and commas go **inside** the closing quote: He said, \"We're done.\"\n- Question marks go inside only if the quote itself is a question: She asked, \"Is it paid?\" but Did he say \"tomorrow\"?\n- Colons and semicolons go **outside**."
+  },
+  {
+   "type": "example",
+   "title": "Fix the punctuation",
+   "problem": "\"The companys best month was July its when the produce loads peak.\"",
+   "steps": [
+    "The company owns the month: company's.",
+    "\"its\" here means \"it is\": it's.",
+    "Two sentences need a break: use a semicolon or a period."
+   ],
+   "answer": "\"The company's best month was July; it's when the produce loads peak.\""
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is correct?",
+   "options": [
+    "The dog wagged it's tail.",
+    "The dog wagged its tail.",
+    "The dog wagged its' tail.",
+    "The dog wagged it is tail."
+   ],
+   "answer": 1,
+   "why": "Possessive its has no apostrophe."
+  },
+  {
+   "type": "mc",
+   "q": "Three brokers share one office. Which is correct?",
+   "options": [
+    "The brokers office",
+    "The broker's office",
+    "The brokers' office",
+    "The brokers's office"
+   ],
+   "answer": 2,
+   "why": "Plural ending in s: apostrophe after the s."
+  },
+  {
+   "type": "mc",
+   "q": "Which uses a colon correctly?",
+   "options": [
+    "We need: fuel, tires and oil.",
+    "We need three things: fuel, tires and oil.",
+    "We: need fuel.",
+    "Because: we're out."
+   ],
+   "answer": 1,
+   "why": "A colon must follow a complete sentence."
+  },
+  {
+   "type": "mc",
+   "q": "Which is punctuated correctly (American style)?",
+   "options": [
+    "He said, \"It's done\".",
+    "He said, \"It's done.\"",
+    "He said \"It's done\".",
+    "He said, 'It's done'."
+   ],
+   "answer": 1,
+   "why": "The period goes inside the quotes."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence needs a semicolon?",
+   "options": [
+    "We closed the deal and celebrated",
+    "The market dipped we bought more",
+    "After the call we left",
+    "She called twice"
+   ],
+   "answer": 1,
+   "why": "Two complete sentences jammed together: \"The market dipped; we bought more.\""
+  },
+  {
+   "type": "mc",
+   "q": "\"Your/You're going to need a bigger truck.\" Which word fits?",
+   "options": [
+    "Your",
+    "You're"
+   ],
+   "answer": 1,
+   "why": "You are going to need…"
+  }
+ ]
+}

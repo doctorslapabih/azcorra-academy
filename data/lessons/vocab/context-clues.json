@@ -1,0 +1,111 @@
+{
+ "id": "context-clues",
+ "title": "Context clues",
+ "band": "Grade 7",
+ "minutes": 15,
+ "lede": "Most new words come with hints sitting right next to them. Here's how to read the hints.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Why context comes first\nYou'll meet far more words in reading than anyone can teach you one at a time. The skill that scales is figuring out a word from the sentence around it. Five kinds of clue show up again and again."
+  },
+  {
+   "type": "text",
+   "md": "## The five clue types\n| Clue | Signal words | Example |\n|---|---|---|\n| Definition | is, means, refers to, commas or dashes | A **broker**, someone who arranges deals between others, set up the load. |\n| Synonym | or, also, like, in other words | The plan was **feasible**, or doable, with the budget we had. |\n| Antonym or contrast | but, however, unlike, instead | Unlike his **gregarious** brother, Sam kept to himself. |\n| Example | such as, including, for instance | **Perishable** freight, such as produce and dairy, needs a reefer. |\n| General sense | the whole situation | After three missed payments, the lender **repossessed** the truck. |"
+  },
+  {
+   "type": "example",
+   "title": "Using a contrast clue",
+   "problem": "\"The first offer was **paltry**, but the second was generous enough to accept.\"",
+   "steps": [
+    "Spot the signal: **but** means the next idea contrasts.",
+    "The second offer was generous.",
+    "So the first was the opposite: small, not enough."
+   ],
+   "answer": "**Paltry** means small or worthless."
+  },
+  {
+   "type": "text",
+   "md": "## The method\n1. Stop at the word. Don't skip it.\n2. Find the signal word, if there is one.\n3. Guess a simple replacement word.\n4. Plug your guess into the sentence. If it reads naturally, you're close.\n5. Check a dictionary later if the word matters."
+  },
+  {
+   "type": "note",
+   "label": "Context has limits",
+   "md": "Sometimes the sentence gives no real clue. When the word matters (a contract, a test question), look it up. Context gets you the gist; a dictionary gets you the exact meaning."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"The mechanic gave a **cursory** look at the engine, glancing at it for only a few seconds.\" Cursory means…",
+   "options": [
+    "Detailed",
+    "Quick and shallow",
+    "Angry",
+    "Expensive"
+   ],
+   "answer": 1,
+   "why": "\"Only a few seconds\" is a definition clue."
+  },
+  {
+   "type": "mc",
+   "q": "\"Unlike the **frugal** owner, his partner spent money on everything.\" Frugal means…",
+   "options": [
+    "Careful with money",
+    "Wealthy",
+    "Generous",
+    "Lazy"
+   ],
+   "answer": 0,
+   "why": "\"Unlike\" signals contrast with spending on everything."
+  },
+  {
+   "type": "mc",
+   "q": "\"**Arid** regions, such as deserts and dry plains, get little rain.\" Arid means…",
+   "options": [
+    "Cold",
+    "Very dry",
+    "Crowded",
+    "Flat"
+   ],
+   "answer": 1,
+   "why": "Example clue: deserts and dry plains."
+  },
+  {
+   "type": "mc",
+   "q": "\"The new rule was **ambiguous**; even the managers couldn't agree on what it meant.\" Ambiguous means…",
+   "options": [
+    "Unclear",
+    "Strict",
+    "Popular",
+    "Temporary"
+   ],
+   "answer": 0,
+   "why": "General sense: nobody agreed on the meaning."
+  },
+  {
+   "type": "mc",
+   "q": "\"She was **adamant**, refusing to change her mind no matter what we said.\" Adamant means…",
+   "options": [
+    "Unsure",
+    "Firm and unwilling to change",
+    "Polite",
+    "Tired"
+   ],
+   "answer": 1,
+   "why": "Definition clue right after the comma."
+  },
+  {
+   "type": "mc",
+   "q": "\"The tiny cafe was **unassuming**, but the food was the best in the city.\" Unassuming means…",
+   "options": [
+    "Fancy",
+    "Modest, not showy",
+    "Dirty",
+    "Famous"
+   ],
+   "answer": 1,
+   "why": "\"But\" contrasts a plain place with excellent food."
+  }
+ ]
+}

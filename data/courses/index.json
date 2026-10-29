@@ -15,27 +15,32 @@
      {
       "id": "integers-and-negative-numbers",
       "title": "Integers and negative numbers",
-      "ready": false
+      "ready": true,
+      "desc": "Numbers below zero follow a few simple rules. Learn them once and you'll never second-guess a sign again."
      },
      {
       "id": "fractions-the-complete-toolkit",
       "title": "Fractions: the complete toolkit",
-      "ready": false
+      "ready": true,
+      "desc": "Simplifying, adding, multiplying and dividing fractions, plus why each rule works."
      },
      {
       "id": "decimals-and-percents",
       "title": "Decimals and percents",
-      "ready": false
+      "ready": true,
+      "desc": "Converting between fractions, decimals and percents, and the multiplier trick for any price change."
      },
      {
       "id": "ratios-rates-and-unit-rates",
       "title": "Ratios, rates and unit rates",
-      "ready": false
+      "ready": true,
+      "desc": "Comparing quantities, finding the better deal, and converting units without memorizing anything."
      },
      {
       "id": "proportions-and-scaling",
       "title": "Proportions and scaling",
-      "ready": false
+      "ready": true,
+      "desc": "When two quantities grow together at a fixed rate, and how to spot when they don't."
      }
     ]
    },
@@ -281,7 +286,7 @@
    {
     "title": "AP Calculus AB",
     "band": "AP",
-    "summary": "Limits, derivatives, integrals and the Fundamental Theorem.",
+    "summary": "The eight units of the AP Calculus AB course, in College Board order.",
     "lessons": [
      {
       "id": "limits-and-continuity",
@@ -289,43 +294,38 @@
       "ready": false
      },
      {
-      "id": "the-derivative-as-a-rate-of-change",
-      "title": "The derivative as a rate of change",
+      "id": "derivatives-definition-and-basic-rules",
+      "title": "Derivatives: definition and basic rules",
       "ready": false
      },
      {
-      "id": "derivative-rules",
-      "title": "Derivative rules",
+      "id": "chain-rule-implicit-and-inverse-functions",
+      "title": "Chain rule, implicit and inverse functions",
       "ready": false
      },
      {
-      "id": "applications-of-derivatives",
-      "title": "Applications of derivatives",
+      "id": "rates-of-change-in-context",
+      "title": "Rates of change in context",
       "ready": false
      },
      {
-      "id": "optimization",
-      "title": "Optimization",
+      "id": "analyzing-functions-with-derivatives",
+      "title": "Analyzing functions with derivatives",
       "ready": false
      },
      {
-      "id": "the-integral-and-area",
-      "title": "The integral and area",
-      "ready": false
-     },
-     {
-      "id": "the-fundamental-theorem-of-calculus",
-      "title": "The Fundamental Theorem of Calculus",
-      "ready": false
-     },
-     {
-      "id": "applications-of-integrals",
-      "title": "Applications of integrals",
+      "id": "integration-and-accumulation-of-change",
+      "title": "Integration and accumulation of change",
       "ready": false
      },
      {
       "id": "differential-equations",
       "title": "Differential equations",
+      "ready": false
+     },
+     {
+      "id": "applications-of-integration",
+      "title": "Applications of integration",
       "ready": false
      }
     ]
@@ -348,27 +348,32 @@
      {
       "id": "context-clues",
       "title": "Context clues",
-      "ready": false
+      "ready": true,
+      "desc": "Most new words come with hints sitting right next to them. Here's how to read the hints."
      },
      {
       "id": "prefixes-that-flip-meaning",
       "title": "Prefixes that flip meaning",
-      "ready": false
+      "ready": true,
+      "desc": "A prefix is a few letters at the front that change a word's meaning. Twenty of them cover most of what you'll see."
      },
      {
       "id": "suffixes-and-parts-of-speech",
       "title": "Suffixes and parts of speech",
-      "ready": false
+      "ready": true,
+      "desc": "The ending of a word usually tells you what job it does in a sentence."
      },
      {
       "id": "latin-roots-i",
       "title": "Latin roots I",
-      "ready": false
+      "ready": true,
+      "desc": "Well over half of English words trace back to Latin, many of them through French. These twelve roots unlock hundreds of words."
      },
      {
       "id": "greek-roots-i",
       "title": "Greek roots I",
-      "ready": false
+      "ready": true,
+      "desc": "Greek roots run science, medicine and technology. Learn these and technical words stop being scary."
      }
     ]
    },
@@ -547,27 +552,32 @@
      {
       "id": "subjects-verbs-and-complete-sentences",
       "title": "Subjects, verbs and complete sentences",
-      "ready": false
+      "ready": true,
+      "desc": "Every sentence needs three things. Find them and you can fix almost any sentence."
      },
      {
       "id": "fragments-and-run-ons",
       "title": "Fragments and run-ons",
-      "ready": false
+      "ready": true,
+      "desc": "The two most common sentence errors, and the four ways to fix every run-on."
      },
      {
       "id": "punctuation-essentials",
       "title": "Punctuation essentials",
-      "ready": false
+      "ready": true,
+      "desc": "Apostrophes, colons, semicolons, dashes and quotation marks, with the rules that actually matter."
      },
      {
       "id": "commas-without-guessing",
       "title": "Commas without guessing",
-      "ready": false
+      "ready": true,
+      "desc": "Six rules cover almost every comma you'll ever need. If none applies, leave it out."
      },
      {
       "id": "active-voice",
       "title": "Active voice",
-      "ready": false
+      "ready": true,
+      "desc": "Put the doer first. It's the single easiest way to make writing clearer and stronger."
      }
     ]
    },
@@ -756,22 +766,26 @@
      {
       "id": "the-scientific-method",
       "title": "The scientific method",
-      "ready": false
+      "ready": true,
+      "desc": "Science is a method for not fooling yourself. Here's how it works, and what hypothesis, theory and law really mean."
      },
      {
       "id": "variables-and-controls",
       "title": "Variables and controls",
-      "ready": false
+      "ready": true,
+      "desc": "How to run a fair test, and why correlation isn't causation."
      },
      {
       "id": "measurement-and-units",
       "title": "Measurement and units",
-      "ready": false
+      "ready": true,
+      "desc": "The metric system, the prefixes that make it easy, and the difference between accurate and precise."
      },
      {
       "id": "reading-graphs-and-data",
       "title": "Reading graphs and data",
-      "ready": false
+      "ready": true,
+      "desc": "How to read a graph in ten seconds, find the rate in a slope, and catch a misleading chart."
      }
     ]
    },

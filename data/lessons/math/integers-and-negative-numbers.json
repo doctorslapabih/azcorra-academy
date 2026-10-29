@@ -1,0 +1,140 @@
+{
+ "id": "integers-and-negative-numbers",
+ "title": "Integers and negative numbers",
+ "band": "Grade 7",
+ "minutes": 18,
+ "lede": "Numbers below zero follow a few simple rules. Learn them once and you'll never second-guess a sign again.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What a negative number is\nA negative number is a distance **below zero**. You already use them: a bank balance of −$40 means you owe $40, and −6°F is six degrees below zero.\n\nPicture a number line. Zero sits in the middle, positives go right, negatives go left. Every number has an **opposite** the same distance from zero on the other side: the opposite of 7 is −7, and the opposite of −3 is 3."
+  },
+  {
+   "type": "terms",
+   "terms": [
+    {
+     "term": "Integer",
+     "def": "A whole number or its opposite: …, −3, −2, −1, 0, 1, 2, 3, …"
+    },
+    {
+     "term": "Opposite",
+     "def": "Same distance from zero, other side. 5 and −5 are opposites, and they add to 0."
+    },
+    {
+     "term": "Absolute value",
+     "def": "Distance from zero, always positive or zero. Written |−8| = 8."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "md": "## Adding\nThink of positives as money in and negatives as money out.\n\n- **Same signs:** add the sizes and keep the sign. −4 + (−6) = −10. Two bills make a bigger bill.\n- **Different signs:** subtract the smaller size from the larger, and keep the sign of the larger. −9 + 4 = −5, because you owe 9 and pay 4, so you still owe 5."
+  },
+  {
+   "type": "text",
+   "md": "## Subtracting\nSubtracting a number is the same as **adding its opposite**. That one rule handles every case:\n\n- 8 − 11 = 8 + (−11) = −3\n- 5 − (−3) = 5 + 3 = 8\n- −2 − 7 = −2 + (−7) = −9\n\nWhy does subtracting a negative add? Taking away a debt makes you richer. If someone forgives a $3 debt, your balance goes **up** $3."
+  },
+  {
+   "type": "example",
+   "title": "A temperature swing",
+   "problem": "At 6 a.m. it was −7°F. By noon it was 12°F. How much did it rise?",
+   "steps": [
+    "Change = end − start.",
+    "12 − (−7) = 12 + 7.",
+    "= 19."
+   ],
+   "answer": "It rose **19°F**."
+  },
+  {
+   "type": "text",
+   "md": "## Multiplying and dividing\nThe size works like normal. Only the sign needs a rule:\n\n| Signs | Result | Example |\n|---|---|---|\n| same (+ × + or − × −) | positive | (−6)(−4) = 24 |\n| different (+ × −) | negative | 7 × (−3) = −21 |\n\nSame rule for division: −45 ÷ 9 = −5, and −45 ÷ (−9) = 5.\n\nFor a long string, **count the negatives**. An even count gives a positive answer; an odd count gives a negative one. (−1)(−2)(−3) has three negatives, so it's −6."
+  },
+  {
+   "type": "note",
+   "label": "Watch the parentheses",
+   "md": "(−3)² means (−3) × (−3) = 9. But −3² means −(3 × 3) = −9: the square happens first, then the minus. Exponents grab only what they touch."
+  },
+  {
+   "type": "example",
+   "title": "Order of operations with negatives",
+   "problem": "Simplify −2 × (5 − 8)² + 10.",
+   "steps": [
+    "Parentheses first: 5 − 8 = −3.",
+    "Exponent: (−3)² = 9.",
+    "Multiply: −2 × 9 = −18.",
+    "Add: −18 + 10 = −8."
+   ],
+   "answer": "**−8**"
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "−7 + 12 = ?",
+   "answer": 5,
+   "why": "Different signs: 12 − 7 = 5, and 12 is the bigger size, so it's positive.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "−4 − 9 = ?",
+   "answer": -13,
+   "why": "Add the opposite: −4 + (−9) = −13.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "6 − (−5) = ?",
+   "answer": 11,
+   "why": "Subtracting a negative adds: 6 + 5 = 11.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "(−3) × (−8) = ?",
+   "answer": 24,
+   "why": "Same signs give a positive.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "−56 ÷ 7 = ?",
+   "answer": -8,
+   "why": "Different signs give a negative.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "(−2)³ = ?",
+   "answer": -8,
+   "why": "(−2)(−2)(−2): three negatives, so the answer is negative.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Which is greater?",
+   "options": [
+    "−12",
+    "−3",
+    "They're equal",
+    "Can't tell"
+   ],
+   "answer": 1,
+   "why": "−3 is closer to zero, so it's further right on the number line and greater."
+  },
+  {
+   "type": "num",
+   "q": "An account is at −$85. A $120 payment comes in, then a $60 charge. What's the balance?",
+   "answer": -25,
+   "why": "−85 + 120 − 60 = 35 − 60 = −25.",
+   "tol": 0.001,
+   "unit": "dollars"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Grade 7 standards overview (Common Core, via LibreTexts)",
+   "url": "https://math.libretexts.org/Courses/Coalinga_College/Math_for_Educators_(MATH_010A_and_010B_CID120)/01%3A_Teaching_Elementary_Mathematics/1.04%3A_Common_Core_Standards_for_Mathematics/1.4.08%3A_Grade_7_Standards_Overview"
+  }
+ ]
+}

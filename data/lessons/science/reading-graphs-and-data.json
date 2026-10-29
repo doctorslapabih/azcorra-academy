@@ -1,0 +1,112 @@
+{
+ "id": "reading-graphs-and-data",
+ "title": "Reading graphs and data",
+ "band": "Grade 7",
+ "minutes": 18,
+ "lede": "How to read a graph in ten seconds, find the rate in a slope, and catch a misleading chart.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Pick the right graph\n| Graph | Best for | Example |\n|---|---|---|\n| Line | Change over time | Fuel price by month |\n| Bar | Comparing categories | Revenue per customer |\n| Scatter | Relationship between two numbers | Speed vs mpg for 50 trips |\n| Pie | Parts of a whole (few parts) | Share of costs |"
+  },
+  {
+   "type": "text",
+   "md": "## Read any graph in four steps\n1. **Title:** what is this about?\n2. **Axes:** what's on each, and in what **units**?\n3. **Scale:** what does each gridline count by? Does the axis start at zero?\n4. **Shape:** rising, falling, flat, curved? Any outliers?"
+  },
+  {
+   "type": "text",
+   "md": "## Slope is a rate\nOn a line graph, steepness shows how fast something changes. Slope = rise ÷ run = change in y ÷ change in x.\n\nIf a distance-time graph rises 120 miles over 2 hours, the slope is 60 miles per hour: the speed."
+  },
+  {
+   "type": "example",
+   "title": "Find the rate",
+   "problem": "A graph shows a fuel tank at 150 gallons at 6 a.m. and 90 gallons at 10 a.m.",
+   "steps": [
+    "Change in fuel: 90 − 150 = −60 gallons.",
+    "Change in time: 4 hours.",
+    "Slope: −60 ÷ 4 = −15."
+   ],
+   "answer": "**−15 gallons per hour** (burning 15 gallons an hour)"
+  },
+  {
+   "type": "text",
+   "md": "## Catching misleading graphs\n- **Truncated axis:** a y-axis that starts at 95 instead of 0 makes a 2% difference look huge.\n- **Missing units or labels:** you can't interpret it.\n- **Cherry-picked time window:** showing only the months that fit the story.\n- **Area tricks:** pictures scaled in two directions exaggerate differences.\n\nWhen a chart looks dramatic, check the axis first."
+  },
+  {
+   "type": "note",
+   "label": "Outliers",
+   "md": "An outlier is a point far from the rest, like one trip with 2 mpg because of a mountain climb in a storm. Investigate outliers before deleting them; sometimes they're the most interesting data."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Best graph for monthly revenue over two years?",
+   "options": [
+    "Pie",
+    "Line",
+    "Scatter",
+    "None"
+   ],
+   "answer": 1,
+   "why": "Change over time."
+  },
+  {
+   "type": "mc",
+   "q": "Best graph to see if heavier loads lower mpg across 80 trips?",
+   "options": [
+    "Pie",
+    "Bar",
+    "Scatter",
+    "Line"
+   ],
+   "answer": 2,
+   "why": "Relationship between two numbers."
+  },
+  {
+   "type": "num",
+   "q": "A line rises from 20 miles at 1 hour to 200 miles at 4 hours. What's the slope?",
+   "answer": 60,
+   "why": "(200 − 20) ÷ (4 − 1) = 180 ÷ 3.",
+   "tol": 0.001,
+   "unit": "mph"
+  },
+  {
+   "type": "mc",
+   "q": "A bar chart's y-axis starts at 98. The bars read 99 and 100. What's the issue?",
+   "options": [
+    "None",
+    "The truncated axis exaggerates a small difference",
+    "Too many bars",
+    "Wrong colors"
+   ],
+   "answer": 1,
+   "why": "From zero, those bars would look almost identical."
+  },
+  {
+   "type": "mc",
+   "q": "What should you check first on any graph?",
+   "options": [
+    "Colors",
+    "Axes and units",
+    "The font",
+    "The legend color"
+   ],
+   "answer": 1,
+   "why": "Without units, the numbers mean nothing."
+  },
+  {
+   "type": "num",
+   "q": "A tank goes from 150 to 90 gallons between 6 and 10 a.m. What's the rate in gallons per hour (use a negative for decreasing)?",
+   "answer": -15,
+   "why": "−60 ÷ 4.",
+   "tol": 0.001
+  }
+ ],
+ "sources": [
+  {
+   "title": "NGSS Science and Engineering Practices (ExploreLearning)",
+   "url": "https://explorelearning.com/resources/insights/ngss-science-and-engineering-practices"
+  }
+ ]
+}

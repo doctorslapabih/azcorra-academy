@@ -1,0 +1,98 @@
+{
+ "id": "fragments-and-run-ons",
+ "title": "Fragments and run-ons",
+ "band": "Grade 7",
+ "minutes": 16,
+ "lede": "The two most common sentence errors, and the four ways to fix every run-on.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Fragments\nA fragment is a piece of a sentence punctuated as if it were whole. The usual causes:\n\n- **Missing subject or verb:** \"Waiting at the dock for two hours.\" Who was waiting?\n- **A dependent clause standing alone:** \"Because the price dropped.\" \"Which made no sense.\"\n\nFix it by attaching it to the sentence next to it, or by adding what's missing."
+  },
+  {
+   "type": "example",
+   "title": "Attach the fragment",
+   "problem": "\"We switched suppliers. Because the price dropped.\"",
+   "steps": [
+    "The second piece starts with \"because\" and can't stand alone.",
+    "Join it to the sentence it explains."
+   ],
+   "answer": "\"We switched suppliers because the price dropped.\""
+  },
+  {
+   "type": "text",
+   "md": "## Run-ons and comma splices\nA **run-on** jams two complete sentences together with nothing between them. A **comma splice** joins them with only a comma.\n\n- Run-on: \"The load is ready it leaves at six.\"\n- Comma splice: \"The load is ready, it leaves at six.\"\n\nBoth are errors because a comma alone can't hold two sentences together."
+  },
+  {
+   "type": "text",
+   "md": "## Four fixes\n| Fix | Example |\n|---|---|\n| 1. Period | The load is ready. It leaves at six. |\n| 2. Semicolon | The load is ready; it leaves at six. |\n| 3. Comma + FANBOYS | The load is ready, and it leaves at six. |\n| 4. Make one part depend | Since the load is ready, it leaves at six. |\n\n**FANBOYS** are the seven joining words that can follow a comma: **f**or, **a**nd, **n**or, **b**ut, **o**r, **y**et, **s**o."
+  },
+  {
+   "type": "note",
+   "label": "Choosing a fix",
+   "md": "A period gives punch. A semicolon says the two ideas are closely tied. A FANBOYS word names the relationship (but = contrast, so = result). A dependent clause shows which idea matters more."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is a comma splice?",
+   "options": [
+    "I called, she answered.",
+    "I called, and she answered.",
+    "I called; she answered.",
+    "When I called, she answered."
+   ],
+   "answer": 0,
+   "why": "Two full sentences joined by just a comma."
+  },
+  {
+   "type": "mc",
+   "q": "Which fixes \"Rates went up we raised prices\"?",
+   "options": [
+    "Rates went up, we raised prices.",
+    "Rates went up, so we raised prices.",
+    "Rates went up we, raised prices.",
+    "Rates, went up we raised prices."
+   ],
+   "answer": 1,
+   "why": "Comma plus a FANBOYS word (so)."
+  },
+  {
+   "type": "mc",
+   "q": "Which is a fragment?",
+   "options": [
+    "Stop.",
+    "The trucks are fueled.",
+    "Hoping the check clears by Friday.",
+    "She hopes the check clears."
+   ],
+   "answer": 2,
+   "why": "No subject: who is hoping?"
+  },
+  {
+   "type": "mc",
+   "q": "Which joining word can correctly follow a comma to link two sentences?",
+   "options": [
+    "however",
+    "therefore",
+    "yet",
+    "also"
+   ],
+   "answer": 2,
+   "why": "Yet is a FANBOYS word. \"However\" and \"therefore\" need a semicolon or period before them."
+  },
+  {
+   "type": "mc",
+   "q": "\"The deal fell through. Which cost us a month.\" Best fix?",
+   "options": [
+    "The deal fell through, which cost us a month.",
+    "The deal fell through which. Cost us a month.",
+    "The deal fell through; which cost us a month.",
+    "Leave it"
+   ],
+   "answer": 0,
+   "why": "Attach the \"which\" clause with a comma."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "id": "suffixes-and-parts-of-speech",
+ "title": "Suffixes and parts of speech",
+ "band": "Grade 7",
+ "minutes": 15,
+ "lede": "The ending of a word usually tells you what job it does in a sentence.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Why endings matter\nOne root can become a noun, a verb, an adjective and an adverb just by changing the ending: **profit, profitable, profitably, profiteer**. If you know the root and recognize the ending, you know the word."
+  },
+  {
+   "type": "text",
+   "md": "## Noun endings (things, people, ideas)\n| Suffix | Meaning | Examples |\n|---|---|---|\n| -tion, -sion | act or state of | negotiation, decision |\n| -ment | result or act of | payment, agreement |\n| -ness | state of being | awareness, darkness |\n| -ity, -ty | quality of | reliability, loyalty |\n| -er, -or, -ist | person who | driver, investor, analyst |\n| -ance, -ence | state of | compliance, persistence |"
+  },
+  {
+   "type": "text",
+   "md": "## Adjective endings (describing words)\n| Suffix | Meaning | Examples |\n|---|---|---|\n| -able, -ible | can be | profitable, flexible |\n| -ful | full of | careful, successful |\n| -less | without | reckless, fearless |\n| -ous, -ious | having | dangerous, ambitious |\n| -ive | tending to | aggressive, productive |\n| -al, -ic | relating to | financial, strategic |"
+  },
+  {
+   "type": "text",
+   "md": "## Verb and adverb endings\n| Suffix | Meaning | Examples |\n|---|---|---|\n| -ize, -ise | to make | finalize, prioritize |\n| -ify | to make | simplify, verify |\n| -en | to make | strengthen, widen |\n| -ate | to do or cause | negotiate, activate |\n| -ly (adverb) | in a way that is | quickly, carefully |"
+  },
+  {
+   "type": "example",
+   "title": "Building a word family",
+   "problem": "Root: **rely**",
+   "steps": [
+    "Adjective: reli**able** (can be relied on).",
+    "Noun: reli**ability** (the quality of being reliable).",
+    "Adverb: reli**ably**.",
+    "Opposite: **un**reliable."
+   ],
+   "answer": "One root, four useful words."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"Diligence\" is a…",
+   "options": [
+    "Verb",
+    "Noun",
+    "Adjective",
+    "Adverb"
+   ],
+   "answer": 1,
+   "why": "-ence makes a state or quality: a noun."
+  },
+  {
+   "type": "mc",
+   "q": "Which word means \"to make simple\"?",
+   "options": [
+    "Simplicity",
+    "Simply",
+    "Simplify",
+    "Simplest"
+   ],
+   "answer": 2,
+   "why": "-ify = to make."
+  },
+  {
+   "type": "mc",
+   "q": "A \"meticulous\" person is ___. Which part of speech is meticulous?",
+   "options": [
+    "Noun",
+    "Verb",
+    "Adjective",
+    "Adverb"
+   ],
+   "answer": 2,
+   "why": "-ous is an adjective ending."
+  },
+  {
+   "type": "mc",
+   "q": "Which is the adverb?",
+   "options": [
+    "Decisive",
+    "Decision",
+    "Decisively",
+    "Decide"
+   ],
+   "answer": 2,
+   "why": "-ly turns an adjective into an adverb."
+  },
+  {
+   "type": "mc",
+   "q": "\"Feasible\" most likely means…",
+   "options": [
+    "Can be done",
+    "Full of fear",
+    "Without food",
+    "Very large"
+   ],
+   "answer": 0,
+   "why": "-ible = can be. Feasible = able to be done."
+  },
+  {
+   "type": "mc",
+   "q": "Fill the blank: \"We need to ___ the loads by delivery time.\"",
+   "options": [
+    "prioritize",
+    "priority",
+    "prior",
+    "prioritization"
+   ],
+   "answer": 0,
+   "why": "The sentence needs a verb; -ize makes one."
+  }
+ ]
+}

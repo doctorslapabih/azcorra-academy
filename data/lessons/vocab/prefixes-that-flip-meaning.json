@@ -1,0 +1,112 @@
+{
+ "id": "prefixes-that-flip-meaning",
+ "title": "Prefixes that flip meaning",
+ "band": "Grade 7",
+ "minutes": 15,
+ "lede": "A prefix is a few letters at the front that change a word's meaning. Twenty of them cover most of what you'll see.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Negative prefixes\nThese flip a word to its opposite or remove something.\n\n| Prefix | Meaning | Examples |\n|---|---|---|\n| un- | not | unfair, unlikely, unsigned |\n| in-, im-, il-, ir- | not | inactive, impossible, illegal, irregular |\n| dis- | not, opposite of | dishonest, disagree, disconnect |\n| non- | not | nonstop, nonprofit, nonnegotiable |\n| mis- | wrongly | misread, mislabel, miscalculate |\n| anti- | against | antivirus, antisocial |\n| counter- | against, opposite | counteroffer, counterproductive |"
+  },
+  {
+   "type": "note",
+   "label": "in-, im-, il-, ir- are one prefix",
+   "md": "They're the same \"not\" prefix, changed to match the next sound: **im**- before b, m, p (impossible); **il**- before l (illegal); **ir**- before r (irregular); **in**- everywhere else."
+  },
+  {
+   "type": "text",
+   "md": "## Position and time prefixes\n| Prefix | Meaning | Examples |\n|---|---|---|\n| pre- | before | preview, prepay, precaution |\n| post- | after | postpone, postwar |\n| re- | again, back | rebuild, refund, reroute |\n| sub- | under, below | subway, subcontract, subtotal |\n| super- | above, beyond | supervisor, superhuman |\n| inter- | between | interstate, interact |\n| trans- | across | transport, transfer, transatlantic |\n| ex- | out, former | export, ex-partner |\n| co-, com-, con- | together | cooperate, combine, connect |"
+  },
+  {
+   "type": "example",
+   "title": "Decoding with a prefix",
+   "problem": "What's a **subcontractor**?",
+   "steps": [
+    "sub- = under.",
+    "contractor = someone hired to do a job.",
+    "Put together: someone hired under another contractor."
+   ],
+   "answer": "A worker hired **by** the main contractor to do part of the job."
+  },
+  {
+   "type": "note",
+   "label": "Not every start is a prefix",
+   "md": "\"Uncle\" doesn't mean not-cle, and \"interest\" isn't between-est. Check that what's left is a real word or root."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"Illegible\" handwriting is…",
+   "options": [
+    "Beautiful",
+    "Impossible to read",
+    "Written in pencil",
+    "Illegal"
+   ],
+   "answer": 1,
+   "why": "il- (not) + legible (readable)."
+  },
+  {
+   "type": "mc",
+   "q": "A \"counteroffer\" is…",
+   "options": [
+    "An offer made in response, against the first",
+    "A store discount",
+    "A final offer",
+    "A fake offer"
+   ],
+   "answer": 0,
+   "why": "counter- = against."
+  },
+  {
+   "type": "mc",
+   "q": "To \"misconstrue\" something is to…",
+   "options": [
+    "Build it",
+    "Understand it wrongly",
+    "Repeat it",
+    "Agree with it"
+   ],
+   "answer": 1,
+   "why": "mis- = wrongly; construe = interpret."
+  },
+  {
+   "type": "mc",
+   "q": "\"Interstate\" highways run…",
+   "options": [
+    "Inside one state",
+    "Between states",
+    "Under states",
+    "Around cities"
+   ],
+   "answer": 1,
+   "why": "inter- = between."
+  },
+  {
+   "type": "mc",
+   "q": "Which word means \"to pay before\"?",
+   "options": [
+    "Repay",
+    "Prepay",
+    "Postpay",
+    "Overpay"
+   ],
+   "answer": 1,
+   "why": "pre- = before."
+  },
+  {
+   "type": "mc",
+   "q": "Which prefix correctly makes \"responsible\" negative?",
+   "options": [
+    "un-",
+    "dis-",
+    "ir-",
+    "non-"
+   ],
+   "answer": 2,
+   "why": "Before r, the \"not\" prefix becomes ir-: irresponsible."
+  }
+ ]
+}

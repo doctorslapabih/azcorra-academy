@@ -1,0 +1,99 @@
+{
+ "id": "subjects-verbs-and-complete-sentences",
+ "title": "Subjects, verbs and complete sentences",
+ "band": "Grade 7",
+ "minutes": 14,
+ "lede": "Every sentence needs three things. Find them and you can fix almost any sentence.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The three requirements\nA complete sentence has:\n\n1. A **subject**: who or what the sentence is about.\n2. A **verb**: what the subject does or is.\n3. A **complete thought**: it makes sense on its own.\n\n\"The driver delivered the load.\" Subject: the driver. Verb: delivered. Complete thought: yes."
+  },
+  {
+   "type": "text",
+   "md": "## Find the verb first\nThe verb is the easiest piece to spot. Ask, \"What's happening?\" Then ask, \"Who or what is doing it?\" That's the subject.\n\n\"After the storm, the **crew** at the yard **checked** every trailer.\" What happened? Checked. Who checked? The crew. \"At the yard\" and \"after the storm\" are extra details."
+  },
+  {
+   "type": "text",
+   "md": "## Compound subjects and verbs\nA sentence can have two subjects or two verbs sharing one job:\n\n- \"**Isaac and his dispatcher** planned the route.\" (two subjects)\n- \"The truck **stopped**, **refueled** and **left**.\" (three verbs)"
+  },
+  {
+   "type": "note",
+   "label": "The hidden subject",
+   "md": "Commands have an invisible subject: **you**. \"Send the invoice.\" means \"(You) send the invoice.\" That's a complete sentence."
+  },
+  {
+   "type": "example",
+   "title": "Is it a sentence?",
+   "problem": "\"Because the shipment arrived late.\"",
+   "steps": [
+    "Verb: arrived. Subject: the shipment.",
+    "But \"because\" makes the reader wait for the rest: because it arrived late, what happened?",
+    "It isn't a complete thought."
+   ],
+   "answer": "**Not a sentence.** It's a fragment. Fix: \"Because the shipment arrived late, we lost the customer.\""
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "What is the subject? \"Every morning, the owner of the company reviews the numbers.\"",
+   "options": [
+    "Every morning",
+    "The owner",
+    "The company",
+    "The numbers"
+   ],
+   "answer": 1,
+   "why": "Who reviews? The owner. \"Of the company\" just describes the owner."
+  },
+  {
+   "type": "mc",
+   "q": "What is the verb? \"The new drivers from Tampa start on Monday.\"",
+   "options": [
+    "drivers",
+    "Tampa",
+    "start",
+    "Monday"
+   ],
+   "answer": 2,
+   "why": "What's happening? Starting."
+  },
+  {
+   "type": "mc",
+   "q": "Which is a complete sentence?",
+   "options": [
+    "Running late again.",
+    "Call me when you land.",
+    "When the deal closes.",
+    "The broker who called yesterday."
+   ],
+   "answer": 1,
+   "why": "A command with the hidden subject \"you\"."
+  },
+  {
+   "type": "mc",
+   "q": "Which has a compound subject?",
+   "options": [
+    "She signed and sent the contract.",
+    "The lawyer and the buyer met at noon.",
+    "We met at noon and left at one.",
+    "He called twice."
+   ],
+   "answer": 1,
+   "why": "Two people share the verb \"met\"."
+  },
+  {
+   "type": "mc",
+   "q": "\"Although profits were up.\" What's wrong?",
+   "options": [
+    "Nothing",
+    "No verb",
+    "No subject",
+    "It's not a complete thought"
+   ],
+   "answer": 3,
+   "why": "\"Although\" leaves the reader waiting for the main idea."
+  }
+ ]
+}

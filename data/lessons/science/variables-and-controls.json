@@ -1,0 +1,116 @@
+{
+ "id": "variables-and-controls",
+ "title": "Variables and controls",
+ "band": "Grade 7",
+ "minutes": 18,
+ "lede": "How to run a fair test, and why correlation isn't causation.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Three kinds of variable\n| Variable | What it is | Example (testing tire pressure vs fuel economy) |\n|---|---|---|\n| Independent | What **you** change | Tire pressure |\n| Dependent | What you **measure** | Miles per gallon |\n| Controlled | What you keep the **same** | Truck, load weight, route, speed, driver |\n\nChange one thing at a time. If you change the pressure **and** the route, you can't tell which one moved the mpg."
+  },
+  {
+   "type": "text",
+   "md": "## Control groups\nA **control group** gets no treatment, so you have something to compare against. To test a new fuel additive, run some trucks with it and some without, on the same routes.\n\nIn medicine, the control group often gets a **placebo**: a fake treatment that looks real. In a **double-blind** study, neither the patients nor the researchers know who got what, so expectations can't bend the results."
+  },
+  {
+   "type": "text",
+   "md": "## Sample size\nOne trip proves nothing. Traffic, weather and luck add noise. More trials and bigger samples make results more trustworthy, because random noise averages out."
+  },
+  {
+   "type": "text",
+   "md": "## Correlation is not causation\nTwo things can rise together without one causing the other. Ice cream sales and drownings both rise in summer. Ice cream doesn't cause drowning; **hot weather** drives both. That hidden driver is called a **confounding variable**.\n\nThe only reliable way to show cause is an experiment where you change one thing and control the rest."
+  },
+  {
+   "type": "example",
+   "title": "Spot the flaw",
+   "problem": "A shop says: \"Customers who bought our premium oil had 30% fewer breakdowns.\"",
+   "steps": [
+    "Who buys premium oil? Probably owners who maintain trucks carefully in general.",
+    "Careful maintenance could be the real cause.",
+    "There's no control group of careful owners using regular oil."
+   ],
+   "answer": "**Correlation, not proven causation.** A confounding variable (careful owners) could explain it."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "You test whether music affects typing speed. The independent variable is…",
+   "options": [
+    "Typing speed",
+    "Music",
+    "The keyboard",
+    "The person"
+   ],
+   "answer": 1,
+   "why": "It's what you change."
+  },
+  {
+   "type": "mc",
+   "q": "In the same test, the dependent variable is…",
+   "options": [
+    "Music",
+    "Typing speed",
+    "Room temperature",
+    "Time of day"
+   ],
+   "answer": 1,
+   "why": "It's what you measure."
+  },
+  {
+   "type": "mc",
+   "q": "Why use a control group?",
+   "options": [
+    "To save money",
+    "To have a baseline to compare against",
+    "To make results bigger",
+    "It's not needed"
+   ],
+   "answer": 1,
+   "why": "Without it, you can't tell if the treatment did anything."
+  },
+  {
+   "type": "mc",
+   "q": "Cities with more firefighters have more fire damage. Most likely explanation?",
+   "options": [
+    "Firefighters cause damage",
+    "Bigger cities have more fires and more firefighters",
+    "It's random",
+    "Damage causes firefighters"
+   ],
+   "answer": 1,
+   "why": "City size is the confounding variable."
+  },
+  {
+   "type": "mc",
+   "q": "In a double-blind study…",
+   "options": [
+    "Only patients don't know who got the real treatment",
+    "Neither patients nor researchers know",
+    "Everyone knows",
+    "There's no placebo"
+   ],
+   "answer": 1,
+   "why": "It keeps expectations from skewing results."
+  },
+  {
+   "type": "mc",
+   "q": "Which is the most trustworthy test of a new tire?",
+   "options": [
+    "One truck, one trip",
+    "20 trucks with new tires and 20 with old, same routes, 3 months",
+    "Asking drivers how it feels",
+    "Reading the ad"
+   ],
+   "answer": 1,
+   "why": "Big sample, control group, same conditions."
+  }
+ ],
+ "sources": [
+  {
+   "title": "NGSS Science and Engineering Practices (ExploreLearning)",
+   "url": "https://explorelearning.com/resources/insights/ngss-science-and-engineering-practices"
+  }
+ ]
+}

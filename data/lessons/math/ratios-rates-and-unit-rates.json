@@ -1,0 +1,129 @@
+{
+ "id": "ratios-rates-and-unit-rates",
+ "title": "Ratios, rates and unit rates",
+ "band": "Grade 7",
+ "minutes": 20,
+ "lede": "Comparing quantities, finding the better deal, and converting units without memorizing anything.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Ratios\nA **ratio** compares two amounts. If a fleet has 6 box trucks and 4 vans, the ratio of trucks to vans is 6:4, which simplifies to **3:2**. You simplify ratios the same way as fractions.\n\nCareful with part vs whole. The ratio of trucks to **all vehicles** is 6:10, or 3:5, so trucks are 3/5 of the fleet."
+  },
+  {
+   "type": "text",
+   "md": "## Rates and unit rates\nA **rate** is a ratio of two different units: 300 miles per 5 hours, $18 for 4 pounds.\n\nA **unit rate** is the amount for **one** of the second unit. Divide: 300 ÷ 5 = 60 miles per hour. $18 ÷ 4 = $4.50 per pound."
+  },
+  {
+   "type": "example",
+   "title": "Which deal is better?",
+   "problem": "Brand A: 3 lb for $7.47. Brand B: 5 lb for $11.95.",
+   "steps": [
+    "Unit price A: 7.47 ÷ 3 = $2.49 per lb.",
+    "Unit price B: 11.95 ÷ 5 = $2.39 per lb."
+   ],
+   "answer": "**Brand B** is cheaper per pound."
+  },
+  {
+   "type": "text",
+   "md": "## Converting units\nMultiply by a fraction equal to 1, arranged so the unit you don't want cancels. This is called **dimensional analysis**, and it's how scientists and engineers convert anything.\n\n90 minutes × (1 hour / 60 minutes) = 1.5 hours. The minutes cancel because one is on top and one is on the bottom."
+  },
+  {
+   "type": "example",
+   "title": "Fuel for a run",
+   "problem": "A truck gets 6.5 miles per gallon. How many gallons for a 520-mile run?",
+   "steps": [
+    "We want gallons, so put gallons on top: 520 miles × (1 gallon / 6.5 miles).",
+    "Miles cancel: 520 ÷ 6.5 = 80."
+   ],
+   "answer": "**80 gallons**"
+  },
+  {
+   "type": "note",
+   "label": "Ratio tables",
+   "md": "When you scale a ratio up or down, multiply both parts by the same number. A recipe with 3 cups flour to 2 cups sugar becomes 9 to 6 if you triple it."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Simplify the ratio 12:18.",
+   "options": [
+    "6:9",
+    "2:3",
+    "3:2",
+    "4:6"
+   ],
+   "answer": 1,
+   "why": "Divide both by 6."
+  },
+  {
+   "type": "mc",
+   "q": "A class has 14 boys and 16 girls. What fraction are boys?",
+   "options": [
+    "14/16",
+    "7/15",
+    "7/8",
+    "1/2"
+   ],
+   "answer": 1,
+   "why": "14 out of 30 total = 7/15. Part-to-whole uses the total."
+  },
+  {
+   "type": "num",
+   "q": "A truck covers 270 miles in 4.5 hours. What's the average speed?",
+   "answer": 60,
+   "why": "270 ÷ 4.5 = 60.",
+   "tol": 0.001,
+   "unit": "mph"
+  },
+  {
+   "type": "num",
+   "q": "12 bottles cost $5.40. What's the price per bottle?",
+   "answer": 0.45,
+   "why": "5.40 ÷ 12 = 0.45.",
+   "tol": 0.001,
+   "unit": "dollars"
+  },
+  {
+   "type": "num",
+   "q": "How many gallons is 8 quarts? (4 quarts = 1 gallon)",
+   "answer": 2,
+   "why": "8 × (1/4) = 2.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "A recipe uses 3 cups of flour for every 2 cups of sugar. How much sugar goes with 9 cups of flour?",
+   "answer": 6,
+   "why": "Flour tripled, so sugar triples: 2 × 3 = 6.",
+   "tol": 0.001,
+   "unit": "cups"
+  },
+  {
+   "type": "mc",
+   "q": "Which is the better buy?",
+   "options": [
+    "16 oz for $3.20",
+    "24 oz for $4.56",
+    "Same",
+    "Can't tell"
+   ],
+   "answer": 1,
+   "why": "$0.20/oz vs $0.19/oz."
+  },
+  {
+   "type": "num",
+   "q": "A driver is paid $0.62 per mile. How much for a 1,150-mile week?",
+   "answer": 713,
+   "why": "1,150 × 0.62 = 713.",
+   "tol": 0.001,
+   "unit": "dollars"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Grade 7 standards overview (Common Core, via LibreTexts)",
+   "url": "https://math.libretexts.org/Courses/Coalinga_College/Math_for_Educators_(MATH_010A_and_010B_CID120)/01%3A_Teaching_Elementary_Mathematics/1.04%3A_Common_Core_Standards_for_Mathematics/1.4.08%3A_Grade_7_Standards_Overview"
+  }
+ ]
+}

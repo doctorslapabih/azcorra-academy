@@ -1,0 +1,124 @@
+{
+ "id": "latin-roots-i",
+ "title": "Latin roots I",
+ "band": "Grade 7",
+ "minutes": 18,
+ "lede": "Well over half of English words trace back to Latin, many of them through French. These twelve roots unlock hundreds of words.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Twelve high-value Latin roots\n| Root | Meaning | Words |\n|---|---|---|\n| dict | say | predict, contradict, verdict, dictate |\n| port | carry | transport, export, portable, report |\n| rupt | break | bankrupt, interrupt, disrupt, erupt |\n| scrib, script | write | describe, subscription, manuscript |\n| spect | look | inspect, prospect, spectator, respect |\n| struct | build | construct, structure, instruct, obstruct |\n| tract | pull, drag | contract, attract, tractor, extract |\n| vid, vis | see | video, evident, vision, revise |\n| ject | throw | reject, project, inject, eject |\n| mit, miss | send | transmit, permit, mission, dismiss |\n| duc, duct | lead | conduct, produce, deduct, educate |\n| cred | believe | credit, credible, incredible, credentials |"
+  },
+  {
+   "type": "example",
+   "title": "Decoding a business word",
+   "problem": "What does **bankrupt** literally mean?",
+   "steps": [
+    "It comes from the Italian banca rotta: banca = bench (a money-changer's table), rotta = broken, from the Latin rupt.",
+    "The traditional story is that a money-changer who couldn't pay his debts had his bench broken."
+   ],
+   "answer": "**Broken bench**: unable to pay debts."
+  },
+  {
+   "type": "example",
+   "title": "Stacking a prefix and a root",
+   "problem": "**Transport**",
+   "steps": [
+    "trans- = across.",
+    "port = carry."
+   ],
+   "answer": "**To carry across**: moving freight from one place to another."
+  },
+  {
+   "type": "note",
+   "label": "Practice move",
+   "md": "When you hit a long word, cover the prefix and suffix and look for a root you know. \"Unpredictable\" = un + pre + dict + able: not able to be said beforehand."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"Credible\" evidence is…",
+   "options": [
+    "Believable",
+    "Expensive",
+    "Written down",
+    "Hidden"
+   ],
+   "answer": 0,
+   "why": "cred = believe; -ible = can be."
+  },
+  {
+   "type": "mc",
+   "q": "To \"obstruct\" traffic is to…",
+   "options": [
+    "Speed it up",
+    "Build something in its way",
+    "Count it",
+    "Look at it"
+   ],
+   "answer": 1,
+   "why": "ob (against) + struct (build)."
+  },
+  {
+   "type": "mc",
+   "q": "A \"retrospect\" is a…",
+   "options": [
+    "Look back",
+    "Plan ahead",
+    "Written note",
+    "Broken promise"
+   ],
+   "answer": 0,
+   "why": "retro (back) + spect (look)."
+  },
+  {
+   "type": "mc",
+   "q": "Which root means \"send\"?",
+   "options": [
+    "ject",
+    "mit",
+    "duc",
+    "port"
+   ],
+   "answer": 1,
+   "why": "Transmit, permit, mission."
+  },
+  {
+   "type": "mc",
+   "q": "To \"deduct\" money is to…",
+   "options": [
+    "Add it",
+    "Lead it away, subtract it",
+    "Throw it",
+    "Write it"
+   ],
+   "answer": 1,
+   "why": "de (away) + duct (lead)."
+  },
+  {
+   "type": "mc",
+   "q": "What does \"interrupt\" literally mean?",
+   "options": [
+    "To carry between",
+    "To break between",
+    "To write between",
+    "To look between"
+   ],
+   "answer": 1,
+   "why": "inter (between) + rupt (break)."
+  },
+  {
+   "type": "mc",
+   "q": "A contract \"draws\" two parties together. Which root shows that?",
+   "options": [
+    "tract",
+    "struct",
+    "dict",
+    "spect"
+   ],
+   "answer": 0,
+   "why": "tract = pull or draw."
+  }
+ ]
+}

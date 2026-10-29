@@ -1,0 +1,122 @@
+{
+ "id": "proportions-and-scaling",
+ "title": "Proportions and scaling",
+ "band": "Grade 7",
+ "minutes": 20,
+ "lede": "When two quantities grow together at a fixed rate, and how to spot when they don't.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Proportions\nA **proportion** says two ratios are equal: 2/5 = 6/15. To solve one with an unknown, **cross-multiply**:\n\nx/12 = 5/8 → 8x = 60 → x = 7.5."
+  },
+  {
+   "type": "text",
+   "md": "## Proportional relationships\nTwo quantities are **proportional** when one is always the same multiple of the other: y = kx. The number k is the **constant of proportionality** (the unit rate).\n\nThree ways to spot one:\n\n1. **Table:** y ÷ x gives the same k in every row.\n2. **Graph:** a straight line through the origin (0, 0).\n3. **Equation:** y = kx, with nothing added on."
+  },
+  {
+   "type": "example",
+   "title": "Find k from a table",
+   "problem": "x: 2, 5, 8 · y: 7, 17.5, 28",
+   "steps": [
+    "7 ÷ 2 = 3.5",
+    "17.5 ÷ 5 = 3.5",
+    "28 ÷ 8 = 3.5",
+    "Every ratio matches, so it's proportional."
+   ],
+   "answer": "**k = 3.5**, so y = 3.5x"
+  },
+  {
+   "type": "text",
+   "md": "## When it's not proportional\nA fixed starting fee breaks proportionality. A tow that costs $75 plus $4 a mile: 10 miles costs $115, but 20 miles costs $155, not double. The graph is a line that doesn't pass through zero. That's a **linear** relationship, which you'll study in Algebra 1."
+  },
+  {
+   "type": "text",
+   "md": "## Scale drawings and maps\nA scale is a proportion. If a map says 1 inch = 25 miles, then 3.5 inches = 3.5 × 25 = 87.5 miles."
+  },
+  {
+   "type": "example",
+   "title": "Planning fuel",
+   "problem": "A truck burned 18 gallons on a 117-mile leg. At the same rate, how many gallons for 455 miles?",
+   "steps": [
+    "Set up: 18/117 = x/455.",
+    "Cross-multiply: 117x = 18 × 455 = 8,190.",
+    "x = 8,190 ÷ 117 = 70."
+   ],
+   "answer": "**70 gallons**"
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Solve: x/12 = 5/8",
+   "answer": 7.5,
+   "why": "8x = 60, so x = 7.5.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "y is proportional to x, and y = 10 when x = 4. What is k?",
+   "answer": 2.5,
+   "why": "k = y ÷ x = 10 ÷ 4.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "On a map, 1 cm = 50 km. Two cities are 7 cm apart. How far is that?",
+   "answer": 350,
+   "why": "7 × 50.",
+   "tol": 0.001,
+   "unit": "km"
+  },
+  {
+   "type": "mc",
+   "q": "Which table is proportional?",
+   "options": [
+    "x: 1, 2, 3 · y: 4, 8, 12",
+    "x: 1, 2, 3 · y: 5, 7, 9",
+    "x: 1, 2, 3 · y: 2, 4, 7",
+    "x: 0, 1, 2 · y: 3, 4, 5"
+   ],
+   "answer": 0,
+   "why": "4/1 = 8/2 = 12/3 = 4."
+  },
+  {
+   "type": "mc",
+   "q": "A plumber charges $25 plus $10 an hour. Is the total cost proportional to hours?",
+   "options": [
+    "Yes",
+    "No, because of the $25 fee",
+    "Only after 2 hours",
+    "Yes, k = 10"
+   ],
+   "answer": 1,
+   "why": "With a fixed fee, the graph doesn't go through (0, 0)."
+  },
+  {
+   "type": "num",
+   "q": "A truck burns 18 gallons per 117 miles. How many gallons for 455 miles?",
+   "answer": 70,
+   "why": "117/18 = 6.5 mpg, and 455 ÷ 6.5 = 70.",
+   "tol": 0.001,
+   "unit": "gallons"
+  },
+  {
+   "type": "num",
+   "q": "A photo is 4 in by 6 in. It's enlarged so the short side is 10 in. How long is the long side?",
+   "answer": 15,
+   "why": "Scale factor 10/4 = 2.5, and 6 × 2.5 = 15.",
+   "tol": 0.001,
+   "unit": "in"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Grade 7 standards overview (Common Core, via LibreTexts)",
+   "url": "https://math.libretexts.org/Courses/Coalinga_College/Math_for_Educators_(MATH_010A_and_010B_CID120)/01%3A_Teaching_Elementary_Mathematics/1.04%3A_Common_Core_Standards_for_Mathematics/1.4.08%3A_Grade_7_Standards_Overview"
+  },
+  {
+   "title": "California Mathematics Framework, Grade 7",
+   "url": "https://www.cde.ca.gov/Ci/ma/cf/documents/mathfwgrade7.pdf"
+  }
+ ]
+}

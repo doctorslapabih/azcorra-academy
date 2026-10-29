@@ -143,7 +143,7 @@ function practice(root, lesson, key, meta, notesEl) {
       const i = Number(f.dataset.num);
       const raw = f.querySelector("input").value.trim();
       if (!raw) return;
-      const v = Number(raw.replace(/[,$%\s]/g, "").replace(/^\((.*)\)$/, "-$1"));
+      const v = Number(raw.replace(/[\u2212\u2013]/g, "-").replace(/[,$%\s]/g, "").replace(/^\((.*)\)$/, "-$1"));
       const tol = qs[i].tol != null ? qs[i].tol : 1e-6;
       answers[i] = { value: raw, good: Number.isFinite(v) && Math.abs(v - Number(qs[i].answer)) <= tol };
       after(i);

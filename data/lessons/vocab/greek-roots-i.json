@@ -1,0 +1,112 @@
+{
+ "id": "greek-roots-i",
+ "title": "Greek roots I",
+ "band": "Grade 7",
+ "minutes": 15,
+ "lede": "Greek roots run science, medicine and technology. Learn these and technical words stop being scary.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Fifteen Greek roots\n| Root | Meaning | Words |\n|---|---|---|\n| bio | life | biology, biography, antibiotic |\n| graph, gram | write, draw | autograph, telegram, graphic |\n| logy, log | study of, word | geology, psychology, dialogue |\n| phon | sound | telephone, symphony, phonics |\n| photo | light | photograph, photosynthesis |\n| tele | far | telescope, television, telecom |\n| auto | self | automatic, autonomy, autopilot |\n| micro | small | microscope, microchip |\n| macro | large | macroeconomics |\n| chron | time | chronic, chronological, synchronize |\n| geo | earth | geography, geology, geometry |\n| hydro | water | hydrate, hydraulic, hydroelectric |\n| psych | mind | psychology, psychic |\n| therm | heat | thermometer, thermal |\n| meter | measure | odometer, perimeter, speedometer |"
+  },
+  {
+   "type": "example",
+   "title": "Decoding a science word",
+   "problem": "**Hydrology**",
+   "steps": [
+    "hydro = water.",
+    "logy = study of."
+   ],
+   "answer": "**The study of water**."
+  },
+  {
+   "type": "example",
+   "title": "Decoding a business word",
+   "problem": "**Macroeconomics**",
+   "steps": [
+    "macro = large.",
+    "economics = how money and resources move."
+   ],
+   "answer": "**Big-picture economics**: whole countries and markets, as opposed to microeconomics, which looks at single businesses."
+  },
+  {
+   "type": "note",
+   "label": "Greek vs Latin",
+   "md": "Latin roots dominate everyday and legal English. Greek roots dominate science, medicine and tech. Many sciences pair them: \"tele-vision\" is Greek tele + Latin vis."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"Chronological\" order means…",
+   "options": [
+    "By size",
+    "By time",
+    "By importance",
+    "By color"
+   ],
+   "answer": 1,
+   "why": "chron = time."
+  },
+  {
+   "type": "mc",
+   "q": "A \"thermostat\" controls…",
+   "options": [
+    "Light",
+    "Sound",
+    "Heat",
+    "Water"
+   ],
+   "answer": 2,
+   "why": "therm = heat."
+  },
+  {
+   "type": "mc",
+   "q": "\"Autonomy\" means…",
+   "options": [
+    "Self-rule, independence",
+    "Automatic payment",
+    "A car part",
+    "Group decision"
+   ],
+   "answer": 0,
+   "why": "auto = self; nomos = law."
+  },
+  {
+   "type": "mc",
+   "q": "A \"biography\" is…",
+   "options": [
+    "A study of plants",
+    "A written account of someone's life",
+    "A life insurance plan",
+    "A science lab"
+   ],
+   "answer": 1,
+   "why": "bio (life) + graph (write)."
+  },
+  {
+   "type": "mc",
+   "q": "What does an odometer measure?",
+   "options": [
+    "Speed",
+    "Fuel",
+    "Distance traveled",
+    "Smell"
+   ],
+   "answer": 2,
+   "why": "Greek hodos (way, road) + meter (measure)."
+  },
+  {
+   "type": "mc",
+   "q": "\"Geothermal\" energy comes from…",
+   "options": [
+    "The sun",
+    "Heat inside the earth",
+    "Wind",
+    "Water"
+   ],
+   "answer": 1,
+   "why": "geo (earth) + therm (heat)."
+  }
+ ]
+}

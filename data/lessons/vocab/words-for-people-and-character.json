@@ -1,0 +1,90 @@
+{
+ "id": "words-for-people-and-character",
+ "title": "Words for people and character",
+ "band": "Grades 7–8",
+ "minutes": 14,
+ "lede": "Describe people precisely: in reviews, hiring, stories and deals.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "| Word | Meaning | In a sentence |\n|---|---|---|\n| **diligent** | hardworking and careful | A diligent dispatcher catches every error. |\n| **candid** | honest and direct | Give me your candid opinion. |\n| **tenacious** | refusing to give up | A tenacious negotiator. |\n| **arrogant** | acting superior to others | His arrogant tone lost the client. |\n| **humble** | modest about your own importance | Humble in victory. |\n| **resilient** | recovers quickly from setbacks | Resilient after a bad quarter. |\n| **pragmatic** | practical, focused on what works | A pragmatic decision. |\n| **cynical** | believing people act only from self-interest | Years of bad brokers made him cynical. |\n| **gregarious** | sociable, enjoys company | A gregarious salesperson. |\n| **meticulous** | extremely careful about details | Meticulous records. |"
+  },
+  {
+   "type": "note",
+   "label": "Connotation",
+   "md": "Words can mean nearly the same thing but feel different. **Tenacious** (positive) vs **stubborn** (negative). **Frugal** (positive) vs **cheap** (negative). Choose the one that matches your judgment."
+  },
+  {
+   "type": "example",
+   "title": "Pick the connotation",
+   "problem": "Your partner never stops pushing for a better rate. You admire it.",
+   "steps": [
+    "Stubborn and obstinate sound negative.",
+    "Tenacious and persistent sound positive."
+   ],
+   "answer": "\"She's **tenacious**.\""
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Someone who bounces back fast after failure is…",
+   "options": [
+    "cynical",
+    "resilient",
+    "arrogant",
+    "candid"
+   ],
+   "answer": 1,
+   "why": "Resilient = recovers."
+  },
+  {
+   "type": "mc",
+   "q": "\"Gregarious\" means…",
+   "options": [
+    "Greedy",
+    "Sociable",
+    "Shy",
+    "Angry"
+   ],
+   "answer": 1,
+   "why": "Loves company."
+  },
+  {
+   "type": "mc",
+   "q": "Which has a positive connotation?",
+   "options": [
+    "stubborn",
+    "cheap",
+    "tenacious",
+    "nosy"
+   ],
+   "answer": 2,
+   "why": "Tenacious praises persistence."
+  },
+  {
+   "type": "mc",
+   "q": "A person who's extremely careful with details is…",
+   "options": [
+    "meticulous",
+    "pragmatic",
+    "humble",
+    "gregarious"
+   ],
+   "answer": 0,
+   "why": "Meticulous."
+  },
+  {
+   "type": "mc",
+   "q": "\"After being burned by three partners, he became ___ about every offer.\"",
+   "options": [
+    "candid",
+    "cynical",
+    "diligent",
+    "humble"
+   ],
+   "answer": 1,
+   "why": "Expecting self-interest."
+  }
+ ]
+}

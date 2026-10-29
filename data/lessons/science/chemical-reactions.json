@@ -1,0 +1,100 @@
+{
+ "id": "chemical-reactions",
+ "title": "Chemical reactions",
+ "band": "Grade 8",
+ "minutes": 18,
+ "lede": "Atoms rearrange, nothing is lost, and equations have to balance.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Physical vs chemical change\n- **Physical change:** same substance, new form. Melting ice, crushing a can.\n- **Chemical change:** new substances form. Burning fuel, rusting steel, baking bread.\n\nSigns of a chemical change: gas bubbles, color change, heat or light given off, a new solid forming."
+  },
+  {
+   "type": "text",
+   "md": "## Conservation of mass\nIn a reaction, atoms are rearranged, never created or destroyed. The total mass before equals the total mass after. That's why chemical equations must **balance**: the same number of each atom on both sides."
+  },
+  {
+   "type": "example",
+   "title": "Balance an equation",
+   "problem": "H₂ + O₂ → H₂O (hydrogen burns to make water)",
+   "steps": [
+    "Count: left has 2 O, right has 1 O.",
+    "Put a 2 in front of H₂O: H₂ + O₂ → 2H₂O. Now O is 2 and 2, but H is 2 vs 4.",
+    "Put a 2 in front of H₂: 2H₂ + O₂ → 2H₂O.",
+    "Check: H 4 and 4; O 2 and 2. ✓"
+   ],
+   "answer": "**2H₂ + O₂ → 2H₂O**"
+  },
+  {
+   "type": "text",
+   "md": "## Energy in reactions\n- **Exothermic** reactions release energy as heat or light: burning diesel, which is how an engine turns fuel into motion.\n- **Endothermic** reactions absorb heat: an instant cold pack."
+  },
+  {
+   "type": "note",
+   "label": "Combustion",
+   "md": "Burning a hydrocarbon fuel with oxygen produces carbon dioxide, water and energy. Diesel exhaust also contains other byproducts, which is why modern trucks have filters and DEF systems to clean it."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is a chemical change?",
+   "options": [
+    "Ice melting",
+    "Paper burning",
+    "Glass breaking",
+    "Sugar dissolving"
+   ],
+   "answer": 1,
+   "why": "New substances form."
+  },
+  {
+   "type": "mc",
+   "q": "In a reaction, total mass…",
+   "options": [
+    "Increases",
+    "Decreases",
+    "Stays the same",
+    "Disappears"
+   ],
+   "answer": 2,
+   "why": "Conservation of mass."
+  },
+  {
+   "type": "mc",
+   "q": "Balanced form of H₂ + O₂ → H₂O:",
+   "options": [
+    "H₂ + O₂ → 2H₂O",
+    "2H₂ + O₂ → 2H₂O",
+    "H₂ + 2O₂ → H₂O",
+    "2H₂ + 2O₂ → 2H₂O"
+   ],
+   "answer": 1,
+   "why": "4 H and 2 O on each side."
+  },
+  {
+   "type": "mc",
+   "q": "A reaction that releases heat is…",
+   "options": [
+    "Endothermic",
+    "Exothermic",
+    "Physical",
+    "Balanced"
+   ],
+   "answer": 1,
+   "why": "Exo = out."
+  },
+  {
+   "type": "mc",
+   "q": "Which is NOT a sign of a chemical change?",
+   "options": [
+    "Gas bubbles",
+    "Color change",
+    "Changing shape",
+    "Light given off"
+   ],
+   "answer": 2,
+   "why": "Shape change is physical."
+  }
+ ]
+}

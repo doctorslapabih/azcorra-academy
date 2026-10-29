@@ -1,0 +1,124 @@
+{
+ "id": "multi-step-equations",
+ "title": "Multi-step equations",
+ "band": "Grade 8",
+ "minutes": 20,
+ "lede": "Variables on both sides, parentheses and fractions: one clean process handles them all.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The four-step process\n1. **Clear parentheses** with the distributive property.\n2. **Combine like terms** on each side.\n3. **Move variables to one side** (add or subtract a variable term from both sides).\n4. **Solve** the two-step equation that's left."
+  },
+  {
+   "type": "example",
+   "title": "Variables on both sides",
+   "problem": "5x − 7 = 2x + 8",
+   "steps": [
+    "Subtract 2x from both sides: 3x − 7 = 8.",
+    "Add 7: 3x = 15.",
+    "Divide by 3: x = 5."
+   ],
+   "answer": "**x = 5**"
+  },
+  {
+   "type": "example",
+   "title": "With parentheses",
+   "problem": "4(x − 2) = 2(x + 3)",
+   "steps": [
+    "Distribute: 4x − 8 = 2x + 6.",
+    "Subtract 2x: 2x − 8 = 6.",
+    "Add 8: 2x = 14.",
+    "x = 7."
+   ],
+   "answer": "**x = 7**"
+  },
+  {
+   "type": "text",
+   "md": "## Clearing fractions\nMultiply every term by the least common denominator. x/3 + x/2 = 10 → multiply by 6: 2x + 3x = 60 → 5x = 60 → x = 12."
+  },
+  {
+   "type": "text",
+   "md": "## No solution or infinitely many\n- If the variables cancel and you get something **false** (like 5 = 9), there's **no solution**.\n- If they cancel and you get something **always true** (like 4 = 4), **every number** is a solution."
+  },
+  {
+   "type": "example",
+   "title": "Break-even",
+   "problem": "Company A charges $40 plus $1.50 per mile. Company B charges $100 plus $1.20 per mile. At how many miles do they cost the same?",
+   "steps": [
+    "Set equal: 40 + 1.5m = 100 + 1.2m.",
+    "Subtract 1.2m: 40 + 0.3m = 100.",
+    "Subtract 40: 0.3m = 60.",
+    "m = 200."
+   ],
+   "answer": "**200 miles.** Under that, A is cheaper; over it, B is."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Solve 5x − 7 = 2x + 8.",
+   "answer": 5,
+   "why": "3x = 15.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve 4(x − 2) = 2(x + 3).",
+   "answer": 7,
+   "why": "4x − 8 = 2x + 6.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve x/3 + x/2 = 10.",
+   "answer": 12,
+   "why": "Multiply by 6: 5x = 60.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve 3(2x + 1) − 4x = 11.",
+   "answer": 4,
+   "why": "6x + 3 − 4x = 11 → 2x = 8.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Solve 2(x + 3) = 2x + 6.",
+   "options": [
+    "x = 0",
+    "No solution",
+    "Every number works",
+    "x = 3"
+   ],
+   "answer": 2,
+   "why": "Both sides are identical: 2x + 6 = 2x + 6."
+  },
+  {
+   "type": "mc",
+   "q": "Solve 3x + 4 = 3x − 1.",
+   "options": [
+    "x = 5",
+    "No solution",
+    "Every number works",
+    "x = 0"
+   ],
+   "answer": 1,
+   "why": "The x's cancel, leaving 4 = −1, which is false."
+  },
+  {
+   "type": "num",
+   "q": "Plan A: $40 + $1.50/mile. Plan B: $100 + $1.20/mile. At how many miles are they equal?",
+   "answer": 200,
+   "why": "0.3m = 60.",
+   "tol": 0.001,
+   "unit": "miles"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Grade 7 standards overview (Common Core, via LibreTexts)",
+   "url": "https://math.libretexts.org/Courses/Coalinga_College/Math_for_Educators_(MATH_010A_and_010B_CID120)/01%3A_Teaching_Elementary_Mathematics/1.04%3A_Common_Core_Standards_for_Mathematics/1.4.08%3A_Grade_7_Standards_Overview"
+  }
+ ]
+}

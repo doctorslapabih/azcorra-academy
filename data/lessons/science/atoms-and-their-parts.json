@@ -1,0 +1,90 @@
+{
+ "id": "atoms-and-their-parts",
+ "title": "Atoms and their parts",
+ "band": "Grades 7–8",
+ "minutes": 16,
+ "lede": "Everything you can touch is made of atoms. Here's what's inside one.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The three particles\n| Particle | Charge | Where | Mass |\n|---|---|---|---|\n| Proton | + | nucleus | about 1 unit |\n| Neutron | none | nucleus | about 1 unit |\n| Electron | − | around the nucleus | about 1/1,836 of a proton |\n\nThe nucleus is tiny but holds almost all the mass. Electrons move in the space around it, and that space is most of the atom."
+  },
+  {
+   "type": "text",
+   "md": "## What makes an element\nThe number of **protons** decides the element. Every carbon atom has 6 protons; every oxygen atom has 8. That number is the **atomic number**.\n\n- Change the neutrons and you get an **isotope** of the same element (carbon-12 vs carbon-14).\n- Change the electrons and you get an **ion**, an atom with a charge."
+  },
+  {
+   "type": "example",
+   "title": "Count the particles",
+   "problem": "Sodium (Na) has atomic number 11 and mass number 23. How many protons, neutrons and electrons in a neutral atom?",
+   "steps": [
+    "Protons = atomic number = 11.",
+    "Neutrons = mass number − protons = 23 − 11 = 12.",
+    "Neutral means electrons = protons = 11."
+   ],
+   "answer": "**11 protons, 12 neutrons, 11 electrons**"
+  },
+  {
+   "type": "note",
+   "label": "Why atoms bond",
+   "md": "Chemistry is mostly about electrons, especially the outermost ones. Atoms gain, lose or share electrons to reach a stable arrangement. That's what holds molecules together."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which particle has no charge?",
+   "options": [
+    "Proton",
+    "Neutron",
+    "Electron",
+    "Ion"
+   ],
+   "answer": 1,
+   "why": "Neutral = neutron."
+  },
+  {
+   "type": "mc",
+   "q": "What decides which element an atom is?",
+   "options": [
+    "Number of neutrons",
+    "Number of electrons",
+    "Number of protons",
+    "Its size"
+   ],
+   "answer": 2,
+   "why": "Atomic number = protons."
+  },
+  {
+   "type": "num",
+   "q": "Carbon has atomic number 6. A carbon-14 atom has how many neutrons?",
+   "answer": 8,
+   "why": "14 − 6.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Where is almost all of an atom's mass?",
+   "options": [
+    "Electron cloud",
+    "Nucleus",
+    "Spread evenly",
+    "Outside the atom"
+   ],
+   "answer": 1,
+   "why": "Protons and neutrons are in the nucleus."
+  },
+  {
+   "type": "mc",
+   "q": "An atom that gains an electron becomes…",
+   "options": [
+    "A positive ion",
+    "A negative ion",
+    "An isotope",
+    "A new element"
+   ],
+   "answer": 1,
+   "why": "Extra negative charge."
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "id": "transitions",
+ "title": "Transitions",
+ "band": "Grades 7–8",
+ "minutes": 12,
+ "lede": "Transition words tell the reader how one idea connects to the next.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Transitions by job\n| Job | Words |\n|---|---|\n| Add | also, in addition, moreover, furthermore |\n| Contrast | however, but, on the other hand, yet |\n| Cause and effect | because, so, therefore, as a result, consequently |\n| Example | for example, for instance, such as |\n| Sequence | first, next, then, finally |\n| Conclude | in short, overall, in the end |"
+  },
+  {
+   "type": "text",
+   "md": "## Use the right one\nA transition is a promise. \"However\" promises a contrast; \"therefore\" promises a conclusion. Using the wrong one confuses readers even when every sentence is fine."
+  },
+  {
+   "type": "note",
+   "label": "Punctuation with however and therefore",
+   "md": "These aren't joining words like \"but.\" Use a period or semicolon before them: \"Rates rose; **however**, volume held steady.\""
+  },
+  {
+   "type": "example",
+   "title": "Fix the connection",
+   "problem": "\"Fuel went up 20%. We raised our rates.\"",
+   "steps": [
+    "The second sentence is a result of the first.",
+    "Add a cause-and-effect transition."
+   ],
+   "answer": "\"Fuel went up 20%. **As a result**, we raised our rates.\""
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which transition shows contrast?",
+   "options": [
+    "Furthermore",
+    "However",
+    "Therefore",
+    "For example"
+   ],
+   "answer": 1,
+   "why": "However = but."
+  },
+  {
+   "type": "mc",
+   "q": "\"Sales doubled. ___, we hired two drivers.\"",
+   "options": [
+    "However",
+    "For example",
+    "As a result",
+    "On the other hand"
+   ],
+   "answer": 2,
+   "why": "Cause and effect."
+  },
+  {
+   "type": "mc",
+   "q": "Which is punctuated correctly?",
+   "options": [
+    "Rates rose, however volume held.",
+    "Rates rose; however, volume held.",
+    "Rates rose however, volume held.",
+    "Rates, rose however volume held."
+   ],
+   "answer": 1,
+   "why": "Semicolon before, comma after."
+  },
+  {
+   "type": "mc",
+   "q": "\"Many costs are fixed. ___, insurance and truck payments don't change with miles.\"",
+   "options": [
+    "For example",
+    "However",
+    "Finally",
+    "In contrast"
+   ],
+   "answer": 0,
+   "why": "It gives examples of fixed costs."
+  }
+ ]
+}

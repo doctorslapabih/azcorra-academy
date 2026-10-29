@@ -1,0 +1,107 @@
+{
+ "id": "solving-one-and-two-step-equations",
+ "title": "Solving one- and two-step equations",
+ "band": "Grades 7–8",
+ "minutes": 18,
+ "lede": "An equation is a balance. Whatever you do to one side, do to the other, and the unknown falls out.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The balance idea\nAn **equation** says two expressions are equal: 3x + 5 = 20. Solving means finding the value of x that makes it true.\n\nThink of a balanced scale. You can do anything you like, as long as you do the **same thing to both sides**. The goal is to get x alone."
+  },
+  {
+   "type": "text",
+   "md": "## Undo in reverse order\nTo isolate x, undo what was done to it, in the **opposite order**:\n\n1. Undo addition or subtraction first.\n2. Then undo multiplication or division.\n\nIt's like taking off shoes and socks: shoes come off first, because they went on last."
+  },
+  {
+   "type": "example",
+   "title": "Two-step equation",
+   "problem": "3x + 5 = 20",
+   "steps": [
+    "Undo +5: subtract 5 from both sides. 3x = 15.",
+    "Undo ×3: divide both sides by 3. x = 5.",
+    "Check: 3(5) + 5 = 20. ✓"
+   ],
+   "answer": "**x = 5**"
+  },
+  {
+   "type": "example",
+   "title": "With a fraction",
+   "problem": "x/4 − 3 = 7",
+   "steps": [
+    "Add 3 to both sides: x/4 = 10.",
+    "Multiply both sides by 4: x = 40.",
+    "Check: 40/4 − 3 = 7. ✓"
+   ],
+   "answer": "**x = 40**"
+  },
+  {
+   "type": "example",
+   "title": "Real problem",
+   "problem": "A load pays $1,450. Fuel costs $380 and the driver is paid $0.60 per mile. If the profit was $498, how many miles was the trip?",
+   "steps": [
+    "Profit = pay − fuel − driver: 1,450 − 380 − 0.60m = 498.",
+    "Simplify: 1,070 − 0.60m = 498.",
+    "Subtract 1,070: −0.60m = −572.",
+    "Divide by −0.60: m ≈ 953."
+   ],
+   "answer": "**About 953 miles**"
+  },
+  {
+   "type": "note",
+   "label": "Always check",
+   "md": "Plug your answer back into the original equation. It takes ten seconds and catches most mistakes."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Solve x + 17 = 42.",
+   "answer": 25,
+   "why": "Subtract 17.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve 6x = 54.",
+   "answer": 9,
+   "why": "Divide by 6.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve 3x + 5 = 20.",
+   "answer": 5,
+   "why": "Subtract 5, divide by 3.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve x/4 − 3 = 7.",
+   "answer": 40,
+   "why": "Add 3, multiply by 4.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve −2x + 9 = 1.",
+   "answer": 4,
+   "why": "Subtract 9: −2x = −8. Divide by −2.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "A gym charges $30 to join plus $25 a month. You've paid $280. How many months?",
+   "answer": 10,
+   "why": "30 + 25m = 280 → 25m = 250.",
+   "tol": 0.001,
+   "unit": "months"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Grade 7 standards overview (Common Core, via LibreTexts)",
+   "url": "https://math.libretexts.org/Courses/Coalinga_College/Math_for_Educators_(MATH_010A_and_010B_CID120)/01%3A_Teaching_Elementary_Mathematics/1.04%3A_Common_Core_Standards_for_Mathematics/1.4.08%3A_Grade_7_Standards_Overview"
+  }
+ ]
+}

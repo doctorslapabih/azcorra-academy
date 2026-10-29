@@ -1,0 +1,82 @@
+{
+ "id": "topic-sentences",
+ "title": "Topic sentences",
+ "band": "Grades 7–8",
+ "minutes": 14,
+ "lede": "The first sentence of a paragraph should tell the reader exactly what the paragraph will prove.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## One paragraph, one point\nA paragraph is a unit of thought: one main idea, supported. The **topic sentence** states that idea, usually first, so the reader knows what's coming."
+  },
+  {
+   "type": "text",
+   "md": "## What makes a strong one\n- **Specific:** not \"Trucking is interesting\" but \"Fuel is the biggest cost a small trucking company can control.\"\n- **Arguable or informative:** it makes a claim the rest of the paragraph supports.\n- **Not too broad, not too narrow:** it should fit in one paragraph. \"The history of transportation\" is a book. \"The truck cost $3,200 to fix\" is a detail."
+  },
+  {
+   "type": "example",
+   "title": "Strengthen it",
+   "problem": "Weak: \"There are many things about customer service.\"",
+   "steps": [
+    "What's the actual point? Pick one.",
+    "Make it specific and arguable."
+   ],
+   "answer": "Strong: \"**Answering the phone on the first ring wins more repeat customers than any discount.**\""
+  },
+  {
+   "type": "note",
+   "label": "The test",
+   "md": "Cover everything except the topic sentence. Could a reader guess what the paragraph argues? If not, rewrite it."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is the strongest topic sentence?",
+   "options": [
+    "This paragraph is about safety.",
+    "Safety is important.",
+    "Daily pre-trip inspections prevent the most expensive breakdowns.",
+    "There are many safety rules."
+   ],
+   "answer": 2,
+   "why": "Specific and arguable."
+  },
+  {
+   "type": "mc",
+   "q": "Which is too broad for one paragraph?",
+   "options": [
+    "The history of world trade",
+    "Why we switched fuel cards",
+    "How I set my weekly rate",
+    "The best time to call brokers"
+   ],
+   "answer": 0,
+   "why": "That's a whole book."
+  },
+  {
+   "type": "mc",
+   "q": "Where does a topic sentence usually go?",
+   "options": [
+    "Last",
+    "First",
+    "Middle",
+    "Anywhere"
+   ],
+   "answer": 1,
+   "why": "First, so the reader knows where you're headed."
+  },
+  {
+   "type": "mc",
+   "q": "Which is too narrow to be a topic sentence?",
+   "options": [
+    "Late payments hurt small carriers most.",
+    "The invoice was dated March 3.",
+    "Good dispatchers save money.",
+    "Brokers vary in how fast they pay."
+   ],
+   "answer": 1,
+   "why": "That's a detail, not a main idea."
+  }
+ ]
+}

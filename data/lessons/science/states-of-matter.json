@@ -1,0 +1,95 @@
+{
+ "id": "states-of-matter",
+ "title": "States of matter",
+ "band": "Grades 7–8",
+ "minutes": 14,
+ "lede": "Solid, liquid, gas: what's really different is how fast the particles move.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Particles in motion\nAll matter is made of particles that are always moving. Temperature is a measure of their average motion energy.\n\n| State | Particles | Shape | Volume |\n|---|---|---|---|\n| Solid | vibrate in place, tightly packed | fixed | fixed |\n| Liquid | slide past each other, close together | takes container's | fixed |\n| Gas | fly freely, far apart | fills container | fills container |"
+  },
+  {
+   "type": "text",
+   "md": "## Changes of state\n- Melting: solid → liquid. Freezing: liquid → solid.\n- Evaporation/boiling: liquid → gas. Condensation: gas → liquid.\n- Sublimation: solid → gas directly (dry ice).\n\nDuring a change of state, temperature stays flat. The energy goes into breaking particles apart, not into speeding them up. That's why ice water stays near 0°C until the ice is gone."
+  },
+  {
+   "type": "example",
+   "title": "Pressure and boiling",
+   "problem": "Why does a pressure cooker cook faster?",
+   "steps": [
+    "Higher pressure makes it harder for water molecules to escape as gas.",
+    "So water must get hotter before it boils, above 100°C.",
+    "Hotter water cooks food faster."
+   ],
+   "answer": "Higher pressure → **higher boiling point** → hotter cooking water."
+  },
+  {
+   "type": "note",
+   "label": "Air brakes",
+   "md": "Truck air brakes run on compressed gas. Gas compresses easily because its particles are far apart. Liquids barely compress, which is why hydraulic brakes use fluid to transmit force."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "In which state are particles farthest apart?",
+   "options": [
+    "Solid",
+    "Liquid",
+    "Gas",
+    "All equal"
+   ],
+   "answer": 2,
+   "why": "Gas particles fly freely."
+  },
+  {
+   "type": "mc",
+   "q": "Water vapor forming droplets on a cold glass is…",
+   "options": [
+    "Evaporation",
+    "Condensation",
+    "Melting",
+    "Sublimation"
+   ],
+   "answer": 1,
+   "why": "Gas → liquid."
+  },
+  {
+   "type": "mc",
+   "q": "While ice melts, its temperature…",
+   "options": [
+    "Rises fast",
+    "Stays about the same",
+    "Drops",
+    "Doubles"
+   ],
+   "answer": 1,
+   "why": "Energy goes into the change of state."
+  },
+  {
+   "type": "mc",
+   "q": "Dry ice turning straight into gas is…",
+   "options": [
+    "Sublimation",
+    "Condensation",
+    "Freezing",
+    "Boiling"
+   ],
+   "answer": 0,
+   "why": "Solid → gas."
+  },
+  {
+   "type": "mc",
+   "q": "Which state has a fixed volume but no fixed shape?",
+   "options": [
+    "Solid",
+    "Liquid",
+    "Gas",
+    "None"
+   ],
+   "answer": 1,
+   "why": "Liquids take the container's shape."
+  }
+ ]
+}

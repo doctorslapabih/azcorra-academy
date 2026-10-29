@@ -1,0 +1,95 @@
+{
+ "id": "the-periodic-table",
+ "title": "The periodic table",
+ "band": "Grades 7–8",
+ "minutes": 16,
+ "lede": "The periodic table is a map. Once you can read it, you can predict how elements behave.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## How it's arranged\nElements are ordered by **atomic number** (protons), left to right, top to bottom.\n\n- **Rows (periods):** each row adds a new layer (shell) of electrons.\n- **Columns (groups):** elements in a column have the same number of outer electrons, so they behave alike."
+  },
+  {
+   "type": "text",
+   "md": "## Neighborhoods\n| Region | Examples | Behavior |\n|---|---|---|\n| Group 1: alkali metals | sodium, potassium | very reactive, 1 outer electron |\n| Group 17: halogens | chlorine, fluorine | very reactive, want 1 more electron |\n| Group 18: noble gases | helium, neon | stable, barely react |\n| Metals (left and middle) | iron, copper | shiny, conduct electricity |\n| Nonmetals (upper right) | oxygen, carbon | poor conductors |"
+  },
+  {
+   "type": "example",
+   "title": "Predict a reaction",
+   "problem": "Sodium (group 1) and chlorine (group 17) meet. What happens?",
+   "steps": [
+    "Sodium has 1 outer electron it easily gives up.",
+    "Chlorine needs 1 more electron.",
+    "Sodium hands its electron to chlorine."
+   ],
+   "answer": "They form **sodium chloride**: table salt."
+  },
+  {
+   "type": "note",
+   "label": "Mendeleev's bet",
+   "md": "Dmitri Mendeleev arranged his 1869 table by patterns and left gaps for elements nobody had found yet. He predicted their properties, and when gallium and germanium were discovered, they matched. A good model makes predictions."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Elements in the same column have the same…",
+   "options": [
+    "Mass",
+    "Number of outer electrons",
+    "Number of neutrons",
+    "Color"
+   ],
+   "answer": 1,
+   "why": "That's why they behave alike."
+  },
+  {
+   "type": "mc",
+   "q": "Which group barely reacts with anything?",
+   "options": [
+    "Alkali metals",
+    "Halogens",
+    "Noble gases",
+    "Transition metals"
+   ],
+   "answer": 2,
+   "why": "Full outer shells."
+  },
+  {
+   "type": "mc",
+   "q": "The table is ordered by…",
+   "options": [
+    "Mass",
+    "Atomic number",
+    "Discovery date",
+    "Alphabet"
+   ],
+   "answer": 1,
+   "why": "Number of protons."
+  },
+  {
+   "type": "mc",
+   "q": "Sodium + chlorine forms…",
+   "options": [
+    "Water",
+    "Table salt",
+    "Rust",
+    "Sugar"
+   ],
+   "answer": 1,
+   "why": "NaCl."
+  },
+  {
+   "type": "mc",
+   "q": "Which is a metal?",
+   "options": [
+    "Oxygen",
+    "Neon",
+    "Copper",
+    "Chlorine"
+   ],
+   "answer": 2,
+   "why": "Copper conducts electricity."
+  }
+ ]
+}

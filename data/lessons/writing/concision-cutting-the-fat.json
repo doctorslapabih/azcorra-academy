@@ -1,0 +1,82 @@
+{
+ "id": "concision-cutting-the-fat",
+ "title": "Concision: cutting the fat",
+ "band": "Grade 8",
+ "minutes": 14,
+ "lede": "Say it in fewer words. Every word you cut makes the rest hit harder.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Wordy phrases and their replacements\n| Instead of | Write |\n|---|---|\n| in order to | to |\n| due to the fact that | because |\n| at this point in time | now |\n| in the event that | if |\n| has the ability to | can |\n| make a decision | decide |\n| a large number of | many |\n| until such time as | until |"
+  },
+  {
+   "type": "text",
+   "md": "## Cut these on sight\n- **Fillers:** just, really, very, actually, basically, kind of.\n- **Throat-clearing:** \"I'm writing to let you know that…\", \"It is important to note that…\"\n- **Doubles:** \"each and every,\" \"first and foremost,\" \"true facts.\""
+  },
+  {
+   "type": "example",
+   "title": "Cut by half",
+   "problem": "\"I just wanted to reach out to let you know that, due to the fact that our truck is in the shop, we basically won't be able to make the pickup at this point in time.\" (38 words)",
+   "steps": [
+    "Cut the throat-clearing: \"I just wanted to reach out to let you know that.\"",
+    "due to the fact that → because. at this point in time → today. basically → cut."
+   ],
+   "answer": "\"Our truck is in the shop, so we can't make today's pickup.\" (**12 words**)"
+  },
+  {
+   "type": "note",
+   "label": "The read-aloud rule",
+   "md": "Read your draft out loud. Anything you'd never say in conversation is probably padding."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Shortest version of \"in the event that\":",
+   "options": [
+    "if",
+    "when the event",
+    "in case of event",
+    "should it be that"
+   ],
+   "answer": 0,
+   "why": "If."
+  },
+  {
+   "type": "mc",
+   "q": "Which is most concise?",
+   "options": [
+    "We made the decision to expand.",
+    "We decided to expand.",
+    "A decision was made by us to expand.",
+    "We came to a decision regarding expansion."
+   ],
+   "answer": 1,
+   "why": "Verb instead of noun phrase."
+  },
+  {
+   "type": "mc",
+   "q": "Which word is filler in \"It's actually a really good deal\"?",
+   "options": [
+    "deal",
+    "good",
+    "actually and really",
+    "It's"
+   ],
+   "answer": 2,
+   "why": "\"It's a good deal.\""
+  },
+  {
+   "type": "mc",
+   "q": "\"Each and every driver\" is better as…",
+   "options": [
+    "Every driver",
+    "Each and all drivers",
+    "The drivers each",
+    "All of every driver"
+   ],
+   "answer": 0,
+   "why": "Doubles add nothing."
+  }
+ ]
+}

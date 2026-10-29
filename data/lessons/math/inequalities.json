@@ -1,0 +1,117 @@
+{
+ "id": "inequalities",
+ "title": "Inequalities",
+ "band": "Grades 7–8",
+ "minutes": 16,
+ "lede": "Solving for a range of answers instead of one, and the one rule that trips everyone up.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Reading inequality signs\n| Sign | Meaning | Example |\n|---|---|---|\n| < | less than | x < 5 |\n| > | greater than | x > −2 |\n| ≤ | less than or equal to | x ≤ 10 |\n| ≥ | greater than or equal to | x ≥ 0 |\n\nThe open side of the sign faces the bigger number. \"At least\" means ≥. \"At most\" and \"no more than\" mean ≤."
+  },
+  {
+   "type": "text",
+   "md": "## Solving\nSolve exactly like an equation, with **one exception**:\n\n**When you multiply or divide both sides by a negative number, flip the sign.**\n\nWhy? 2 < 5 is true. Multiply both by −1: −2 and −5. Now −2 is the **bigger** one, so the sign must flip: −2 > −5."
+  },
+  {
+   "type": "example",
+   "title": "Flip the sign",
+   "problem": "−3x + 4 ≥ 19",
+   "steps": [
+    "Subtract 4: −3x ≥ 15.",
+    "Divide by −3 and flip: x ≤ −5."
+   ],
+   "answer": "**x ≤ −5**"
+  },
+  {
+   "type": "text",
+   "md": "## Graphing on a number line\nUse an **open circle** for < or > (the endpoint isn't included) and a **closed circle** for ≤ or ≥ (it is). Shade the direction of the solutions."
+  },
+  {
+   "type": "example",
+   "title": "Word problem",
+   "problem": "A truck can carry at most 45,000 lb of cargo. Pallets weigh 1,800 lb each. How many pallets can it carry?",
+   "steps": [
+    "1,800p ≤ 45,000.",
+    "p ≤ 25."
+   ],
+   "answer": "**At most 25 pallets**"
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Solve x + 8 > 3.",
+   "options": [
+    "x > 11",
+    "x > −5",
+    "x < −5",
+    "x < 11"
+   ],
+   "answer": 1,
+   "why": "Subtract 8."
+  },
+  {
+   "type": "mc",
+   "q": "Solve −3x + 4 ≥ 19.",
+   "options": [
+    "x ≥ −5",
+    "x ≤ −5",
+    "x ≥ 5",
+    "x ≤ 5"
+   ],
+   "answer": 1,
+   "why": "Dividing by −3 flips the sign."
+  },
+  {
+   "type": "mc",
+   "q": "\"You must be at least 21.\" As an inequality:",
+   "options": [
+    "a > 21",
+    "a ≥ 21",
+    "a < 21",
+    "a ≤ 21"
+   ],
+   "answer": 1,
+   "why": "At least includes 21 itself."
+  },
+  {
+   "type": "mc",
+   "q": "On a number line, x < 4 uses…",
+   "options": [
+    "A closed circle at 4, shade left",
+    "An open circle at 4, shade left",
+    "An open circle at 4, shade right",
+    "A closed circle at 4, shade right"
+   ],
+   "answer": 1,
+   "why": "Strict inequality: open circle."
+  },
+  {
+   "type": "num",
+   "q": "Pallets weigh 1,800 lb. The limit is 45,000 lb. What's the most pallets you can carry?",
+   "answer": 25,
+   "why": "1,800p ≤ 45,000.",
+   "tol": 0.001,
+   "unit": "pallets"
+  },
+  {
+   "type": "mc",
+   "q": "Solve −x/2 < 6.",
+   "options": [
+    "x < −12",
+    "x > −12",
+    "x > 12",
+    "x < 12"
+   ],
+   "answer": 1,
+   "why": "Multiply by −2 and flip."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Grade 7 standards overview (Common Core, via LibreTexts)",
+   "url": "https://math.libretexts.org/Courses/Coalinga_College/Math_for_Educators_(MATH_010A_and_010B_CID120)/01%3A_Teaching_Elementary_Mathematics/1.04%3A_Common_Core_Standards_for_Mathematics/1.4.08%3A_Grade_7_Standards_Overview"
+  }
+ ]
+}

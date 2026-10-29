@@ -1,0 +1,94 @@
+{
+ "id": "words-for-thinking-analyze-infer-evaluate",
+ "title": "Words for thinking: analyze, infer, evaluate",
+ "band": "Grades 7–8",
+ "minutes": 14,
+ "lede": "The verbs teachers, tests and bosses use when they want you to think, not just remember.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Why these matter\nQuestions use these words to tell you exactly what kind of thinking they want. \"Describe\" and \"evaluate\" ask for completely different answers. Misread the verb and you answer the wrong question."
+  },
+  {
+   "type": "text",
+   "md": "| Word | Meaning | In a sentence |\n|---|---|---|\n| **analyze** | break into parts to see how it works | Analyze last month's costs by category. |\n| **infer** | conclude from evidence that isn't stated directly | From his silence, I inferred he wasn't interested. |\n| **evaluate** | judge the value or quality of | Evaluate both offers before you sign. |\n| **synthesize** | combine ideas into something new | She synthesized three reports into one plan. |\n| **interpret** | explain the meaning of | How do you interpret this clause? |\n| **justify** | give reasons that support | Justify the price increase with numbers. |\n| **distinguish** | show the difference between | Distinguish fixed costs from variable costs. |\n| **hypothesize** | propose a possible explanation to test | We hypothesized that the late loads were a routing issue. |"
+  },
+  {
+   "type": "note",
+   "label": "Infer vs imply",
+   "md": "The speaker **implies** (hints). The listener **infers** (figures it out). \"He implied the deal was dead; I inferred we should move on.\""
+  },
+  {
+   "type": "example",
+   "title": "Match the verb to the task",
+   "problem": "\"Evaluate the new dispatch software.\"",
+   "steps": [
+    "Describing its features isn't enough.",
+    "Evaluate means judge: Is it worth it? What are its strengths and weaknesses? What's your verdict?"
+   ],
+   "answer": "Give a **judgment with reasons**."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"Analyze\" asks you to…",
+   "options": [
+    "Summarize briefly",
+    "Break something into parts to understand it",
+    "Memorize it",
+    "Agree with it"
+   ],
+   "answer": 1,
+   "why": "Analysis = taking apart."
+  },
+  {
+   "type": "mc",
+   "q": "A text says, \"She checked her watch for the fifth time.\" You conclude she's impatient. You…",
+   "options": [
+    "implied",
+    "inferred",
+    "evaluated",
+    "synthesized"
+   ],
+   "answer": 1,
+   "why": "You drew a conclusion from evidence."
+  },
+  {
+   "type": "mc",
+   "q": "\"Justify your answer\" means…",
+   "options": [
+    "Give reasons that support it",
+    "Make it longer",
+    "Check the spelling",
+    "Say it louder"
+   ],
+   "answer": 0,
+   "why": "Back it up."
+  },
+  {
+   "type": "mc",
+   "q": "Combining three articles into one new argument is…",
+   "options": [
+    "Analyzing",
+    "Synthesizing",
+    "Inferring",
+    "Distinguishing"
+   ],
+   "answer": 1,
+   "why": "Synthesis creates something new from parts."
+  },
+  {
+   "type": "mc",
+   "q": "Fill in: \"His tone ___ that he wasn't happy, though he never said so.\"",
+   "options": [
+    "inferred",
+    "implied",
+    "evaluated",
+    "analyzed"
+   ],
+   "answer": 1,
+   "why": "The speaker implies."
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "id": "square-roots-and-irrational-numbers",
+ "title": "Square roots and irrational numbers",
+ "band": "Grade 8",
+ "minutes": 16,
+ "lede": "Undoing a square, estimating roots in your head, and the numbers that never end.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Square roots\nThe **square root** of a number is what you square to get it. √49 = 7 because 7² = 49.\n\nPerfect squares to know cold: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225."
+  },
+  {
+   "type": "text",
+   "md": "## Estimating\nTo estimate √50, find the perfect squares around it: 49 < 50 < 64, so √50 is between 7 and 8, very close to 7 (since 50 is right next to 49). √50 ≈ 7.07."
+  },
+  {
+   "type": "text",
+   "md": "## Rational vs irrational\n- **Rational** numbers can be written as a fraction of integers: 3, −2/5, 0.75, 0.333… (= 1/3). Their decimals either stop or repeat.\n- **Irrational** numbers can't. Their decimals go on forever with no repeating pattern: √2 = 1.41421356…, π = 3.14159265…\n\nThe square root of any whole number that isn't a perfect square is irrational."
+  },
+  {
+   "type": "text",
+   "md": "## Cube roots\n∛27 = 3 because 3³ = 27. Unlike square roots, cube roots of negatives work: ∛(−8) = −2."
+  },
+  {
+   "type": "example",
+   "title": "Simplifying a root",
+   "problem": "√72",
+   "steps": [
+    "Find the largest perfect square factor: 72 = 36 × 2.",
+    "√72 = √36 × √2 = 6√2."
+   ],
+   "answer": "**6√2** (about 8.49)"
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "√144 = ?",
+   "answer": 12,
+   "why": "12² = 144.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "√50 is between…",
+   "options": [
+    "5 and 6",
+    "6 and 7",
+    "7 and 8",
+    "8 and 9"
+   ],
+   "answer": 2,
+   "why": "49 < 50 < 64."
+  },
+  {
+   "type": "mc",
+   "q": "Which is irrational?",
+   "options": [
+    "0.75",
+    "√16",
+    "√3",
+    "2/7"
+   ],
+   "answer": 2,
+   "why": "3 isn't a perfect square."
+  },
+  {
+   "type": "mc",
+   "q": "0.333… (repeating) is…",
+   "options": [
+    "Irrational",
+    "Rational, equal to 1/3",
+    "Not a real number",
+    "Equal to 0.3"
+   ],
+   "answer": 1,
+   "why": "Repeating decimals are rational."
+  },
+  {
+   "type": "num",
+   "q": "∛(−8) = ?",
+   "answer": -2,
+   "why": "(−2)³ = −8.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Simplify √72.",
+   "options": [
+    "6√2",
+    "8√9",
+    "36√2",
+    "2√6"
+   ],
+   "answer": 0,
+   "why": "√36 × √2."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Grade 7 standards overview (Common Core, via LibreTexts)",
+   "url": "https://math.libretexts.org/Courses/Coalinga_College/Math_for_Educators_(MATH_010A_and_010B_CID120)/01%3A_Teaching_Elementary_Mathematics/1.04%3A_Common_Core_Standards_for_Mathematics/1.4.08%3A_Grade_7_Standards_Overview"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "id": "evidence-and-explanation",
+ "title": "Evidence and explanation",
+ "band": "Grades 7–8",
+ "minutes": 16,
+ "lede": "Claims need proof, and proof needs explaining. The C-E-R pattern does both.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Claim, Evidence, Reasoning\nA strong paragraph has three parts:\n\n1. **Claim:** what you're saying (the topic sentence).\n2. **Evidence:** facts, numbers, examples or quotes that support it.\n3. **Reasoning:** how the evidence proves the claim. This is the part most people skip."
+  },
+  {
+   "type": "example",
+   "title": "C-E-R in action",
+   "problem": "Claim: \"Switching to the Pilot fuel card was worth it.\"",
+   "steps": [
+    "Evidence: \"Our average price dropped from $3.89 to $3.62 a gallon, and we buy about 2,000 gallons a month.\"",
+    "Reasoning: \"That 27-cent discount saves about $540 a month, which covers the card's annual fee in the first week.\""
+   ],
+   "answer": "Claim → proof → why the proof matters."
+  },
+  {
+   "type": "text",
+   "md": "## Good evidence is\n- **Specific:** numbers and names beat \"a lot\" and \"some people.\"\n- **Relevant:** it supports **this** claim, not a nearby one.\n- **Credible:** from a source the reader trusts."
+  },
+  {
+   "type": "note",
+   "label": "Don't drop a quote and run",
+   "md": "Never end a paragraph on evidence. After every fact or quote, add at least one sentence explaining what it shows."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which part of C-E-R explains HOW the evidence supports the claim?",
+   "options": [
+    "Claim",
+    "Evidence",
+    "Reasoning",
+    "Conclusion"
+   ],
+   "answer": 2,
+   "why": "Reasoning connects the dots."
+  },
+  {
+   "type": "mc",
+   "q": "Which is the best evidence for \"Our new route is faster\"?",
+   "options": [
+    "Drivers like it.",
+    "It's a nicer drive.",
+    "Average trip time dropped from 6.5 to 5.4 hours over 40 trips.",
+    "Everyone says so."
+   ],
+   "answer": 2,
+   "why": "Specific, measurable, relevant."
+  },
+  {
+   "type": "mc",
+   "q": "What's wrong with ending a paragraph on a quote?",
+   "options": [
+    "Nothing",
+    "The reader doesn't know what it proves",
+    "Quotes are illegal",
+    "It's too short"
+   ],
+   "answer": 1,
+   "why": "Explain what the evidence shows."
+  },
+  {
+   "type": "mc",
+   "q": "\"Some people think\" is weak evidence because it's…",
+   "options": [
+    "Too specific",
+    "Vague and unsourced",
+    "Too long",
+    "Too formal"
+   ],
+   "answer": 1,
+   "why": "Who? How many?"
+  }
+ ]
+}

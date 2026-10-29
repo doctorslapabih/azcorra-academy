@@ -1,0 +1,90 @@
+{
+ "id": "words-for-change-and-cause",
+ "title": "Words for change and cause",
+ "band": "Grades 7–8",
+ "minutes": 14,
+ "lede": "Precise words for how things change and why they happen.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "| Word | Meaning | In a sentence |\n|---|---|---|\n| **fluctuate** | rise and fall irregularly | Fuel prices fluctuate every week. |\n| **escalate** | increase quickly or get more intense | The argument escalated into a lawsuit. |\n| **diminish** | become smaller or weaker | Profits diminished after the rate cut. |\n| **transform** | change completely | Automation transformed the warehouse. |\n| **catalyst** | something that causes change | The new contract was a catalyst for growth. |\n| **consequence** | a result, often of an action | Late payments have consequences. |\n| **precipitate** | cause something to happen suddenly | The storm precipitated a wave of cancellations. |\n| **mitigate** | make less severe | Insurance mitigates the risk of a wreck. |\n| **exacerbate** | make worse | Skipping maintenance exacerbated the problem. |\n| **stagnate** | stop developing or moving | Sales stagnated over the summer. |"
+  },
+  {
+   "type": "note",
+   "label": "Mitigate vs exacerbate",
+   "md": "These are opposites, and both are high-value words. You **mitigate** a risk (reduce it) and **exacerbate** a problem (worsen it)."
+  },
+  {
+   "type": "example",
+   "title": "Choosing the precise word",
+   "problem": "\"Prices went up and down all month.\"",
+   "steps": [
+    "\"Went up and down\" is vague.",
+    "The single word for irregular rising and falling is fluctuate."
+   ],
+   "answer": "\"Prices **fluctuated** all month.\""
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "A word for \"make less severe\":",
+   "options": [
+    "exacerbate",
+    "mitigate",
+    "escalate",
+    "precipitate"
+   ],
+   "answer": 1,
+   "why": "Mitigate a risk."
+  },
+  {
+   "type": "mc",
+   "q": "\"The new manager was the ___ for a total turnaround.\"",
+   "options": [
+    "consequence",
+    "catalyst",
+    "stagnation",
+    "fluctuation"
+   ],
+   "answer": 1,
+   "why": "A catalyst causes change."
+  },
+  {
+   "type": "mc",
+   "q": "If tension escalates, it…",
+   "options": [
+    "Disappears",
+    "Increases",
+    "Stays the same",
+    "Goes up and down"
+   ],
+   "answer": 1,
+   "why": "Escalate = intensify."
+  },
+  {
+   "type": "mc",
+   "q": "The opposite of \"mitigate\" is…",
+   "options": [
+    "exacerbate",
+    "diminish",
+    "transform",
+    "fluctuate"
+   ],
+   "answer": 0,
+   "why": "Make worse."
+  },
+  {
+   "type": "mc",
+   "q": "\"Revenue ___ for three years: no growth, no decline.\"",
+   "options": [
+    "escalated",
+    "fluctuated",
+    "stagnated",
+    "precipitated"
+   ],
+   "answer": 2,
+   "why": "Stagnate = stop moving."
+  }
+ ]
+}

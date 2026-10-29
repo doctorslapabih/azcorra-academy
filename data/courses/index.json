@@ -52,32 +52,38 @@
      {
       "id": "variables-and-expressions",
       "title": "Variables and expressions",
-      "ready": false
+      "ready": true,
+      "desc": "Letters stand for numbers you don't know yet. Here's how to write, simplify and evaluate expressions."
      },
      {
       "id": "solving-one-and-two-step-equations",
       "title": "Solving one- and two-step equations",
-      "ready": false
+      "ready": true,
+      "desc": "An equation is a balance. Whatever you do to one side, do to the other, and the unknown falls out."
      },
      {
       "id": "multi-step-equations",
       "title": "Multi-step equations",
-      "ready": false
+      "ready": true,
+      "desc": "Variables on both sides, parentheses and fractions: one clean process handles them all."
      },
      {
       "id": "inequalities",
       "title": "Inequalities",
-      "ready": false
+      "ready": true,
+      "desc": "Solving for a range of answers instead of one, and the one rule that trips everyone up."
      },
      {
       "id": "exponents-and-scientific-notation",
       "title": "Exponents and scientific notation",
-      "ready": false
+      "ready": true,
+      "desc": "Repeated multiplication, the exponent rules, and how scientists write huge and tiny numbers."
      },
      {
       "id": "square-roots-and-irrational-numbers",
       "title": "Square roots and irrational numbers",
-      "ready": false
+      "ready": true,
+      "desc": "Undoing a square, estimating roots in your head, and the numbers that never end."
      }
     ]
    },
@@ -385,22 +391,26 @@
      {
       "id": "words-for-thinking-analyze-infer-evaluate",
       "title": "Words for thinking: analyze, infer, evaluate",
-      "ready": false
+      "ready": true,
+      "desc": "The verbs teachers, tests and bosses use when they want you to think, not just remember."
      },
      {
       "id": "words-for-change-and-cause",
       "title": "Words for change and cause",
-      "ready": false
+      "ready": true,
+      "desc": "Precise words for how things change and why they happen."
      },
      {
       "id": "words-for-amount-and-degree",
       "title": "Words for amount and degree",
-      "ready": false
+      "ready": true,
+      "desc": "Ditch \"a lot,\" \"very\" and \"kind of.\" These words say exactly how much."
      },
      {
       "id": "words-for-people-and-character",
       "title": "Words for people and character",
-      "ready": false
+      "ready": true,
+      "desc": "Describe people precisely: in reviews, hiring, stories and deals."
      }
     ]
    },
@@ -589,22 +599,26 @@
      {
       "id": "topic-sentences",
       "title": "Topic sentences",
-      "ready": false
+      "ready": true,
+      "desc": "The first sentence of a paragraph should tell the reader exactly what the paragraph will prove."
      },
      {
       "id": "evidence-and-explanation",
       "title": "Evidence and explanation",
-      "ready": false
+      "ready": true,
+      "desc": "Claims need proof, and proof needs explaining. The C-E-R pattern does both."
      },
      {
       "id": "transitions",
       "title": "Transitions",
-      "ready": false
+      "ready": true,
+      "desc": "Transition words tell the reader how one idea connects to the next."
      },
      {
       "id": "concision-cutting-the-fat",
       "title": "Concision: cutting the fat",
-      "ready": false
+      "ready": true,
+      "desc": "Say it in fewer words. Every word you cut makes the rest hit harder."
      }
     ]
    },
@@ -797,22 +811,26 @@
      {
       "id": "atoms-and-their-parts",
       "title": "Atoms and their parts",
-      "ready": false
+      "ready": true,
+      "desc": "Everything you can touch is made of atoms. Here's what's inside one."
      },
      {
       "id": "the-periodic-table",
       "title": "The periodic table",
-      "ready": false
+      "ready": true,
+      "desc": "The periodic table is a map. Once you can read it, you can predict how elements behave."
      },
      {
       "id": "states-of-matter",
       "title": "States of matter",
-      "ready": false
+      "ready": true,
+      "desc": "Solid, liquid, gas: what's really different is how fast the particles move."
      },
      {
       "id": "chemical-reactions",
       "title": "Chemical reactions",
-      "ready": false
+      "ready": true,
+      "desc": "Atoms rearrange, nothing is lost, and equations have to balance."
      }
     ]
    },

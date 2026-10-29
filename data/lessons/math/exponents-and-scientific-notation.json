@@ -1,0 +1,114 @@
+{
+ "id": "exponents-and-scientific-notation",
+ "title": "Exponents and scientific notation",
+ "band": "Grade 8",
+ "minutes": 20,
+ "lede": "Repeated multiplication, the exponent rules, and how scientists write huge and tiny numbers.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What an exponent means\n2⁵ means 2 × 2 × 2 × 2 × 2 = 32. The 2 is the **base**; the 5 is the **exponent**, telling you how many times to multiply the base by itself."
+  },
+  {
+   "type": "text",
+   "md": "## The rules\n| Rule | Example | Why |\n|---|---|---|\n| aᵐ × aⁿ = aᵐ⁺ⁿ | x³ × x⁴ = x⁷ | 3 x's times 4 x's is 7 x's |\n| aᵐ ÷ aⁿ = aᵐ⁻ⁿ | x⁶ ÷ x² = x⁴ | Two x's cancel |\n| (aᵐ)ⁿ = aᵐⁿ | (x²)³ = x⁶ | Three groups of two |\n| a⁰ = 1 | 7⁰ = 1 | x³ ÷ x³ = 1 = x⁰ |\n| a⁻ⁿ = 1/aⁿ | 2⁻³ = 1/8 | Keep dividing by 2 |"
+  },
+  {
+   "type": "note",
+   "label": "Common trap",
+   "md": "x² + x³ is **not** x⁵. The rules work for multiplying and dividing, not adding. You can't combine x² + x³ at all."
+  },
+  {
+   "type": "text",
+   "md": "## Scientific notation\nWrite a number as (a number from 1 to just under 10) × (a power of 10).\n\n- 5,800,000 = 5.8 × 10⁶ (move the decimal 6 places left)\n- 0.00042 = 4.2 × 10⁻⁴ (move it 4 places right)\n\nBig numbers get positive exponents; tiny numbers get negative ones."
+  },
+  {
+   "type": "example",
+   "title": "Multiply in scientific notation",
+   "problem": "(3 × 10⁴) × (5 × 10³)",
+   "steps": [
+    "Multiply the front numbers: 3 × 5 = 15.",
+    "Add the exponents: 10⁴ × 10³ = 10⁷.",
+    "15 × 10⁷ isn't proper form, so rewrite: 1.5 × 10⁸."
+   ],
+   "answer": "**1.5 × 10⁸**"
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "2⁵ = ?",
+   "answer": 32,
+   "why": "2 × 2 × 2 × 2 × 2.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "x³ × x⁴ = ?",
+   "options": [
+    "x¹²",
+    "x⁷",
+    "2x⁷",
+    "x"
+   ],
+   "answer": 1,
+   "why": "Add exponents."
+  },
+  {
+   "type": "mc",
+   "q": "(x²)³ = ?",
+   "options": [
+    "x⁵",
+    "x⁶",
+    "x⁸",
+    "3x²"
+   ],
+   "answer": 1,
+   "why": "Multiply exponents."
+  },
+  {
+   "type": "num",
+   "q": "5⁰ = ?",
+   "answer": 1,
+   "why": "Anything (except 0) to the zero power is 1.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "2⁻³ as a decimal = ?",
+   "answer": 0.125,
+   "why": "1/8.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "5,800,000 in scientific notation:",
+   "options": [
+    "58 × 10⁵",
+    "5.8 × 10⁶",
+    "5.8 × 10⁵",
+    "0.58 × 10⁷"
+   ],
+   "answer": 1,
+   "why": "Decimal moves 6 places."
+  },
+  {
+   "type": "mc",
+   "q": "(3 × 10⁴)(5 × 10³) = ?",
+   "options": [
+    "15 × 10¹²",
+    "1.5 × 10⁸",
+    "8 × 10⁷",
+    "1.5 × 10⁷"
+   ],
+   "answer": 1,
+   "why": "15 × 10⁷ = 1.5 × 10⁸."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Grade 7 standards overview (Common Core, via LibreTexts)",
+   "url": "https://math.libretexts.org/Courses/Coalinga_College/Math_for_Educators_(MATH_010A_and_010B_CID120)/01%3A_Teaching_Elementary_Mathematics/1.04%3A_Common_Core_Standards_for_Mathematics/1.4.08%3A_Grade_7_Standards_Overview"
+  }
+ ]
+}

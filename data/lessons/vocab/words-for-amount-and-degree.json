@@ -1,0 +1,89 @@
+{
+ "id": "words-for-amount-and-degree",
+ "title": "Words for amount and degree",
+ "band": "Grades 7–8",
+ "minutes": 14,
+ "lede": "Ditch \"a lot,\" \"very\" and \"kind of.\" These words say exactly how much.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "| Word | Meaning | In a sentence |\n|---|---|---|\n| **abundant** | more than enough | Work is abundant in peak season. |\n| **scarce** | in short supply | Drivers were scarce during the shortage. |\n| **negligible** | so small it doesn't matter | The price difference is negligible. |\n| **substantial** | large in size or importance | A substantial raise. |\n| **marginal** | small, at the edge | A marginal improvement. |\n| **excessive** | more than is reasonable | Excessive idling wastes fuel. |\n| **adequate** | enough, but no more | The pay was adequate. |\n| **comprehensive** | including everything | A comprehensive inspection. |\n| **meager** | too small or too little | A meager profit. |\n| **exponential** | growing faster and faster, by multiplying | Exponential growth in orders. |"
+  },
+  {
+   "type": "note",
+   "label": "Exponential is a math word",
+   "md": "People often use \"exponential\" to mean \"big.\" Strictly, it means growth by repeated multiplication, like doubling every month. Use it when that's what you mean."
+  },
+  {
+   "type": "example",
+   "title": "Upgrade the sentence",
+   "problem": "\"The fee is really small, so it kind of doesn't matter.\"",
+   "steps": [
+    "Replace the vague words with one precise one."
+   ],
+   "answer": "\"The fee is **negligible**.\""
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"Negligible\" means…",
+   "options": [
+    "Huge",
+    "So small it doesn't matter",
+    "Illegal",
+    "Ignored on purpose"
+   ],
+   "answer": 1,
+   "why": "Small enough to neglect."
+  },
+  {
+   "type": "mc",
+   "q": "The opposite of \"scarce\":",
+   "options": [
+    "meager",
+    "abundant",
+    "marginal",
+    "adequate"
+   ],
+   "answer": 1,
+   "why": "More than enough."
+  },
+  {
+   "type": "mc",
+   "q": "\"The pay was ___\" means it was enough but nothing special.",
+   "options": [
+    "excessive",
+    "adequate",
+    "substantial",
+    "exponential"
+   ],
+   "answer": 1,
+   "why": "Adequate = just enough."
+  },
+  {
+   "type": "mc",
+   "q": "A \"comprehensive\" plan…",
+   "options": [
+    "Covers everything",
+    "Is easy to understand",
+    "Is cheap",
+    "Is short"
+   ],
+   "answer": 0,
+   "why": "Comprehensive = complete."
+  },
+  {
+   "type": "mc",
+   "q": "Which describes growth that doubles every month?",
+   "options": [
+    "Marginal",
+    "Exponential",
+    "Adequate",
+    "Negligible"
+   ],
+   "answer": 1,
+   "why": "Repeated multiplication."
+  }
+ ]
+}

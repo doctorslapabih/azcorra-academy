@@ -3,6 +3,8 @@ import { esc, fmtDate, pct, spark, toast, copyText, renderMath } from "./ui.js";
 import * as store from "./store.js";
 import { GAMES, ABILITIES, find } from "./games/index.js";
 import { renderLesson, loadCatalog, loadCourse } from "./course.js";
+import * as api from "./os/api.js";
+import * as os from "./os/views.js";
 
 const app = document.getElementById("app");
 
@@ -39,7 +41,7 @@ function todaysSet() {
 
 /* ---------------- pages ---------------- */
 async function home() {
-  setNav("home");
+  setNav("academy");
   const st = store.all();
   const done = Object.values(st.lessons).filter(l => l.complete).length;
   const last = st.sessions[0];
@@ -258,7 +260,14 @@ function notFound() {
 async function route() {
   const parts = (location.hash.replace(/^#\/?/, "") || "").split("/").filter(Boolean);
   window.scrollTo(0, 0);
-  if (!parts.length) await home();
+  const priv = await api.online();
+  document.body.classList.toggle("is-private", priv);
+  if (!parts.length) { if (priv) { setNav("dashboard"); await os.dashboard(app); } else await home(); }
+  else if (parts[0] === "academy") await home();
+  else if (parts[0] === "p" && parts[1]) { setNav(parts[1].startsWith("chapter") || parts[1] === "claude-iq" ? "notebook" : "dashboard"); await os.page(app, parts[1]); }
+  else if (parts[0] === "db" && parts[1] && parts[2]) { setNav(parts[1] === "notebook" ? "notebook" : "dashboard"); await os.row(app, parts[1], parts[2]); }
+  else if (parts[0] === "db" && parts[1]) { setNav(parts[1] === "notebook" ? "notebook" : "dashboard"); await os.database(app, parts[1]); }
+  else if (parts[0] === "notebook") { setNav("notebook"); await os.notebook(app); }
   else if (parts[0] === "lab" && !parts[1]) lab();
   else if (parts[0] === "lab" && parts[1] === "understanding-iq") await understanding();
   else if (parts[0] === "lab") game(parts[1]);
@@ -270,6 +279,8 @@ async function route() {
   renderMath(app);
 }
 window.addEventListener("hashchange", route);
+store.onSession(rec => os.fileToNotebook(rec));
+api.online().then(ok => { if (ok) store.connect(api); });
 route();
 
 /* ---------------- install + offline ---------------- */

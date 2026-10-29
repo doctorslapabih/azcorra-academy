@@ -17,8 +17,35 @@ function load() {
 
 let state = load();
 
+let remote = null;          // { put(data) } once the private API is reachable
+let pushTimer = null;
+const listeners = [];
+
 export function save() {
   try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { /* storage full or blocked */ }
+  if (remote) { clearTimeout(pushTimer); pushTimer = setTimeout(() => remote.put(state).catch(() => {}), 800); }
+}
+
+export function onSession(fn) { listeners.push(fn); }
+
+// Merge with the copy saved in the private database, then keep it in sync.
+export async function connect(api) {
+  let saved = null;
+  try { saved = await api.get("app", "progress"); } catch (e) { return false; }
+  if (saved && saved.data) {
+    const other = Object.assign(blank(), saved.data);
+    const ids = new Set(state.sessions.map(x => x.id));
+    state.sessions = state.sessions.concat(other.sessions.filter(x => !ids.has(x.id))).sort((a, b) => (a.at < b.at ? 1 : -1));
+    for (const k of Object.keys(other.levels)) state.levels[k] = Math.max(state.levels[k] || 1, other.levels[k] || 1);
+    for (const k of Object.keys(other.best)) if (!state.best[k] || (other.best[k].norm || 0) > (state.best[k].norm || 0)) state.best[k] = other.best[k];
+    for (const k of Object.keys(other.lessons)) {
+      const a = state.lessons[k] || {}, b = other.lessons[k] || {};
+      state.lessons[k] = Object.assign({}, b, a, { best: Math.max(a.best || 0, b.best || 0), complete: !!(a.complete || b.complete), myNotes: a.myNotes || b.myNotes });
+    }
+  }
+  remote = { put: data => api.put("app", "progress", data) };
+  save();
+  return true;
 }
 
 export function all() { return state; }
@@ -31,6 +58,7 @@ export function addSession(s) {
     if (!b || (s.norm || 0) > (b.norm || 0)) state.best[s.game] = { norm: s.norm, score: s.score, max: s.max, at: rec.at };
   }
   save();
+  listeners.forEach(fn => { try { fn(rec); } catch (e) { /* ignore */ } });
   return rec;
 }
 

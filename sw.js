@@ -1,8 +1,9 @@
 // Offline support: app shell is cached on install; everything else is cached as it's fetched.
-const VERSION = "azcorra-v3";
+const VERSION = "azcorra-v4";
 const SHELL = [
   "./", "index.html", "css/app.css", "manifest.webmanifest", "icons/favicon.svg", "icons/icon-192.png",
   "js/app.js", "js/ui.js", "js/store.js", "js/course.js",
+  "js/os/api.js", "js/os/notion.js", "js/os/schemas.js", "js/os/views.js",
   "js/games/index.js", "js/games/common.js", "js/games/banks.js", "js/games/matrix.js", "js/games/series.js",
   "js/games/span.js", "js/games/nback.js", "js/games/speed.js", "js/games/rotation.js", "js/games/analogies.js", "js/games/logic.js",
   "data/courses/index.json", "data/iq/understanding-iq.json"
@@ -14,6 +15,7 @@ self.addEventListener("activate", e => {
 // Network first (so new lessons show up), falling back to cache when offline.
 self.addEventListener("fetch", e => {
   if (e.request.method !== "GET") return;
+  if (new URL(e.request.url).pathname.includes("/api/")) return; // private data is never cached
   e.respondWith(
     fetch(e.request).then(res => {
       if (res && (res.ok || res.type === "opaque")) { const copy = res.clone(); caches.open(VERSION).then(c => c.put(e.request, copy)); }

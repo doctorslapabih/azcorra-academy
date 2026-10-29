@@ -1,0 +1,994 @@
+[
+ {
+  "id": "math",
+  "title": "Mathematics",
+  "code": "MATH",
+  "span": "Grade 7 → AP Calculus",
+  "blurb": "From fractions and negatives to derivatives and integrals, one step at a time.",
+  "intro": "The full path from middle-school number sense to AP Calculus. Each unit builds on the last, so go in order. Every lesson has worked examples and practice you type answers into.",
+  "units": [
+   {
+    "title": "Number Sense",
+    "band": "Grade 7",
+    "summary": "Negatives, fractions, decimals, percents and ratios: the tools everything else uses.",
+    "lessons": [
+     {
+      "id": "integers-and-negative-numbers",
+      "title": "Integers and negative numbers",
+      "ready": false
+     },
+     {
+      "id": "fractions-the-complete-toolkit",
+      "title": "Fractions: the complete toolkit",
+      "ready": false
+     },
+     {
+      "id": "decimals-and-percents",
+      "title": "Decimals and percents",
+      "ready": false
+     },
+     {
+      "id": "ratios-rates-and-unit-rates",
+      "title": "Ratios, rates and unit rates",
+      "ready": false
+     },
+     {
+      "id": "proportions-and-scaling",
+      "title": "Proportions and scaling",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Expressions & Equations",
+    "band": "Grades 7–8",
+    "summary": "Using letters for unknowns and solving for them.",
+    "lessons": [
+     {
+      "id": "variables-and-expressions",
+      "title": "Variables and expressions",
+      "ready": false
+     },
+     {
+      "id": "solving-one-and-two-step-equations",
+      "title": "Solving one- and two-step equations",
+      "ready": false
+     },
+     {
+      "id": "multi-step-equations",
+      "title": "Multi-step equations",
+      "ready": false
+     },
+     {
+      "id": "inequalities",
+      "title": "Inequalities",
+      "ready": false
+     },
+     {
+      "id": "exponents-and-scientific-notation",
+      "title": "Exponents and scientific notation",
+      "ready": false
+     },
+     {
+      "id": "square-roots-and-irrational-numbers",
+      "title": "Square roots and irrational numbers",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Geometry Foundations",
+    "band": "Grades 7–8",
+    "summary": "Angles, area, volume and the Pythagorean theorem.",
+    "lessons": [
+     {
+      "id": "angles-and-lines",
+      "title": "Angles and lines",
+      "ready": false
+     },
+     {
+      "id": "area-and-perimeter",
+      "title": "Area and perimeter",
+      "ready": false
+     },
+     {
+      "id": "circles-and-pi",
+      "title": "Circles and pi",
+      "ready": false
+     },
+     {
+      "id": "volume-and-surface-area",
+      "title": "Volume and surface area",
+      "ready": false
+     },
+     {
+      "id": "the-pythagorean-theorem",
+      "title": "The Pythagorean theorem",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Statistics & Probability",
+    "band": "Grades 7–8",
+    "summary": "Summarizing data and measuring chance.",
+    "lessons": [
+     {
+      "id": "mean-median-mode-and-range",
+      "title": "Mean, median, mode and range",
+      "ready": false
+     },
+     {
+      "id": "reading-and-making-data-displays",
+      "title": "Reading and making data displays",
+      "ready": false
+     },
+     {
+      "id": "probability-basics",
+      "title": "Probability basics",
+      "ready": false
+     },
+     {
+      "id": "compound-probability-and-expected-value",
+      "title": "Compound probability and expected value",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Algebra 1",
+    "band": "Grade 9",
+    "summary": "Linear functions, systems, polynomials and quadratics.",
+    "lessons": [
+     {
+      "id": "functions-and-slope",
+      "title": "Functions and slope",
+      "ready": false
+     },
+     {
+      "id": "writing-linear-equations",
+      "title": "Writing linear equations",
+      "ready": false
+     },
+     {
+      "id": "systems-of-equations",
+      "title": "Systems of equations",
+      "ready": false
+     },
+     {
+      "id": "polynomials",
+      "title": "Polynomials",
+      "ready": false
+     },
+     {
+      "id": "factoring",
+      "title": "Factoring",
+      "ready": false
+     },
+     {
+      "id": "quadratic-equations",
+      "title": "Quadratic equations",
+      "ready": false
+     },
+     {
+      "id": "exponential-growth-and-decay",
+      "title": "Exponential growth and decay",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Geometry",
+    "band": "Grade 10",
+    "summary": "Proof, similarity and right-triangle trigonometry.",
+    "lessons": [
+     {
+      "id": "logic-and-proof",
+      "title": "Logic and proof",
+      "ready": false
+     },
+     {
+      "id": "congruence-and-similarity",
+      "title": "Congruence and similarity",
+      "ready": false
+     },
+     {
+      "id": "right-triangle-trigonometry",
+      "title": "Right-triangle trigonometry",
+      "ready": false
+     },
+     {
+      "id": "coordinate-geometry",
+      "title": "Coordinate geometry",
+      "ready": false
+     },
+     {
+      "id": "circle-theorems",
+      "title": "Circle theorems",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Algebra 2",
+    "band": "Grade 11",
+    "summary": "Function families, logarithms and sequences.",
+    "lessons": [
+     {
+      "id": "function-transformations",
+      "title": "Function transformations",
+      "ready": false
+     },
+     {
+      "id": "polynomial-functions-and-roots",
+      "title": "Polynomial functions and roots",
+      "ready": false
+     },
+     {
+      "id": "rational-functions",
+      "title": "Rational functions",
+      "ready": false
+     },
+     {
+      "id": "exponentials-and-logarithms",
+      "title": "Exponentials and logarithms",
+      "ready": false
+     },
+     {
+      "id": "sequences-and-series",
+      "title": "Sequences and series",
+      "ready": false
+     },
+     {
+      "id": "complex-numbers",
+      "title": "Complex numbers",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Precalculus",
+    "band": "Grade 11–12",
+    "summary": "The unit circle, trig identities and the idea of a limit.",
+    "lessons": [
+     {
+      "id": "the-unit-circle-and-radians",
+      "title": "The unit circle and radians",
+      "ready": false
+     },
+     {
+      "id": "graphs-of-trig-functions",
+      "title": "Graphs of trig functions",
+      "ready": false
+     },
+     {
+      "id": "trig-identities",
+      "title": "Trig identities",
+      "ready": false
+     },
+     {
+      "id": "vectors",
+      "title": "Vectors",
+      "ready": false
+     },
+     {
+      "id": "introduction-to-limits",
+      "title": "Introduction to limits",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "AP Calculus AB",
+    "band": "AP",
+    "summary": "Limits, derivatives, integrals and the Fundamental Theorem.",
+    "lessons": [
+     {
+      "id": "limits-and-continuity",
+      "title": "Limits and continuity",
+      "ready": false
+     },
+     {
+      "id": "the-derivative-as-a-rate-of-change",
+      "title": "The derivative as a rate of change",
+      "ready": false
+     },
+     {
+      "id": "derivative-rules",
+      "title": "Derivative rules",
+      "ready": false
+     },
+     {
+      "id": "applications-of-derivatives",
+      "title": "Applications of derivatives",
+      "ready": false
+     },
+     {
+      "id": "optimization",
+      "title": "Optimization",
+      "ready": false
+     },
+     {
+      "id": "the-integral-and-area",
+      "title": "The integral and area",
+      "ready": false
+     },
+     {
+      "id": "the-fundamental-theorem-of-calculus",
+      "title": "The Fundamental Theorem of Calculus",
+      "ready": false
+     },
+     {
+      "id": "applications-of-integrals",
+      "title": "Applications of integrals",
+      "ready": false
+     },
+     {
+      "id": "differential-equations",
+      "title": "Differential equations",
+      "ready": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vocab",
+  "title": "Vocabulary",
+  "code": "VOCAB",
+  "span": "Grade 7 → SAT & AP",
+  "blurb": "Roots, context clues and 600+ words that sharpen how you read, write and talk.",
+  "intro": "Vocabulary is the fastest way to grow crystallized knowledge. You'll learn how words are built so you can decode new ones, then work through word sets by level.",
+  "units": [
+   {
+    "title": "How Words Work",
+    "band": "Grade 7",
+    "summary": "The decoding toolkit: context, prefixes, suffixes and roots.",
+    "lessons": [
+     {
+      "id": "context-clues",
+      "title": "Context clues",
+      "ready": false
+     },
+     {
+      "id": "prefixes-that-flip-meaning",
+      "title": "Prefixes that flip meaning",
+      "ready": false
+     },
+     {
+      "id": "suffixes-and-parts-of-speech",
+      "title": "Suffixes and parts of speech",
+      "ready": false
+     },
+     {
+      "id": "latin-roots-i",
+      "title": "Latin roots I",
+      "ready": false
+     },
+     {
+      "id": "greek-roots-i",
+      "title": "Greek roots I",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Core Academic Words",
+    "band": "Grades 7–8",
+    "summary": "The words teachers and tests use constantly.",
+    "lessons": [
+     {
+      "id": "words-for-thinking-analyze-infer-evaluate",
+      "title": "Words for thinking: analyze, infer, evaluate",
+      "ready": false
+     },
+     {
+      "id": "words-for-change-and-cause",
+      "title": "Words for change and cause",
+      "ready": false
+     },
+     {
+      "id": "words-for-amount-and-degree",
+      "title": "Words for amount and degree",
+      "ready": false
+     },
+     {
+      "id": "words-for-people-and-character",
+      "title": "Words for people and character",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Roots II & Word Families",
+    "band": "Grades 8–9",
+    "summary": "More roots, and how one root unlocks dozens of words.",
+    "lessons": [
+     {
+      "id": "latin-roots-ii",
+      "title": "Latin roots II",
+      "ready": false
+     },
+     {
+      "id": "greek-roots-ii",
+      "title": "Greek roots II",
+      "ready": false
+     },
+     {
+      "id": "word-families",
+      "title": "Word families",
+      "ready": false
+     },
+     {
+      "id": "number-and-measurement-roots",
+      "title": "Number and measurement roots",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Precision",
+    "band": "Grades 9–10",
+    "summary": "Choosing exactly the right word.",
+    "lessons": [
+     {
+      "id": "connotation-same-meaning-different-feel",
+      "title": "Connotation: same meaning, different feel",
+      "ready": false
+     },
+     {
+      "id": "shades-of-meaning",
+      "title": "Shades of meaning",
+      "ready": false
+     },
+     {
+      "id": "commonly-confused-words",
+      "title": "Commonly confused words",
+      "ready": false
+     },
+     {
+      "id": "idioms-and-figurative-language",
+      "title": "Idioms and figurative language",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "High School Power Words",
+    "band": "Grades 10–11",
+    "summary": "Words that make writing and speaking sharper.",
+    "lessons": [
+     {
+      "id": "power-words-set-1",
+      "title": "Power words set 1",
+      "ready": false
+     },
+     {
+      "id": "power-words-set-2",
+      "title": "Power words set 2",
+      "ready": false
+     },
+     {
+      "id": "power-words-set-3",
+      "title": "Power words set 3",
+      "ready": false
+     },
+     {
+      "id": "power-words-set-4",
+      "title": "Power words set 4",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "SAT & AP Level",
+    "band": "Grades 11–12",
+    "summary": "Advanced words, words in context and rhetoric vocabulary.",
+    "lessons": [
+     {
+      "id": "advanced-set-1",
+      "title": "Advanced set 1",
+      "ready": false
+     },
+     {
+      "id": "advanced-set-2",
+      "title": "Advanced set 2",
+      "ready": false
+     },
+     {
+      "id": "words-in-context",
+      "title": "Words in context",
+      "ready": false
+     },
+     {
+      "id": "the-vocabulary-of-rhetoric",
+      "title": "The vocabulary of rhetoric",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Words for Business & Money",
+    "band": "Applied",
+    "summary": "The vocabulary of deals, contracts and markets.",
+    "lessons": [
+     {
+      "id": "finance-and-markets",
+      "title": "Finance and markets",
+      "ready": false
+     },
+     {
+      "id": "contracts-and-negotiation",
+      "title": "Contracts and negotiation",
+      "ready": false
+     },
+     {
+      "id": "management-and-operations",
+      "title": "Management and operations",
+      "ready": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "writing",
+  "title": "Writing",
+  "code": "WRIT",
+  "span": "Grade 7 → AP Language",
+  "blurb": "Clear sentences, strong paragraphs, persuasive essays and real-world writing that gets results.",
+  "intro": "Good writing is clear thinking on paper. This course goes from sentence mechanics to AP-level rhetorical analysis, with a unit on the writing you actually use: emails, proposals and negotiation.",
+  "units": [
+   {
+    "title": "Sentences",
+    "band": "Grade 7",
+    "summary": "Building complete, correct, punchy sentences.",
+    "lessons": [
+     {
+      "id": "subjects-verbs-and-complete-sentences",
+      "title": "Subjects, verbs and complete sentences",
+      "ready": false
+     },
+     {
+      "id": "fragments-and-run-ons",
+      "title": "Fragments and run-ons",
+      "ready": false
+     },
+     {
+      "id": "punctuation-essentials",
+      "title": "Punctuation essentials",
+      "ready": false
+     },
+     {
+      "id": "commas-without-guessing",
+      "title": "Commas without guessing",
+      "ready": false
+     },
+     {
+      "id": "active-voice",
+      "title": "Active voice",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Paragraphs",
+    "band": "Grades 7–8",
+    "summary": "Organizing ideas so they land.",
+    "lessons": [
+     {
+      "id": "topic-sentences",
+      "title": "Topic sentences",
+      "ready": false
+     },
+     {
+      "id": "evidence-and-explanation",
+      "title": "Evidence and explanation",
+      "ready": false
+     },
+     {
+      "id": "transitions",
+      "title": "Transitions",
+      "ready": false
+     },
+     {
+      "id": "concision-cutting-the-fat",
+      "title": "Concision: cutting the fat",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Grammar for Clarity",
+    "band": "Grades 8–9",
+    "summary": "The grammar rules that change meaning.",
+    "lessons": [
+     {
+      "id": "subject-verb-agreement",
+      "title": "Subject-verb agreement",
+      "ready": false
+     },
+     {
+      "id": "pronouns",
+      "title": "Pronouns",
+      "ready": false
+     },
+     {
+      "id": "misplaced-modifiers",
+      "title": "Misplaced modifiers",
+      "ready": false
+     },
+     {
+      "id": "parallel-structure",
+      "title": "Parallel structure",
+      "ready": false
+     },
+     {
+      "id": "verb-tense-consistency",
+      "title": "Verb tense consistency",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "The Essay",
+    "band": "Grades 9–10",
+    "summary": "Thesis, structure and revision.",
+    "lessons": [
+     {
+      "id": "writing-a-thesis",
+      "title": "Writing a thesis",
+      "ready": false
+     },
+     {
+      "id": "outlining",
+      "title": "Outlining",
+      "ready": false
+     },
+     {
+      "id": "introductions-and-conclusions",
+      "title": "Introductions and conclusions",
+      "ready": false
+     },
+     {
+      "id": "revising-like-an-editor",
+      "title": "Revising like an editor",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Argument",
+    "band": "Grades 10–11",
+    "summary": "Making a case and taking one apart.",
+    "lessons": [
+     {
+      "id": "claims-and-counterclaims",
+      "title": "Claims and counterclaims",
+      "ready": false
+     },
+     {
+      "id": "types-of-evidence",
+      "title": "Types of evidence",
+      "ready": false
+     },
+     {
+      "id": "logical-fallacies",
+      "title": "Logical fallacies",
+      "ready": false
+     },
+     {
+      "id": "ethos-pathos-and-logos",
+      "title": "Ethos, pathos and logos",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Real-World Writing",
+    "band": "Applied",
+    "summary": "The writing that moves money and people.",
+    "lessons": [
+     {
+      "id": "emails-that-get-answered",
+      "title": "Emails that get answered",
+      "ready": false
+     },
+     {
+      "id": "proposals-and-pitches",
+      "title": "Proposals and pitches",
+      "ready": false
+     },
+     {
+      "id": "negotiation-messages",
+      "title": "Negotiation messages",
+      "ready": false
+     },
+     {
+      "id": "summaries-and-reports",
+      "title": "Summaries and reports",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "AP Language & Composition",
+    "band": "AP",
+    "summary": "The three AP essays and the style moves behind them.",
+    "lessons": [
+     {
+      "id": "rhetorical-analysis",
+      "title": "Rhetorical analysis",
+      "ready": false
+     },
+     {
+      "id": "the-synthesis-essay",
+      "title": "The synthesis essay",
+      "ready": false
+     },
+     {
+      "id": "the-argument-essay",
+      "title": "The argument essay",
+      "ready": false
+     },
+     {
+      "id": "style-and-syntax",
+      "title": "Style and syntax",
+      "ready": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "science",
+  "title": "Science",
+  "code": "SCI",
+  "span": "Grade 7 → AP",
+  "blurb": "How the world works: matter, energy, life, Earth and space, up to AP Biology, Chemistry and Physics.",
+  "intro": "Science is a way of thinking before it's a pile of facts. The first unit teaches that thinking; the rest apply it from middle-school foundations to AP-level biology, chemistry and physics.",
+  "units": [
+   {
+    "title": "Thinking Like a Scientist",
+    "band": "Grade 7",
+    "summary": "The method, variables, measurement and graphs.",
+    "lessons": [
+     {
+      "id": "the-scientific-method",
+      "title": "The scientific method",
+      "ready": false
+     },
+     {
+      "id": "variables-and-controls",
+      "title": "Variables and controls",
+      "ready": false
+     },
+     {
+      "id": "measurement-and-units",
+      "title": "Measurement and units",
+      "ready": false
+     },
+     {
+      "id": "reading-graphs-and-data",
+      "title": "Reading graphs and data",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Matter & Chemistry Basics",
+    "band": "Grades 7–8",
+    "summary": "Atoms, elements and reactions.",
+    "lessons": [
+     {
+      "id": "atoms-and-their-parts",
+      "title": "Atoms and their parts",
+      "ready": false
+     },
+     {
+      "id": "the-periodic-table",
+      "title": "The periodic table",
+      "ready": false
+     },
+     {
+      "id": "states-of-matter",
+      "title": "States of matter",
+      "ready": false
+     },
+     {
+      "id": "chemical-reactions",
+      "title": "Chemical reactions",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Physics Foundations",
+    "band": "Grade 8",
+    "summary": "Motion, forces, energy, waves and electricity.",
+    "lessons": [
+     {
+      "id": "speed-velocity-and-acceleration",
+      "title": "Speed, velocity and acceleration",
+      "ready": false
+     },
+     {
+      "id": "forces-and-newton-s-laws",
+      "title": "Forces and Newton's laws",
+      "ready": false
+     },
+     {
+      "id": "energy-and-its-forms",
+      "title": "Energy and its forms",
+      "ready": false
+     },
+     {
+      "id": "waves-sound-and-light",
+      "title": "Waves, sound and light",
+      "ready": false
+     },
+     {
+      "id": "electricity-and-circuits",
+      "title": "Electricity and circuits",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Life Science",
+    "band": "Grades 7–8",
+    "summary": "Cells, genetics, evolution and the body.",
+    "lessons": [
+     {
+      "id": "cells",
+      "title": "Cells",
+      "ready": false
+     },
+     {
+      "id": "dna-and-genetics",
+      "title": "DNA and genetics",
+      "ready": false
+     },
+     {
+      "id": "evolution-and-natural-selection",
+      "title": "Evolution and natural selection",
+      "ready": false
+     },
+     {
+      "id": "human-body-systems",
+      "title": "Human body systems",
+      "ready": false
+     },
+     {
+      "id": "ecosystems",
+      "title": "Ecosystems",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Earth & Space",
+    "band": "Grades 8–9",
+    "summary": "Plates, weather, climate and the cosmos.",
+    "lessons": [
+     {
+      "id": "plate-tectonics",
+      "title": "Plate tectonics",
+      "ready": false
+     },
+     {
+      "id": "weather-and-climate",
+      "title": "Weather and climate",
+      "ready": false
+     },
+     {
+      "id": "the-solar-system",
+      "title": "The solar system",
+      "ready": false
+     },
+     {
+      "id": "stars-galaxies-and-the-universe",
+      "title": "Stars, galaxies and the universe",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Biology",
+    "band": "High school → AP",
+    "summary": "The chemistry of life up to how genes are expressed.",
+    "lessons": [
+     {
+      "id": "biochemistry-the-molecules-of-life",
+      "title": "Biochemistry: the molecules of life",
+      "ready": false
+     },
+     {
+      "id": "cellular-respiration-and-photosynthesis",
+      "title": "Cellular respiration and photosynthesis",
+      "ready": false
+     },
+     {
+      "id": "cell-division",
+      "title": "Cell division",
+      "ready": false
+     },
+     {
+      "id": "gene-expression",
+      "title": "Gene expression",
+      "ready": false
+     },
+     {
+      "id": "the-nervous-system",
+      "title": "The nervous system",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Chemistry",
+    "band": "High school → AP",
+    "summary": "Bonding, the mole, equilibrium and acids.",
+    "lessons": [
+     {
+      "id": "chemical-bonding",
+      "title": "Chemical bonding",
+      "ready": false
+     },
+     {
+      "id": "moles-and-stoichiometry",
+      "title": "Moles and stoichiometry",
+      "ready": false
+     },
+     {
+      "id": "reaction-rates-and-equilibrium",
+      "title": "Reaction rates and equilibrium",
+      "ready": false
+     },
+     {
+      "id": "acids-and-bases",
+      "title": "Acids and bases",
+      "ready": false
+     },
+     {
+      "id": "thermochemistry",
+      "title": "Thermochemistry",
+      "ready": false
+     }
+    ]
+   },
+   {
+    "title": "Physics",
+    "band": "AP Physics 1",
+    "summary": "Mechanics in depth.",
+    "lessons": [
+     {
+      "id": "kinematics",
+      "title": "Kinematics",
+      "ready": false
+     },
+     {
+      "id": "dynamics",
+      "title": "Dynamics",
+      "ready": false
+     },
+     {
+      "id": "work-and-energy",
+      "title": "Work and energy",
+      "ready": false
+     },
+     {
+      "id": "momentum",
+      "title": "Momentum",
+      "ready": false
+     },
+     {
+      "id": "rotation",
+      "title": "Rotation",
+      "ready": false
+     }
+    ]
+   }
+  ]
+ }
+]

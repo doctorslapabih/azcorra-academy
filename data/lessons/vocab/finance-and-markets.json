@@ -1,0 +1,274 @@
+{
+ "id": "finance-and-markets",
+ "title": "Finance and markets",
+ "band": "Business",
+ "minutes": 32,
+ "lede": "The words traders, bankers and business owners use every day. Know them exactly, because in money, a vague definition costs real dollars.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Why precision matters here\nIn everyday talk, *margin*, *equity* and *liquidity* are fuzzy. In finance each one has an exact meaning, and some words have **two** meanings depending on context. Mixing them up is how people misread a contract, a broker statement or a prop-firm rule."
+  },
+  {
+   "type": "terms",
+   "terms": [
+    {
+     "term": "asset",
+     "def": "Something you **own** that has value: cash, a truck, a trading account."
+    },
+    {
+     "term": "liability",
+     "def": "Something you **owe**: a truck loan, a credit card balance."
+    },
+    {
+     "term": "equity",
+     "def": "(1) **Ownership value** = assets − liabilities. (2) In a trading account, the current value including open trades."
+    },
+    {
+     "term": "liquidity",
+     "def": "How easily something turns into **cash** without moving its price. Cash is perfectly liquid; a house isn't. A liquid market has lots of buyers and sellers."
+    },
+    {
+     "term": "leverage",
+     "def": "Using borrowed money or a small deposit to control a **larger** position. Multiplies gains **and** losses."
+    },
+    {
+     "term": "margin (futures)",
+     "def": "A **good-faith deposit** required to hold a futures position. Not a down payment and not a loan."
+    },
+    {
+     "term": "margin (business)",
+     "def": "Profit as a **percent of revenue**: profit ÷ revenue."
+    },
+    {
+     "term": "volatility",
+     "def": "How much and how fast a price moves. High volatility = big swings."
+    },
+    {
+     "term": "bid / ask / spread",
+     "def": "**Bid**: the highest price a buyer will pay now. **Ask**: the lowest price a seller will take. **Spread**: the gap between them."
+    },
+    {
+     "term": "bull / bear",
+     "def": "**Bull**: expecting prices to rise (or a rising market). **Bear**: expecting a fall."
+    },
+    {
+     "term": "hedge",
+     "def": "A position taken to **reduce** risk from another position, like insurance."
+    },
+    {
+     "term": "diversification",
+     "def": "Spreading money across different assets so one loss can't sink everything."
+    },
+    {
+     "term": "drawdown",
+     "def": "The drop from an account's **peak** to its lowest point after it."
+    },
+    {
+     "term": "slippage",
+     "def": "The difference between the price you **expected** and the price you **got**, common in fast markets and with market orders."
+    }
+   ],
+   "label": "The core terms"
+  },
+  {
+   "type": "text",
+   "md": "## The balance sheet idea\nEvery business and every person has the same equation underneath:\n\n**Assets − Liabilities = Equity (net worth)**\n\n| You have | Value |\n|---|---|\n| Truck (asset) | $85,000 |\n| Cash (asset) | $6,000 |\n| Truck loan (liability) | −$62,000 |\n| **Equity** | **$29,000** |\n\nA nice truck isn't wealth if the loan is almost as big. Equity is what's actually **yours**."
+  },
+  {
+   "type": "check",
+   "q": "You own a $40,000 truck with a $35,000 loan and have $2,000 cash. Your equity is…",
+   "options": [
+    "$42,000",
+    "$7,000",
+    "$5,000",
+    "$40,000"
+   ],
+   "answer": 1,
+   "why": "Assets $42,000 − liabilities $35,000 = **$7,000**."
+  },
+  {
+   "type": "text",
+   "md": "## Leverage in futures\nOne **NQ** (E-mini Nasdaq-100) contract moves **$20 per index point**. One **MNQ** (Micro) moves **$2 per point**, one-tenth the size. The smallest price move, a **tick**, is 0.25 points: **$5** on NQ, **$0.50** on MNQ.\n\nThe index level changes daily, but at **25,000** points, one NQ contract controls **$500,000** of index exposure (25,000 × $20). A trader can hold that with a margin deposit that's a small fraction of it. That's **leverage**.\n\n*A 50-point move against one NQ contract = 50 × $20 = $1,000.* On a $50,000 account, that's 2% from one ordinary swing. This is why position size, not entry, decides whether a trader survives."
+  },
+  {
+   "type": "example",
+   "title": "Drawdown math",
+   "problem": "An account goes from $50,000 up to a peak of $53,000, then falls to $50,350.",
+   "steps": [
+    "Drawdown = peak − low = 53,000 − 50,350 = 2,650.",
+    "As a percent of the peak: 2,650 ÷ 53,000 ≈ 5%."
+   ],
+   "answer": "**$2,650, about 5%.** Measured from the **peak**, not the starting balance. Prop firms track this exactly, often as a trailing limit that follows your highest balance."
+  },
+  {
+   "type": "text",
+   "md": "## Liquidity and the spread\nIn a **liquid** market (NQ during New York hours), the spread is usually one tick and big orders fill near the expected price. In an **illiquid** market (a thinly traded penny stock, or futures in a quiet overnight session), spreads widen and **slippage** grows.\n\nRule of thumb: the less liquid the market, the more an order **moves the price against you**."
+  },
+  {
+   "type": "check",
+   "q": "Bid is 20,100.00, ask is 20,100.25 on NQ. The spread is…",
+   "options": [
+    "0 points",
+    "0.25 points (1 tick, $5 per contract)",
+    "1 point",
+    "$20"
+   ],
+   "answer": 1,
+   "why": "Ask − bid = 0.25 = one tick."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Futures margin isn't borrowing** (unlike stock margin, which is a loan from the broker). It's collateral.\n- **Equity has two meanings.** Ownership value, and the live value of a trading account.\n- **Leverage cuts both ways.** It's not free money; it's magnified risk.\n- **Drawdown is from the peak.** Not from where you started."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "A truck loan is a(n)…",
+   "options": [
+    "asset",
+    "liability",
+    "equity",
+    "hedge"
+   ],
+   "answer": 1,
+   "why": "Something you owe."
+  },
+  {
+   "type": "mc",
+   "q": "Which is most **liquid**?",
+   "options": [
+    "a house",
+    "cash",
+    "a semi truck",
+    "a collectible watch"
+   ],
+   "answer": 1,
+   "why": "Already cash."
+  },
+  {
+   "type": "num",
+   "q": "One MNQ contract: how many dollars per index point?",
+   "answer": 2,
+   "why": "MNQ = $2/point. NQ = $20.",
+   "tol": 0.001,
+   "unit": "$"
+  },
+  {
+   "type": "num",
+   "q": "A 30-point move on 1 NQ contract is worth how many dollars?",
+   "answer": 600,
+   "why": "30 × $20.",
+   "tol": 0.001,
+   "unit": "$"
+  },
+  {
+   "type": "mc",
+   "q": "The **spread** is…",
+   "options": [
+    "your profit",
+    "the gap between bid and ask",
+    "the daily range",
+    "the margin"
+   ],
+   "answer": 1,
+   "why": "Ask − bid."
+  },
+  {
+   "type": "mc",
+   "q": "Getting filled at a worse price than expected is…",
+   "options": [
+    "slippage",
+    "leverage",
+    "a hedge",
+    "liquidity"
+   ],
+   "answer": 0,
+   "why": "Common with market orders in fast moves."
+  },
+  {
+   "type": "mc",
+   "q": "A **bear** expects prices to…",
+   "options": [
+    "rise",
+    "fall",
+    "stay flat",
+    "double"
+   ],
+   "answer": 1,
+   "why": "Bears swipe down."
+  },
+  {
+   "type": "num",
+   "q": "Revenue $10,000, profit $1,500. Profit margin (%)?",
+   "answer": 15,
+   "why": "1,500 ÷ 10,000 = 15%.",
+   "tol": 0.001,
+   "unit": "%"
+  },
+  {
+   "type": "num",
+   "q": "Account peaks at $52,400, then drops to $50,900. Drawdown in dollars?",
+   "answer": 1500,
+   "why": "52,400 − 50,900 = **$1,500**, measured from the peak.",
+   "tol": 0.001,
+   "unit": "$",
+   "level": "challenge",
+   "hint": "Peak minus the low after it."
+  },
+  {
+   "type": "num",
+   "q": "You trade 15 MNQ contracts. How many dollars per point is that?",
+   "answer": 30,
+   "why": "15 × $2 = **$30 per point**, 1.5× one NQ. A 10-point stop = $300 risk.",
+   "tol": 0.001,
+   "unit": "$",
+   "level": "challenge",
+   "hint": "Multiply contracts by $2."
+  },
+  {
+   "type": "mc",
+   "q": "A farmer sells wheat futures in spring to lock in a price for her fall harvest. She's…",
+   "options": [
+    "speculating",
+    "hedging",
+    "diversifying",
+    "leveraging up"
+   ],
+   "answer": 1,
+   "why": "She's reducing price risk on wheat she already grows. Hedging is the original reason futures markets exist.",
+   "level": "challenge",
+   "hint": "Is she taking on risk or reducing it?"
+  },
+  {
+   "type": "mc",
+   "q": "Why does slippage tend to grow in the overnight session?",
+   "options": [
+    "Prices are higher at night",
+    "Fewer buyers and sellers → wider spreads, thinner order book",
+    "Exchanges charge more",
+    "Leverage changes"
+   ],
+   "answer": 1,
+   "why": "Lower liquidity means each order moves price more.",
+   "level": "challenge",
+   "hint": "Think about liquidity."
+  }
+ ],
+ "sources": [
+  {
+   "title": "CFTC Futures Glossary",
+   "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/CFTCGlossary/index.htm"
+  },
+  {
+   "title": "Investor.gov (SEC) Glossary",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary"
+  },
+  {
+   "title": "CME Group: Micro E-mini Nasdaq-100 futures contract specs",
+   "url": "https://www.cmegroup.com/markets/equities/nasdaq/micro-e-mini-nasdaq-100.contractSpecs.html"
+  }
+ ]
+}

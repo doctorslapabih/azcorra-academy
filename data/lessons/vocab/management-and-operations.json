@@ -1,0 +1,264 @@
+{
+ "id": "management-and-operations",
+ "title": "Management and operations",
+ "band": "Business",
+ "minutes": 32,
+ "lede": "The language of running a business that grows: costs, break-even, cash flow, KPIs, bottlenecks and systems. Know these and you can read any business book, pitch any lender, and run your trucks like a company.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Revenue isn't profit\nThe single most important idea in business vocabulary:\n\n- **Revenue** (or *gross income*, *top line*): all money coming in.\n- **Gross profit**: revenue minus the **direct** costs of doing the work (fuel, tolls, driver pay).\n- **Net profit** (*bottom line*): what's left after **all** costs, including overhead, interest and taxes.\n\nA truck that grosses $20,000 a month can still **lose** money. The bottom line is the only line that pays you."
+  },
+  {
+   "type": "terms",
+   "terms": [
+    {
+     "term": "fixed costs",
+     "def": "Costs that **stay the same** no matter how much you work: truck payment, insurance, phone plan."
+    },
+    {
+     "term": "variable costs",
+     "def": "Costs that **rise with activity**: fuel, tolls, tires, maintenance per mile."
+    },
+    {
+     "term": "overhead",
+     "def": "Ongoing costs of running the business that don't tie to one job: insurance, software, accounting, office."
+    },
+    {
+     "term": "break-even point",
+     "def": "The level of sales where revenue exactly covers all costs: zero profit, zero loss."
+    },
+    {
+     "term": "cash flow",
+     "def": "The **timing** of money in and out. A profitable business can still fail if cash comes in too late."
+    },
+    {
+     "term": "ROI (return on investment)",
+     "def": "Gain ÷ cost. How much an investment earns relative to what it cost."
+    },
+    {
+     "term": "KPI (key performance indicator)",
+     "def": "One of the few numbers you track to know if the business is healthy."
+    },
+    {
+     "term": "utilization",
+     "def": "How much of your capacity you actually use. A truck sitting idle is low utilization."
+    },
+    {
+     "term": "bottleneck",
+     "def": "The slowest step in a process, which limits everything else."
+    },
+    {
+     "term": "SOP (standard operating procedure)",
+     "def": "A written, step-by-step way to do a recurring task the same way every time."
+    },
+    {
+     "term": "scalable",
+     "def": "Able to grow without costs or effort growing just as fast."
+    },
+    {
+     "term": "contingency plan",
+     "def": "A plan B, prepared in advance, for when something goes wrong."
+    }
+   ],
+   "label": "The core terms"
+  },
+  {
+   "type": "text",
+   "md": "## Break-even, step by step\n**Break-even** = fixed costs ÷ (price per unit − variable cost per unit)\n\nThe bottom part, **price − variable cost**, is the **contribution margin**: what each unit (each mile, each load) contributes toward paying the fixed costs.\n\n*Example:* fixed costs are **$6,000 a month** (truck note, insurance, permits, phone). You earn **$2.30 per mile**, and variable costs are **$0.80 per mile** (fuel, maintenance, tolls).\n\n- Contribution per mile: 2.30 − 0.80 = **$1.50**\n- Break-even: 6,000 ÷ 1.50 = **4,000 miles a month**\n\nEvery mile below 4,000 loses money. Every mile above it is profit. That one number tells you how many loads you **must** book each month."
+  },
+  {
+   "type": "check",
+   "q": "A business has $3,000 in monthly fixed costs and makes $5 contribution per unit. Break-even is…",
+   "options": [
+    "300 units",
+    "600 units",
+    "15,000 units",
+    "$600"
+   ],
+   "answer": 1,
+   "why": "3,000 ÷ 5 = 600."
+  },
+  {
+   "type": "text",
+   "md": "## KPIs: the dashboard\nA KPI is a number that tells you the truth fast. A good business tracks **a few**, every week:\n\n| KPI | Trucking example | Trading example |\n|---|---|---|\n| revenue per mile / per trade | revenue ÷ total miles | average P&L per trade |\n| cost per mile / per trade | all costs ÷ miles | commissions and fees |\n| utilization | % of days the truck is loaded | % of sessions with an A+ setup traded |\n| quality | on-time %, claims | % of trades that followed the plan |\n| risk | deadhead % | max drawdown |\n\n*What gets measured gets managed* is a business cliché because it works. Pick the few numbers that matter, and look at them every week."
+  },
+  {
+   "type": "example",
+   "title": "ROI decision",
+   "problem": "An APU (auxiliary power unit) costs $9,000 installed. It saves about $300 a month in idle fuel. What's the payback period and first-year ROI?",
+   "steps": [
+    "Payback: 9,000 ÷ 300 = 30 months (2.5 years).",
+    "First-year savings: 300 × 12 = 3,600.",
+    "First-year ROI: (3,600 − 9,000) ÷ 9,000 = −60%: it hasn't paid for itself yet.",
+    "Over 5 years: 18,000 saved vs 9,000 cost → ROI = 100%."
+   ],
+   "answer": "**ROI depends on the time frame.** Worth it if you'll keep the truck long enough; a bad buy if you'll sell it next year."
+  },
+  {
+   "type": "text",
+   "md": "## Systems that let you grow\n- **SOPs** turn what's in your head into steps someone else can follow. You can't hire a dispatcher or a second driver until the job is written down.\n- **Bottlenecks** limit everything. If you can only check load boards when you're not driving, **you** are the bottleneck, not the truck.\n- **Scalable** work grows without your hours growing at the same rate. One truck you drive yourself isn't very scalable. A dispatch system serving five trucks is more scalable.\n- **Contingency plans** are written **before** the crisis: breakdown, canceled load, a slow freight month. (A trading plan's daily loss limit is a contingency plan.)"
+  },
+  {
+   "type": "check",
+   "q": "You can't grow past two trucks because you personally book every load. You are the…",
+   "options": [
+    "KPI",
+    "bottleneck",
+    "overhead",
+    "consignee"
+   ],
+   "answer": 1,
+   "why": "The slowest step limiting the whole system."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Revenue ≠ profit.** Always ask: what's left after **all** costs?\n- **Profitable ≠ cash rich.** Net 30 payments can starve a profitable business of cash.\n- **Too many KPIs.** Tracking 30 numbers is tracking none. Pick 3–5.\n- **Forgetting fixed costs** when pricing a load. Each load must contribute its share of the truck note and insurance."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "The bottom line is…",
+   "options": [
+    "revenue",
+    "net profit",
+    "gross revenue",
+    "cash on hand"
+   ],
+   "answer": 1,
+   "why": "What's left after all costs."
+  },
+  {
+   "type": "mc",
+   "q": "Fuel is a ___ cost for a truck.",
+   "options": [
+    "fixed",
+    "variable",
+    "overhead only",
+    "sunk"
+   ],
+   "answer": 1,
+   "why": "It rises with miles."
+  },
+  {
+   "type": "mc",
+   "q": "Insurance paid monthly regardless of miles is a ___ cost.",
+   "options": [
+    "fixed",
+    "variable",
+    "contribution",
+    "marginal"
+   ],
+   "answer": 0,
+   "why": "Doesn't change with activity."
+  },
+  {
+   "type": "num",
+   "q": "Fixed costs $4,500/month. Contribution $1.50 per mile. Break-even miles?",
+   "answer": 3000,
+   "why": "4,500 ÷ 1.50 = 3,000.",
+   "tol": 0.001,
+   "unit": "miles"
+  },
+  {
+   "type": "num",
+   "q": "Invest $2,000, gain $500 profit. ROI (%)?",
+   "answer": 25,
+   "why": "500 ÷ 2,000 = 25%.",
+   "tol": 0.001,
+   "unit": "%"
+  },
+  {
+   "type": "mc",
+   "q": "A written step-by-step process for recurring tasks is an…",
+   "options": [
+    "ROI",
+    "SOP",
+    "KPI",
+    "APU"
+   ],
+   "answer": 1,
+   "why": "Standard operating procedure."
+  },
+  {
+   "type": "mc",
+   "q": "A business can be profitable on paper and still run out of money because of…",
+   "options": [
+    "too much revenue",
+    "cash flow timing",
+    "low fixed costs",
+    "too many KPIs"
+   ],
+   "answer": 1,
+   "why": "Money earned isn't money received."
+  },
+  {
+   "type": "mc",
+   "q": "A truck loaded 18 of 22 working days has a utilization of about…",
+   "options": [
+    "18%",
+    "82%",
+    "22%",
+    "50%"
+   ],
+   "answer": 1,
+   "why": "18 ÷ 22 ≈ 82%."
+  },
+  {
+   "type": "num",
+   "q": "Fixed costs $6,000/month. Rate $2.40/mile, variable costs $0.90/mile. Break-even miles per month?",
+   "answer": 4000,
+   "why": "Contribution = 2.40 − 0.90 = $1.50. 6,000 ÷ 1.50 = **4,000 miles**.",
+   "tol": 0.001,
+   "unit": "miles",
+   "level": "challenge",
+   "hint": "Find the contribution per mile first."
+  },
+  {
+   "type": "num",
+   "q": "Same truck: you drive 9,000 miles this month. Profit?",
+   "answer": 7500,
+   "why": "Miles above break-even: 9,000 − 4,000 = 5,000. × $1.50 = **$7,500**. (Check: revenue 21,600 − variable 8,100 − fixed 6,000 = 7,500 ✓.)",
+   "tol": 0.001,
+   "unit": "$",
+   "level": "challenge",
+   "hint": "Every mile past break-even earns the contribution."
+  },
+  {
+   "type": "num",
+   "q": "A $12,000 upgrade saves $400/month. Payback period in months?",
+   "answer": 30,
+   "why": "12,000 ÷ 400 = **30 months**.",
+   "tol": 0.001,
+   "unit": "months",
+   "level": "challenge",
+   "hint": "Cost ÷ monthly savings."
+  },
+  {
+   "type": "mc",
+   "q": "Which KPI set is best for a one-truck owner-operator?",
+   "options": [
+    "Instagram followers, mood, weather",
+    "Revenue per total mile, cost per mile, deadhead %, on-time %",
+    "30 different metrics updated hourly",
+    "Only total revenue"
+   ],
+   "answer": 1,
+   "why": "A few numbers that show profit, efficiency and service quality. Revenue alone hides costs; 30 metrics hide everything.",
+   "level": "challenge",
+   "hint": "Few, and tied to profit and quality."
+  }
+ ],
+ "sources": [
+  {
+   "title": "U.S. Small Business Administration: Manage your finances",
+   "url": "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"
+  },
+  {
+   "title": "SBA: Break-even point",
+   "url": "https://www.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point"
+  }
+ ]
+}

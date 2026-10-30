@@ -563,17 +563,20 @@
      {
       "id": "finance-and-markets",
       "title": "Finance and markets",
-      "ready": false
+      "ready": true,
+      "desc": "The words traders, bankers and business owners use every day. Know them exactly, because in money, a vague definition costs real dollars."
      },
      {
       "id": "contracts-and-negotiation",
       "title": "Contracts and negotiation",
-      "ready": false
+      "ready": true,
+      "desc": "The words in rate confirmations, broker agreements, leases and sponsorship deals. Read them right, and you know what you're agreeing to before you sign."
      },
      {
       "id": "management-and-operations",
       "title": "Management and operations",
-      "ready": false
+      "ready": true,
+      "desc": "The language of running a business that grows: costs, break-even, cash flow, KPIs, bottlenecks and systems. Know these and you can read any business book, pitch any lender, and run your trucks like a company."
      }
     ]
    }

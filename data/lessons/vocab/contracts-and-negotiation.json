@@ -1,0 +1,317 @@
+{
+ "id": "contracts-and-negotiation",
+ "title": "Contracts and negotiation",
+ "band": "Business",
+ "minutes": 32,
+ "lede": "The words in rate confirmations, broker agreements, leases and sponsorship deals. Read them right, and you know what you're agreeing to before you sign.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Read before you sign\nA contract is enforceable whether or not you understood it. Most costly business mistakes aren't bad deals. They're **unread clauses**. This lesson covers the words that show up most, in general contracts and in freight specifically.\n\n*(This is vocabulary, not legal advice. For a big contract, have a lawyer read it.)*"
+  },
+  {
+   "type": "terms",
+   "terms": [
+    {
+     "term": "party",
+     "def": "A person or company that's part of the contract."
+    },
+    {
+     "term": "terms",
+     "def": "The specific conditions everyone agrees to: price, dates, duties."
+    },
+    {
+     "term": "clause",
+     "def": "One section or provision of a contract."
+    },
+    {
+     "term": "consideration",
+     "def": "What each side gives to make the deal binding: money, a service, a promise."
+    },
+    {
+     "term": "breach",
+     "def": "Failing to do what the contract requires."
+    },
+    {
+     "term": "liability",
+     "def": "(legal) Being **legally responsible** for something, like damage or debt."
+    },
+    {
+     "term": "indemnify",
+     "def": "To **cover someone else's losses** or legal costs. *Carrier shall indemnify Broker* = you pay if they get sued over your actions."
+    },
+    {
+     "term": "force majeure",
+     "def": "French for *superior force*: a clause excusing a party when something outside their control (disaster, war) prevents performance."
+    },
+    {
+     "term": "net 30",
+     "def": "Payment due **30 days** after the invoice."
+    },
+    {
+     "term": "accounts receivable / payable",
+     "def": "**Receivable**: money owed **to** you. **Payable**: money **you** owe."
+    },
+    {
+     "term": "factoring",
+     "def": "Selling your unpaid invoices to a company that pays you most of the amount **now**, for a fee."
+    },
+    {
+     "term": "leverage (negotiation)",
+     "def": "Whatever gives you power in a negotiation: options, timing, unique value."
+    }
+   ],
+   "label": "General terms"
+  },
+  {
+   "type": "terms",
+   "terms": [
+    {
+     "term": "shipper / consignee",
+     "def": "**Shipper**: who sends the freight. **Consignee**: who receives it."
+    },
+    {
+     "term": "broker",
+     "def": "A middleman who arranges freight between shippers and carriers, keeping a margin."
+    },
+    {
+     "term": "rate confirmation (rate con)",
+     "def": "The written agreement for one load: rate, pickup, delivery, terms. Effectively the contract."
+    },
+    {
+     "term": "bill of lading (BOL)",
+     "def": "The shipping document describing the freight. It's a receipt and a contract of carriage."
+    },
+    {
+     "term": "proof of delivery (POD)",
+     "def": "The signed document showing the freight was delivered. You usually need it to get paid."
+    },
+    {
+     "term": "detention",
+     "def": "Pay for waiting beyond the **free time** (often 2 hours) at pickup or delivery."
+    },
+    {
+     "term": "lumper",
+     "def": "A worker paid to load or unload a truck. The fee is usually reimbursed with a receipt."
+    },
+    {
+     "term": "accessorials",
+     "def": "Extra charges beyond the line-haul rate: detention, lumper, layover, TONU, extra stops."
+    },
+    {
+     "term": "TONU",
+     "def": "*Truck Ordered, Not Used*: a fee when a load is canceled after the carrier was dispatched."
+    }
+   ],
+   "label": "Freight terms"
+  },
+  {
+   "type": "check",
+   "q": "A broker's agreement says the carrier must **indemnify** the broker for cargo damage claims. That means…",
+   "options": [
+    "the broker pays you if cargo is damaged",
+    "you cover the broker's losses if they're sued over damage",
+    "nobody is responsible",
+    "the shipper pays"
+   ],
+   "answer": 1,
+   "why": "Indemnify = cover someone else's losses."
+  },
+  {
+   "type": "text",
+   "md": "## Clauses to always find\nBefore signing any rate con or agreement, find these:\n\n| Clause | What to check |\n|---|---|\n| **Rate** | the all-in amount, and whether fuel is included |\n| **Payment terms** | net 30? net 45? quick-pay fee? |\n| **Detention** | when it starts (after how many hours) and the hourly rate |\n| **Accessorials** | lumper reimbursement, layover, TONU |\n| **Cancellation** | what happens if they cancel after you're dispatched |\n| **Fines / deductions** | late fees, missing-paperwork penalties |\n| **Indemnification / liability** | what you're on the hook for |\n| **Back-solicitation** | many broker agreements bar you from working directly with their shipper for a period |\n\nIf something isn't written, assume you **won't** get it."
+  },
+  {
+   "type": "example",
+   "title": "Read a rate con line",
+   "problem": "*\"Rate: $1,850 all-in. Payment net 30, quick pay 3%. Detention $50/hr after 2 hrs, must be reported within 1 hr of departure with in/out times.\"*",
+   "steps": [
+    "$1,850 **all-in**: no separate fuel surcharge.",
+    "Net 30: paid about a month after you invoice. Quick pay: paid faster for 3%, which is $55.50 on this load.",
+    "Detention starts at hour 3, $50/hr, **but** only if you report it within an hour, with timestamps. Miss the report and you likely lose it."
+   ],
+   "answer": "The detention condition is the trap. The money is there **only** if you follow the reporting rule."
+  },
+  {
+   "type": "text",
+   "md": "## Cash flow words\n- **Invoice**: your bill for a completed load.\n- **Net 30** means waiting about a month for money you've already earned, while you pay fuel today.\n- **Factoring** solves that: the factor pays you, say, 97% now and collects the full invoice later. The 3% fee is the price of speed.\n- **Quick pay**: the broker's own version, paying faster for a percentage.\n\n**Recourse vs non-recourse factoring:** with *recourse*, if the broker never pays, **you** owe the money back. *Non-recourse* shifts more of that risk to the factor, at a higher fee. (Read which risks it actually covers.)"
+  },
+  {
+   "type": "check",
+   "q": "You factor a $2,000 invoice at a 3% fee. You receive…",
+   "options": [
+    "$2,000",
+    "$1,940",
+    "$60",
+    "$2,060"
+   ],
+   "answer": 1,
+   "why": "2,000 × 0.97 = **$1,940**. The factor keeps $60."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Signing the rate con without reading the fine print.** Detention and fine clauses live there.\n- **Verbal promises.** *We'll take care of you on detention* means nothing unless it's written.\n- **Missing paperwork.** No signed POD, no payment, often.\n- **Liability (legal) vs liability (accounting).** Same word: one is legal responsibility, one is a debt."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "The receiver of a shipment is the…",
+   "options": [
+    "shipper",
+    "consignee",
+    "broker",
+    "lumper"
+   ],
+   "answer": 1,
+   "why": "Shipper sends, consignee receives."
+  },
+  {
+   "type": "mc",
+   "q": "Pay for waiting past free time is…",
+   "options": [
+    "TONU",
+    "detention",
+    "factoring",
+    "consideration"
+   ],
+   "answer": 1,
+   "why": "Usually after 2 hours."
+  },
+  {
+   "type": "mc",
+   "q": "**Net 30** means…",
+   "options": [
+    "30% down payment",
+    "payment due 30 days after invoice",
+    "30 loads minimum",
+    "a 30% fee"
+   ],
+   "answer": 1,
+   "why": "Payment terms."
+  },
+  {
+   "type": "mc",
+   "q": "Money owed **to** your business is…",
+   "options": [
+    "accounts payable",
+    "accounts receivable",
+    "liability",
+    "equity"
+   ],
+   "answer": 1,
+   "why": "Receivable = to receive."
+  },
+  {
+   "type": "mc",
+   "q": "A **breach** is…",
+   "options": [
+    "a payment",
+    "failing to meet the contract's terms",
+    "a type of truck",
+    "a bonus"
+   ],
+   "answer": 1,
+   "why": "Breaking the agreement."
+  },
+  {
+   "type": "mc",
+   "q": "The document you usually need signed to get paid after delivery is the…",
+   "options": [
+    "BOL only",
+    "POD (proof of delivery)",
+    "TONU",
+    "invoice"
+   ],
+   "answer": 1,
+   "why": "Proof the job was done."
+  },
+  {
+   "type": "mc",
+   "q": "A load is canceled after you've driven to the shipper. The fee you'd claim is…",
+   "options": [
+    "detention",
+    "TONU",
+    "lumper",
+    "factoring"
+   ],
+   "answer": 1,
+   "why": "Truck Ordered, Not Used."
+  },
+  {
+   "type": "mc",
+   "q": "**Force majeure** clauses cover…",
+   "options": [
+    "late payments",
+    "events outside anyone's control, like disasters",
+    "fuel prices",
+    "driver mistakes"
+   ],
+   "answer": 1,
+   "why": "\"Superior force.\""
+  },
+  {
+   "type": "num",
+   "q": "You factor a $3,200 invoice at 2.5%. How much do you receive now?",
+   "answer": 3120,
+   "why": "3,200 × 0.975 = **$3,120**. Fee: $80.",
+   "tol": 0.001,
+   "unit": "$",
+   "level": "challenge",
+   "hint": "Keep 97.5%."
+  },
+  {
+   "type": "num",
+   "q": "Detention: $50/hr starting after 2 free hours. You wait 5.5 hours total. Detention owed?",
+   "answer": 175,
+   "why": "Billable = 5.5 − 2 = 3.5 hrs × $50 = **$175**, if you reported it as the rate con requires.",
+   "tol": 0.001,
+   "unit": "$",
+   "level": "challenge",
+   "hint": "Subtract the free time first."
+  },
+  {
+   "type": "mc",
+   "q": "Your rate con says \"$2,000 all-in.\" The broker later says fuel surcharge wasn't included. Who's right?",
+   "options": [
+    "The broker",
+    "The rate con: *all-in* means everything, including fuel, is in the $2,000",
+    "Nobody",
+    "It depends on fuel prices"
+   ],
+   "answer": 1,
+   "why": "All-in = one total. That's also why you should check whether the rate is all-in **before** signing: you can't add fuel later.",
+   "level": "challenge",
+   "hint": "What does all-in mean?"
+  },
+  {
+   "type": "mc",
+   "q": "With **recourse** factoring, if the broker never pays the invoice…",
+   "options": [
+    "the factor eats the loss",
+    "you may have to pay the advance back to the factor",
+    "the shipper pays",
+    "the government pays"
+   ],
+   "answer": 1,
+   "why": "Recourse = the risk comes back to you. Non-recourse shifts some of that risk to the factor for a higher fee.",
+   "level": "challenge",
+   "hint": "Recourse = it can come back to you."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  },
+  {
+   "title": "U.S. Small Business Administration: Manage your finances",
+   "url": "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"
+  },
+  {
+   "title": "FMCSA: Broker Registration",
+   "url": "https://www.fmcsa.dot.gov/registration/broker-registration"
+  }
+ ]
+}

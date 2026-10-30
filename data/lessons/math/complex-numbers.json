@@ -1,0 +1,224 @@
+{
+ "id": "complex-numbers",
+ "title": "Complex numbers",
+ "band": "Grade 11",
+ "minutes": 30,
+ "lede": "What happens when you take the square root of a negative number. Imaginary sounds made-up, but engineers use these numbers every day to design power grids, phones and audio.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The imaginary unit\nNo real number squared gives a negative. So mathematicians defined one:\n\n**i = √−1, so i² = −1**\n\nThen √−25 = √25 · √−1 = **5i**.\n\nA **complex number** has a real part and an imaginary part: **a + bi**.\n- 3 + 4i: real part 3, imaginary part 4.\n- 7 is complex too (7 + 0i). Every real number is a complex number with b = 0.\n\nThe name *imaginary* was originally meant as an insult (it's often credited to Descartes). It stuck, but these numbers are as legitimate as negatives, which were also once considered absurd."
+  },
+  {
+   "type": "text",
+   "md": "## Powers of i cycle\n| Power | Value |\n|---|---|\n| i¹ | i |\n| i² | −1 |\n| i³ | −i |\n| i⁴ | 1 |\n| i⁵ | i (starts over) |\n\nThe cycle repeats every 4. To find iⁿ, divide n by 4 and use the **remainder**: i³⁰ → 30 ÷ 4 leaves 2 → i³⁰ = i² = **−1**."
+  },
+  {
+   "type": "check",
+   "q": "i¹⁷ = ?",
+   "options": [
+    "1",
+    "i",
+    "−1",
+    "−i"
+   ],
+   "answer": 1,
+   "why": "17 ÷ 4 leaves remainder 1 → i¹ = i."
+  },
+  {
+   "type": "text",
+   "md": "## Arithmetic\n**Add/subtract:** combine real parts and imaginary parts separately.\n(3 + 2i) + (5 − 7i) = **8 − 5i**\n\n**Multiply:** distribute like binomials, then replace i² with −1.\n(2 + 3i)(4 − i) = 8 − 2i + 12i − 3i² = 8 + 10i + 3 = **11 + 10i**\n\n**Conjugates:** the conjugate of a + bi is **a − bi**. Their product is always real:\n(a + bi)(a − bi) = a² + b²\n(3 + 4i)(3 − 4i) = 9 + 16 = **25**\n\n**Divide:** multiply top and bottom by the conjugate of the bottom, to clear i from the denominator."
+  },
+  {
+   "type": "example",
+   "title": "Division",
+   "problem": "Simplify (5 + 10i) ÷ (1 + 2i).",
+   "steps": [
+    "Multiply by the conjugate (1 − 2i) on top and bottom.",
+    "Top: (5 + 10i)(1 − 2i) = 5 − 10i + 10i − 20i² = 5 + 20 = 25.",
+    "Bottom: 1² + 2² = 5.",
+    "25 ÷ 5 = 5."
+   ],
+   "answer": "**5.** (Check: 5 × (1 + 2i) = 5 + 10i ✓.)"
+  },
+  {
+   "type": "text",
+   "md": "## Where they show up first: quadratics\nWhen the discriminant b² − 4ac is **negative**, the quadratic formula gives complex roots, always as a **conjugate pair**.\n\n**x² + 2x + 5 = 0**: discriminant 4 − 20 = −16. x = (−2 ± √−16) ÷ 2 = (−2 ± 4i) ÷ 2 = **−1 ± 2i**.\n\nWith complex numbers, every degree-n polynomial has **exactly n roots** (counting multiplicity). That's the Fundamental Theorem of Algebra from earlier."
+  },
+  {
+   "type": "check",
+   "q": "The solutions to x² + 9 = 0 are…",
+   "options": [
+    "±3",
+    "±3i",
+    "±9i",
+    "no solutions at all"
+   ],
+   "answer": 1,
+   "why": "x² = −9 → x = ±√−9 = ±3i."
+  },
+  {
+   "type": "text",
+   "md": "## The complex plane\nPlot a + bi as the point **(a, b)**: real part on the horizontal axis, imaginary part on the vertical. Now complex numbers are **points**, or arrows from the origin.\n\n- The **modulus** (size) is the distance from the origin: **|a + bi| = √(a² + b²)**. |3 + 4i| = 5.\n- Multiplying by **i** rotates a point **90° counterclockwise**: 1 → i → −1 → −i → 1. That's why powers of i cycle every 4: four quarter-turns make a full turn.\n\nThat rotation property is why electrical engineers use complex numbers to describe alternating current, where voltage and current go around in cycles. Phones, audio and image compression rely on the same math."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **i² = −1, not 1.** Replace it every time.\n- **√(−4) · √(−9) ≠ √36.** Convert to i first: 2i · 3i = 6i² = −6.\n- **Complex roots come in conjugate pairs** for polynomials with real coefficients.\n- **Real numbers are complex numbers** with imaginary part 0."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "√−49 = ?",
+   "options": [
+    "7",
+    "−7",
+    "7i",
+    "49i"
+   ],
+   "answer": 2,
+   "why": "√49 · i."
+  },
+  {
+   "type": "mc",
+   "q": "i² = ?",
+   "options": [
+    "1",
+    "−1",
+    "i",
+    "−i"
+   ],
+   "answer": 1,
+   "why": "By definition."
+  },
+  {
+   "type": "mc",
+   "q": "(4 + 2i) + (1 − 5i) =",
+   "options": [
+    "5 − 3i",
+    "3 + 7i",
+    "5 + 7i",
+    "4 − 10i"
+   ],
+   "answer": 0,
+   "why": "Real + real, imaginary + imaginary."
+  },
+  {
+   "type": "mc",
+   "q": "(2i)(3i) =",
+   "options": [
+    "6i",
+    "−6",
+    "6",
+    "5i"
+   ],
+   "answer": 1,
+   "why": "6i² = −6."
+  },
+  {
+   "type": "mc",
+   "q": "Conjugate of 7 − 3i?",
+   "options": [
+    "−7 + 3i",
+    "7 + 3i",
+    "−7 − 3i",
+    "3 − 7i"
+   ],
+   "answer": 1,
+   "why": "Flip the sign of the imaginary part."
+  },
+  {
+   "type": "num",
+   "q": "(5 + 2i)(5 − 2i) = ?",
+   "answer": 29,
+   "why": "25 + 4 = 29.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "i²⁴ = ?",
+   "options": [
+    "1",
+    "i",
+    "−1",
+    "−i"
+   ],
+   "answer": 0,
+   "why": "24 ÷ 4 leaves 0 → i⁰ = 1."
+  },
+  {
+   "type": "num",
+   "q": "|6 + 8i| = ?",
+   "answer": 10,
+   "why": "√(36 + 64).",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "(3 + i)(2 − 4i) =",
+   "options": [
+    "6 − 4i",
+    "10 − 10i",
+    "2 − 10i",
+    "6 + 4i²"
+   ],
+   "answer": 1,
+   "why": "6 − 12i + 2i − 4i² = 6 − 10i + 4 = **10 − 10i**.",
+   "level": "challenge",
+   "hint": "FOIL, then i² = −1."
+  },
+  {
+   "type": "mc",
+   "q": "Solve x² − 4x + 13 = 0.",
+   "options": [
+    "2 ± 3i",
+    "−2 ± 3i",
+    "4 ± 3i",
+    "2 ± 9i"
+   ],
+   "answer": 0,
+   "why": "Discriminant 16 − 52 = −36. x = (4 ± 6i) ÷ 2 = **2 ± 3i**.",
+   "level": "challenge",
+   "hint": "√−36 = 6i."
+  },
+  {
+   "type": "mc",
+   "q": "(10 − 5i) ÷ (2 + i) =",
+   "options": [
+    "3 − 4i",
+    "5 − 5i",
+    "3 + 4i",
+    "5"
+   ],
+   "answer": 0,
+   "why": "Multiply by (2 − i): top (10 − 5i)(2 − i) = 20 − 10i − 10i + 5i² = 15 − 20i. Bottom 4 + 1 = 5. Result: **3 − 4i**.",
+   "level": "challenge",
+   "hint": "Multiply top and bottom by the conjugate."
+  },
+  {
+   "type": "mc",
+   "q": "Multiplying 2 + 0i by i twice moves it to…",
+   "options": [
+    "2i",
+    "−2",
+    "−2i",
+    "2"
+   ],
+   "answer": 1,
+   "why": "Each multiplication by i rotates 90° counterclockwise: 2 → 2i → −2. Two quarter-turns = a half-turn.",
+   "level": "challenge",
+   "hint": "i means a 90° turn."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, College Algebra 2e",
+   "url": "https://openstax.org/details/books/college-algebra-2e"
+  },
+  {
+   "title": "OpenStax, College Algebra 2e, 2.4 Complex Numbers",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/2-4-complex-numbers"
+  }
+ ]
+}

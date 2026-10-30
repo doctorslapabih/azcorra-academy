@@ -249,32 +249,38 @@
      {
       "id": "function-transformations",
       "title": "Function transformations",
-      "ready": false
+      "ready": true,
+      "desc": "Learn a handful of parent graphs and four moves (shift, stretch, reflect, compress) and you can sketch thousands of functions without plotting a single point. Plus inverses and composition."
      },
      {
       "id": "polynomial-functions-and-roots",
       "title": "Polynomial functions and roots",
-      "ready": false
+      "ready": true,
+      "desc": "Read a polynomial's graph from its equation: where it starts and ends, where it crosses, where it bounces. And the theorems that connect roots to factors."
      },
      {
       "id": "rational-functions",
       "title": "Rational functions",
-      "ready": false
+      "ready": true,
+      "desc": "Fractions with polynomials on top and bottom. Asymptotes, holes, solving rational equations without falling for fake answers, and the classic work-rate problem."
      },
      {
       "id": "exponentials-and-logarithms",
       "title": "Exponentials and logarithms",
-      "ready": false
+      "ready": true,
+      "desc": "A logarithm answers one question: what exponent do I need? It's how you solve for time in compound growth, and it's hiding inside earthquake magnitudes, pH and decibels."
      },
      {
       "id": "sequences-and-series",
       "title": "Sequences and series",
-      "ready": false
+      "ready": true,
+      "desc": "Patterns that add the same amount or multiply by the same amount, and fast ways to total them. Savings plans, loan payoffs, a famous trick by a ten-year-old, and how a losing streak really affects your account."
      },
      {
       "id": "complex-numbers",
       "title": "Complex numbers",
-      "ready": false
+      "ready": true,
+      "desc": "What happens when you take the square root of a negative number. Imaginary sounds made-up, but engineers use these numbers every day to design power grids, phones and audio."
      }
     ]
    },

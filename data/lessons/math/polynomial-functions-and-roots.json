@@ -1,0 +1,225 @@
+{
+ "id": "polynomial-functions-and-roots",
+ "title": "Polynomial functions and roots",
+ "band": "Grade 11",
+ "minutes": 34,
+ "lede": "Read a polynomial's graph from its equation: where it starts and ends, where it crosses, where it bounces. And the theorems that connect roots to factors.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## End behavior\nFor large positive or negative x, a polynomial behaves like its **leading term** (the highest-power term). Two things decide where the graph's ends go:\n\n| Degree | Leading coefficient + | Leading coefficient − |\n|---|---|---|\n| **even** | both ends **up** ↑↑ (like x²) | both ends **down** ↓↓ |\n| **odd** | left **down**, right **up** ↓↑ (like x³) | left **up**, right **down** ↑↓ |\n\ny = −2x⁵ + 100x² + 3: odd degree, negative leading coefficient → starts high on the left, ends low on the right. The 100x² doesn't matter at the far ends."
+  },
+  {
+   "type": "check",
+   "q": "y = 3x⁴ − x + 7. As x → ±∞, the graph…",
+   "options": [
+    "rises on both ends",
+    "falls on both ends",
+    "falls left, rises right",
+    "rises left, falls right"
+   ],
+   "answer": 0,
+   "why": "Even degree, positive leading coefficient: up, up."
+  },
+  {
+   "type": "text",
+   "md": "## Roots, zeros and factors\nThese are the same idea from three angles:\n\n- **Zero/root**: a value where f(x) = 0.\n- **x-intercept**: where the graph crosses or touches the x-axis (for real roots).\n- **Factor**: if r is a root, then **(x − r)** is a factor.\n\nThis is the **factor theorem**: **f(r) = 0 ⇔ (x − r) is a factor of f(x).**\n\nf(x) = (x − 2)(x + 1)(x − 5) has zeros at **2, −1 and 5**."
+  },
+  {
+   "type": "text",
+   "md": "## Multiplicity: cross or bounce\nIf a factor appears more than once, its root has **multiplicity** equal to its exponent.\n\n- **Odd multiplicity** (1, 3, …): the graph **crosses** the x-axis there.\n- **Even multiplicity** (2, 4, …): the graph **touches and bounces** back.\n\nf(x) = (x − 1)²(x + 3): crosses at −3, bounces at 1.\n\n**How many roots?** A degree-n polynomial has **at most n real roots** and **exactly n roots** if you count complex roots and multiplicity (the **Fundamental Theorem of Algebra**)."
+  },
+  {
+   "type": "example",
+   "title": "Sketch from factors",
+   "problem": "f(x) = −(x + 2)(x − 1)²",
+   "steps": [
+    "Degree 3 (odd), leading coefficient negative → starts up on the left, ends down on the right.",
+    "Root −2 (multiplicity 1): crosses.",
+    "Root 1 (multiplicity 2): bounces.",
+    "y-intercept: f(0) = −(2)(1) = −2."
+   ],
+   "answer": "Comes down from the upper left, crosses at −2, dips to a low point at (−1, −4), rises to touch the x-axis at 1, then turns back down forever. No plotting table needed."
+  },
+  {
+   "type": "text",
+   "md": "## Dividing polynomials and the remainder theorem\nDividing a polynomial by (x − r) works like long division. A shortcut, **synthetic division**, uses just the coefficients.\n\n**Divide x³ − 6x² + 11x − 6 by (x − 1):** bring down the 1; multiply by r = 1 and add down each column:\n\n| r = 1 | 1 | −6 | 11 | −6 |\n|---|---|---|---|---|\n| | | 1 | −5 | 6 |\n| | **1** | **−5** | **6** | **0** |\n\nQuotient: **x² − 5x + 6**, remainder **0**, so (x − 1) is a factor. Then x² − 5x + 6 = (x − 2)(x − 3), so the zeros are **1, 2, 3**.\n\n**Remainder theorem:** when you divide f(x) by (x − r), the remainder is **f(r)**. So plugging in is a fast way to test a possible root."
+  },
+  {
+   "type": "check",
+   "q": "If f(4) = 0, which must be a factor of f(x)?",
+   "options": [
+    "x + 4",
+    "x − 4",
+    "4x",
+    "x² − 4"
+   ],
+   "answer": 1,
+   "why": "Factor theorem: root 4 ↔ factor (x − 4)."
+  },
+  {
+   "type": "text",
+   "md": "## Where to look for roots\nThe **rational root theorem**: if a polynomial with integer coefficients has a rational root p/q (in lowest terms), then **p divides the constant term** and **q divides the leading coefficient**.\n\nFor x³ − 6x² + 11x − 6, the leading coefficient is 1, so any rational root must divide −6: candidates **±1, ±2, ±3, ±6**. Test them with the remainder theorem, and once you find one, divide it out and finish with factoring or the quadratic formula."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Root r ↔ factor (x − r).** Root −3 means factor (x **+** 3).\n- **End behavior ignores lower terms.** Only the leading term matters far out.\n- **Even multiplicity bounces, it doesn't cross.**\n- **\"At most n real roots\"**, not exactly. x² + 1 has none."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Degree of f(x) = 4x³ − x⁷ + 2?",
+   "options": [
+    "3",
+    "4",
+    "7",
+    "2"
+   ],
+   "answer": 2,
+   "why": "Highest power."
+  },
+  {
+   "type": "mc",
+   "q": "y = −x⁶ + …: end behavior?",
+   "options": [
+    "up, up",
+    "down, down",
+    "down, up",
+    "up, down"
+   ],
+   "answer": 1,
+   "why": "Even, negative."
+  },
+  {
+   "type": "mc",
+   "q": "f(x) = (x + 5)(x − 2) has zeros at…",
+   "options": [
+    "5 and −2",
+    "−5 and 2",
+    "5 and 2",
+    "−5 and −2"
+   ],
+   "answer": 1,
+   "why": "Set each factor to 0."
+  },
+  {
+   "type": "mc",
+   "q": "At a root of multiplicity 2, the graph…",
+   "options": [
+    "crosses",
+    "touches and bounces",
+    "has an asymptote",
+    "is undefined"
+   ],
+   "answer": 1,
+   "why": "Even → bounce."
+  },
+  {
+   "type": "num",
+   "q": "Maximum number of real roots of a degree-5 polynomial?",
+   "answer": 5,
+   "why": "At most n.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "f(x) = x³ − 2x + 4. Remainder when divided by (x − 2)?",
+   "answer": 8,
+   "why": "f(2) = 8 − 4 + 4 = 8.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Is (x + 1) a factor of x³ + 1?",
+   "options": [
+    "Yes, f(−1) = 0",
+    "No",
+    "Only if x > 0",
+    "Can't tell"
+   ],
+   "answer": 0,
+   "why": "(−1)³ + 1 = 0."
+  },
+  {
+   "type": "mc",
+   "q": "Possible rational roots of x³ + 2x² − x − 2 include…",
+   "options": [
+    "±1, ±2",
+    "±3",
+    "±1/2 only",
+    "±4"
+   ],
+   "answer": 0,
+   "why": "Divisors of −2."
+  },
+  {
+   "type": "mc",
+   "q": "Find all zeros of x³ − 7x + 6 (hint: try x = 1).",
+   "options": [
+    "1, 2, −3",
+    "1, −2, 3",
+    "−1, 2, 3",
+    "1, 6, −7"
+   ],
+   "answer": 0,
+   "why": "f(1) = 0. Divide: x² + x − 6 = (x + 3)(x − 2). Zeros: **1, 2, −3**.",
+   "level": "challenge",
+   "hint": "Divide out (x − 1), then factor the quadratic.",
+   "steps": [
+    "f(1) = 1 − 7 + 6 = 0, so (x − 1) is a factor.",
+    "Synthetic division gives x² + x − 6.",
+    "x² + x − 6 = (x + 3)(x − 2).",
+    "Zeros: 1, 2, −3."
+   ]
+  },
+  {
+   "type": "mc",
+   "q": "Which polynomial has zeros 0, 3 (multiplicity 2) and opens down on the right?",
+   "options": [
+    "x(x − 3)²",
+    "−x(x − 3)²",
+    "−x(x + 3)²",
+    "x²(x − 3)"
+   ],
+   "answer": 1,
+   "why": "Factors x and (x − 3)², degree 3. Leading coefficient negative → right end goes down.",
+   "level": "challenge",
+   "hint": "Write the factors, then decide the sign."
+  },
+  {
+   "type": "num",
+   "q": "f(x) = 2x³ + kx² − 5x + 2 has (x − 1) as a factor. Find k.",
+   "answer": 1,
+   "why": "f(1) = 0: 2 + k − 5 + 2 = 0 → k − 1 = 0 → **k = 1**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Factor theorem: f(1) must be 0."
+  },
+  {
+   "type": "mc",
+   "q": "A degree-4 polynomial with real coefficients has roots 2, −2 and 3i. What's the fourth root?",
+   "options": [
+    "3",
+    "−3",
+    "−3i",
+    "0"
+   ],
+   "answer": 2,
+   "why": "Complex roots of real polynomials come in **conjugate pairs**: 3i and −3i.",
+   "level": "challenge",
+   "hint": "Non-real roots come in pairs."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, College Algebra 2e",
+   "url": "https://openstax.org/details/books/college-algebra-2e"
+  },
+  {
+   "title": "OpenStax, College Algebra 2e, 5.5 Zeros of Polynomial Functions",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/5-5-zeros-of-polynomial-functions"
+  }
+ ]
+}

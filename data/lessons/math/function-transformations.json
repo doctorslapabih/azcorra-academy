@@ -1,0 +1,214 @@
+{
+ "id": "function-transformations",
+ "title": "Function transformations",
+ "band": "Grade 11",
+ "minutes": 34,
+ "lede": "Learn a handful of parent graphs and four moves (shift, stretch, reflect, compress) and you can sketch thousands of functions without plotting a single point. Plus inverses and composition.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Parent functions\nMost functions you'll meet are a **parent function** that's been moved or reshaped. Know these shapes on sight:\n\n| Parent | Shape |\n|---|---|\n| f(x) = x | straight line through the origin |\n| f(x) = x² | U-shaped parabola, vertex at (0, 0) |\n| f(x) = abs(x), the absolute value | V shape, vertex at (0, 0) |\n| f(x) = √x | starts at (0, 0), rises and flattens; only x ≥ 0 |\n| f(x) = x³ | S-shaped curve through the origin |\n| f(x) = 2ˣ | exponential: flat on the left, shoots up on the right |"
+  },
+  {
+   "type": "text",
+   "md": "## The four moves\nStarting from y = f(x):\n\n| Change | Effect | Example from x² |\n|---|---|---|\n| **f(x) + k** | shift **up** k (down if k < 0) | x² + 3: up 3 |\n| **f(x − h)** | shift **right** h (left if written x + h) | (x − 2)²: right 2 |\n| **a · f(x)** | vertical **stretch** if a is above 1 (ignoring sign), **compress** if it's between 0 and 1; **flip** over the x-axis if a < 0 | −2x²: narrower, opening down |\n| **f(−x)** | **reflect** over the y-axis | (−x)³ = −x³ |\n| **f(bx)** | horizontal **compress** by 1/b if b > 1 | (2x)²: squeezed toward the y-axis |\n\n**Outside** the function (+k, ×a) affects **y**, and works the way it looks.\n**Inside** the function (x − h, bx) affects **x**, and works **opposite** to how it looks: x − 2 moves **right**."
+  },
+  {
+   "type": "check",
+   "q": "y = (x + 4)² − 1 is the graph of x² shifted…",
+   "options": [
+    "right 4, down 1",
+    "left 4, down 1",
+    "right 4, up 1",
+    "left 4, up 1"
+   ],
+   "answer": 1,
+   "why": "Inside (x + 4) works opposite: **left** 4. Outside −1: **down** 1."
+  },
+  {
+   "type": "text",
+   "md": "## Vertex form\nFor parabolas, **y = a(x − h)² + k** puts the transformations on display:\n\n- vertex at **(h, k)**\n- opens up if a > 0, down if a < 0\n- narrower if |a| > 1, wider if |a| < 1\n\ny = −3(x − 1)² + 5: vertex (1, 5), opens **down**, narrower than x². Its maximum value is 5."
+  },
+  {
+   "type": "example",
+   "title": "Build an equation from a description",
+   "problem": "Start with |x|. Reflect it over the x-axis, shift it left 2 and up 6.",
+   "steps": [
+    "Reflect over x-axis: −|x|.",
+    "Left 2 (inside, opposite sign): −|x + 2|.",
+    "Up 6 (outside): −|x + 2| + 6."
+   ],
+   "answer": "**y = −|x + 2| + 6.** An upside-down V with its peak at (−2, 6)."
+  },
+  {
+   "type": "text",
+   "md": "## Composition: functions in a chain\n**(f ∘ g)(x) = f(g(x))**: put x into g, then put g's output into f.\n\nIf f(x) = 2x + 1 and g(x) = x², then:\n- f(g(3)) = f(9) = **19**\n- g(f(3)) = g(7) = **49**\n\nOrder matters: f(g(x)) is usually **not** g(f(x)).\n\n*Real chain:* contracts → dollars → after-tax dollars. Each step is a function feeding the next."
+  },
+  {
+   "type": "text",
+   "md": "## Inverse functions: undo\nThe **inverse** f⁻¹ reverses f: if f(3) = 7, then f⁻¹(7) = 3.\n\n**To find it:** write y = f(x), **swap x and y**, solve for y.\n\nf(x) = 2x + 1 → x = 2y + 1 → **f⁻¹(x) = (x − 1) ÷ 2**.\n\n- The graph of f⁻¹ is the graph of f **reflected over the line y = x**.\n- A function has an inverse function only if it passes the **horizontal line test** (each output comes from one input). x² fails unless you restrict it to x ≥ 0.\n- **f⁻¹(x) doesn't mean 1 ÷ f(x).** It's notation for the inverse."
+  },
+  {
+   "type": "check",
+   "q": "If f(x) = 3x − 6, what is f⁻¹(x)?",
+   "options": [
+    "(x + 6) ÷ 3",
+    "3x + 6",
+    "1 ÷ (3x − 6)",
+    "(x − 6) ÷ 3"
+   ],
+   "answer": 0,
+   "why": "Swap: x = 3y − 6 → y = (x + 6) ÷ 3."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Inside shifts go the opposite way.** f(x − 5) moves right.\n- **Order of transformations matters** when stretching and shifting both happen. Do stretches/reflections before shifts when reading a(x − h)² + k.\n- **f(g(x)) ≠ g(f(x))** in general.\n- **f⁻¹ is not a reciprocal.**"
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "y = x² − 7 is x² shifted…",
+   "options": [
+    "up 7",
+    "down 7",
+    "left 7",
+    "right 7"
+   ],
+   "answer": 1,
+   "why": "Outside, works as it looks."
+  },
+  {
+   "type": "mc",
+   "q": "y = √(x − 3) is √x shifted…",
+   "options": [
+    "left 3",
+    "right 3",
+    "up 3",
+    "down 3"
+   ],
+   "answer": 1,
+   "why": "Inside: opposite."
+  },
+  {
+   "type": "mc",
+   "q": "y = −x² is x²…",
+   "options": [
+    "shifted down",
+    "reflected over the x-axis",
+    "reflected over the y-axis",
+    "stretched"
+   ],
+   "answer": 1,
+   "why": "Opens down."
+  },
+  {
+   "type": "mc",
+   "q": "The vertex of y = 2(x − 5)² + 3 is…",
+   "options": [
+    "(−5, 3)",
+    "(5, 3)",
+    "(5, −3)",
+    "(2, 3)"
+   ],
+   "answer": 1,
+   "why": "(h, k)."
+  },
+  {
+   "type": "num",
+   "q": "f(x) = x + 4, g(x) = 3x. Find f(g(2)).",
+   "answer": 10,
+   "why": "g(2) = 6; f(6) = 10.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Same functions: find g(f(2)).",
+   "answer": 18,
+   "why": "f(2) = 6; g(6) = 18.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "The inverse of f(x) = x + 9 is…",
+   "options": [
+    "x − 9",
+    "9 − x",
+    "1/(x + 9)",
+    "−x − 9"
+   ],
+   "answer": 0,
+   "why": "Undo adding 9."
+  },
+  {
+   "type": "mc",
+   "q": "The graphs of f and f⁻¹ are reflections over…",
+   "options": [
+    "the x-axis",
+    "the y-axis",
+    "the line y = x",
+    "the origin"
+   ],
+   "answer": 2,
+   "why": "Swap x and y."
+  },
+  {
+   "type": "mc",
+   "q": "Which is y = x² shifted right 3, stretched by 2 and flipped upside down?",
+   "options": [
+    "y = −2(x − 3)²",
+    "y = −2(x + 3)²",
+    "y = 2(x − 3)² − 1",
+    "y = −(2x − 3)²"
+   ],
+   "answer": 0,
+   "why": "Flip + stretch: −2. Right 3: (x − 3).",
+   "level": "challenge",
+   "hint": "a controls flip and stretch; h controls the horizontal shift."
+  },
+  {
+   "type": "num",
+   "q": "f(x) = (x − 1) ÷ 4. Find f⁻¹(5).",
+   "answer": 21,
+   "why": "f⁻¹(x) = 4x + 1, so f⁻¹(5) = **21**. Check: f(21) = 20 ÷ 4 = 5 ✓.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Either find the inverse, or ask: what input gives f an output of 5?"
+  },
+  {
+   "type": "mc",
+   "q": "A projectile's height is h(t) = −5(t − 3)² + 45. What's the maximum height, and when?",
+   "options": [
+    "45 m at t = 3 s",
+    "3 m at t = 45 s",
+    "45 m at t = −3 s",
+    "−5 m at t = 3 s"
+   ],
+   "answer": 0,
+   "why": "Vertex form shows the vertex (3, 45), and a < 0 means it's a maximum.",
+   "level": "challenge",
+   "hint": "Read the vertex."
+  },
+  {
+   "type": "num",
+   "q": "Fuel: a truck burning 6.5 mpg uses g(m) = m ÷ 6.5 gallons for m miles. Diesel costs p(g) = 3.80g dollars. What is p(g(650))?",
+   "answer": 380,
+   "why": "g(650) = 100 gallons. p(100) = **$380**. Composition: miles → gallons → dollars.",
+   "tol": 0.001,
+   "unit": "$",
+   "level": "challenge",
+   "hint": "Inner function first."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, College Algebra 2e",
+   "url": "https://openstax.org/details/books/college-algebra-2e"
+  },
+  {
+   "title": "OpenStax, College Algebra 2e, 3.5 Transformation of Functions",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/3-5-transformation-of-functions"
+  }
+ ]
+}

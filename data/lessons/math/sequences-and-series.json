@@ -1,0 +1,178 @@
+{
+ "id": "sequences-and-series",
+ "title": "Sequences and series",
+ "band": "Grade 11",
+ "minutes": 32,
+ "lede": "Patterns that add the same amount or multiply by the same amount, and fast ways to total them. Savings plans, loan payoffs, a famous trick by a ten-year-old, and how a losing streak really affects your account.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Arithmetic sequences: add the same amount\nAn **arithmetic sequence** adds a constant **common difference d** each step: 5, 9, 13, 17, … (d = 4).\n\n**nth term: aₙ = a₁ + (n − 1)d**\n\nThe 50th term of 5, 9, 13, …: 5 + 49 × 4 = **201**.\n\nArithmetic sequences are **linear functions** in disguise: d is the slope."
+  },
+  {
+   "type": "text",
+   "md": "## Arithmetic series: Gauss's trick\nA **series** is the **sum** of a sequence. A story (probably embellished) says young Carl Friedrich Gauss was told to add 1 + 2 + … + 100 and answered almost instantly: pair the first and last (1 + 100 = 101), the second and second-to-last (2 + 99 = 101), and so on. That's 50 pairs of 101: **5,050**.\n\n**Sₙ = n(a₁ + aₙ) ÷ 2** (number of terms × the average of first and last)"
+  },
+  {
+   "type": "check",
+   "q": "Sum of 2 + 4 + 6 + … + 40?",
+   "options": [
+    "420",
+    "400",
+    "210",
+    "820"
+   ],
+   "answer": 0,
+   "why": "20 terms. 20 × (2 + 40) ÷ 2 = 420."
+  },
+  {
+   "type": "text",
+   "md": "## Geometric sequences: multiply by the same amount\nA **geometric sequence** multiplies by a constant **common ratio r**: 3, 6, 12, 24, … (r = 2).\n\n**nth term: aₙ = a₁ · rⁿ⁻¹**\n\nGeometric sequences are **exponential functions** in disguise. With r > 1 they grow; with 0 < r < 1 they shrink."
+  },
+  {
+   "type": "text",
+   "md": "## Geometric series\n**Sₙ = a₁(1 − rⁿ) ÷ (1 − r)** (for r ≠ 1)\n\n**The chessboard legend:** one grain of rice on the first square, two on the second, four on the third, doubling to the 64th. Total: 1 + 2 + 4 + … + 2⁶³ = 2⁶⁴ − 1 ≈ **18.4 quintillion** grains, far more rice than has ever been grown.\n\n**Infinite geometric series:** if |r| < 1, the terms shrink fast enough that the sum settles on a finite number:\n\n**S = a₁ ÷ (1 − r)**\n\n1/2 + 1/4 + 1/8 + … = (1/2) ÷ (1 − 1/2) = **1**. Infinitely many pieces, finite total."
+  },
+  {
+   "type": "example",
+   "title": "Risk per trade and a losing streak",
+   "problem": "You risk 1% of your **current** balance on each trade, starting at $50,000. What's left after 10 straight losses?",
+   "steps": [
+    "Each loss multiplies the balance by 0.99: a geometric sequence with r = 0.99.",
+    "After 10 losses: 50,000 × 0.99¹⁰ ≈ 50,000 × 0.9044 ≈ 45,219."
+   ],
+   "answer": "**About $45,219**, down about 9.6%, not 10%, because each loss is a bit smaller as the balance shrinks. Compare risking 5% per trade: 50,000 × 0.95¹⁰ ≈ $29,937, a 40% drawdown that needs +67% to recover. Risk size is the whole game."
+  },
+  {
+   "type": "text",
+   "md": "## Sigma notation\nThe Greek letter **Σ** (sigma) means *add up*:\n\n**Σ (from k = 1 to 5) of 2k** = 2(1) + 2(2) + 2(3) + 2(4) + 2(5) = 2 + 4 + 6 + 8 + 10 = **30**\n\nThe bottom tells you where k starts, the top where it ends, and the expression what to add."
+  },
+  {
+   "type": "example",
+   "title": "A savings plan",
+   "problem": "You save $100 the first week and $10 more each week after ($100, $110, $120, …). How much total after a year (52 weeks)?",
+   "steps": [
+    "Arithmetic: a₁ = 100, d = 10.",
+    "a₅₂ = 100 + 51 × 10 = 610.",
+    "S = 52 × (100 + 610) ÷ 2 = 52 × 355 = 18,460."
+   ],
+   "answer": "**$18,460.** Small, steady increases add up fast."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **n − 1, not n**, in the nth-term formulas: the first term has had zero steps.\n- **Infinite series only converge when |r| < 1.** 1 + 2 + 4 + … has no finite sum.\n- **Sequence vs series:** a sequence is a list; a series is the sum.\n- **Count the terms carefully.** From 5 to 50 by 5s is 10 terms, not 9."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Next term: 7, 12, 17, 22, …",
+   "answer": 27,
+   "why": "d = 5.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "20th term of 3, 7, 11, …",
+   "answer": 79,
+   "why": "3 + 19 × 4 = 79.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Next term: 2, 6, 18, 54, …",
+   "answer": 162,
+   "why": "r = 3.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Sum of 1 + 2 + … + 50?",
+   "answer": 1275,
+   "why": "50 × 51 ÷ 2.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "6th term of 5, 10, 20, …",
+   "answer": 160,
+   "why": "5 · 2⁵ = 160.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Infinite sum 8 + 4 + 2 + 1 + …?",
+   "answer": 16,
+   "why": "8 ÷ (1 − 1/2) = 16.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Σ (k = 1 to 4) of k²?",
+   "answer": 30,
+   "why": "1 + 4 + 9 + 16.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "A geometric series with r = 1.5 that goes on forever…",
+   "options": [
+    "sums to a finite number",
+    "has no finite sum",
+    "sums to 0",
+    "sums to 1.5"
+   ],
+   "answer": 1,
+   "why": "|r| ≥ 1 → diverges."
+  },
+  {
+   "type": "num",
+   "q": "Sum of the first 8 terms of 3, 6, 12, …",
+   "answer": 765,
+   "why": "S₈ = 3(1 − 2⁸) ÷ (1 − 2) = 3 × 255 = **765**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "a₁ = 3, r = 2, n = 8."
+  },
+  {
+   "type": "num",
+   "q": "Risking 2% of the current balance per trade, starting at $50,000: balance after 5 straight losses? (Nearest dollar)",
+   "answer": 45196,
+   "why": "50,000 × 0.98⁵ ≈ 50,000 × 0.90392 ≈ **$45,196**.",
+   "tol": 2,
+   "unit": "$",
+   "level": "challenge",
+   "hint": "Multiply by 0.98 five times."
+  },
+  {
+   "type": "num",
+   "q": "A bouncing ball drops from 10 m and each bounce reaches 60% of the previous height. Total distance traveled **downward** forever? (Downward drops: 10 + 6 + 3.6 + …)",
+   "answer": 25,
+   "why": "Infinite geometric: 10 ÷ (1 − 0.6) = **25 m** downward. (Up distance: 6 ÷ 0.4 = 15 m, total 40 m.)",
+   "tol": 0.001,
+   "unit": "m",
+   "level": "challenge",
+   "hint": "a₁ = 10, r = 0.6."
+  },
+  {
+   "type": "num",
+   "q": "Write 0.333… as a fraction using an infinite series: 3/10 + 3/100 + … = ? (Enter as a decimal to 4 places)",
+   "answer": 0.3333,
+   "why": "a₁ = 0.3, r = 0.1: 0.3 ÷ 0.9 = **1/3**. Every repeating decimal is a geometric series.",
+   "tol": 0.0002,
+   "level": "challenge",
+   "hint": "a₁ = 3/10, r = 1/10."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, College Algebra 2e",
+   "url": "https://openstax.org/details/books/college-algebra-2e"
+  },
+  {
+   "title": "OpenStax, College Algebra 2e, 9.4 Series and Their Notations",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/9-4-series-and-their-notations"
+  }
+ ]
+}

@@ -1,0 +1,203 @@
+{
+ "id": "exponentials-and-logarithms",
+ "title": "Exponentials and logarithms",
+ "band": "Grade 11",
+ "minutes": 38,
+ "lede": "A logarithm answers one question: what exponent do I need? It's how you solve for time in compound growth, and it's hiding inside earthquake magnitudes, pH and decibels.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What a logarithm is\nA logarithm is an **exponent**.\n\n**log_b(x) = y means b^y = x**\n\n*log₂(8) = 3* because 2³ = 8. Read it as: *what power of 2 gives 8?*\n\n| Log form | Exponent form |\n|---|---|\n| log₁₀(1,000) = 3 | 10³ = 1,000 |\n| log₅(25) = 2 | 5² = 25 |\n| log₂(1/8) = −3 | 2⁻³ = 1/8 |\n| log_b(1) = 0 | b⁰ = 1 |\n\nLogs and exponentials are **inverse functions**: each undoes the other.\n\n**Two special logs:**\n- **log** with no base means base **10** (common log).\n- **ln** means base **e ≈ 2.718** (the natural log). The number e shows up naturally in continuous growth."
+  },
+  {
+   "type": "check",
+   "q": "log₃(81) = ?",
+   "options": [
+    "3",
+    "4",
+    "27",
+    "9"
+   ],
+   "answer": 1,
+   "why": "3⁴ = 81."
+  },
+  {
+   "type": "text",
+   "md": "## The log rules\nBecause logs are exponents, they inherit the exponent rules:\n\n| Rule | Formula | From |\n|---|---|---|\n| **Product** | log(MN) = log M + log N | multiplying adds exponents |\n| **Quotient** | log(M/N) = log M − log N | dividing subtracts exponents |\n| **Power** | log(Mᵖ) = p · log M | the one that solves equations |\n| **Change of base** | log_b(x) = ln x ÷ ln b | lets your calculator do any base |\n\nThe **power rule** is the key: it brings an exponent down to where you can solve for it."
+  },
+  {
+   "type": "example",
+   "title": "Solve for time",
+   "problem": "You invest $1,000 at 7% a year. When does it reach $2,000?",
+   "steps": [
+    "1,000 · 1.07ᵗ = 2,000 → 1.07ᵗ = 2.",
+    "Take ln of both sides: ln(1.07ᵗ) = ln 2.",
+    "Power rule: t · ln 1.07 = ln 2.",
+    "t = ln 2 ÷ ln 1.07 ≈ 0.6931 ÷ 0.0677 ≈ 10.24."
+   ],
+   "answer": "**About 10.2 years.** And here's where the rule of 72 comes from: ln 2 ≈ 0.693, and for small rates ln(1 + r) ≈ r, so doubling time ≈ 0.69 ÷ r. Using 72 instead of 69 makes it more accurate for typical rates and divides more nicely."
+  },
+  {
+   "type": "text",
+   "md": "## Continuous growth and e\nCompounding more and more often (yearly, monthly, daily, every second…) approaches a limit: **continuous compounding**:\n\n**A = P · e^(rt)**\n\n$1,000 at 5% for 10 years, continuously: 1,000 · e^0.5 ≈ **$1,648.72**. (Yearly compounding gives $1,628.89.)\n\nThe number **e ≈ 2.71828** is to growth what π is to circles. It appears in population models, radioactive decay, and the math of option pricing."
+  },
+  {
+   "type": "check",
+   "q": "Solve 5ˣ = 125.",
+   "options": [
+    "x = 25",
+    "x = 3",
+    "x = 5",
+    "x = 120"
+   ],
+   "answer": 1,
+   "why": "125 = 5³. (Or x = log₅ 125.)"
+  },
+  {
+   "type": "text",
+   "md": "## Log scales: when numbers span huge ranges\nWhen values range from tiny to enormous, a **log scale** makes them manageable: each step multiplies.\n\n| Scale | One step up means |\n|---|---|\n| **Earthquake magnitude** | ~10× shaking amplitude, ~32× energy |\n| **pH** | 10× **less** acidic (pH = −log[H⁺]) |\n| **Decibels** | +10 dB = 10× the sound intensity |\n| **Log price charts** | equal vertical distance = equal **percent** change |\n\nOn a log chart of a stock or index, a move from 100 to 200 looks the same height as 1,000 to 2,000: both are **+100%**. That's why long-term charts are usually shown on a log scale."
+  },
+  {
+   "type": "example",
+   "title": "Decibels",
+   "problem": "A truck engine at idle is about 70 dB; an air horn up close can be 110 dB or more. How much more intense is 110 dB?",
+   "steps": [
+    "Difference: 40 dB = 4 steps of 10 dB.",
+    "Each step is ×10: 10⁴ = 10,000."
+   ],
+   "answer": "**10,000 times** the sound intensity. That's why repeated loud noise damages hearing far more than the numbers suggest."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **log(M + N) ≠ log M + log N.** The product rule is for **multiplying** inside.\n- **You can't take the log of 0 or a negative number** (in real numbers).\n- **ln and log are different bases.** Use the same one on both sides.\n- **Log scales hide size.** On a log scale, a short bar can be thousands of times smaller."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "log₂(32) = ?",
+   "answer": 5,
+   "why": "2⁵ = 32.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "log(10,000) = ?",
+   "answer": 4,
+   "why": "10⁴.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "log₄(1) = ?",
+   "answer": 0,
+   "why": "Any base⁰ = 1.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "log(MN) equals…",
+   "options": [
+    "log M · log N",
+    "log M + log N",
+    "log M − log N",
+    "N log M"
+   ],
+   "answer": 1,
+   "why": "Product rule."
+  },
+  {
+   "type": "mc",
+   "q": "log(x⁵) equals…",
+   "options": [
+    "5 log x",
+    "log 5x",
+    "x log 5",
+    "(log x)⁵"
+   ],
+   "answer": 0,
+   "why": "Power rule."
+  },
+  {
+   "type": "mc",
+   "q": "ln means a log with base…",
+   "options": [
+    "10",
+    "2",
+    "e ≈ 2.718",
+    "1"
+   ],
+   "answer": 2,
+   "why": "Natural log."
+  },
+  {
+   "type": "num",
+   "q": "pH 3 is how many times more acidic than pH 5?",
+   "answer": 100,
+   "why": "Two steps: 10².",
+   "tol": 0.001,
+   "unit": "×"
+  },
+  {
+   "type": "num",
+   "q": "Solve 2ˣ = 64.",
+   "answer": 6,
+   "why": "2⁶ = 64.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve 3 · 2ˣ = 96.",
+   "answer": 5,
+   "why": "2ˣ = 32 → **x = 5**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Divide by 3 first."
+  },
+  {
+   "type": "num",
+   "q": "At 9% a year, compounded yearly, how many years to double? Use t = ln 2 ÷ ln 1.09. (2 decimals)",
+   "answer": 8.04,
+   "why": "0.6931 ÷ 0.0862 ≈ **8.04 years**. Rule of 72 estimate: 72 ÷ 9 = 8. Very close.",
+   "tol": 0.01,
+   "unit": "years",
+   "level": "challenge",
+   "hint": "ln 1.09 ≈ 0.0862."
+  },
+  {
+   "type": "num",
+   "q": "$5,000 compounded continuously at 6% for 10 years: A = 5,000 · e^0.6. To the nearest dollar? (e^0.6 ≈ 1.8221)",
+   "answer": 9111,
+   "why": "5,000 × 1.8221 ≈ **$9,111**.",
+   "tol": 2,
+   "unit": "$",
+   "level": "challenge",
+   "hint": "Multiply by e^(rt)."
+  },
+  {
+   "type": "mc",
+   "q": "On a log-scale chart, an index going from 5,000 to 10,000 and later from 10,000 to 20,000…",
+   "options": [
+    "the second move looks twice as tall",
+    "both moves look the same height",
+    "the first looks taller",
+    "neither shows up"
+   ],
+   "answer": 1,
+   "why": "Both are +100%. Log scales show **percent** change as equal heights.",
+   "level": "challenge",
+   "hint": "Equal ratios → equal heights."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, College Algebra 2e",
+   "url": "https://openstax.org/details/books/college-algebra-2e"
+  },
+  {
+   "title": "OpenStax, College Algebra 2e, 6.3 Logarithmic Functions",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/6-3-logarithmic-functions"
+  }
+ ]
+}

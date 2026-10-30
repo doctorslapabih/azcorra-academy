@@ -132,22 +132,26 @@
      {
       "id": "mean-median-mode-and-range",
       "title": "Mean, median, mode and range",
-      "ready": false
+      "ready": true,
+      "desc": "One number to describe the middle of your data, another to describe how spread out it is, and why picking the wrong one lets people lie with true numbers."
      },
      {
       "id": "reading-and-making-data-displays",
       "title": "Reading and making data displays",
-      "ready": false
+      "ready": true,
+      "desc": "Which chart fits which data, how to read box plots and scatter plots in seconds, and how to catch a graph that's lying to you."
      },
      {
       "id": "probability-basics",
       "title": "Probability basics",
-      "ready": false
+      "ready": true,
+      "desc": "Probability is the math of uncertainty. Learn to count outcomes, tell theory from experience, and spot the gambler's fallacy, the most expensive mistake in trading."
      },
      {
       "id": "compound-probability-and-expected-value",
       "title": "Compound probability and expected value",
-      "ready": false
+      "ready": true,
+      "desc": "And, or, at least one, and what you can expect to win or lose on average. The math casinos, insurers and professional traders live by."
      }
     ]
    },

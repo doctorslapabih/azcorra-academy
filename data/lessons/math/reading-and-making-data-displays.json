@@ -1,0 +1,232 @@
+{
+ "id": "reading-and-making-data-displays",
+ "title": "Reading and making data displays",
+ "band": "Grades 7–8",
+ "minutes": 30,
+ "lede": "Which chart fits which data, how to read box plots and scatter plots in seconds, and how to catch a graph that's lying to you.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Pick the display that fits the question\n| You want to show… | Use |\n|---|---|\n| Compare categories (sales by region) | **bar chart** |\n| How a number changes over time | **line graph** |\n| The shape of one set of numbers (how often each range occurs) | **histogram** or **dot plot** |\n| A quick summary of center and spread, or compare groups | **box plot** |\n| Whether two numbers move together | **scatter plot** |\n| Parts of a whole (only when parts add to 100%) | pie chart, though a bar chart usually reads better |"
+  },
+  {
+   "type": "text",
+   "md": "## Bar chart vs histogram\nThey look alike but answer different questions:\n\n- **Bar chart**: separate **categories** (Ford, Kenworth, Peterbilt). Gaps between bars. Order doesn't matter.\n- **Histogram**: **number ranges** (loads that paid $0–$500, $500–$1,000...). Bars touch, because the ranges are continuous. Order matters.\n\nA histogram shows the **shape** of data: symmetric (bell-shaped), **skewed right** (a long tail of big values, like incomes), or skewed left."
+  },
+  {
+   "type": "text",
+   "md": "## Box plots: five numbers in one picture\nA box plot draws the **five-number summary**: minimum, Q1, median, Q3, maximum. The box holds the middle half of the data (the IQR); the whiskers reach the extremes."
+  },
+  {
+   "type": "figure",
+   "svg": "<svg viewBox=\"0 0 560 150\" role=\"img\" aria-label=\"Box plot: minimum 3, first quartile 6, median 8.5, third quartile 12, maximum 15\" style=\"width:100%;max-width:560px;color:var(--ink)\">\n<line x1=\"40\" y1=\"110\" x2=\"520\" y2=\"110\" stroke=\"currentColor\" stroke-opacity=\".35\"/>\n<g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">\n<text x=\"40\" y=\"128\">0</text><text x=\"136\" y=\"128\">4</text><text x=\"232\" y=\"128\">8</text><text x=\"328\" y=\"128\">12</text><text x=\"424\" y=\"128\">16</text><text x=\"520\" y=\"128\">20</text></g>\n<line x1=\"112\" y1=\"60\" x2=\"184\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"328\" y1=\"60\" x2=\"400\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"112\" y1=\"45\" x2=\"112\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"400\" y1=\"45\" x2=\"400\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<rect x=\"184\" y=\"35\" width=\"144\" height=\"50\" fill=\"var(--sunk)\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"244\" y1=\"35\" x2=\"244\" y2=\"85\" stroke=\"var(--accent)\" stroke-width=\"3\"/>\n<g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">\n<text x=\"112\" y=\"28\">min 3</text><text x=\"184\" y=\"28\">Q1 6</text><text x=\"244\" y=\"22\">median 8.5</text><text x=\"328\" y=\"28\">Q3 12</text><text x=\"400\" y=\"28\">max 15</text></g>\n</svg>",
+   "caption": "The data 3, 5, 7, 8, 9, 11, 13, 15 as a box plot. The box spans Q1 to Q3; the line inside is the median."
+  },
+  {
+   "type": "text",
+   "md": "How to read one fast:\n- **Where's the median line?** That's the center.\n- **How wide is the box?** That's the spread of the typical values.\n- **Is the median off-center or one whisker much longer?** The data is skewed toward the long side.\n- **Comparing two box plots?** Compare medians first, then box widths."
+  },
+  {
+   "type": "check",
+   "q": "In a box plot, what fraction of the data falls inside the box?",
+   "options": [
+    "About a quarter",
+    "About half",
+    "About three quarters",
+    "All of it"
+   ],
+   "answer": 1,
+   "why": "The box runs from Q1 to Q3: the middle **50%**."
+  },
+  {
+   "type": "text",
+   "md": "## Scatter plots and correlation\nA scatter plot puts one variable on each axis and a dot for each case. Look for:\n\n- **Positive correlation**: dots rise left to right (more miles → more fuel).\n- **Negative correlation**: dots fall (more sleep → fewer mistakes).\n- **No correlation**: a shapeless cloud.\n- **Strength**: how tightly the dots hug a line.\n\nA **line of best fit** summarizes the trend and lets you estimate values you didn't measure."
+  },
+  {
+   "type": "text",
+   "md": "## Correlation is not causation\nIce cream sales and drownings rise together. Ice cream doesn't cause drowning; **summer** causes both. A hidden third factor like that is a **confounding variable**.\n\nBefore believing \"X causes Y,\" ask:\n1. Could Y cause X instead?\n2. Could a third thing cause both?\n3. Could it be coincidence? (With enough data, some random things always line up.)\n\nOnly a **controlled experiment**, where you change X on purpose and hold everything else steady, can show cause."
+  },
+  {
+   "type": "text",
+   "md": "## How graphs lie with true numbers\nThe numbers below are identical. Only the axis changed."
+  },
+  {
+   "type": "figure",
+   "svg": "<svg viewBox=\"0 0 560 210\" role=\"img\" aria-label=\"The same two numbers, 50 and 55, drawn with an honest axis starting at 0 and a misleading axis starting at 45\" style=\"width:100%;max-width:560px;color:var(--ink)\">\n<g font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"140\" y=\"18\">Axis starts at 0 (honest)</text><text x=\"420\" y=\"18\">Axis starts at 45 (misleading)</text></g>\n<line x1=\"40\" y1=\"180\" x2=\"250\" y2=\"180\" stroke=\"currentColor\" stroke-opacity=\".4\"/>\n<rect x=\"70\" y=\"80\" width=\"60\" height=\"100\" fill=\"var(--navy)\" opacity=\".75\"/><rect x=\"150\" y=\"70\" width=\"60\" height=\"110\" fill=\"var(--accent)\" opacity=\".85\"/>\n<line x1=\"320\" y1=\"180\" x2=\"530\" y2=\"180\" stroke=\"currentColor\" stroke-opacity=\".4\"/>\n<rect x=\"350\" y=\"130\" width=\"60\" height=\"50\" fill=\"var(--navy)\" opacity=\".75\"/><rect x=\"430\" y=\"80\" width=\"60\" height=\"100\" fill=\"var(--accent)\" opacity=\".85\"/>\n<g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"100\" y=\"198\">A: 50</text><text x=\"180\" y=\"198\">B: 55</text><text x=\"380\" y=\"198\">A: 50</text><text x=\"460\" y=\"198\">B: 55</text></g>\n</svg>",
+   "caption": "Company B is 10% bigger than A. Cutting off the bottom of the axis makes it look twice as big."
+  },
+  {
+   "type": "text",
+   "md": "Watch for:\n- **A y-axis that doesn't start at 0** on a bar chart. Bar length is supposed to show size.\n- **Uneven intervals** on an axis.\n- **3-D effects or pictures** scaled in two directions: doubling an icon's height *and* width makes it look **4 times** bigger.\n- **Cherry-picked time windows**: start a chart at the bottom of a crash and anything looks like a rally.\n- **No labels or units.** If you can't tell what's measured, you can't trust it.\n\n(Line graphs of things like stock prices can fairly start above 0. The rule is strictest for **bars**, whose length *is* the message.)"
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Pie charts with too many slices** are unreadable. Use bars.\n- **A trend line doesn't promise the future.** Extending it far past your data (extrapolating) is a guess.\n- **Big samples aren't automatically good samples.** 10,000 people answering an online poll aren't a random sample of anything."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Best display for monthly revenue over two years?",
+   "options": [
+    "Pie chart",
+    "Line graph",
+    "Box plot",
+    "Bar chart of categories"
+   ],
+   "answer": 1,
+   "why": "Change over time → **line graph**."
+  },
+  {
+   "type": "mc",
+   "q": "A histogram's bars touch because…",
+   "options": [
+    "it saves space",
+    "the ranges on the x-axis are continuous",
+    "the data is categories",
+    "it's a style choice"
+   ],
+   "answer": 1,
+   "why": "Histograms show number ranges that run into each other."
+  },
+  {
+   "type": "mc",
+   "q": "A box plot shows: min 10, Q1 20, median 25, Q3 40, max 70. What is the IQR?",
+   "options": [
+    "15",
+    "20",
+    "30",
+    "60"
+   ],
+   "answer": 1,
+   "why": "IQR = Q3 − Q1 = 40 − 20 = 20."
+  },
+  {
+   "type": "mc",
+   "q": "In that same box plot, the data is…",
+   "options": [
+    "skewed right (long tail of high values)",
+    "skewed left",
+    "perfectly symmetric",
+    "impossible to tell"
+   ],
+   "answer": 0,
+   "why": "The right whisker (40 → 70) is much longer than the left (10 → 20), and the median sits left of center in the box."
+  },
+  {
+   "type": "mc",
+   "q": "Hours studied vs test score: the dots rise from lower left to upper right. This is…",
+   "options": [
+    "negative correlation",
+    "positive correlation",
+    "no correlation",
+    "causation"
+   ],
+   "answer": 1,
+   "why": "Both go up together."
+  },
+  {
+   "type": "mc",
+   "q": "Towns with more firefighters have more fire damage. The most likely explanation:",
+   "options": [
+    "Firefighters cause damage",
+    "Bigger towns have both more firefighters and more fires",
+    "It's random",
+    "Damage causes firefighters"
+   ],
+   "answer": 1,
+   "why": "**Town size** is a confounding variable driving both."
+  },
+  {
+   "type": "mc",
+   "q": "A bar chart's y-axis starts at 90. Bar A = 95, Bar B = 100. How many times taller does B **look** than A?",
+   "options": [
+    "1.05",
+    "2",
+    "5",
+    "10"
+   ],
+   "answer": 1,
+   "why": "Visible heights: 95 − 90 = 5 and 100 − 90 = 10. B looks **twice** as tall though it's only about 5% bigger."
+  },
+  {
+   "type": "mc",
+   "q": "Which display best compares the spread of delivery times for three drivers?",
+   "options": [
+    "Three box plots side by side",
+    "A pie chart",
+    "A single line graph",
+    "A table of names"
+   ],
+   "answer": 0,
+   "why": "Box plots are built for comparing center and spread across groups."
+  },
+  {
+   "type": "mc",
+   "q": "An ad shows a bag of money twice as tall **and** twice as wide to show profits doubled. What does the picture suggest?",
+   "options": [
+    "Profits doubled",
+    "Profits roughly quadrupled",
+    "Profits rose 50%",
+    "Nothing; it's accurate"
+   ],
+   "answer": 1,
+   "why": "Area grows with height × width: 2 × 2 = 4. The eye reads area, so it looks **4 times** bigger, double the truth.",
+   "level": "challenge",
+   "hint": "What happens to area if both dimensions double?"
+  },
+  {
+   "type": "mc",
+   "q": "A study finds people who drink coffee live longer. Which follow-up would best test whether coffee **causes** it?",
+   "options": [
+    "Survey more coffee drinkers",
+    "Randomly assign people to drink coffee or not, then follow them",
+    "Ask people how they feel",
+    "Compare coffee prices"
+   ],
+   "answer": 1,
+   "why": "Only **random assignment** balances hidden factors (income, health habits) between groups, so differences can be blamed on coffee.",
+   "level": "challenge",
+   "hint": "How do you rule out confounding variables?"
+  },
+  {
+   "type": "mc",
+   "q": "Your trade results histogram: a tall bar at −1R and a few small bars far out at +8R to +12R. The distribution is…",
+   "options": [
+    "skewed left",
+    "skewed right",
+    "symmetric",
+    "uniform"
+   ],
+   "answer": 1,
+   "why": "The long tail points toward the **high** values, so it's **skewed right**. Big-R systems look like this: many small losses, a few huge wins. Mean > median.",
+   "level": "challenge",
+   "hint": "Which direction does the long tail point?"
+  },
+  {
+   "type": "mc",
+   "q": "A scatter plot of truck age vs repair cost shows a strong positive trend for trucks aged 1–8 years. What's the riskiest use of the trend line?",
+   "options": [
+    "Estimating cost for a 5-year-old truck",
+    "Estimating cost for a 25-year-old truck",
+    "Describing the trend",
+    "Comparing two 6-year-old trucks"
+   ],
+   "answer": 1,
+   "why": "25 years is far outside the data. **Extrapolating** assumes the pattern holds where you never measured it.",
+   "level": "challenge",
+   "hint": "Which estimate goes beyond the data you have?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Introductory Statistics 2e",
+   "url": "https://openstax.org/details/books/introductory-statistics-2e"
+  },
+  {
+   "title": "OpenStax, Contemporary Mathematics (Probability; Statistics)",
+   "url": "https://openstax.org/details/books/contemporary-mathematics"
+  }
+ ]
+}

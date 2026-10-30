@@ -1,0 +1,224 @@
+{
+ "id": "mean-median-mode-and-range",
+ "title": "Mean, median, mode and spread",
+ "band": "Grades 7–8",
+ "minutes": 32,
+ "lede": "One number to describe the middle of your data, another to describe how spread out it is, and why picking the wrong one lets people lie with true numbers.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Center: three ways to say \"typical\"\n| Measure | How to find it | Best for |\n|---|---|---|\n| **Mean** (average) | add everything, divide by how many | data without extreme values |\n| **Median** | the middle value once sorted | data with outliers or skew |\n| **Mode** | the most common value | categories, most popular choice |\n\nFor an even number of values, the median is the **mean of the two middle values**: the median of 3, 5, 8, 10 is (5 + 8) ÷ 2 = **6.5**."
+  },
+  {
+   "type": "example",
+   "title": "Mean vs median when one value is extreme",
+   "problem": "Ten people are in a room. Nine earn $50,000 a year. One earns $10,000,000.",
+   "steps": [
+    "Mean = (9 × 50,000 + 10,000,000) ÷ 10 = 10,450,000 ÷ 10 = **$1,045,000**.",
+    "Median: sort the incomes. The 5th and 6th values are both $50,000, so the median is **$50,000**."
+   ],
+   "answer": "The mean says the typical person is a millionaire. The median says $50,000, which is true for 9 out of 10 people. **Outliers drag the mean; they barely move the median.** That's why government reports use *median* household income."
+  },
+  {
+   "type": "check",
+   "q": "Home prices on a street: $210k, $220k, $230k, $240k, $1.9M. Which number best describes a typical home?",
+   "options": [
+    "The mean, about $560k",
+    "The median, $230k",
+    "The mode",
+    "The range"
+   ],
+   "answer": 1,
+   "why": "One mansion drags the mean way up. The **median** ($230k) reflects what most homes cost."
+  },
+  {
+   "type": "text",
+   "md": "## Spread: how much the data varies\nTwo teams can have the same average score and be completely different. Team A scores 50, 50, 50. Team B scores 0, 50, 100. Same mean, very different reliability. You need a measure of **spread**:\n\n- **Range** = max − min. Quick, but one outlier wrecks it.\n- **Interquartile range (IQR)** = Q3 − Q1, the spread of the **middle half** of the data. Resistant to outliers. Pairs with the median.\n- **Mean absolute deviation (MAD)** = the average distance of each value from the mean. Pairs with the mean.\n\nIn high school and college you'll meet **standard deviation**, the big brother of MAD. Same idea: how far values typically sit from the mean."
+  },
+  {
+   "type": "example",
+   "title": "Find the IQR",
+   "problem": "Data (already sorted): 3, 5, 7, 8, 9, 11, 13, 15",
+   "steps": [
+    "Median: 8 values, so average the 4th and 5th: (8 + 9) ÷ 2 = **8.5**.",
+    "Lower half: 3, 5, 7, 8 → **Q1** = (5 + 7) ÷ 2 = 6.",
+    "Upper half: 9, 11, 13, 15 → **Q3** = (11 + 13) ÷ 2 = 12.",
+    "IQR = 12 − 6 = 6."
+   ],
+   "answer": "**IQR = 6.** The middle half of the data spans 6 units."
+  },
+  {
+   "type": "example",
+   "title": "Find the MAD",
+   "problem": "Data: 2, 4, 6, 8",
+   "steps": [
+    "Mean = 20 ÷ 4 = 5.",
+    "Distances from 5: 3, 1, 1, 3.",
+    "Average distance = 8 ÷ 4 = 2."
+   ],
+   "answer": "**MAD = 2.** On average, each value sits 2 away from the mean."
+  },
+  {
+   "type": "text",
+   "md": "## Spotting outliers\nA standard rule: a value is an **outlier** if it's more than **1.5 × IQR** below Q1 or above Q3.\n\nFor the data above (Q1 = 6, Q3 = 12, IQR = 6): 1.5 × 6 = 9. Anything below 6 − 9 = **−3** or above 12 + 9 = **21** is an outlier. None here."
+  },
+  {
+   "type": "text",
+   "md": "## Weighted averages\nWhen values don't all count equally, **weight** them: multiply each by its weight, add, divide by the total weight.\n\nYou buy fuel twice: 100 gallons at $4.00 and 300 gallons at $3.60. Your average price is **not** ($4.00 + $3.60) ÷ 2 = $3.80.\n\n(100 × 4.00 + 300 × 3.60) ÷ 400 = (400 + 1,080) ÷ 400 = **$3.70**. The cheaper fill-up counts three times as much because you bought three times as much."
+  },
+  {
+   "type": "example",
+   "title": "What do I need to hit my average?",
+   "problem": "Your first three test scores are 80, 90 and 70. What do you need on the fourth to average 85?",
+   "steps": [
+    "Target total for 4 tests: 4 × 85 = 340.",
+    "Current total: 80 + 90 + 70 = 240.",
+    "Needed: 340 − 240 = 100."
+   ],
+   "answer": "**100.** Working backward from the total is faster than guessing."
+  },
+  {
+   "type": "text",
+   "md": "## In your trading journal\nThese tools answer real questions:\n\n- **Mean R per trade** tells you if your system makes money.\n- **Median R** tells you what a *typical* trade looks like. In a big-R strategy, most trades lose 1R, so the median is often **−1R** even when the mean is positive. That's normal and it's exactly why the mean, not your gut, decides whether the system works.\n- **Spread** tells you how bumpy the ride is. A high-spread system needs smaller risk per trade to survive the streaks."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **\"Average\" in the news** is usually the mean. Ask: would the median tell a different story?\n- **The median of an even-count list** is the average of the two middle values, which might not be in the data at all.\n- **Averaging averages** is wrong when the groups have different sizes. Use a weighted average."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Mean of 4, 8, 15, 16, 23, 42?",
+   "answer": 18,
+   "why": "Sum = 108. 108 ÷ 6 = 18.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Median of 7, 1, 9, 3, 5?",
+   "answer": 5,
+   "why": "Sort: 1, 3, 5, 7, 9. The middle value is 5.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Median of 12, 4, 10, 6?",
+   "answer": 8,
+   "why": "Sort: 4, 6, 10, 12. Average the middle two: (6 + 10) ÷ 2 = 8.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Mode of: 2, 3, 3, 5, 7, 7, 7, 9?",
+   "options": [
+    "3",
+    "5",
+    "7",
+    "9"
+   ],
+   "answer": 2,
+   "why": "7 appears three times, more than any other value."
+  },
+  {
+   "type": "num",
+   "q": "Range of 15, 3, 22, 8, 11?",
+   "answer": 19,
+   "why": "Max − min = 22 − 3 = 19.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "A data set has one huge outlier. Which measure of center is most **resistant** to it?",
+   "options": [
+    "Mean",
+    "Median",
+    "Range",
+    "Sum"
+   ],
+   "answer": 1,
+   "why": "The median depends only on the middle position."
+  },
+  {
+   "type": "num",
+   "q": "Mean absolute deviation of 1, 3, 5, 7?",
+   "answer": 2,
+   "why": "Mean = 4. Distances: 3, 1, 1, 3. Average = 8 ÷ 4 = 2.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "You need an average of 80 on 5 tests. Your first four are 75, 85, 70 and 82. What do you need on the fifth?",
+   "answer": 88,
+   "why": "5 × 80 = 400. 75 + 85 + 70 + 82 = 312. 400 − 312 = 88.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Fuel: 50 gallons at $4.20 and 150 gallons at $3.80. Average price per gallon?",
+   "answer": 3.9,
+   "why": "(50 × 4.20 + 150 × 3.80) ÷ 200 = (210 + 570) ÷ 200 = 780 ÷ 200 = **$3.90**.",
+   "tol": 0.001,
+   "unit": "dollars",
+   "level": "challenge",
+   "hint": "Weight each price by how many gallons you bought.",
+   "steps": [
+    "50 × 4.20 = 210.",
+    "150 × 3.80 = 570.",
+    "Total cost 780 for 200 gallons.",
+    "780 ÷ 200 = 3.90."
+   ]
+  },
+  {
+   "type": "num",
+   "q": "Data: 2, 4, 5, 7, 8, 10, 30. Using the 1.5 × IQR rule, what is the **upper fence** (values above it are outliers)?",
+   "answer": 19,
+   "why": "Median = 7. Lower half 2, 4, 5 → Q1 = 4. Upper half 8, 10, 30 → Q3 = 10. IQR = 6. Upper fence = 10 + 1.5 × 6 = **19**. So 30 is an outlier.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "With 7 values, the median is the 4th; leave it out of both halves.",
+   "steps": [
+    "Median = 7 (4th value).",
+    "Q1 = median of 2, 4, 5 = 4.",
+    "Q3 = median of 8, 10, 30 = 10.",
+    "IQR = 6. 1.5 × 6 = 9.",
+    "Upper fence = 10 + 9 = 19."
+   ]
+  },
+  {
+   "type": "num",
+   "q": "10 trades: 8 losses of −1R and 2 wins of +6R. What is the **mean** R per trade?",
+   "answer": 0.4,
+   "why": "Total = 8 × (−1) + 2 × 6 = −8 + 12 = +4R. Mean = 4 ÷ 10 = **+0.4R**. Note the **median** is −1R: the typical trade loses, yet the system makes money.",
+   "tol": 0.001,
+   "unit": "R",
+   "level": "challenge",
+   "hint": "Add up all the R, then divide by the number of trades."
+  },
+  {
+   "type": "mc",
+   "q": "A company says \"Our average employee earns $95,000.\" Most workers earn about $40,000. What's most likely going on?",
+   "options": [
+    "They're lying",
+    "A few very high salaries pull the mean above the median",
+    "The mode is $95,000",
+    "The range is $95,000"
+   ],
+   "answer": 1,
+   "why": "A handful of executive salaries can drag the **mean** far above what a typical worker earns. Ask for the **median**.",
+   "level": "challenge",
+   "hint": "Which measure of center do outliers drag?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Introductory Statistics 2e",
+   "url": "https://openstax.org/details/books/introductory-statistics-2e"
+  },
+  {
+   "title": "OpenStax, Contemporary Mathematics (Probability; Statistics)",
+   "url": "https://openstax.org/details/books/contemporary-mathematics"
+  }
+ ]
+}

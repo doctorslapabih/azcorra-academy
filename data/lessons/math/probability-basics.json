@@ -1,0 +1,215 @@
+{
+ "id": "probability-basics",
+ "title": "Probability basics",
+ "band": "Grades 7–8",
+ "minutes": 30,
+ "lede": "Probability is the math of uncertainty. Learn to count outcomes, tell theory from experience, and spot the gambler's fallacy, the most expensive mistake in trading.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The probability scale\nProbability measures how likely something is, from **0** (impossible) to **1** (certain). You'll see it as a fraction, decimal or percent: 1/4 = 0.25 = 25%.\n\nWhen all outcomes are equally likely:\n\n**P(event) = number of favorable outcomes ÷ total number of outcomes**\n\nThe list of all possible outcomes is the **sample space**. A die's sample space is {1, 2, 3, 4, 5, 6}, so P(rolling a 5) = 1/6."
+  },
+  {
+   "type": "example",
+   "title": "Two dice",
+   "problem": "Roll two dice. What's the probability the sum is 7?",
+   "steps": [
+    "Sample space: 6 × 6 = 36 equally likely outcomes.",
+    "Sums of 7: (1,6) (2,5) (3,4) (4,3) (5,2) (6,1) = 6 outcomes.",
+    "P = 6 ÷ 36 = 1/6."
+   ],
+   "answer": "**1/6.** Seven is the most likely sum. A sum of 2 needs (1,1): only 1/36."
+  },
+  {
+   "type": "text",
+   "md": "## The complement\nThe **complement** of an event is \"it doesn't happen.\" Since something must happen:\n\n**P(not A) = 1 − P(A)**\n\nIf there's a 30% chance of rain, there's a 70% chance of no rain. This looks trivial. It's actually one of the most powerful tools in probability, because \"not\" is often far easier to count. You'll see that in the next lesson."
+  },
+  {
+   "type": "check",
+   "q": "A bag has 3 red, 5 blue and 2 green marbles. P(not blue)?",
+   "options": [
+    "5/10",
+    "1/2",
+    "3/10",
+    "1/5"
+   ],
+   "answer": 1,
+   "why": "P(blue) = 5/10. P(not blue) = 1 − 5/10 = **5/10 = 1/2**."
+  },
+  {
+   "type": "text",
+   "md": "## Theoretical vs experimental\n- **Theoretical probability** comes from reasoning: a fair coin lands heads with probability 1/2.\n- **Experimental probability** comes from data: flip 100 times, get 58 heads, so the experimental probability is 58/100 = 0.58.\n\nThey rarely match exactly in small samples. The **law of large numbers** says that as the number of trials grows, the experimental result gets closer to the true probability. Ten flips can easily give 70% heads. Ten thousand flips will land very close to 50%.\n\nThis is why one week of trading tells you almost nothing about your win rate, and 200 trades tell you a lot."
+  },
+  {
+   "type": "text",
+   "md": "## The gambler's fallacy\nA coin lands heads 5 times in a row. What's P(heads) on the next flip?\n\n**Still 1/2.** The coin has no memory. Each flip is **independent**.\n\nThe **gambler's fallacy** is believing a streak makes the opposite result \"due.\" It's how people lose fortunes at roulette, and it's how traders blow up accounts: *\"I've lost four in a row, the next one has to win,\"* then doubling size.\n\nThe law of large numbers doesn't work by **correcting** streaks. It works by **drowning them out** with thousands more trials."
+  },
+  {
+   "type": "check",
+   "q": "You've lost 4 trades in a row. Your system historically wins 40% of trades, and each trade is independent. The chance your next trade wins is…",
+   "options": [
+    "higher than 40%: you're due",
+    "40%",
+    "lower than 40%: you're cold",
+    "0%"
+   ],
+   "answer": 1,
+   "why": "Independent trades have no memory. It's **40%**, the same as always. That's why your plan uses fixed risk, not \"make it back\" sizing."
+  },
+  {
+   "type": "text",
+   "md": "## Odds vs probability\nThey're not the same thing:\n\n- **Probability** = favorable ÷ **total**. P(rolling a 6) = 1/6.\n- **Odds in favor** = favorable : **unfavorable**. Odds of rolling a 6 = **1 : 5**.\n\nSportsbooks and casinos quote **odds**, often against you. To convert odds of a : b in favor into probability: **a ÷ (a + b)**. Odds of 1 : 3 → probability 1/4 = 25%."
+  },
+  {
+   "type": "example",
+   "title": "Simulated vs exact",
+   "problem": "A spinner has 4 equal sections: red, blue, green, yellow. You spin 20 times and get red 8 times.",
+   "steps": [
+    "Theoretical P(red) = 1/4 = 0.25.",
+    "Experimental P(red) = 8/20 = 0.40.",
+    "20 spins is a small sample, so a big gap isn't surprising."
+   ],
+   "answer": "Expect the experimental number to move **toward 0.25** as you spin hundreds of times. If after 1,000 spins it's still near 0.40, the spinner is probably not fair."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Equally likely only applies when it's true.** \"I either win the lottery or I don't\" is two outcomes, but they're not 50/50.\n- **Probability can't be negative or above 1.** If you get 1.2, something's wrong.\n- **Rare events happen all the time** across enough tries. A one-in-a-million event happens to about 330 people a day in a country of 330 million."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "P(rolling an even number on one die)?",
+   "options": [
+    "1/6",
+    "1/3",
+    "1/2",
+    "2/3"
+   ],
+   "answer": 2,
+   "why": "Evens: 2, 4, 6 → 3 out of 6."
+  },
+  {
+   "type": "num",
+   "q": "A deck has 52 cards, 4 of them aces. P(drawing an ace), as a decimal to 3 places?",
+   "answer": 0.077,
+   "why": "4 ÷ 52 ≈ 0.077.",
+   "tol": 0.0006
+  },
+  {
+   "type": "num",
+   "q": "Weather says 35% chance of rain. P(no rain), as a percent?",
+   "answer": 65,
+   "why": "1 − 0.35 = 0.65 = 65%.",
+   "tol": 0.001,
+   "unit": "%"
+  },
+  {
+   "type": "num",
+   "q": "Roll two dice. How many outcomes are in the sample space?",
+   "answer": 36,
+   "why": "6 × 6 = 36.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "P(sum of 12 with two dice)?",
+   "options": [
+    "1/6",
+    "1/12",
+    "1/36",
+    "1/18"
+   ],
+   "answer": 2,
+   "why": "Only (6,6) → 1 of 36."
+  },
+  {
+   "type": "num",
+   "q": "You flip a coin 50 times and get 31 heads. Experimental P(heads), as a decimal?",
+   "answer": 0.62,
+   "why": "31 ÷ 50 = 0.62.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "A fair coin landed tails 6 times in a row. P(tails) next flip?",
+   "options": [
+    "Less than 1/2",
+    "1/2",
+    "More than 1/2",
+    "1/64"
+   ],
+   "answer": 1,
+   "why": "Independent flips. The coin has no memory."
+  },
+  {
+   "type": "mc",
+   "q": "The odds in favor of an event are 2 : 3. Its probability is…",
+   "options": [
+    "2/3",
+    "2/5",
+    "3/5",
+    "1/3"
+   ],
+   "answer": 1,
+   "why": "a ÷ (a + b) = 2 ÷ 5."
+  },
+  {
+   "type": "num",
+   "q": "Roll two dice. P(the sum is 8)? Give a fraction's decimal to 3 places.",
+   "answer": 0.139,
+   "why": "Sums of 8: (2,6) (3,5) (4,4) (5,3) (6,2) = 5 outcomes. 5 ÷ 36 ≈ **0.139**.",
+   "tol": 0.0006,
+   "level": "challenge",
+   "hint": "List every ordered pair that adds to 8. (3,5) and (5,3) are different outcomes."
+  },
+  {
+   "type": "mc",
+   "q": "A trader says: \"I've had 5 winners in a row, so I'll size down. A loss is coming.\" If trades are independent, this is…",
+   "options": [
+    "smart risk management",
+    "the gambler's fallacy in reverse",
+    "the law of large numbers",
+    "correct because of averages"
+   ],
+   "answer": 1,
+   "why": "Streaks don't make the other outcome **due**, in either direction. Sizing by streaks is the same fallacy. (Sizing down because you're tired or tilted is a different and valid reason.)",
+   "level": "challenge",
+   "hint": "Does the next trade know about the last five?"
+  },
+  {
+   "type": "num",
+   "q": "A coin is flipped 3 times. How many outcomes in the sample space have **exactly 2 heads**?",
+   "answer": 3,
+   "why": "HHT, HTH, THH. Three of the 8 possible outcomes.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Write out all 8 outcomes (HHH, HHT, ...) and count."
+  },
+  {
+   "type": "mc",
+   "q": "Your system's backtest shows 38% wins over 400 trades. Your first live week shows 2 wins in 10 trades (20%). Best conclusion?",
+   "options": [
+    "The system is broken",
+    "10 trades is too small a sample to tell; keep following the rules and track more",
+    "The backtest was wrong",
+    "Switch to a new system"
+   ],
+   "answer": 1,
+   "why": "By the **law of large numbers**, 10 trades swing wildly. Even at a true 38% rate, 2 or fewer wins in 10 happens about 1 time in 5. Judge the system on hundreds of trades.",
+   "level": "challenge",
+   "hint": "How many trials does the law of large numbers need?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Contemporary Mathematics (Probability; Statistics)",
+   "url": "https://openstax.org/details/books/contemporary-mathematics"
+  },
+  {
+   "title": "OpenStax, Introductory Statistics 2e",
+   "url": "https://openstax.org/details/books/introductory-statistics-2e"
+  }
+ ]
+}

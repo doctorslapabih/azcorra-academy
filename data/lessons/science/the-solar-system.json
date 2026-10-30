@@ -1,0 +1,227 @@
+{
+ "id": "the-solar-system",
+ "title": "The solar system",
+ "band": "Grades 7–8",
+ "minutes": 32,
+ "lede": "Eight planets, a star holding 99.8% of all the mass, and the real reason we have seasons (most adults get it wrong).",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The Sun runs the show\nThe solar system formed about **4.6 billion years ago** from a collapsing cloud of gas and dust. Most of the material fell to the center and became the **Sun**, which holds about **99.8%** of the solar system's mass. Its gravity holds everything else in orbit.\n\nDistances here are so big we use a special unit: the **astronomical unit (AU)**, Earth's average distance from the Sun, about **150 million km** (93 million miles). Light covers that in about **8 minutes and 20 seconds**. When you see the Sun, you're seeing it as it was 8 minutes ago."
+  },
+  {
+   "type": "text",
+   "md": "## The planets\n**Memory trick:** *My Very Educated Mother Just Served Us Nachos.*\n\n| Planet | Type | Distance (AU) | One fact worth remembering |\n|---|---|---|---|\n| Mercury | rocky | 0.39 | smallest; no real atmosphere, so huge day/night swings |\n| Venus | rocky | 0.72 | **hottest** planet (~465 °C): runaway greenhouse effect |\n| Earth | rocky | 1.00 | only known world with liquid surface oceans and life |\n| Mars | rocky | 1.52 | red from iron oxide (rust); tallest volcano, Olympus Mons |\n| Jupiter | gas giant | 5.2 | largest; the Great Red Spot is a storm bigger than Earth |\n| Saturn | gas giant | 9.5 | brightest rings, made of ice and rock chunks |\n| Uranus | ice giant | 19.2 | tipped on its side, rolls around the Sun |\n| Neptune | ice giant | 30.1 | fastest winds in the solar system |\n\n**Inner planets** are small and rocky. **Outer planets** are giants made mostly of gas and ices. Between Mars and Jupiter is the **asteroid belt**. Beyond Neptune is the **Kuiper Belt**, home of icy bodies including **Pluto**."
+  },
+  {
+   "type": "check",
+   "q": "Mercury is closest to the Sun, but Venus is hotter. Why?",
+   "options": [
+    "Venus is bigger",
+    "Venus's thick CO₂ atmosphere traps heat",
+    "Venus spins faster",
+    "Mercury is made of ice"
+   ],
+   "answer": 1,
+   "why": "A runaway greenhouse effect. Venus is hot enough to melt lead, day and night."
+  },
+  {
+   "type": "text",
+   "md": "## Why Pluto isn't a planet anymore\nIn **2006**, the International Astronomical Union defined a planet as a body that:\n\n1. **orbits the Sun**,\n2. is massive enough to pull itself **round**, and\n3. has **cleared its orbit** of other similar-sized objects.\n\nPluto passes 1 and 2, but it shares its region with many other Kuiper Belt objects, so it fails rule 3. It's now classified as a **dwarf planet**, alongside Eris, Ceres and others."
+  },
+  {
+   "type": "text",
+   "md": "## Gravity and weight\nYour **mass** (how much matter you have) is the same everywhere. Your **weight** (the pull of gravity on you) changes with where you stand.\n\n| Place | Gravity compared to Earth | 180 lb on Earth weighs… |\n|---|---|---|\n| Moon | about 1/6 (0.17) | ~30 lb |\n| Mars | about 0.38 | ~68 lb |\n| Jupiter (cloud tops) | about 2.5 | ~455 lb |\n\nGravity also creates **tides**. The Moon pulls hardest on the side of Earth facing it and weakest on the far side, stretching the oceans into two bulges. Earth rotates through both, so most coasts get **two high tides a day**."
+  },
+  {
+   "type": "text",
+   "md": "## Seasons: it's the tilt, not the distance\nEarth's axis is tilted about **23.5°**. As Earth orbits, that tilt stays pointed the same direction in space.\n\n- In **June**, the Northern Hemisphere leans **toward** the Sun: sunlight hits more directly and days are longer. **Summer.**\n- In **December**, it leans **away**: slanted sunlight, short days. **Winter.**\n- The Southern Hemisphere gets the **opposite** season at the same time.\n\n**Proof that distance isn't the cause:** Earth is actually **closest** to the Sun in early **January**, in the middle of northern winter."
+  },
+  {
+   "type": "check",
+   "q": "When it's summer in Florida, in Australia it's…",
+   "options": [
+    "summer",
+    "winter",
+    "spring",
+    "the same season everywhere"
+   ],
+   "answer": 1,
+   "why": "Opposite hemispheres lean opposite ways."
+  },
+  {
+   "type": "text",
+   "md": "## Moon phases and eclipses\nThe Moon makes no light. We see sunlight reflecting off it. As it orbits Earth (about every **29.5 days** from new moon to new moon), we see different amounts of its **sunlit half**:\n\n**new → waxing crescent → first quarter → waxing gibbous → full → waning gibbous → third quarter → waning crescent → new**\n\n*Waxing* = growing; *waning* = shrinking.\n\nPhases are **not** caused by Earth's shadow. That only happens during an **eclipse**:\n- **Lunar eclipse:** Earth passes between the Sun and the Moon, and Earth's shadow falls on the Moon (only at **full** moon).\n- **Solar eclipse:** the Moon passes between the Sun and Earth, and its shadow falls on Earth (only at **new** moon)."
+  },
+  {
+   "type": "example",
+   "title": "How long does light take?",
+   "problem": "The Moon is about 384,000 km away. Light travels about 300,000 km per second. How long does moonlight take to reach you?",
+   "steps": [
+    "384,000 ÷ 300,000 = 1.28."
+   ],
+   "answer": "**About 1.3 seconds.** Radio signals to Apollo astronauts had the same delay each way, so conversations had a noticeable pause."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Seasons come from tilt**, not distance.\n- **Phases aren't Earth's shadow.** Only eclipses are.\n- **Space isn't zero gravity.** Astronauts on the space station float because they're constantly **falling** around Earth, not because gravity is gone (it's about 90% as strong up there).\n- **Mass ≠ weight.**"
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "The largest planet is…",
+   "options": [
+    "Saturn",
+    "Jupiter",
+    "Neptune",
+    "Earth"
+   ],
+   "answer": 1,
+   "why": "More than twice the mass of all other planets combined."
+  },
+  {
+   "type": "mc",
+   "q": "The hottest planet is…",
+   "options": [
+    "Mercury",
+    "Venus",
+    "Mars",
+    "Jupiter"
+   ],
+   "answer": 1,
+   "why": "Its greenhouse effect beats Mercury's closeness."
+  },
+  {
+   "type": "mc",
+   "q": "One astronomical unit (AU) is…",
+   "options": [
+    "the distance to the Moon",
+    "Earth's average distance from the Sun",
+    "a light-year",
+    "the Sun's diameter"
+   ],
+   "answer": 1,
+   "why": "About 150 million km."
+  },
+  {
+   "type": "mc",
+   "q": "Seasons happen because…",
+   "options": [
+    "Earth's distance from the Sun changes",
+    "Earth's axis is tilted",
+    "the Sun gets hotter in summer",
+    "the Moon blocks sunlight"
+   ],
+   "answer": 1,
+   "why": "About 23.5°."
+  },
+  {
+   "type": "mc",
+   "q": "Pluto was reclassified in 2006 because it…",
+   "options": [
+    "isn't round",
+    "doesn't orbit the Sun",
+    "hasn't cleared its orbit",
+    "is made of ice"
+   ],
+   "answer": 2,
+   "why": "It shares the Kuiper Belt with many similar bodies."
+  },
+  {
+   "type": "num",
+   "q": "A 150 lb person on Earth weighs about how many pounds on the Moon (use 1/6)?",
+   "answer": 25,
+   "why": "150 ÷ 6 = 25.",
+   "tol": 0.001,
+   "unit": "lb"
+  },
+  {
+   "type": "mc",
+   "q": "A lunar eclipse can only happen at…",
+   "options": [
+    "new moon",
+    "full moon",
+    "first quarter",
+    "any phase"
+   ],
+   "answer": 1,
+   "why": "Earth must be between the Sun and Moon."
+  },
+  {
+   "type": "mc",
+   "q": "*Waxing* means the visible Moon is…",
+   "options": [
+    "shrinking",
+    "growing",
+    "full",
+    "invisible"
+   ],
+   "answer": 1,
+   "why": "Growing toward full."
+  },
+  {
+   "type": "num",
+   "q": "Light travels 300,000 km/s. The Sun is 150,000,000 km away. How many **seconds** does sunlight take to reach Earth?",
+   "answer": 500,
+   "why": "150,000,000 ÷ 300,000 = **500 seconds**, about 8 minutes 20 seconds.",
+   "tol": 0.001,
+   "unit": "s",
+   "level": "challenge",
+   "hint": "Distance ÷ speed = time."
+  },
+  {
+   "type": "num",
+   "q": "Mars's gravity is about 0.38 of Earth's. A 200 lb fighter would weigh about how many pounds there?",
+   "answer": 76,
+   "why": "200 × 0.38 = **76 lb**. His mass hasn't changed at all, only gravity's pull.",
+   "tol": 0.5,
+   "unit": "lb",
+   "level": "challenge",
+   "hint": "Multiply by the gravity ratio."
+  },
+  {
+   "type": "mc",
+   "q": "Earth is closest to the Sun in early January. What does that prove?",
+   "options": [
+    "January should be the hottest month everywhere",
+    "Distance from the Sun isn't what causes seasons",
+    "The Sun is hotter in January",
+    "Earth's orbit is a perfect circle"
+   ],
+   "answer": 1,
+   "why": "If distance caused seasons, the whole planet would have summer in January. Instead the north has winter, so tilt must be the cause.",
+   "level": "challenge",
+   "hint": "If distance mattered most, what would January be like in the north?"
+  },
+  {
+   "type": "mc",
+   "q": "Why are there usually **two** high tides a day, not one?",
+   "options": [
+    "The Sun and Moon each cause one",
+    "The Moon's pull stretches Earth's oceans into two bulges, one on each side, and Earth rotates through both",
+    "Wind pushes water twice",
+    "Earth wobbles twice a day"
+   ],
+   "answer": 1,
+   "why": "The near side is pulled more than Earth's center, and the center more than the far side. That stretch makes two bulges.",
+   "level": "challenge",
+   "hint": "Gravity gets weaker with distance. Think about the near side, the center and the far side."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Astronomy 2e",
+   "url": "https://openstax.org/details/books/astronomy-2e"
+  },
+  {
+   "title": "NASA Science: Solar System",
+   "url": "https://science.nasa.gov/solar-system/"
+  },
+  {
+   "title": "IAU 2006 General Assembly: Result of the IAU Resolution votes",
+   "url": "https://www.iau.org/IAU/Iau/News/PR2006/iau-2006-general-assembly-resolution-votes.aspx"
+  }
+ ]
+}

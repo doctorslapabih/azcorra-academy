@@ -1,0 +1,235 @@
+{
+ "id": "weather-and-climate",
+ "title": "Weather and climate",
+ "band": "Grades 7–8",
+ "minutes": 34,
+ "lede": "Why air moves, how storms form, what makes a hurricane, and the difference between today's forecast and a 30-year trend. Useful science for anyone who drives for a living or lives in Florida.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Weather vs climate\n- **Weather** is the condition of the atmosphere **right now** or over a few days: temperature, rain, wind, humidity.\n- **Climate** is the **long-term average** pattern for a place, usually measured over **30 years**.\n\nA saying that captures it: *climate is what you expect, weather is what you get.* One cold week doesn't change a climate, just like one bad trade doesn't define a strategy. Both are about the **average over many samples**."
+  },
+  {
+   "type": "text",
+   "md": "## The engine: uneven heating\nThe Sun heats Earth **unevenly**: the equator gets direct rays, the poles get slanted ones. Land heats faster than water. That uneven heating drives everything:\n\n1. Warm air is **less dense**, so it **rises**. That leaves **low pressure** below.\n2. Cool air is **denser** and **sinks**, creating **high pressure**.\n3. Air flows from **high pressure to low pressure**. That flow is **wind**.\n\n| | High pressure | Low pressure |\n|---|---|---|\n| Air is | sinking | rising |\n| Usually brings | clear, calm, dry weather | clouds, rain, storms |\n| Why | sinking air warms and dries out | rising air cools, and its water vapor condenses into clouds |\n\nThe **troposphere** (the lowest layer of the atmosphere, roughly the bottom 8–18 km) is where almost all weather happens. In it, temperature drops about **6.5 °C per kilometer** you climb. That's why mountain passes can be icy when the valley is just wet."
+  },
+  {
+   "type": "check",
+   "q": "Why does rising air tend to form clouds?",
+   "options": [
+    "It gets warmer",
+    "It cools, and water vapor condenses",
+    "It picks up dust",
+    "It speeds up"
+   ],
+   "answer": 1,
+   "why": "Cooler air can hold less water vapor. The excess condenses into droplets: clouds."
+  },
+  {
+   "type": "text",
+   "md": "## Fronts: where air masses collide\nAn **air mass** is a huge body of air with similar temperature and humidity. The boundary between two is a **front**.\n\n| Front | What happens | Weather |\n|---|---|---|\n| **Cold front** | cold air **shoves under** warm air, forcing it up fast | quick, intense storms, then cooler, drier, clear air |\n| **Warm front** | warm air **slides up over** cold air gradually | long periods of light rain or drizzle, then warmer |\n| **Stationary front** | neither side moves | days of clouds and rain in the same place |\n\nThe **water cycle** ties it together: water **evaporates**, **condenses** into clouds, falls as **precipitation**, and collects as **runoff** and groundwater, then evaporates again."
+  },
+  {
+   "type": "text",
+   "md": "## Severe weather\n**Thunderstorms** form when warm, moist air rises fast. Lightning heats the air to roughly five times the temperature of the Sun's surface, and the air explodes outward: thunder.\n\n**Flash-to-bang rule:** sound travels about **1 mile every 5 seconds**. Count seconds between the lightning and the thunder, divide by 5, and you get the distance in miles. *If you can hear thunder, you're close enough to be struck.*\n\n**Hurricanes** form over **warm ocean water** (at least about 26–27 °C, or 80 °F). Warm, moist air rises, pulls in more air below, and Earth's rotation sets it spinning: **counterclockwise** in the Northern Hemisphere. They weaken over land or cold water because they lose their fuel.\n\n| Saffir–Simpson category | Sustained winds |\n|---|---|\n| 1 | 74–95 mph |\n| 2 | 96–110 mph |\n| 3 (major) | 111–129 mph |\n| 4 | 130–156 mph |\n| 5 | 157 mph or higher |\n\nIn a hurricane, **storm surge** and **flooding** usually cause more deaths than the wind. *Turn around, don't drown*: about a foot of moving water can float many vehicles."
+  },
+  {
+   "type": "example",
+   "title": "Flash to bang",
+   "problem": "You see lightning while fueling, and hear thunder 15 seconds later. How far away is the strike?",
+   "steps": [
+    "15 ÷ 5 = 3."
+   ],
+   "answer": "**About 3 miles.** Well within striking range. Lightning can hit 10 miles or more from the storm. Get in the cab."
+  },
+  {
+   "type": "text",
+   "md": "## What sets a place's climate\n1. **Latitude**: closer to the equator = more direct sunlight = warmer.\n2. **Altitude**: higher = colder (that 6.5 °C per km).\n3. **Nearness to water**: oceans heat and cool slowly, so coastal places have milder swings than inland ones.\n4. **Ocean currents**: the **Gulf Stream** carries warm water from the Gulf of Mexico up the U.S. East Coast and across to Europe, helping keep western Europe milder than its latitude suggests.\n5. **Mountains**: the side facing incoming wind gets rain; the far side sits in a dry **rain shadow**."
+  },
+  {
+   "type": "text",
+   "md": "## The greenhouse effect and climate change\nSunlight passes through the atmosphere and warms the ground. The ground gives off heat (infrared). **Greenhouse gases**, mainly water vapor, **carbon dioxide (CO₂)** and **methane**, absorb some of that heat and send part of it back down. Without this natural effect, Earth would average about −18 °C (0 °F) and be frozen.\n\nBurning coal, oil and gas releases CO₂. Atmospheric CO₂ has risen from about **280 parts per million** before the Industrial Revolution to **more than 420 ppm** today, and global average temperature has risen **more than 1 °C** since the late 1800s. That's the **enhanced** greenhouse effect, and it's what scientists mean by climate change."
+  },
+  {
+   "type": "check",
+   "q": "A record cold week in Ohio. Does this disprove global warming?",
+   "options": [
+    "Yes",
+    "No: one week of weather isn't a climate trend",
+    "Only if it snows",
+    "Yes, if it happens in summer"
+   ],
+   "answer": 1,
+   "why": "Climate is the long-term **average** across the whole planet. One local week is a single data point."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Seasons aren't caused by distance from the Sun**, and **weather isn't climate**. (Seasons are next lesson.)\n- **Hurricane category measures wind only.** A Category 1 can still cause deadly flooding.\n- **The greenhouse effect itself isn't bad.** It keeps Earth livable. The issue is **strengthening** it.\n- **Humid air is actually less dense** than dry air at the same temperature (water vapor is lighter than nitrogen and oxygen), one reason moist air rises into storms."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Climate is usually defined as the average weather over about…",
+   "options": [
+    "1 year",
+    "5 years",
+    "30 years",
+    "1,000 years"
+   ],
+   "answer": 2,
+   "why": "The standard climate period."
+  },
+  {
+   "type": "mc",
+   "q": "Wind blows from…",
+   "options": [
+    "low to high pressure",
+    "high to low pressure",
+    "cold to hot only",
+    "west to east only"
+   ],
+   "answer": 1,
+   "why": "Air moves from high pressure toward low."
+  },
+  {
+   "type": "mc",
+   "q": "High pressure usually brings…",
+   "options": [
+    "storms",
+    "clear, calm weather",
+    "hurricanes",
+    "tornadoes"
+   ],
+   "answer": 1,
+   "why": "Sinking air warms and dries."
+  },
+  {
+   "type": "mc",
+   "q": "A cold front typically brings…",
+   "options": [
+    "days of drizzle",
+    "fast, intense storms then clearing",
+    "no change",
+    "fog only"
+   ],
+   "answer": 1,
+   "why": "Warm air is shoved up fast."
+  },
+  {
+   "type": "num",
+   "q": "Thunder comes 20 seconds after lightning. About how many miles away is it?",
+   "answer": 4,
+   "why": "20 ÷ 5 = 4.",
+   "tol": 0.001,
+   "unit": "miles"
+  },
+  {
+   "type": "mc",
+   "q": "Hurricanes need…",
+   "options": [
+    "cold water",
+    "warm ocean water",
+    "mountains",
+    "dry air"
+   ],
+   "answer": 1,
+   "why": "Warm water is the fuel."
+  },
+  {
+   "type": "mc",
+   "q": "In the Northern Hemisphere, hurricanes spin…",
+   "options": [
+    "clockwise",
+    "counterclockwise",
+    "either way at random",
+    "they don't spin"
+   ],
+   "answer": 1,
+   "why": "Due to Earth's rotation (the Coriolis effect)."
+  },
+  {
+   "type": "mc",
+   "q": "Why are coastal cities usually milder than inland cities at the same latitude?",
+   "options": [
+    "Sea breezes are always cold",
+    "Water heats and cools slowly, evening out temperatures",
+    "There's less sunlight on the coast",
+    "Salt warms the air"
+   ],
+   "answer": 1,
+   "why": "Oceans act as a heat buffer."
+  },
+  {
+   "type": "num",
+   "q": "It's 10 °C at a valley truck stop. You climb a pass 2 km higher. Using 6.5 °C per km, what's the temperature at the top?",
+   "answer": -3,
+   "why": "Drop: 2 × 6.5 = 13 °C. 10 − 13 = **−3 °C**. Wet roads in the valley can be **ice** at the summit.",
+   "tol": 0.001,
+   "unit": "°C",
+   "level": "challenge",
+   "hint": "Multiply the climb by the cooling rate, then subtract."
+  },
+  {
+   "type": "mc",
+   "q": "A hurricane has 125 mph sustained winds. Its category is…",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "why": "111–129 mph = **Category 3**, the first \"major\" hurricane category.",
+   "level": "challenge",
+   "hint": "Use the Saffir–Simpson table."
+  },
+  {
+   "type": "mc",
+   "q": "A city on the windward side of a mountain range gets 80 inches of rain a year. A city on the other side gets 10. Why?",
+   "options": [
+    "The second city is higher",
+    "Air rises and drops its moisture on the windward side, leaving a dry rain shadow",
+    "The second city is closer to the equator",
+    "Mountains block sunlight"
+   ],
+   "answer": 1,
+   "why": "Rising air cools and rains out. By the time it crosses and sinks, it's dry.",
+   "level": "challenge",
+   "hint": "What happens to air forced up a mountain?"
+  },
+  {
+   "type": "mc",
+   "q": "Without any greenhouse effect, Earth's average temperature would be about…",
+   "options": [
+    "15 °C, the same",
+    "−18 °C, frozen",
+    "100 °C, boiling",
+    "40 °C, tropical"
+   ],
+   "answer": 1,
+   "why": "The natural greenhouse effect warms Earth by about 33 °C, from −18 °C to about 15 °C. The problem is adding to it, not having it.",
+   "level": "challenge",
+   "hint": "The greenhouse effect is what keeps us warm."
+  }
+ ],
+ "sources": [
+  {
+   "title": "NOAA / National Weather Service, JetStream: An Online School for Weather",
+   "url": "https://www.noaa.gov/jetstream"
+  },
+  {
+   "title": "NOAA Climate.gov",
+   "url": "https://www.climate.gov/"
+  },
+  {
+   "title": "NOAA National Hurricane Center: Saffir-Simpson Hurricane Wind Scale",
+   "url": "https://www.nhc.noaa.gov/aboutsshws.php"
+  },
+  {
+   "title": "NOAA / NWS: Lightning Safety",
+   "url": "https://www.weather.gov/safety/lightning"
+  }
+ ]
+}

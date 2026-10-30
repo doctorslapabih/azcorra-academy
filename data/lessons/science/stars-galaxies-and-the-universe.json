@@ -1,0 +1,228 @@
+{
+ "id": "stars-galaxies-and-the-universe",
+ "title": "Stars, galaxies and the universe",
+ "band": "Grades 7–8",
+ "minutes": 34,
+ "lede": "How stars shine, live and die, why you're made of material forged inside them, and how we know the universe began 13.8 billion years ago.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What a star is\nA **star** is a giant ball of hot gas held together by its own gravity. In its **core**, pressure and temperature are so extreme (the Sun's core is about **15 million °C**) that hydrogen atoms smash together and fuse into **helium**. That's **nuclear fusion**.\n\nFusion converts a tiny bit of mass into a huge amount of energy, which is what Einstein's **E = mc²** describes: energy equals mass times the speed of light squared. Because c² is enormous, a little mass makes a lot of energy. The Sun turns about **4 million tons** of mass into energy **every second**, and it has enough fuel to keep going for billions of years.\n\nA star's life is a balance: **gravity** squeezes inward; the **energy from fusion** pushes outward."
+  },
+  {
+   "type": "text",
+   "md": "## Reading a star's color\nA star's color tells you its **surface temperature**, the same way a stove burner glows red, then orange, then white as it heats up.\n\n| Color | Surface temperature | Example |\n|---|---|---|\n| red | ~3,000 °C (coolest) | Betelgeuse, most small stars |\n| orange | ~4,000 °C | Arcturus |\n| yellow-white | ~5,500 °C | the Sun |\n| white | ~10,000 °C | Sirius |\n| blue | 20,000 °C+ (hottest) | Spica |\n\nSurprising to most people: **blue stars are hotter than red ones**."
+  },
+  {
+   "type": "check",
+   "q": "Which star is hottest at its surface?",
+   "options": [
+    "a red star",
+    "an orange star",
+    "a yellow star",
+    "a blue star"
+   ],
+   "answer": 3,
+   "why": "Blue = hottest; red = coolest. The opposite of the hot/cold colors on a faucet."
+  },
+  {
+   "type": "text",
+   "md": "## The life of a star: mass decides everything\nEvery star is born in a **nebula**, a cloud of gas and dust, when gravity pulls a clump together until its core ignites fusion.\n\n**Sun-like stars:**\n**nebula → main-sequence star** (fusing hydrogen for billions of years) **→ red giant** (swells up as the core runs low) **→ planetary nebula** (outer layers drift away) **→ white dwarf** (a hot, Earth-sized leftover core that slowly cools)\n\n**Massive stars** (more than about 8 times the Sun):\n**nebula → main sequence** (shorter: they burn fuel much faster) **→ red supergiant → supernova** (a colossal explosion that can briefly outshine a whole galaxy) **→ neutron star** or, for the biggest, **black hole**\n\nThe Sun is about **4.6 billion years** old, roughly halfway through its life. In about 5 billion years it will become a red giant."
+  },
+  {
+   "type": "text",
+   "md": "## You are made of star stuff\nThe Big Bang produced mostly **hydrogen and helium**. Nearly all the heavier elements, the **carbon** in your cells, the **oxygen** you breathe, the **calcium** in your bones and the **iron** in your blood, were made later, by fusion inside stars and in their explosive deaths, then scattered into space to form new stars and planets.\n\nAstronomer Carl Sagan put it simply: *we are made of star-stuff.* That's not poetry. It's chemistry."
+  },
+  {
+   "type": "text",
+   "md": "## Measuring cosmic distance\nA **light-year** is a **distance**, not a time: how far light travels in one year, about **9.5 trillion km** (5.9 trillion miles).\n\n- The nearest star beyond the Sun, **Proxima Centauri**, is about **4.2 light-years** away. Its light left before you finished your last few birthdays.\n- Looking far is looking **back in time**. You see stars as they were when their light left them."
+  },
+  {
+   "type": "text",
+   "md": "## Galaxies\nA **galaxy** is a vast system of stars, gas, dust and dark matter held together by gravity.\n\n- Our galaxy, the **Milky Way**, is a **barred spiral** about **100,000 light-years** across, with **hundreds of billions** of stars. The Sun sits in a spiral arm about 26,000 light-years from the center, where a supermassive black hole sits.\n- Galaxy shapes: **spiral** (pinwheel), **elliptical** (smooth, oval), **irregular** (no clear shape).\n- Our nearest large neighbor, the **Andromeda Galaxy**, is about **2.5 million light-years** away. On a dark night it's one of the most distant things you can see with your naked eyes, and the light you see left it before our species existed.\n- The observable universe holds **hundreds of billions** of galaxies, possibly more."
+  },
+  {
+   "type": "text",
+   "md": "## The Big Bang\nAbout **13.8 billion years ago**, the universe was extremely hot and dense, and it has been **expanding** and cooling ever since. Three key pieces of evidence:\n\n1. **Galaxies are moving apart.** In 1929, **Edwin Hubble** showed that farther galaxies are moving away faster. Their light is stretched toward red (**redshift**), like the falling pitch of a passing siren. Run the movie backward and everything was once together.\n2. **The cosmic microwave background.** In 1965, Arno Penzias and Robert Wilson detected a faint microwave glow coming from every direction: the cooled-down afterglow of the early hot universe.\n3. **The mix of elements.** The amounts of hydrogen and helium in the universe match what the Big Bang theory predicts.\n\nIt wasn't an explosion **inside** space. It was the expansion **of space itself**, everywhere at once."
+  },
+  {
+   "type": "example",
+   "title": "How old is the light?",
+   "problem": "A galaxy is 50 million light-years away. When did the light you see today leave it?",
+   "steps": [
+    "A light-year is the distance light travels in a year.",
+    "50 million light-years away → the light traveled 50 million years."
+   ],
+   "answer": "**50 million years ago**, after the dinosaurs died out (about 66 million years ago). If that galaxy vanished today, we wouldn't know for 50 million years."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **A light-year is a distance**, not a time.\n- **Stars don't burn like fire.** Fire is chemical; stars are nuclear fusion. Space has no oxygen for fire.\n- **Black holes aren't cosmic vacuum cleaners.** From far away, a black hole's gravity acts like any object of the same mass. If the Sun became one (it can't: too small), Earth's orbit wouldn't change.\n- **The Big Bang didn't happen at one point in space.** Space itself expanded."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Stars produce energy by…",
+   "options": [
+    "burning oxygen",
+    "nuclear fusion of hydrogen into helium",
+    "chemical reactions",
+    "reflecting light"
+   ],
+   "answer": 1,
+   "why": "Fusion in the core."
+  },
+  {
+   "type": "mc",
+   "q": "A light-year measures…",
+   "options": [
+    "time",
+    "distance",
+    "brightness",
+    "speed"
+   ],
+   "answer": 1,
+   "why": "How far light goes in a year."
+  },
+  {
+   "type": "mc",
+   "q": "The Sun will end its life as a…",
+   "options": [
+    "black hole",
+    "neutron star",
+    "white dwarf",
+    "supernova"
+   ],
+   "answer": 2,
+   "why": "It's not massive enough for a supernova."
+  },
+  {
+   "type": "mc",
+   "q": "Our galaxy, the Milky Way, is a…",
+   "options": [
+    "elliptical galaxy",
+    "barred spiral galaxy",
+    "irregular galaxy",
+    "star cluster"
+   ],
+   "answer": 1,
+   "why": "About 100,000 light-years across."
+  },
+  {
+   "type": "mc",
+   "q": "The universe is about how old?",
+   "options": [
+    "6,000 years",
+    "4.6 billion years",
+    "13.8 billion years",
+    "infinitely old"
+   ],
+   "answer": 2,
+   "why": "4.6 billion is the solar system's age."
+  },
+  {
+   "type": "mc",
+   "q": "The cosmic microwave background is…",
+   "options": [
+    "radio signals from aliens",
+    "the afterglow of the early hot universe",
+    "light from the Sun",
+    "noise from Earth's satellites"
+   ],
+   "answer": 1,
+   "why": "Discovered in 1965."
+  },
+  {
+   "type": "mc",
+   "q": "Redshift of distant galaxies shows the universe is…",
+   "options": [
+    "shrinking",
+    "expanding",
+    "standing still",
+    "rotating"
+   ],
+   "answer": 1,
+   "why": "Hubble, 1929."
+  },
+  {
+   "type": "mc",
+   "q": "The iron in your blood was originally made…",
+   "options": [
+    "on Earth",
+    "in the Big Bang",
+    "inside stars and their explosions",
+    "by plants"
+   ],
+   "answer": 2,
+   "why": "Heavy elements are forged by stars."
+  },
+  {
+   "type": "mc",
+   "q": "Star A is red, star B is blue. Which is true?",
+   "options": [
+    "A is hotter",
+    "B is hotter",
+    "They're the same temperature",
+    "Color says nothing about temperature"
+   ],
+   "answer": 1,
+   "why": "Blue = hotter surface, like a flame or a heated piece of metal moving from red to white to blue-white.",
+   "level": "challenge",
+   "hint": "Think of metal heated in a forge."
+  },
+  {
+   "type": "mc",
+   "q": "A massive star burns for about 10 million years; the Sun for about 10 billion. Why does the bigger star die so much sooner?",
+   "options": [
+    "It has less fuel",
+    "Its stronger gravity squeezes the core harder, so it burns its fuel much faster",
+    "It's farther away",
+    "It's made of different elements"
+   ],
+   "answer": 1,
+   "why": "More mass means more fuel, but the extra gravity drives fusion **so much** faster that it runs out first. Big engines burn fuel fastest.",
+   "level": "challenge",
+   "hint": "More gravity → more pressure → faster fusion."
+  },
+  {
+   "type": "num",
+   "q": "Proxima Centauri is 4.2 light-years away. A light-year is about 9.5 trillion km. About how many **trillion** km away is it? (1 decimal)",
+   "answer": 39.9,
+   "why": "4.2 × 9.5 = **39.9 trillion km**. Even our fastest spacecraft would need thousands of years to get there.",
+   "tol": 0.06,
+   "unit": "trillion km",
+   "level": "challenge",
+   "hint": "Multiply light-years by km per light-year."
+  },
+  {
+   "type": "mc",
+   "q": "If the Sun suddenly vanished, how long until Earth went dark?",
+   "options": [
+    "instantly",
+    "about 8 minutes 20 seconds",
+    "about 1 day",
+    "about 1 year"
+   ],
+   "answer": 1,
+   "why": "The last light already on its way would keep arriving for about 8 minutes 20 seconds. (Gravity's change also travels at light speed, so Earth's orbit wouldn't change until then either.)",
+   "level": "challenge",
+   "hint": "How long does sunlight take to reach us?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Astronomy 2e",
+   "url": "https://openstax.org/details/books/astronomy-2e"
+  },
+  {
+   "title": "NASA Science: Stars",
+   "url": "https://science.nasa.gov/universe/stars/"
+  },
+  {
+   "title": "NASA Science: Galaxies",
+   "url": "https://science.nasa.gov/universe/galaxies/"
+  }
+ ]
+}

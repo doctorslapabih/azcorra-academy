@@ -1,0 +1,229 @@
+{
+ "id": "plate-tectonics",
+ "title": "Plate tectonics",
+ "band": "Grades 7–8",
+ "minutes": 32,
+ "lede": "The ground under you is moving right now, about as fast as your fingernails grow. That slow motion builds mountains, opens oceans, and causes nearly every earthquake and volcano on Earth.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Inside the Earth\nEarth is layered like a peach: a thin skin, a thick middle and a dense pit.\n\n| Layer | What it's like |\n|---|---|\n| **Crust** | thin, solid rock. Thinnest under the oceans (~5–10 km), thickest under mountains (up to ~70 km) |\n| **Mantle** | solid but extremely hot rock that **flows very slowly** over millions of years, like super-thick putty. About 2,900 km thick |\n| **Outer core** | **liquid** iron and nickel. Its swirling creates Earth's magnetic field |\n| **Inner core** | **solid** iron and nickel, as hot as the Sun's surface, kept solid by enormous pressure |\n\nThe **lithosphere** (the crust plus the stiff top of the mantle) is broken into about a dozen large **tectonic plates**, which ride on the softer, flowing layer beneath."
+  },
+  {
+   "type": "figure",
+   "svg": "<svg viewBox=\"0 0 420 230\" width=\"100%\" style=\"max-width:520px\" role=\"img\" aria-label=\"Earth's layers\">\n<g font-family=\"inherit\" font-size=\"13\" fill=\"currentColor\">\n<path d=\"M20 210 A190 190 0 0 1 210 20 L210 210 Z\" fill=\"currentColor\" fill-opacity=\".10\"/>\n<path d=\"M40 210 A170 170 0 0 1 210 40 L210 210 Z\" fill=\"currentColor\" fill-opacity=\".18\"/>\n<path d=\"M110 210 A100 100 0 0 1 210 110 L210 210 Z\" fill=\"currentColor\" fill-opacity=\".30\"/>\n<path d=\"M160 210 A50 50 0 0 1 210 160 L210 210 Z\" fill=\"currentColor\" fill-opacity=\".50\"/>\n<line x1=\"20\" y1=\"210\" x2=\"210\" y2=\"210\" stroke=\"currentColor\" stroke-opacity=\".4\"/>\n<text x=\"232\" y=\"34\">Crust · 5–70 km thick</text>\n<text x=\"232\" y=\"82\">Mantle · hot rock that slowly flows</text>\n<text x=\"232\" y=\"98\" fill-opacity=\".7\">down to ~2,900 km</text>\n<text x=\"232\" y=\"146\">Outer core · liquid iron and nickel</text>\n<text x=\"232\" y=\"194\">Inner core · solid, ~5,000 °C+</text>\n<line x1=\"200\" y1=\"28\" x2=\"228\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\".5\"/>\n<line x1=\"180\" y1=\"80\" x2=\"228\" y2=\"80\" stroke=\"currentColor\" stroke-opacity=\".5\"/>\n<line x1=\"175\" y1=\"140\" x2=\"228\" y2=\"142\" stroke=\"currentColor\" stroke-opacity=\".5\"/>\n<line x1=\"198\" y1=\"190\" x2=\"228\" y2=\"190\" stroke=\"currentColor\" stroke-opacity=\".5\"/>\n</g></svg>",
+   "caption": "A slice of the Earth (not to scale). The whole crust is thinner, relative to Earth, than the skin of an apple."
+  },
+  {
+   "type": "text",
+   "md": "## How we figured it out\n- **1912:** German scientist **Alfred Wegener** proposed **continental drift**. The continents fit like puzzle pieces (look at South America and Africa), matching fossils and rock layers appear on continents now separated by oceans, and glacier scratches show up in places that are now tropical. He was largely **rejected**: he couldn't explain **what** moved the continents.\n- **1950s–60s:** mapping the ocean floor revealed a huge underwater mountain chain, the **Mid-Atlantic Ridge**, where new seafloor forms and spreads outward (**seafloor spreading**). Magnetic stripes in the rock, recording reversals of Earth's magnetic field, matched perfectly on both sides of the ridge.\n- Together, these became the theory of **plate tectonics**. Wegener was right about the drifting; the mechanism was the part he was missing.\n\n**What drives it:** heat from Earth's interior keeps the mantle slowly churning, and cold, dense plate edges sink back into the mantle, **pulling** the rest of the plate along behind them."
+  },
+  {
+   "type": "text",
+   "md": "## The three types of boundaries\n| Boundary | Plates… | Creates | Real example |\n|---|---|---|---|\n| **Divergent** | move **apart** | new crust, rift valleys, mid-ocean ridges | Mid-Atlantic Ridge; East African Rift; Iceland |\n| **Convergent** | move **together** | mountains, deep trenches, volcanoes, big earthquakes | Himalayas; Andes; Japan |\n| **Transform** | **slide past** each other | earthquakes (no new or destroyed crust) | San Andreas Fault, California |\n\n**Convergent boundaries come in three kinds:**\n- **Ocean meets continent:** the denser ocean plate **subducts** (dives under), melts, and feeds a chain of volcanoes. *The Andes.*\n- **Ocean meets ocean:** one subducts, forming a deep trench and volcanic islands. *Japan; the Mariana Trench, the deepest place on Earth.*\n- **Continent meets continent:** neither sinks easily, so the crust crumples upward. *India crashing into Asia built the Himalayas, which are still rising.*"
+  },
+  {
+   "type": "check",
+   "q": "Plates sliding horizontally past each other form a…",
+   "options": [
+    "divergent boundary",
+    "convergent boundary",
+    "transform boundary",
+    "subduction zone"
+   ],
+   "answer": 2,
+   "why": "Like the San Andreas Fault. Crust is neither created nor destroyed, but stress builds and releases as earthquakes."
+  },
+  {
+   "type": "text",
+   "md": "## Earthquakes and volcanoes\nPlates don't slide smoothly. They **lock**, stress builds for years or centuries, and then the rock snaps. The energy released travels as **seismic waves**: that's an earthquake.\n\n**Magnitude** measures the energy released. The scale is **logarithmic**:\n- each whole step up means about **10×** bigger ground shaking (wave amplitude), and\n- about **32×** more **energy**.\n\nSo a magnitude 7 releases roughly 32 × 32 ≈ **1,000 times** the energy of a magnitude 5.\n\nMost volcanoes and earthquakes sit along plate boundaries. The **Ring of Fire** around the Pacific Ocean, a loop of subduction zones, holds most of the world's active volcanoes and has most of its large earthquakes. **Florida**, in the middle of the North American Plate, far from any boundary, has very few."
+  },
+  {
+   "type": "example",
+   "title": "How far is far?",
+   "problem": "The Atlantic Ocean widens about **2.5 cm per year**. How much wider will it be in 1 million years?",
+   "steps": [
+    "2.5 cm × 1,000,000 = 2,500,000 cm.",
+    "2,500,000 cm = 25,000 m = **25 km**."
+   ],
+   "answer": "**About 25 km.** Slow for a lifetime, huge for geology. Over ~200 million years, that kind of spreading opened the entire Atlantic, splitting the supercontinent **Pangaea**."
+  },
+  {
+   "type": "check",
+   "q": "Why does the ocean plate sink when it meets a continent?",
+   "options": [
+    "It's lighter",
+    "It's denser",
+    "It's hotter",
+    "It's moving faster"
+   ],
+   "answer": 1,
+   "why": "Ocean crust is made of denser rock (basalt) than continental crust (granite-like rock), so it dives under."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **The mantle isn't a sea of lava.** It's almost entirely solid rock that flows extremely slowly. Magma forms in specific places, like above subduction zones.\n- **Continents don't float on the ocean.** Plates include both ocean floor and continents, moving together.\n- **Magnitude 8 isn't twice magnitude 4.** It's about 10,000× the shaking amplitude and about a million times the energy."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which layer is **liquid**?",
+   "options": [
+    "crust",
+    "mantle",
+    "outer core",
+    "inner core"
+   ],
+   "answer": 2,
+   "why": "Liquid iron and nickel. Its motion creates the magnetic field."
+  },
+  {
+   "type": "mc",
+   "q": "Who first proposed continental drift?",
+   "options": [
+    "Charles Darwin",
+    "Alfred Wegener",
+    "Isaac Newton",
+    "Harry Hess"
+   ],
+   "answer": 1,
+   "why": "In 1912. Rejected for decades because he lacked a mechanism."
+  },
+  {
+   "type": "mc",
+   "q": "New crust forms at…",
+   "options": [
+    "divergent boundaries",
+    "convergent boundaries",
+    "transform boundaries",
+    "the inner core"
+   ],
+   "answer": 0,
+   "why": "Plates pull apart and magma rises to fill the gap."
+  },
+  {
+   "type": "mc",
+   "q": "The Himalayas formed from…",
+   "options": [
+    "a divergent boundary",
+    "two continental plates colliding",
+    "a transform fault",
+    "a hot spot"
+   ],
+   "answer": 1,
+   "why": "India pushing into Asia."
+  },
+  {
+   "type": "mc",
+   "q": "The San Andreas Fault is a ___ boundary.",
+   "options": [
+    "divergent",
+    "convergent",
+    "transform",
+    "subduction"
+   ],
+   "answer": 2,
+   "why": "Plates sliding past each other."
+  },
+  {
+   "type": "num",
+   "q": "A plate moves 5 cm per year. How many **kilometers** does it move in 1 million years?",
+   "answer": 50,
+   "why": "5 × 1,000,000 = 5,000,000 cm = 50,000 m = 50 km.",
+   "tol": 0.001,
+   "unit": "km"
+  },
+  {
+   "type": "mc",
+   "q": "When an ocean plate dives under another plate, it's called…",
+   "options": [
+    "spreading",
+    "subduction",
+    "erosion",
+    "drift"
+   ],
+   "answer": 1,
+   "why": "From Latin *sub* (under) + *ducere* (to lead)."
+  },
+  {
+   "type": "mc",
+   "q": "Why does Florida have few earthquakes?",
+   "options": [
+    "It's too flat",
+    "It's far from any plate boundary",
+    "Water absorbs them",
+    "It's on the Pacific Plate"
+   ],
+   "answer": 1,
+   "why": "It sits in the middle of the North American Plate."
+  },
+  {
+   "type": "num",
+   "q": "About how many times more **energy** does a magnitude 6 earthquake release than a magnitude 4?",
+   "answer": 1000,
+   "why": "Two steps up: 32 × 32 ≈ **1,000**. (The shaking amplitude is 10 × 10 = 100× bigger.)",
+   "tol": 50,
+   "level": "challenge",
+   "hint": "Each step is about 32× the energy.",
+   "steps": [
+    "Magnitude 4 → 5: ×32.",
+    "Magnitude 5 → 6: ×32 again.",
+    "32 × 32 = 1,024 ≈ 1,000."
+   ]
+  },
+  {
+   "type": "mc",
+   "q": "Magnetic stripes in the seafloor were key evidence because…",
+   "options": [
+    "they prove the Moon pulls the plates",
+    "matching patterns on both sides of the ridge show new crust forming and spreading outward",
+    "they show where gold is",
+    "they show the core is solid"
+   ],
+   "answer": 1,
+   "why": "Rock records Earth's magnetic direction as it cools. Mirror-image stripes on both sides mean the seafloor is growing from the middle.",
+   "level": "challenge",
+   "hint": "Why would the patterns be mirror images?"
+  },
+  {
+   "type": "mc",
+   "q": "Mount Fuji and the deep trenches near Japan are best explained by…",
+   "options": [
+    "continent-continent collision",
+    "ocean-ocean (and ocean-continent) subduction",
+    "a divergent boundary",
+    "a transform fault"
+   ],
+   "answer": 1,
+   "why": "Subducting ocean plates create trenches and melt to feed volcanoes.",
+   "level": "challenge",
+   "hint": "Trench + volcanoes = one plate diving under another."
+  },
+  {
+   "type": "mc",
+   "q": "Wegener's evidence was strong but his idea was rejected. What was the main problem?",
+   "options": [
+    "His fossils were fake",
+    "He couldn't explain what force moved the continents",
+    "Continents don't fit together",
+    "He was from Germany"
+   ],
+   "answer": 1,
+   "why": "Good science needs a **mechanism**, not just a pattern. Mantle convection and seafloor spreading supplied it in the 1960s. A lesson in why *how* matters as much as *what*.",
+   "level": "challenge",
+   "hint": "Pattern without explanation."
+  }
+ ],
+ "sources": [
+  {
+   "title": "USGS, This Dynamic Earth: The Story of Plate Tectonics",
+   "url": "https://pubs.usgs.gov/publication/7000097"
+  },
+  {
+   "title": "USGS, Earthquake Magnitude, Energy Release, and Shaking Intensity",
+   "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity"
+  }
+ ]
+}

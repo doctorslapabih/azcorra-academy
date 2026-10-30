@@ -957,22 +957,26 @@
      {
       "id": "plate-tectonics",
       "title": "Plate tectonics",
-      "ready": false
+      "ready": true,
+      "desc": "The ground under you is moving right now, about as fast as your fingernails grow. That slow motion builds mountains, opens oceans, and causes nearly every earthquake and volcano on Earth."
      },
      {
       "id": "weather-and-climate",
       "title": "Weather and climate",
-      "ready": false
+      "ready": true,
+      "desc": "Why air moves, how storms form, what makes a hurricane, and the difference between today's forecast and a 30-year trend. Useful science for anyone who drives for a living or lives in Florida."
      },
      {
       "id": "the-solar-system",
       "title": "The solar system",
-      "ready": false
+      "ready": true,
+      "desc": "Eight planets, a star holding 99.8% of all the mass, and the real reason we have seasons (most adults get it wrong)."
      },
      {
       "id": "stars-galaxies-and-the-universe",
       "title": "Stars, galaxies and the universe",
-      "ready": false
+      "ready": true,
+      "desc": "How stars shine, live and die, why you're made of material forged inside them, and how we know the universe began 13.8 billion years ago."
      }
     ]
    },

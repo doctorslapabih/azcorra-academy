@@ -639,27 +639,32 @@
      {
       "id": "subject-verb-agreement",
       "title": "Subject-verb agreement",
-      "ready": false
+      "ready": true,
+      "desc": "A verb has to match its subject. The rule takes ten seconds to learn. Finding the real subject is the skill, and this lesson trains it."
      },
      {
       "id": "pronouns",
       "title": "Pronouns",
-      "ready": false
+      "ready": true,
+      "desc": "I or me, who or whom, its or it's, he or they: the pronoun choices that make writing sound educated, and the one test that settles almost all of them."
      },
      {
       "id": "misplaced-modifiers",
       "title": "Misplaced modifiers",
-      "ready": false
+      "ready": true,
+      "desc": "A describing word attaches to whatever it's next to. Put it in the wrong spot and your sentence says something absurd, or something you'll have to pay for."
      },
      {
       "id": "parallel-structure",
       "title": "Parallel structure",
-      "ready": false
+      "ready": true,
+      "desc": "Items in a list should match in form. It's the difference between writing that stumbles and writing that hits like a combination."
      },
      {
       "id": "verb-tense-consistency",
       "title": "Verb tense consistency",
-      "ready": false
+      "ready": true,
+      "desc": "Pick a timeline and stay on it. When time really does shift, use the tenses built to show exactly when things happened."
      }
     ]
    },

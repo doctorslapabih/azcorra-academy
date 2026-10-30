@@ -1,0 +1,223 @@
+{
+ "id": "pronouns",
+ "title": "Pronouns",
+ "band": "Grades 8–9",
+ "minutes": 30,
+ "lede": "I or me, who or whom, its or it's, he or they: the pronoun choices that make writing sound educated, and the one test that settles almost all of them.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What a pronoun has to do\nA pronoun stands in for a noun so you don't repeat it. To work, it has to do three things:\n\n1. **Point clearly** to one noun (its *antecedent*).\n2. **Agree** with that noun in number.\n3. Be in the right **case**: subject form or object form.\n\nMost pronoun errors break one of those three."
+  },
+  {
+   "type": "text",
+   "md": "## Job 1: point clearly\nIf a reader can't tell which noun a pronoun means, the sentence fails, even if the grammar is perfect.\n\n- ✗ *When Mike called Juan, **he** was furious.* (Who was furious?)\n- ✓ *Mike was furious when he called Juan.*\n\n- ✗ *The truck hit the trailer, and **it** was badly damaged.*\n- ✓ *The truck hit the trailer, and the trailer was badly damaged.*\n\nWatch out for a lonely **this**, **that** or **it** pointing at a whole idea:\n\n- ✗ *Fuel went up and two drivers quit. **This** hurt the quarter.*\n- ✓ *Fuel went up and two drivers quit. **These losses** hurt the quarter.*\n\nFix: put a noun after *this*. It forces you to say what you mean."
+  },
+  {
+   "type": "text",
+   "md": "## Job 2: agree in number\nA plural noun takes a plural pronoun, and a singular noun takes a singular one: *The **drivers** forgot **their** logs. The **company** filed **its** taxes.* (A company is *it*, not *they*, in formal writing.)\n\nWhat about a singular noun when you don't know the gender? *Every driver must bring ___ license.*\n\n- **Their** (singular *they*) is now accepted by the major style guides, including APA. Writers have used it this way for centuries, Shakespeare included.\n- **His or her** is correct but clunky if repeated.\n- **Make it plural** is often the cleanest: *All drivers must bring their licenses.*"
+  },
+  {
+   "type": "text",
+   "md": "## Job 3: choose the right case\n| Subject form (does the action) | Object form (receives it) |\n|---|---|\n| I | me |\n| he, she | him, her |\n| we | us |\n| they | them |\n| who, whoever | whom, whomever |\n\nNobody says *Me went to the store*. Errors happen in **pairs**:\n\n- ✗ *Jake and **me** loaded the truck.*\n- ✗ *The broker called Jake and **I**.*\n\n**The cover-up test:** cover the other person (the words in brackets) and read the sentence with just the pronoun.\n\n- *[Jake and] me loaded the truck* → *Me loaded*? No: **Jake and I loaded the truck.**\n- *The broker called [Jake and] I* → *called I*? No: **called Jake and me.**"
+  },
+  {
+   "type": "check",
+   "q": "\"Between you and ___, this deal is bad.\"",
+   "options": [
+    "I",
+    "me"
+   ],
+   "answer": 1,
+   "why": "**Between** is a preposition, and prepositions take the object form. *Between you and **me**.* \"Between you and I\" is one of the most common errors educated people make."
+  },
+  {
+   "type": "text",
+   "md": "## Who vs whom\nSame test, different tool. Answer the question (or rewrite the clause) using **he** or **him**:\n\n- *___ called the broker?* → **He** called. → **Who** called the broker?\n- *___ did you call?* → You called **him**. → **Whom** did you call?\n- *The driver ___ we hired is great.* → We hired **him**. → *The driver **whom** we hired.*\n\n**he → who. him → whom.** Both end in *m*.\n\nIn casual speech, *who* is fine almost everywhere. In formal writing, applications and contracts, get it right."
+  },
+  {
+   "type": "text",
+   "md": "## Myself and the apostrophe traps\n**Myself** is only for two jobs: when you're also the subject (*I trained **myself***) or for emphasis (*I fixed it **myself***). Don't use it to sound formal:\n\n- ✗ *Send the invoice to Sarah or **myself**.* ✓ *to Sarah or **me**.*\n\n**Possessive pronouns never take an apostrophe:** *its, yours, hers, ours, theirs, whose.* An apostrophe in a pronoun almost always means a **contraction**:\n\n| Possessive | Contraction |\n|---|---|\n| **its** wheels | **it's** = it is |\n| **whose** truck | **who's** = who is |\n| **their** load | **they're** = they are |\n| **your** call | **you're** = you are |\n\nTest: expand it. If *it is* doesn't fit, it's **its**."
+  },
+  {
+   "type": "example",
+   "title": "Than me or than I?",
+   "problem": "\"She trains harder than ___.\"",
+   "steps": [
+    "*Than* compares two clauses, and the second one is usually cut short.",
+    "Finish it: *She trains harder than **I** (do).*"
+   ],
+   "answer": "**I** in formal writing. In speech, *than me* is common and accepted. But notice how meaning can change: *She likes him more than **I*** (more than I like him) vs *more than **me*** (more than she likes me)."
+  },
+  {
+   "type": "example",
+   "title": "Whoever vs whomever",
+   "problem": "\"Give the keys to ___ needs them.\"",
+   "steps": [
+    "The preposition *to* tempts you toward *whomever*. Don't trust it.",
+    "The pronoun's case comes from its job **inside its own clause**: *___ needs them*.",
+    "*He* needs them → subject → **whoever**."
+   ],
+   "answer": "**whoever**. The whole clause *whoever needs them* is the object of *to*, but inside the clause, *whoever* is the subject."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Us vs we** before a noun: cover the noun. *We [drivers] deserve a raise* → *We deserve a raise* ✓, so **we drivers**. *They paid us [drivers] late* → *They paid us late* ✓, so **us drivers**.\n- **A company is \"it.\"** *Walmart raised its prices*, not *their prices*, in formal writing.\n- **Ambiguous \"they.\"** *They say the rates are dropping.* Who says? Name the source."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"Marcus and ___ split the route.\"",
+   "options": [
+    "me",
+    "I",
+    "myself"
+   ],
+   "answer": 1,
+   "why": "Cover *Marcus and*: **I** split the route."
+  },
+  {
+   "type": "mc",
+   "q": "\"The dispatcher gave the paperwork to Ana and ___.\"",
+   "options": [
+    "I",
+    "me",
+    "myself"
+   ],
+   "answer": 1,
+   "why": "Cover *Ana and*: gave it to **me**."
+  },
+  {
+   "type": "mc",
+   "q": "\"___ is driving the night shift?\"",
+   "options": [
+    "Who",
+    "Whom"
+   ],
+   "answer": 0,
+   "why": "**He** is driving → *who*."
+  },
+  {
+   "type": "mc",
+   "q": "\"The company raised ___ rates in March.\"",
+   "options": [
+    "their",
+    "its",
+    "it's"
+   ],
+   "answer": 1,
+   "why": "A company is singular: **its**. *It's* means *it is*."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence is correct?",
+   "options": [
+    "The truck lost it's mirror.",
+    "Who's truck is this?",
+    "They're going to need their permits.",
+    "Your going to love this route."
+   ],
+   "answer": 2,
+   "why": "*They're* = they are; *their* = belonging to them. The others need *its*, *Whose*, *You're*."
+  },
+  {
+   "type": "mc",
+   "q": "\"If you have questions, contact Dana or ___.\"",
+   "options": [
+    "myself",
+    "me",
+    "I"
+   ],
+   "answer": 1,
+   "why": "Cover *Dana or*: contact **me**. *Myself* only works when *I* is also the subject."
+  },
+  {
+   "type": "mc",
+   "q": "\"The shipper ___ we work with pays fast.\"",
+   "options": [
+    "who",
+    "whom"
+   ],
+   "answer": 1,
+   "why": "We work with **him** → *whom*."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence has an **unclear** pronoun?",
+   "options": [
+    "After Leo paid Tom, he left.",
+    "Tom left after Leo paid him.",
+    "After Leo paid Tom, Tom left.",
+    "Leo paid Tom and then left."
+   ],
+   "answer": 0,
+   "why": "In the first, *he* could be Leo or Tom."
+  },
+  {
+   "type": "mc",
+   "q": "\"Give the bonus to ___ finishes first.\"",
+   "options": [
+    "whoever",
+    "whomever"
+   ],
+   "answer": 0,
+   "why": "Inside its own clause, the pronoun is the subject of *finishes*: **he** finishes → *whoever*. The *to* in front doesn't decide it.",
+   "level": "challenge",
+   "hint": "Look only at the words *___ finishes first*. Is the pronoun doing the action?"
+  },
+  {
+   "type": "mc",
+   "q": "\"___ did the broker say would sign the contract?\"",
+   "options": [
+    "Who",
+    "Whom"
+   ],
+   "answer": 0,
+   "why": "Strip out *did the broker say*: **___ would sign the contract?** → *He* would sign → *who*. The inserted clause tricks people into *whom*.",
+   "level": "challenge",
+   "hint": "Remove the words *did the broker say* and reread."
+  },
+  {
+   "type": "mc",
+   "q": "\"___ veterans know the back roads.\"",
+   "options": [
+    "Us",
+    "We"
+   ],
+   "answer": 1,
+   "why": "Cover *veterans*: **We** know the back roads.",
+   "level": "challenge",
+   "hint": "Try the sentence without *veterans*."
+  },
+  {
+   "type": "mc",
+   "q": "\"Revenue fell and costs rose. This forced layoffs.\" What's the best fix?",
+   "options": [
+    "Change *This* to *It*",
+    "Change *This* to *This squeeze*",
+    "Change *This* to *That*",
+    "Nothing; it's clear"
+   ],
+   "answer": 1,
+   "why": "A bare **this** pointing at a whole idea is vague. **This squeeze** names exactly what forced the layoffs. Adding a noun after *this* is the habit of clear writers.",
+   "level": "challenge",
+   "hint": "What exactly forced the layoffs? Name it."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Purdue OWL: Pronoun Case",
+   "url": "https://owl.purdue.edu/owl/general_writing/grammar/pronouns/pronoun_case.html"
+  },
+  {
+   "title": "Purdue OWL: Using Pronouns Clearly",
+   "url": "https://owl.purdue.edu/owl/general_writing/grammar/pronouns/index.html"
+  },
+  {
+   "title": "APA Style: Singular \"they\"",
+   "url": "https://apastyle.apa.org/style-grammar-guidelines/grammar/singular-they"
+  }
+ ]
+}

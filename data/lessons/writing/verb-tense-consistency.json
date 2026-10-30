@@ -1,0 +1,224 @@
+{
+ "id": "verb-tense-consistency",
+ "title": "Verb tense consistency",
+ "band": "Grades 8–9",
+ "minutes": 30,
+ "lede": "Pick a timeline and stay on it. When time really does shift, use the tenses built to show exactly when things happened.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The rule\nChoose a main tense, usually **past** for stories and **present** for facts and explanations, and stay in it. Change tense **only when the time actually changes**.\n\n- ✗ *I **walked** into the gym and the coach **tells** me to wrap up.*\n- ✓ *I **walked** into the gym and the coach **told** me to wrap up.*\n\nShifting for no reason makes readers feel the ground move under them. They can't tell what happened when."
+  },
+  {
+   "type": "text",
+   "md": "## The tenses you need\n| Tense | Form | Use it for |\n|---|---|---|\n| Simple present | *I trade* | habits, facts, general truths |\n| Simple past | *I traded* | finished actions at a specific time |\n| Present perfect | *I **have** traded* | past actions that still matter now, or no specific time |\n| Past perfect | *I **had** traded* | something that happened **before** another past event |\n| Future | *I **will** trade* | what's coming |\n| Progressive | *I **was** trading* | an action in progress |\n\nThe two **perfect** tenses are the precision tools. Most tense problems come from not using them, or using them wrong."
+  },
+  {
+   "type": "text",
+   "md": "## Past perfect: the past before the past\nWhen you're already telling a story in the past and need to reach **further back**, use *had* + past participle:\n\n- *By the time I **got** to the dock, the load **had** already **left**.*\n\nThe load left first, then I got there. Without *had*, the order is unclear: *By the time I got to the dock, the load already left* sounds like they happened at the same time.\n\nUse it only when order matters. Once the order is clear, you can return to simple past."
+  },
+  {
+   "type": "check",
+   "q": "\"When the market opened, I ___ my levels.\" (You marked them before the open.)",
+   "options": [
+    "already marked",
+    "had already marked",
+    "have already marked",
+    "will mark"
+   ],
+   "answer": 1,
+   "why": "Marking the levels happened **before** the open, which is itself in the past. That's **past perfect**: *had marked*."
+  },
+  {
+   "type": "text",
+   "md": "## Present perfect vs simple past\n- **Simple past** = finished, at a **specific** time: *I **drove** to Atlanta **yesterday**.*\n- **Present perfect** = no specific time, or still connected to now: *I **have driven** to Atlanta many times.* *She **has worked** here since 2019.* (She still works here.)\n\nThe classic mistake is mixing present perfect with a specific past time:\n\n- ✗ *I **have seen** him **yesterday**.* ✓ *I **saw** him yesterday.*\n\nIf the sentence has a past time stamp (*yesterday, last week, in 2020, at 9 AM*), use **simple past**."
+  },
+  {
+   "type": "text",
+   "md": "## Present tense for writing about texts and data\nWhen you write about what a book, study, film or chart **says**, use the present tense, because the text still says it every time you open it:\n\n- *In \"Trading in the Zone,\" Douglas **argues** that consistency **comes** from accepting risk.*\n- *The data **shows** that losses **cluster** after big wins.*\n\nBut the **author's actions** in history stay past: *Douglas **wrote** the book in 2000.*"
+  },
+  {
+   "type": "text",
+   "md": "## If-sentences (conditionals)\n| Type | Example | Meaning |\n|---|---|---|\n| Real | *If I **train**, I **win**.* | general truth |\n| Likely future | *If I **train**, I **will win**.* | possible |\n| Unreal present | *If I **were** heavier, I **would** fight at 170.* | not true now |\n| Unreal past | *If I **had trained**, I **would have won**.* | didn't happen |\n\nTwo rules people break:\n- Unreal present uses **were** for everyone: *If I **were** you*, *if he **were** taller*. (This is the subjunctive.)\n- Unreal past: **had** goes in the *if* half. ✗ *If I **would have known**, I would have called.* ✓ *If I **had known**, I would have called.*"
+  },
+  {
+   "type": "example",
+   "title": "Fix a shifting paragraph",
+   "problem": "\"I entered the trade at the level. Price swept the low and then it reverses. I take profit at 2R and logged it.\"",
+   "steps": [
+    "The story is in the past (*entered, swept, logged*).",
+    "*reverses* and *take* jump to present for no reason."
+   ],
+   "answer": "*I entered the trade at the level. Price swept the low and then **reversed**. I **took** profit at 2R and logged it.*"
+  },
+  {
+   "type": "text",
+   "md": "## Irregular verbs that trip people up\n| Base | Past | Past participle (with *have/had*) |\n|---|---|---|\n| go | went | **gone** (✗ *have went*) |\n| see | saw | seen (✗ *I seen it*) |\n| drink | drank | drunk |\n| run | ran | run |\n| lie (recline) | **lay** | lain |\n| lay (put down) | laid | laid |\n\n**Lie vs lay** is the hardest pair in English: *lay* is both the present of *put down* and the past of *recline*. *Today I **lie** down. Yesterday I **lay** down. Lay the keys on the table.*\n\nAnd one spelling error from speech: it's ***should have***, ***could have***, ***would have***, never *should of*. *Should've* sounds like *should of*, which is where the mistake comes from."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Reported speech** usually shifts back: *He said he **was** tired.* If it's still true, present is fine: *She said the market **opens** at 9:30.*\n- **\"Was\" vs \"were\" after if:** *If I **was** late, I'm sorry* (real possibility: maybe I was) is correct. *If I **were** you* (impossible: I'm not you) needs *were*."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"Yesterday the broker calls and ___ the rate.\" Fix the whole sentence:",
+   "options": [
+    "Yesterday the broker calls and cuts the rate.",
+    "Yesterday the broker called and cut the rate.",
+    "Yesterday the broker called and cuts the rate.",
+    "Yesterday the broker has called and cut the rate."
+   ],
+   "answer": 1,
+   "why": "*Yesterday* = past. Both verbs past: **called, cut**."
+  },
+  {
+   "type": "mc",
+   "q": "\"By the time I got there, the driver ___.\"",
+   "options": [
+    "left",
+    "has left",
+    "had left",
+    "leaves"
+   ],
+   "answer": 2,
+   "why": "Leaving happened before I got there: **past perfect**."
+  },
+  {
+   "type": "mc",
+   "q": "Which is correct?",
+   "options": [
+    "I have seen that setup last week.",
+    "I saw that setup last week.",
+    "I have saw that setup last week.",
+    "I seen that setup last week."
+   ],
+   "answer": 1,
+   "why": "*Last week* is a specific past time: **simple past**."
+  },
+  {
+   "type": "mc",
+   "q": "\"She ___ here since 2021.\" (She still works here.)",
+   "options": [
+    "worked",
+    "has worked",
+    "had worked",
+    "works"
+   ],
+   "answer": 1,
+   "why": "Started in the past, still true: **present perfect**."
+  },
+  {
+   "type": "mc",
+   "q": "\"If I ___ you, I'd take the deal.\"",
+   "options": [
+    "was",
+    "were",
+    "am",
+    "would be"
+   ],
+   "answer": 1,
+   "why": "Unreal present: **were**, for every subject."
+  },
+  {
+   "type": "mc",
+   "q": "\"If I ___ about the news, I wouldn't have traded.\"",
+   "options": [
+    "would have known",
+    "had known",
+    "knew",
+    "have known"
+   ],
+   "answer": 1,
+   "why": "Unreal past: **had known** in the *if* half."
+  },
+  {
+   "type": "mc",
+   "q": "Writing about an article: \"In the article, the author ___ that sleep speeds up recovery.\"",
+   "options": [
+    "argued",
+    "argues",
+    "had argued",
+    "will argue"
+   ],
+   "answer": 1,
+   "why": "Use **present** for what a text says."
+  },
+  {
+   "type": "mc",
+   "q": "Which is correct?",
+   "options": [
+    "I should of checked the news.",
+    "I should have checked the news.",
+    "I should had checked the news.",
+    "I should checked the news."
+   ],
+   "answer": 1,
+   "why": "**Should have**. *Should of* is a spelling of how *should've* sounds."
+  },
+  {
+   "type": "mc",
+   "q": "\"Yesterday I was so tired I ___ down at 6 PM.\"",
+   "options": [
+    "laid",
+    "lay",
+    "lied",
+    "layed"
+   ],
+   "answer": 1,
+   "why": "Past of **lie** (recline) is **lay**. *Laid* is the past of *lay* (put something down): *I laid the keys on the table.*",
+   "level": "challenge",
+   "hint": "Are you putting something down, or reclining yourself?"
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence uses tense correctly to show order?",
+   "options": [
+    "When I checked the chart, price already broke the high.",
+    "When I checked the chart, price had already broken the high.",
+    "When I check the chart, price had already broke the high.",
+    "When I had checked the chart, price already breaks the high."
+   ],
+   "answer": 1,
+   "why": "The break happened **before** the check: *had broken*. Note the participle is *broken*, not *broke*.",
+   "level": "challenge",
+   "hint": "Which happened first? Then check the past participle of *break*."
+  },
+  {
+   "type": "mc",
+   "q": "A trade report says: \"The data showed that losses cluster after big wins.\" What should a careful writer change?",
+   "options": [
+    "*showed* → *shows*, since the data still says it",
+    "*cluster* → *clustered*",
+    "Both verbs to future",
+    "Nothing"
+   ],
+   "answer": 0,
+   "why": "What a source or dataset **says** goes in the present: *the data **shows** that losses **cluster***. Keep *showed* only if you mean a specific past analysis that's no longer current.",
+   "level": "challenge",
+   "hint": "Does the data stop saying this after you read it?"
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence is correct?",
+   "options": [
+    "If I was the coach, I'd change the game plan.",
+    "If I were the coach, I'd change the game plan.",
+    "If I would be the coach, I'd change the game plan.",
+    "If I am the coach, I'd change the game plan."
+   ],
+   "answer": 1,
+   "why": "You're not the coach, so it's unreal: **were**. *If I was* is common in speech, but *were* is standard for imagined situations.",
+   "level": "challenge",
+   "hint": "Is this a real possibility, or an imagined one?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Purdue OWL: Verb Tense Consistency",
+   "url": "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verb_tense_consistency.html"
+  }
+ ]
+}

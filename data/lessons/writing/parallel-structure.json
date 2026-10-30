@@ -1,0 +1,237 @@
+{
+ "id": "parallel-structure",
+ "title": "Parallel structure",
+ "band": "Grades 8–9",
+ "minutes": 26,
+ "lede": "Items in a list should match in form. It's the difference between writing that stumbles and writing that hits like a combination.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The rule\nWhen you put items side by side, in a list, a pair or a comparison, give them the **same grammatical form**.\n\n- ✗ *He likes running, lifting and to spar.*\n- ✓ *He likes running, lifting and sparring.*\n- ✓ *He likes to run, lift and spar.*\n\nThe second and third sound right because each item has the same shape. The reader's brain gets the pattern after item one and expects it to continue. Break it and they stumble."
+  },
+  {
+   "type": "text",
+   "md": "## Lists\nCheck lists by stacking the items:\n\n*The job involves*\n- *dispatching loads,*\n- *routing drivers, and*\n- ✗ *to bill customers* → ✓ *billing customers*\n\nEvery item has to fit after the opening words: *The job involves billing customers* ✓, but *The job involves to bill customers* ✗.\n\nThis matters most on **résumés**. Every bullet should start with the same verb form, usually past tense: *Managed 12 trucks. Cut fuel costs 9%. Built a load board.* Not *Managed... Responsible for... Building...*"
+  },
+  {
+   "type": "check",
+   "q": "Which version is parallel?",
+   "options": [
+    "Before a fight, he cuts weight, hydrates, and is studying film.",
+    "Before a fight, he cuts weight, hydrates, and studies film.",
+    "Before a fight, he is cutting weight, hydrates, and studies film."
+   ],
+   "answer": 1,
+   "why": "Three present-tense verbs in a row: **cuts, hydrates, studies**."
+  },
+  {
+   "type": "text",
+   "md": "## Pairs: both/and, either/or, neither/nor, not only/but also\nThese are **correlative conjunctions**: they come in two parts. Whatever comes right after the first part must match whatever comes right after the second.\n\n- ✗ *She **not only** drives trucks **but also** she fixes them.* (verb ... clause)\n- ✓ *She **not only** drives trucks **but also** fixes them.* (verb ... verb)\n\n- ✓ ***Either** you sign today **or** the price goes up tomorrow.* (clause ... clause)\n- ✗ *We can **either** pay cash **or** a loan.* (verb ... noun)\n- ✓ *We can **either** pay cash **or** take a loan.* (verb ... verb)\n\nPlace the first word carefully. It decides what the second half has to match."
+  },
+  {
+   "type": "text",
+   "md": "## Comparisons\nThings you compare must be the same kind of thing.\n\n- ✗ *Paying cash is cheaper than **to finance**.* ✓ *Paying cash is cheaper than **financing**.*\n- ✗ *Our rates are lower than **Swift**.* (comparing rates to a company)\n- ✓ *Our rates are lower than **Swift's**.* or *than **those of** Swift.*\n\nThat second one is called a **faulty comparison**, and it's everywhere in ads and business writing. Compare rates to rates, not rates to companies."
+  },
+  {
+   "type": "check",
+   "q": "\"A fighter's cardio matters more than ___.\"",
+   "options": [
+    "how hard he punches",
+    "a fighter's punching power",
+    "to punch hard",
+    "when he punches hard"
+   ],
+   "answer": 1,
+   "why": "Compare like to like: *a fighter's cardio* vs *a fighter's punching power*. Noun phrase to noun phrase."
+  },
+  {
+   "type": "text",
+   "md": "## Why it matters: rhythm and power\nParallel structure isn't just correct. It's how the most memorable lines in history are built:\n\n- *I came, I saw, I conquered.* (Julius Caesar)\n- *...government **of** the people, **by** the people, **for** the people...* (Lincoln)\n- *Ask not what your country can do for you; ask what you can do for your country.* (John F. Kennedy)\n\nGroups of **three** parallel items (a *tricolon*) feel complete. Two parallel halves that flip (like Kennedy's) are called *antithesis*. Use both when you want a line to land."
+  },
+  {
+   "type": "example",
+   "title": "Fix a whole sentence",
+   "problem": "\"The new dispatcher is fast, organized and has a lot of experience.\"",
+   "steps": [
+    "Stack it: *is fast / is organized / is has a lot of experience*. The third one breaks.",
+    "The third item breaks the pattern. Turn it into an adjective."
+   ],
+   "answer": "*The new dispatcher is fast, organized and experienced.*"
+  },
+  {
+   "type": "example",
+   "title": "Fix a clause pair",
+   "problem": "\"He told us that the load was late and to call the broker.\"",
+   "steps": [
+    "*that the load was late* is a clause. *to call the broker* is an infinitive.",
+    "Make both *that* clauses."
+   ],
+   "answer": "*He told us **that** the load was late and **that** we should call the broker.*"
+  },
+  {
+   "type": "note",
+   "label": "Repeat little words consistently",
+   "md": "With a series of phrases, either repeat the small word (*to, in, for, the, that*) every time, or use it only once:\n- ✓ *in the morning and in the evening* or *in the morning and evening*\n- ✗ *in the morning and the evening* (mixed: is *the evening* a separate thing?)\n\nRepeating it adds clarity and weight. Lincoln repeated *the people* three times on purpose."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which sentence is parallel?",
+   "options": [
+    "I like trading, training, and to read.",
+    "I like trading, training, and reading.",
+    "I like to trade, training, and reading.",
+    "I like trading, to train, and reading."
+   ],
+   "answer": 1,
+   "why": "Three *-ing* forms."
+  },
+  {
+   "type": "mc",
+   "q": "\"She is smart, ambitious and ___.\"",
+   "options": [
+    "she works hard",
+    "has a strong work ethic",
+    "hardworking",
+    "working hard"
+   ],
+   "answer": 2,
+   "why": "Adjective, adjective, **adjective**."
+  },
+  {
+   "type": "mc",
+   "q": "Which uses **not only... but also** correctly?",
+   "options": [
+    "He not only trades futures but also he coaches.",
+    "He not only trades futures but also coaches.",
+    "Not only he trades futures but also coaches.",
+    "He trades not only futures but also coaches."
+   ],
+   "answer": 1,
+   "why": "Verb after each part: *trades... coaches*. D says he trades coaches."
+  },
+  {
+   "type": "mc",
+   "q": "Fix the comparison: \"Our delivery times are faster than FedEx.\"",
+   "options": [
+    "faster than FedEx is",
+    "faster than FedEx's",
+    "faster than with FedEx",
+    "No change needed"
+   ],
+   "answer": 1,
+   "why": "Compare **times** to **times**: *than FedEx's* (delivery times)."
+  },
+  {
+   "type": "mc",
+   "q": "Which résumé section is parallel?",
+   "options": [
+    "Managed 10 drivers. Responsible for payroll. Cut costs 12%.",
+    "Managed 10 drivers. Ran payroll. Cut costs 12%.",
+    "Managing 10 drivers. Ran payroll. Cost cutting of 12%.",
+    "Managed 10 drivers. Payroll. Cutting costs 12%."
+   ],
+   "answer": 1,
+   "why": "Every bullet starts with a past-tense verb."
+  },
+  {
+   "type": "mc",
+   "q": "\"We can either renegotiate the rate ___.\"",
+   "options": [
+    "or the load gets rejected",
+    "or reject the load",
+    "or rejection of the load",
+    "or rejecting the load"
+   ],
+   "answer": 1,
+   "why": "*either* **renegotiate** ... *or* **reject**: verb and verb."
+  },
+  {
+   "type": "mc",
+   "q": "Which line is a **tricolon**?",
+   "options": [
+    "Train hard.",
+    "Train hard, eat clean, sleep early.",
+    "Training is hard and eating clean is too.",
+    "If you train hard, you win."
+   ],
+   "answer": 1,
+   "why": "Three parallel commands."
+  },
+  {
+   "type": "mc",
+   "q": "\"Driving at night is harder than ___ during the day.\"",
+   "options": [
+    "to drive",
+    "driving",
+    "you drive",
+    "drive"
+   ],
+   "answer": 1,
+   "why": "*Driving* ... *driving*."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence is correct?",
+   "options": [
+    "The rules for Asia are stricter than NY.",
+    "The rules for Asia are stricter than for NY.",
+    "The rules for Asia are stricter than NY's rules are for it.",
+    "Asia's rules are stricter than NY session."
+   ],
+   "answer": 1,
+   "why": "Compare rules to rules. *Than for NY* repeats the preposition, so it's clearly *the rules for NY*. A compares rules to a city.",
+   "level": "challenge",
+   "hint": "What exactly is being compared to what?"
+  },
+  {
+   "type": "mc",
+   "q": "Which version uses **neither/nor** correctly?",
+   "options": [
+    "Neither the broker called nor emailed.",
+    "The broker neither called nor emailed.",
+    "The broker neither called nor did he email.",
+    "Neither did the broker call nor email."
+   ],
+   "answer": 1,
+   "why": "*neither* **called** *nor* **emailed**: two past-tense verbs, both after their connector.",
+   "level": "challenge",
+   "hint": "Look at the word right after *neither* and right after *nor*."
+  },
+  {
+   "type": "mc",
+   "q": "\"The plan is to cut costs, raising rates and that we hire two drivers.\" Best fix?",
+   "options": [
+    "The plan is to cut costs, to raise rates and to hire two drivers.",
+    "The plan is cutting costs, raising rates and that we hire two drivers.",
+    "The plan is to cut costs, raise rates and hiring two drivers.",
+    "The plan: to cut costs, raising rates, hire drivers."
+   ],
+   "answer": 0,
+   "why": "Three infinitives: **to cut, to raise, to hire**. Repeating *to* each time also adds weight.",
+   "level": "challenge",
+   "hint": "Pick the form of the first item and make the other two match."
+  },
+  {
+   "type": "mc",
+   "q": "Kennedy's line *\"Ask not what your country can do for you; ask what you can do for your country\"* uses parallel structure plus…",
+   "options": [
+    "a dangling modifier",
+    "antithesis: the halves flip",
+    "a faulty comparison",
+    "a tricolon"
+   ],
+   "answer": 1,
+   "why": "The two halves have the same shape, but the roles swap (*country → you*, *you → country*). That flip is **antithesis**.",
+   "level": "challenge",
+   "hint": "Compare who does what in each half."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Purdue OWL: Parallel Structure",
+   "url": "https://owl.purdue.edu/owl/general_writing/mechanics/parallel_structure.html"
+  }
+ ]
+}

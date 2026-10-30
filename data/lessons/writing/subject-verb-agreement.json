@@ -1,0 +1,217 @@
+{
+ "id": "subject-verb-agreement",
+ "title": "Subject-verb agreement",
+ "band": "Grades 8–9",
+ "minutes": 30,
+ "lede": "A verb has to match its subject. The rule takes ten seconds to learn. Finding the real subject is the skill, and this lesson trains it.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The rule\nA **singular subject** takes a **singular verb**. A **plural subject** takes a **plural verb**.\n\n- The truck **runs**. The trucks **run**.\n- She **is** ready. They **are** ready.\n\nCareful: in the present tense, the **singular** verb is the one that ends in *-s*. Nouns work the opposite way. *The driver drives. The drivers drive.* One *-s* per pair, never two.\n\nNobody gets this wrong in short sentences. The mistakes happen when the subject is **hidden**, **split** or **disguised**. Every section below is one of those disguises."
+  },
+  {
+   "type": "text",
+   "md": "## Disguise 1: words in between\nThe verb agrees with the **subject**, not with the noun closest to it.\n\n- The **list** of overdue invoices **is** on your desk. (*list is*, not *invoices are*)\n- The **cost** of the new tires **was** higher than expected.\n\n**Method:** cross out every prepositional phrase (*of the invoices*, *in the yard*, *with the drivers*). What's left is the subject.\n\nPhrases like **along with**, **as well as**, **together with** and **in addition to** don't add to the subject. They're just extra information.\n\n- The **manager**, along with two dispatchers, **was** at the meeting."
+  },
+  {
+   "type": "check",
+   "q": "Choose the verb: \"The **box** of brake pads ___ in the shop.\"",
+   "options": [
+    "are",
+    "is"
+   ],
+   "answer": 1,
+   "why": "Cross out *of brake pads*. **The box is.**"
+  },
+  {
+   "type": "text",
+   "md": "## Disguise 2: compound subjects\n- **And** joins subjects into a plural: *The driver **and** the dispatcher **are** on the call.*\n- **Or** and **nor** don't add. The verb agrees with whichever subject is **closer** to it: *Neither the manager nor the **drivers were** told.* *Neither the drivers nor the **manager was** told.*\n\nThe second sentence is correct but sounds odd. When that happens, put the plural subject last. It reads better."
+  },
+  {
+   "type": "text",
+   "md": "## Disguise 3: indefinite pronouns\n| Always singular | Always plural | Depends on the noun after *of* |\n|---|---|---|\n| each, every, either, neither, everyone, everybody, anyone, someone, no one, nobody, everything, nothing | both, few, many, several, others | **some, any, none, all, most** |\n\n- **Each** of the trucks **has** a GPS.\n- **Several** of the trucks **have** dash cams.\n- **Some** of the **money is** missing. **Some** of the **trucks are** late.\n\n*None* used to be treated as always singular. Today both *none is* and *none are* are standard. Use *none is* when you mean \"not one\" and *none are* when you mean \"not any of them.\""
+  },
+  {
+   "type": "check",
+   "q": "\"Every one of the drivers ___ a clean record.\"",
+   "options": [
+    "have",
+    "has"
+   ],
+   "answer": 1,
+   "why": "The subject is **every one**, which is singular. *Of the drivers* is crossed out."
+  },
+  {
+   "type": "text",
+   "md": "## Disguise 4: the subject comes after the verb\nIn sentences starting with **There** or **Here**, the real subject comes **after** the verb.\n\n- There **are** three loads waiting. (*loads are*)\n- There **is** a problem with the invoice. (*problem is*)\n- Here **come** the inspectors.\n\nIn speech, people say *there's* for everything (\"there's three loads\"). In writing, flip the sentence in your head: *Three loads are there.*"
+  },
+  {
+   "type": "text",
+   "md": "## Disguise 5: words that look plural or singular but aren't\n- **Collective nouns** (team, company, jury, family, staff) are **singular** in American English when the group acts as one unit: *The company **is** expanding.* (British English often says *the company are*.)\n- **Amounts treated as one unit** are singular: *Ten thousand dollars **is** a lot. Five miles **is** a long run.*\n- **Nouns ending in -s that are singular:** news, economics, mathematics, physics, measles. *The news **is** bad.*\n- **The number of** = singular. **A number of** = plural. *The number of complaints **is** rising. A number of drivers **have** quit.*\n- **Titles** are singular: *\"Trading in the Zone\" **is** on my list.*"
+  },
+  {
+   "type": "example",
+   "title": "Untangle a long sentence",
+   "problem": "\"The results of the safety inspection, which covered every truck in the fleet, ___ due Friday.\"",
+   "steps": [
+    "Cross out *of the safety inspection*.",
+    "Cross out the *which* clause: it's extra information.",
+    "What's left: **The results ___ due Friday.**"
+   ],
+   "answer": "**are**. *The results are due Friday.*"
+  },
+  {
+   "type": "example",
+   "title": "Linking verbs",
+   "problem": "\"The biggest problem ___ the brakes.\"",
+   "steps": [
+    "With *is/are* in the middle, the verb agrees with the **subject** (before it), not the word after it.",
+    "Subject: *the problem*, singular."
+   ],
+   "answer": "**is**. *The biggest problem is the brakes.* Flip it and it changes: *The brakes are the biggest problem.*"
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Each** after a plural subject doesn't make it singular: *The drivers **each** have a key.* (Subject: *drivers*.)\n- **Data** is technically plural (one *datum*), and scientists often still write *the data are*. In everyday and business writing, *the data is* is standard. Pick one and stay consistent.\n- **Who, which, that** take the number of the word they point to. That leads to the hardest agreement question in English. It's in the challenge questions below."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"The stack of invoices ___ on the desk.\"",
+   "options": [
+    "is",
+    "are"
+   ],
+   "answer": 0,
+   "why": "Cross out *of invoices*: **the stack is**."
+  },
+  {
+   "type": "mc",
+   "q": "\"The driver and his partner ___ on the road by 5 AM.\"",
+   "options": [
+    "was",
+    "were"
+   ],
+   "answer": 1,
+   "why": "**And** makes a plural subject."
+  },
+  {
+   "type": "mc",
+   "q": "\"Either the drivers or the dispatcher ___ to blame.\"",
+   "options": [
+    "is",
+    "are"
+   ],
+   "answer": 0,
+   "why": "With **or**, the verb agrees with the closer subject: *dispatcher is*."
+  },
+  {
+   "type": "mc",
+   "q": "\"Each of the new trucks ___ a sleeper cab.\"",
+   "options": [
+    "have",
+    "has"
+   ],
+   "answer": 1,
+   "why": "**Each** is always singular."
+  },
+  {
+   "type": "mc",
+   "q": "\"There ___ two loads left in the yard.\"",
+   "options": [
+    "is",
+    "are"
+   ],
+   "answer": 1,
+   "why": "The subject comes after the verb: *two loads are*."
+  },
+  {
+   "type": "mc",
+   "q": "\"The news from the shop ___ good.\"",
+   "options": [
+    "is",
+    "are"
+   ],
+   "answer": 0,
+   "why": "**News** is singular even though it ends in *-s*."
+  },
+  {
+   "type": "mc",
+   "q": "\"A number of drivers ___ asked for the weekend off.\"",
+   "options": [
+    "has",
+    "have"
+   ],
+   "answer": 1,
+   "why": "**A number of** = several = plural. *The number of* would be singular."
+  },
+  {
+   "type": "mc",
+   "q": "\"Most of the fuel ___ gone.\"",
+   "options": [
+    "is",
+    "are"
+   ],
+   "answer": 0,
+   "why": "**Most** depends on the noun after *of*. *Fuel* can't be counted, so it's singular."
+  },
+  {
+   "type": "mc",
+   "q": "\"He is one of those drivers who ___ never late.\"",
+   "options": [
+    "is",
+    "are"
+   ],
+   "answer": 1,
+   "why": "**Who** points to *drivers* (there's a group of drivers who are never late, and he's one of them), so *who are*.",
+   "level": "challenge",
+   "hint": "Ask: which word does *who* point back to, *one* or *drivers*?"
+  },
+  {
+   "type": "mc",
+   "q": "\"He is the only one of the drivers who ___ never late.\"",
+   "options": [
+    "is",
+    "are"
+   ],
+   "answer": 0,
+   "why": "Now **who** points to *the only one*: only one person is never late. So *who is*. One word, *only*, flips the verb.",
+   "level": "challenge",
+   "hint": "Compare with the previous question. Who exactly is never late here?"
+  },
+  {
+   "type": "mc",
+   "q": "\"The CEO, as well as the board members, ___ against the merger.\"",
+   "options": [
+    "is",
+    "are"
+   ],
+   "answer": 0,
+   "why": "**As well as** doesn't make a compound subject. Cross it out: *The CEO is against the merger.*",
+   "level": "challenge",
+   "hint": "Is *as well as* the same as *and*?"
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence is correct?",
+   "options": [
+    "Neither of the offers are good enough.",
+    "The team have won three straight games. (American English)",
+    "Twenty dollars is too much for that.",
+    "There's three trucks in the shop."
+   ],
+   "answer": 2,
+   "why": "An **amount treated as one sum** is singular. *Neither* is singular (*neither is*). American English treats *team* as singular. *There are three trucks.*",
+   "level": "challenge",
+   "hint": "Three of these break a rule from this lesson. Check each against a disguise."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Purdue OWL: Subject/Verb Agreement",
+   "url": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
+  }
+ ]
+}

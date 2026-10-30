@@ -1,0 +1,242 @@
+{
+ "id": "misplaced-modifiers",
+ "title": "Misplaced and dangling modifiers",
+ "band": "Grades 8–9",
+ "minutes": 26,
+ "lede": "A describing word attaches to whatever it's next to. Put it in the wrong spot and your sentence says something absurd, or something you'll have to pay for.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The rule\nA **modifier** is any word or phrase that describes something. Readers attach it to the **nearest** thing it could describe. Put it next to the wrong word and the meaning changes:\n\n- *I sold a truck to a man **with a cracked windshield**.* (The man has a cracked windshield?)\n- *I sold a truck **with a cracked windshield** to a man.* ✓\n\nThere are three kinds of modifier problems: **misplaced**, **dangling** and **squinting**."
+  },
+  {
+   "type": "text",
+   "md": "## 1. Misplaced: the small words that change everything\nWords like **only, just, almost, nearly, even, hardly, merely, exactly** limit whatever comes **right after** them. Move one and you change the meaning:\n\n| Sentence | Meaning |\n|---|---|\n| **Only** I lost $200 today. | Nobody else lost money. |\n| I **only** lost $200 today. | (casual, ambiguous) |\n| I lost **only** $200 today. | It was just $200, not more. |\n| I lost $200 **only** today. | Today was the one day I lost. |\n\nIn speech, *I only lost $200* is fine; tone fixes it. In writing, especially contracts and rules, put the word right before the thing it limits. *Drivers are **only** paid for loaded miles* and *Drivers are paid **only** for loaded miles* can end up in an argument."
+  },
+  {
+   "type": "check",
+   "q": "Which sentence says the shift was a little under 10 hours?",
+   "options": [
+    "He almost drove for 10 hours.",
+    "He drove for almost 10 hours."
+   ],
+   "answer": 1,
+   "why": "*He **almost** drove* means he nearly drove but didn't. *Drove for **almost** 10 hours* puts *almost* on the number."
+  },
+  {
+   "type": "text",
+   "md": "## 2. Dangling: the phrase with nothing to hold\nAn opening phrase like *Driving down I-95,* has no subject of its own. English assumes the **subject right after the comma** is the one doing it.\n\n- ✗ *Driving down I-95, **a deer** jumped in front of the truck.* (The deer was driving?)\n- ✗ *After reviewing the numbers, **the deal** looked bad.* (The deal reviewed the numbers?)\n\nThe modifier *dangles*: the person doing the action is missing from the sentence.\n\n**Two fixes:**\n1. **Make the doer the subject:** *Driving down I-95, **I** saw a deer jump in front of the truck.*\n2. **Give the phrase its own subject:** *While **I** was driving down I-95, a deer jumped in front of the truck.*"
+  },
+  {
+   "type": "text",
+   "md": "## The test for danglers\nAfter any opening phrase that ends in a comma, ask: **who is doing the -ing (or the -ed)?** Then check that the answer is the first noun after the comma.\n\n- *To get a CDL, **the test** must be passed.* → Who gets the CDL? Not the test. ✓ *To get a CDL, **you** must pass the test.*\n- *Tired from sparring, **my bed** looked amazing.* → Who was tired? ✓ *Tired from sparring, **I** thought my bed looked amazing.*"
+  },
+  {
+   "type": "check",
+   "q": "Which sentence has a dangling modifier?",
+   "options": [
+    "Exhausted after the shift, Ray fell asleep in the cab.",
+    "Exhausted after the shift, the cab was the only place to sleep.",
+    "Ray, exhausted after the shift, fell asleep in the cab."
+   ],
+   "answer": 1,
+   "why": "**The cab** wasn't exhausted. The person who was tired never appears in the sentence."
+  },
+  {
+   "type": "text",
+   "md": "## 3. Squinting: the modifier that looks both ways\nA squinting modifier sits between two things it could describe:\n\n- *Drivers who speed **often** get tickets.*\n\nDo drivers who *often speed* get tickets, or do speeders *often get* tickets? Move the word so it can only look one way:\n\n- *Drivers who **often** speed get tickets.*\n- *Drivers who speed get tickets **often**.*"
+  },
+  {
+   "type": "example",
+   "title": "Fix a misplaced phrase",
+   "problem": "\"The mechanic told me on Monday the truck would be ready.\"",
+   "steps": [
+    "Ambiguous: did he *tell* me on Monday, or will the truck *be ready* on Monday?",
+    "Put *on Monday* next to the thing it describes."
+   ],
+   "answer": "*On Monday, the mechanic told me the truck would be ready.* **or** *The mechanic told me the truck would be ready on Monday.*"
+  },
+  {
+   "type": "example",
+   "title": "Fix a dangler",
+   "problem": "\"Having signed the contract, the payment was sent.\"",
+   "steps": [
+    "Who signed? Not the payment.",
+    "Make the signer the subject."
+   ],
+   "answer": "*Having signed the contract, **we** sent the payment.*"
+  },
+  {
+   "type": "note",
+   "label": "Myth: split infinitives",
+   "md": "You may have heard you can't put a word between *to* and a verb: *to **boldly** go*. That's not a real rule. It was invented by 19th-century writers copying Latin, where infinitives are one word and can't be split. Modern style guides accept split infinitives. Sometimes splitting is the only clear option: *We expect profits to **more than** double.* Try un-splitting that."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Limiting words in rules and contracts.** Always place *only* directly before what it limits. Ambiguity costs money.\n- **Passive voice hides danglers.** *Having finished the route, the truck was parked.* Switch to active voice and the doer shows up: *Having finished the route, **she** parked the truck.*"
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which sentence has a **dangling** modifier?",
+   "options": [
+    "Walking into the office, I noticed the coffee was gone.",
+    "Walking into the office, the coffee was gone.",
+    "When I walked into the office, the coffee was gone.",
+    "The coffee was gone when I walked into the office."
+   ],
+   "answer": 1,
+   "why": "**The coffee** wasn't walking. The person walking never appears."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence means **no one except Kayla** passed the inspection?",
+   "options": [
+    "Kayla only passed the inspection.",
+    "Only Kayla passed the inspection.",
+    "Kayla passed only the inspection.",
+    "Kayla passed the only inspection."
+   ],
+   "answer": 1,
+   "why": "**Only** sits right before what it limits: *Kayla*."
+  },
+  {
+   "type": "mc",
+   "q": "Fix: \"We need a mechanic for the truck with experience.\"",
+   "options": [
+    "We need a mechanic with experience for the truck.",
+    "We need, with experience, a mechanic for the truck.",
+    "With the truck, we need a mechanic with experience.",
+    "No change needed."
+   ],
+   "answer": 0,
+   "why": "The *mechanic* needs experience, not the truck. Put the phrase next to *mechanic*."
+  },
+  {
+   "type": "mc",
+   "q": "\"Drivers who brake hard frequently wear out their pads.\" The problem is…",
+   "options": [
+    "a dangling modifier",
+    "a squinting modifier",
+    "subject-verb agreement",
+    "nothing"
+   ],
+   "answer": 1,
+   "why": "**Frequently** could describe *brake hard* or *wear out*. It squints both ways."
+  },
+  {
+   "type": "mc",
+   "q": "Best fix: \"After eating dinner, the dishes were washed.\"",
+   "options": [
+    "After eating dinner, the dishes got washed.",
+    "After eating dinner, I washed the dishes.",
+    "The dishes, after eating dinner, were washed.",
+    "After eating, dinner and dishes were washed."
+   ],
+   "answer": 1,
+   "why": "Make the person who ate the subject: **I**."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence says he was **close to** losing $1,000, but didn't?",
+   "options": [
+    "He nearly lost $1,000.",
+    "He lost nearly $1,000."
+   ],
+   "answer": 0,
+   "why": "*Nearly lost* = he almost lost it. *Lost nearly $1,000* = he lost a bit under $1,000."
+  },
+  {
+   "type": "mc",
+   "q": "\"To pass the CDL test, practice is required.\" What's wrong?",
+   "options": [
+    "Nothing",
+    "It's a dangling modifier: practice doesn't pass the test",
+    "It's a split infinitive",
+    "It's a squinting modifier"
+   ],
+   "answer": 1,
+   "why": "Who passes the test? Fix: *To pass the CDL test, **you** need practice.*"
+  },
+  {
+   "type": "mc",
+   "q": "Is \"I want to really understand this\" grammatically wrong?",
+   "options": [
+    "Yes, never split an infinitive",
+    "No, split infinitives are acceptable",
+    "Yes, *really* is misplaced",
+    "Only in British English"
+   ],
+   "answer": 1,
+   "why": "Split infinitives are a myth, not a rule. Modern style guides allow them."
+  },
+  {
+   "type": "mc",
+   "q": "A rule says: \"Drivers will only be reimbursed for meals over $15 with a receipt.\" Which rewrite says receipts are required **and** only meals over $15 count?",
+   "options": [
+    "Drivers will be reimbursed only for meals over $15, and only with a receipt.",
+    "Only drivers will be reimbursed for meals over $15 with a receipt.",
+    "Drivers will be reimbursed for meals only over $15 with a receipt.",
+    "With a receipt, drivers only will be reimbursed for meals over $15."
+   ],
+   "answer": 0,
+   "why": "Each **only** sits directly before what it limits: *for meals over $15* and *with a receipt*. In a rule that costs money, never leave *only* floating.",
+   "level": "challenge",
+   "hint": "Count the limits the rule needs. Each one needs its own *only*, in the right spot."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence is **correct**?",
+   "options": [
+    "Based on the data, the route is unprofitable.",
+    "Looking at the data, the route seems unprofitable.",
+    "Reviewing the data, we concluded the route is unprofitable.",
+    "Having reviewed the data, the route was dropped."
+   ],
+   "answer": 2,
+   "why": "Only C names who did the reviewing (**we**). B and D dangle. A is common in business writing, but *based on* still has nothing to attach to; careful editors change it to *The data shows the route is unprofitable.*",
+   "level": "challenge",
+   "hint": "For each opening phrase, ask who is doing it, then look right after the comma."
+  },
+  {
+   "type": "mc",
+   "q": "\"The coach told him after the fight he was cutting weight too fast.\" What's the problem?",
+   "options": [
+    "Dangling modifier",
+    "Squinting modifier: *after the fight* could go with *told* or *was cutting*",
+    "Unclear pronoun only",
+    "Nothing"
+   ],
+   "answer": 1,
+   "why": "Did the coach tell him **after** the fight, or was he cutting weight too fast **after** the fight? Fix: *After the fight, the coach told him...*",
+   "level": "challenge",
+   "hint": "Read *after the fight* with the words before it, then with the words after it."
+  },
+  {
+   "type": "mc",
+   "q": "Why can't you un-split *\"We expect sales to more than double\"*?",
+   "options": [
+    "You can: *to double more than*",
+    "Moving *more than* anywhere else breaks the meaning",
+    "Because it's passive",
+    "Because *double* isn't a verb"
+   ],
+   "answer": 1,
+   "why": "*We expect sales more than to double* and *to double more than* both garble it. That's proof the old \"never split\" rule doesn't hold up.",
+   "level": "challenge",
+   "hint": "Try moving *more than* to two other places and read each version."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Purdue OWL: Dangling Modifiers and How to Correct Them",
+   "url": "https://owl.purdue.edu/owl/general_writing/mechanics/dangling_modifiers_and_how_to_correct_them.html"
+  },
+  {
+   "title": "Purdue OWL: Sentence Clarity",
+   "url": "https://owl.purdue.edu/owl/general_writing/mechanics/sentence_clarity.html"
+  }
+ ]
+}

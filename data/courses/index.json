@@ -726,22 +726,26 @@
      {
       "id": "claims-and-counterclaims",
       "title": "Claims and counterclaims",
-      "ready": false
+      "ready": true,
+      "desc": "An argument isn't a fight. It's a claim, the reasons that hold it up, and an honest answer to the best objection. Learn the structure and you can win on paper, in a negotiation, or in your own head."
      },
      {
       "id": "types-of-evidence",
       "title": "Types of evidence",
-      "ready": false
+      "ready": true,
+      "desc": "Not all proof is equal. Statistics, stories, experts and studies each have a power and a weakness. How to choose them, test them, and use them so they actually persuade."
      },
      {
       "id": "logical-fallacies",
       "title": "Logical fallacies",
-      "ready": false
+      "ready": true,
+      "desc": "The tricks that make bad arguments sound good. Once you can name them, scammers, salespeople, trash talk and your own excuses lose their power over you."
      },
      {
       "id": "ethos-pathos-and-logos",
       "title": "Ethos, pathos and logos",
-      "ready": false
+      "ready": true,
+      "desc": "More than 2,300 years ago, Aristotle named the three ways to persuade anyone: credibility, emotion and logic. Every ad, speech, pitch and pre-fight interview still runs on them."
      }
     ]
    },

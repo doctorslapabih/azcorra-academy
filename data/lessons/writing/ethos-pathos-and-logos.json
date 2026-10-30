@@ -1,0 +1,246 @@
+{
+ "id": "ethos-pathos-and-logos",
+ "title": "Ethos, pathos and logos",
+ "band": "Grades 9–12",
+ "minutes": 32,
+ "lede": "More than 2,300 years ago, Aristotle named the three ways to persuade anyone: credibility, emotion and logic. Every ad, speech, pitch and pre-fight interview still runs on them.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The rhetorical triangle\nIn his *Rhetoric*, the Greek philosopher **Aristotle** described three **appeals**, ways a speaker or writer persuades:\n\n| Appeal | Greek root | Persuades through | The audience thinks |\n|---|---|---|---|\n| **Ethos** | character | **credibility** of the speaker | *I trust this person.* |\n| **Pathos** | suffering, feeling | **emotion** in the audience | *I feel this.* |\n| **Logos** | word, reason | **logic** and evidence | *This makes sense.* |\n\nThe best persuasion uses all three. Logic without credibility gets ignored. Emotion without logic feels like manipulation. Credibility without either is just a famous face."
+  },
+  {
+   "type": "text",
+   "md": "## Ethos: why should they listen to you?\nEthos is built from:\n\n- **Expertise**: experience, credentials, results. *I've run this lane 200 times.*\n- **Good character**: honesty, fairness. Admitting weaknesses **raises** ethos.\n- **Goodwill**: showing you care about the audience's interests, not just yours.\n- **Professional delivery**: clean writing, correct numbers, on time. Typos and wrong figures quietly destroy ethos.\n\nYou can **lose** ethos fast: one exaggeration caught, one insult, one broken promise."
+  },
+  {
+   "type": "text",
+   "md": "## Pathos: making them feel it\nPathos works through:\n\n- **Stories** about real people\n- **Vivid, concrete details** (*a driver sleeping in his cab outside a closed dock at 2 a.m.*, not *drivers face challenges*)\n- **Word choice** with strong connotation\n- **Shared values**: pride, fear, hope, loyalty, fairness\n\nPathos isn't bad. People act on feelings, and emotion makes facts **matter**. It becomes manipulation when it **replaces** evidence or exploits fear to rush a decision."
+  },
+  {
+   "type": "check",
+   "q": "A charity ad shows one hungry child's face and tells her story. This mainly uses…",
+   "options": [
+    "ethos",
+    "pathos",
+    "logos",
+    "kairos"
+   ],
+   "answer": 1,
+   "why": "Emotion through a single, vivid story."
+  },
+  {
+   "type": "text",
+   "md": "## Logos: the reasoning\nLogos includes:\n\n- **Facts and statistics**\n- **Cause-and-effect reasoning**\n- **Comparisons and examples**\n- **Clear structure**: claim → reasons → evidence → conclusion\n- **Answering counterarguments**\n\nLogos is what holds up under scrutiny. It's what a careful reader checks after the emotion fades."
+  },
+  {
+   "type": "text",
+   "md": "## The fourth idea: kairos\nThe Greeks also talked about **kairos**: the **right moment**. The same argument lands differently depending on timing.\n\n- Asking for a rate increase right after you saved a broker's late load = good kairos.\n- Asking for a rest day the week of a fight = bad kairos.\n- Selling a trading course right after a big market rally = (cynical) kairos."
+  },
+  {
+   "type": "example",
+   "title": "Analyze a pitch",
+   "problem": "Supplement ad: *\"As a UFC veteran with 15 years in the cage [1], I've seen too many fighters break down from bad recovery [2]. In a 12-week trial, our formula cut reported soreness by 30% [3]. Don't let one more fight camp destroy your body [4].\"*",
+   "steps": [
+    "[1] **Ethos**: experience and authority. (Ask: is he paid to say this?)",
+    "[2] **Pathos**: fear and empathy for fighters.",
+    "[3] **Logos**: a study and a number. (Ask: who ran it? how many people? compared to what?)",
+    "[4] **Pathos**: fear, urgency."
+   ],
+   "answer": "It uses all three. A critical reader **checks the logos** (the study) and **questions the ethos** (sponsorship), because those are where ads usually cut corners."
+  },
+  {
+   "type": "example",
+   "title": "Use all three in your own pitch",
+   "problem": "You want a broker to give you their dedicated lane.",
+   "steps": [
+    "**Ethos**: *I've hauled 14 of your loads this quarter with zero late deliveries and zero claims.*",
+    "**Logos**: *A dedicated carrier saves you the time of re-posting the load every week, and I can guarantee capacity on Fridays when the boards are thin.*",
+    "**Pathos** (light touch, goodwill): *I know Fridays have been a headache for your team. I want to take that off your plate.*",
+    "**Kairos**: send it right after another carrier fell through on them."
+   ],
+   "answer": "Short, credible, logical, human. And timed."
+  },
+  {
+   "type": "check",
+   "q": "Which damages **ethos** the most in a business email?",
+   "options": [
+    "Using a statistic",
+    "Telling a short story",
+    "Getting the rate math wrong",
+    "Being polite"
+   ],
+   "answer": 2,
+   "why": "A wrong number tells the reader you can't be trusted with details."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Confusing ethos with fame.** A celebrity endorsement borrows ethos, but only for things the celebrity actually knows.\n- **Overdoing pathos.** Too much emotion makes readers feel pushed, and they push back.\n- **Thinking logos is just numbers.** Logic is also structure and reasoning.\n- **Analyzing appeals without judging them.** In an AP-style rhetorical analysis, don't just label: explain **why** the appeal works (or fails) for **this audience**."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "**Ethos** persuades through…",
+   "options": [
+    "emotion",
+    "the speaker's credibility",
+    "statistics",
+    "timing"
+   ],
+   "answer": 1,
+   "why": "Character, trust."
+  },
+  {
+   "type": "mc",
+   "q": "**Logos** persuades through…",
+   "options": [
+    "logic and evidence",
+    "fear",
+    "fame",
+    "humor"
+   ],
+   "answer": 0,
+   "why": "From *logos*, word, reason."
+  },
+  {
+   "type": "mc",
+   "q": "\"As a nurse for 20 years, I can tell you this works.\" Mainly…",
+   "options": [
+    "ethos",
+    "pathos",
+    "logos",
+    "kairos"
+   ],
+   "answer": 0,
+   "why": "Credibility through experience."
+  },
+  {
+   "type": "mc",
+   "q": "\"Imagine your kids' faces when you finally walk in debt-free.\" Mainly…",
+   "options": [
+    "ethos",
+    "pathos",
+    "logos",
+    "a statistic"
+   ],
+   "answer": 1,
+   "why": "Emotion and imagined image."
+  },
+  {
+   "type": "mc",
+   "q": "\"Our fuel costs rose 18% this year while rates stayed flat, so we need a rate increase to stay profitable.\" Mainly…",
+   "options": [
+    "ethos",
+    "pathos",
+    "logos",
+    "kairos"
+   ],
+   "answer": 2,
+   "why": "Numbers and cause-and-effect reasoning."
+  },
+  {
+   "type": "mc",
+   "q": "Kairos means…",
+   "options": [
+    "character",
+    "the right moment",
+    "emotion",
+    "word"
+   ],
+   "answer": 1,
+   "why": "Timing."
+  },
+  {
+   "type": "mc",
+   "q": "Who first described the three appeals?",
+   "options": [
+    "Plato",
+    "Aristotle",
+    "Socrates",
+    "Cicero"
+   ],
+   "answer": 1,
+   "why": "In his *Rhetoric*."
+  },
+  {
+   "type": "mc",
+   "q": "Admitting a weakness in your argument usually…",
+   "options": [
+    "destroys ethos",
+    "can increase ethos by showing honesty",
+    "is pathos",
+    "is a fallacy"
+   ],
+   "answer": 1,
+   "why": "Fairness builds trust."
+  },
+  {
+   "type": "mc",
+   "q": "A pre-fight press conference: \"I've knocked out 9 of my last 10 [A]. My opponent's never been hit by someone like me [B]. My son is watching, and I'm bringing that belt home to him [C].\" Match them.",
+   "options": [
+    "A ethos, B logos, C pathos",
+    "A logos/ethos, B claim with weak logos, C pathos",
+    "A pathos, B ethos, C logos",
+    "All pathos"
+   ],
+   "answer": 1,
+   "why": "[A] record = evidence and credibility. [B] is a claim dressed as logic, with nothing to back it. [C] is pure pathos.",
+   "level": "challenge",
+   "hint": "Which one has evidence, which only sounds like it, which aims at the heart?"
+  },
+  {
+   "type": "mc",
+   "q": "An ad says: \"Act now, only 3 spots left!\" with no other information. The main problem is…",
+   "options": [
+    "too much logos",
+    "pathos (urgency/fear) replacing any evidence",
+    "too much ethos",
+    "bad kairos"
+   ],
+   "answer": 1,
+   "why": "Manufactured urgency is pathos used to **rush** a decision before you check the logos.",
+   "level": "challenge",
+   "hint": "What's missing, and what's filling the gap?"
+  },
+  {
+   "type": "mc",
+   "q": "You're asking your dad for help covering a truck repair. Which opening uses the strongest **logos**?",
+   "options": [
+    "\"You love me, right?\"",
+    "\"I need money.\"",
+    "\"The repair is $1,800. Without it the truck sits, and I lose about $1,200 a week in revenue. I can pay you back $300 a week starting in two weeks.\"",
+    "\"Everyone's parents help them.\""
+   ],
+   "answer": 2,
+   "why": "Numbers, cause and effect, a repayment plan. (The repayment plan also builds **ethos**.) A is pathos, D is a bandwagon fallacy.",
+   "level": "challenge",
+   "hint": "Which one gives him reasons and numbers to say yes?"
+  },
+  {
+   "type": "mc",
+   "q": "In a rhetorical analysis essay, the weakest sentence is…",
+   "options": [
+    "The speaker uses pathos.",
+    "By describing a single driver asleep in his cab outside a locked dock, the writer makes an abstract policy problem personal, which matters for an audience of lawmakers who have never driven a truck.",
+    "The statistic gives the audience a sense of scale that the story alone can't.",
+    "Opening with his 20 years of experience earns trust from skeptical readers before he makes his request."
+   ],
+   "answer": 0,
+   "why": "Labeling an appeal isn't analysis. The strong sentences explain **how** and **why** it works **for this audience**.",
+   "level": "challenge",
+   "hint": "Which one only names, without explaining?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Purdue OWL: Aristotle's Rhetorical Situation",
+   "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/aristotles_rhetorical_situation.html"
+  },
+  {
+   "title": "Purdue OWL: Using Rhetorical Strategies for Persuasion",
+   "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/establishing_arguments/rhetorical_strategies.html"
+  }
+ ]
+}

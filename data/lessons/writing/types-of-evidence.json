@@ -1,0 +1,237 @@
+{
+ "id": "types-of-evidence",
+ "title": "Types of evidence",
+ "band": "Grades 9–10",
+ "minutes": 32,
+ "lede": "Not all proof is equal. Statistics, stories, experts and studies each have a power and a weakness. How to choose them, test them, and use them so they actually persuade.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The main types\n| Type | Strength | Weakness |\n|---|---|---|\n| **Statistics** | precise, covers many cases | easy to cherry-pick or misread; can feel cold |\n| **Research studies** | tested, controlled, peer-reviewed | can be misreported; one study isn't the final word |\n| **Expert testimony** | borrows trusted authority | only counts **inside** the expert's field |\n| **Examples / anecdotes** | vivid, memorable, emotional | one case proves little |\n| **Historical evidence** | shows patterns over time | the past isn't always a guide to the future |\n| **Analogy** | makes the unfamiliar familiar | only works if the two things truly match |\n| **Personal experience** | authentic, specific | narrow; you might be the exception |\n\nThe strongest arguments **combine** types: a statistic for the size of the problem, an example to make it real, an expert to back it."
+  },
+  {
+   "type": "check",
+   "q": "\"My uncle smoked a pack a day and lived to 95, so smoking isn't that bad.\" The evidence is…",
+   "options": [
+    "a strong statistic",
+    "a single anecdote outweighed by large studies",
+    "expert testimony",
+    "historical evidence"
+   ],
+   "answer": 1,
+   "why": "One case can't beat data on millions of people. Anecdotes are great for **illustrating**, weak for **proving**."
+  },
+  {
+   "type": "text",
+   "md": "## Testing a source\nBefore you trust evidence, ask five questions:\n\n| Question | Red flag |\n|---|---|\n| **Who made it?** | anonymous, or no real expertise |\n| **Why did they make it?** | they're selling something tied to the conclusion |\n| **When?** | out of date for a fast-changing topic |\n| **How do they know?** | no data, no method, no sources |\n| **Does anyone else confirm it?** | only one source says it |\n\nA trading course showing \"students made $10,000 their first month\" fails question 2 (they're selling the course) and question 4 (no full results, no losers shown)."
+  },
+  {
+   "type": "text",
+   "md": "## Three ways numbers lie\n**1. Cherry-picking.** Showing only the data that helps. A strategy that \"made 40% in March\" might have lost 60% from April to June.\n\n**2. Small samples.** 10 trades tell you almost nothing. Win 7 out of 10 and your real win rate could plausibly be anywhere from about 35% to 93%. Hundreds of trades are needed before a win rate means much.\n\n**3. Correlation isn't causation.** Two things moving together doesn't mean one causes the other. Ice cream sales and drownings both rise in summer: heat drives both. Always ask: **is there a third factor?** Could the cause run **backward**?"
+  },
+  {
+   "type": "example",
+   "title": "Spot the causation trap",
+   "problem": "\"Fighters who wear brand X gloves win more often. Buy brand X.\"",
+   "steps": [
+    "Correlation: brand X wearers win more.",
+    "Third factor? **Top gyms with elite coaches might be sponsored by brand X.** The coaching causes the wins.",
+    "Reverse cause? **Winners get sponsored**, so winning causes the gloves, not the other way."
+   ],
+   "answer": "The gloves probably do nothing. The data is real; the **conclusion** is the problem."
+  },
+  {
+   "type": "text",
+   "md": "## Using evidence: introduce, cite, explain (ICE)\nDropping a quote or number into a paragraph and moving on is the most common evidence mistake. Evidence doesn't explain itself.\n\n1. **Introduce** it: who says it, and why they're credible.\n2. **Cite** it: the quote, number or example.\n3. **Explain** it: what it shows and how it supports **your claim**. This is the part most writers skip, and it's where you actually argue.\n\n*Weak:* Sleep matters for athletes. \"Sleep extension improved sprint times.\"\n\n*Strong:* **In a Stanford study of college basketball players**, extending sleep to about ten hours a night **improved sprint times and shooting accuracy**. **If an extra two hours of sleep can sharpen elite athletes, then a fighter who cuts sleep during camp is giving away an edge that costs nothing.**"
+  },
+  {
+   "type": "check",
+   "q": "In ICE, which step do writers most often skip?",
+   "options": [
+    "Introduce",
+    "Cite",
+    "Explain",
+    "None"
+   ],
+   "answer": 2,
+   "why": "They drop the evidence and move on, leaving the reader to connect it."
+  },
+  {
+   "type": "text",
+   "md": "## Primary vs secondary\n- **Primary source**: the original. The study itself, the trade log, the contract, the interview, the video of the fight.\n- **Secondary source**: someone describing or analyzing the original. A news article about the study, a YouTuber reviewing the fight.\n\nSecondary sources are useful, but they can **distort**. Headlines regularly overstate what a study found. When the stakes are high, go to the primary source."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Quoting an expert outside their field.** A famous fighter's opinion on interest rates is not expert testimony.\n- **Evidence that doesn't match the claim.** Proving trucking is hard doesn't prove drivers are underpaid.\n- **Too many stats, no story** (or too many stories, no stats). Mix them.\n- **\"Studies show…\"** with no study named. Name it or it doesn't count."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which evidence type is vivid but proves little on its own?",
+   "options": [
+    "a large statistic",
+    "an anecdote",
+    "a peer-reviewed study",
+    "a meta-analysis"
+   ],
+   "answer": 1,
+   "why": "One case = one case."
+  },
+  {
+   "type": "mc",
+   "q": "A Nobel-winning physicist's opinion on nutrition is…",
+   "options": [
+    "strong expert testimony",
+    "weak: outside his field",
+    "a primary source",
+    "a statistic"
+   ],
+   "answer": 1,
+   "why": "Authority only counts inside the field."
+  },
+  {
+   "type": "mc",
+   "q": "Showing only the profitable months of a strategy is…",
+   "options": [
+    "cherry-picking",
+    "an analogy",
+    "a primary source",
+    "a qualifier"
+   ],
+   "answer": 0,
+   "why": "Selecting only the helpful data."
+  },
+  {
+   "type": "mc",
+   "q": "\"Cities with more police have more crime, so police cause crime.\" The best objection is…",
+   "options": [
+    "The numbers are fake.",
+    "Cities with more crime may hire more police: the cause may run backward.",
+    "Police are good.",
+    "Crime is bad."
+   ],
+   "answer": 1,
+   "why": "Reverse causation."
+  },
+  {
+   "type": "mc",
+   "q": "A trader's own trade log is a…",
+   "options": [
+    "secondary source",
+    "primary source",
+    "expert opinion",
+    "analogy"
+   ],
+   "answer": 1,
+   "why": "The original record."
+  },
+  {
+   "type": "mc",
+   "q": "In ICE, the \"E\" stands for…",
+   "options": [
+    "Evidence",
+    "Example",
+    "Explain",
+    "Evaluate"
+   ],
+   "answer": 2,
+   "why": "Introduce, Cite, **Explain**."
+  },
+  {
+   "type": "mc",
+   "q": "A supplement company's study concludes its product works. The biggest concern is…",
+   "options": [
+    "it's too recent",
+    "the source has a financial motive",
+    "it uses numbers",
+    "it's a primary source"
+   ],
+   "answer": 1,
+   "why": "*Why did they make it?*"
+  },
+  {
+   "type": "mc",
+   "q": "Why are 10 trades a weak basis for judging a strategy?",
+   "options": [
+    "10 is an unlucky number",
+    "the sample is too small; luck dominates",
+    "trades can't be counted",
+    "only stats count"
+   ],
+   "answer": 1,
+   "why": "Small samples swing wildly."
+  },
+  {
+   "type": "mc",
+   "q": "\"People who journal their trades are more profitable.\" Which is a plausible **third factor**?",
+   "options": [
+    "Journaling causes profit directly",
+    "Disciplined traders are more likely to both journal and follow risk rules",
+    "Profitable traders hate journaling",
+    "There's no possible third factor"
+   ],
+   "answer": 1,
+   "why": "Discipline could drive **both**. (Journaling may still help, but the correlation alone doesn't prove it.)",
+   "level": "challenge",
+   "hint": "What trait could lead to both behaviors?"
+  },
+  {
+   "type": "mc",
+   "q": "Claim: \"New owner-operators need a cash reserve.\" Evidence: \"Brokers commonly pay 30 days or more after delivery.\" Which sentence best **explains** the evidence?",
+   "options": [
+    "That's a long time.",
+    "This shows trucking is hard.",
+    "That means a new carrier pays for fuel, insurance and the truck note for a month or more before the first check clears. A reserve covers that gap, so one slow-paying broker can't sink the business.",
+    "30 days is a month."
+   ],
+   "answer": 2,
+   "why": "It connects the evidence to **the specific claim** (cash reserve) with reasoning. The others just restate it.",
+   "level": "challenge",
+   "hint": "Which one links the payment delay to *cash reserve*?"
+  },
+  {
+   "type": "mc",
+   "q": "Headline: \"Study: Coffee Adds Years to Your Life!\" What should you do first?",
+   "options": [
+    "Drink more coffee",
+    "Find the primary study and check what it actually measured",
+    "Share it",
+    "Assume it's fake"
+   ],
+   "answer": 1,
+   "why": "Headlines often turn a *correlation in one group* into a *cause for everyone*. Read the original.",
+   "level": "challenge",
+   "hint": "Secondary sources can distort."
+  },
+  {
+   "type": "mc",
+   "q": "Your claim: \"Rest days improve performance.\" Which combination of evidence is strongest?",
+   "options": [
+    "three personal stories",
+    "one study",
+    "a sports-science review of many studies, a coach's explanation of recovery, and an example from your own camp",
+    "a quote from a celebrity"
+   ],
+   "answer": 2,
+   "why": "Combines **research** (size and reliability), **expertise** (the mechanism), and an **example** (makes it real).",
+   "level": "challenge",
+   "hint": "Strong arguments mix types."
+  }
+ ],
+ "sources": [
+  {
+   "title": "UNC Writing Center: Evidence",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/evidence/"
+  },
+  {
+   "title": "UNC Writing Center: Statistics",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/statistics/"
+  },
+  {
+   "title": "Mah et al. (2011), The effects of sleep extension on the athletic performance of collegiate basketball players, SLEEP",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3119836/"
+  }
+ ]
+}

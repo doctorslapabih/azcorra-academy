@@ -1,0 +1,245 @@
+{
+ "id": "claims-and-counterclaims",
+ "title": "Claims and counterclaims",
+ "band": "Grades 9–10",
+ "minutes": 32,
+ "lede": "An argument isn't a fight. It's a claim, the reasons that hold it up, and an honest answer to the best objection. Learn the structure and you can win on paper, in a negotiation, or in your own head.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What an argument actually is\nIn writing, an **argument** is a **claim** supported by **reasons** and **evidence**, aimed at a reader who might not agree yet.\n\nIt's not yelling, and it's not just an opinion. *I hate early mornings* is an opinion. *Morning workouts improve consistency for people with unpredictable afternoons* is a claim: it can be supported, tested and challenged."
+  },
+  {
+   "type": "text",
+   "md": "## Three kinds of claims\n| Type | Asks | Example |\n|---|---|---|\n| **Fact** | Is it true? What happened? | *Most retail day traders lose money over time.* |\n| **Value** | Is it good, bad, right, wrong? | *Paper trading is a waste of time for beginners.* |\n| **Policy** | What should we do? | *New traders should risk no more than 1% per trade.* |\n\nKnow which kind you're making, because each needs different support. Facts need **data**. Value claims need **criteria** (good *by what standard?*). Policy claims need to show a **problem**, a **solution**, and that the solution is **worth the cost**."
+  },
+  {
+   "type": "check",
+   "q": "\"Truck drivers should be paid for time spent waiting at docks.\" This is a claim of…",
+   "options": [
+    "fact",
+    "value",
+    "policy",
+    "definition"
+   ],
+   "answer": 2,
+   "why": "*Should* + an action = **policy**."
+  },
+  {
+   "type": "text",
+   "md": "## The parts of a full argument (the Toulmin model)\nPhilosopher Stephen Toulmin broke everyday arguments into parts. You won't label them in an essay, but knowing them shows you where an argument is weak.\n\n| Part | What it does | Example |\n|---|---|---|\n| **Claim** | what you want the reader to accept | *You should stop trading after two losses.* |\n| **Grounds** | the evidence and reasons | *In my log, trades 3+ after two losses won 22% of the time vs 51% otherwise.* |\n| **Warrant** | the (often unstated) assumption linking grounds to claim | *Past performance under these conditions predicts future performance.* |\n| **Backing** | support for the warrant | *Tilt and fatigue are well-documented effects on decision-making.* |\n| **Qualifier** | how strong the claim is | *In most cases…* |\n| **Rebuttal** | when the claim doesn't hold | *…unless the losses were tiny and you're still calm.* |\n\nMost weak arguments break at the **warrant**: the hidden assumption nobody checked."
+  },
+  {
+   "type": "example",
+   "title": "Find the hidden warrant",
+   "problem": "\"He's been a trucker for 20 years, so he knows the best routes.\"",
+   "steps": [
+    "Claim: he knows the best routes.",
+    "Grounds: 20 years of trucking.",
+    "**Warrant (unstated):** experience automatically produces route knowledge.",
+    "Test it: what if he's driven the same dedicated lane for 20 years?"
+   ],
+   "answer": "The argument is only as good as its warrant. Here, it's **plausible but not guaranteed**. A stronger version: *He's run every lane in the Southeast for 20 years.*"
+  },
+  {
+   "type": "text",
+   "md": "## Counterclaims: the move that makes you credible\nA **counterclaim** is the strongest objection to your claim. Raising it yourself, then answering it, does three things:\n\n1. Shows you've **thought it through**.\n2. **Takes away** the reader's best comeback before they can use it.\n3. Earns **trust**: you're being fair, not just selling.\n\nThe pattern has three beats:\n\n| Beat | Purpose | Signal words |\n|---|---|---|\n| **Acknowledge** | state the objection fairly | *Some argue… Critics point out… It's true that…* |\n| **Concede** (optional) | admit what's right about it | *Admittedly… This is a fair point…* |\n| **Rebut** | show why your claim still stands | *However… Even so… But this overlooks…* |"
+  },
+  {
+   "type": "example",
+   "title": "Counterclaim and rebuttal",
+   "problem": "Claim: *New traders should trade micro contracts for their first three months.*",
+   "steps": [
+    "**Acknowledge:** *Some traders argue that micros are too small to feel real, so you never learn to handle pressure.*",
+    "**Concede:** *It's true that the emotional weight of a trade grows with its size.*",
+    "**Rebut:** *But a new trader's first job is proving the strategy works at all. Micros let you collect 200 real trades at 1/10 the cost of tuition. Pressure can be added later. A blown account can't be undone.*"
+   ],
+   "answer": "Notice the rebuttal doesn't deny the objection. It **outweighs** it."
+  },
+  {
+   "type": "text",
+   "md": "## Steelman, don't strawman\nA **straw man** is a weak, twisted version of the other side, easy to knock down. A **steelman** is the **strongest** version of the other side, the one its smartest supporter would make.\n\nIf you can beat the steelman, you've really won. If you only beat the straw man, a sharp reader notices, and you lose their trust.\n\n*Straw man:* \"People who cut weight just want to bully smaller guys.\"\n*Steelman:* \"Cutting weight lets fighters compete against opponents with similar frames, and the rules allow it.\""
+  },
+  {
+   "type": "check",
+   "q": "Which is the best **rebuttal** to: \"Meal prep takes too much time\"?",
+   "options": [
+    "That's a dumb excuse.",
+    "It takes about two hours on Sunday, which saves roughly 30 minutes of cooking or driving to get food every day after.",
+    "Everyone meal preps now.",
+    "Time doesn't matter."
+   ],
+   "answer": 1,
+   "why": "It **acknowledges** the cost (two hours) and **outweighs** it with numbers. The others insult, follow the crowd, or dodge."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Arguing a fact everyone accepts.** If no one would disagree, there's no argument.\n- **Ignoring the other side** entirely. Readers assume you didn't know it, or couldn't answer it.\n- **Raising a counterclaim and never answering it.** That argues against yourself.\n- **Absolute claims.** *Always* and *never* are easy to break with one example. Qualify: *usually*, *in most cases*, *for beginners*."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is an arguable **claim**?",
+   "options": [
+    "The Earth orbits the Sun.",
+    "NQ is a futures contract on the Nasdaq-100.",
+    "Beginners should avoid trading the first five minutes after the open.",
+    "Miami is in Florida."
+   ],
+   "answer": 2,
+   "why": "The rest are facts no one disputes."
+  },
+  {
+   "type": "mc",
+   "q": "\"Mixed martial arts is the most complete combat sport.\" This is a claim of…",
+   "options": [
+    "fact",
+    "value",
+    "policy",
+    "cause"
+   ],
+   "answer": 1,
+   "why": "*Most complete* is a judgment: it needs criteria."
+  },
+  {
+   "type": "mc",
+   "q": "The **counterclaim** in an essay is…",
+   "options": [
+    "your main claim restated",
+    "the strongest objection to your claim",
+    "your conclusion",
+    "a fact that supports you"
+   ],
+   "answer": 1,
+   "why": "The other side's best point."
+  },
+  {
+   "type": "mc",
+   "q": "Which phrase signals a **rebuttal**?",
+   "options": [
+    "Some argue that…",
+    "It's true that…",
+    "However, this overlooks…",
+    "For example…"
+   ],
+   "answer": 2,
+   "why": "Turns back to your side."
+  },
+  {
+   "type": "mc",
+   "q": "A **qualifier** in an argument…",
+   "options": [
+    "insults the opposition",
+    "limits how strong the claim is",
+    "is the main evidence",
+    "restates the thesis"
+   ],
+   "answer": 1,
+   "why": "*In most cases… usually… for beginners…*"
+  },
+  {
+   "type": "mc",
+   "q": "\"My opponents just want drivers to work for free.\" This is likely…",
+   "options": [
+    "a steelman",
+    "a straw man",
+    "a qualifier",
+    "a warrant"
+   ],
+   "answer": 1,
+   "why": "A twisted, weak version of the other side."
+  },
+  {
+   "type": "mc",
+   "q": "What does a **policy** claim need to show?",
+   "options": [
+    "only that something is true",
+    "a problem, a solution and that it's worth the cost",
+    "only personal feelings",
+    "a definition"
+   ],
+   "answer": 1,
+   "why": "Problem → solution → worth it."
+  },
+  {
+   "type": "mc",
+   "q": "Why raise the counterclaim yourself?",
+   "options": [
+    "to fill space",
+    "to show fairness and take away the reader's best objection",
+    "to confuse the reader",
+    "teachers require it, no other reason"
+   ],
+   "answer": 1,
+   "why": "It builds trust and preempts pushback."
+  },
+  {
+   "type": "mc",
+   "q": "\"She trained harder than anyone in camp, so she'll win.\" The hidden **warrant** is…",
+   "options": [
+    "She trained hard.",
+    "She'll win.",
+    "The harder-training fighter always wins.",
+    "Camps are hard."
+   ],
+   "answer": 2,
+   "why": "The unstated assumption linking grounds to claim. Test it: is it **always** true? No: styles, size and fight IQ matter. So the warrant is weak.",
+   "level": "challenge",
+   "hint": "What would have to be true for *trained hardest* to guarantee *wins*?"
+  },
+  {
+   "type": "mc",
+   "q": "Which counterclaim paragraph is strongest?",
+   "options": [
+    "Some people disagree, but they're wrong.",
+    "Critics say rest days slow progress. That's ridiculous.",
+    "Critics say rest days slow progress, and it's true that fitness drops if you rest too long. But muscle repairs during rest, not during training, so planned rest days make the next sessions stronger.",
+    "Rest days are good."
+   ],
+   "answer": 2,
+   "why": "Acknowledge → concede → rebut with a reason. The others skip steps or just dismiss.",
+   "level": "challenge",
+   "hint": "Look for all three beats."
+  },
+  {
+   "type": "mc",
+   "q": "Make this claim more defensible: \"Trading after 11 a.m. always loses money.\"",
+   "options": [
+    "Trading after 11 a.m. never works.",
+    "Trading after 11 a.m. is terrible.",
+    "For my strategy, trades after 11 a.m. have had lower win rates over the last 100 trades.",
+    "Everyone knows not to trade after 11 a.m."
+   ],
+   "answer": 2,
+   "why": "Qualified (*for my strategy*), specific, and backed by grounds (*last 100 trades*). One counterexample can't break it.",
+   "level": "challenge",
+   "hint": "Kill the *always*, add a limit and a source."
+  },
+  {
+   "type": "mc",
+   "q": "A broker says: \"Every carrier takes this rate.\" What's the best **rebuttal** in a negotiation?",
+   "options": [
+    "\"No they don't.\"",
+    "\"Then you won't have trouble finding one.\"",
+    "\"The lane's current average is $2.40 a mile on the load boards, this load pays $1.90, and it delivers into a dead market for backhauls. I need $2.30.\"",
+    "\"I'll take it.\""
+   ],
+   "answer": 2,
+   "why": "Doesn't argue about *every carrier*. It **outweighs** the claim with grounds (market average, backhaul cost) and ends with a clear counter.",
+   "level": "challenge",
+   "hint": "Evidence beats denial."
+  }
+ ],
+ "sources": [
+  {
+   "title": "UNC Writing Center: Argument",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/argument/"
+  },
+  {
+   "title": "Purdue OWL: Classical Argument",
+   "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/classical_argument.html"
+  }
+ ]
+}

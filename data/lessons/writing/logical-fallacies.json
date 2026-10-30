@@ -1,0 +1,238 @@
+{
+ "id": "logical-fallacies",
+ "title": "Logical fallacies",
+ "band": "Grades 9–12",
+ "minutes": 36,
+ "lede": "The tricks that make bad arguments sound good. Once you can name them, scammers, salespeople, trash talk and your own excuses lose their power over you.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What a fallacy is\nA **fallacy** is a flaw in **reasoning**: the argument's conclusion doesn't actually follow from its support. The conclusion might still happen to be true, but the argument doesn't prove it.\n\nFallacies are dangerous because they **feel** convincing. They're built on shortcuts the brain naturally takes. Learning to name them is like learning to read a fake check-hook in sparring: once you see it, you stop biting."
+  },
+  {
+   "type": "text",
+   "md": "## Attacks on the person, not the point\n| Fallacy | What it does | Example |\n|---|---|---|\n| **Ad hominem** | attacks the person instead of the argument | *Why listen to his trading advice? He drives a 2009 Civic.* |\n| **Tu quoque** (\"you too\") | dismisses a point because the speaker is a hypocrite | *Coach says don't skip cardio, but he's out of shape himself.* (The advice is still right.) |\n| **Appeal to authority** (false) | treats someone as an expert outside their field, or as proof by itself | *A famous rapper says this coin will 10x.* |"
+  },
+  {
+   "type": "text",
+   "md": "## Twisting or limiting the options\n| Fallacy | What it does | Example |\n|---|---|---|\n| **Straw man** | distorts the other side into something easy to beat | *You want a daily loss limit? So you want to never make money.* |\n| **False dilemma** | presents only two options when more exist | *Either you go all-in on this trade or you're scared.* |\n| **Slippery slope** | claims one step will lead to disaster without showing how | *If you skip one workout, you'll quit fighting.* |\n| **Red herring** | changes the subject to distract | Asked why the load was late: *Do you know how bad traffic is in Atlanta lately?* |"
+  },
+  {
+   "type": "check",
+   "q": "\"You're either with us or against us.\" This is a…",
+   "options": [
+    "straw man",
+    "false dilemma",
+    "red herring",
+    "slippery slope"
+   ],
+   "answer": 1,
+   "why": "Only two options, when neutral, partial and other positions exist."
+  },
+  {
+   "type": "text",
+   "md": "## Bad reasoning about evidence and cause\n| Fallacy | What it does | Example |\n|---|---|---|\n| **Hasty generalization** | big conclusion from too few cases | *Two brokers stiffed me. All brokers are crooks.* |\n| **Post hoc** (\"after this, therefore because of this\") | assumes A caused B because B came after A | *I wore my red shorts and won. They're lucky.* |\n| **Bandwagon** | it's true or good because many people believe it | *Everyone's buying this stock, so it's a good buy.* |\n| **Circular reasoning** | the conclusion is hidden in the premise | *This guru is trustworthy because he says he's honest.* |\n| **Appeal to emotion** | uses feelings in place of reasons | *Think of how proud your mom will be when you're rich. Sign up now.* |"
+  },
+  {
+   "type": "text",
+   "md": "## The trader's fallacies\nThese two cost real money every day.\n\n**Gambler's fallacy**: believing past random outcomes change the odds of the next one. *I've lost five in a row, so the next one has to win.* If your trades are independent, a win isn't \"due.\" The losing streak tells you nothing about the next trade, except that you might be tilting.\n\n**Sunk cost fallacy**: continuing because of what you've **already spent**, not what's coming. *I've held this losing trade for two hours, I can't close it now.* The two hours are gone either way. The only question is: **would you enter this trade right now?** If not, get out."
+  },
+  {
+   "type": "example",
+   "title": "Name every fallacy",
+   "problem": "Ad: *\"Over 50,000 traders have joined! Our founder made millions, and he says this is the only strategy that works. If you don't join now, you'll keep struggling forever. Don't let your family down.\"*",
+   "steps": [
+    "*50,000 traders have joined* → **bandwagon**",
+    "*founder made millions, he says…* → **appeal to authority** (making money ≠ proof the strategy works for you)",
+    "*only strategy that works / join or struggle forever* → **false dilemma** + **slippery slope**",
+    "*don't let your family down* → **appeal to emotion**"
+   ],
+   "answer": "Five fallacies in four sentences, and **zero** evidence about win rate, drawdown or full results. That's what a scam looks like."
+  },
+  {
+   "type": "check",
+   "q": "\"I've already paid $2,000 for this course, so I have to keep using its strategy even though it's losing.\" This is…",
+   "options": [
+    "gambler's fallacy",
+    "sunk cost fallacy",
+    "bandwagon",
+    "ad hominem"
+   ],
+   "answer": 1,
+   "why": "The $2,000 is gone either way. Decide based on what works from here."
+  },
+  {
+   "type": "text",
+   "md": "## How to respond to a fallacy\nNaming it out loud (\"that's an ad hominem!\") often makes people defensive. Better:\n\n- **Redirect to the point:** *Even if he drives an old car, what about the actual advice?*\n- **Ask for the missing step:** *How exactly does skipping one workout lead to quitting?*\n- **Add the missing option:** *There's a third choice: half size.*\n- **Ask for evidence:** *Show me all the results, including the losers.*\n\nAnd turn it on yourself. Your inner voice uses fallacies too, especially after a loss."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Not every attack is ad hominem.** If someone's personal history is **relevant** (a convicted fraudster selling investments), pointing it out is fair.\n- **Not every expert quote is a fallacy.** Citing a real expert **in their field** is good evidence.\n- **Emotion isn't automatically a fallacy.** It's fallacious when it **replaces** reasons, not when it accompanies them.\n- **Fallacy fallacy:** an argument containing a fallacy doesn't make its conclusion false. It just isn't proven by that argument."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"Don't take nutrition advice from her, she's not even pretty.\" This is…",
+   "options": [
+    "straw man",
+    "ad hominem",
+    "bandwagon",
+    "post hoc"
+   ],
+   "answer": 1,
+   "why": "Attacks the person, not the advice."
+  },
+  {
+   "type": "mc",
+   "q": "\"I changed my chart colors and won three trades. The new colors work.\" This is…",
+   "options": [
+    "post hoc",
+    "circular reasoning",
+    "false dilemma",
+    "red herring"
+   ],
+   "answer": 0,
+   "why": "After ≠ because of."
+  },
+  {
+   "type": "mc",
+   "q": "\"Millions of people play the lottery, so it must be a smart investment.\"",
+   "options": [
+    "bandwagon",
+    "ad hominem",
+    "slippery slope",
+    "tu quoque"
+   ],
+   "answer": 0,
+   "why": "Popularity isn't proof."
+  },
+  {
+   "type": "mc",
+   "q": "\"If we let drivers take an extra break, soon nobody will deliver anything on time.\"",
+   "options": [
+    "slippery slope",
+    "hasty generalization",
+    "appeal to authority",
+    "circular reasoning"
+   ],
+   "answer": 0,
+   "why": "Disaster chain with no evidence for each step."
+  },
+  {
+   "type": "mc",
+   "q": "\"The manual is right because the manual says it's right.\" The pattern is…",
+   "options": [
+    "circular reasoning",
+    "post hoc",
+    "red herring",
+    "bandwagon"
+   ],
+   "answer": 0,
+   "why": "The conclusion is the premise."
+  },
+  {
+   "type": "mc",
+   "q": "Asked about missed workouts, a fighter says: \"Have you seen how hard my job is?\" This is…",
+   "options": [
+    "red herring",
+    "false dilemma",
+    "straw man",
+    "bandwagon"
+   ],
+   "answer": 0,
+   "why": "Changes the subject. (His job might be hard, but that doesn't answer the question.)"
+  },
+  {
+   "type": "mc",
+   "q": "\"I met two lazy truck drivers, so truckers are lazy.\"",
+   "options": [
+    "hasty generalization",
+    "post hoc",
+    "tu quoque",
+    "sunk cost"
+   ],
+   "answer": 0,
+   "why": "Two cases → everyone."
+  },
+  {
+   "type": "mc",
+   "q": "\"Red has hit 6 times in a row on the roulette wheel, so black is due.\"",
+   "options": [
+    "sunk cost",
+    "gambler's fallacy",
+    "bandwagon",
+    "straw man"
+   ],
+   "answer": 1,
+   "why": "Each spin is independent."
+  },
+  {
+   "type": "mc",
+   "q": "A trader is down $400 on a trade past his stop. He says: \"I can't close now, I've already lost $400.\" The best question to ask him is…",
+   "options": [
+    "How much did you make yesterday?",
+    "Would you enter this exact trade right now at this price?",
+    "Why did you enter?",
+    "What does everyone else think?"
+   ],
+   "answer": 1,
+   "why": "This cuts through the **sunk cost**: the $400 is gone either way. Only the future of the trade matters.",
+   "level": "challenge",
+   "hint": "Which question ignores what's already been spent?"
+  },
+  {
+   "type": "mc",
+   "q": "Which is **not** a fallacy?",
+   "options": [
+    "Ignore his diet advice, he's fat.",
+    "Don't invest with him: he was convicted of running a Ponzi scheme last year.",
+    "She's a hypocrite, so her point is wrong.",
+    "He's rich, so his advice on everything is right."
+   ],
+   "answer": 1,
+   "why": "His fraud conviction is **directly relevant** to trusting him with money. Attacks are only ad hominem when they're irrelevant to the argument.",
+   "level": "challenge",
+   "hint": "When is someone's history actually relevant?"
+  },
+  {
+   "type": "mc",
+   "q": "\"You either cut 40 pounds for this fight or you're not serious about your career.\" Which response best exposes the fallacy?",
+   "options": [
+    "\"I'm serious!\"",
+    "\"There's a third option: fight at the weight class above, where I walk around.\"",
+    "\"You're not serious either.\"",
+    "\"Everyone cuts weight.\""
+   ],
+   "answer": 1,
+   "why": "It's a **false dilemma**. The answer: show the option that was left out. (C is tu quoque; D is bandwagon.)",
+   "level": "challenge",
+   "hint": "Add the missing option."
+  },
+  {
+   "type": "mc",
+   "q": "\"My strategy is profitable because it makes money.\" What's wrong?",
+   "options": [
+    "Nothing",
+    "It's circular: the claim and the reason say the same thing",
+    "It's a straw man",
+    "It's an appeal to emotion"
+   ],
+   "answer": 1,
+   "why": "*Profitable* and *makes money* are the same claim. Real support would be logged results: win rate, average R, number of trades, drawdown.",
+   "level": "challenge",
+   "hint": "Is the reason different from the conclusion?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "UNC Writing Center: Fallacies",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/fallacies/"
+  },
+  {
+   "title": "Purdue OWL: Logic in Argumentative Writing",
+   "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/logic_in_argumentative_writing/index.html"
+  }
+ ]
+}

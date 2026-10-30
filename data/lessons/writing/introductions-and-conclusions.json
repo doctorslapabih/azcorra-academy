@@ -1,0 +1,231 @@
+{
+ "id": "introductions-and-conclusions",
+ "title": "Introductions and conclusions",
+ "band": "Grades 9–10",
+ "minutes": 26,
+ "lede": "The first lines decide whether anyone keeps reading. The last lines decide what they remember. How to open with a hook and close with a punch.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The job of an introduction\nAn introduction does three things in a few sentences:\n1. **Hook**: earn the reader's attention.\n2. **Context**: give just enough background to understand the issue.\n3. **Thesis**: state the claim.\n\nThink of it as a **funnel**: start broad enough to pull the reader in, narrow quickly, land on the thesis."
+  },
+  {
+   "type": "text",
+   "md": "## Five kinds of hook\n| Hook | Example |\n|---|---|\n| **Surprising fact** | *A loaded 18-wheeler carries about as much kinetic energy as two dozen cars at the same speed.* |\n| **Short scene or story** | *Two days before the fight, he hadn't had a glass of water in 18 hours.* |\n| **Bold claim** | *Most traders don't have a strategy problem. They have a rules problem.* |\n| **Pointed question** (sparingly) | *What if the scale is the most dangerous opponent a fighter faces?* |\n| **Striking quotation** (sparingly) | only if it's sharp and you build on it |\n\nThe best hooks connect directly to the thesis. A shocking fact that has nothing to do with your argument is a bait-and-switch."
+  },
+  {
+   "type": "text",
+   "md": "## Openers to retire\n- ✗ ***Since the dawn of time**, humans have...* (too broad, says nothing)\n- ✗ ***Webster's Dictionary defines** courage as...* (lazy; your reader knows what the word means)\n- ✗ ***In this essay I will** discuss...* (announces instead of saying)\n- ✗ ***In today's society**...* (filler)\n\nEach one tells the reader you're warming up. Start where the interesting part starts."
+  },
+  {
+   "type": "check",
+   "q": "Which opening is strongest for an essay arguing for same-day weigh-ins?",
+   "options": [
+    "Since the beginning of time, people have fought.",
+    "Webster's defines *weight* as heaviness.",
+    "In 2015, a fighter collapsed and died during a weight cut before a bout in Asia.",
+    "In this essay I will talk about weight cutting."
+   ],
+   "answer": 2,
+   "why": "A real, specific event tied directly to the argument. The others stall."
+  },
+  {
+   "type": "example",
+   "title": "Build an introduction",
+   "problem": "**Thesis:** *Small trucking companies should load-plan with software, because it cuts empty miles, speeds up quotes and reduces dispatcher burnout.*",
+   "steps": [
+    "**Hook (fact):** *Industry surveys estimate that about one in six truck miles is driven empty.*",
+    "**Context (1–2 sentences):** *For a big carrier, that's an annoyance. For a company with six trucks, it's the difference between profit and loss.*",
+    "**Thesis:** the sentence above."
+   ],
+   "answer": "Three sentences. Hook, context, claim. The reader knows exactly what's at stake and what you'll prove."
+  },
+  {
+   "type": "text",
+   "md": "## The job of a conclusion\nA conclusion answers the reader's last question: **so what?**\n\n1. **Restate the thesis in new words**, not copy-paste. Show it's been proven.\n2. **Synthesize**: connect the reasons into a bigger point, rather than listing them again.\n3. **End with weight**: an implication, a call to action, a look ahead, or an echo of your hook (called **bookending**)."
+  },
+  {
+   "type": "example",
+   "title": "Bookending",
+   "problem": "**Hook:** *Two days before the fight, he hadn't had a glass of water in 18 hours.*",
+   "steps": [
+    "**Last line:** *A same-day weigh-in wouldn't make fighting safe. But it would mean the next fighter drinks that glass of water.*",
+    "The image returns, now carrying the argument's weight."
+   ],
+   "answer": "Echoing the opening gives the essay a shape the reader can feel: it **closes the loop**."
+  },
+  {
+   "type": "text",
+   "md": "## Conclusion mistakes\n- **New evidence.** If it's important, it belongs in the body.\n- **Copy-pasting the introduction.** Readers notice.\n- **Apologizing or hedging:** *\"This is just my opinion, but...\"* undercuts everything you proved.\n- **The giant leap:** jumping from a narrow argument to *\"and this is why society is failing\"*. Widen the lens, but only one step.\n- **\"In conclusion\"** isn't wrong, but it's a crutch. A strong closing paragraph signals its own ending."
+  },
+  {
+   "type": "note",
+   "label": "A practical shortcut",
+   "md": "Write the introduction **last**, or at least rewrite it last. You'll know what the essay actually argues, and the hook can be chosen to fit it."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is a job of the introduction?",
+   "options": [
+    "Give all the evidence",
+    "Hook the reader and state the thesis",
+    "Summarize every paragraph",
+    "List sources"
+   ],
+   "answer": 1,
+   "why": "Hook, context, thesis."
+  },
+  {
+   "type": "mc",
+   "q": "\"Since the dawn of time...\" is weak because…",
+   "options": [
+    "it's too specific",
+    "it's so broad it says nothing",
+    "it's a quotation",
+    "it's a fact"
+   ],
+   "answer": 1,
+   "why": "It delays the real point."
+  },
+  {
+   "type": "mc",
+   "q": "A good hook should…",
+   "options": [
+    "be shocking even if unrelated",
+    "connect directly to the thesis",
+    "be a dictionary definition",
+    "be a question every time"
+   ],
+   "answer": 1,
+   "why": "Otherwise it's a bait-and-switch."
+  },
+  {
+   "type": "mc",
+   "q": "Which belongs in a conclusion?",
+   "options": [
+    "Brand-new evidence",
+    "The thesis restated in new words, plus why it matters",
+    "An apology for your opinion",
+    "Your hook copied word for word"
+   ],
+   "answer": 1,
+   "why": "Restate, synthesize, end with weight."
+  },
+  {
+   "type": "mc",
+   "q": "**Bookending** means…",
+   "options": [
+    "putting the thesis in the conclusion only",
+    "echoing the opening image or story in the conclusion",
+    "using two hooks",
+    "writing the conclusion first"
+   ],
+   "answer": 1,
+   "why": "It closes the loop."
+  },
+  {
+   "type": "mc",
+   "q": "\"This is just my opinion, but...\" in a conclusion…",
+   "options": [
+    "adds humility that helps",
+    "undercuts the argument you just proved",
+    "is required",
+    "replaces the thesis"
+   ],
+   "answer": 1,
+   "why": "Don't apologize for a claim you supported."
+  },
+  {
+   "type": "mc",
+   "q": "What's the shape of a typical introduction?",
+   "options": [
+    "Pyramid: narrow then broad",
+    "Funnel: broader hook, narrow to the thesis",
+    "A list",
+    "Circle"
+   ],
+   "answer": 1,
+   "why": "Broad enough to engage, narrow to the claim."
+  },
+  {
+   "type": "mc",
+   "q": "When is often the best time to write (or rewrite) the introduction?",
+   "options": [
+    "First, before outlining",
+    "Last, once you know what you argued",
+    "Never",
+    "Halfway through"
+   ],
+   "answer": 1,
+   "why": "You can't introduce an argument you haven't finished making."
+  },
+  {
+   "type": "mc",
+   "q": "Essay: *\"Raising the minimum driver age to 21 for interstate trucking improves safety.\"* Which conclusion makes the **giant leap**?",
+   "options": [
+    "The data on crash rates by age supports keeping the minimum at 21.",
+    "Experience matters most on the long stretches between cities.",
+    "Therefore, every industry in America should ban workers under 21.",
+    "Safety rules work best when they match how risk actually changes with age."
+   ],
+   "answer": 2,
+   "why": "Jumping from one trucking rule to every industry is a leap the essay never earned. Widen the lens one step, not ten.",
+   "level": "challenge",
+   "hint": "Which one claims far more than the essay could have proven?"
+  },
+  {
+   "type": "mc",
+   "q": "Which hook best fits the thesis \"Beginner traders should risk a fixed small amount per trade\"?",
+   "options": [
+    "The stock market was founded in 1792.",
+    "Most accounts that blow up don't die from one bad trade. They die from the trade after a loss, when size doubles.",
+    "Webster's defines *risk* as the possibility of loss.",
+    "What is money?"
+   ],
+   "answer": 1,
+   "why": "Specific, surprising, and it sets up exactly what the thesis argues.",
+   "level": "challenge",
+   "hint": "Which hook leads straight into fixed sizing?"
+  },
+  {
+   "type": "mc",
+   "q": "Your intro and conclusion say almost the same sentence. Best fix for the conclusion?",
+   "options": [
+    "Delete the conclusion",
+    "Restate the thesis in new words and add the *so what*: what it means or what to do",
+    "Add a new reason",
+    "Add *In conclusion* at the start"
+   ],
+   "answer": 1,
+   "why": "The conclusion should show the thesis has been **proven**, then widen to why it matters.",
+   "level": "challenge",
+   "hint": "What does a conclusion add that the introduction can't?"
+  },
+  {
+   "type": "mc",
+   "q": "Which is the best context sentence between this hook and thesis? Hook: *A single 30-pound cut can drop a fighter's blood volume dramatically.* Thesis: *Commissions should hold same-day weigh-ins.*",
+   "options": [
+    "Many sports exist.",
+    "Fighters weigh in the day before a fight and then rehydrate, so the scale rewards whoever can dehydrate hardest.",
+    "Water is important.",
+    "MMA is popular."
+   ],
+   "answer": 1,
+   "why": "It bridges the fact and the claim by explaining the current system, which is exactly what the thesis wants to change.",
+   "level": "challenge",
+   "hint": "What does the reader need to know for the thesis to make sense?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "UNC Writing Center: Introductions",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/introductions/"
+  },
+  {
+   "title": "UNC Writing Center: Conclusions",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/conclusions/"
+  }
+ ]
+}

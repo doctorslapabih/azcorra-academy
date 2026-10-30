@@ -1,0 +1,232 @@
+{
+ "id": "writing-a-thesis",
+ "title": "Writing a thesis",
+ "band": "Grades 9–10",
+ "minutes": 30,
+ "lede": "One sentence that takes a position, tells the reader what's coming, and gives the whole essay a spine. Most weak essays are weak right here.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What a thesis is\nA **thesis** is the one-sentence answer to the question your essay is about. It's a **claim**: something a reasonable person could disagree with, that you're going to prove.\n\nEverything else in the essay exists to support it. If a paragraph doesn't help prove the thesis, it doesn't belong.\n\nA thesis is **not**:\n- **A topic**: *This essay is about weight cutting.*\n- **A fact**: *Many fighters cut weight before a fight.*\n- **An announcement**: *In this essay I will discuss weight cutting.*\n- **A question**: *Is weight cutting dangerous?*"
+  },
+  {
+   "type": "text",
+   "md": "## The four tests\nA strong thesis passes all four:\n\n| Test | Ask | Fails if |\n|---|---|---|\n| **Arguable** | Could someone smart disagree? | everyone already agrees |\n| **Specific** | Is it narrow enough to prove in this space? | it covers a whole field |\n| **Supportable** | Is there evidence for it? | it's pure opinion or taste |\n| **So what?** | Does it matter to anyone? | the reader shrugs |"
+  },
+  {
+   "type": "example",
+   "title": "Upgrade a thesis, step by step",
+   "problem": "**Start:** \"Weight cutting is bad.\"",
+   "steps": [
+    "**Too vague.** Bad how? For whom? → *Extreme weight cutting is dangerous for fighters.*",
+    "**Still obvious.** Few would argue. Add a position someone could push back on → *Athletic commissions should ban extreme weight cutting.*",
+    "**Add the reasons,** which become your body paragraphs."
+   ],
+   "answer": "*\"Athletic commissions should ban extreme weight cutting, because rapid dehydration increases the risk of brain injury, gives an unfair advantage to the fighters who cut hardest, and can be prevented with same-day weigh-ins.\"*"
+  },
+  {
+   "type": "text",
+   "md": "## The basic formula\n**[Claim] because [reason 1], [reason 2], and [reason 3].**\n\nThis is called a **closed** thesis: it lists the essay's main points. It's clear and great for timed essays and school writing.\n\nAn **open** thesis states the claim without listing the reasons: *Athletic commissions should ban extreme weight cutting.* It reads more naturally in longer, polished writing, where the reasons unfold paragraph by paragraph.\n\nStart with closed. Graduate to open once your structure is solid."
+  },
+  {
+   "type": "check",
+   "q": "Which is a real thesis?",
+   "options": [
+    "Day trading is a popular way to make money.",
+    "This essay will explore day trading.",
+    "Most beginner day traders should paper trade for three months, because live losses teach the wrong lessons before a strategy is proven.",
+    "What makes a good day trader?"
+   ],
+   "answer": 2,
+   "why": "Only C takes a **position** someone could argue with, and gives a reason."
+  },
+  {
+   "type": "text",
+   "md": "## Thesis types by essay\n| Essay type | Thesis does | Example |\n|---|---|---|\n| **Argumentative** | takes a side and defends it | *Cities should replace parking minimums with market pricing.* |\n| **Analytical** | breaks something down and makes a claim about how it works | *In \"Rocky,\" the training montage turns a losing fight into a victory by changing what winning means.* |\n| **Expository** (explains) | states the main point the explanation will prove | *Interest rates affect home prices mainly through monthly payments, not total price.* |\n\nEven an expository essay needs a **point**. \"Here are some facts about interest rates\" is a list, not an essay."
+  },
+  {
+   "type": "text",
+   "md": "## Where it goes and how to find it\nIn most school and professional essays, the thesis is the **last sentence of the introduction**. That's where readers look for it.\n\nYou don't have to know your thesis before you start. Many writers draft first, then read what they wrote and ask: **what am I actually arguing?** That sentence becomes the thesis, and then the draft gets revised to prove it. A thesis written *after* thinking beats one written *before*."
+  },
+  {
+   "type": "example",
+   "title": "Diagnose a thesis",
+   "problem": "\"Social media has both positive and negative effects on teenagers.\"",
+   "steps": [
+    "Arguable? No. Everyone agrees things have pros and cons.",
+    "Specific? No. Which effects? Which platforms?",
+    "This is a **\"both sides\" thesis**: it avoids taking a position."
+   ],
+   "answer": "Pick a side and narrow it: *\"Schools should ban phones during class, because constant notifications cut focus, increase cyberbullying during the school day, and lower test scores.\"*"
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **The fence-sitter:** \"There are good and bad points.\" Take a side; you can still acknowledge the other side in the essay.\n- **The giant thesis:** \"Technology has changed the world.\" A 5-page essay can't prove that.\n- **The list with no claim:** \"This essay covers X, Y and Z.\" Why do X, Y and Z matter together?\n- **The hidden thesis:** a great claim buried in paragraph three. Put it where readers look."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is a **topic**, not a thesis?",
+   "options": [
+    "Fuel prices.",
+    "Fuel price swings hurt small carriers more than large ones because they can't hedge.",
+    "Small carriers should join fuel-buying groups.",
+    "Fuel surcharges should be mandatory in all broker contracts."
+   ],
+   "answer": 0,
+   "why": "A topic names a subject; a thesis makes a claim about it."
+  },
+  {
+   "type": "mc",
+   "q": "Which thesis is **arguable**?",
+   "options": [
+    "Water boils at 100 °C at sea level.",
+    "The UFC is a mixed martial arts promotion.",
+    "Weigh-ins should happen the day of the fight, not the day before.",
+    "Many people watch boxing."
+   ],
+   "answer": 2,
+   "why": "Only C is a position someone could disagree with."
+  },
+  {
+   "type": "mc",
+   "q": "\"In this essay, I will talk about sleep.\" The main problem is…",
+   "options": [
+    "it's too specific",
+    "it's an announcement, not a claim",
+    "it's too long",
+    "it uses *I*"
+   ],
+   "answer": 1,
+   "why": "It tells us the topic, not what you're arguing."
+  },
+  {
+   "type": "mc",
+   "q": "A **closed** thesis…",
+   "options": [
+    "has no claim",
+    "lists the main reasons the essay will cover",
+    "is a question",
+    "goes at the end of the essay"
+   ],
+   "answer": 1,
+   "why": "Closed = claim + its reasons."
+  },
+  {
+   "type": "mc",
+   "q": "Where does the thesis usually go?",
+   "options": [
+    "First sentence of the essay",
+    "End of the introduction",
+    "Middle of the second paragraph",
+    "Conclusion only"
+   ],
+   "answer": 1,
+   "why": "Readers expect it at the end of the intro."
+  },
+  {
+   "type": "mc",
+   "q": "\"Exercise has many benefits.\" Best upgrade?",
+   "options": [
+    "Exercise has many, many benefits.",
+    "Exercise is good for you in a lot of ways.",
+    "Ten minutes of daily cardio does more for long-term health than an hour once a week, because consistency drives adaptation.",
+    "Some people exercise and some don't."
+   ],
+   "answer": 2,
+   "why": "Specific, arguable and supported."
+  },
+  {
+   "type": "mc",
+   "q": "Which test does \"Pizza is the best food\" fail most?",
+   "options": [
+    "Arguable",
+    "Specific",
+    "Supportable: it's mostly taste",
+    "None"
+   ],
+   "answer": 2,
+   "why": "You can argue it, but evidence can't settle taste."
+  },
+  {
+   "type": "mc",
+   "q": "An expository essay about how credit scores work still needs…",
+   "options": [
+    "no thesis",
+    "a thesis stating the main point the explanation proves",
+    "a question as its thesis",
+    "three quotations"
+   ],
+   "answer": 1,
+   "why": "Even explanations need a point."
+  },
+  {
+   "type": "mc",
+   "q": "Which thesis is strongest?",
+   "options": [
+    "Trading psychology is important.",
+    "Trading psychology matters more than strategy.",
+    "For retail traders with a tested strategy, losses come more often from breaking rules than from the strategy itself, so journaling rule-breaks improves results faster than strategy changes.",
+    "Many traders struggle."
+   ],
+   "answer": 2,
+   "why": "Narrow (retail traders with a tested strategy), arguable, and it has a *so what* (journal rule-breaks). B is arguable but too broad to prove.",
+   "level": "challenge",
+   "hint": "Run each through all four tests: arguable, specific, supportable, so what."
+  },
+  {
+   "type": "mc",
+   "q": "A student's thesis: \"Social media is both good and bad.\" What's the core problem?",
+   "options": [
+    "Grammar",
+    "It refuses to take a position",
+    "It's too narrow",
+    "It has too many reasons"
+   ],
+   "answer": 1,
+   "why": "The **fence-sitter**: true of nearly everything, so it proves nothing.",
+   "level": "challenge",
+   "hint": "Could anyone disagree with it?"
+  },
+  {
+   "type": "mc",
+   "q": "You drafted an essay, and the conclusion makes a sharper point than your thesis. What should you do?",
+   "options": [
+    "Leave it; conclusions are supposed to be stronger",
+    "Move that sharper point up to become the thesis, then revise the body to prove it",
+    "Delete the conclusion",
+    "Add a second thesis"
+   ],
+   "answer": 1,
+   "why": "Writing is how you find out what you think. When the real argument shows up at the end, promote it, then rebuild the essay around it.",
+   "level": "challenge",
+   "hint": "Which sentence states what you're really arguing?"
+  },
+  {
+   "type": "mc",
+   "q": "Turn this into an **open** thesis: \"Truckers should get paid by the hour because detention time is unpaid, it would improve safety, and it would reduce turnover.\"",
+   "options": [
+    "Truckers should get paid by the hour.",
+    "Truckers and hours.",
+    "Should truckers get paid by the hour?",
+    "This essay is about paying truckers."
+   ],
+   "answer": 0,
+   "why": "An open thesis keeps the claim and drops the list of reasons.",
+   "level": "challenge",
+   "hint": "Keep the claim; cut the *because*."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Purdue OWL: Thesis Statement Tips",
+   "url": "https://owl.purdue.edu/owl/general_writing/the_writing_process/thesis_statement_tips.html"
+  },
+  {
+   "title": "UNC Writing Center: Thesis Statements",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/thesis-statements/"
+  }
+ ]
+}

@@ -684,22 +684,26 @@
      {
       "id": "writing-a-thesis",
       "title": "Writing a thesis",
-      "ready": false
+      "ready": true,
+      "desc": "One sentence that takes a position, tells the reader what's coming, and gives the whole essay a spine. Most weak essays are weak right here."
      },
      {
       "id": "outlining",
       "title": "Outlining",
-      "ready": false
+      "ready": true,
+      "desc": "An outline is where the thinking happens. Five minutes of structure saves an hour of rewriting, and the right shape makes your argument hit harder."
      },
      {
       "id": "introductions-and-conclusions",
       "title": "Introductions and conclusions",
-      "ready": false
+      "ready": true,
+      "desc": "The first lines decide whether anyone keeps reading. The last lines decide what they remember. How to open with a hook and close with a punch."
      },
      {
       "id": "revising-like-an-editor",
       "title": "Revising like an editor",
-      "ready": false
+      "ready": true,
+      "desc": "Good writing is rewritten writing. The order professional editors work in, the cuts they always make, and the tricks for seeing your own mistakes."
      }
     ]
    },

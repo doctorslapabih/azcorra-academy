@@ -1,0 +1,222 @@
+{
+ "id": "outlining",
+ "title": "Outlining",
+ "band": "Grades 9–10",
+ "minutes": 26,
+ "lede": "An outline is where the thinking happens. Five minutes of structure saves an hour of rewriting, and the right shape makes your argument hit harder.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Why outline\nWriting a good essay means solving two problems at once: **what to say** and **how to say it**. An outline splits them. You decide the **order of ideas** first, when it's cheap to move things around, and then you only worry about sentences.\n\nThe best outlines are short: a thesis and one line per paragraph. If you can't write the one-line version, you're not ready to write the paragraph."
+  },
+  {
+   "type": "text",
+   "md": "## The basic skeleton\n**I. Introduction**: hook, context, **thesis**\n**II. Body paragraph 1**: topic sentence (reason 1) → evidence → explanation\n**III. Body paragraph 2**: topic sentence (reason 2) → evidence → explanation\n**IV. Body paragraph 3**: topic sentence (reason 3) → evidence → explanation\n**V. Conclusion**: thesis in new words → why it matters\n\nThis is the **five-paragraph essay**. It's a training scaffold, like a heavy bag: great for drilling structure, but real essays bend it. Use as many body paragraphs as your argument needs, one idea each."
+  },
+  {
+   "type": "text",
+   "md": "## Order matters: pick a structure\n| Structure | Use it when | Shape |\n|---|---|---|\n| **Strongest last** (climactic) | arguing; you want to end with your best punch | good → better → best |\n| **Chronological** | telling what happened, or a process | first → next → finally |\n| **Problem → solution** | proposing a change | what's wrong → why → fix → why the fix works |\n| **Compare (point by point)** | comparing two things in detail | cost: A vs B → speed: A vs B → risk: A vs B |\n| **Compare (block)** | comparing two things simply | all of A → all of B |\n| **Claim → counterclaim → rebuttal** | persuading skeptics | my point → their best objection → why I'm still right |\n\nFor arguments, **strongest last** is standard; some writers put the second-best point first and the best last, so the essay opens and closes strong."
+  },
+  {
+   "type": "check",
+   "q": "You're comparing two trucks on price, fuel economy and reliability, in detail. Which structure keeps the comparison sharpest?",
+   "options": [
+    "Block: all of truck A, then all of truck B",
+    "Point by point: price (A vs B), fuel (A vs B), reliability (A vs B)",
+    "Chronological",
+    "Problem → solution"
+   ],
+   "answer": 1,
+   "why": "Point by point puts each matchup side by side, so readers never have to flip back to remember truck A."
+  },
+  {
+   "type": "text",
+   "md": "## One idea per paragraph\nEach body paragraph proves **one** reason, stated in its **topic sentence**. Under it, every sentence should either give evidence for that reason or explain how the evidence proves it.\n\nTest your outline: read only the topic sentences in order. They should form a mini-version of the whole essay. If one doesn't connect to the thesis, cut it or rewrite the thesis."
+  },
+  {
+   "type": "example",
+   "title": "Outline from a thesis",
+   "problem": "**Thesis:** *Every new trader should journal rule-breaks, because it exposes patterns, separates bad luck from bad behavior, and builds the discipline that strategy can't.*",
+   "steps": [
+    "**Body 1, exposes patterns**: a journal shows that most losses cluster after big wins or at certain times. Evidence: example log.",
+    "**Body 2, luck vs behavior**: a losing trade that followed every rule is fine; a winning trade that broke rules is a warning. Evidence: two contrasting trades.",
+    "**Body 3, discipline (strongest)**: counting rule-breaks gives a number to improve, independent of P&L. Evidence: rule-break count falling over 8 weeks.",
+    "**Conclusion**: P&L is noisy; rule-breaks are in your control. Track what you control."
+   ],
+   "answer": "Four lines of planning. The essay now writes itself paragraph by paragraph."
+  },
+  {
+   "type": "text",
+   "md": "## The reverse outline\nAfter you draft, outline **backward**: write one line summarizing each paragraph *as written*. Then check:\n- Does each paragraph have **one** main point?\n- Do the points follow the thesis, in a logical order?\n- Is anything repeated, missing or off-topic?\n\nThis is the fastest way to find structural problems in your own writing, which is otherwise very hard because you know what you *meant*."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Outlining sentences instead of ideas.** Keep it to short phrases.\n- **Two ideas in one paragraph.** If the topic sentence needs an *and*, consider splitting it.\n- **Saving the thesis for the end.** In argument and school writing, readers want the destination up front.\n- **Treating the outline as a contract.** If drafting reveals a better order, change the outline."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "The main job of an outline is to…",
+   "options": [
+    "make the essay longer",
+    "decide the order of ideas before writing sentences",
+    "list sources",
+    "replace the introduction"
+   ],
+   "answer": 1,
+   "why": "Structure first, sentences second."
+  },
+  {
+   "type": "mc",
+   "q": "In a classic body paragraph, what comes first?",
+   "options": [
+    "Evidence",
+    "Topic sentence",
+    "Conclusion",
+    "Quotation"
+   ],
+   "answer": 1,
+   "why": "The topic sentence states the paragraph's one idea."
+  },
+  {
+   "type": "mc",
+   "q": "For an argument, a common order for reasons is…",
+   "options": [
+    "weakest last",
+    "strongest last",
+    "random",
+    "alphabetical"
+   ],
+   "answer": 1,
+   "why": "End on your best point."
+  },
+  {
+   "type": "mc",
+   "q": "A how-to essay on setting up a trading chart should use…",
+   "options": [
+    "chronological order",
+    "block comparison",
+    "claim → counterclaim",
+    "strongest last"
+   ],
+   "answer": 0,
+   "why": "A process goes step by step."
+  },
+  {
+   "type": "mc",
+   "q": "A **reverse outline** is made…",
+   "options": [
+    "before writing",
+    "after drafting, from what the paragraphs actually say",
+    "by your teacher",
+    "only for the conclusion"
+   ],
+   "answer": 1,
+   "why": "It shows you what you actually wrote."
+  },
+  {
+   "type": "mc",
+   "q": "Your topic sentence reads: \"Cardio matters, and also nutrition is key.\" What's wrong?",
+   "options": [
+    "Too short",
+    "Two ideas in one paragraph",
+    "No evidence",
+    "Nothing"
+   ],
+   "answer": 1,
+   "why": "One paragraph, one idea. Split it."
+  },
+  {
+   "type": "mc",
+   "q": "Proposing that your city add truck parking: which structure fits best?",
+   "options": [
+    "Problem → solution",
+    "Chronological",
+    "Block comparison",
+    "Alphabetical"
+   ],
+   "answer": 0,
+   "why": "Show the problem, then argue for the fix."
+  },
+  {
+   "type": "mc",
+   "q": "Reading only your topic sentences in order should give you…",
+   "options": [
+    "the conclusion",
+    "a short version of the whole argument",
+    "the sources",
+    "the hook"
+   ],
+   "answer": 1,
+   "why": "If they don't, the structure needs work."
+  },
+  {
+   "type": "mc",
+   "q": "You're writing to persuade skeptical readers that same-day weigh-ins are better. Which structure handles skeptics best?",
+   "options": [
+    "Chronological",
+    "Claim → counterclaim → rebuttal",
+    "Block comparison",
+    "No outline"
+   ],
+   "answer": 1,
+   "why": "Raising their strongest objection and answering it shows you've thought it through. Skeptics trust writers who face the other side.",
+   "level": "challenge",
+   "hint": "Skeptics already have objections. What do you do with them?"
+  },
+  {
+   "type": "mc",
+   "q": "Your thesis has three reasons, but your reverse outline shows five body paragraphs, two of which are about a fourth idea. Best fix?",
+   "options": [
+    "Leave it",
+    "Either cut the two paragraphs or revise the thesis to include the fourth idea",
+    "Move them to the conclusion",
+    "Merge everything into one paragraph"
+   ],
+   "answer": 1,
+   "why": "The thesis and body must match. Either the extra idea is off-topic (cut it) or it's important (add it to the thesis).",
+   "level": "challenge",
+   "hint": "What's the rule about paragraphs that don't support the thesis?"
+  },
+  {
+   "type": "mc",
+   "q": "Reasons ranked by strength: B (strongest), C (weakest), A (middle). Using \"open and close strong,\" which order?",
+   "options": [
+    "C, A, B",
+    "A, C, B",
+    "B, A, C",
+    "C, B, A"
+   ],
+   "answer": 1,
+   "why": "Second-best first (A), weakest buried in the middle (C), best last (B).",
+   "level": "challenge",
+   "hint": "Put the weakest where it matters least."
+  },
+  {
+   "type": "mc",
+   "q": "Point-by-point comparison of two fight camps on coaching, sparring partners and cost has how many body sections?",
+   "options": [
+    "2",
+    "3",
+    "6",
+    "1"
+   ],
+   "answer": 1,
+   "why": "One section per point of comparison, each covering **both** camps: coaching, sparring, cost = **3**.",
+   "level": "challenge",
+   "hint": "Point by point organizes by the features, not by the camps."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Purdue OWL: Developing an Outline",
+   "url": "https://owl.purdue.edu/owl/general_writing/the_writing_process/developing_an_outline/index.html"
+  },
+  {
+   "title": "UNC Writing Center: Revising Drafts",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/revising-drafts/"
+  }
+ ]
+}

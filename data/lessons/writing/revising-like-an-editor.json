@@ -1,0 +1,221 @@
+{
+ "id": "revising-like-an-editor",
+ "title": "Revising like an editor",
+ "band": "Grades 9–10",
+ "minutes": 30,
+ "lede": "Good writing is rewritten writing. The order professional editors work in, the cuts they always make, and the tricks for seeing your own mistakes.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Revise, edit, proofread: three different jobs\n| Stage | Scale | Asks |\n|---|---|---|\n| **Revising** | the whole essay | Is the argument right? Is the structure right? Is anything missing or extra? |\n| **Editing** | paragraphs and sentences | Is each sentence clear, tight and strong? |\n| **Proofreading** | words and marks | Typos, spelling, punctuation, formatting. |\n\nWork **big to small**. Polishing a sentence you'll later delete is wasted effort. Most beginners only proofread and call it revising."
+  },
+  {
+   "type": "text",
+   "md": "## Pass 1: argument and structure\n- Does the thesis say what the essay actually argues? (Often the real thesis is hiding in your conclusion.)\n- Make a **reverse outline**: one line per paragraph. Is the order logical? Does every paragraph serve the thesis?\n- What would a smart skeptic say? Is that objection answered?\n- Cut whole paragraphs that don't earn their place. This is the hardest cut and the most valuable."
+  },
+  {
+   "type": "text",
+   "md": "## Pass 2: paragraphs\n- Does each paragraph open with a clear topic sentence?\n- Is there evidence, **and** explanation of how the evidence proves the point?\n- Are the transitions doing real work (*however*, *as a result*), or just decorating?"
+  },
+  {
+   "type": "text",
+   "md": "## Pass 3: sentences. The cuts editors always make\n| Cut | Before | After |\n|---|---|---|\n| **Filler intensifiers** | *very important, really big* | *crucial, huge* |\n| **There is / there are** | *There are many drivers who quit.* | *Many drivers quit.* |\n| **Noun-ified verbs** | *make a decision, conduct an analysis* | *decide, analyze* |\n| **Wordy phrases** | *in order to, due to the fact that, at this point in time* | *to, because, now* |\n| **Weak passive** | *Mistakes were made by the team.* | *The team made mistakes.* |\n| **Hedges** | *It could perhaps be argued that...* | state it |\n| **Throat-clearing** | *It is important to note that...* | just note it |\n\nAim to **cut 10%**. Almost every draft improves when it gets shorter."
+  },
+  {
+   "type": "check",
+   "q": "Best revision: \"Due to the fact that there were very many complaints, we made the decision to conduct a review.\"",
+   "options": [
+    "Due to the many complaints, we made a review decision.",
+    "Because of many complaints, we decided to review.",
+    "There were complaints, so a review was conducted by us.",
+    "Complaints were very many; reviewing was decided."
+   ],
+   "answer": 1,
+   "why": "*Due to the fact that* → **because**; *made the decision to conduct a review* → **decided to review**. 18 words → 8."
+  },
+  {
+   "type": "example",
+   "title": "A full-sentence edit",
+   "problem": "\"It is important to note that there are a lot of traders who are not following their rules, which is a really big problem that is causing them to lose money.\"",
+   "steps": [
+    "Cut throat-clearing: *It is important to note that*.",
+    "Cut *there are... who are*: → *a lot of traders are not following*.",
+    "Replace *a lot of* and *really big* with precise words.",
+    "Join the cause and effect directly."
+   ],
+   "answer": "*\"Many traders lose money by breaking their own rules.\"* 31 words → 9, and it hits harder."
+  },
+  {
+   "type": "text",
+   "md": "## Pass 4: proofreading tricks\nYour brain auto-corrects your own writing, because it knows what you meant. Break that habit:\n- **Read it aloud.** Your ear catches what your eye skips.\n- **Change the format**: different font, print it, or read it on your phone.\n- **Read backward**, sentence by sentence, to catch typos without getting pulled into the meaning.\n- **Search for your personal errors**: if you always write *loose* for *lose*, search for *loose*.\n- **Let it sit.** Even 20 minutes away helps; a night is better."
+  },
+  {
+   "type": "text",
+   "md": "## How the pros think about it\n- *\"The first draft of anything is garbage.\"* The point of a first draft is to exist. The point of revision is to be good.\n- Many professional writers spend **more time revising than drafting**.\n- **Kill your darlings**: the line you're proudest of is often the one that doesn't fit. If it doesn't serve the thesis, cut it, and save it in a separate file if that hurts less."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Only proofreading.** Fixing commas on a broken argument doesn't fix the argument.\n- **Revising while drafting.** Get the draft down first; editing every sentence as you go kills momentum.\n- **Trusting spell-check.** It won't catch *their/there*, *lose/loose* or a missing *not*."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is the correct order of work?",
+   "options": [
+    "Proofread → edit → revise",
+    "Revise → edit → proofread",
+    "Edit → revise → proofread",
+    "Proofread only"
+   ],
+   "answer": 1,
+   "why": "Big to small."
+  },
+  {
+   "type": "mc",
+   "q": "Checking whether every paragraph supports the thesis is…",
+   "options": [
+    "proofreading",
+    "editing",
+    "revising",
+    "formatting"
+   ],
+   "answer": 2,
+   "why": "Whole-essay structure = revising."
+  },
+  {
+   "type": "mc",
+   "q": "Best edit of \"There are three reasons that explain why...\"",
+   "options": [
+    "There are three reasons why...",
+    "Three reasons explain why...",
+    "Reasons are three that explain...",
+    "Three reasons there are..."
+   ],
+   "answer": 1,
+   "why": "Cut *There are... that*."
+  },
+  {
+   "type": "mc",
+   "q": "\"Make a decision\" → ?",
+   "options": [
+    "make decision",
+    "decide",
+    "decision-make",
+    "do a deciding"
+   ],
+   "answer": 1,
+   "why": "Turn the noun back into a verb."
+  },
+  {
+   "type": "mc",
+   "q": "\"In order to\" can almost always become…",
+   "options": [
+    "so",
+    "to",
+    "for",
+    "because"
+   ],
+   "answer": 1,
+   "why": "*In order to win* → *to win*."
+  },
+  {
+   "type": "mc",
+   "q": "Which proofreading trick works by breaking your brain's auto-correct?",
+   "options": [
+    "Reading backward, sentence by sentence",
+    "Reading faster",
+    "Using bigger words",
+    "Adding transitions"
+   ],
+   "answer": 0,
+   "why": "It stops you from reading for meaning."
+  },
+  {
+   "type": "mc",
+   "q": "\"Mistakes were made by the dispatcher.\" Best revision?",
+   "options": [
+    "Mistakes had been made by the dispatcher.",
+    "The dispatcher made mistakes.",
+    "Mistakes, by the dispatcher, were made.",
+    "There were mistakes made by the dispatcher."
+   ],
+   "answer": 1,
+   "why": "Active voice: the doer comes first."
+  },
+  {
+   "type": "mc",
+   "q": "Spell-check will catch…",
+   "options": [
+    "*their* used for *there*",
+    "*lose* used for *loose*",
+    "*recieve* for *receive*",
+    "a missing *not*"
+   ],
+   "answer": 2,
+   "why": "Only real misspellings. Wrong-but-real words slip through."
+  },
+  {
+   "type": "mc",
+   "q": "Best revision: \"It could perhaps be argued that the plan might possibly be somewhat risky.\"",
+   "options": [
+    "The plan is risky.",
+    "It could be argued the plan is risky.",
+    "Perhaps the plan might be risky.",
+    "The plan could possibly perhaps be risky."
+   ],
+   "answer": 0,
+   "why": "Four hedges stacked. If you believe it, say it. (If you're genuinely unsure, one hedge is honest: *The plan may be risky.*)",
+   "level": "challenge",
+   "hint": "Count the hedging words. How many does the claim need?"
+  },
+  {
+   "type": "num",
+   "q": "\"Due to the fact that we are at this point in time very short on drivers, we are in need of hiring more.\" Rewrite: \"Because we're short on drivers, we need to hire more.\" How many words did you cut? (Original has 23 words; revision has 10.)",
+   "answer": 13,
+   "why": "23 − 10 = **13 words cut**, more than half, with no meaning lost.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Subtract the revision's word count from the original's."
+  },
+  {
+   "type": "mc",
+   "q": "Your favorite paragraph is a great story, but it doesn't support the thesis. An editor would…",
+   "options": [
+    "keep it because it's the best writing",
+    "cut it (save it elsewhere if needed)",
+    "move it to the introduction",
+    "add it to the conclusion"
+   ],
+   "answer": 1,
+   "why": "**Kill your darlings.** Every paragraph must serve the argument.",
+   "level": "challenge",
+   "hint": "What's the rule about paragraphs that don't serve the thesis?"
+  },
+  {
+   "type": "mc",
+   "q": "You finished an essay at 1 AM and it's due at 9 AM. What's the best use of 20 minutes in the morning?",
+   "options": [
+    "Add more quotes",
+    "Read it aloud once, fixing what your ear catches",
+    "Rewrite the thesis from scratch",
+    "Change the font"
+   ],
+   "answer": 1,
+   "why": "Time away plus reading aloud is the highest-value proofreading pass you can do quickly.",
+   "level": "challenge",
+   "hint": "Which trick works best with fresh eyes?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "UNC Writing Center: Revising Drafts",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/revising-drafts/"
+  },
+  {
+   "title": "Purdue OWL: Proofreading for Errors",
+   "url": "https://owl.purdue.edu/owl/general_writing/the_writing_process/proofreading/proofreading_for_errors.html"
+  }
+ ]
+}

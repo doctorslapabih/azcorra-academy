@@ -1,0 +1,200 @@
+{
+ "id": "applications-of-integration",
+ "title": "Applications of integration",
+ "band": "AP Calculus AB",
+ "minutes": 42,
+ "lede": "Integrals as a tool: average value, distance vs displacement, area between curves, and the volumes of solids built from slices.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Average value of a function\nThe average of infinitely many values:\n\n**f_avg = (1 ÷ (b − a)) · ∫ₐᵇ f(x) dx**\n\nIt's the height of the rectangle with the same area as the region under f.\n\n*A truck's speed is v(t) = 60 + 10 sin(t) mph over 0 ≤ t ≤ 2π hours.* Average = (1/2π) ∫₀^(2π) (60 + 10 sin t) dt = (1/2π)(120π + 0) = **60 mph**. The sine part averages out to zero over a full cycle."
+  },
+  {
+   "type": "text",
+   "md": "## Displacement vs total distance\nFor velocity v(t):\n\n- **Displacement** = ∫ₐᵇ v(t) dt (net change in position; backward motion subtracts)\n- **Total distance** = ∫ₐᵇ |v(t)| dt (all motion counts)\n\nTo compute total distance: find where v = 0, split the integral there, and add the absolute values of the pieces.\n\n**Position from velocity:** s(t) = s(0) + ∫₀ᵗ v(u) du."
+  },
+  {
+   "type": "example",
+   "title": "Back and forth",
+   "problem": "v(t) = t − 2 (m/s) for 0 ≤ t ≤ 4.",
+   "steps": [
+    "Displacement: ∫₀⁴ (t − 2) dt = [t²/2 − 2t]₀⁴ = 8 − 8 = 0 m.",
+    "v = 0 at t = 2. ∫₀² (t − 2) dt = −2; ∫₂⁴ (t − 2) dt = 2.",
+    "Total distance: |−2| + |2| = 4 m."
+   ],
+   "answer": "**Displacement 0, distance 4 m.** It backed up 2 m, then came forward 2 m: ended where it started."
+  },
+  {
+   "type": "check",
+   "q": "If v(t) ≥ 0 the whole time, displacement and total distance are…",
+   "options": [
+    "always different",
+    "equal",
+    "both zero",
+    "opposites"
+   ],
+   "answer": 1,
+   "why": "No backward motion."
+  },
+  {
+   "type": "text",
+   "md": "## Area between curves\nIf f(x) ≥ g(x) on [a, b]:\n\n**Area = ∫ₐᵇ [f(x) − g(x)] dx** (top minus bottom)\n\nFind the intersection points for the limits. If the curves cross in between, split at the crossings.\n\n*Area between y = x and y = x² on [0, 1]* (x is on top there): ∫₀¹ (x − x²) dx = 1/2 − 1/3 = **1/6**.\n\nSometimes slicing **horizontally** (integrating in y: right minus left) is easier."
+  },
+  {
+   "type": "text",
+   "md": "## Volumes by slicing\n**Known cross-sections:** if a solid's cross-section at x has area A(x), then **V = ∫ₐᵇ A(x) dx**. (Stack infinitely thin slices.)\n\n**Disks (solids of revolution):** rotating y = f(x) around the x-axis makes circular slices of radius f(x):\n\n**V = π ∫ₐᵇ [f(x)]² dx**\n\n**Washers** (a hole in the middle): outer radius R(x), inner r(x):\n\n**V = π ∫ₐᵇ ([R(x)]² − [r(x)]²) dx**"
+  },
+  {
+   "type": "example",
+   "title": "A cone by integration",
+   "problem": "Rotate y = x/2 for 0 ≤ x ≤ 6 around the x-axis. Find the volume.",
+   "steps": [
+    "Radius at x is x/2. V = π ∫₀⁶ (x/2)² dx = π ∫₀⁶ x²/4 dx.",
+    "= π [x³/12]₀⁶ = π (216/12) = 18π."
+   ],
+   "answer": "**18π ≈ 56.5 cubic units.** Check with the cone formula (1/3)πr²h: r = 3, h = 6 → (1/3)π(9)(6) = 18π ✓."
+  },
+  {
+   "type": "check",
+   "q": "Volume from rotating y = √x on [0, 4] about the x-axis is π ∫₀⁴ ___ dx.",
+   "options": [
+    "√x",
+    "x",
+    "x²",
+    "2√x"
+   ],
+   "answer": 1,
+   "why": "(√x)² = x."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Top minus bottom**, not the reverse, and split where curves cross.\n- **Total distance needs absolute values.**\n- **Washers: R² − r², not (R − r)².**\n- **Average value divides by (b − a).**\n- **Square the radius** in disk and washer formulas."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Average value of f(x) = 2x on [0, 4]?",
+   "answer": 4,
+   "why": "(1/4)∫₀⁴ 2x dx = (1/4)(16).",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Area between y = x² and y = 0 on [0, 3]?",
+   "answer": 9,
+   "why": "∫₀³ x² dx = 9.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Displacement for v(t) = 4 on [0, 5]?",
+   "answer": 20,
+   "why": "4 × 5.",
+   "tol": 0.001,
+   "unit": "m"
+  },
+  {
+   "type": "num",
+   "q": "Area between y = 4 and y = x² from x = −2 to 2? (decimal, 2 places)",
+   "answer": 10.67,
+   "why": "∫(4 − x²) = [4x − x³/3] from −2 to 2 = 32/3.",
+   "tol": 0.01
+  },
+  {
+   "type": "mc",
+   "q": "Total distance traveled uses…",
+   "options": [
+    "∫ v dt",
+    "∫ |v| dt",
+    "∫ a dt",
+    "v(b) − v(a)"
+   ],
+   "answer": 1,
+   "why": "Absolute value."
+  },
+  {
+   "type": "mc",
+   "q": "Disk method volume about the x-axis:",
+   "options": [
+    "∫ f(x) dx",
+    "π ∫ [f(x)]² dx",
+    "2π ∫ f(x) dx",
+    "π ∫ f(x) dx"
+   ],
+   "answer": 1,
+   "why": "Circle area πr²."
+  },
+  {
+   "type": "num",
+   "q": "Volume of y = √x rotated about the x-axis on [0, 4], as a multiple of π (enter the coefficient)?",
+   "answer": 8,
+   "why": "π ∫₀⁴ x dx = π · 8.",
+   "tol": 0.001,
+   "unit": "π"
+  },
+  {
+   "type": "num",
+   "q": "s(0) = 3 and v(t) = 2t. Position at t = 3?",
+   "answer": 12,
+   "why": "3 + ∫₀³ 2t dt = 3 + 9.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "v(t) = t² − 4t + 3 on [0, 3]. Total distance traveled? (decimal, 2 places)",
+   "answer": 2.67,
+   "why": "v = (t − 1)(t − 3): positive on (0, 1), negative on (1, 3). ∫₀¹ v = 4/3; ∫₁³ v = −4/3. Total = 4/3 + 4/3 = **8/3 ≈ 2.67**. (Displacement = 0.)",
+   "tol": 0.01,
+   "level": "challenge",
+   "hint": "Find where v = 0 and split."
+  },
+  {
+   "type": "num",
+   "q": "Area enclosed by y = x and y = x³ for x ≥ 0? (decimal)",
+   "answer": 0.25,
+   "why": "They meet at 0 and 1; x is on top. ∫₀¹ (x − x³) dx = 1/2 − 1/4 = **0.25**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Find the intersections first."
+  },
+  {
+   "type": "num",
+   "q": "Washer: region between y = x and y = x² on [0, 1] rotated about the x-axis. Volume as a multiple of π? (decimal, 4 places)",
+   "answer": 0.1333,
+   "why": "R = x, r = x². π ∫₀¹ (x² − x⁴) dx = π(1/3 − 1/5) = **2π/15 ≈ 0.1333π**.",
+   "tol": 0.0005,
+   "unit": "π",
+   "level": "challenge",
+   "hint": "R² − r², with x on the outside."
+  },
+  {
+   "type": "num",
+   "q": "A solid has a square cross-section at each x on [0, 2] with side length x². Volume? (decimal, 2 places)",
+   "answer": 6.4,
+   "why": "A(x) = (x²)² = x⁴. ∫₀² x⁴ dx = 32/5 = **6.4**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Integrate the cross-section area."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Calculus Volume 1",
+   "url": "https://openstax.org/details/books/calculus-volume-1"
+  },
+  {
+   "title": "OpenStax, Calculus Volume 1, 6.1 Areas between Curves",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/6-1-areas-between-curves"
+  },
+  {
+   "title": "OpenStax, Calculus Volume 1, 6.2 Determining Volumes by Slicing",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/6-2-determining-volumes-by-slicing"
+  },
+  {
+   "title": "College Board: AP Calculus AB course",
+   "url": "https://apstudents.collegeboard.org/courses/ap-calculus-ab"
+  }
+ ]
+}

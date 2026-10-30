@@ -329,42 +329,50 @@
      {
       "id": "limits-and-continuity",
       "title": "Limits and continuity",
-      "ready": false
+      "ready": true,
+      "desc": "The AP-level toolkit for limits: limit laws, the squeeze theorem, infinite limits, and the Intermediate Value Theorem, which guarantees a solution exists before you ever find it."
      },
      {
       "id": "derivatives-definition-and-basic-rules",
       "title": "Derivatives: definition and basic rules",
-      "ready": false
+      "ready": true,
+      "desc": "The derivative is the instantaneous rate of change: the slope of a curve at a single point. Define it with a limit, then learn the rules that make it fast."
      },
      {
       "id": "chain-rule-implicit-and-inverse-functions",
       "title": "Chain rule, implicit and inverse functions",
-      "ready": false
+      "ready": true,
+      "desc": "Derivatives of functions inside functions, of curves that aren't solved for y, and of inverse functions. The chain rule is the most-used rule in all of calculus."
      },
      {
       "id": "rates-of-change-in-context",
       "title": "Rates of change in context",
-      "ready": false
+      "ready": true,
+      "desc": "Derivatives in the real world: motion, related rates (how one changing quantity drives another), linear approximation, and L'Hôpital's rule for stubborn limits."
      },
      {
       "id": "analyzing-functions-with-derivatives",
       "title": "Analyzing functions with derivatives",
-      "ready": false
+      "ready": true,
+      "desc": "What f′ and f″ reveal about the shape of a graph: where it rises and falls, where it peaks, how it bends. Then optimization, the most practical calculus there is."
      },
      {
       "id": "integration-and-accumulation-of-change",
       "title": "Integration and accumulation of change",
-      "ready": false
+      "ready": true,
+      "desc": "Derivatives break change into rates; integrals add rates back up into totals. Riemann sums, the definite integral, antiderivatives, and the Fundamental Theorem of Calculus that ties it all together."
      },
      {
       "id": "differential-equations",
       "title": "Differential equations",
-      "ready": false
+      "ready": true,
+      "desc": "Equations about rates: dy/dt depends on y itself. Slope fields, separation of variables, and the exponential models behind compound interest, population growth, cooling coffee and radioactive decay."
      },
      {
       "id": "applications-of-integration",
       "title": "Applications of integration",
-      "ready": false
+      "ready": true,
+      "desc": "Integrals as a tool: average value, distance vs displacement, area between curves, and the volumes of solids built from slices."
      }
     ]
    }

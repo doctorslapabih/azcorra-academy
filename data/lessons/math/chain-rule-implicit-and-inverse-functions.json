@@ -1,0 +1,218 @@
+{
+ "id": "chain-rule-implicit-and-inverse-functions",
+ "title": "Chain rule, implicit and inverse functions",
+ "band": "AP Calculus AB",
+ "minutes": 40,
+ "lede": "Derivatives of functions inside functions, of curves that aren't solved for y, and of inverse functions. The chain rule is the most-used rule in all of calculus.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The chain rule\nFor a **composite** function f(g(x)):\n\n**d/dx [f(g(x))] = f′(g(x)) · g′(x)**\n\n\"Derivative of the outside (leave the inside alone) times derivative of the inside.\"\n\nIn Leibniz form: if y = f(u) and u = g(x), then **dy/dx = (dy/du) · (du/dx)**. Rates multiply: if fuel cost changes $4 per gallon and gallons change 1/6.5 per mile, cost changes 4/6.5 dollars per mile."
+  },
+  {
+   "type": "example",
+   "title": "Three chain rule examples",
+   "problem": "Differentiate (3x + 1)⁵, sin(x²) and e^(2x).",
+   "steps": [
+    "(3x + 1)⁵: outside u⁵ → 5u⁴; inside 3x + 1 → 3. Result: **15(3x + 1)⁴**.",
+    "sin(x²): outside sin u → cos u; inside x² → 2x. Result: **2x cos(x²)**.",
+    "e^(2x): outside eᵘ → eᵘ; inside 2x → 2. Result: **2e^(2x)**."
+   ],
+   "answer": "Identify the outside and inside first. Forgetting the inside derivative is the most common calculus mistake."
+  },
+  {
+   "type": "check",
+   "q": "d/dx [ln(x² + 1)] = ?",
+   "options": [
+    "1/(x² + 1)",
+    "2x/(x² + 1)",
+    "2x ln(x² + 1)",
+    "1/(2x)"
+   ],
+   "answer": 1,
+   "why": "Outside ln u → 1/u; inside → 2x."
+  },
+  {
+   "type": "text",
+   "md": "## Implicit differentiation\nSome curves aren't (or can't easily be) written as y = f(x), like the circle **x² + y² = 25**. Differentiate both sides with respect to x, treating y as a function of x, so every y term gets a **dy/dx** from the chain rule:\n\n1. d/dx [x²] + d/dx [y²] = d/dx [25]\n2. 2x + 2y · dy/dx = 0\n3. **dy/dx = −x/y**\n\nAt (3, 4): slope −3/4. Check: the radius to (3, 4) has slope 4/3, and the tangent is perpendicular to it ✓."
+  },
+  {
+   "type": "text",
+   "md": "## Derivatives of inverse functions\nIf g is the inverse of f, then:\n\n**g′(a) = 1 ÷ f′(g(a))**\n\nThe slopes are **reciprocals** at matching points, because the inverse graph is the reflection over y = x.\n\n*f(x) = x³ + x, and g = f⁻¹. Find g′(2).* Since f(1) = 2, g(2) = 1. f′(x) = 3x² + 1 → f′(1) = 4. So **g′(2) = 1/4**.\n\n**Inverse trig derivatives** (from this rule):\n- (arcsin x)′ = 1/√(1 − x²)\n- (arctan x)′ = 1/(1 + x²)"
+  },
+  {
+   "type": "check",
+   "q": "If f(2) = 5 and f′(2) = 4, and g = f⁻¹, then g′(5) = ?",
+   "options": [
+    "4",
+    "1/4",
+    "1/5",
+    "2"
+   ],
+   "answer": 1,
+   "why": "g′(5) = 1/f′(g(5)) = 1/f′(2)."
+  },
+  {
+   "type": "text",
+   "md": "## Higher derivatives\nThe derivative of the derivative is the **second derivative**: f″(x) or d²y/dx².\n\n- If s(t) is position, s′(t) = **velocity**, s″(t) = **acceleration**.\n- f″ also tells you **concavity** (next lessons).\n\n*s(t) = t³ − 6t²:* v(t) = 3t² − 12t, a(t) = 6t − 12."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Forgetting the inner derivative.** d/dx [sin(3x)] = 3 cos(3x), not cos(3x).\n- **Implicit: every y term gets dy/dx**, including inside products (product rule!).\n- **Inverse derivative: evaluate f′ at g(a)**, not at a.\n- **(sin x)² vs sin(x²):** different composites, different derivatives."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "d/dx [(2x − 5)³] = ?",
+   "options": [
+    "3(2x − 5)²",
+    "6(2x − 5)²",
+    "(2x − 5)²",
+    "6x²"
+   ],
+   "answer": 1,
+   "why": "3u² · 2."
+  },
+  {
+   "type": "mc",
+   "q": "d/dx [cos(5x)] = ?",
+   "options": [
+    "−sin(5x)",
+    "−5 sin(5x)",
+    "5 sin(5x)",
+    "sin(5x)"
+   ],
+   "answer": 1,
+   "why": "Inside derivative 5."
+  },
+  {
+   "type": "mc",
+   "q": "d/dx [e^(x²)] = ?",
+   "options": [
+    "e^(x²)",
+    "2x e^(x²)",
+    "x² e^(x²−1)",
+    "2e^x"
+   ],
+   "answer": 1,
+   "why": "Inside derivative 2x."
+  },
+  {
+   "type": "mc",
+   "q": "d/dx [√(x² + 9)] = ?",
+   "options": [
+    "1/(2√(x² + 9))",
+    "x/√(x² + 9)",
+    "2x√(x² + 9)",
+    "x²/√(x² + 9)"
+   ],
+   "answer": 1,
+   "why": "½u^(−½) · 2x."
+  },
+  {
+   "type": "mc",
+   "q": "For x² + y² = 100, dy/dx = ?",
+   "options": [
+    "−x/y",
+    "x/y",
+    "−y/x",
+    "2x"
+   ],
+   "answer": 0,
+   "why": "Implicit."
+  },
+  {
+   "type": "num",
+   "q": "Slope of x² + y² = 25 at (4, 3)? (decimal)",
+   "answer": -1.3333,
+   "why": "−4/3.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "(arctan x)′ = ?",
+   "options": [
+    "1/(1 + x²)",
+    "1/√(1 − x²)",
+    "sec²x",
+    "−1/(1 + x²)"
+   ],
+   "answer": 0,
+   "why": "Standard result."
+  },
+  {
+   "type": "num",
+   "q": "s(t) = t³ − 6t². Acceleration at t = 3?",
+   "answer": 6,
+   "why": "a = 6t − 12 → 6.",
+   "tol": 0.001,
+   "unit": "units/s²"
+  },
+  {
+   "type": "mc",
+   "q": "For xy + y² = 7, dy/dx = ?",
+   "options": [
+    "−y/(x + 2y)",
+    "−x/(2y)",
+    "y/(x + 2y)",
+    "−1/(2y)"
+   ],
+   "answer": 0,
+   "why": "Product rule on xy: y + x·y′; plus 2y·y′ = 0 → y′(x + 2y) = −y → **y′ = −y/(x + 2y)**.",
+   "level": "challenge",
+   "hint": "xy needs the product rule."
+  },
+  {
+   "type": "num",
+   "q": "f(x) = x³ + 2x + 1, g = f⁻¹. Find g′(4). (decimal)",
+   "answer": 0.2,
+   "why": "f(1) = 4 → g(4) = 1. f′(x) = 3x² + 2 → f′(1) = 5. g′(4) = **1/5 = 0.2**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "First find which x gives f(x) = 4."
+  },
+  {
+   "type": "mc",
+   "q": "d/dx [sin²(3x)] = ?",
+   "options": [
+    "2 sin(3x)",
+    "6 sin(3x) cos(3x)",
+    "2 cos(3x)",
+    "3 sin(6x) · 2"
+   ],
+   "answer": 1,
+   "why": "Three layers: square → sin → 3x. 2 sin(3x) · cos(3x) · 3 = **6 sin(3x) cos(3x)** (= 3 sin(6x)).",
+   "level": "challenge",
+   "hint": "Peel the layers one at a time."
+  },
+  {
+   "type": "num",
+   "q": "h(x) = f(g(x)), with g(2) = 5, g′(2) = 3, f′(5) = −4. Find h′(2).",
+   "answer": -12,
+   "why": "h′(2) = f′(g(2)) · g′(2) = f′(5) · 3 = **−12**. Table-based chain rule is an AP favorite.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Evaluate f′ at g(2), not at 2."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Calculus Volume 1",
+   "url": "https://openstax.org/details/books/calculus-volume-1"
+  },
+  {
+   "title": "OpenStax, Calculus Volume 1, 3.6 The Chain Rule",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/3-6-the-chain-rule"
+  },
+  {
+   "title": "OpenStax, Calculus Volume 1, 3.8 Implicit Differentiation",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/3-8-implicit-differentiation"
+  },
+  {
+   "title": "College Board: AP Calculus AB course",
+   "url": "https://apstudents.collegeboard.org/courses/ap-calculus-ab"
+  }
+ ]
+}

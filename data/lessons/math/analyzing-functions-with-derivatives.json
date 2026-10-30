@@ -1,0 +1,207 @@
+{
+ "id": "analyzing-functions-with-derivatives",
+ "title": "Analyzing functions with derivatives",
+ "band": "AP Calculus AB",
+ "minutes": 42,
+ "lede": "What f′ and f″ reveal about the shape of a graph: where it rises and falls, where it peaks, how it bends. Then optimization, the most practical calculus there is.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The Mean Value Theorem\nIf f is **continuous on [a, b]** and **differentiable on (a, b)**, then at some c in between:\n\n**f′(c) = [f(b) − f(a)] ÷ (b − a)**\n\nAt some instant, the instantaneous rate equals the average rate.\n\n*Real use:* some toll roads time cars between two points. If you cover 30 miles in 24 minutes (average 75 mph), MVT guarantees that at some moment your speedometer read exactly 75 mph."
+  },
+  {
+   "type": "text",
+   "md": "## Increasing, decreasing, critical points\n- **f′ > 0** on an interval → f is **increasing** there.\n- **f′ < 0** → f is **decreasing**.\n- **Critical points**: where f′ = 0 or f′ doesn't exist (in the domain). These are the **only** candidates for local max/min.\n\n**First derivative test:** at a critical point c,\n- f′ changes **+ to −** → **local max**\n- f′ changes **− to +** → **local min**\n- no sign change → neither"
+  },
+  {
+   "type": "example",
+   "title": "Find and classify",
+   "problem": "f(x) = x³ − 3x² − 9x + 5",
+   "steps": [
+    "f′(x) = 3x² − 6x − 9 = 3(x − 3)(x + 1). Critical points: x = −1, 3.",
+    "Sign chart: x < −1: f′ > 0 · −1 < x < 3: f′ < 0 · x > 3: f′ > 0.",
+    "At −1: + to − → local max, f(−1) = 10. At 3: − to + → local min, f(3) = −22."
+   ],
+   "answer": "**Local max (−1, 10), local min (3, −22).** Increasing on (−∞, −1) and (3, ∞), decreasing on (−1, 3)."
+  },
+  {
+   "type": "text",
+   "md": "## Concavity and the second derivative\n- **f″ > 0** → **concave up** (holds water ∪; slopes increasing)\n- **f″ < 0** → **concave down** (spills ∩; slopes decreasing)\n- **Inflection point**: where concavity **changes** (f″ changes sign)\n\n**Second derivative test:** at c with f′(c) = 0,\n- f″(c) > 0 → local **min** (bottom of a ∪)\n- f″(c) < 0 → local **max**\n- f″(c) = 0 → test is inconclusive; use the first derivative test\n\nFor the example above: f″(x) = 6x − 6 → inflection at **x = 1**. f″(−1) = −12 < 0 confirms the max; f″(3) = 12 > 0 confirms the min."
+  },
+  {
+   "type": "check",
+   "q": "f′(4) = 0 and f″(4) = −3. At x = 4, f has a…",
+   "options": [
+    "local min",
+    "local max",
+    "inflection point",
+    "can't tell"
+   ],
+   "answer": 1,
+   "why": "Concave down at a flat point: the top of a hill."
+  },
+  {
+   "type": "text",
+   "md": "## Absolute extrema on a closed interval\nThe **Extreme Value Theorem**: a continuous function on a **closed** interval [a, b] has an absolute max and min. To find them (**candidates test**):\n\n1. Find critical points inside (a, b).\n2. Evaluate f at those points **and at the endpoints**.\n3. Biggest value = absolute max; smallest = absolute min."
+  },
+  {
+   "type": "text",
+   "md": "## Optimization\n1. **Draw** and define variables.\n2. Write the quantity to **maximize/minimize** as a function.\n3. Use a **constraint** to reduce it to one variable.\n4. Find critical points; check endpoints of the realistic domain.\n5. **Answer the question asked**, with units."
+  },
+  {
+   "type": "example",
+   "title": "Best fenced yard against a building",
+   "problem": "You have 400 ft of fence to enclose a rectangular yard against a warehouse wall (no fence needed on that side). Maximize the area.",
+   "steps": [
+    "Let x = each side perpendicular to the wall, y = side parallel. Constraint: 2x + y = 400 → y = 400 − 2x.",
+    "Area A(x) = x(400 − 2x) = 400x − 2x², for 0 ≤ x ≤ 200.",
+    "A′(x) = 400 − 4x = 0 → x = 100. A″ = −4 < 0 → max.",
+    "y = 200. A = 100 × 200 = 20,000 ft²."
+   ],
+   "answer": "**100 ft by 200 ft, 20,000 ft².** The side parallel to the wall is twice the others."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **f′(c) = 0 doesn't guarantee an extremum** (x³ at 0).\n- **Inflection needs a sign change** in f″, not just f″ = 0 (x⁴ at 0).\n- **Check endpoints** for absolute extrema.\n- **Justify** in AP answers: \"f′ changes from positive to negative at x = c, so f has a local max.\""
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "If f′ > 0 on (2, 5), f is ___ there.",
+   "options": [
+    "decreasing",
+    "increasing",
+    "concave up",
+    "constant"
+   ],
+   "answer": 1,
+   "why": "Positive slope."
+  },
+  {
+   "type": "mc",
+   "q": "f′ changes from − to + at x = 3. f has a…",
+   "options": [
+    "local max",
+    "local min",
+    "inflection point",
+    "nothing"
+   ],
+   "answer": 1,
+   "why": "First derivative test."
+  },
+  {
+   "type": "mc",
+   "q": "f″ < 0 means f is…",
+   "options": [
+    "concave up",
+    "concave down",
+    "increasing",
+    "decreasing"
+   ],
+   "answer": 1,
+   "why": "Slopes decreasing."
+  },
+  {
+   "type": "num",
+   "q": "Critical point of f(x) = x² − 8x + 3?",
+   "answer": 4,
+   "why": "f′ = 2x − 8 = 0.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Inflection point x-value of f(x) = x³ − 6x²?",
+   "answer": 2,
+   "why": "f″ = 6x − 12 = 0, sign changes.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Absolute max of f(x) = x² on [−1, 3]?",
+   "answer": 9,
+   "why": "Endpoint 3 → 9.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "MVT requires f to be…",
+   "options": [
+    "increasing",
+    "continuous on [a, b] and differentiable on (a, b)",
+    "a polynomial",
+    "positive"
+   ],
+   "answer": 1,
+   "why": "Both conditions."
+  },
+  {
+   "type": "num",
+   "q": "f(x) = x² on [1, 5]. MVT value c where f′(c) equals the average rate?",
+   "answer": 3,
+   "why": "Average = (25 − 1)/4 = 6 = 2c → c = 3.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Maximize the product of two positive numbers that add to 30. What's the max product?",
+   "answer": 225,
+   "why": "P = x(30 − x); P′ = 30 − 2x = 0 → x = 15 → **225**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Write the product in one variable."
+  },
+  {
+   "type": "num",
+   "q": "An open box is made from a 12 × 12 in sheet by cutting x × x squares from the corners. Which x maximizes the volume?",
+   "answer": 2,
+   "why": "V = x(12 − 2x)². V′ = (12 − 2x)(12 − 6x) = 0 → x = 6 (volume 0) or **x = 2** (V = 128 in³).",
+   "tol": 0.001,
+   "unit": "in",
+   "level": "challenge",
+   "hint": "V = x(12 − 2x)², domain 0 < x < 6."
+  },
+  {
+   "type": "num",
+   "q": "Absolute min of f(x) = x³ − 3x on [0, 3]?",
+   "answer": -2,
+   "why": "f′ = 3x² − 3 = 0 → x = 1 (in interval). f(0) = 0, f(1) = −2, f(3) = 18. Min **−2**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Candidates: critical points and endpoints."
+  },
+  {
+   "type": "mc",
+   "q": "For f(x) = x⁴, x = 0 is…",
+   "options": [
+    "an inflection point because f″(0) = 0",
+    "a local min, not an inflection point (f″ doesn't change sign)",
+    "a local max",
+    "not a critical point"
+   ],
+   "answer": 1,
+   "why": "f″ = 12x² ≥ 0 on both sides: concave up throughout. f′ goes − to +: a min.",
+   "level": "challenge",
+   "hint": "Check whether f″ actually changes sign."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Calculus Volume 1",
+   "url": "https://openstax.org/details/books/calculus-volume-1"
+  },
+  {
+   "title": "OpenStax, Calculus Volume 1, 4.4 The Mean Value Theorem",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/4-4-the-mean-value-theorem"
+  },
+  {
+   "title": "OpenStax, Calculus Volume 1, 4.7 Applied Optimization Problems",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/4-7-applied-optimization-problems"
+  },
+  {
+   "title": "College Board: AP Calculus AB course",
+   "url": "https://apstudents.collegeboard.org/courses/ap-calculus-ab"
+  }
+ ]
+}

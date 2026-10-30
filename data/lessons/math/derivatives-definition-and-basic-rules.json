@@ -1,0 +1,217 @@
+{
+ "id": "derivatives-definition-and-basic-rules",
+ "title": "Derivatives: definition and basic rules",
+ "band": "AP Calculus AB",
+ "minutes": 42,
+ "lede": "The derivative is the instantaneous rate of change: the slope of a curve at a single point. Define it with a limit, then learn the rules that make it fast.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## From average to instantaneous\nThe **average** rate of change of f from x to x + h is the slope of the secant line:\n\n[f(x + h) − f(x)] ÷ h\n\nShrink h to 0 and the secant line becomes the **tangent line**. Its slope is the **derivative**:\n\n**f′(x) = lim (h→0) [f(x + h) − f(x)] ÷ h**\n\nOther notation: dy/dx, d/dx [f(x)], y′. In context, the derivative is a **rate** with units: (output units) per (input unit)."
+  },
+  {
+   "type": "example",
+   "title": "Derivative from the definition",
+   "problem": "Find f′(x) for f(x) = x².",
+   "steps": [
+    "[f(x + h) − f(x)] ÷ h = [(x + h)² − x²] ÷ h",
+    "= [x² + 2xh + h² − x²] ÷ h = (2xh + h²) ÷ h = 2x + h",
+    "Let h → 0: f′(x) = 2x."
+   ],
+   "answer": "**f′(x) = 2x.** At x = 3 the slope of the parabola is 6, matching the limit you computed in precalculus."
+  },
+  {
+   "type": "text",
+   "md": "## The basic rules\n| Rule | Formula |\n|---|---|\n| constant | d/dx [c] = 0 |\n| **power** | d/dx [xⁿ] = n·xⁿ⁻¹ |\n| constant multiple | d/dx [c·f] = c·f′ |\n| sum/difference | (f ± g)′ = f′ ± g′ |\n| sine / cosine | (sin x)′ = cos x; (cos x)′ = −sin x |\n| exponential | (eˣ)′ = eˣ; (aˣ)′ = aˣ ln a |\n| log | (ln x)′ = 1/x |\n\nThe power rule works for any real n: (√x)′ = (x^½)′ = ½x^(−½) = 1/(2√x); (1/x)′ = (x⁻¹)′ = −x⁻²."
+  },
+  {
+   "type": "check",
+   "q": "d/dx [4x³ − 5x + 2] = ?",
+   "options": [
+    "12x² − 5",
+    "4x² − 5",
+    "12x³ − 5x",
+    "12x² − 5 + 2"
+   ],
+   "answer": 0,
+   "why": "Power rule term by term; the constant's derivative is 0."
+  },
+  {
+   "type": "text",
+   "md": "## Product and quotient rules\n**Product:** (f·g)′ = **f′g + fg′**\n\n**Quotient:** (f/g)′ = **(f′g − fg′) ÷ g²** (\"low d-high minus high d-low, over low squared\")\n\n*d/dx [x² sin x] = 2x sin x + x² cos x.*\n\n*d/dx [x / (x + 1)] = [(1)(x + 1) − x(1)] ÷ (x + 1)² = 1/(x + 1)².*\n\nThe derivative of tan x follows from the quotient rule: (sin x / cos x)′ = (cos²x + sin²x)/cos²x = **sec²x**."
+  },
+  {
+   "type": "text",
+   "md": "## The tangent line\nAt x = a, the tangent line passes through (a, f(a)) with slope f′(a):\n\n**y − f(a) = f′(a)(x − a)**\n\n*f(x) = x³ at x = 2:* f(2) = 8, f′(x) = 3x² → f′(2) = 12. Tangent: **y − 8 = 12(x − 2)**."
+  },
+  {
+   "type": "text",
+   "md": "## Differentiability\nIf f is **differentiable** at a, it's **continuous** there. The reverse fails: continuous functions can still have no derivative at:\n\n- a **corner** (|x| at 0: slope −1 on the left, +1 on the right)\n- a **cusp** (x^(2/3) at 0)\n- a **vertical tangent** (x^(1/3) at 0)\n- any **discontinuity**"
+  },
+  {
+   "type": "check",
+   "q": "f(x) = |x − 2| at x = 2 is…",
+   "options": [
+    "differentiable and continuous",
+    "continuous but not differentiable",
+    "differentiable but not continuous",
+    "neither"
+   ],
+   "answer": 1,
+   "why": "A corner."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Product rule isn't f′·g′.** (x·x)′ = 2x, not 1.\n- **Quotient rule order matters**: f′g − fg′, not the reverse.\n- **(cos x)′ = −sin x**: watch the sign.\n- **Rewrite roots and reciprocals as powers** before using the power rule."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "d/dx [x⁷] = ?",
+   "options": [
+    "7x⁶",
+    "x⁶",
+    "7x⁷",
+    "6x⁷"
+   ],
+   "answer": 0,
+   "why": "Power rule."
+  },
+  {
+   "type": "mc",
+   "q": "d/dx [√x] = ?",
+   "options": [
+    "½√x",
+    "1/(2√x)",
+    "2√x",
+    "√x/x²"
+   ],
+   "answer": 1,
+   "why": "x^½ → ½x^(−½)."
+  },
+  {
+   "type": "mc",
+   "q": "d/dx [3/x] = ?",
+   "options": [
+    "3/x²",
+    "−3/x²",
+    "3 ln x",
+    "−3/x"
+   ],
+   "answer": 1,
+   "why": "3x⁻¹ → −3x⁻²."
+  },
+  {
+   "type": "mc",
+   "q": "d/dx [sin x + eˣ] = ?",
+   "options": [
+    "cos x + eˣ",
+    "−cos x + eˣ",
+    "cos x + xeˣ⁻¹",
+    "sin x + eˣ"
+   ],
+   "answer": 0,
+   "why": "Each rule."
+  },
+  {
+   "type": "mc",
+   "q": "d/dx [x eˣ] = ?",
+   "options": [
+    "eˣ",
+    "eˣ + xeˣ",
+    "xeˣ",
+    "x + eˣ"
+   ],
+   "answer": 1,
+   "why": "Product rule."
+  },
+  {
+   "type": "num",
+   "q": "f(x) = 2x³ − x. Find f′(2).",
+   "answer": 23,
+   "why": "f′ = 6x² − 1 → 24 − 1.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "d/dx [ln x] = ?",
+   "options": [
+    "eˣ",
+    "1/x",
+    "x",
+    "ln x / x"
+   ],
+   "answer": 1,
+   "why": "Standard derivative."
+  },
+  {
+   "type": "mc",
+   "q": "Which is continuous at 0 but not differentiable there?",
+   "options": [
+    "x²",
+    "|x|",
+    "eˣ",
+    "sin x"
+   ],
+   "answer": 1,
+   "why": "Corner."
+  },
+  {
+   "type": "num",
+   "q": "Slope of the tangent to y = x² sin x at x = 0?",
+   "answer": 0,
+   "why": "y′ = 2x sin x + x² cos x → at 0: 0 + 0 = **0**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Product rule, then plug in."
+  },
+  {
+   "type": "mc",
+   "q": "d/dx [(x² + 1)/(x − 1)] = ?",
+   "options": [
+    "(x² − 2x − 1)/(x − 1)²",
+    "2x",
+    "(x² + 2x + 1)/(x − 1)²",
+    "(3x² − 2x + 1)/(x − 1)²"
+   ],
+   "answer": 0,
+   "why": "[(2x)(x − 1) − (x² + 1)(1)] ÷ (x − 1)² = (2x² − 2x − x² − 1)/(x − 1)² = **(x² − 2x − 1)/(x − 1)²**.",
+   "level": "challenge",
+   "hint": "Low d-high minus high d-low, over low squared."
+  },
+  {
+   "type": "num",
+   "q": "Tangent line to f(x) = x³ − 2x at x = 1: y = mx + b. What is b?",
+   "answer": -2,
+   "why": "f(1) = −1, f′(x) = 3x² − 2 → f′(1) = 1. y + 1 = 1(x − 1) → y = x − 2: **b = −2**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Point and slope, then solve for y."
+  },
+  {
+   "type": "num",
+   "q": "Use the limit definition idea: if f(x) = 5x², then f′(x) = 10x. What is lim (h→0) [5(4 + h)² − 80] ÷ h?",
+   "answer": 40,
+   "why": "That's the definition of f′(4) for f(x) = 5x²: 10 × 4 = **40**. Recognizing a derivative in disguise is a classic AP question.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "This limit is a derivative at a specific point."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Calculus Volume 1",
+   "url": "https://openstax.org/details/books/calculus-volume-1"
+  },
+  {
+   "title": "OpenStax, Calculus Volume 1, 3.3 Differentiation Rules",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules"
+  },
+  {
+   "title": "College Board: AP Calculus AB course",
+   "url": "https://apstudents.collegeboard.org/courses/ap-calculus-ab"
+  }
+ ]
+}

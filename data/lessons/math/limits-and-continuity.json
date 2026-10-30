@@ -1,0 +1,193 @@
+{
+ "id": "limits-and-continuity",
+ "title": "Limits and continuity",
+ "band": "AP Calculus AB",
+ "minutes": 40,
+ "lede": "The AP-level toolkit for limits: limit laws, the squeeze theorem, infinite limits, and the Intermediate Value Theorem, which guarantees a solution exists before you ever find it.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Where we left off\nFrom precalculus: **lim (x→a) f(x) = L** means f(x) approaches L as x approaches a (from both sides). You can estimate limits from tables and graphs, and compute them by direct substitution or, for 0/0, by simplifying.\n\nAP Calculus adds the rules that make limits systematic, plus a few key theorems."
+  },
+  {
+   "type": "text",
+   "md": "## Limit laws\nIf lim f(x) = L and lim g(x) = M (as x → a), then:\n\n| Law | Result |\n|---|---|\n| sum/difference | lim [f ± g] = L ± M |\n| constant multiple | lim [c·f] = c·L |\n| product | lim [f·g] = L·M |\n| quotient | lim [f/g] = L/M, **if M ≠ 0** |\n| power | lim [f]ⁿ = Lⁿ |\n\nThese are why direct substitution works for polynomials and rational functions wherever they're defined."
+  },
+  {
+   "type": "text",
+   "md": "## Techniques for 0/0\n1. **Factor and cancel**: lim (x→2) (x² − 4)/(x − 2) = lim (x + 2) = 4.\n2. **Rationalize** (multiply by the conjugate): lim (x→0) (√(x + 9) − 3)/x. Multiply top and bottom by (√(x + 9) + 3): the top becomes x, so the expression becomes 1/(√(x + 9) + 3) → **1/6**.\n3. **Simplify complex fractions** by multiplying by a common denominator.\n4. **Known special limits**: lim (x→0) sin x / x = **1** and lim (x→0) (1 − cos x)/x = **0**."
+  },
+  {
+   "type": "text",
+   "md": "## The squeeze theorem\nIf g(x) ≤ f(x) ≤ h(x) near a, and both g and h approach the same limit L, then f is **squeezed** to L too.\n\n*Example:* lim (x→0) x² sin(1/x). The sine wiggles wildly, but −1 ≤ sin(1/x) ≤ 1, so −x² ≤ x² sin(1/x) ≤ x². Both bounds → 0, so the limit is **0**.\n\nThis is how lim sin x / x = 1 is proven geometrically, using areas on the unit circle."
+  },
+  {
+   "type": "check",
+   "q": "lim (x→0) sin(5x)/x = ?",
+   "options": [
+    "1",
+    "5",
+    "1/5",
+    "0"
+   ],
+   "answer": 1,
+   "why": "Rewrite as 5 · sin(5x)/(5x) → 5 · 1 = 5."
+  },
+  {
+   "type": "text",
+   "md": "## Infinite limits and limits at infinity\n- **Vertical asymptote:** lim (x→a) f(x) = ±∞. *lim (x→0⁺) 1/x = +∞; lim (x→0⁻) 1/x = −∞.*\n- **Horizontal asymptote:** lim (x→±∞) f(x) = L. For rational functions, compare degrees (top < bottom → 0; equal → ratio of leading coefficients; top > bottom → no horizontal asymptote).\n- **Dominance at infinity:** exponentials beat polynomials, which beat logarithms. lim (x→∞) x¹⁰⁰ / eˣ = **0**."
+  },
+  {
+   "type": "text",
+   "md": "## Continuity, formally\nf is **continuous at a** if **lim (x→a) f(x) = f(a)** (which requires both to exist).\n\nA common AP question: find the constant that makes a piecewise function continuous.\n\n*f(x) = x² + 1 for x < 2, and kx for x ≥ 2.* The left side approaches 2² + 1 = 5; the right side at 2 is 2k. Continuity needs 2k = 5 → **k = 2.5**."
+  },
+  {
+   "type": "text",
+   "md": "## The Intermediate Value Theorem (IVT)\nIf f is **continuous on [a, b]** and N is any value between f(a) and f(b), then there's **at least one c** in (a, b) with **f(c) = N**.\n\nIn plain words: a continuous function can't skip values. If your truck was at mile 100 at 1 p.m. and mile 250 at 4 p.m., at some moment you passed mile 200.\n\n*Use:* f(x) = x³ + x − 1 is continuous, f(0) = −1 and f(1) = 1. Since 0 is between −1 and 1, there's a root in (0, 1). IVT proves it **exists**; it doesn't tell you where."
+  },
+  {
+   "type": "check",
+   "q": "IVT requires the function to be…",
+   "options": [
+    "differentiable",
+    "continuous on the closed interval",
+    "increasing",
+    "a polynomial"
+   ],
+   "answer": 1,
+   "why": "Continuity is the key hypothesis."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Quotient law needs a nonzero denominator limit.**\n- **sin x / x → 1 only with x in radians**, and only as x → 0.\n- **IVT gives existence, not location**, and needs continuity. Name the hypothesis in AP free-response answers.\n- **Limit exists ≠ continuous.** A hole has a limit but isn't continuous."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "lim (x→3) of (x² − 9)/(x − 3)?",
+   "answer": 6,
+   "why": "Factor: x + 3.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "lim (x→0) of sin(3x)/x?",
+   "answer": 3,
+   "why": "3 · sin(3x)/(3x).",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "lim (x→∞) of (5x² − x)/(2x² + 7)? (decimal)",
+   "answer": 2.5,
+   "why": "Leading coefficients 5/2.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "lim (x→∞) of (3x + 1)/(x² + 4)?",
+   "answer": 0,
+   "why": "Bottom degree bigger.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "lim (x→0⁻) 1/x = ?",
+   "options": [
+    "+∞",
+    "−∞",
+    "0",
+    "1"
+   ],
+   "answer": 1,
+   "why": "Small negative denominators."
+  },
+  {
+   "type": "num",
+   "q": "Find k so f(x) = {3x + 1 for x < 1; k for x = 1; x² + 3 for x > 1} is continuous at 1.",
+   "answer": 4,
+   "why": "Both sides → 4, so k = 4.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "f is continuous on [1, 4], f(1) = −2, f(4) = 6. IVT guarantees…",
+   "options": [
+    "f(c) = 0 for some c in (1, 4)",
+    "f(c) = 10 for some c",
+    "f is increasing",
+    "f has a maximum at 4"
+   ],
+   "answer": 0,
+   "why": "0 is between −2 and 6."
+  },
+  {
+   "type": "num",
+   "q": "lim (x→0) of x² sin(1/x)?",
+   "answer": 0,
+   "why": "Squeeze between −x² and x².",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "lim (x→0) of (√(x + 9) − 3)/x? (Give a decimal to 4 places)",
+   "answer": 0.1667,
+   "why": "Multiply by the conjugate: x / [x(√(x + 9) + 3)] = 1/(√(x + 9) + 3) → **1/6 ≈ 0.1667**.",
+   "tol": 0.0005,
+   "level": "challenge",
+   "hint": "Multiply top and bottom by √(x + 9) + 3."
+  },
+  {
+   "type": "num",
+   "q": "Find k so f(x) = {kx² for x ≤ 3; 2x + k for x > 3} is continuous everywhere. (decimal)",
+   "answer": 0.75,
+   "why": "At x = 3: 9k = 6 + k → 8k = 6 → **k = 0.75**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Set the two pieces equal at x = 3."
+  },
+  {
+   "type": "num",
+   "q": "lim (x→0) of sin(4x)/sin(2x)?",
+   "answer": 2,
+   "why": "Write as [sin(4x)/(4x)] · [(2x)/sin(2x)] · (4x/2x) → 1 · 1 · 2 = **2**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Create two copies of the special limit."
+  },
+  {
+   "type": "mc",
+   "q": "g is continuous, g(0) = 3, g(2) = −1, g(5) = 4. What's the minimum number of zeros of g on [0, 5]?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 2,
+   "why": "Sign change on (0, 2) and again on (2, 5): IVT guarantees **at least 2** zeros.",
+   "level": "challenge",
+   "hint": "Count sign changes."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Calculus Volume 1",
+   "url": "https://openstax.org/details/books/calculus-volume-1"
+  },
+  {
+   "title": "OpenStax, Calculus Volume 1, 2.3 The Limit Laws",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/2-3-the-limit-laws"
+  },
+  {
+   "title": "OpenStax, Calculus Volume 1, 2.4 Continuity",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/2-4-continuity"
+  },
+  {
+   "title": "College Board: AP Calculus AB course",
+   "url": "https://apstudents.collegeboard.org/courses/ap-calculus-ab"
+  }
+ ]
+}

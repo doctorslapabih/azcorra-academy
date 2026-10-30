@@ -1,0 +1,205 @@
+{
+ "id": "differential-equations",
+ "title": "Differential equations",
+ "band": "AP Calculus AB",
+ "minutes": 38,
+ "lede": "Equations about rates: dy/dt depends on y itself. Slope fields, separation of variables, and the exponential models behind compound interest, population growth, cooling coffee and radioactive decay.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What a differential equation is\nA **differential equation** relates a function to its derivatives. Instead of telling you y, it tells you how y **changes**.\n\n- dy/dx = 2x → solutions y = x² + C (a family of curves)\n- dy/dt = 0.05y → \"y grows at 5% of its current size\": exponential growth\n\nA **general solution** has a constant C. An **initial condition** like y(0) = 3 picks out one **particular solution**."
+  },
+  {
+   "type": "text",
+   "md": "## Slope fields\nA **slope field** draws a short line segment at many points (x, y), each with slope dy/dx given by the equation. Solutions follow the segments like a current.\n\n*For dy/dx = x + y:* at (0, 0) slope 0 (flat); at (1, 1) slope 2 (steep); at (−1, 1) slope 0.\n\nAP questions ask you to **sketch** a solution through a point, or to **match** a slope field to its equation by checking a few points. Key clues: if slopes depend only on x, every column has the same slopes; if only on y, every row does."
+  },
+  {
+   "type": "check",
+   "q": "For dy/dx = y − 2, slope segments along the line y = 2 are…",
+   "options": [
+    "vertical",
+    "horizontal",
+    "slope 2",
+    "slope −2"
+   ],
+   "answer": 1,
+   "why": "dy/dx = 0 there: an equilibrium solution."
+  },
+  {
+   "type": "text",
+   "md": "## Separation of variables\nWhen dy/dx = f(x)·g(y), get all the y's on one side and all the x's on the other, then integrate:\n\n1. **Separate:** dy / g(y) = f(x) dx\n2. **Integrate both sides** (one + C is enough)\n3. **Use the initial condition** to find C\n4. **Solve for y** if asked"
+  },
+  {
+   "type": "example",
+   "title": "Separate and solve",
+   "problem": "dy/dx = xy, with y(0) = 2.",
+   "steps": [
+    "Separate: dy/y = x dx.",
+    "Integrate: ln|y| = x²/2 + C.",
+    "Exponentiate: y = Ae^(x²/2).",
+    "y(0) = 2 → A = 2."
+   ],
+   "answer": "**y = 2e^(x²/2).** Check: dy/dx = 2e^(x²/2) · x = xy ✓."
+  },
+  {
+   "type": "text",
+   "md": "## Exponential growth and decay\nThe most important differential equation:\n\n**dy/dt = ky → y = y₀e^(kt)**\n\nThe rate of change is **proportional to the amount**. k > 0 → growth; k < 0 → decay.\n\n- **Continuous compounding:** money at 5%: dA/dt = 0.05A → A = A₀e^(0.05t)\n- **Radioactive decay / medication clearance:** k < 0, half-life t½ = ln 2 / |k|\n- **Populations** (with unlimited resources)\n\n*A population doubles every 10 years.* e^(10k) = 2 → k = ln 2/10 ≈ 0.0693 per year."
+  },
+  {
+   "type": "text",
+   "md": "## Newton's law of cooling\nAn object's temperature changes at a rate proportional to the **difference** between it and its surroundings:\n\n**dT/dt = −k(T − Tₐ)**, with solution **T = Tₐ + (T₀ − Tₐ)e^(−kt)**\n\nThe gap closes exponentially. A 90 °C coffee in a 20 °C room starts 70° above room temperature; that 70° difference shrinks by the same percentage each minute. Forensic investigators have used this idea to estimate time of death."
+  },
+  {
+   "type": "check",
+   "q": "dy/dt = −0.2y describes…",
+   "options": [
+    "exponential growth",
+    "exponential decay",
+    "linear decay",
+    "no change"
+   ],
+   "answer": 1,
+   "why": "Rate proportional to amount, negative k."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Separate before integrating.** You can't integrate dy/dx = xy with respect to x directly (y is unknown).\n- **Apply the initial condition** to find C, preferably before solving for y.\n- **Don't lose the absolute value or the sign** with ln|y|.\n- **Equilibrium solutions** (where dy/dt = 0) are constant solutions; slope fields show them as horizontal rows."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "General solution of dy/dx = 3x²?",
+   "options": [
+    "y = 6x + C",
+    "y = x³ + C",
+    "y = 3x³ + C",
+    "y = x³"
+   ],
+   "answer": 1,
+   "why": "Integrate."
+  },
+  {
+   "type": "mc",
+   "q": "dy/dt = ky has solutions of the form…",
+   "options": [
+    "y = kt + C",
+    "y = Ce^(kt)",
+    "y = k/t",
+    "y = t^k"
+   ],
+   "answer": 1,
+   "why": "Exponential."
+  },
+  {
+   "type": "num",
+   "q": "dy/dx = 2x, y(0) = 5. Find y(3).",
+   "answer": 14,
+   "why": "y = x² + 5 → 14.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Slope from dy/dx = x − y at the point (3, 1)?",
+   "answer": 2,
+   "why": "3 − 1.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "For dy/dx = y(4 − y), which are equilibrium solutions?",
+   "options": [
+    "y = 0 and y = 4",
+    "y = 2",
+    "y = −4",
+    "none"
+   ],
+   "answer": 0,
+   "why": "Where dy/dx = 0."
+  },
+  {
+   "type": "num",
+   "q": "y = 100e^(0.03t). Value at t = 0?",
+   "answer": 100,
+   "why": "e⁰ = 1.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Half-life for dy/dt = −0.1y (t½ = ln 2/0.1; ln 2 ≈ 0.693; 2 decimals)?",
+   "answer": 6.93,
+   "why": "0.693 ÷ 0.1.",
+   "tol": 0.01
+  },
+  {
+   "type": "mc",
+   "q": "Newton's law of cooling says the rate of temperature change is proportional to…",
+   "options": [
+    "the temperature",
+    "the difference from room temperature",
+    "time",
+    "the square of temperature"
+   ],
+   "answer": 1,
+   "why": "The gap."
+  },
+  {
+   "type": "num",
+   "q": "dy/dx = y/x², y(1) = e. Find y at x → ∞ (as a decimal; e ≈ 2.718).",
+   "answer": 7.389,
+   "why": "dy/y = x⁻² dx → ln y = −1/x + C. y(1) = e → 1 = −1 + C → C = 2. y = e^(2 − 1/x) → as x → ∞, y → **e² ≈ 7.389**.",
+   "tol": 0.01,
+   "level": "challenge",
+   "hint": "Separate, integrate, use the initial condition."
+  },
+  {
+   "type": "num",
+   "q": "$1,000 grows continuously with dA/dt = 0.06A. Value after 10 years, nearest dollar? (e^0.6 ≈ 1.8221)",
+   "answer": 1822,
+   "why": "A = 1,000e^(0.6) ≈ **$1,822**.",
+   "tol": 1,
+   "unit": "$",
+   "level": "challenge",
+   "hint": "A = A₀e^(kt)."
+  },
+  {
+   "type": "num",
+   "q": "Coffee at 90 °C in a 20 °C room; T = 20 + 70e^(−0.1t) (t in minutes). Temperature after 10 minutes? (e^(−1) ≈ 0.3679; 1 decimal)",
+   "answer": 45.8,
+   "why": "20 + 70 × 0.3679 ≈ 20 + 25.75 = **45.8 °C**.",
+   "tol": 0.06,
+   "unit": "°C",
+   "level": "challenge",
+   "hint": "Plug t = 10."
+  },
+  {
+   "type": "mc",
+   "q": "Solving dy/dx = −2xy² with y(0) = 1 gives…",
+   "options": [
+    "y = 1/(x² + 1)",
+    "y = e^(−x²)",
+    "y = 1 − x²",
+    "y = −x² + 1/y"
+   ],
+   "answer": 0,
+   "why": "dy/y² = −2x dx → −1/y = −x² + C. y(0) = 1 → C = −1 → 1/y = x² + 1 → **y = 1/(x² + 1)**.",
+   "level": "challenge",
+   "hint": "∫ y⁻² dy = −1/y."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Calculus Volume 1",
+   "url": "https://openstax.org/details/books/calculus-volume-1"
+  },
+  {
+   "title": "OpenStax, Calculus Volume 2, 4.3 Separable Equations",
+   "url": "https://openstax.org/books/calculus-volume-2/pages/4-3-separable-equations"
+  },
+  {
+   "title": "College Board: AP Calculus AB course",
+   "url": "https://apstudents.collegeboard.org/courses/ap-calculus-ab"
+  }
+ ]
+}

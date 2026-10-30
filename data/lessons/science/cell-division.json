@@ -1,0 +1,208 @@
+{
+ "id": "cell-division",
+ "title": "Cell division",
+ "band": "Grades 9–10",
+ "minutes": 32,
+ "lede": "How one cell becomes two identical copies for growth and repair, how a different division makes sperm and eggs with half the DNA, and what happens when the brakes fail: cancer.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Why cells divide\n- **Growth**: you started as one cell. You're now made of trillions.\n- **Repair**: healing a cut, rebuilding muscle after training.\n- **Replacement**: skin, gut lining and blood cells are constantly replaced.\n- **Reproduction**: making sperm and eggs.\n\nHumans have **46 chromosomes** in most body cells: **23 pairs**, one of each pair from each parent. A cell with both sets is **diploid** (2n = 46). Sperm and eggs carry one set and are **haploid** (n = 23)."
+  },
+  {
+   "type": "text",
+   "md": "## The cell cycle\nMost of a cell's life is spent in **interphase**, not dividing:\n\n| Phase | What happens |\n|---|---|\n| **G1** | cell grows and does its normal job |\n| **S** | **DNA is copied** (synthesis): each chromosome becomes two identical sister chromatids |\n| **G2** | more growth; prepares to divide |\n| **M** | mitosis and cytokinesis: the actual division |\n\n**Checkpoints** between phases act like inspections: is the DNA copied correctly? Is the cell big enough? If something's wrong, the cycle stops for repair, or the cell destroys itself."
+  },
+  {
+   "type": "text",
+   "md": "## Mitosis: PMAT\n**Mitosis** divides the copied chromosomes evenly so each new cell gets a complete, identical set.\n\n1. **Prophase**: chromosomes condense and become visible; spindle fibers start forming.\n2. **Metaphase**: chromosomes line up in the **middle** of the cell.\n3. **Anaphase**: sister chromatids are pulled **apart** to opposite ends.\n4. **Telophase**: new nuclei form around each set.\n\nThen **cytokinesis** splits the cytoplasm: **two identical diploid cells**.\n\n*Memory:* **M**etaphase = **M**iddle; **A**naphase = **A**part."
+  },
+  {
+   "type": "check",
+   "q": "During which phase are chromosomes lined up in the middle of the cell?",
+   "options": [
+    "prophase",
+    "metaphase",
+    "anaphase",
+    "telophase"
+   ],
+   "answer": 1,
+   "why": "**M**etaphase = **M**iddle."
+  },
+  {
+   "type": "text",
+   "md": "## Meiosis: making sex cells\n**Meiosis** makes sperm and eggs. It has **two** divisions and produces **four haploid** cells, each genetically **different**.\n\n| | Mitosis | Meiosis |\n|---|---|---|\n| Purpose | growth, repair | sperm and eggs |\n| Divisions | 1 | 2 |\n| Cells produced | 2 | 4 |\n| Chromosome number | stays 46 (diploid) | halves to 23 (haploid) |\n| Genetically | identical to parent | all different |\n\nWhen sperm (23) meets egg (23) at fertilization, the result is back to **46**."
+  },
+  {
+   "type": "text",
+   "md": "## Where variety comes from\nMeiosis shuffles genes two ways:\n\n1. **Crossing over**: matching chromosomes swap segments, creating new combinations on each chromosome.\n2. **Independent assortment**: each of the 23 pairs lines up randomly, so which parent's copy goes into each sex cell is a coin flip, 23 times. That's **2²³ ≈ 8.4 million** combinations from assortment alone, before crossing over adds more.\n\nThat's why siblings with the same parents can look so different."
+  },
+  {
+   "type": "example",
+   "title": "How fast division adds up",
+   "problem": "One cell divides every 24 hours, and every new cell keeps dividing. How many cells after 10 days?",
+   "steps": [
+    "Each division doubles the count.",
+    "After 10 doublings: 2¹⁰ = 1,024."
+   ],
+   "answer": "**1,024 cells.** Exponential growth, straight from the math unit. This doubling is also why an uncontrolled tumor can grow so quickly once it starts."
+  },
+  {
+   "type": "text",
+   "md": "## When the brakes fail: cancer\n**Cancer** is cell division out of control. Mutations damage the genes that normally regulate the cycle:\n\n- **Proto-oncogenes** act like a gas pedal. Mutated (into **oncogenes**), the pedal sticks down.\n- **Tumor suppressor genes** act like brakes. The best known, **p53**, stops division when DNA is damaged. Mutated, the brakes fail.\n\nUsually it takes **several** mutations for a cell to become cancerous, which is one reason cancer risk rises with age. Known causes of mutations (**carcinogens**) include tobacco smoke, UV light and some chemicals.\n\nMany chemotherapy drugs target **dividing** cells. That's why they also hit fast-dividing healthy cells like hair follicles and the gut lining, causing hair loss and nausea."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **DNA is copied in interphase (S phase)**, not during mitosis.\n- **Mitosis makes identical cells; meiosis makes different ones.**\n- **Haploid ≠ half a cell.** It means one set of chromosomes.\n- **Cancer isn't one disease.** It's many diseases sharing a failure of cell-cycle control."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "How many chromosomes in a typical human body cell?",
+   "answer": 46,
+   "why": "23 pairs.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "How many chromosomes in a human egg cell?",
+   "answer": 23,
+   "why": "Haploid.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "DNA is copied during…",
+   "options": [
+    "G1",
+    "S phase",
+    "metaphase",
+    "cytokinesis"
+   ],
+   "answer": 1,
+   "why": "S = synthesis."
+  },
+  {
+   "type": "mc",
+   "q": "Sister chromatids are pulled apart during…",
+   "options": [
+    "prophase",
+    "metaphase",
+    "anaphase",
+    "telophase"
+   ],
+   "answer": 2,
+   "why": "**A**naphase = **A**part."
+  },
+  {
+   "type": "mc",
+   "q": "Mitosis produces…",
+   "options": [
+    "4 haploid cells",
+    "2 identical diploid cells",
+    "2 haploid cells",
+    "4 identical cells"
+   ],
+   "answer": 1,
+   "why": "For growth and repair."
+  },
+  {
+   "type": "mc",
+   "q": "Meiosis produces…",
+   "options": [
+    "2 identical cells",
+    "4 genetically different haploid cells",
+    "skin cells",
+    "46 cells"
+   ],
+   "answer": 1,
+   "why": "Sperm or eggs."
+  },
+  {
+   "type": "mc",
+   "q": "Healing a cut uses…",
+   "options": [
+    "meiosis",
+    "mitosis",
+    "fertilization",
+    "crossing over"
+   ],
+   "answer": 1,
+   "why": "New identical skin cells."
+  },
+  {
+   "type": "mc",
+   "q": "p53 is an example of a…",
+   "options": [
+    "oncogene",
+    "tumor suppressor gene",
+    "enzyme for digestion",
+    "chromosome"
+   ],
+   "answer": 1,
+   "why": "A brake on division."
+  },
+  {
+   "type": "num",
+   "q": "Starting from one cell, how many cells after 7 rounds of division (every cell divides each round)?",
+   "answer": 128,
+   "why": "2⁷ = **128**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Each round doubles."
+  },
+  {
+   "type": "mc",
+   "q": "Why do chemotherapy drugs often cause hair loss?",
+   "options": [
+    "They poison hair directly",
+    "They target rapidly dividing cells, and hair follicle cells divide rapidly",
+    "Hair is made of DNA",
+    "Stress"
+   ],
+   "answer": 1,
+   "why": "Collateral damage to healthy fast-dividing cells.",
+   "level": "challenge",
+   "hint": "What do cancer cells and hair cells have in common?"
+  },
+  {
+   "type": "mc",
+   "q": "A body cell with 46 chromosomes skipped the S phase and went straight into mitosis. The likely result?",
+   "options": [
+    "normal cells",
+    "daughter cells missing chromosomes, or a checkpoint stopping division",
+    "four cells",
+    "stronger cells"
+   ],
+   "answer": 1,
+   "why": "Without copying, there's nothing to split evenly. That's what the G2 checkpoint exists to catch.",
+   "level": "challenge",
+   "hint": "What does S phase provide?"
+  },
+  {
+   "type": "num",
+   "q": "A species has 2n = 8 chromosomes (4 pairs). How many combinations can independent assortment alone produce in its gametes?",
+   "answer": 16,
+   "why": "2ⁿ with n = 4 pairs: 2⁴ = **16**. For humans, 2²³ ≈ 8.4 million.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Each pair is a coin flip."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e"
+  },
+  {
+   "title": "OpenStax, Concepts of Biology",
+   "url": "https://openstax.org/details/books/concepts-biology"
+  },
+  {
+   "title": "National Cancer Institute: The Genetics of Cancer",
+   "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics"
+  }
+ ]
+}

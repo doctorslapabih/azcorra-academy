@@ -1,0 +1,218 @@
+{
+ "id": "biochemistry-the-molecules-of-life",
+ "title": "Biochemistry: the molecules of life",
+ "band": "Grades 9–10",
+ "minutes": 34,
+ "lede": "Carbs, fats, proteins and nucleic acids: what they're built from, what they do, and why the calories on a food label come out the way they do.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Life runs on carbon and water\nAbout **60%** of an adult's body is water, and almost every other molecule in you is built on **carbon**. Carbon can form four bonds, so it links into long chains and rings: the backbone of every large molecule in living things.\n\n**Why water matters:** a water molecule is **polar** (slightly negative at the oxygen end, slightly positive at the hydrogens), so water molecules stick to each other with **hydrogen bonds**. That gives water its life-supporting properties:\n\n- **Great solvent**: dissolves salts, sugars and many other molecules your cells need to move around.\n- **High specific heat**: absorbs a lot of heat before warming up, which keeps body temperature (and oceans) stable.\n- **Cohesion**: water sticks to itself, helping it travel up plant stems.\n- **Evaporative cooling**: sweat pulls heat away from your skin as it evaporates."
+  },
+  {
+   "type": "text",
+   "md": "## The four big molecules\nLarge biological molecules (**macromolecules**) are built by linking small units (**monomers**) into chains (**polymers**).\n\n| Macromolecule | Building block | Main jobs | Examples |\n|---|---|---|---|\n| **Carbohydrates** | simple sugars (glucose) | quick energy, energy storage, structure | glucose, starch (plants), glycogen (animals), cellulose (fiber) |\n| **Lipids** | fatty acids + glycerol (fats) | long-term energy storage, cell membranes, hormones | fats, oils, phospholipids, cholesterol, testosterone |\n| **Proteins** | **amino acids** (20 kinds) | enzymes, muscle, transport, signals, defense | actin and myosin (muscle), hemoglobin, antibodies |\n| **Nucleic acids** | nucleotides | store and use genetic information | DNA, RNA |\n\nCells build polymers by removing a water molecule at each link (**dehydration synthesis**) and break them apart by adding water back (**hydrolysis**). Digestion is mostly hydrolysis."
+  },
+  {
+   "type": "check",
+   "q": "Your muscles store glucose as…",
+   "options": [
+    "starch",
+    "cellulose",
+    "glycogen",
+    "cholesterol"
+   ],
+   "answer": 2,
+   "why": "Animals store carbs as **glycogen**, in muscles and liver. Plants use starch."
+  },
+  {
+   "type": "text",
+   "md": "## Energy on the label\n| Macronutrient | Energy |\n|---|---|\n| carbohydrate | about **4 kcal per gram** |\n| protein | about **4 kcal per gram** |\n| fat | about **9 kcal per gram** |\n\nFat stores more than twice the energy per gram, which is why the body stores long-term energy as fat, and why fats add calories fast.\n\n**Fiber** is a carbohydrate (cellulose) humans can't digest. It adds bulk and helps digestion but provides little usable energy."
+  },
+  {
+   "type": "example",
+   "title": "Count the calories",
+   "problem": "A meal has 40 g protein, 60 g carbohydrate and 15 g fat.",
+   "steps": [
+    "Protein: 40 × 4 = 160 kcal.",
+    "Carbs: 60 × 4 = 240 kcal.",
+    "Fat: 15 × 9 = 135 kcal.",
+    "Total: 160 + 240 + 135 = 535 kcal."
+   ],
+   "answer": "**About 535 kcal.** This is exactly how food labels and tracking apps compute calories."
+  },
+  {
+   "type": "text",
+   "md": "## Proteins: shape is everything\nA protein is a chain of **amino acids** that folds into a specific 3D shape. That **shape determines its function**: an enzyme's pocket fits only certain molecules; an antibody's tips grab only certain invaders.\n\nIf heat, acid or other conditions disrupt the shape, the protein **denatures** and stops working. Cooking an egg is denaturation: the clear proteins unfold and tangle into white solid. It doesn't go back.\n\nYour body can make some amino acids itself; nine **essential amino acids** must come from food."
+  },
+  {
+   "type": "text",
+   "md": "## Enzymes: the catalysts\n**Enzymes** are proteins that speed up chemical reactions by lowering the **activation energy**, the energy needed to get a reaction started. Without them, digestion and most reactions in your cells would be far too slow to keep you alive.\n\n- The molecule an enzyme acts on is its **substrate**; it fits into the **active site**, like a key in a lock.\n- Enzymes aren't used up. One enzyme can work on thousands of molecules.\n- Each enzyme has an **optimal temperature and pH**. Human enzymes work best near 37 °C. A very high fever is dangerous partly because enzymes start to denature.\n- Names often end in **-ase**: *lactase* breaks down lactose; *amylase* (in saliva) breaks down starch."
+  },
+  {
+   "type": "check",
+   "q": "Why does a very high fever become dangerous?",
+   "options": [
+    "It burns calories",
+    "Proteins, including enzymes, can start to lose their shape and stop working",
+    "Water boils in the blood",
+    "Fat melts"
+   ],
+   "answer": 1,
+   "why": "Shape = function. Lose the shape, lose the function."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Fat isn't the same as lipid.** Fats are one kind of lipid; cholesterol and phospholipids are others.\n- **Enzymes aren't consumed** in the reactions they speed up.\n- **Protein isn't only muscle.** Enzymes, hormones like insulin, antibodies and transport molecules are proteins too.\n- **Denatured ≠ destroyed.** The amino acid chain is still there; the shape is lost, and with it the function."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "The building blocks of proteins are…",
+   "options": [
+    "fatty acids",
+    "amino acids",
+    "nucleotides",
+    "simple sugars"
+   ],
+   "answer": 1,
+   "why": "20 kinds."
+  },
+  {
+   "type": "mc",
+   "q": "DNA is a…",
+   "options": [
+    "carbohydrate",
+    "lipid",
+    "protein",
+    "nucleic acid"
+   ],
+   "answer": 3,
+   "why": "Built from nucleotides."
+  },
+  {
+   "type": "num",
+   "q": "Calories in 20 g of fat?",
+   "answer": 180,
+   "why": "20 × 9 = 180.",
+   "tol": 0.001,
+   "unit": "kcal"
+  },
+  {
+   "type": "num",
+   "q": "Calories in 50 g of carbohydrate?",
+   "answer": 200,
+   "why": "50 × 4 = 200.",
+   "tol": 0.001,
+   "unit": "kcal"
+  },
+  {
+   "type": "mc",
+   "q": "Enzymes speed up reactions by…",
+   "options": [
+    "adding heat",
+    "lowering activation energy",
+    "being used up",
+    "adding water"
+   ],
+   "answer": 1,
+   "why": "They make it easier to start."
+  },
+  {
+   "type": "mc",
+   "q": "Which is **not** a lipid?",
+   "options": [
+    "cholesterol",
+    "testosterone",
+    "phospholipid",
+    "glycogen"
+   ],
+   "answer": 3,
+   "why": "Glycogen is a carbohydrate."
+  },
+  {
+   "type": "mc",
+   "q": "Water's high specific heat helps the body by…",
+   "options": [
+    "dissolving fat",
+    "keeping temperature stable",
+    "building muscle",
+    "storing energy"
+   ],
+   "answer": 1,
+   "why": "It absorbs heat without big temperature swings."
+  },
+  {
+   "type": "mc",
+   "q": "An enzyme that breaks down lactose is…",
+   "options": [
+    "amylase",
+    "lactase",
+    "protease",
+    "lipase"
+   ],
+   "answer": 1,
+   "why": "Substrate + -ase."
+  },
+  {
+   "type": "num",
+   "q": "A meal-prep container: 45 g protein, 70 g carbs, 12 g fat. Total kcal?",
+   "answer": 568,
+   "why": "45 × 4 = 180; 70 × 4 = 280; 12 × 9 = 108. Total **568 kcal**.",
+   "tol": 0.001,
+   "unit": "kcal",
+   "level": "challenge",
+   "hint": "4, 4 and 9 kcal per gram."
+  },
+  {
+   "type": "num",
+   "q": "A 2,600 kcal day includes 180 g protein. What percent of calories come from protein? (Nearest whole %)",
+   "answer": 28,
+   "why": "180 × 4 = 720 kcal. 720 ÷ 2,600 ≈ **28%**.",
+   "tol": 0.6,
+   "unit": "%",
+   "level": "challenge",
+   "hint": "Convert grams to kcal first."
+  },
+  {
+   "type": "mc",
+   "q": "A cooked egg white can't turn clear again because…",
+   "options": [
+    "the amino acids were destroyed",
+    "the proteins denatured: their shape unfolded and tangled",
+    "the water evaporated",
+    "fat was added"
+   ],
+   "answer": 1,
+   "why": "The chain survives, but the specific folded shape is gone, and that's not reversible here.",
+   "level": "challenge",
+   "hint": "Shape, not chain."
+  },
+  {
+   "type": "mc",
+   "q": "Why does the body store long-term energy as fat rather than glycogen?",
+   "options": [
+    "Fat is easier to digest",
+    "Fat packs more than twice the energy per gram",
+    "Glycogen is toxic",
+    "Fat contains protein"
+   ],
+   "answer": 1,
+   "why": "About 9 kcal/g vs 4 kcal/g, and glycogen is stored with water, adding even more weight. Fat is the compact battery.",
+   "level": "challenge",
+   "hint": "Compare kcal per gram."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e"
+  },
+  {
+   "title": "OpenStax, Anatomy and Physiology 2e",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+  }
+ ]
+}

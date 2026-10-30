@@ -1,0 +1,227 @@
+{
+ "id": "the-nervous-system",
+ "title": "The nervous system",
+ "band": "Grades 9–10",
+ "minutes": 34,
+ "lede": "How neurons fire, why reflexes beat thinking, which parts of the brain do what, and the fight-or-flight switch that runs both the cage and the trading screen.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The layout\n- **Central nervous system (CNS)**: the **brain** and **spinal cord**. The decision center.\n- **Peripheral nervous system (PNS)**: all the nerves branching out to the body. The wiring.\n\nThe PNS has two branches:\n- **Somatic**: voluntary control of skeletal muscles (throwing a jab).\n- **Autonomic**: automatic control of organs (heart rate, digestion, sweating)."
+  },
+  {
+   "type": "text",
+   "md": "## The neuron\nThe nervous system's basic cell is the **neuron**.\n\n| Part | Job |\n|---|---|\n| **dendrites** | receive signals from other neurons |\n| **cell body** | contains the nucleus; adds up incoming signals |\n| **axon** | carries the signal away, sometimes over a meter long |\n| **myelin sheath** | fatty insulation around many axons; speeds signals up dramatically |\n| **axon terminals** | release chemical messengers to the next cell |\n\nThe gap between one neuron and the next cell is the **synapse**."
+  },
+  {
+   "type": "text",
+   "md": "## How a signal travels\n1. **Electrical, along the axon:** when a neuron is stimulated enough to hit its **threshold**, it fires an **action potential**: a wave of charge (driven by sodium and potassium ions crossing the membrane) that races down the axon. It's **all-or-nothing**: a neuron either fires fully or not at all. Stronger stimuli fire **more often**, not bigger.\n2. **Chemical, across the synapse:** at the terminal, the signal triggers the release of **neurotransmitters** that cross the gap and bind to the next cell.\n\nMyelinated axons can carry signals at up to about **120 m/s**; thin unmyelinated ones can be slower than **1 m/s**. Diseases that damage myelin, like multiple sclerosis, slow or block signals."
+  },
+  {
+   "type": "text",
+   "md": "## Key neurotransmitters\n| Neurotransmitter | Main roles |\n|---|---|\n| **acetylcholine** | triggers muscle contraction; memory |\n| **dopamine** | motivation, reward prediction, movement |\n| **serotonin** | mood, sleep, appetite |\n| **norepinephrine** | alertness, arousal, fight-or-flight |\n| **GABA** | the main \"brake\": calms neural activity |\n\nDopamine responds strongly to **unpredictable rewards**. Slot machines and endless-scroll feeds both deliver rewards on an unpredictable schedule, one reason they're hard to put down. So can trading, if you let it."
+  },
+  {
+   "type": "check",
+   "q": "A neuron gets a much stronger stimulus. Its action potentials become…",
+   "options": [
+    "bigger",
+    "more frequent, but the same size",
+    "slower",
+    "weaker"
+   ],
+   "answer": 1,
+   "why": "All-or-nothing: intensity is coded by **frequency**."
+  },
+  {
+   "type": "text",
+   "md": "## Reflexes: faster than thought\nTouch a hot pan and your hand jerks back **before** you feel the pain. That's a **reflex arc**: the signal goes from the sensory neuron into the **spinal cord**, straight to a motor neuron, and back out. The brain is informed afterward.\n\nReflexes are fast because they skip the brain. Trained fight reactions aren't true reflexes, but practice makes them so automatic they come close: thousands of reps move a skill from slow, conscious control toward fast, automatic control. That's what *muscle memory* really means."
+  },
+  {
+   "type": "text",
+   "md": "## The brain's main parts\n| Part | Main jobs |\n|---|---|\n| **cerebrum** (the large, wrinkled outer brain) | thinking, voluntary movement, senses, language |\n| frontal lobe | planning, decisions, impulse control, personality |\n| parietal lobe | touch, body position |\n| temporal lobe | hearing, memory |\n| occipital lobe | vision |\n| **cerebellum** | balance, coordination, timing of movement |\n| **brainstem** | breathing, heart rate, alertness: life support |\n\nThe front part of the frontal lobe, the **prefrontal cortex**, is one of the last brain areas to fully mature, in a person's mid-20s. It's the part that says *wait*.\n\n**Concussion:** a hit can make the brain move and collide inside the skull. Repeated head trauma is linked to long-term damage, including **CTE** (chronic traumatic encephalopathy). In combat sports, limiting hard sparring to the head is brain protection, not softness."
+  },
+  {
+   "type": "text",
+   "md": "## Fight or flight vs rest and digest\nThe autonomic system has two branches that work like a gas and a brake:\n\n| | Sympathetic (**fight or flight**) | Parasympathetic (**rest and digest**) |\n|---|---|---|\n| heart rate | ↑ | ↓ |\n| breathing | faster | slower |\n| pupils | dilate | constrict |\n| digestion | slows | resumes |\n| blood flow | to muscles | to gut |\n\nAdrenaline (epinephrine) from the adrenal glands amplifies the sympathetic response.\n\nUnder high stress, people tend to shift toward faster, more reactive, less deliberate decisions. That helps in a fight. It hurts at a trading screen after two losses. **Slow, long exhales** are one of the few direct ways to nudge the system toward the parasympathetic side: a tool before a round, and before a revenge trade."
+  },
+  {
+   "type": "example",
+   "title": "Reaction time math",
+   "problem": "A nerve signal travels from your brain to your hand, about 1 meter, at 100 m/s.",
+   "steps": [
+    "Time = distance ÷ speed = 1 ÷ 100 = 0.01 s."
+   ],
+   "answer": "**10 milliseconds.** Yet visual reaction time is usually around **200 ms or more**. Most of the delay isn't the wire. It's the brain seeing, recognizing and deciding. That's why fighters train to **read** setups early, rather than trying to react faster."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Reflexes don't go through the brain first.** The spinal cord handles them.\n- **All-or-nothing**: action potentials don't get bigger, just more frequent.\n- **Sympathetic = arousal**, not *sympathy*.\n- **Dopamine isn't simply \"the pleasure chemical.\"** It's more about **wanting** and **predicting** rewards."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "The CNS consists of…",
+   "options": [
+    "brain and spinal cord",
+    "all nerves",
+    "brain only",
+    "heart and brain"
+   ],
+   "answer": 0,
+   "why": "Central = brain + spinal cord."
+  },
+  {
+   "type": "mc",
+   "q": "The part of a neuron that receives signals is the…",
+   "options": [
+    "axon",
+    "dendrite",
+    "myelin",
+    "terminal"
+   ],
+   "answer": 1,
+   "why": "Dendrites receive."
+  },
+  {
+   "type": "mc",
+   "q": "Myelin's main job is to…",
+   "options": [
+    "make neurotransmitters",
+    "speed up signals",
+    "receive signals",
+    "store memories"
+   ],
+   "answer": 1,
+   "why": "Insulation."
+  },
+  {
+   "type": "mc",
+   "q": "The gap between neurons is the…",
+   "options": [
+    "axon",
+    "synapse",
+    "nucleus",
+    "lobe"
+   ],
+   "answer": 1,
+   "why": "Crossed by neurotransmitters."
+  },
+  {
+   "type": "mc",
+   "q": "Balance and coordination are mainly controlled by the…",
+   "options": [
+    "cerebellum",
+    "brainstem",
+    "occipital lobe",
+    "spinal cord"
+   ],
+   "answer": 0,
+   "why": "Cerebellum."
+  },
+  {
+   "type": "mc",
+   "q": "Breathing and heart rate are controlled by the…",
+   "options": [
+    "frontal lobe",
+    "brainstem",
+    "cerebellum",
+    "temporal lobe"
+   ],
+   "answer": 1,
+   "why": "Life support."
+  },
+  {
+   "type": "mc",
+   "q": "Fight-or-flight is the ___ nervous system.",
+   "options": [
+    "parasympathetic",
+    "sympathetic",
+    "somatic",
+    "central"
+   ],
+   "answer": 1,
+   "why": "Gas pedal."
+  },
+  {
+   "type": "mc",
+   "q": "Which neurotransmitter triggers muscle contraction?",
+   "options": [
+    "serotonin",
+    "acetylcholine",
+    "GABA",
+    "dopamine"
+   ],
+   "answer": 1,
+   "why": "At the neuromuscular junction."
+  },
+  {
+   "type": "num",
+   "q": "A signal travels 1.5 m along a nerve at 75 m/s. How many milliseconds does it take?",
+   "answer": 20,
+   "why": "1.5 ÷ 75 = 0.02 s = **20 ms**.",
+   "tol": 0.001,
+   "unit": "ms",
+   "level": "challenge",
+   "hint": "Time = distance ÷ speed, then convert to ms."
+  },
+  {
+   "type": "mc",
+   "q": "You touch a hot stove and pull away before feeling pain. Why?",
+   "options": [
+    "The brain is very fast",
+    "A reflex arc through the spinal cord responds before the pain signal is processed by the brain",
+    "Pain isn't real",
+    "Muscles think on their own"
+   ],
+   "answer": 1,
+   "why": "The spinal cord shortcut skips the brain.",
+   "level": "challenge",
+   "hint": "Which path is shorter?"
+  },
+  {
+   "type": "mc",
+   "q": "After two losing trades, your heart is pounding and you want to jump into another trade immediately. Which explanation fits best?",
+   "options": [
+    "Parasympathetic activation is making you calm",
+    "Sympathetic (fight-or-flight) arousal is pushing you toward fast, reactive decisions",
+    "Your cerebellum is malfunctioning",
+    "Your myelin is damaged"
+   ],
+   "answer": 1,
+   "why": "Stress shifts you toward reactivity. That's why the plan has a hard stop after two losses, and why a breathing reset helps.",
+   "level": "challenge",
+   "hint": "Gas pedal or brake?"
+  },
+  {
+   "type": "mc",
+   "q": "Why do coaches drill the same combination thousands of times?",
+   "options": [
+    "To build bigger muscles only",
+    "Repetition makes the skill automatic, needing less slow conscious processing",
+    "To make it a spinal reflex",
+    "Because the brain forgets everything daily"
+   ],
+   "answer": 1,
+   "why": "It never becomes a true spinal reflex, but practice shifts control toward fast, automatic pathways: what people call muscle memory.",
+   "level": "challenge",
+   "hint": "Conscious vs automatic control."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Anatomy and Physiology 2e",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+  },
+  {
+   "title": "OpenStax, Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e"
+  },
+  {
+   "title": "NIH National Institute of Neurological Disorders and Stroke: Brain Basics",
+   "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics"
+  }
+ ]
+}

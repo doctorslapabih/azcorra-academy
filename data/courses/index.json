@@ -1000,27 +1000,32 @@
      {
       "id": "biochemistry-the-molecules-of-life",
       "title": "Biochemistry: the molecules of life",
-      "ready": false
+      "ready": true,
+      "desc": "Carbs, fats, proteins and nucleic acids: what they're built from, what they do, and why the calories on a food label come out the way they do."
      },
      {
       "id": "cellular-respiration-and-photosynthesis",
       "title": "Cellular respiration and photosynthesis",
-      "ready": false
+      "ready": true,
+      "desc": "Plants turn sunlight into sugar; your cells turn sugar into ATP. The two processes are mirror images, and the one in your muscles explains how fighters gas out and how creatine works."
      },
      {
       "id": "cell-division",
       "title": "Cell division",
-      "ready": false
+      "ready": true,
+      "desc": "How one cell becomes two identical copies for growth and repair, how a different division makes sperm and eggs with half the DNA, and what happens when the brakes fail: cancer."
      },
      {
       "id": "gene-expression",
       "title": "Gene expression",
-      "ready": false
+      "ready": true,
+      "desc": "How a sequence of four letters in DNA becomes a working protein: transcription, translation, the genetic code, and how a single letter change causes sickle-cell disease."
      },
      {
       "id": "the-nervous-system",
       "title": "The nervous system",
-      "ready": false
+      "ready": true,
+      "desc": "How neurons fire, why reflexes beat thinking, which parts of the brain do what, and the fight-or-flight switch that runs both the cage and the trading screen."
      }
     ]
    },

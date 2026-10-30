@@ -1,0 +1,219 @@
+{
+ "id": "cellular-respiration-and-photosynthesis",
+ "title": "Cellular respiration and photosynthesis",
+ "band": "Grades 9–10",
+ "minutes": 36,
+ "lede": "Plants turn sunlight into sugar; your cells turn sugar into ATP. The two processes are mirror images, and the one in your muscles explains how fighters gas out and how creatine works.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## ATP: the energy currency\nCells don't run directly on glucose. They run on **ATP** (adenosine triphosphate). When a cell breaks off ATP's last phosphate group, energy is released to power muscle contraction, nerve signals and building molecules. What's left (**ADP**) gets recharged back into ATP.\n\nYour body holds only a small amount of ATP at a time but recycles it constantly. Over a day, you turn over roughly your own **body weight** in ATP."
+  },
+  {
+   "type": "text",
+   "md": "## Photosynthesis: building sugar\nIn the **chloroplasts** of plants and algae:\n\n**6 CO₂ + 6 H₂O + light energy → C₆H₁₂O₆ (glucose) + 6 O₂**\n\nTwo stages:\n1. **Light-dependent reactions** (in the thylakoid membranes): **chlorophyll** captures light, water is split, **oxygen is released**, and the energy is stored in ATP and NADPH.\n2. **Calvin cycle** (in the stroma): uses that ATP and NADPH to build sugar from **CO₂**.\n\nThe oxygen you breathe comes from the **water** split in photosynthesis, and nearly all food energy on Earth started as sunlight captured this way."
+  },
+  {
+   "type": "check",
+   "q": "In photosynthesis, the oxygen released comes from…",
+   "options": [
+    "CO₂",
+    "water (H₂O)",
+    "glucose",
+    "chlorophyll"
+   ],
+   "answer": 1,
+   "why": "Water is split in the light reactions; its oxygen is released."
+  },
+  {
+   "type": "text",
+   "md": "## Cellular respiration: spending sugar\nIn your cells (and plants' too):\n\n**C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + energy (ATP)**\n\nThe exact reverse of photosynthesis. Three stages:\n\n| Stage | Where | Needs O₂? | ATP made (per glucose) |\n|---|---|---|---|\n| **Glycolysis** | cytoplasm | no | 2 |\n| **Krebs cycle** (citric acid cycle) | mitochondria (matrix) | yes, indirectly | 2 |\n| **Electron transport chain** | mitochondria (inner membrane) | **yes** (O₂ is the final electron acceptor) | most of it, ~26–28 |\n\nTotal: about **30–32 ATP** per glucose with oxygen (older textbooks say 36–38; modern measurements are lower). The CO₂ you breathe out is the carbon from the food you ate."
+  },
+  {
+   "type": "text",
+   "md": "## Without enough oxygen: fermentation\nWhen muscles work faster than oxygen can arrive, cells fall back on **glycolysis alone**, making only **2 ATP** per glucose, then convert the product to **lactate** (lactic acid fermentation) so glycolysis can keep running.\n\n- It's **fast** but **inefficient**: about 2 ATP instead of ~30.\n- Intense effort that relies on it can only last so long, which is the burning, heavy feeling of an all-out round.\n- **Lactate is not the cause of next-day soreness.** It's cleared within an hour or so, and the body even reuses it as fuel. Delayed soreness comes from muscle micro-damage and repair.\n\n**Yeast** does a different fermentation, making **ethanol and CO₂**: that's how bread rises and beer is brewed."
+  },
+  {
+   "type": "example",
+   "title": "The fighter's three energy systems",
+   "problem": "Why does a 5-minute MMA round feel completely different at second 10, minute 1 and minute 4?",
+   "steps": [
+    "**0–10 seconds: phosphocreatine (PCr).** Muscles store a small reserve of creatine phosphate that recharges ATP almost instantly. Explosive: a takedown shot, a flurry. Runs out in seconds. **Creatine supplements** increase these stores.",
+    "**~10 seconds to ~2 minutes: anaerobic glycolysis.** Fast ATP from glucose without waiting for oxygen. Powerful but inefficient, and fatigue builds.",
+    "**Beyond ~2 minutes: aerobic respiration.** Slower but sustainable, ~15× more ATP per glucose. Cardio training expands this system so you rely less on the anaerobic one."
+   ],
+   "answer": "All three run at once; their share shifts with intensity and time. **Conditioning** is training each one. Gassing out is the anaerobic system outrunning the aerobic one's ability to recover you."
+  },
+  {
+   "type": "check",
+   "q": "Aerobic respiration yields roughly how many times more ATP per glucose than fermentation?",
+   "options": [
+    "2×",
+    "about 15×",
+    "100×",
+    "the same"
+   ],
+   "answer": 1,
+   "why": "About 30 vs 2."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Plants do cellular respiration too.** They photosynthesize **and** respire.\n- **Mitochondria don't make energy from nothing.** They convert food energy into ATP.\n- **Lactic acid isn't a waste product** that causes soreness. It's recycled fuel.\n- **Photosynthesis and respiration are reverses** in their overall equations, but they happen through completely different steps."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Photosynthesis happens in the…",
+   "options": [
+    "mitochondria",
+    "chloroplasts",
+    "nucleus",
+    "ribosomes"
+   ],
+   "answer": 1,
+   "why": "Using chlorophyll."
+  },
+  {
+   "type": "mc",
+   "q": "Most ATP in aerobic respiration is made in the…",
+   "options": [
+    "glycolysis",
+    "Krebs cycle",
+    "electron transport chain",
+    "Calvin cycle"
+   ],
+   "answer": 2,
+   "why": "Inner mitochondrial membrane."
+  },
+  {
+   "type": "mc",
+   "q": "Glycolysis takes place in the…",
+   "options": [
+    "mitochondria",
+    "cytoplasm",
+    "chloroplast",
+    "nucleus"
+   ],
+   "answer": 1,
+   "why": "It doesn't need oxygen."
+  },
+  {
+   "type": "mc",
+   "q": "The final electron acceptor in aerobic respiration is…",
+   "options": [
+    "CO₂",
+    "glucose",
+    "oxygen",
+    "water"
+   ],
+   "answer": 2,
+   "why": "That's why you need to breathe."
+  },
+  {
+   "type": "num",
+   "q": "Net ATP from glycolysis alone, per glucose?",
+   "answer": 2,
+   "why": "Fast but small.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Yeast fermentation produces…",
+   "options": [
+    "lactate",
+    "ethanol and CO₂",
+    "oxygen",
+    "glucose"
+   ],
+   "answer": 1,
+   "why": "Bread and beer."
+  },
+  {
+   "type": "mc",
+   "q": "The CO₂ you exhale comes mostly from…",
+   "options": [
+    "the air you breathed in",
+    "breaking down food molecules",
+    "water",
+    "your lungs making it"
+   ],
+   "answer": 1,
+   "why": "Carbon from food."
+  },
+  {
+   "type": "mc",
+   "q": "Creatine supplementation mainly boosts which system?",
+   "options": [
+    "aerobic",
+    "phosphocreatine",
+    "photosynthesis",
+    "fermentation in yeast"
+   ],
+   "answer": 1,
+   "why": "Short, explosive efforts."
+  },
+  {
+   "type": "num",
+   "q": "Using 30 ATP for aerobic and 2 for fermentation: how many glucose molecules does fermentation need to match the ATP from 4 glucose aerobically?",
+   "answer": 60,
+   "why": "4 × 30 = 120 ATP. 120 ÷ 2 = **60 glucose**. That's why anaerobic effort burns through fuel so fast.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Total ATP needed ÷ ATP per glucose."
+  },
+  {
+   "type": "mc",
+   "q": "Why can't you sprint all-out for 5 minutes?",
+   "options": [
+    "You run out of oxygen in your lungs",
+    "PCr runs out in seconds, and anaerobic glycolysis can't be sustained, so the slower aerobic system limits your pace",
+    "Your heart stops",
+    "Lactic acid poisons the muscle"
+   ],
+   "answer": 1,
+   "why": "Each faster system is limited. Over minutes, aerobic capacity sets the ceiling.",
+   "level": "challenge",
+   "hint": "Think about the three energy systems."
+  },
+  {
+   "type": "mc",
+   "q": "A plant is kept in total darkness for a week. What happens?",
+   "options": [
+    "It keeps making sugar",
+    "It stops photosynthesizing but keeps respiring, using up stored sugar",
+    "It stops respiring",
+    "Nothing changes"
+   ],
+   "answer": 1,
+   "why": "Respiration never stops in living cells. Without light, it burns reserves until it starves.",
+   "level": "challenge",
+   "hint": "Which process needs light? Which never stops?"
+  },
+  {
+   "type": "mc",
+   "q": "Writing the two overall equations side by side shows…",
+   "options": [
+    "they have nothing in common",
+    "the products of one are the reactants of the other",
+    "both release oxygen",
+    "both need light"
+   ],
+   "answer": 1,
+   "why": "Photosynthesis: CO₂ + H₂O → glucose + O₂. Respiration: glucose + O₂ → CO₂ + H₂O. A cycle linking plants and animals.",
+   "level": "challenge",
+   "hint": "Compare inputs and outputs."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e"
+  },
+  {
+   "title": "OpenStax, Anatomy and Physiology 2e",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+  }
+ ]
+}

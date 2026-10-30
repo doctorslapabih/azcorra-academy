@@ -1,0 +1,223 @@
+{
+ "id": "gene-expression",
+ "title": "Gene expression",
+ "band": "Grades 9–10",
+ "minutes": 34,
+ "lede": "How a sequence of four letters in DNA becomes a working protein: transcription, translation, the genetic code, and how a single letter change causes sickle-cell disease.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The central dogma\nInformation in cells flows in one main direction:\n\n**DNA → RNA → protein**\n\n- **DNA** is the master copy, kept safe in the nucleus.\n- **Transcription** copies one gene into a message molecule, **mRNA**.\n- **Translation** reads the mRNA to build a **protein**.\n\nThink of DNA as the master cookbook locked in the library, mRNA as a photocopy of one recipe, and the protein as the meal."
+  },
+  {
+   "type": "text",
+   "md": "## DNA vs RNA\n| | DNA | RNA |\n|---|---|---|\n| Strands | double helix | usually single |\n| Sugar | deoxyribose | ribose |\n| Bases | A, T, G, C | A, **U**, G, C |\n| Job | long-term storage | carries and uses the message |\n\nIn RNA, **uracil (U)** replaces thymine (T). Base pairing: **A–T** (or **A–U** in RNA) and **G–C**."
+  },
+  {
+   "type": "text",
+   "md": "## Transcription: DNA → mRNA\nIn the **nucleus**, the enzyme **RNA polymerase** unzips a gene and builds an mRNA strand complementary to one DNA strand (the template):\n\n| DNA template | T | A | C | G | G | A |\n|---|---|---|---|---|---|---|\n| mRNA | A | U | G | C | C | U |\n\nThe mRNA is edited (non-coding pieces called **introns** are cut out) and leaves the nucleus for the cytoplasm."
+  },
+  {
+   "type": "check",
+   "q": "A DNA template strand reads **GCA**. The mRNA is…",
+   "options": [
+    "GCA",
+    "CGT",
+    "CGU",
+    "UGC"
+   ],
+   "answer": 2,
+   "why": "G→C, C→G, A→**U** (RNA has no T)."
+  },
+  {
+   "type": "text",
+   "md": "## Translation: mRNA → protein\nAt a **ribosome**, the mRNA is read **three bases at a time**. Each triplet is a **codon**, and each codon specifies one amino acid.\n\n- **tRNA** molecules carry amino acids. Each has an **anticodon** that pairs with a matching codon.\n- The ribosome links the amino acids into a chain, which folds into a protein.\n- **AUG** is the **start codon** (it codes for methionine). **UAA, UAG** and **UGA** are **stop codons**.\n\nThere are **64** possible codons (4³) but only **20** amino acids, so most amino acids have several codons. This redundancy means some mutations change nothing."
+  },
+  {
+   "type": "example",
+   "title": "Read a message",
+   "problem": "mRNA: **AUG UUU GGC UAA**",
+   "steps": [
+    "AUG → start (methionine).",
+    "UUU → phenylalanine.",
+    "GGC → glycine.",
+    "UAA → stop."
+   ],
+   "answer": "A tiny chain: **Met–Phe–Gly**. Real proteins are usually hundreds of amino acids long."
+  },
+  {
+   "type": "text",
+   "md": "## Mutations\nA **mutation** is a change in the DNA sequence.\n\n| Type | What changes | Effect |\n|---|---|---|\n| **Silent** | one base, but the codon still means the same amino acid | none |\n| **Missense** | one base → a different amino acid | ranges from harmless to severe |\n| **Nonsense** | one base → a **stop** codon | protein cut short, usually nonfunctional |\n| **Frameshift** | a base **inserted or deleted** | every codon after it is misread |\n\n**Sickle-cell disease** is a missense mutation: a single base change in the hemoglobin gene swaps one amino acid (glutamic acid → valine). That one change makes hemoglobin clump, bending red blood cells into a sickle shape.\n\n**Frameshifts are usually worst.** THE CAT ATE THE RAT, delete the first E: THC ATA TET HER AT… every \"word\" after the error becomes nonsense."
+  },
+  {
+   "type": "check",
+   "q": "Inserting one extra base into a gene usually causes…",
+   "options": [
+    "a silent mutation",
+    "a frameshift that scrambles every codon after it",
+    "no change",
+    "an extra chromosome"
+   ],
+   "answer": 1,
+   "why": "The reading frame shifts by one."
+  },
+  {
+   "type": "text",
+   "md": "## Same DNA, different cells\nAlmost every cell in your body has the **same DNA**. A muscle cell and a nerve cell differ because they **express** (turn on) different genes. Muscle cells transcribe genes for actin and myosin; nerve cells, genes for neurotransmitter machinery.\n\n**Gene regulation** decides which genes are transcribed, when and how much. Signals like hormones, diet and exercise can change gene activity. Training literally changes which genes your muscle cells express."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **mRNA uses U, not T.**\n- **Codons are on mRNA; anticodons are on tRNA.**\n- **Not every mutation is harmful.** Many are silent or neutral, and some are beneficial (the raw material of evolution).\n- **Every cell doesn't have different DNA.** Different cells use different parts of the same DNA."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Transcription makes…",
+   "options": [
+    "protein from mRNA",
+    "mRNA from DNA",
+    "DNA from protein",
+    "DNA copies"
+   ],
+   "answer": 1,
+   "why": "DNA → RNA."
+  },
+  {
+   "type": "mc",
+   "q": "Translation happens at the…",
+   "options": [
+    "nucleus",
+    "ribosome",
+    "mitochondria",
+    "cell membrane"
+   ],
+   "answer": 1,
+   "why": "Ribosomes build proteins."
+  },
+  {
+   "type": "mc",
+   "q": "In RNA, adenine pairs with…",
+   "options": [
+    "thymine",
+    "uracil",
+    "guanine",
+    "cytosine"
+   ],
+   "answer": 1,
+   "why": "U replaces T."
+  },
+  {
+   "type": "num",
+   "q": "How many bases in one codon?",
+   "answer": 3,
+   "why": "Triplets.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "The start codon is…",
+   "options": [
+    "UAA",
+    "AUG",
+    "UGA",
+    "GGG"
+   ],
+   "answer": 1,
+   "why": "Codes for methionine."
+  },
+  {
+   "type": "num",
+   "q": "How many possible codons exist?",
+   "answer": 64,
+   "why": "4 bases, 3 positions: 4³.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "A mutation that changes a codon to a stop codon is…",
+   "options": [
+    "silent",
+    "missense",
+    "nonsense",
+    "frameshift"
+   ],
+   "answer": 2,
+   "why": "Cuts the protein short."
+  },
+  {
+   "type": "mc",
+   "q": "Sickle-cell disease is caused by…",
+   "options": [
+    "a missing chromosome",
+    "a single base substitution that changes one amino acid",
+    "a virus",
+    "a frameshift"
+   ],
+   "answer": 1,
+   "why": "Glutamic acid → valine."
+  },
+  {
+   "type": "mc",
+   "q": "DNA template: **TAC CCG ATT**. The mRNA is…",
+   "options": [
+    "ATG GGC TAA",
+    "AUG GGC UAA",
+    "UAC CCG AUU",
+    "AUG GGC UAG"
+   ],
+   "answer": 1,
+   "why": "T→A, A→U, C→G, G→C. Result: **AUG GGC UAA** = start, glycine, stop.",
+   "level": "challenge",
+   "hint": "Pair each base, remembering A pairs with U in RNA."
+  },
+  {
+   "type": "num",
+   "q": "An mRNA coding region has 450 bases, ending with a stop codon. How many amino acids are in the protein?",
+   "answer": 149,
+   "why": "450 ÷ 3 = 150 codons. The last is a stop codon, which adds no amino acid: **149**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Don't count the stop codon."
+  },
+  {
+   "type": "mc",
+   "q": "Which mutation is likely **least** harmful?",
+   "options": [
+    "deleting one base near the start of a gene",
+    "a substitution that changes CUU to CUC (both leucine)",
+    "a substitution creating a stop codon early",
+    "inserting two bases"
+   ],
+   "answer": 1,
+   "why": "Same amino acid → silent. Redundancy in the code protects against some mutations.",
+   "level": "challenge",
+   "hint": "Which one doesn't change the protein?"
+  },
+  {
+   "type": "mc",
+   "q": "A skin cell and a liver cell from the same person have…",
+   "options": [
+    "different DNA",
+    "the same DNA but express different genes",
+    "different numbers of chromosomes",
+    "no DNA"
+   ],
+   "answer": 1,
+   "why": "Specialization comes from gene regulation, not different genomes.",
+   "level": "challenge",
+   "hint": "Same cookbook, different recipes."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e"
+  },
+  {
+   "title": "NIH National Human Genome Research Institute: Talking Glossary of Genomic and Genetic Terms",
+   "url": "https://www.genome.gov/genetics-glossary"
+  }
+ ]
+}

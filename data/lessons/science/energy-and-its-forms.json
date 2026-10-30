@@ -1,0 +1,221 @@
+{
+ "id": "energy-and-its-forms",
+ "title": "Energy and its forms",
+ "band": "Grade 8",
+ "minutes": 32,
+ "lede": "Energy is never made or destroyed, only moved and changed. Follow it and you can explain a punch, a crash, a power bill and the food on your plate.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What energy is\n**Energy** is the ability to do **work**: to move something by pushing it through a distance. Both are measured in **joules (J)**.\n\n**Work = force × distance** (with the force in the direction of motion)\n\nPush a stalled car with 500 N for 10 m and you've done 500 × 10 = **5,000 J** of work, transferring 5,000 J of energy into the car. Push a wall all day and you do **zero** work on it (it doesn't move), even though you're exhausted. Your muscles burn energy internally, but none goes into the wall."
+  },
+  {
+   "type": "text",
+   "md": "## Kinetic energy: energy of motion\n**KE = ½ · m · v²**\n\nTwo things to notice:\n- Double the **mass** → double the energy.\n- Double the **speed** → **four times** the energy, because speed is squared.\n\nThat square is why speed matters so much in crashes and in fights. A punch's energy depends far more on hand speed than on arm mass. And all that kinetic energy has to go somewhere when a truck stops: into the brakes as **heat**. That's why brakes fade on long downhill grades: they overheat."
+  },
+  {
+   "type": "example",
+   "title": "Car vs truck at the same speed",
+   "problem": "Both go 25 m/s (about 56 mph). Car: 1,500 kg. Loaded truck: 36,000 kg.",
+   "steps": [
+    "Car: ½ × 1,500 × 25² = ½ × 1,500 × 625 = **468,750 J**.",
+    "Truck: ½ × 36,000 × 625 = **11,250,000 J** (11.25 megajoules)."
+   ],
+   "answer": "The truck carries **24 times** the energy. Its brakes have to turn all of it into heat to stop."
+  },
+  {
+   "type": "text",
+   "md": "## Potential energy: stored energy\nEnergy stored by position or condition:\n\n- **Gravitational**: **PE = m · g · h**. Lift something higher and you store energy in it.\n- **Elastic**: a stretched band, a compressed spring, a drawn bow.\n- **Chemical**: stored in the bonds of fuel, food and batteries.\n- **Nuclear**: stored in atomic nuclei; released in the Sun and in power plants."
+  },
+  {
+   "type": "text",
+   "md": "## Conservation of energy\n**Energy cannot be created or destroyed. It only changes form or moves.** This is one of the most tested laws in all of science; no experiment has ever broken it.\n\nA dropped rock: **PE at the top** → turns into **KE** on the way down → at impact, turns into **sound, heat and deformation**. The total never changes.\n\nSo where does energy go when things \"lose\" it? Almost always into **thermal energy**: random motion of molecules, i.e., heat. It's still there. It's just spread out and hard to use again."
+  },
+  {
+   "type": "check",
+   "q": "A roller coaster car (no friction) starts at rest at the top of a 45 m hill. At the bottom, its kinetic energy equals…",
+   "options": [
+    "zero",
+    "its potential energy at the top",
+    "half its potential energy at the top",
+    "twice its potential energy at the top"
+   ],
+   "answer": 1,
+   "why": "With no friction, **all** the PE becomes KE. Energy is conserved."
+  },
+  {
+   "type": "example",
+   "title": "Speed from height",
+   "problem": "A wrench falls off a 20 m bridge. How fast is it going when it hits the water? (Ignore air.)",
+   "steps": [
+    "PE at top = KE at bottom: m·g·h = ½·m·v².",
+    "Mass cancels: v² = 2·g·h = 2 × 9.8 × 20 = 392.",
+    "v = √392 ≈ 19.8 m/s."
+   ],
+   "answer": "**About 19.8 m/s** (≈ 44 mph). Notice the mass canceled: a wrench and a bolt hit at the same speed."
+  },
+  {
+   "type": "text",
+   "md": "## Power: how fast energy moves\n**Power = energy ÷ time**, measured in **watts (W)**. 1 W = 1 J per second.\n\n- **1 horsepower ≈ 746 W.** A 500 hp truck engine can deliver about 373,000 J every second.\n- Your power bill charges by the **kilowatt-hour (kWh)**: 1,000 W running for 1 hour = **3.6 million J**.\n\nTwo people can do the same **work** climbing a flight of stairs; the one who sprints up uses more **power**."
+  },
+  {
+   "type": "text",
+   "md": "## Food is energy too\nA food **Calorie** (capital C) is a kilocalorie: **1 Calorie = 4,184 J**.\n\nA 3,100-Calorie day is about **13 million joules**, roughly the kinetic energy of that loaded truck at highway speed. When you train, your muscles turn only about 20–25% of the energy they burn into motion; the rest becomes body heat. That's why you get hot when you train."
+  },
+  {
+   "type": "text",
+   "md": "## Efficiency\n**Efficiency = useful energy out ÷ total energy in.**\n\nNo machine is 100% efficient; some energy always ends up as heat. Rough numbers:\n\n| Machine | Efficiency |\n|---|---|\n| Gasoline car engine | about 20–35% |\n| Big diesel truck engine | about 40–45% at its best |\n| Electric motor | about 85–95% |\n| LED bulb (energy → light) | far better than old incandescent bulbs (~5%) |\n\nSo when you fill up a gas car, most of the fuel's energy heats the engine and the air."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Work needs motion in the direction of the force.** Carrying a box across a level room does almost no work on the box, physics-wise, because you push up and it moves sideways.\n- **\"Using up\" energy** really means turning it into less useful forms, mostly heat.\n- **KE grows with v², not v.** Most people underestimate how much more dangerous 80 mph is than 60 mph: (80/60)² ≈ 1.78, so about 78% more energy."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "You push a crate with 300 N for 4 m. Work done?",
+   "answer": 1200,
+   "why": "W = F × d = 300 × 4 = 1,200 J.",
+   "tol": 0.001,
+   "unit": "J"
+  },
+  {
+   "type": "num",
+   "q": "Kinetic energy of a 2 kg ball moving at 3 m/s?",
+   "answer": 9,
+   "why": "KE = ½ × 2 × 3² = 9 J.",
+   "tol": 0.001,
+   "unit": "J"
+  },
+  {
+   "type": "num",
+   "q": "Potential energy of a 10 kg box on a 5 m shelf? (g = 9.8)",
+   "answer": 490,
+   "why": "PE = m·g·h = 10 × 9.8 × 5 = 490 J.",
+   "tol": 0.001,
+   "unit": "J"
+  },
+  {
+   "type": "mc",
+   "q": "If you double a car's speed, its kinetic energy becomes…",
+   "options": [
+    "2 times as large",
+    "4 times as large",
+    "half as large",
+    "unchanged"
+   ],
+   "answer": 1,
+   "why": "KE has v² in it: 2² = 4."
+  },
+  {
+   "type": "mc",
+   "q": "Where does most of a truck's kinetic energy go when it brakes to a stop?",
+   "options": [
+    "It's destroyed",
+    "Heat in the brakes",
+    "Back into the fuel",
+    "Sound"
+   ],
+   "answer": 1,
+   "why": "Friction in the brakes turns KE into **thermal energy**."
+  },
+  {
+   "type": "num",
+   "q": "A 1,200 W microwave runs for 30 seconds. Energy used?",
+   "answer": 36000,
+   "why": "Energy = power × time = 1,200 × 30 = 36,000 J.",
+   "tol": 0.001,
+   "unit": "J"
+  },
+  {
+   "type": "mc",
+   "q": "A machine takes in 1,000 J and puts out 250 J of useful work. Its efficiency is…",
+   "options": [
+    "25%",
+    "75%",
+    "250%",
+    "4%"
+   ],
+   "answer": 0,
+   "why": "250 ÷ 1,000 = 0.25 = 25%."
+  },
+  {
+   "type": "mc",
+   "q": "You hold a 20 kg barbell overhead, perfectly still, for 30 seconds. Work done **on the barbell**:",
+   "options": [
+    "600 J",
+    "0 J",
+    "196 J",
+    "5,880 J"
+   ],
+   "answer": 1,
+   "why": "It doesn't move, so **no work** is done on it. Your muscles still burn energy internally."
+  },
+  {
+   "type": "num",
+   "q": "A stone falls from rest off a 45 m cliff. Speed at the bottom? (g = 9.8, ignore air; round to 1 decimal)",
+   "answer": 29.7,
+   "why": "m·g·h = ½·m·v² → v = √(2·g·h) = √(2 × 9.8 × 45) = √882 ≈ **29.7 m/s**.",
+   "tol": 0.1,
+   "unit": "m/s",
+   "level": "challenge",
+   "hint": "Set PE at the top equal to KE at the bottom. The mass cancels."
+  },
+  {
+   "type": "num",
+   "q": "A 1,500 W space heater runs 4 hours a day for 30 days at $0.15 per kWh. Cost in dollars?",
+   "answer": 27,
+   "why": "1.5 kW × 4 h = 6 kWh per day. × 30 days = 180 kWh. × $0.15 = **$27**.",
+   "tol": 0.01,
+   "unit": "dollars",
+   "level": "challenge",
+   "hint": "Convert watts to kilowatts, multiply by hours, then by the price.",
+   "steps": [
+    "1,500 W = 1.5 kW.",
+    "1.5 kW × 4 h = 6 kWh per day.",
+    "6 × 30 = 180 kWh.",
+    "180 × 0.15 = 27."
+   ]
+  },
+  {
+   "type": "mc",
+   "q": "A truck goes from 60 mph to 80 mph. Its kinetic energy goes up by about…",
+   "options": [
+    "33%",
+    "78%",
+    "20%",
+    "100%"
+   ],
+   "answer": 1,
+   "why": "KE ∝ v². (80 ÷ 60)² = (4/3)² = 16/9 ≈ 1.78, so about **78% more** energy, and about 78% more braking distance.",
+   "level": "challenge",
+   "hint": "Square the ratio of the speeds."
+  },
+  {
+   "type": "num",
+   "q": "A 3,100-Calorie day of food is how many **million** joules? (1 Calorie = 4,184 J; round to 1 decimal)",
+   "answer": 13.0,
+   "why": "3,100 × 4,184 = 12,970,400 J ≈ **13.0 million J**.",
+   "tol": 0.06,
+   "unit": "million J",
+   "level": "challenge",
+   "hint": "Multiply, then divide by 1,000,000."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Physics (high school)",
+   "url": "https://openstax.org/details/books/physics"
+  },
+  {
+   "title": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/details/books/college-physics-2e"
+  },
+  {
+   "title": "U.S. Energy Information Administration: Energy explained",
+   "url": "https://www.eia.gov/energyexplained/"
+  }
+ ]
+}

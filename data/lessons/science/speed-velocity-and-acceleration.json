@@ -1,0 +1,222 @@
+{
+ "id": "speed-velocity-and-acceleration",
+ "title": "Speed, velocity and acceleration",
+ "band": "Grade 8",
+ "minutes": 32,
+ "lede": "How fast, which way, and how quickly that's changing. The three ideas that describe every moving thing, from a jab to an 80,000-lb truck.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Distance vs displacement\n**Distance** is how much ground you covered. **Displacement** is how far you ended up from where you started, **and in which direction**.\n\nRun one full lap of a 400 m track: distance = **400 m**, displacement = **0 m**. You ended where you began.\n\nThat difference sounds picky. It's the whole key to the next idea."
+  },
+  {
+   "type": "text",
+   "md": "## Speed vs velocity\n- **Speed** = distance ÷ time. It tells you *how fast*.\n- **Velocity** = displacement ÷ time. It tells you *how fast* **and which way**.\n\nQuantities with a direction are called **vectors** (velocity, displacement, force). Quantities without one are **scalars** (speed, distance, mass, time).\n\nA truck going 60 mph north and one going 60 mph south have the **same speed** and **different velocities**. If they're heading toward each other, that difference matters a lot."
+  },
+  {
+   "type": "text",
+   "md": "## Units and conversions\nScience uses **meters per second** (m/s). Roads use miles per hour (mph). The bridge:\n\n**1 mph ≈ 0.447 m/s** and **1 m/s ≈ 2.24 mph**\n\n| mph | m/s | Feel |\n|---|---|---|\n| 3 | 1.3 | walking |\n| 15 | 6.7 | sprinting human |\n| 30 | 13.4 | city street |\n| 60 | 26.8 | highway |\n| 70 | 31.3 | interstate |\n\nA useful image: at 60 mph you cover about **27 meters every second**, a little more than the length of a full tractor-trailer."
+  },
+  {
+   "type": "example",
+   "title": "Average speed",
+   "problem": "You drive 150 miles in 2.5 hours. What's your average speed?",
+   "steps": [
+    "Average speed = total distance ÷ total time.",
+    "150 ÷ 2.5 = 60."
+   ],
+   "answer": "**60 mph**. Average speed tells you nothing about the moments you were stopped or going 75."
+  },
+  {
+   "type": "text",
+   "md": "## Acceleration\n**Acceleration** is how fast velocity **changes**:\n\n**acceleration = change in velocity ÷ time**, written **a = Δv ÷ t** (Δ, \"delta,\" means *change in*)\n\nUnits: (m/s) per second = **m/s²**.\n\nA car going from 0 to 27 m/s (60 mph) in 9 seconds accelerates at 27 ÷ 9 = **3 m/s²**: it gains 3 m/s of speed every second.\n\nThree ways to accelerate, because velocity has speed **and** direction:\n1. **Speed up**\n2. **Slow down** (negative acceleration, or deceleration)\n3. **Turn**, even at constant speed. Your direction changes, so your velocity changes."
+  },
+  {
+   "type": "check",
+   "q": "A truck drives around a curve at a steady 45 mph. Is it accelerating?",
+   "options": [
+    "No, its speed is constant",
+    "Yes, its direction is changing",
+    "Only if it brakes",
+    "Only if the road is banked"
+   ],
+   "answer": 1,
+   "why": "Velocity includes direction. Turning changes the direction, so the truck **is** accelerating, toward the inside of the curve. That's why loose cargo slides outward."
+  },
+  {
+   "type": "text",
+   "md": "## Gravity: the acceleration everyone shares\nNear Earth's surface, anything falling freely (ignoring air) accelerates at **g ≈ 9.8 m/s²**, regardless of mass. A bowling ball and a baseball dropped together land together. Galileo figured this out around 1600; Apollo 15 astronaut David Scott proved it on the Moon in 1971 by dropping a hammer and a feather: with no air, they landed at the same time."
+  },
+  {
+   "type": "text",
+   "md": "## Reading motion graphs\n| Graph | Slope means | Area under it means |\n|---|---|---|\n| Position vs time | **velocity** | (not used) |\n| Velocity vs time | **acceleration** | **displacement** |\n\nA flat line on a position-time graph = standing still. A flat line on a velocity-time graph = constant velocity (zero acceleration). Steeper = faster change."
+  },
+  {
+   "type": "text",
+   "md": "## The equations for constant acceleration\nWhen acceleration stays constant, three equations connect everything (v₀ = starting velocity, v = final velocity, a = acceleration, t = time, d = displacement):\n\n1. **v = v₀ + a·t**\n2. **d = v₀·t + ½·a·t²**\n3. **v² = v₀² + 2·a·d**\n\nPick the one that has the three things you know and the one you want."
+  },
+  {
+   "type": "example",
+   "title": "Why speed kills: braking distance",
+   "problem": "A truck at 25 m/s brakes at a steady 5 m/s². How far does it travel while stopping? What if it was going 50 m/s?",
+   "steps": [
+    "Use v² = v₀² + 2·a·d with final v = 0 and a = −5 (slowing down).",
+    "0 = 25² − 2·5·d → d = 625 ÷ 10 = **62.5 m**.",
+    "At 50 m/s: d = 50² ÷ 10 = 2,500 ÷ 10 = **250 m**."
+   ],
+   "answer": "**Double the speed, four times the braking distance.** Distance grows with speed **squared**. That's physics, not opinion, and it's why speed limits for trucks exist."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Average speed isn't the average of the speeds.** Drive 60 mi at 60 mph and 60 mi back at 40 mph: total time = 1 h + 1.5 h = 2.5 h, total distance 120 mi, average = **48 mph**, not 50. You spent more *time* at the slower speed.\n- **Negative acceleration doesn't always mean slowing down.** It means acceleration points in the negative direction. If you're already moving in the negative direction, it speeds you up.\n- **Heavier objects don't fall faster** (without air). Air resistance is what makes a feather drift."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "A runner covers 400 m in 80 s. Average speed in m/s?",
+   "answer": 5,
+   "why": "400 ÷ 80 = 5 m/s.",
+   "tol": 0.001,
+   "unit": "m/s"
+  },
+  {
+   "type": "num",
+   "q": "Convert 70 mph to m/s (round to 1 decimal).",
+   "answer": 31.3,
+   "why": "70 × 0.447 ≈ 31.3 m/s.",
+   "tol": 0.15,
+   "unit": "m/s"
+  },
+  {
+   "type": "mc",
+   "q": "Which is a **vector**?",
+   "options": [
+    "speed",
+    "distance",
+    "velocity",
+    "time"
+   ],
+   "answer": 2,
+   "why": "Velocity has a direction. The others are just size."
+  },
+  {
+   "type": "num",
+   "q": "A car goes from 0 to 24 m/s in 8 s. Acceleration?",
+   "answer": 3,
+   "why": "a = Δv ÷ t = 24 ÷ 8 = 3 m/s².",
+   "tol": 0.001,
+   "unit": "m/s²"
+  },
+  {
+   "type": "mc",
+   "q": "You run one full lap around a 400 m track in 100 s. Your average **velocity** is…",
+   "options": [
+    "4 m/s",
+    "0 m/s",
+    "400 m/s",
+    "1 m/s"
+   ],
+   "answer": 1,
+   "why": "Displacement is 0 (you ended where you started), so average velocity is 0. Average **speed** is 4 m/s."
+  },
+  {
+   "type": "num",
+   "q": "A rock falls from rest for 3 s. How fast is it going? (g = 9.8 m/s², ignore air)",
+   "answer": 29.4,
+   "why": "v = v₀ + a·t = 0 + 9.8 × 3 = 29.4 m/s.",
+   "tol": 0.05,
+   "unit": "m/s"
+  },
+  {
+   "type": "mc",
+   "q": "On a **velocity-time** graph, the slope tells you…",
+   "options": [
+    "position",
+    "acceleration",
+    "distance",
+    "mass"
+   ],
+   "answer": 1,
+   "why": "Slope of velocity vs time = change in velocity ÷ time = acceleration."
+  },
+  {
+   "type": "mc",
+   "q": "Which is **not** acceleration?",
+   "options": [
+    "Speeding up on an on-ramp",
+    "Braking at a light",
+    "Driving a curve at a steady 40 mph",
+    "Cruising straight at a steady 65 mph"
+   ],
+   "answer": 3,
+   "why": "Constant speed **and** constant direction = constant velocity = zero acceleration."
+  },
+  {
+   "type": "num",
+   "q": "You drive 120 miles to a delivery at 60 mph and back at 40 mph. What's your average speed for the round trip?",
+   "answer": 48,
+   "why": "Time out = 120 ÷ 60 = 2 h. Time back = 120 ÷ 40 = 3 h. Total: 240 mi ÷ 5 h = **48 mph**. You spent more time at the slow speed, so the average leans toward it.",
+   "tol": 0.001,
+   "unit": "mph",
+   "level": "challenge",
+   "hint": "Average speed = total distance ÷ total time. Find each leg's time first.",
+   "steps": [
+    "Out: 120 ÷ 60 = 2 h.",
+    "Back: 120 ÷ 40 = 3 h.",
+    "Total: 240 mi in 5 h.",
+    "240 ÷ 5 = 48 mph."
+   ]
+  },
+  {
+   "type": "num",
+   "q": "A truck's braking distance at 20 m/s is 40 m. Same brakes, same road, at 30 m/s. Braking distance?",
+   "answer": 90,
+   "why": "Braking distance grows with speed **squared**. Speed × 1.5 → distance × 1.5² = 2.25. 40 × 2.25 = **90 m**.",
+   "tol": 0.001,
+   "unit": "m",
+   "level": "challenge",
+   "hint": "If speed goes up by 1.5×, distance goes up by 1.5 squared.",
+   "steps": [
+    "Ratio of speeds: 30 ÷ 20 = 1.5.",
+    "Distance scales with speed squared: 1.5² = 2.25.",
+    "40 × 2.25 = 90 m."
+   ]
+  },
+  {
+   "type": "num",
+   "q": "A car brakes from 30 m/s to a stop in 75 m. What is the size of its deceleration?",
+   "answer": 6,
+   "why": "v² = v₀² + 2·a·d → 0 = 900 + 2·a·75 → a = −900 ÷ 150 = −6 m/s². The size is **6 m/s²**.",
+   "tol": 0.001,
+   "unit": "m/s²",
+   "level": "challenge",
+   "hint": "Use v² = v₀² + 2·a·d with final velocity 0."
+  },
+  {
+   "type": "mc",
+   "q": "A ball is thrown straight up. At the very top, for an instant, its velocity is 0. What is its acceleration there?",
+   "options": [
+    "0",
+    "9.8 m/s² downward",
+    "9.8 m/s² upward",
+    "It depends on how hard it was thrown"
+   ],
+   "answer": 1,
+   "why": "Gravity never switches off. Velocity is momentarily 0, but it's still **changing** at 9.8 m/s² downward, which is why the ball starts falling. Zero velocity ≠ zero acceleration.",
+   "level": "challenge",
+   "hint": "Is gravity still pulling at the top?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Physics (high school)",
+   "url": "https://openstax.org/details/books/physics"
+  },
+  {
+   "title": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/details/books/college-physics-2e"
+  }
+ ]
+}

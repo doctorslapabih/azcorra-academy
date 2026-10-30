@@ -1,0 +1,215 @@
+{
+ "id": "forces-and-newton-s-laws",
+ "title": "Forces and Newton's laws",
+ "band": "Grade 8",
+ "minutes": 32,
+ "lede": "Three laws, written in 1687, still explain every push, pull, punch and crash. Learn them the way an engineer does.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What a force is\nA **force** is a push or a pull. It has a size and a direction (it's a vector), and it's measured in **newtons (N)**. One newton is about the weight of a small apple, roughly 0.22 lb.\n\nObjects usually have several forces on them at once. What matters is the **net force**: all the forces added up, with direction.\n\n- 100 N right + 100 N left = **0 N net**: balanced. No change in motion.\n- 100 N right + 60 N left = **40 N right**: unbalanced. The object accelerates to the right."
+  },
+  {
+   "type": "text",
+   "md": "## Newton's first law: inertia\n**An object keeps doing what it's doing, staying still or moving in a straight line at a steady speed, unless a net force acts on it.**\n\nThat tendency to keep doing the same thing is **inertia**, and the more **mass** something has, the more inertia.\n\nThis is the most misunderstood law in physics. People assume things *naturally* slow down. They don't. They slow down because **friction and air resistance** are forces acting on them. In space, a thrown wrench flies forever.\n\nIn a truck: when you brake hard, the truck slows, but an unsecured load **keeps moving forward** at the old speed until something stops it, often the cab. That's not the load *flying forward*; it's the truck *stopping* underneath it. It's why cargo securement rules exist."
+  },
+  {
+   "type": "check",
+   "q": "A hockey puck slides across smooth ice and slowly stops. Why does it stop?",
+   "options": [
+    "Moving objects naturally run out of motion",
+    "Friction from the ice and air act against it",
+    "Its inertia runs out",
+    "Gravity pulls it backward"
+   ],
+   "answer": 1,
+   "why": "Without a force, it would slide forever. **Friction** is the force that stops it. Inertia never runs out."
+  },
+  {
+   "type": "text",
+   "md": "## Newton's second law: F = m·a\n**net force = mass × acceleration**, or **F = m·a**.\n\nRearranged, **a = F ÷ m**: the same force accelerates a light object a lot and a heavy one a little.\n\n| Same 2,000 N push on… | Mass | Acceleration |\n|---|---|---|\n| a 100 kg person on a cart | 100 kg | 20 m/s² |\n| a 1,500 kg car | 1,500 kg | 1.3 m/s² |\n| a 36,000 kg loaded truck | 36,000 kg | 0.06 m/s² |\n\nRun it in reverse for stopping: a fully loaded truck needs about **24 times** the braking force of a car to slow down equally fast. Brakes that can't deliver that just stop the truck over a longer distance."
+  },
+  {
+   "type": "text",
+   "md": "## Mass vs weight\n- **Mass** = how much matter (kg). It's the same everywhere.\n- **Weight** = the force of gravity on that mass (N). **W = m·g**.\n\nAn 80 kg fighter weighs 80 × 9.8 = **784 N** on Earth. On the Moon (g = 1.62 m/s²) he'd weigh about **130 N**, but his mass is still 80 kg. He'd be just as hard to push sideways, just much easier to lift.\n\n(Bathroom scales show *pounds* or *kg* by quietly converting from the force they actually measure.)"
+  },
+  {
+   "type": "text",
+   "md": "## Newton's third law: action and reaction\n**When object A pushes on object B, B pushes back on A with an equal force in the opposite direction.**\n\n- Throw a punch into a heavy bag: the bag pushes back on your fist just as hard. That's what you feel in your wrist.\n- A truck's tires push **backward** on the road; the road pushes the truck **forward**. On ice, the tires can't push back hard enough, so you can't go anywhere.\n\nIf the forces are equal and opposite, why does anything move? Because they act on **different objects**. The bag's push acts on your fist; your push acts on the bag. Forces only cancel when they act on the **same** object."
+  },
+  {
+   "type": "check",
+   "q": "A small car hits a big truck head-on. Which statement is true?",
+   "options": [
+    "The truck hits the car harder",
+    "The car and truck push on each other with equal force",
+    "The car hits the truck harder because it's faster",
+    "Only the car feels a force"
+   ],
+   "answer": 1,
+   "why": "Third law: **equal force** on each. The car is wrecked worse because the same force on **less mass** means far more acceleration (a = F ÷ m), and acceleration is what injures."
+  },
+  {
+   "type": "text",
+   "md": "## Friction\n**Friction** is the force that resists surfaces sliding across each other. Two kinds:\n\n- **Static friction**: holds things still or keeps a rolling tire from slipping. It's **stronger**.\n- **Kinetic friction**: acts once something is sliding. It's **weaker**.\n\nThat's the reason **anti-lock brakes (ABS)** exist. A rolling tire grips the road with static friction. A locked, skidding tire slides with weaker kinetic friction, and it can't steer. ABS pulses the brakes so the tires keep rolling, keeping the stronger grip.\n\nFriction depends on how hard the surfaces are pressed together (the **normal force**) and on the surfaces themselves (rubber on dry asphalt grips far better than rubber on ice)."
+  },
+  {
+   "type": "example",
+   "title": "Net force and acceleration",
+   "problem": "A 1,200 kg car's engine pushes it forward with 3,000 N. Air and road friction push back with 600 N. What's its acceleration?",
+   "steps": [
+    "Net force = 3,000 − 600 = 2,400 N forward.",
+    "a = F ÷ m = 2,400 ÷ 1,200 = 2 m/s²."
+   ],
+   "answer": "**2 m/s² forward.** Always find the **net** force first."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **\"Motion needs a force.\"** No: **changes** in motion need a force. Steady motion needs none.\n- **Action-reaction pairs never cancel each other,** because they act on different objects.\n- **Heavier ≠ falls faster.** More mass means more weight (force), but also more inertia. In F = m·a, the mass cancels: everything falls at g."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "What net force gives a 50 kg cart an acceleration of 4 m/s²?",
+   "answer": 200,
+   "why": "F = m·a = 50 × 4 = 200 N.",
+   "tol": 0.001,
+   "unit": "N"
+  },
+  {
+   "type": "num",
+   "q": "A 2,000 N net force acts on a 500 kg trailer. Acceleration?",
+   "answer": 4,
+   "why": "a = F ÷ m = 2,000 ÷ 500 = 4 m/s².",
+   "tol": 0.001,
+   "unit": "m/s²"
+  },
+  {
+   "type": "num",
+   "q": "Weight of a 70 kg person on Earth? (g = 9.8 m/s²)",
+   "answer": 686,
+   "why": "W = m·g = 70 × 9.8 = 686 N.",
+   "tol": 0.001,
+   "unit": "N"
+  },
+  {
+   "type": "mc",
+   "q": "Forces of 300 N east and 300 N west act on a box sitting still. The box…",
+   "options": [
+    "accelerates east",
+    "stays still",
+    "accelerates west",
+    "has no forces on it"
+   ],
+   "answer": 1,
+   "why": "Net force = 0, so no change in motion."
+  },
+  {
+   "type": "mc",
+   "q": "When a bus stops suddenly, standing riders lurch forward because of…",
+   "options": [
+    "a forward force from the bus",
+    "inertia",
+    "gravity",
+    "the third law"
+   ],
+   "answer": 1,
+   "why": "Their bodies keep moving forward while the bus stops: **inertia**. Nothing pushes them forward."
+  },
+  {
+   "type": "mc",
+   "q": "A rocket in space pushes hot gas backward. What pushes the rocket forward?",
+   "options": [
+    "The air behind it",
+    "The gas pushing back on the rocket",
+    "Gravity",
+    "Nothing; it just moves"
+   ],
+   "answer": 1,
+   "why": "Third law: rocket pushes gas back, **gas pushes rocket forward**. No air needed."
+  },
+  {
+   "type": "mc",
+   "q": "Your mass on the Moon compared to Earth is…",
+   "options": [
+    "about 1/6",
+    "the same",
+    "zero",
+    "6 times bigger"
+   ],
+   "answer": 1,
+   "why": "**Mass** doesn't change. Your **weight** drops to about 1/6."
+  },
+  {
+   "type": "mc",
+   "q": "Why do anti-lock brakes help a truck stop and steer?",
+   "options": [
+    "They make the brakes stronger",
+    "They keep tires rolling, using stronger static friction",
+    "They add weight to the wheels",
+    "They reduce air resistance"
+   ],
+   "answer": 1,
+   "why": "A skidding tire uses weaker kinetic friction and can't steer."
+  },
+  {
+   "type": "num",
+   "q": "A 900 kg car's engine pushes with 2,700 N while friction pushes back with 900 N. Acceleration?",
+   "answer": 2,
+   "why": "Net force = 2,700 − 900 = 1,800 N. a = 1,800 ÷ 900 = **2 m/s²**.",
+   "tol": 0.001,
+   "unit": "m/s²",
+   "level": "challenge",
+   "hint": "Find the net force first."
+  },
+  {
+   "type": "num",
+   "q": "A loaded truck (36,000 kg) and a car (1,500 kg) both need to slow at 4 m/s². How many times more braking force does the truck need?",
+   "answer": 24,
+   "why": "F = m·a with the same a, so force scales with mass: 36,000 ÷ 1,500 = **24 times**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Same acceleration. What's left in F = m·a?"
+  },
+  {
+   "type": "mc",
+   "q": "You stand on a scale in an elevator that **accelerates upward**. The scale reads…",
+   "options": [
+    "your normal weight",
+    "more than your normal weight",
+    "less than your normal weight",
+    "zero"
+   ],
+   "answer": 1,
+   "why": "To accelerate you upward, the floor must push up **harder** than gravity pulls down: N − m·g = m·a, so N = m(g + a). The scale reads that push.",
+   "level": "challenge",
+   "hint": "For you to accelerate up, which force has to be bigger: the floor's push or gravity's pull?"
+  },
+  {
+   "type": "mc",
+   "q": "A horse pulls a cart. By the third law, the cart pulls back on the horse equally hard. So how does the cart move?",
+   "options": [
+    "It can't; the forces cancel",
+    "The forces act on different objects; the horse pushes the ground harder than the cart pulls back on it",
+    "The horse is heavier",
+    "The third law doesn't apply to animals"
+   ],
+   "answer": 1,
+   "why": "Look at the **horse** alone: the ground pushes it forward (third-law reaction to its hooves pushing back) harder than the cart pulls it back, so the horse accelerates. Look at the **cart**: the horse's pull is bigger than friction on the cart, so it accelerates too.",
+   "level": "challenge",
+   "hint": "Forces only cancel when they act on the same object. List the forces on the horse alone."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Physics (high school)",
+   "url": "https://openstax.org/details/books/physics"
+  },
+  {
+   "title": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/details/books/college-physics-2e"
+  }
+ ]
+}

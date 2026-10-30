@@ -1,0 +1,218 @@
+{
+ "id": "waves-sound-and-light",
+ "title": "Waves, sound and light",
+ "band": "Grade 8",
+ "minutes": 32,
+ "lede": "A wave moves energy without moving stuff along with it. One equation, v = f·λ, explains your voice, your Wi-Fi and the color of the sky.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What a wave is\nA **wave** is a disturbance that carries **energy** from place to place **without carrying matter along**. When a stadium does \"the wave,\" the wave travels around the stadium but every fan stays in their seat.\n\nTwo kinds of motion:\n- **Transverse**: the medium moves **perpendicular** to the wave's direction (a rope flicked up and down, light).\n- **Longitudinal**: the medium moves **back and forth along** the wave's direction (sound: air squeezed and stretched)."
+  },
+  {
+   "type": "text",
+   "md": "## Measuring a wave\n| Term | Meaning | Unit |\n|---|---|---|\n| **Amplitude** | how big the disturbance is | depends |\n| **Wavelength (λ)** | distance from one crest to the next | m |\n| **Frequency (f)** | waves passing per second | hertz (Hz) |\n| **Period (T)** | time for one wave | s |\n\nFrequency and period are flips of each other: **T = 1 ÷ f**. A 50 Hz wave has a period of 1/50 = 0.02 s.\n\nAnd the master equation:\n\n**wave speed = frequency × wavelength**, or **v = f · λ**"
+  },
+  {
+   "type": "check",
+   "q": "If a wave's frequency doubles while its speed stays the same, its wavelength…",
+   "options": [
+    "doubles",
+    "is cut in half",
+    "stays the same",
+    "quadruples"
+   ],
+   "answer": 1,
+   "why": "v = f·λ. If v is fixed and f doubles, λ must halve. More waves per second means each one is shorter."
+  },
+  {
+   "type": "text",
+   "md": "## Sound\nSound is a **longitudinal** wave of pressure. It needs a **medium** (air, water, steel) to travel through. In space, no one can hear you scream: there's nothing to carry the wave.\n\n| Medium | Speed of sound (approx.) |\n|---|---|\n| Air at 20 °C | 343 m/s |\n| Water | 1,480 m/s |\n| Steel | 5,900 m/s |\n\nSound goes **faster in denser, stiffer materials** because the particles are tightly linked and pass the push along quickly. That's why you can hear a train in the rails before you hear it in the air.\n\n- **Pitch** = frequency. Human ears hear roughly **20 Hz to 20,000 Hz**.\n- **Loudness** = amplitude, measured in **decibels (dB)**. The scale is logarithmic: **+10 dB = 10 times the intensity**, which sounds about twice as loud."
+  },
+  {
+   "type": "example",
+   "title": "How far away was the lightning?",
+   "problem": "You see lightning, then hear thunder 6 seconds later.",
+   "steps": [
+    "Light arrives almost instantly. Sound travels about 343 m/s.",
+    "Distance = 343 × 6 ≈ 2,060 m."
+   ],
+   "answer": "**About 2 km.** Rule of thumb: every **3 seconds ≈ 1 km**, or every **5 seconds ≈ 1 mile**."
+  },
+  {
+   "type": "text",
+   "md": "## The Doppler effect\nWhen a source of sound moves **toward** you, its waves bunch up: shorter wavelength, **higher pitch**. Moving **away**, they stretch out: **lower pitch**. That's the *neeeee-owww* of a passing siren.\n\nPolice radar uses the same effect with radio waves to measure your speed, and astronomers use it with light to measure how fast galaxies are moving away from us."
+  },
+  {
+   "type": "text",
+   "md": "## Light and the electromagnetic spectrum\nLight is a **transverse electromagnetic wave**. Unlike sound, it needs **no medium**: it crosses empty space at the fastest speed in the universe:\n\n**c ≈ 300,000,000 m/s** (3 × 10⁸ m/s)\n\nVisible light is a tiny slice of the **electromagnetic spectrum**. From long wavelength / low energy to short wavelength / high energy:\n\n| Type | Example use |\n|---|---|\n| Radio | FM, AM, CB radio |\n| Microwave | cooking, Wi-Fi, cell phones |\n| Infrared | heat, TV remotes, night vision |\n| **Visible** (red → violet, ~700 to ~400 nm) | sight |\n| Ultraviolet | sunburn, black lights |\n| X-ray | medical imaging |\n| Gamma | nuclear reactions, cancer treatment |\n\nHigher frequency means more energy per photon. That's why UV can burn skin and radio can't."
+  },
+  {
+   "type": "example",
+   "title": "FM radio wavelength",
+   "problem": "An FM station broadcasts at 100 MHz (100,000,000 Hz). What's its wavelength?",
+   "steps": [
+    "λ = v ÷ f = 3 × 10⁸ ÷ 1 × 10⁸.",
+    "λ = 3 m."
+   ],
+   "answer": "**3 meters.** Radio antennas are often sized to a fraction of the wavelength they receive."
+  },
+  {
+   "type": "text",
+   "md": "## Reflection and refraction\n- **Reflection**: a wave bounces off a surface. Mirrors, echoes, sonar.\n- **Refraction**: a wave **bends** when it passes into a material where it travels at a different speed. A straw in water looks broken because light slows down in water. Lenses in glasses and cameras use refraction to focus light.\n\nWhite light refracts by slightly different amounts for each color, which is how a prism, or a raindrop, splits it into a rainbow."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Waves carry energy, not matter.** Ocean waves move water up and down far more than forward.\n- **Sound vs light speed:** light is about **875,000 times** faster than sound in air.\n- **Louder ≠ higher.** Loudness is amplitude; pitch is frequency. They're independent."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "A wave has frequency 5 Hz and wavelength 2 m. Its speed?",
+   "answer": 10,
+   "why": "v = f·λ = 5 × 2 = 10 m/s.",
+   "tol": 0.001,
+   "unit": "m/s"
+  },
+  {
+   "type": "num",
+   "q": "A sound wave in air (343 m/s) has frequency 343 Hz. Wavelength?",
+   "answer": 1,
+   "why": "λ = v ÷ f = 343 ÷ 343 = 1 m.",
+   "tol": 0.001,
+   "unit": "m"
+  },
+  {
+   "type": "mc",
+   "q": "Sound can't travel through…",
+   "options": [
+    "water",
+    "steel",
+    "a vacuum (empty space)",
+    "air"
+   ],
+   "answer": 2,
+   "why": "Sound needs a medium to push through."
+  },
+  {
+   "type": "mc",
+   "q": "The **pitch** of a sound is set by its…",
+   "options": [
+    "amplitude",
+    "frequency",
+    "speed",
+    "medium"
+   ],
+   "answer": 1,
+   "why": "Higher frequency = higher pitch."
+  },
+  {
+   "type": "num",
+   "q": "Thunder arrives 9 seconds after the lightning. About how many km away was the strike?",
+   "answer": 3,
+   "why": "Every 3 s ≈ 1 km: 9 ÷ 3 = 3 km.",
+   "tol": 0.15,
+   "unit": "km"
+  },
+  {
+   "type": "mc",
+   "q": "Which has the **most** energy per photon?",
+   "options": [
+    "radio",
+    "visible red",
+    "ultraviolet",
+    "infrared"
+   ],
+   "answer": 2,
+   "why": "Order by frequency: radio < infrared < visible < **UV**."
+  },
+  {
+   "type": "mc",
+   "q": "A siren moving **away** from you sounds…",
+   "options": [
+    "higher-pitched",
+    "lower-pitched",
+    "the same",
+    "louder"
+   ],
+   "answer": 1,
+   "why": "Waves stretch out behind a moving source: longer wavelength, lower frequency."
+  },
+  {
+   "type": "mc",
+   "q": "A straw looks bent in a glass of water because of…",
+   "options": [
+    "reflection",
+    "refraction",
+    "the Doppler effect",
+    "diffraction"
+   ],
+   "answer": 1,
+   "why": "Light changes speed going from water to air and **bends**."
+  },
+  {
+   "type": "num",
+   "q": "Wi-Fi uses 2.4 GHz (2.4 × 10⁹ Hz). Wavelength in **centimeters**? (c = 3 × 10⁸ m/s)",
+   "answer": 12.5,
+   "why": "λ = 3 × 10⁸ ÷ 2.4 × 10⁹ = 0.125 m = **12.5 cm**.",
+   "tol": 0.05,
+   "unit": "cm",
+   "level": "challenge",
+   "hint": "λ = c ÷ f, then convert meters to centimeters."
+  },
+  {
+   "type": "num",
+   "q": "A 20 Hz bass note has what period, in **milliseconds**?",
+   "answer": 50,
+   "why": "T = 1 ÷ f = 1 ÷ 20 = 0.05 s = **50 ms**.",
+   "tol": 0.001,
+   "unit": "ms",
+   "level": "challenge",
+   "hint": "Period is 1 divided by frequency."
+  },
+  {
+   "type": "mc",
+   "q": "A sound goes from 60 dB to 80 dB. Its intensity increases by a factor of…",
+   "options": [
+    "2",
+    "20",
+    "100",
+    "1.33"
+   ],
+   "answer": 2,
+   "why": "Each +10 dB = ×10 intensity. +20 dB = 10 × 10 = **100 times** the intensity (it sounds about 4 times as loud).",
+   "level": "challenge",
+   "hint": "+10 dB means ×10. How many tens are in 20?"
+  },
+  {
+   "type": "mc",
+   "q": "Why can you hear a distant train through the rails before you hear it through the air?",
+   "options": [
+    "The rails amplify the sound",
+    "Sound travels much faster in steel than in air",
+    "Light from the train reaches you first",
+    "Steel lowers the pitch"
+   ],
+   "answer": 1,
+   "why": "About 5,900 m/s in steel vs 343 m/s in air: over 17 times faster. Stiff, dense materials pass the vibration along quickly.",
+   "level": "challenge",
+   "hint": "Compare the speed-of-sound table."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Physics (high school)",
+   "url": "https://openstax.org/details/books/physics"
+  },
+  {
+   "title": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/details/books/college-physics-2e"
+  },
+  {
+   "title": "NASA Science: Introduction to the Electromagnetic Spectrum",
+   "url": "https://science.nasa.gov/ems/01_intro/"
+  }
+ ]
+}

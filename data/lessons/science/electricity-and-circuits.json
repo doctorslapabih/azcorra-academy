@@ -1,0 +1,214 @@
+{
+ "id": "electricity-and-circuits",
+ "title": "Electricity and circuits",
+ "band": "Grade 8",
+ "minutes": 32,
+ "lede": "Voltage pushes, current flows, resistance fights back. Master V = I·R and you can read a battery, size a fuse and check your power bill.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The three quantities\n| Quantity | What it is | Unit | Water-pipe picture |\n|---|---|---|---|\n| **Voltage (V)** | the electrical *push*: energy per unit of charge | volt (V) | water pressure |\n| **Current (I)** | how much charge flows per second | ampere, \"amp\" (A) | flow rate |\n| **Resistance (R)** | how much the path fights the flow | ohm (Ω) | a narrow pipe |\n\nElectric current is the flow of **charge**, carried in wires by electrons. A circuit is a **closed loop**: a source (battery, outlet), a path (wires) and a load (bulb, motor). Break the loop anywhere and the current stops everywhere in it. That's what a switch does."
+  },
+  {
+   "type": "text",
+   "md": "## Ohm's law\n**V = I · R**: voltage = current × resistance.\n\nRearranged: **I = V ÷ R** and **R = V ÷ I**.\n\nRead *I = V ÷ R* as a sentence: **more push, more flow; more resistance, less flow.**"
+  },
+  {
+   "type": "example",
+   "title": "Current through a bulb",
+   "problem": "A 120 V outlet powers a lamp with 240 Ω resistance. What current flows?",
+   "steps": [
+    "I = V ÷ R = 120 ÷ 240.",
+    "I = 0.5 A."
+   ],
+   "answer": "**0.5 amps.**"
+  },
+  {
+   "type": "text",
+   "md": "## Power and energy\n**Power = voltage × current**, or **P = V · I**, in watts.\n\nThat same lamp: P = 120 × 0.5 = **60 W**.\n\nCombine with Ohm's law and you get **P = I² · R**: power wasted as heat in a wire grows with current **squared**. That's why power companies send electricity over long distances at very **high voltage**: for the same power, high voltage means low current, and low current means far less energy lost as heat in the lines.\n\nYour bill counts **energy**: kilowatts × hours = **kWh**."
+  },
+  {
+   "type": "check",
+   "q": "A 1,200 W hair dryer runs on 120 V. What current does it draw?",
+   "options": [
+    "0.1 A",
+    "10 A",
+    "1,080 A",
+    "144,000 A"
+   ],
+   "answer": 1,
+   "why": "I = P ÷ V = 1,200 ÷ 120 = **10 A**."
+  },
+  {
+   "type": "text",
+   "md": "## Series circuits: one path\nIn a **series** circuit, components sit one after another on a single loop.\n\n- The **same current** flows through every part.\n- **Resistances add**: R total = R₁ + R₂ + R₃...\n- The battery's voltage is **split** among the parts.\n- **One break kills everything.** That's why old Christmas lights went dark when one bulb burned out."
+  },
+  {
+   "type": "text",
+   "md": "## Parallel circuits: several paths\nIn a **parallel** circuit, each component has its own branch back to the source.\n\n- Each branch gets the **full voltage**.\n- Currents in the branches **add up** to the total.\n- **Adding a branch lowers the total resistance**: more paths, easier flow. For two equal resistors, the total is **half** of one. In general: **1/R total = 1/R₁ + 1/R₂ + ...**\n- One branch can fail and the others keep working.\n\n**Your house is wired in parallel.** Every outlet gets 120 V, and every device you plug in adds current to the circuit. Plug in too many and the total current passes the breaker's rating (often 15 or 20 A), and it trips to keep the wires from overheating."
+  },
+  {
+   "type": "example",
+   "title": "Truck batteries: series vs parallel",
+   "problem": "Many heavy trucks carry several 12 V batteries. How should they be connected?",
+   "steps": [
+    "**Parallel** (positive to positive, negative to negative): voltage stays **12 V**, but the available current and capacity add up. That's what a 12 V truck uses to crank a big diesel.",
+    "**Series** (positive to negative): voltages **add**. Two 12 V batteries = **24 V**. Some trucks and military vehicles run 24 V systems."
+   ],
+   "answer": "Same batteries, different wiring, different result. Hooking up jumper cables wrong can create a short circuit with enormous current, which is why the order matters."
+  },
+  {
+   "type": "text",
+   "md": "## Safety: it's the current\nCurrent through the body is what injures. Around **0.1 A (100 mA)** passing through the chest can throw the heart out of rhythm. Your skin's resistance is what usually keeps current low, and wet skin has far less resistance. That's the physics behind keeping electricity away from water and behind **GFCI** outlets in kitchens and bathrooms, which cut power in a fraction of a second when current leaks to ground.\n\n- **Fuses and breakers** protect **wires** from overheating.\n- **GFCIs** protect **people**.\n\nIn the US, wall outlets supply about **120 V AC at 60 Hz**: alternating current that reverses direction 60 times a second. Batteries supply **DC**: one direction."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Current isn't \"used up.\"** The same current that leaves the battery returns to it. What gets used is **energy**.\n- **Adding resistors in parallel decreases total resistance.** It feels backwards until you picture more lanes opening on a highway.\n- **Voltage is across, current is through.** You measure voltage *between two points*, current *through* a wire."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "A 12 V battery drives current through a 4 Ω resistor. Current?",
+   "answer": 3,
+   "why": "I = V ÷ R = 12 ÷ 4 = 3 A.",
+   "tol": 0.001,
+   "unit": "A"
+  },
+  {
+   "type": "num",
+   "q": "A device draws 2 A on a 120 V circuit. Its power?",
+   "answer": 240,
+   "why": "P = V·I = 120 × 2 = 240 W.",
+   "tol": 0.001,
+   "unit": "W"
+  },
+  {
+   "type": "num",
+   "q": "Resistors of 5 Ω, 10 Ω and 15 Ω are in **series**. Total resistance?",
+   "answer": 30,
+   "why": "Series: add them. 5 + 10 + 15 = 30 Ω.",
+   "tol": 0.001,
+   "unit": "Ω"
+  },
+  {
+   "type": "num",
+   "q": "Two 10 Ω resistors in **parallel**. Total resistance?",
+   "answer": 5,
+   "why": "Two equal resistors in parallel: half of one. 1/R = 1/10 + 1/10 = 2/10 → R = 5 Ω.",
+   "tol": 0.001,
+   "unit": "Ω"
+  },
+  {
+   "type": "mc",
+   "q": "Houses are wired in parallel so that…",
+   "options": [
+    "every device gets the full voltage and works independently",
+    "current is the same everywhere",
+    "power bills are lower",
+    "fewer wires are needed"
+   ],
+   "answer": 0,
+   "why": "Each branch gets 120 V, and one device off doesn't shut the rest down."
+  },
+  {
+   "type": "mc",
+   "q": "What does a circuit breaker protect?",
+   "options": [
+    "People from shocks",
+    "The wiring from overheating",
+    "Devices from low voltage",
+    "The power company's meter"
+   ],
+   "answer": 1,
+   "why": "Breakers trip on too much current to protect **wires**. GFCIs protect **people**."
+  },
+  {
+   "type": "num",
+   "q": "A 100 W bulb runs for 10 hours. Energy used, in kWh?",
+   "answer": 1,
+   "why": "0.1 kW × 10 h = 1 kWh.",
+   "tol": 0.001,
+   "unit": "kWh"
+  },
+  {
+   "type": "mc",
+   "q": "Two 12 V batteries connected in **series** give…",
+   "options": [
+    "12 V",
+    "24 V",
+    "6 V",
+    "144 V"
+   ],
+   "answer": 1,
+   "why": "In series, voltages add."
+  },
+  {
+   "type": "num",
+   "q": "A 60 W bulb runs on 120 V. What is its resistance?",
+   "answer": 240,
+   "why": "First I = P ÷ V = 60 ÷ 120 = 0.5 A. Then R = V ÷ I = 120 ÷ 0.5 = **240 Ω**. (Or in one step: R = V² ÷ P = 14,400 ÷ 60.)",
+   "tol": 0.001,
+   "unit": "Ω",
+   "level": "challenge",
+   "hint": "Find the current first with P = V·I.",
+   "steps": [
+    "I = P ÷ V = 60 ÷ 120 = 0.5 A.",
+    "R = V ÷ I = 120 ÷ 0.5 = 240 Ω."
+   ]
+  },
+  {
+   "type": "num",
+   "q": "A 20 A breaker on a 120 V circuit. What's the most total power you can run before it trips?",
+   "answer": 2400,
+   "why": "P = V·I = 120 × 20 = **2,400 W**. A 1,500 W heater plus a 1,200 W microwave (2,700 W) will trip it.",
+   "tol": 0.001,
+   "unit": "W",
+   "level": "challenge",
+   "hint": "P = V·I with the breaker's current limit."
+  },
+  {
+   "type": "mc",
+   "q": "You plug a second space heater into the same parallel circuit. What happens to the **total current** drawn from the outlet?",
+   "options": [
+    "It drops",
+    "It stays the same",
+    "It increases",
+    "It becomes zero"
+   ],
+   "answer": 2,
+   "why": "Each branch draws its own current, and branch currents **add**. Another path also means lower total resistance, so I = V ÷ R goes up.",
+   "level": "challenge",
+   "hint": "In parallel, do branch currents add or split?"
+  },
+  {
+   "type": "mc",
+   "q": "Why do power lines carry electricity at very high voltage?",
+   "options": [
+    "High voltage travels faster",
+    "For the same power, high voltage means low current, and heat lost in the wires grows with current squared",
+    "It's safer for birds",
+    "High voltage needs no wires"
+   ],
+   "answer": 1,
+   "why": "P = V·I, so raising V lowers I for the same power. Losses are I²·R: cut the current by 10 and losses drop by 100.",
+   "level": "challenge",
+   "hint": "Look at P = I²·R. What happens to losses if current goes down?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Physics (high school)",
+   "url": "https://openstax.org/details/books/physics"
+  },
+  {
+   "title": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/details/books/college-physics-2e"
+  },
+  {
+   "title": "OSHA: Electrical safety",
+   "url": "https://www.osha.gov/electrical"
+  }
+ ]
+}

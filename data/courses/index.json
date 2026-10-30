@@ -856,27 +856,32 @@
      {
       "id": "speed-velocity-and-acceleration",
       "title": "Speed, velocity and acceleration",
-      "ready": false
+      "ready": true,
+      "desc": "How fast, which way, and how quickly that's changing. The three ideas that describe every moving thing, from a jab to an 80,000-lb truck."
      },
      {
       "id": "forces-and-newton-s-laws",
       "title": "Forces and Newton's laws",
-      "ready": false
+      "ready": true,
+      "desc": "Three laws, written in 1687, still explain every push, pull, punch and crash. Learn them the way an engineer does."
      },
      {
       "id": "energy-and-its-forms",
       "title": "Energy and its forms",
-      "ready": false
+      "ready": true,
+      "desc": "Energy is never made or destroyed, only moved and changed. Follow it and you can explain a punch, a crash, a power bill and the food on your plate."
      },
      {
       "id": "waves-sound-and-light",
       "title": "Waves, sound and light",
-      "ready": false
+      "ready": true,
+      "desc": "A wave moves energy without moving stuff along with it. One equation, v = f·λ, explains your voice, your Wi-Fi and the color of the sky."
      },
      {
       "id": "electricity-and-circuits",
       "title": "Electricity and circuits",
-      "ready": false
+      "ready": true,
+      "desc": "Voltage pushes, current flows, resistance fights back. Master V = I·R and you can read a battery, size a fuse and check your power bill."
      }
     ]
    },

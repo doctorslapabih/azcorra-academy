@@ -1,0 +1,203 @@
+{
+ "id": "vectors",
+ "title": "Vectors",
+ "band": "Grades 11–12",
+ "minutes": 34,
+ "lede": "Quantities with both size and direction: forces, velocities, wind. Break them into components, add them, and find the result. How pilots fly through crosswinds and how two tow straps share a load.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Scalars vs vectors\n- **Scalar**: size only. Speed (60 mph), mass, temperature, time.\n- **Vector**: size **and** direction. Velocity (60 mph north), force, displacement, acceleration.\n\nA vector is drawn as an arrow: its **length** is its **magnitude**, and it points in its **direction**. Written as **v** (bold) or with an arrow over it."
+  },
+  {
+   "type": "text",
+   "md": "## Components\nAny 2D vector can be split into horizontal and vertical **components**:\n\n**vₓ = |v| cos θ** and **v_y = |v| sin θ** (θ measured from the positive x-axis)\n\nGoing back:\n\n**|v| = √(vₓ² + v_y²)** and **θ = tan⁻¹(v_y ÷ vₓ)** (then check the quadrant)\n\n*A force of 100 N at 30°:* Fₓ = 100 cos 30° ≈ 86.6 N, F_y = 100 sin 30° = 50 N."
+  },
+  {
+   "type": "check",
+   "q": "A vector has components (6, 8). Its magnitude is…",
+   "options": [
+    "14",
+    "10",
+    "48",
+    "2"
+   ],
+   "answer": 1,
+   "why": "√(36 + 64) = 10."
+  },
+  {
+   "type": "text",
+   "md": "## Adding vectors\n**Graphically:** place them **tip to tail**; the sum (the **resultant**) runs from the start of the first to the tip of the last.\n\n**With components (the reliable way):** add the x's and add the y's.\n\n(3, 4) + (5, −1) = **(8, 3)**\n\n**Scalar multiplication** stretches a vector: 2(3, 4) = (6, 8), twice as long, same direction. A negative scalar flips it."
+  },
+  {
+   "type": "example",
+   "title": "Two tow straps",
+   "problem": "Two straps pull a stuck truck: 3,000 N due east and 4,000 N due north. What's the total force?",
+   "steps": [
+    "Components: (3,000, 0) + (0, 4,000) = (3,000, 4,000).",
+    "Magnitude: √(3,000² + 4,000²) = 5,000 N.",
+    "Direction: tan⁻¹(4,000/3,000) ≈ 53.1° north of east."
+   ],
+   "answer": "**5,000 N at about 53° north of east.** Two straps at right angles give less total pull than 7,000 N in a straight line. Angled forces partly work against each other's usefulness."
+  },
+  {
+   "type": "text",
+   "md": "## Velocity with wind or current\nWhen a plane flies through wind, or a boat crosses a river, its **actual** velocity is the **vector sum** of its own velocity and the wind or current.\n\n*A plane heads due north at 200 km/h with a 50 km/h wind blowing due east.* Ground velocity = (50, 200). Speed = √(2,500 + 40,000) ≈ **206 km/h**, drifting about tan⁻¹(50/200) ≈ **14° east of north**. To actually go north, the pilot must point the nose partly **into** the wind.\n\nCrosswinds push on tall, flat trailers the same way, which is why high-profile vehicles get wind warnings on bridges."
+  },
+  {
+   "type": "check",
+   "q": "(2, −3) + (−5, 7) = ?",
+   "options": [
+    "(−3, 4)",
+    "(7, −10)",
+    "(−3, −10)",
+    "(3, 4)"
+   ],
+   "answer": 0,
+   "why": "2 − 5 = −3; −3 + 7 = 4."
+  },
+  {
+   "type": "text",
+   "md": "## The dot product\n**a · b = aₓbₓ + a_yb_y** = |a||b| cos θ\n\nIt measures how much two vectors point the **same way**:\n- positive: less than 90° apart\n- **zero**: **perpendicular**\n- negative: more than 90° apart\n\nIn physics, **work = F · d**: only the part of the force along the motion does work. That's the cos θ from the work-and-energy lesson."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Magnitudes don't simply add** unless vectors point the same way. 3 + 4 can be 5.\n- **Check the quadrant** after tan⁻¹: (−3, −4) points into quadrant III, not I.\n- **Angles from the x-axis** for the cos/sin component formulas. Bearings (from north) need adjusting.\n- **Dot product gives a scalar**, not a vector."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is a vector?",
+   "options": [
+    "speed of 50 mph",
+    "mass of 80 kg",
+    "velocity of 50 mph west",
+    "temperature of 30 °C"
+   ],
+   "answer": 2,
+   "why": "Has direction."
+  },
+  {
+   "type": "num",
+   "q": "Magnitude of (5, 12)?",
+   "answer": 13,
+   "why": "√(25 + 144).",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "(4, 1) + (−1, 6) = ?",
+   "options": [
+    "(3, 7)",
+    "(5, 7)",
+    "(3, −5)",
+    "(−4, 6)"
+   ],
+   "answer": 0,
+   "why": "Add components."
+  },
+  {
+   "type": "mc",
+   "q": "3(2, −1) = ?",
+   "options": [
+    "(6, −3)",
+    "(5, 2)",
+    "(6, 3)",
+    "(2, −3)"
+   ],
+   "answer": 0,
+   "why": "Multiply each component."
+  },
+  {
+   "type": "num",
+   "q": "x-component of a 10 N force at 60°? (cos 60° = 0.5)",
+   "answer": 5,
+   "why": "10 × 0.5.",
+   "tol": 0.001,
+   "unit": "N"
+  },
+  {
+   "type": "num",
+   "q": "Dot product of (2, 3) and (4, −1)?",
+   "answer": 5,
+   "why": "8 − 3.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "If a · b = 0 (both nonzero), the vectors are…",
+   "options": [
+    "parallel",
+    "perpendicular",
+    "equal",
+    "opposite"
+   ],
+   "answer": 1,
+   "why": "cos 90° = 0."
+  },
+  {
+   "type": "num",
+   "q": "Two perpendicular forces of 6 N and 8 N. Resultant magnitude?",
+   "answer": 10,
+   "why": "√(36 + 64).",
+   "tol": 0.001,
+   "unit": "N"
+  },
+  {
+   "type": "num",
+   "q": "A boat heads straight across a river at 4 m/s; the current flows at 3 m/s downstream. Actual speed?",
+   "answer": 5,
+   "why": "√(16 + 9) = **5 m/s**, angled downstream.",
+   "tol": 0.001,
+   "unit": "m/s",
+   "level": "challenge",
+   "hint": "Perpendicular components."
+  },
+  {
+   "type": "num",
+   "q": "Direction of the vector (−3, 3), in degrees from the positive x-axis?",
+   "answer": 135,
+   "why": "tan⁻¹(3/−3) gives −45° on a calculator, but the vector points into **quadrant II**: 180° − 45° = **135°**.",
+   "tol": 0.001,
+   "unit": "°",
+   "level": "challenge",
+   "hint": "Calculators don't know the quadrant."
+  },
+  {
+   "type": "num",
+   "q": "A 500 N pull at 30° above horizontal drags a sled 10 m along flat ground. Work done? (cos 30° ≈ 0.866)",
+   "answer": 4330,
+   "why": "W = F d cos θ = 500 × 10 × 0.866 = **4,330 J**. The upward part of the pull does no work.",
+   "tol": 1,
+   "unit": "J",
+   "level": "challenge",
+   "hint": "Only the horizontal component counts."
+  },
+  {
+   "type": "mc",
+   "q": "A plane must reach a city due north, with wind blowing from west to east. The pilot should point the nose…",
+   "options": [
+    "due north",
+    "slightly east of north",
+    "slightly west of north",
+    "due west"
+   ],
+   "answer": 2,
+   "why": "Aim partly **into** the wind so the eastward drift cancels and the resultant points north.",
+   "level": "challenge",
+   "hint": "Cancel the wind's component."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Precalculus 2e",
+   "url": "https://openstax.org/details/books/precalculus-2e"
+  },
+  {
+   "title": "OpenStax, Precalculus 2e, 8.8 Vectors",
+   "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+  }
+ ]
+}

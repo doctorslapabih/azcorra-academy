@@ -1,0 +1,205 @@
+{
+ "id": "the-unit-circle-and-radians",
+ "title": "The unit circle and radians",
+ "band": "Grades 11–12",
+ "minutes": 36,
+ "lede": "Trigonometry beyond right triangles. Radians, the natural way to measure angles, and the unit circle, which defines sine and cosine for any angle at all, even negative ones and angles past 360°.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Radians\nDegrees are arbitrary (360 probably comes from ancient Babylonian astronomy). **Radians** come from the circle itself:\n\n**One radian** is the angle that cuts off an arc **equal in length to the radius**.\n\nA full circle's circumference is 2πr, so a full turn is **2π radians**.\n\n| Degrees | Radians |\n|---|---|\n| 360° | 2π |\n| 180° | π |\n| 90° | π/2 |\n| 60° | π/3 |\n| 45° | π/4 |\n| 30° | π/6 |\n\n**Convert:** degrees × π/180 = radians; radians × 180/π = degrees. One radian ≈ **57.3°**."
+  },
+  {
+   "type": "text",
+   "md": "## Why radians: arc length\nIn radians, **arc length s = rθ**. No conversion factor.\n\n*A truck tire with radius 0.5 m turns through 10 radians.* The truck moves s = 0.5 × 10 = **5 m**.\n\nAnd **linear speed v = rω** (ω in radians per second). Calculus formulas for sine and cosine only work cleanly in radians, which is why every math and physics course after this one uses them."
+  },
+  {
+   "type": "check",
+   "q": "Convert 120° to radians.",
+   "options": [
+    "π/3",
+    "2π/3",
+    "3π/4",
+    "4π/3"
+   ],
+   "answer": 1,
+   "why": "120 × π/180 = 2π/3."
+  },
+  {
+   "type": "text",
+   "md": "## The unit circle\nThe **unit circle** has radius 1, centered at the origin. Start at (1, 0) and rotate counterclockwise by angle θ. The point you land on is:\n\n**(cos θ, sin θ)**\n\nThat's the new **definition** of sine and cosine: the x- and y-coordinates on the unit circle. For acute angles it matches SOH CAH TOA (the hypotenuse is 1), but now it works for **any** angle."
+  },
+  {
+   "type": "figure",
+   "svg": "<svg viewBox=\"0 0 550 300\" width=\"100%\" style=\"max-width:600px\" role=\"img\" aria-label=\"Unit circle with key first-quadrant angles\">\n<g font-family=\"inherit\" font-size=\"13\" fill=\"currentColor\" transform=\"translate(60,0)\">\n<line x1=\"40\" y1=\"150\" x2=\"300\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\".4\"/>\n<line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"280\" stroke=\"currentColor\" stroke-opacity=\".4\"/>\n<circle cx=\"170\" cy=\"150\" r=\"120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"170\" y1=\"150\" x2=\"273.9\" y2=\"90\" stroke=\"currentColor\"/>\n<line x1=\"170\" y1=\"150\" x2=\"254.9\" y2=\"65.1\" stroke=\"currentColor\"/>\n<line x1=\"170\" y1=\"150\" x2=\"230\" y2=\"46.1\" stroke=\"currentColor\"/>\n<circle cx=\"273.9\" cy=\"90\" r=\"3.5\"/><circle cx=\"254.9\" cy=\"65.1\" r=\"3.5\"/><circle cx=\"230\" cy=\"46.1\" r=\"3.5\"/>\n<circle cx=\"290\" cy=\"150\" r=\"3.5\"/><circle cx=\"170\" cy=\"30\" r=\"3.5\"/>\n<text x=\"296\" y=\"145\">(1, 0)  0</text>\n<text x=\"176\" y=\"24\">(0, 1)  π/2</text>\n<text x=\"280\" y=\"88\">30° = π/6 → (√3/2, 1/2)</text>\n<text x=\"262\" y=\"62\">45° = π/4 → (√2/2, √2/2)</text>\n<text x=\"236\" y=\"40\">60° = π/3 → (1/2, √3/2)</text>\n<text x=\"44\" y=\"145\" text-anchor=\"end\">(−1, 0)  π</text>\n<text x=\"176\" y=\"292\">(0, −1)  3π/2</text>\n<text x=\"-50\" y=\"292\" fill-opacity=\".7\">every point = (cos θ, sin θ)</text>\n</g></svg>",
+   "caption": "The first-quadrant key angles. The other quadrants mirror these with sign changes."
+  },
+  {
+   "type": "text",
+   "md": "## Signs by quadrant\n| Quadrant | Angles | cos (x) | sin (y) | tan |\n|---|---|---|---|---|\n| I | 0 to π/2 | + | + | + |\n| II | π/2 to π | − | + | − |\n| III | π to 3π/2 | − | − | + |\n| IV | 3π/2 to 2π | + | − | − |\n\nMemory: **All Students Take Calculus**: **A**ll positive in I, **S**ine in II, **T**angent in III, **C**osine in IV.\n\n**Reference angle:** the acute angle to the x-axis. Find the values for the reference angle, then apply the quadrant's signs.\n\n*cos 150°:* reference angle 30°, cos 30° = √3/2, quadrant II → cosine negative → **−√3/2**."
+  },
+  {
+   "type": "check",
+   "q": "sin 210° = ?",
+   "options": [
+    "1/2",
+    "−1/2",
+    "√3/2",
+    "−√3/2"
+   ],
+   "answer": 1,
+   "why": "Reference 30°; quadrant III, sine negative."
+  },
+  {
+   "type": "text",
+   "md": "## The Pythagorean identity\nEvery point on the unit circle satisfies x² + y² = 1. So for every angle:\n\n**sin²θ + cos²θ = 1**\n\nIf sin θ = 3/5 and θ is in quadrant II: cos²θ = 1 − 9/25 = 16/25, so cos θ = **−4/5** (negative in II)."
+  },
+  {
+   "type": "text",
+   "md": "## Angles beyond one turn\nAngles **coterminal** with θ (ending in the same place) differ by full turns: θ ± 2π, θ ± 4π, …\n\n- 390° = 360° + 30°, so sin 390° = sin 30° = 1/2.\n- −π/2 (rotating **clockwise** a quarter turn) lands at (0, −1), same as 3π/2.\n\nThis repeating behavior is what makes sine and cosine perfect for anything that **cycles**: tides, seasons, sound, alternating current."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Calculator mode.** Radians vs degrees changes every answer.\n- **cos is x, sin is y.** Alphabetical: (c, s) ↔ (x, y).\n- **Signs come from the quadrant**, values from the reference angle.\n- **Radians are just numbers.** sin(2) means 2 radians, about 114.6°."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "90° in radians is…",
+   "options": [
+    "π",
+    "π/2",
+    "π/4",
+    "2π"
+   ],
+   "answer": 1,
+   "why": "90 × π/180."
+  },
+  {
+   "type": "num",
+   "q": "π/3 radians in degrees?",
+   "answer": 60,
+   "why": "180 ÷ 3.",
+   "tol": 0.001,
+   "unit": "°"
+  },
+  {
+   "type": "num",
+   "q": "1 radian is about how many degrees? (1 decimal)",
+   "answer": 57.3,
+   "why": "180 ÷ π ≈ 57.3.",
+   "tol": 0.06,
+   "unit": "°"
+  },
+  {
+   "type": "mc",
+   "q": "On the unit circle, the point at angle θ is…",
+   "options": [
+    "(sin θ, cos θ)",
+    "(cos θ, sin θ)",
+    "(tan θ, 1)",
+    "(θ, 1)"
+   ],
+   "answer": 1,
+   "why": "x = cos, y = sin."
+  },
+  {
+   "type": "num",
+   "q": "cos 0 = ?",
+   "answer": 1,
+   "why": "Point (1, 0).",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "sin(π/2) = ?",
+   "answer": 1,
+   "why": "Point (0, 1).",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "In quadrant III, which is positive?",
+   "options": [
+    "sine",
+    "cosine",
+    "tangent",
+    "none"
+   ],
+   "answer": 2,
+   "why": "Tangent = sin/cos = (−)/(−)."
+  },
+  {
+   "type": "num",
+   "q": "Arc length on a circle of radius 4 for an angle of 2.5 radians?",
+   "answer": 10,
+   "why": "s = rθ.",
+   "tol": 0.001,
+   "unit": "units"
+  },
+  {
+   "type": "mc",
+   "q": "cos(2π/3) = ?",
+   "options": [
+    "1/2",
+    "−1/2",
+    "√3/2",
+    "−√3/2"
+   ],
+   "answer": 1,
+   "why": "2π/3 = 120°, reference angle 60°, quadrant II → cos negative: **−1/2**.",
+   "level": "challenge",
+   "hint": "Find the reference angle and the quadrant."
+  },
+  {
+   "type": "mc",
+   "q": "sin θ = −5/13 and θ is in quadrant IV. cos θ = ?",
+   "options": [
+    "12/13",
+    "−12/13",
+    "5/12",
+    "−5/12"
+   ],
+   "answer": 0,
+   "why": "cos²θ = 1 − 25/169 = 144/169 → cos θ = ±12/13. Quadrant IV: cosine positive → **12/13**.",
+   "level": "challenge",
+   "hint": "Pythagorean identity, then choose the sign."
+  },
+  {
+   "type": "num",
+   "q": "A wheel of radius 0.5 m spins at 40 rad/s. Speed of the vehicle (no slipping)?",
+   "answer": 20,
+   "why": "v = rω = 0.5 × 40 = **20 m/s** (about 45 mph).",
+   "tol": 0.001,
+   "unit": "m/s",
+   "level": "challenge",
+   "hint": "v = rω."
+  },
+  {
+   "type": "mc",
+   "q": "sin(13π/6) = ?",
+   "options": [
+    "−1/2",
+    "1/2",
+    "√3/2",
+    "0"
+   ],
+   "answer": 1,
+   "why": "13π/6 = 2π + π/6: coterminal with π/6. sin(π/6) = **1/2**.",
+   "level": "challenge",
+   "hint": "Subtract a full turn."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Precalculus 2e",
+   "url": "https://openstax.org/details/books/precalculus-2e"
+  },
+  {
+   "title": "OpenStax, Precalculus 2e, 5.2 Unit Circle: Sine and Cosine Functions",
+   "url": "https://openstax.org/books/precalculus-2e/pages/5-2-unit-circle-sine-and-cosine-functions"
+  }
+ ]
+}

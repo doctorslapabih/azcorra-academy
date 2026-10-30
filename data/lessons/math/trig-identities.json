@@ -1,0 +1,232 @@
+{
+ "id": "trig-identities",
+ "title": "Trig identities",
+ "band": "Grades 11–12",
+ "minutes": 36,
+ "lede": "Equations true for every angle. They let you rewrite trig expressions into simpler forms, solve trig equations, and prove why 45° is the best launch angle.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The six functions\n| Function | Definition |\n|---|---|\n| sin θ | y on the unit circle |\n| cos θ | x on the unit circle |\n| tan θ | sin θ ÷ cos θ |\n| csc θ (cosecant) | 1 ÷ sin θ |\n| sec θ (secant) | 1 ÷ cos θ |\n| cot θ (cotangent) | cos θ ÷ sin θ = 1 ÷ tan θ |"
+  },
+  {
+   "type": "text",
+   "md": "## The core identities\n**Pythagorean** (from x² + y² = 1):\n- sin²θ + cos²θ = 1\n- 1 + tan²θ = sec²θ (divide the first by cos²θ)\n- 1 + cot²θ = csc²θ (divide by sin²θ)\n\n**Even/odd:**\n- cos(−θ) = cos θ (even: mirror across the x-axis keeps x)\n- sin(−θ) = −sin θ (odd)\n\n**Sum and difference:**\n- sin(A ± B) = sin A cos B ± cos A sin B\n- cos(A ± B) = cos A cos B ∓ sin A sin B (note the sign flip)\n\n**Double angle** (set A = B):\n- sin 2θ = 2 sin θ cos θ\n- cos 2θ = cos²θ − sin²θ = 1 − 2 sin²θ = 2 cos²θ − 1"
+  },
+  {
+   "type": "check",
+   "q": "Simplify 1 − sin²x.",
+   "options": [
+    "cos x",
+    "cos²x",
+    "tan²x",
+    "1"
+   ],
+   "answer": 1,
+   "why": "From sin² + cos² = 1."
+  },
+  {
+   "type": "example",
+   "title": "Exact value with a sum formula",
+   "problem": "Find sin 75° exactly.",
+   "steps": [
+    "75° = 45° + 30°.",
+    "sin(45° + 30°) = sin 45° cos 30° + cos 45° sin 30°",
+    "= (√2/2)(√3/2) + (√2/2)(1/2)",
+    "= (√6 + √2) ÷ 4"
+   ],
+   "answer": "**(√6 + √2) ÷ 4 ≈ 0.966.** Check on a calculator: sin 75° ≈ 0.9659 ✓."
+  },
+  {
+   "type": "text",
+   "md": "## Proving identities\nTo prove an identity, transform **one side** until it matches the other. Don't move terms across the equals sign; you're showing they're the same expression.\n\n**Strategies:**\n1. Start with the **more complicated** side.\n2. Rewrite everything in **sin and cos**.\n3. Look for **Pythagorean** substitutions.\n4. Combine fractions; factor.\n\n**Prove:** tan θ · cos θ = sin θ\n\ntan θ · cos θ = (sin θ ÷ cos θ) · cos θ = sin θ ✓"
+  },
+  {
+   "type": "text",
+   "md": "## Solving trig equations\nUnlike identities, equations are true only for **certain** angles. Because trig functions repeat, there are usually **many** solutions; problems often ask for those in [0, 2π).\n\n**Solve 2 sin x − 1 = 0 on [0, 2π):**\n1. sin x = 1/2\n2. Reference angle π/6. Sine is positive in quadrants I and II.\n3. **x = π/6 or x = 5π/6**\n\n**Solve 2 cos²x − cos x − 1 = 0:** it's a quadratic in cos x: (2 cos x + 1)(cos x − 1) = 0 → cos x = −1/2 or cos x = 1 → x = 2π/3, 4π/3, or 0."
+  },
+  {
+   "type": "check",
+   "q": "Solutions to cos x = 0 on [0, 2π)?",
+   "options": [
+    "0 and π",
+    "π/2 and 3π/2",
+    "π/4 and 3π/4",
+    "only π/2"
+   ],
+   "answer": 1,
+   "why": "Where the x-coordinate on the unit circle is 0."
+  },
+  {
+   "type": "example",
+   "title": "Why 45° throws the farthest",
+   "problem": "Ignoring air resistance, a projectile launched at speed v and angle θ on flat ground has range **R = v² sin(2θ) ÷ g**. Which angle maximizes R?",
+   "steps": [
+    "The double-angle identity created that sin(2θ): R = (2v² sin θ cos θ) ÷ g.",
+    "sin(2θ) is largest (= 1) when 2θ = 90°.",
+    "So θ = 45°."
+   ],
+   "answer": "**45°.** And because sin(2θ) is symmetric around 45°, launches at 30° and 60° land at the **same** distance. Air resistance pushes the real-world optimum somewhat lower."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **sin 2θ ≠ 2 sin θ.** Test: sin 60° ≈ 0.866, but 2 sin 30° = 1.\n- **sin(A + B) ≠ sin A + sin B.**\n- **Don't divide both sides by a trig function** when solving; you can lose solutions where it equals 0. Factor instead.\n- **Find every solution in the interval**, using the quadrant signs."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "tan θ = ",
+   "options": [
+    "cos θ / sin θ",
+    "sin θ / cos θ",
+    "1 / sin θ",
+    "sin θ · cos θ"
+   ],
+   "answer": 1,
+   "why": "Quotient identity."
+  },
+  {
+   "type": "mc",
+   "q": "sec θ = ",
+   "options": [
+    "1 / sin θ",
+    "1 / cos θ",
+    "1 / tan θ",
+    "cos θ / sin θ"
+   ],
+   "answer": 1,
+   "why": "Reciprocal of cosine."
+  },
+  {
+   "type": "mc",
+   "q": "1 + tan²θ = ",
+   "options": [
+    "sec²θ",
+    "csc²θ",
+    "cos²θ",
+    "1"
+   ],
+   "answer": 0,
+   "why": "Pythagorean."
+  },
+  {
+   "type": "mc",
+   "q": "sin(−θ) = ",
+   "options": [
+    "sin θ",
+    "−sin θ",
+    "cos θ",
+    "−cos θ"
+   ],
+   "answer": 1,
+   "why": "Odd."
+  },
+  {
+   "type": "mc",
+   "q": "sin 2θ = ",
+   "options": [
+    "2 sin θ",
+    "2 sin θ cos θ",
+    "sin²θ − cos²θ",
+    "sin θ + cos θ"
+   ],
+   "answer": 1,
+   "why": "Double angle."
+  },
+  {
+   "type": "mc",
+   "q": "Simplify sin x · csc x.",
+   "options": [
+    "0",
+    "1",
+    "sin²x",
+    "cos x"
+   ],
+   "answer": 1,
+   "why": "csc x = 1/sin x."
+  },
+  {
+   "type": "mc",
+   "q": "Solutions of sin x = 1 on [0, 2π)?",
+   "options": [
+    "0",
+    "π/2",
+    "π",
+    "π/2 and 3π/2"
+   ],
+   "answer": 1,
+   "why": "Top of the circle only."
+  },
+  {
+   "type": "mc",
+   "q": "Simplify (sin²x + cos²x) ÷ cos x.",
+   "options": [
+    "tan x",
+    "sec x",
+    "1",
+    "sin x"
+   ],
+   "answer": 1,
+   "why": "1 ÷ cos x."
+  },
+  {
+   "type": "mc",
+   "q": "Solve sin x = −√3/2 on [0, 2π).",
+   "options": [
+    "π/3, 2π/3",
+    "4π/3, 5π/3",
+    "7π/6, 11π/6",
+    "5π/6, 7π/6"
+   ],
+   "answer": 1,
+   "why": "Reference angle π/3. Sine negative in III and IV: π + π/3 = 4π/3 and 2π − π/3 = 5π/3.",
+   "level": "challenge",
+   "hint": "Reference angle, then the quadrants where sine is negative."
+  },
+  {
+   "type": "num",
+   "q": "cos 15° exactly is (√6 + √2)/4. To 4 decimals?",
+   "answer": 0.9659,
+   "why": "Using cos(45° − 30°) = cos45 cos30 + sin45 sin30 = (√6 + √2)/4 ≈ **0.9659**. (Same as sin 75°, because they're complementary.)",
+   "tol": 0.0002,
+   "level": "challenge",
+   "hint": "Compute (2.4495 + 1.4142) ÷ 4."
+  },
+  {
+   "type": "mc",
+   "q": "If sin θ = 3/5 and cos θ = 4/5, then sin 2θ = ?",
+   "options": [
+    "6/5",
+    "24/25",
+    "7/25",
+    "12/25"
+   ],
+   "answer": 1,
+   "why": "2 · (3/5)(4/5) = **24/25**.",
+   "level": "challenge",
+   "hint": "sin 2θ = 2 sin θ cos θ."
+  },
+  {
+   "type": "num",
+   "q": "A ball is launched at 20 m/s at 30° on flat ground. Range R = v² sin(2θ)/g (g = 9.8)? (1 decimal)",
+   "answer": 35.3,
+   "why": "sin 60° ≈ 0.8660. R = 400 × 0.8660 ÷ 9.8 ≈ **35.3 m**. At 60° it would land in the same spot.",
+   "tol": 0.06,
+   "unit": "m",
+   "level": "challenge",
+   "hint": "2θ = 60°."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Precalculus 2e",
+   "url": "https://openstax.org/details/books/precalculus-2e"
+  },
+  {
+   "title": "OpenStax, Precalculus 2e, 7.1 Solving Trigonometric Equations with Identities",
+   "url": "https://openstax.org/books/precalculus-2e/pages/7-1-solving-trigonometric-equations-with-identities"
+  }
+ ]
+}

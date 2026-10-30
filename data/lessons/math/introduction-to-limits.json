@@ -1,0 +1,193 @@
+{
+ "id": "introduction-to-limits",
+ "title": "Introduction to limits",
+ "band": "Grades 11–12",
+ "minutes": 36,
+ "lede": "The idea calculus is built on: what value does a function approach as the input gets closer and closer to some number? The answer lets us talk about speed at a single instant.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The question limits answer\nYour average speed over a trip is distance ÷ time. But what's your speed **at exactly 2:15 p.m.**? Over zero time you travel zero distance: 0 ÷ 0. Meaningless.\n\nThe trick: compute the average over **shorter and shorter** intervals and see what number those averages **approach**. That number is a **limit**, and the instant speed it gives is what your speedometer shows. Isaac Newton and Gottfried Leibniz built calculus on this idea in the late 1600s."
+  },
+  {
+   "type": "text",
+   "md": "## Notation and meaning\n**lim (x→a) f(x) = L**\n\nmeans: as x gets **arbitrarily close** to a (from both sides, but **not equal** to a), f(x) gets arbitrarily close to L.\n\nThe value **at** a doesn't matter. f(a) might be different, or undefined, and the limit can still exist."
+  },
+  {
+   "type": "example",
+   "title": "Estimate a limit with a table",
+   "problem": "Estimate lim (x→3) of (x² − 9) ÷ (x − 3).",
+   "steps": [
+    "At x = 3: 0 ÷ 0, undefined. So look nearby:",
+    "x = 2.9 → 5.9 · x = 2.99 → 5.99 · x = 2.999 → 5.999",
+    "x = 3.1 → 6.1 · x = 3.01 → 6.01 · x = 3.001 → 6.001"
+   ],
+   "answer": "The outputs close in on **6** from both sides. The limit is 6, even though the function is undefined at 3."
+  },
+  {
+   "type": "text",
+   "md": "## Computing limits\n**1. Direct substitution.** If f is continuous at a (polynomials, most familiar functions where they're defined), just plug in: lim (x→2) of (x² + 1) = **5**.\n\n**2. If you get 0/0, simplify first.** It's an *indeterminate form*: a signal to do algebra, not an answer.\n\n(x² − 9) ÷ (x − 3) = (x + 3)(x − 3) ÷ (x − 3) = x + 3 (for x ≠ 3) → plug in: **6**. Matches the table.\n\n**3. If you get (nonzero) ÷ 0**, the function blows up: the limit doesn't exist as a finite number (there's a vertical asymptote)."
+  },
+  {
+   "type": "check",
+   "q": "lim (x→4) of (x² − 16) ÷ (x − 4) = ?",
+   "options": [
+    "0",
+    "4",
+    "8",
+    "doesn't exist"
+   ],
+   "answer": 2,
+   "why": "Factor: x + 4 → 8."
+  },
+  {
+   "type": "text",
+   "md": "## One-sided limits\nSometimes a function approaches **different** values from the left and right.\n\n- **lim (x→a⁻)**: from the **left** (values less than a)\n- **lim (x→a⁺)**: from the **right**\n\nThe (two-sided) limit exists **only if both one-sided limits exist and are equal**.\n\n*A shipping rate that's $100 up to 500 lb and $150 above:* approaching 500 lb from below gives 100; from above, 150. The two-sided limit at 500 lb **doesn't exist**: there's a **jump**."
+  },
+  {
+   "type": "text",
+   "md": "## Limits at infinity\n**lim (x→∞) f(x)** asks what happens as x grows without bound: the **end behavior**, and the horizontal asymptote from the rational functions lesson.\n\n- lim (x→∞) 1/x = **0**\n- lim (x→∞) (3x² + 1) ÷ (x² − 5) = **3** (leading coefficients, same degree)\n- lim (x→∞) of the average cost C(x) = (6,000 + 0.9x) ÷ x = **0.9**: your cost per mile approaches the variable cost as miles grow."
+  },
+  {
+   "type": "text",
+   "md": "## Continuity\nA function is **continuous at a** if you can draw through that point without lifting your pencil. Formally, three things must hold:\n\n1. f(a) is defined,\n2. lim (x→a) f(x) exists, and\n3. they're **equal**.\n\nThree ways to fail: a **hole** (removable), a **jump**, or an **infinite** (asymptote) discontinuity."
+  },
+  {
+   "type": "check",
+   "q": "f(x) = (x² − 1)/(x − 1) at x = 1 has…",
+   "options": [
+    "a jump",
+    "a removable discontinuity (hole)",
+    "an asymptote",
+    "no discontinuity"
+   ],
+   "answer": 1,
+   "why": "Simplifies to x + 1, limit 2, but f(1) is undefined: a hole."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **0/0 isn't the answer.** It means *simplify*.\n- **The limit ignores f(a) itself.**\n- **Both sides must agree** for the limit to exist.\n- **∞ isn't a number.** A limit that \"equals ∞\" technically doesn't exist; it describes unbounded growth."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "lim (x→3) of (2x + 1)?",
+   "answer": 7,
+   "why": "Direct substitution.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "lim (x→−1) of (x² + 4x)?",
+   "answer": -3,
+   "why": "1 − 4 = −3.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "lim (x→5) of (x² − 25) ÷ (x − 5)?",
+   "answer": 10,
+   "why": "Factor → x + 5 → 10.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "lim (x→∞) of 7 ÷ x?",
+   "answer": 0,
+   "why": "Shrinks to 0.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "lim (x→∞) of (4x + 1) ÷ (2x − 3)?",
+   "answer": 2,
+   "why": "Leading coefficients: 4/2.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "If the left-hand limit is 3 and the right-hand limit is 5, the two-sided limit…",
+   "options": [
+    "is 4",
+    "is 3",
+    "doesn't exist",
+    "is 5"
+   ],
+   "answer": 2,
+   "why": "Must agree."
+  },
+  {
+   "type": "mc",
+   "q": "0/0 from direct substitution means…",
+   "options": [
+    "the limit is 0",
+    "the limit doesn't exist",
+    "simplify and try again",
+    "the limit is 1"
+   ],
+   "answer": 2,
+   "why": "Indeterminate form."
+  },
+  {
+   "type": "mc",
+   "q": "A function with a jump at x = 2 is…",
+   "options": [
+    "continuous at 2",
+    "discontinuous at 2",
+    "undefined everywhere",
+    "linear"
+   ],
+   "answer": 1,
+   "why": "Lifting the pencil."
+  },
+  {
+   "type": "num",
+   "q": "lim (x→2) of (x² + x − 6) ÷ (x − 2)?",
+   "answer": 5,
+   "why": "Factor: (x + 3)(x − 2) ÷ (x − 2) = x + 3 → **5**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Factor the top."
+  },
+  {
+   "type": "num",
+   "q": "lim (h→0) of ((3 + h)² − 9) ÷ h?",
+   "answer": 6,
+   "why": "Expand: (9 + 6h + h² − 9) ÷ h = (6h + h²) ÷ h = 6 + h → **6**. (This is the slope of x² at x = 3: your first derivative.)",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Expand, cancel h, then let h → 0."
+  },
+  {
+   "type": "num",
+   "q": "Average speed from t = 2 to t = 2 + h for position s(t) = t² (meters, seconds): (s(2 + h) − s(2)) ÷ h. As h → 0, what's the instantaneous speed?",
+   "answer": 4,
+   "why": "((2 + h)² − 4) ÷ h = (4h + h²) ÷ h = 4 + h → **4 m/s**.",
+   "tol": 0.001,
+   "unit": "m/s",
+   "level": "challenge",
+   "hint": "Same algebra as the last problem."
+  },
+  {
+   "type": "num",
+   "q": "Estimate lim (x→0) of sin(x) ÷ x (x in radians) using x = 0.01: sin(0.01) ≈ 0.0099998. (3 decimals)",
+   "answer": 1,
+   "why": "0.0099998 ÷ 0.01 ≈ 0.99998 → the limit is **1**. A famous limit, and one reason radians are the natural unit.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Divide."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Calculus Volume 1",
+   "url": "https://openstax.org/details/books/calculus-volume-1"
+  },
+  {
+   "title": "OpenStax, Calculus Volume 1, 2.2 The Limit of a Function",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function"
+  }
+ ]
+}

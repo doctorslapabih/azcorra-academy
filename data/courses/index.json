@@ -292,27 +292,32 @@
      {
       "id": "the-unit-circle-and-radians",
       "title": "The unit circle and radians",
-      "ready": false
+      "ready": true,
+      "desc": "Trigonometry beyond right triangles. Radians, the natural way to measure angles, and the unit circle, which defines sine and cosine for any angle at all, even negative ones and angles past 360°."
      },
      {
       "id": "graphs-of-trig-functions",
       "title": "Graphs of trig functions",
-      "ready": false
+      "ready": true,
+      "desc": "Waves. How amplitude, period, phase shift and midline let you model anything that repeats: tides, daylight hours, sound and the alternating current in every outlet."
      },
      {
       "id": "trig-identities",
       "title": "Trig identities",
-      "ready": false
+      "ready": true,
+      "desc": "Equations true for every angle. They let you rewrite trig expressions into simpler forms, solve trig equations, and prove why 45° is the best launch angle."
      },
      {
       "id": "vectors",
       "title": "Vectors",
-      "ready": false
+      "ready": true,
+      "desc": "Quantities with both size and direction: forces, velocities, wind. Break them into components, add them, and find the result. How pilots fly through crosswinds and how two tow straps share a load."
      },
      {
       "id": "introduction-to-limits",
       "title": "Introduction to limits",
-      "ready": false
+      "ready": true,
+      "desc": "The idea calculus is built on: what value does a function approach as the input gets closer and closer to some number? The answer lets us talk about speed at a single instant."
      }
     ]
    },

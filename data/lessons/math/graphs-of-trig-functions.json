@@ -1,0 +1,201 @@
+{
+ "id": "graphs-of-trig-functions",
+ "title": "Graphs of trig functions",
+ "band": "Grades 11–12",
+ "minutes": 34,
+ "lede": "Waves. How amplitude, period, phase shift and midline let you model anything that repeats: tides, daylight hours, sound and the alternating current in every outlet.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The basic waves\nPlot sin x for x from 0 to 2π and you get one full wave: starts at 0, rises to 1 at π/2, back to 0 at π, down to −1 at 3π/2, back to 0 at 2π. Then it repeats forever.\n\n| | y = sin x | y = cos x |\n|---|---|---|\n| starts at (x = 0) | 0 (middle) | 1 (top) |\n| max / min | 1 / −1 | 1 / −1 |\n| period | 2π | 2π |\n\nThe cosine graph is the sine graph **shifted left by π/2**. They're the same wave, starting at different points in the cycle."
+  },
+  {
+   "type": "text",
+   "md": "## The general form\n**y = A sin(B(x − C)) + D** (same for cosine)\n\n| Parameter | Controls | Formula |\n|---|---|---|\n| **A** | **amplitude**: height from midline to peak | amplitude = size of A (ignore sign); negative A flips the wave |\n| **B** | how fast it cycles | **period = 2π ÷ B** |\n| **C** | **phase shift**: horizontal slide | right by C |\n| **D** | **midline**: vertical shift | the wave centers on y = D |\n\n*y = 3 sin(2x) + 1:* amplitude 3, period 2π/2 = π, midline y = 1. It swings from **−2 to 4**."
+  },
+  {
+   "type": "check",
+   "q": "The period of y = sin(4x) is…",
+   "options": [
+    "4π",
+    "π/2",
+    "2π",
+    "π/4"
+   ],
+   "answer": 1,
+   "why": "2π ÷ 4 = π/2."
+  },
+  {
+   "type": "text",
+   "md": "## Frequency\n**Frequency** is how many cycles per unit time: **frequency = 1 ÷ period**.\n\nU.S. household electricity alternates at **60 Hz**: 60 full cycles per second, so each cycle takes 1/60 s. The voltage is literally a sine wave. Musical notes are too: the A above middle C is tuned to 440 Hz."
+  },
+  {
+   "type": "example",
+   "title": "Model daylight hours",
+   "problem": "Suppose a city's daylight averages 12 hours, swings 2 hours above and below over a year (365 days), and peaks around day 172 (late June). Write a model.",
+   "steps": [
+    "Midline D = 12. Amplitude A = 2.",
+    "Period 365 → B = 2π ÷ 365.",
+    "A cosine starts at its peak, so shift it to the peak day: C = 172.",
+    "**h(t) = 2 cos((2π/365)(t − 172)) + 12**"
+   ],
+   "answer": "Plug in t = 172: cos(0) = 1 → 14 hours (the longest day). Half a year later, about 10 hours. The same recipe models tides, temperatures and seasonal sales."
+  },
+  {
+   "type": "text",
+   "md": "## Tangent\n**tan x = sin x ÷ cos x.** Where cos x = 0 (at π/2, 3π/2, …) tangent is undefined, so its graph has **vertical asymptotes** there.\n\n- Period: **π** (not 2π)\n- No amplitude: it runs from −∞ to +∞ between each pair of asymptotes"
+  },
+  {
+   "type": "check",
+   "q": "y = −2 cos x + 5 has a maximum value of…",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "7"
+   ],
+   "answer": 3,
+   "why": "Midline 5, amplitude 2: range 3 to 7."
+  },
+  {
+   "type": "text",
+   "md": "## Reading a wave from a graph\n1. **Midline**: halfway between max and min: D = (max + min) ÷ 2.\n2. **Amplitude**: A = (max − min) ÷ 2.\n3. **Period**: distance from one peak to the next. Then B = 2π ÷ period.\n4. **Phase shift**: where a peak (cosine) or a rising midline crossing (sine) occurs."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Period is 2π ÷ B**, not B.\n- **Phase shift factor:** y = sin(2x − π) = sin(2(x − π/2)) shifts by **π/2**, not π. Factor B out first.\n- **Amplitude is a distance**, always positive.\n- **Tangent's period is π.**"
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Amplitude of y = 5 sin x?",
+   "answer": 5,
+   "why": "A = 5.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Amplitude of y = −3 cos x?",
+   "answer": 3,
+   "why": "Size of A.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Period of y = cos(x/2)?",
+   "options": [
+    "π",
+    "2π",
+    "4π",
+    "π/2"
+   ],
+   "answer": 2,
+   "why": "2π ÷ (1/2) = 4π."
+  },
+  {
+   "type": "num",
+   "q": "Midline of y = sin x − 4 (enter the y-value)?",
+   "answer": -4,
+   "why": "D = −4.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Maximum value of y = 2 sin x + 3?",
+   "answer": 5,
+   "why": "3 + 2.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Period of y = tan x?",
+   "options": [
+    "π",
+    "2π",
+    "π/2",
+    "4π"
+   ],
+   "answer": 0,
+   "why": "Tangent repeats every π."
+  },
+  {
+   "type": "num",
+   "q": "Frequency of a wave with period 0.25 s?",
+   "answer": 4,
+   "why": "1 ÷ 0.25.",
+   "tol": 0.001,
+   "unit": "Hz"
+  },
+  {
+   "type": "mc",
+   "q": "y = sin(x − π/3) is sin x shifted…",
+   "options": [
+    "left π/3",
+    "right π/3",
+    "up π/3",
+    "down π/3"
+   ],
+   "answer": 1,
+   "why": "Phase shift right."
+  },
+  {
+   "type": "mc",
+   "q": "Phase shift of y = cos(3x − π)?",
+   "options": [
+    "π right",
+    "π/3 right",
+    "3π right",
+    "π/3 left"
+   ],
+   "answer": 1,
+   "why": "Factor: cos(3(x − π/3)). Shift **π/3 right**.",
+   "level": "challenge",
+   "hint": "Factor out B first."
+  },
+  {
+   "type": "mc",
+   "q": "A wave has max 9 and min 1, with peaks every 8 seconds. Which model fits (cosine, peak at t = 0)?",
+   "options": [
+    "y = 4 cos((π/4)t) + 5",
+    "y = 8 cos(t) + 1",
+    "y = 5 cos((π/4)t) + 4",
+    "y = 4 cos(8t) + 5"
+   ],
+   "answer": 0,
+   "why": "Midline (9 + 1)/2 = 5. Amplitude (9 − 1)/2 = 4. B = 2π/8 = π/4.",
+   "level": "challenge",
+   "hint": "Midline, amplitude, then B from the period."
+  },
+  {
+   "type": "num",
+   "q": "Household current in some countries alternates at 50 Hz. How many milliseconds is one cycle?",
+   "answer": 20,
+   "why": "Period = 1 ÷ 50 = 0.02 s = **20 ms**. (In the U.S., 60 Hz → about 16.7 ms.)",
+   "tol": 0.001,
+   "unit": "ms",
+   "level": "challenge",
+   "hint": "Period = 1 ÷ frequency."
+  },
+  {
+   "type": "num",
+   "q": "Using h(t) = 2 cos((2π/365)(t − 172)) + 12, daylight hours at t = 172 + 182.5 (half a year later)?",
+   "answer": 10,
+   "why": "The cosine argument becomes π: cos(π) = −1 → 2(−1) + 12 = **10 hours**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Half a period → cos goes from 1 to −1."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Precalculus 2e",
+   "url": "https://openstax.org/details/books/precalculus-2e"
+  },
+  {
+   "title": "OpenStax, Precalculus 2e, 6.1 Graphs of the Sine and Cosine Functions",
+   "url": "https://openstax.org/books/precalculus-2e/pages/6-1-graphs-of-the-sine-and-cosine-functions"
+  }
+ ]
+}

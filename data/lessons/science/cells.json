@@ -1,0 +1,219 @@
+{
+ "id": "cells",
+ "title": "Cells",
+ "band": "Grades 7–8",
+ "minutes": 30,
+ "lede": "Every living thing is built from cells, and each cell runs like a small company: a head office, a power plant, a factory floor and a shipping dock.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Cell theory\nThree statements, worked out over 200 years, are the foundation of biology:\n\n1. **All living things are made of one or more cells.**\n2. **The cell is the basic unit of life.**\n3. **All cells come from existing cells.**\n\nRobert Hooke named cells in 1665 after looking at cork through an early microscope; the tiny boxes reminded him of monks' rooms (*cells*). It took until the 1850s for scientists to establish the third point: cells don't appear from nothing, they divide.\n\nYour body has roughly **30 trillion** human cells, of about 200 types: muscle, nerve, blood, bone, skin."
+  },
+  {
+   "type": "text",
+   "md": "## Two kinds of cells\n| | **Prokaryotic** | **Eukaryotic** |\n|---|---|---|\n| Nucleus? | **No**: DNA floats in the cell | **Yes**: DNA enclosed in a nucleus |\n| Organelles with membranes? | No | Yes |\n| Size | small (about 1–10 µm) | larger (about 10–100 µm) |\n| Examples | bacteria, archaea | animals, plants, fungi, protists |\n\n*Pro* = before, *karyon* = kernel (nucleus): \"before the nucleus.\" *Eu* = true. Prokaryotes came first; they were the only life on Earth for well over a billion years."
+  },
+  {
+   "type": "text",
+   "md": "## Inside a eukaryotic cell: the company\n| Organelle | Job | In the company |\n|---|---|---|\n| **Nucleus** | holds DNA, controls the cell | head office with the master plans |\n| **Ribosomes** | build proteins | the factory floor |\n| **Endoplasmic reticulum (ER)** | rough ER helps make proteins; smooth ER makes fats | assembly lines |\n| **Golgi apparatus** | modifies, packages and ships proteins | the shipping dock |\n| **Mitochondria** | turn food into usable energy (ATP) | the power plant |\n| **Lysosomes** | break down waste and worn-out parts | recycling crew |\n| **Cell membrane** | controls what goes in and out | the gate and security |\n| **Cytoplasm** | gel filling the cell | the yard where everything happens |"
+  },
+  {
+   "type": "text",
+   "md": "## Plant cells add three things\n- **Cell wall**: a rigid layer of cellulose outside the membrane. It's why plants stand up without bones.\n- **Chloroplasts**: capture sunlight for **photosynthesis**. They contain the green pigment chlorophyll.\n- **Large central vacuole**: a big water tank that keeps the cell firm. A wilting plant is one whose vacuoles are losing water.\n\nPlant cells **also have mitochondria**. A common mistake is thinking chloroplasts replace them. Chloroplasts make sugar; mitochondria burn it."
+  },
+  {
+   "type": "check",
+   "q": "A cell has a nucleus, mitochondria, a cell wall and chloroplasts. It's most likely…",
+   "options": [
+    "a bacterium",
+    "an animal cell",
+    "a plant cell",
+    "a virus"
+   ],
+   "answer": 2,
+   "why": "Cell wall + chloroplasts = **plant**. A nucleus rules out bacteria. Viruses aren't cells at all."
+  },
+  {
+   "type": "text",
+   "md": "## The membrane: a smart gate\nThe cell membrane is **selectively permeable**: some things pass freely, others need help.\n\n- **Diffusion**: particles spread from where they're crowded to where they're sparse, with no energy needed. Oxygen enters your cells this way.\n- **Osmosis**: diffusion of **water** across a membrane. Water moves toward the side with **more dissolved stuff** (higher solute concentration).\n- **Active transport**: the cell spends energy to pump things **against** the gradient, like pushing a truck uphill.\n\nOsmosis in action: put a red blood cell in salty water and water rushes **out**, so the cell shrivels. In pure water, water rushes **in** and the cell can burst. That's why IV fluids are matched to the salt level of blood."
+  },
+  {
+   "type": "text",
+   "md": "## Why cells are so small\nA cell feeds and breathes through its **surface**, but its needs grow with its **volume**. As anything gets bigger, volume grows faster than surface area:\n\n| Cube side | Surface area | Volume | Surface : volume |\n|---|---|---|---|\n| 1 | 6 | 1 | **6 : 1** |\n| 2 | 24 | 8 | **3 : 1** |\n| 3 | 54 | 27 | **2 : 1** |\n\nTriple the size and each unit of volume gets only one-third the surface to supply it. Past a certain size, a cell can't move materials in and out fast enough, so it divides. Big organisms are made of **many small cells**, not a few giant ones."
+  },
+  {
+   "type": "note",
+   "label": "Go deeper: mitochondria were once bacteria",
+   "md": "Mitochondria have their **own DNA**, their own ribosomes, and divide on their own, like bacteria. The leading explanation, **endosymbiotic theory**, is that over a billion years ago a larger cell swallowed a bacterium that survived inside it, and the two became partners. Chloroplasts likely began the same way, from photosynthetic bacteria. Your mitochondrial DNA comes almost entirely from your mother."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Viruses aren't cells.** They can't make energy or reproduce on their own; they hijack cells.\n- **Plant cells have mitochondria too.**\n- **Osmosis direction:** water moves **toward** the saltier side, not away from it."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is part of cell theory?",
+   "options": [
+    "All cells have a nucleus",
+    "All cells come from existing cells",
+    "Cells are only in animals",
+    "Cells can form from non-living matter"
+   ],
+   "answer": 1,
+   "why": "Cells only come from cells."
+  },
+  {
+   "type": "mc",
+   "q": "The main difference between prokaryotic and eukaryotic cells is…",
+   "options": [
+    "size only",
+    "eukaryotes have a nucleus",
+    "prokaryotes are animals",
+    "eukaryotes have no DNA"
+   ],
+   "answer": 1,
+   "why": "*Eu-karyotic* = true nucleus."
+  },
+  {
+   "type": "mc",
+   "q": "Which organelle releases energy from food?",
+   "options": [
+    "Ribosome",
+    "Golgi apparatus",
+    "Mitochondrion",
+    "Nucleus"
+   ],
+   "answer": 2,
+   "why": "Mitochondria make ATP: the power plant."
+  },
+  {
+   "type": "mc",
+   "q": "Proteins are built by…",
+   "options": [
+    "ribosomes",
+    "lysosomes",
+    "vacuoles",
+    "the cell wall"
+   ],
+   "answer": 0,
+   "why": "Ribosomes are the factory floor."
+  },
+  {
+   "type": "mc",
+   "q": "Which structure do plant cells have that animal cells don't?",
+   "options": [
+    "Mitochondria",
+    "Cell membrane",
+    "Chloroplasts",
+    "Ribosomes"
+   ],
+   "answer": 2,
+   "why": "Chloroplasts (and a cell wall)."
+  },
+  {
+   "type": "mc",
+   "q": "A red blood cell placed in very salty water will…",
+   "options": [
+    "swell and burst",
+    "shrink as water leaves",
+    "stay the same",
+    "divide"
+   ],
+   "answer": 1,
+   "why": "Water moves toward the saltier side: out of the cell."
+  },
+  {
+   "type": "mc",
+   "q": "Moving a substance **against** its concentration gradient requires…",
+   "options": [
+    "diffusion",
+    "osmosis",
+    "active transport",
+    "nothing"
+   ],
+   "answer": 2,
+   "why": "Pumping uphill costs energy."
+  },
+  {
+   "type": "mc",
+   "q": "The Golgi apparatus is best compared to…",
+   "options": [
+    "a power plant",
+    "a shipping dock",
+    "a head office",
+    "a security gate"
+   ],
+   "answer": 1,
+   "why": "It packages and ships proteins."
+  },
+  {
+   "type": "num",
+   "q": "A cube-shaped cell has sides of 4 units. What is its surface-area-to-volume ratio? (Answer as a single number: SA ÷ V)",
+   "answer": 1.5,
+   "why": "SA = 6 × 4² = 96. V = 4³ = 64. 96 ÷ 64 = **1.5**. Compare 6 for a cube of side 1: bigger cells get much less surface per unit of volume.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Surface area = 6 × side². Volume = side³.",
+   "steps": [
+    "SA = 6 × 16 = 96.",
+    "V = 4 × 4 × 4 = 64.",
+    "96 ÷ 64 = 1.5."
+   ]
+  },
+  {
+   "type": "mc",
+   "q": "Mitochondria have their own DNA and divide on their own. This is key evidence for…",
+   "options": [
+    "cell theory",
+    "endosymbiotic theory",
+    "osmosis",
+    "spontaneous generation"
+   ],
+   "answer": 1,
+   "why": "They likely descend from bacteria that began living inside larger cells.",
+   "level": "challenge",
+   "hint": "Re-read the *Go deeper* box."
+  },
+  {
+   "type": "mc",
+   "q": "A muscle cell has far more mitochondria than a skin cell. The best explanation:",
+   "options": [
+    "Muscle cells are bigger",
+    "Muscle cells need much more energy",
+    "Skin cells don't need energy",
+    "Mitochondria store protein"
+   ],
+   "answer": 1,
+   "why": "Cells build what their job demands. Endurance training even increases the number of mitochondria in muscle cells.",
+   "level": "challenge",
+   "hint": "What do mitochondria make, and who needs a lot of it?"
+  },
+  {
+   "type": "mc",
+   "q": "Why can't a single cell grow to the size of a basketball?",
+   "options": [
+    "It would run out of DNA",
+    "Its surface couldn't supply its huge volume fast enough",
+    "Gravity would crush it",
+    "It would become a plant"
+   ],
+   "answer": 1,
+   "why": "Volume grows faster than surface area. The membrane is the only door, and a giant cell would starve in its center.",
+   "level": "challenge",
+   "hint": "Look at the surface-to-volume table."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e"
+  },
+  {
+   "title": "OpenStax, Concepts of Biology",
+   "url": "https://openstax.org/details/books/concepts-biology"
+  }
+ ]
+}

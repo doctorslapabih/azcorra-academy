@@ -905,27 +905,32 @@
      {
       "id": "cells",
       "title": "Cells",
-      "ready": false
+      "ready": true,
+      "desc": "Every living thing is built from cells, and each cell runs like a small company: a head office, a power plant, a factory floor and a shipping dock."
      },
      {
       "id": "dna-and-genetics",
       "title": "DNA and genetics",
-      "ready": false
+      "ready": true,
+      "desc": "A four-letter code, three billion letters long, that builds you. How DNA stores information, how it becomes a body, and how traits pass from parents to kids."
      },
      {
       "id": "evolution-and-natural-selection",
       "title": "Evolution and natural selection",
-      "ready": false
+      "ready": true,
+      "desc": "Variation, inheritance and a struggle to survive: three ingredients that, over many generations, shaped every living thing. Plus the misconceptions almost everyone has."
      },
      {
       "id": "human-body-systems",
       "title": "Human body systems",
-      "ready": false
+      "ready": true,
+      "desc": "Eleven systems, one machine. How your heart, lungs, muscles, nerves and hormones work together, and what actually happens inside you during a fight."
      },
      {
       "id": "ecosystems",
       "title": "Ecosystems",
-      "ready": false
+      "ready": true,
+      "desc": "Energy flows one way and matter goes in circles. How living things connect, why there are so few sharks and so much grass, and what happened when pythons hit the Everglades."
      }
     ]
    },

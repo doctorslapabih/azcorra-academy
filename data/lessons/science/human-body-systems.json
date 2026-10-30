@@ -1,0 +1,222 @@
+{
+ "id": "human-body-systems",
+ "title": "Human body systems",
+ "band": "Grades 7–8",
+ "minutes": 34,
+ "lede": "Eleven systems, one machine. How your heart, lungs, muscles, nerves and hormones work together, and what actually happens inside you during a fight.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Levels of organization\n**Cell → tissue → organ → organ system → organism**\n\n- **Tissue**: a group of similar cells doing one job (muscle tissue).\n- **Organ**: tissues working together (the heart has muscle, nerve and connective tissue).\n- **Organ system**: organs working together (heart + blood vessels + blood = circulatory system)."
+  },
+  {
+   "type": "text",
+   "md": "## The systems\n| System | Main parts | Job |\n|---|---|---|\n| **Circulatory** | heart, blood vessels, blood | delivers oxygen and nutrients, removes waste |\n| **Respiratory** | lungs, airways | brings in oxygen, removes carbon dioxide |\n| **Muscular** | about 600 muscles | movement, posture, heat |\n| **Skeletal** | 206 bones (adult) | support, protection, blood cell production |\n| **Nervous** | brain, spinal cord, nerves | control and communication (fast) |\n| **Endocrine** | glands, hormones | control and communication (slower, longer-lasting) |\n| **Digestive** | stomach, intestines, liver | breaks food into usable nutrients |\n| **Urinary** | kidneys, bladder | filters blood, balances water and salt |\n| **Immune / lymphatic** | white blood cells, lymph nodes | defense against infection |\n| **Integumentary** | skin, hair, nails | protection, temperature control |\n| **Reproductive** | reproductive organs | producing offspring |"
+  },
+  {
+   "type": "text",
+   "md": "## Circulation and breathing: the oxygen delivery route\n1. You breathe in. Air reaches about **480 million tiny air sacs** (**alveoli**) in your lungs.\n2. Oxygen **diffuses** across the thin alveoli walls into the blood, where **hemoglobin** in red blood cells grabs it.\n3. The **heart**, a four-chambered pump, pushes oxygen-rich blood through **arteries** to every cell.\n4. Cells use the oxygen in their **mitochondria** to release energy from food, making CO₂ as waste.\n5. **Veins** carry the blood back; the heart sends it to the lungs, where CO₂ leaves when you breathe out.\n\nAt rest your heart beats about 60–80 times a minute, roughly **100,000 times a day**."
+  },
+  {
+   "type": "check",
+   "q": "Where does oxygen move from the air into the blood?",
+   "options": [
+    "The heart",
+    "The alveoli in the lungs",
+    "The stomach",
+    "The veins"
+   ],
+   "answer": 1,
+   "why": "Gas exchange happens across the thin walls of the alveoli."
+  },
+  {
+   "type": "text",
+   "md": "## Muscles only pull\nA muscle can only **contract** (pull). It can't push. So muscles work in **antagonistic pairs**: to bend your elbow, the **biceps** contracts; to straighten it, the **triceps** contracts and the biceps relaxes. Every jab is a triceps contraction; every hook brings in the chest and shoulders.\n\nThree types of muscle:\n- **Skeletal**: attached to bones, under your control.\n- **Smooth**: in organs like the stomach and blood vessels, automatic.\n- **Cardiac**: only in the heart, automatic, never tires the way skeletal muscle does."
+  },
+  {
+   "type": "text",
+   "md": "## Two control systems\n| | **Nervous system** | **Endocrine system** |\n|---|---|---|\n| Signal | electrical impulses along nerves | **hormones** carried in the blood |\n| Speed | milliseconds | seconds to days |\n| Example | pulling your hand off a hot stove | adrenaline before a fight; insulin after a meal |\n\nYour brain has about **86 billion neurons**. A **reflex** (like the knee-jerk) skips the brain entirely: the signal runs to the spinal cord and straight back to the muscle, which is why reflexes are so fast."
+  },
+  {
+   "type": "text",
+   "md": "## Homeostasis: keeping conditions steady\nYour body works hard to keep its internal conditions in a narrow range: temperature around 37 °C (98.6 °F), blood sugar, water and salt levels. This balance is **homeostasis**, and most of it runs on **negative feedback**: a change triggers a response that pushes it back.\n\n- Too hot → you sweat; evaporation cools the skin → temperature drops back.\n- Blood sugar up after a meal → the pancreas releases **insulin** → cells absorb sugar → blood sugar drops back."
+  },
+  {
+   "type": "example",
+   "title": "All systems in one round",
+   "problem": "What happens in your body during a hard 5-minute round?",
+   "steps": [
+    "**Endocrine**: adrenaline floods in before the bell, raising heart rate and freeing up energy.",
+    "**Nervous**: your brain reads the opponent and fires the muscles; reflexes handle the slips.",
+    "**Muscular**: skeletal muscles contract in pairs, burning ATP fast.",
+    "**Respiratory + circulatory**: breathing and heart rate climb to deliver more oxygen and dump CO₂.",
+    "**Integumentary**: you sweat to dump heat (homeostasis).",
+    "**Urinary**: kidneys conserve water as you lose it through sweat."
+   ],
+   "answer": "Every system is involved. Conditioning trains them **as a team**: a trained heart pumps more blood per beat, so resting heart rate drops."
+  },
+  {
+   "type": "text",
+   "md": "## Water and the body\nAbout **60%** of an adult male's body weight is water. Your **kidneys** filter roughly **180 liters** of blood plasma a day, returning almost all of it and making only about 1–2 liters of urine.\n\nWhen you're dehydrated, **blood volume** drops. The heart has to beat faster to deliver the same oxygen, and temperature control suffers because there's less water to sweat. Severe, rapid dehydration strains the heart and kidneys and hurts strength, endurance and focus. That's the physiology behind doctors' and athletic commissions' concern over extreme weight cuts in combat sports."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Arteries carry blood away from the heart**; veins carry it **toward** it. (Arteries usually carry oxygen-rich blood, but the pulmonary artery carries oxygen-poor blood to the lungs.)\n- **Blood in your veins isn't blue.** It's dark red. Veins look blue through skin because of how light scatters.\n- **Muscles never push.** Every movement is a pull by one muscle of a pair."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Correct order of organization:",
+   "options": [
+    "organ → cell → tissue → system",
+    "cell → tissue → organ → organ system",
+    "tissue → cell → organ → system",
+    "cell → organ → tissue → system"
+   ],
+   "answer": 1,
+   "why": "Small to large."
+  },
+  {
+   "type": "mc",
+   "q": "Gas exchange in the lungs happens in the…",
+   "options": [
+    "trachea",
+    "alveoli",
+    "heart",
+    "diaphragm"
+   ],
+   "answer": 1,
+   "why": "Tiny air sacs with thin walls."
+  },
+  {
+   "type": "mc",
+   "q": "Which system uses hormones?",
+   "options": [
+    "Nervous",
+    "Endocrine",
+    "Skeletal",
+    "Integumentary"
+   ],
+   "answer": 1,
+   "why": "Hormones travel in the blood."
+  },
+  {
+   "type": "num",
+   "q": "How many bones in an adult human skeleton?",
+   "answer": 206,
+   "why": "206 (babies start with closer to 300; many fuse).",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "To straighten your arm in a jab, which muscle contracts?",
+   "options": [
+    "Biceps",
+    "Triceps",
+    "Both",
+    "Neither"
+   ],
+   "answer": 1,
+   "why": "The triceps pulls the forearm straight."
+  },
+  {
+   "type": "mc",
+   "q": "Sweating to cool down is an example of…",
+   "options": [
+    "homeostasis by negative feedback",
+    "positive feedback",
+    "digestion",
+    "a reflex arc in the brain"
+   ],
+   "answer": 0,
+   "why": "A change (heat) triggers a response that reverses it."
+  },
+  {
+   "type": "mc",
+   "q": "Arteries carry blood…",
+   "options": [
+    "toward the heart",
+    "away from the heart",
+    "only to the lungs",
+    "only to the brain"
+   ],
+   "answer": 1,
+   "why": "*A* for *away*."
+  },
+  {
+   "type": "mc",
+   "q": "Which control system is faster?",
+   "options": [
+    "Endocrine",
+    "Nervous",
+    "They're equally fast",
+    "Digestive"
+   ],
+   "answer": 1,
+   "why": "Electrical signals take milliseconds."
+  },
+  {
+   "type": "num",
+   "q": "At 70 beats per minute, about how many times does your heart beat in a day?",
+   "answer": 100800,
+   "why": "70 × 60 × 24 = **100,800**.",
+   "tol": 1,
+   "level": "challenge",
+   "hint": "Beats per minute × minutes per hour × hours per day."
+  },
+  {
+   "type": "mc",
+   "q": "Why does a reflex happen faster than a decision?",
+   "options": [
+    "Reflexes use hormones",
+    "The signal goes through the spinal cord without waiting for the brain",
+    "Reflex nerves are longer",
+    "Reflexes use the heart"
+   ],
+   "answer": 1,
+   "why": "The **reflex arc** loops at the spinal cord, cutting out the trip to the brain and back.",
+   "level": "challenge",
+   "hint": "Where does the signal turn around?"
+  },
+  {
+   "type": "mc",
+   "q": "A dehydrated athlete's heart rate rises during exercise more than usual. The main reason:",
+   "options": [
+    "The heart is weaker",
+    "Lower blood volume means each beat delivers less, so it beats faster to compensate",
+    "Hormones stop working",
+    "The lungs take in less oxygen"
+   ],
+   "answer": 1,
+   "why": "Less water → less plasma → less blood pumped per beat. To deliver the same oxygen, the heart speeds up.",
+   "level": "challenge",
+   "hint": "What happens to blood volume when you lose water?"
+  },
+  {
+   "type": "mc",
+   "q": "After a big meal, blood sugar rises, then falls back to normal. Which hormone and organ handle this?",
+   "options": [
+    "Adrenaline, from the kidneys",
+    "Insulin, from the pancreas",
+    "Cortisol, from the skin",
+    "Insulin, from the liver only"
+   ],
+   "answer": 1,
+   "why": "The pancreas releases **insulin**, which signals cells to take up sugar: negative feedback.",
+   "level": "challenge",
+   "hint": "Re-read the homeostasis section."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Anatomy and Physiology 2e",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+  },
+  {
+   "title": "OpenStax, Concepts of Biology",
+   "url": "https://openstax.org/details/books/concepts-biology"
+  }
+ ]
+}

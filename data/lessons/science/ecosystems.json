@@ -1,0 +1,219 @@
+{
+ "id": "ecosystems",
+ "title": "Ecosystems",
+ "band": "Grades 7–8",
+ "minutes": 32,
+ "lede": "Energy flows one way and matter goes in circles. How living things connect, why there are so few sharks and so much grass, and what happened when pythons hit the Everglades.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Levels of ecology\n**Organism → population → community → ecosystem → biome → biosphere**\n\n- **Population**: one species in one area (all the alligators in a lake).\n- **Community**: all the species in that area.\n- **Ecosystem**: the community **plus** its non-living (**abiotic**) environment: water, sunlight, soil, temperature.\n- **Biotic** = living parts. **Abiotic** = non-living parts."
+  },
+  {
+   "type": "text",
+   "md": "## Energy flows up the food chain\n- **Producers** (plants, algae) capture sunlight through photosynthesis.\n- **Primary consumers** (herbivores) eat producers.\n- **Secondary consumers** eat herbivores. **Tertiary consumers** eat those.\n- **Decomposers** (bacteria, fungi) break down the dead and recycle the materials.\n\nEach feeding step is a **trophic level**. Real ecosystems are **food webs**: many overlapping chains, because most animals eat more than one thing."
+  },
+  {
+   "type": "text",
+   "md": "## The 10% rule\nAt each step up, only about **10%** of the energy gets stored in the next level. The other ~90% is used for living (moving, staying warm, breathing) and lost as heat.\n\n| Level | Energy available |\n|---|---|\n| Producers (grass) | 10,000 units |\n| Primary consumers (rabbits) | 1,000 |\n| Secondary consumers (snakes) | 100 |\n| Tertiary consumers (hawks) | 10 |\n\nThis one rule explains a lot:\n- **Food chains are short**, usually 4–5 levels. There isn't enough energy left to support more.\n- **Top predators are rare.** A region can feed millions of insects, thousands of birds, and only a few big cats.\n- **Eating lower on the chain feeds more people.** Grain fed directly to people goes much further than grain fed to cattle first."
+  },
+  {
+   "type": "check",
+   "q": "Producers in an ecosystem hold 50,000 units of energy. About how much reaches the secondary consumers?",
+   "options": [
+    "5,000",
+    "500",
+    "50",
+    "50,000"
+   ],
+   "answer": 1,
+   "why": "Two steps up: 50,000 → 5,000 → **500**."
+  },
+  {
+   "type": "text",
+   "md": "## Matter cycles\nEnergy flows **through** an ecosystem and leaves as heat. **Matter** is reused over and over:\n\n- **Carbon cycle**: plants pull CO₂ from the air for photosynthesis; animals eat plants; respiration, decay and burning fuels return CO₂ to the air.\n- **Water cycle**: evaporation → condensation (clouds) → precipitation → runoff and groundwater.\n- **Nitrogen cycle**: air is 78% nitrogen, but most living things can't use it directly. Bacteria in soil and in the roots of plants like beans **fix** it into forms plants can absorb.\n\nThe carbon atoms in your body have been in rocks, oceans, plants and other animals before you."
+  },
+  {
+   "type": "text",
+   "md": "## How species interact\n| Relationship | Who benefits | Example |\n|---|---|---|\n| **Predation** | predator +, prey − | hawk and rabbit |\n| **Competition** | both − | two shark species hunting the same fish |\n| **Mutualism** | both + | bees and flowers |\n| **Commensalism** | one +, other unaffected | barnacles riding on a whale |\n| **Parasitism** | parasite +, host − | ticks on a deer |\n\nMutualism, commensalism and parasitism are all types of **symbiosis**: species living in close, long-term contact."
+  },
+  {
+   "type": "text",
+   "md": "## Populations and limits\nWith unlimited resources, populations grow **exponentially**. Real environments have **limiting factors**: food, water, space, predators, disease. The largest population an environment can support long-term is its **carrying capacity**.\n\nA **keystone species** has an outsized effect on its ecosystem. Sea otters eat sea urchins; without otters, urchins explode and devour kelp forests, wiping out the habitat for hundreds of species."
+  },
+  {
+   "type": "example",
+   "title": "An invasive species close to home",
+   "problem": "Burmese pythons, released or escaped pets, have spread through the Florida Everglades.",
+   "steps": [
+    "They're **invasive**: they evolved elsewhere (Southeast Asia), so local animals have no defenses and the snakes have few predators here.",
+    "Studies have recorded **steep declines** in raccoons, opossums, rabbits and other mammals where pythons are established.",
+    "Those mammals were prey for native predators and spread seeds, so the effects ripple through the food web."
+   ],
+   "answer": "One species added in the wrong place can reshape an entire ecosystem. Florida now runs python removal programs, including public hunts."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Energy doesn't cycle; matter does.** Energy enters as sunlight and leaves as heat.\n- **Decomposers aren't optional.** Without them, nutrients would stay locked in dead material.\n- **Food chain arrows point the way energy moves**: grass → rabbit means the rabbit eats the grass."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "A **community** is…",
+   "options": [
+    "one species in an area",
+    "all the species in an area",
+    "living things plus the non-living environment",
+    "the whole planet"
+   ],
+   "answer": 1,
+   "why": "Community = all populations together."
+  },
+  {
+   "type": "mc",
+   "q": "Which is **abiotic**?",
+   "options": [
+    "Grass",
+    "Bacteria",
+    "Sunlight",
+    "Fungi"
+   ],
+   "answer": 2,
+   "why": "Non-living."
+  },
+  {
+   "type": "mc",
+   "q": "Producers get their energy from…",
+   "options": [
+    "eating consumers",
+    "sunlight",
+    "decomposers",
+    "the soil"
+   ],
+   "answer": 1,
+   "why": "Photosynthesis."
+  },
+  {
+   "type": "num",
+   "q": "Producers hold 20,000 units of energy. About how much reaches primary consumers?",
+   "answer": 2000,
+   "why": "10% of 20,000 = 2,000.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Why are top predators rare?",
+   "options": [
+    "They're bad hunters",
+    "Little energy reaches the top of the food chain",
+    "They live in the ocean",
+    "Humans protect them"
+   ],
+   "answer": 1,
+   "why": "The 10% rule."
+  },
+  {
+   "type": "mc",
+   "q": "Bees get nectar; flowers get pollinated. This is…",
+   "options": [
+    "parasitism",
+    "commensalism",
+    "mutualism",
+    "competition"
+   ],
+   "answer": 2,
+   "why": "Both benefit."
+  },
+  {
+   "type": "mc",
+   "q": "Which cycles through an ecosystem and is reused?",
+   "options": [
+    "Energy",
+    "Matter (like carbon)",
+    "Sunlight",
+    "Heat"
+   ],
+   "answer": 1,
+   "why": "Energy flows through; matter cycles."
+  },
+  {
+   "type": "mc",
+   "q": "The largest population an environment can support long-term is its…",
+   "options": [
+    "growth rate",
+    "carrying capacity",
+    "trophic level",
+    "keystone"
+   ],
+   "answer": 1,
+   "why": "Carrying capacity."
+  },
+  {
+   "type": "num",
+   "q": "A hawk is a tertiary consumer. If producers capture 1,000,000 units of energy, about how much reaches the hawk level?",
+   "answer": 1000,
+   "why": "Three steps up: 1,000,000 → 100,000 → 10,000 → **1,000**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Divide by 10 for each step up."
+  },
+  {
+   "type": "mc",
+   "q": "Sea otters disappear from a coast. What happens next most likely?",
+   "options": [
+    "Kelp forests grow larger",
+    "Sea urchins multiply and kelp forests shrink",
+    "Nothing changes",
+    "Fish populations boom"
+   ],
+   "answer": 1,
+   "why": "Otters keep urchins in check. Remove a **keystone species** and the effects cascade.",
+   "level": "challenge",
+   "hint": "Who eats whom? Follow the chain."
+  },
+  {
+   "type": "mc",
+   "q": "Why can't you just add more levels on top of a food chain, like a predator that eats hawks, that eats a predator that eats hawks?",
+   "options": [
+    "Animals don't eat hawks",
+    "Each level gets only ~10% of the one below, so there's soon not enough energy to support a population",
+    "Predators can't fly",
+    "Decomposers would eat them"
+   ],
+   "answer": 1,
+   "why": "By the fifth or sixth level, there's only a sliver of the original energy, too little for a stable population.",
+   "level": "challenge",
+   "hint": "Apply the 10% rule a few more times."
+  },
+  {
+   "type": "mc",
+   "q": "Why do invasive species often cause more damage than native ones?",
+   "options": [
+    "They're bigger",
+    "Local species haven't evolved defenses against them, and they often lack natural predators",
+    "They reproduce asexually",
+    "They don't eat"
+   ],
+   "answer": 1,
+   "why": "Native species co-evolved checks and balances. An invader skips all of them, which is what's happening with pythons in the Everglades.",
+   "level": "challenge",
+   "hint": "Connect this to the evolution lesson."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e"
+  },
+  {
+   "title": "OpenStax, Concepts of Biology",
+   "url": "https://openstax.org/details/books/concepts-biology"
+  },
+  {
+   "title": "U.S. Geological Survey: How have invasive pythons impacted Florida ecosystems?",
+   "url": "https://www.usgs.gov/faqs/how-have-invasive-pythons-impacted-florida-ecosystems"
+  }
+ ]
+}

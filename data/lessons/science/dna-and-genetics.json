@@ -1,0 +1,209 @@
+{
+ "id": "dna-and-genetics",
+ "title": "DNA and genetics",
+ "band": "Grades 7–8",
+ "minutes": 34,
+ "lede": "A four-letter code, three billion letters long, that builds you. How DNA stores information, how it becomes a body, and how traits pass from parents to kids.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The molecule\n**DNA** (deoxyribonucleic acid) is a long molecule shaped like a twisted ladder: a **double helix**.\n\n- The **sides** of the ladder are sugar and phosphate.\n- The **rungs** are pairs of four **bases**: **A** (adenine), **T** (thymine), **C** (cytosine), **G** (guanine).\n- Base pairing is strict: **A always pairs with T, C always pairs with G.**\n\nBecause the pairing is strict, each side is a perfect template for the other. If one strand reads **ATGC**, the other must read **TACG**. That's how DNA copies itself when a cell divides.\n\nThe structure was published in 1953 by James Watson and Francis Crick, built on X-ray images made by **Rosalind Franklin** (especially \"Photo 51\") and Maurice Wilkins."
+  },
+  {
+   "type": "check",
+   "q": "One strand of DNA reads **G A T T C A**. What's the matching strand?",
+   "options": [
+    "G A T T C A",
+    "C T A A G T",
+    "T C G G A C",
+    "C U A A G U"
+   ],
+   "answer": 1,
+   "why": "Swap each base for its partner: G↔C, A↔T."
+  },
+  {
+   "type": "text",
+   "md": "## From DNA to genes to chromosomes\n- A **gene** is a stretch of DNA that holds the instructions for one product, usually a **protein**.\n- DNA is wound tightly around proteins and packed into **chromosomes**.\n- Humans have **46 chromosomes** in **23 pairs**: one of each pair from your mother, one from your father.\n- Your full set of DNA, the **genome**, is about **3 billion base pairs** long and holds roughly **20,000 protein-coding genes**.\n\nStretched out, the DNA in one of your cells would be about 2 meters long, packed into a nucleus a few millionths of a meter across."
+  },
+  {
+   "type": "text",
+   "md": "## How a gene becomes a trait: DNA → RNA → protein\nThis flow is called the **central dogma** of biology:\n\n1. **Transcription**: in the nucleus, the cell copies a gene into a messenger molecule, **mRNA**. (RNA uses **U**, uracil, instead of T.)\n2. **Translation**: at a **ribosome**, the mRNA is read three letters at a time. Each three-letter **codon** calls for one **amino acid**.\n3. The amino acids chain together and fold into a **protein**.\n\nProteins do almost everything: muscle fibers, enzymes that digest food, hemoglobin that carries oxygen, the receptors that let your nerves fire. Traits come from proteins; proteins come from genes."
+  },
+  {
+   "type": "text",
+   "md": "## Mendel and inheritance\nIn the 1860s, the monk **Gregor Mendel** crossed thousands of pea plants and discovered the rules of inheritance, before anyone knew DNA existed.\n\n| Term | Meaning |\n|---|---|\n| **Allele** | a version of a gene (e.g., tall or short) |\n| **Dominant** (capital letter, *T*) | shows up if you have even one copy |\n| **Recessive** (lowercase, *t*) | shows up only with two copies |\n| **Genotype** | the alleles you have: *TT*, *Tt* or *tt* |\n| **Phenotype** | the trait you show: tall or short |\n| **Homozygous** | two of the same allele (*TT* or *tt*) |\n| **Heterozygous** | two different alleles (*Tt*), also called a **carrier** of the recessive one |"
+  },
+  {
+   "type": "example",
+   "title": "Punnett square",
+   "problem": "Two parents are both **Tt** (tall, carrying short). What will their offspring be like?",
+   "steps": [
+    "Each parent passes on **T** or **t**, 50/50.",
+    "Four equally likely combinations: **TT**, **Tt**, **tT**, **tt**.",
+    "Genotypes: 1 TT : 2 Tt : 1 tt.",
+    "Phenotypes: TT, Tt and tT are tall; only tt is short."
+   ],
+   "answer": "**3/4 tall, 1/4 short** (a 3 : 1 ratio). This is the probability you learned in math: each child is an independent event with P(short) = 1/4."
+  },
+  {
+   "type": "text",
+   "md": "## Mutations\nA **mutation** is a change in the DNA sequence. Most are harmless, some are harmful, and a few are helpful. They're the raw material evolution works with.\n\n**Sickle cell disease** comes from a change in **one base** in the gene for hemoglobin. That single letter swaps one amino acid, which makes red blood cells bend into a sickle shape under stress. Two copies cause disease. But one copy gives some protection against **malaria**, which is why the allele is common in regions where malaria is common. One letter, life-and-death consequences either way."
+  },
+  {
+   "type": "text",
+   "md": "## It's rarely just one gene\nMendel's peas had simple traits controlled by one gene. Most human traits, like **height**, skin color or athletic ability, are **polygenic**: shaped by many genes, each with a small effect, plus **environment** (nutrition, training, sleep). That's why two tall parents usually have tall kids, but not always, and why training can change what genes alone would predict.\n\n**Sex** is set by one chromosome pair: **XX** is typically female, **XY** typically male. Fathers pass either an X or a Y, so each child has about a 50% chance of either."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Dominant doesn't mean common or better.** It only means one copy shows. Some dominant alleles are rare and harmful.\n- **Genes aren't destiny** for most traits. They set a range; environment decides where you land in it.\n- **A in DNA pairs with T, but in RNA it pairs with U.**"
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "In DNA, adenine (A) pairs with…",
+   "options": [
+    "C",
+    "G",
+    "T",
+    "U"
+   ],
+   "answer": 2,
+   "why": "A–T and C–G."
+  },
+  {
+   "type": "text",
+   "q": "Write the matching DNA strand for **A A C G T**.",
+   "answer": [
+    "TTGCA",
+    "T T G C A"
+   ],
+   "why": "A→T, A→T, C→G, G→C, T→A: **TTGCA**."
+  },
+  {
+   "type": "num",
+   "q": "How many chromosomes are in a typical human body cell?",
+   "answer": 46,
+   "why": "23 pairs = 46.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "A gene is…",
+   "options": [
+    "a whole chromosome",
+    "a section of DNA with instructions for a product, usually a protein",
+    "a type of cell",
+    "a protein"
+   ],
+   "answer": 1,
+   "why": "Genes code for proteins."
+  },
+  {
+   "type": "mc",
+   "q": "Copying a gene into mRNA is called…",
+   "options": [
+    "translation",
+    "transcription",
+    "replication",
+    "mutation"
+   ],
+   "answer": 1,
+   "why": "Transcription = copying into RNA."
+  },
+  {
+   "type": "mc",
+   "q": "An organism with genotype **Tt** is…",
+   "options": [
+    "homozygous dominant",
+    "heterozygous",
+    "homozygous recessive",
+    "a mutant"
+   ],
+   "answer": 1,
+   "why": "Two different alleles."
+  },
+  {
+   "type": "num",
+   "q": "Two **Tt** parents. What fraction of offspring are expected to show the recessive trait? (decimal)",
+   "answer": 0.25,
+   "why": "Only tt shows it: 1 of 4 = 0.25.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Height is controlled by…",
+   "options": [
+    "one gene only",
+    "many genes plus environment",
+    "only environment",
+    "the Y chromosome"
+   ],
+   "answer": 1,
+   "why": "Polygenic, plus nutrition and other factors."
+  },
+  {
+   "type": "num",
+   "q": "A **Tt** parent and a **tt** parent. What fraction of offspring are expected to be **tall** (T is dominant)? (decimal)",
+   "answer": 0.5,
+   "why": "Crosses: Tt × tt → Tt, Tt, tt, tt. Half are Tt (tall), half tt (short): **0.5**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Draw the 2×2 Punnett square.",
+   "steps": [
+    "Parent 1 gives T or t.",
+    "Parent 2 gives t or t.",
+    "Outcomes: Tt, Tt, tt, tt.",
+    "2 of 4 are tall."
+   ]
+  },
+  {
+   "type": "num",
+   "q": "Two carriers (**Aa**) of a recessive condition have **three** children. What's the probability that **none** has the condition? (Round to 2 decimals.)",
+   "answer": 0.42,
+   "why": "P(a child is unaffected) = 3/4. Children are independent: (3/4)³ = 27/64 ≈ **0.42**.",
+   "tol": 0.006,
+   "level": "challenge",
+   "hint": "Find P(one child unaffected), then use the AND rule."
+  },
+  {
+   "type": "mc",
+   "q": "Why is the sickle-cell allele common in regions with malaria?",
+   "options": [
+    "Malaria causes the mutation",
+    "One copy protects against malaria, so carriers survive and reproduce more",
+    "It's dominant",
+    "Doctors spread it"
+   ],
+   "answer": 1,
+   "why": "Natural selection favors carriers where malaria is common, even though two copies cause disease. Next lesson: this is evolution in action.",
+   "level": "challenge",
+   "hint": "What advantage does having one copy give?"
+  },
+  {
+   "type": "mc",
+   "q": "An mRNA codon reads **AUG**. The DNA template strand it was copied from reads…",
+   "options": [
+    "AUG",
+    "TAC",
+    "UAC",
+    "ATG"
+   ],
+   "answer": 1,
+   "why": "mRNA pairs with the template: A↔T, U↔A, G↔C. AUG on mRNA comes from **TAC** on the DNA template. (AUG is the \"start\" codon in nearly all life.)",
+   "level": "challenge",
+   "hint": "Pair each RNA base with its DNA partner. RNA's U pairs with DNA's A."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e"
+  },
+  {
+   "title": "NHGRI Talking Glossary of Genomic and Genetic Terms",
+   "url": "https://www.genome.gov/genetics-glossary"
+  }
+ ]
+}

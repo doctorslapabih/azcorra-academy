@@ -1,0 +1,225 @@
+{
+ "id": "evolution-and-natural-selection",
+ "title": "Evolution and natural selection",
+ "band": "Grades 7–8",
+ "minutes": 32,
+ "lede": "Variation, inheritance and a struggle to survive: three ingredients that, over many generations, shaped every living thing. Plus the misconceptions almost everyone has.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What evolution is\n**Evolution** is change in the inherited traits of a **population** over generations. Not an individual: you don't evolve during your life. Your *gym gains* aren't passed to your kids. Populations evolve as the mix of genes changes from one generation to the next.\n\nIn 1859, **Charles Darwin** published *On the Origin of Species*, describing **natural selection** as the main driving force. **Alfred Russel Wallace** had reached the same idea independently."
+  },
+  {
+   "type": "text",
+   "md": "## Natural selection: four ingredients\n1. **Variation**: individuals in a population differ (speed, color, size).\n2. **Inheritance**: many of those differences are passed to offspring through genes.\n3. **Overproduction**: more offspring are born than can survive, so there's competition.\n4. **Differential reproduction**: individuals with traits that fit their environment better survive and **reproduce more**.\n\nResult: helpful traits become **more common** each generation. No plan, no goal. Just a filter, applied over and over."
+  },
+  {
+   "type": "check",
+   "q": "Which is required for natural selection to change a population?",
+   "options": [
+    "Animals trying to adapt",
+    "Traits that vary and can be inherited",
+    "A change in a single animal's body during its life",
+    "Humans choosing which animals breed"
+   ],
+   "answer": 1,
+   "why": "Without inherited variation, there's nothing to select. Effort during a lifetime isn't inherited."
+  },
+  {
+   "type": "text",
+   "md": "## \"Survival of the fittest\" doesn't mean strongest\n**Fitness** in biology means **reproductive success**: how many offspring you leave who survive to reproduce themselves. A huge, strong animal that never breeds has zero fitness. A small, camouflaged one that raises ten offspring has high fitness.\n\nThe fittest trait depends entirely on the **environment**. Thick fur is fit in the Arctic and a liability in Florida."
+  },
+  {
+   "type": "text",
+   "md": "## Evidence for evolution\n| Evidence | What it shows | Example |\n|---|---|---|\n| **Fossils** | life changed over time; transitional forms | *Tiktaalik*, a fish with limb-like fins and a neck (about 375 million years old) |\n| **Homologous structures** | same bones, different uses = common ancestor | human arm, whale flipper, bat wing and cat leg share the same bone pattern |\n| **Vestigial structures** | leftovers from ancestors | tiny hip bones in whales |\n| **DNA comparisons** | closer relatives share more DNA | humans and chimpanzees are about 98–99% similar in comparable DNA |\n| **Direct observation** | evolution happening now | antibiotic-resistant bacteria; finch beaks measured changing after droughts in the Galápagos |"
+  },
+  {
+   "type": "example",
+   "title": "Evolution you can watch: antibiotic resistance",
+   "problem": "Why do doctors worry about overusing antibiotics?",
+   "steps": [
+    "A population of bacteria has **variation**: by chance, a few have a mutation that resists the drug.",
+    "The antibiotic kills the susceptible bacteria. The resistant few **survive**.",
+    "They multiply fast (some bacteria divide every 20 minutes), so the next population is mostly resistant.",
+    "Repeat across millions of patients and resistant strains spread."
+   ],
+   "answer": "**Natural selection in real time.** That's why antibiotics should be taken exactly as prescribed, and never for viral infections like colds, which they can't treat."
+  },
+  {
+   "type": "text",
+   "md": "## Artificial selection\nHumans have been running selection on purpose for thousands of years. Every dog breed, from a Chihuahua to a Great Dane, descends from ancient **wolves**, shaped by people choosing which dogs bred. Broccoli, cabbage, kale and cauliflower are all the **same species** of wild mustard, selected for different parts. Darwin used breeding as his model for how natural selection works."
+  },
+  {
+   "type": "text",
+   "md": "## Deep time\nEarth is about **4.5 billion years** old. Life appears in the record more than **3.5 billion years** ago. Animals are much more recent, and humans (*Homo sapiens*) about 300,000 years.\n\nPicture Earth's history as one 24-hour day: humans show up in the last **few seconds** before midnight. Evolution works slowly by our standards, but it's had a staggering amount of time."
+  },
+  {
+   "type": "note",
+   "label": "Common misconceptions",
+   "md": "- **\"Humans came from chimpanzees.\"** No. Humans and chimps share a **common ancestor** that lived roughly 6–7 million years ago. Chimps are cousins, not grandparents.\n- **\"Evolution has a goal\"** or organisms \"try\" to adapt. Selection has no direction except fitting the current environment.\n- **\"It's just a theory.\"** In science, a **theory** is a well-tested explanation supported by huge amounts of evidence, like the theory of gravity. It's the highest rank an idea can earn, not a guess.\n- **\"Individuals evolve.\"** Populations do."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "What evolves?",
+   "options": [
+    "Individuals during their lives",
+    "Populations over generations",
+    "Only bacteria",
+    "Only animals"
+   ],
+   "answer": 1,
+   "why": "Evolution is change in a population's inherited traits."
+  },
+  {
+   "type": "mc",
+   "q": "In biology, the \"fittest\" organism is the one that…",
+   "options": [
+    "is strongest",
+    "is biggest",
+    "leaves the most surviving offspring",
+    "lives the longest"
+   ],
+   "answer": 2,
+   "why": "Fitness = reproductive success."
+  },
+  {
+   "type": "mc",
+   "q": "A human arm, a bat wing and a whale flipper have the same bone pattern. These are…",
+   "options": [
+    "vestigial structures",
+    "homologous structures",
+    "fossils",
+    "mutations"
+   ],
+   "answer": 1,
+   "why": "Same structure, different uses → common ancestor."
+  },
+  {
+   "type": "mc",
+   "q": "Which is **not** one of the ingredients of natural selection?",
+   "options": [
+    "Variation",
+    "Inheritance",
+    "Organisms trying to change",
+    "More offspring than can survive"
+   ],
+   "answer": 2,
+   "why": "Effort isn't inherited."
+  },
+  {
+   "type": "mc",
+   "q": "Dog breeds are an example of…",
+   "options": [
+    "natural selection",
+    "artificial selection",
+    "genetic drift",
+    "extinction"
+   ],
+   "answer": 1,
+   "why": "Humans chose which dogs bred."
+  },
+  {
+   "type": "mc",
+   "q": "Humans and chimpanzees…",
+   "options": [
+    "humans descended from chimps",
+    "share a common ancestor",
+    "are the same species",
+    "aren't related"
+   ],
+   "answer": 1,
+   "why": "Cousins, not ancestors."
+  },
+  {
+   "type": "mc",
+   "q": "In science, a **theory** is…",
+   "options": [
+    "a guess",
+    "a well-tested explanation backed by lots of evidence",
+    "an unproven idea",
+    "a law that hasn't been tested"
+   ],
+   "answer": 1,
+   "why": "The highest status an explanation can earn."
+  },
+  {
+   "type": "mc",
+   "q": "Antibiotic resistance spreads because…",
+   "options": [
+    "antibiotics create mutations on purpose",
+    "resistant bacteria survive treatment and multiply",
+    "bacteria learn from each other's mistakes",
+    "doctors want it to"
+   ],
+   "answer": 1,
+   "why": "Selection keeps the survivors."
+  },
+  {
+   "type": "mc",
+   "q": "A bodybuilder builds huge muscles. His children will inherit…",
+   "options": [
+    "his muscles",
+    "only his genes, not muscle built by training",
+    "stronger muscles than he had",
+    "nothing at all"
+   ],
+   "answer": 1,
+   "why": "Traits acquired during life (from training) aren't passed through DNA. This was Lamarck's old idea; it doesn't hold for traits like this.",
+   "level": "challenge",
+   "hint": "Which kind of trait is passed through genes?"
+  },
+  {
+   "type": "mc",
+   "q": "A drought kills most plants with soft seeds, leaving hard seeds. The next generation of finches has bigger, stronger beaks on average. What happened?",
+   "options": [
+    "Finches grew bigger beaks to cope",
+    "Finches with bigger beaks ate better, survived and bred more",
+    "The drought mutated their beaks",
+    "Small-beaked finches moved away by choice"
+   ],
+   "answer": 1,
+   "why": "This was actually measured in the Galápagos by Peter and Rosemary Grant. Selection filtered which birds reproduced.",
+   "level": "challenge",
+   "hint": "Did individual beaks change, or did the population's mix change?"
+  },
+  {
+   "type": "mc",
+   "q": "Fur color in a mouse population: dark mice live on dark lava rock; light mice on pale sand. Which is the \"fittest\" color?",
+   "options": [
+    "Dark",
+    "Light",
+    "It depends on the background each population lives on",
+    "Neither; color can't matter"
+   ],
+   "answer": 2,
+   "why": "Fitness depends on the environment. Camouflage against predators favors whichever color matches the ground.",
+   "level": "challenge",
+   "hint": "Fitness is always relative to what?"
+  },
+  {
+   "type": "num",
+   "q": "Bacteria that divide every 20 minutes. Starting from 1 resistant cell, how many after 4 hours (no deaths)?",
+   "answer": 4096,
+   "why": "4 hours = 240 minutes = 12 doublings. 2¹² = **4,096**. That speed is why resistance can take over so fast.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Count the doublings, then use powers of 2.",
+   "steps": [
+    "240 ÷ 20 = 12 doublings.",
+    "2¹² = 4,096."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e"
+  },
+  {
+   "title": "Understanding Evolution (University of California Museum of Paleontology)",
+   "url": "https://evolution.berkeley.edu/"
+  }
+ ]
+}

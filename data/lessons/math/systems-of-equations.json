@@ -1,0 +1,193 @@
+{
+ "id": "systems-of-equations",
+ "title": "Systems of equations",
+ "band": "Grade 9",
+ "minutes": 34,
+ "lede": "Two equations, two unknowns, one answer that works for both. The tool for break-even points, comparing offers and solving any problem with two moving parts.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What a solution means\nA **system** is two (or more) equations about the same unknowns. A **solution** is a point (x, y) that makes **both** equations true at once. On a graph, it's where the lines **cross**.\n\nThree possibilities:\n\n| Lines | Solutions |\n|---|---|\n| cross once | **one** solution |\n| parallel (same slope, different intercept) | **none** |\n| the same line | **infinitely many** |"
+  },
+  {
+   "type": "text",
+   "md": "## Method 1: substitution\nBest when one equation is already solved for a variable.\n\n**Solve:** y = 2x + 1 and 3x + y = 16\n\n1. Substitute **2x + 1** for y in the second: 3x + (2x + 1) = 16.\n2. Solve: 5x + 1 = 16 → x = 3.\n3. Back-substitute: y = 2(3) + 1 = 7.\n4. **Check** in both: 7 = 2(3) + 1 ✓; 3(3) + 7 = 16 ✓.\n\n**Solution: (3, 7).**"
+  },
+  {
+   "type": "text",
+   "md": "## Method 2: elimination\nBest when both are in standard form. Add or subtract the equations to **cancel** one variable.\n\n**Solve:** 2x + 3y = 13 and 4x − 3y = 5\n\n1. The y-terms are already opposites. Add: **6x = 18** → x = 3.\n2. Substitute back: 2(3) + 3y = 13 → 3y = 7 → y = 7/3.\n\nIf no terms are opposites, **multiply** one or both equations first so they are. To cancel x in 3x + 2y = 8 and x + 5y = 7, multiply the second by 3: 3x + 15y = 21, then subtract."
+  },
+  {
+   "type": "check",
+   "q": "Solve: x + y = 10 and x − y = 4.",
+   "options": [
+    "(7, 3)",
+    "(3, 7)",
+    "(6, 4)",
+    "(5, 5)"
+   ],
+   "answer": 0,
+   "why": "Add the equations: 2x = 14 → x = 7. Then 7 + y = 10 → y = **3**."
+  },
+  {
+   "type": "example",
+   "title": "Break-even between two offers",
+   "problem": "Broker A: $500 flat + $1.80 per mile. Broker B: $2.20 per mile, no flat fee. At what distance do they pay the same?",
+   "steps": [
+    "A: y = 1.8x + 500. B: y = 2.2x.",
+    "Set equal: 2.2x = 1.8x + 500.",
+    "0.4x = 500 → x = 1,250."
+   ],
+   "answer": "**At 1,250 miles** they pay the same ($2,750). Shorter than that, A pays more; longer, B pays more. That's how you pick the offer before you ever drive a mile."
+  },
+  {
+   "type": "example",
+   "title": "A classic mixture problem",
+   "problem": "A shop sells two oils: $4 per quart and $7 per quart. You buy 10 quarts total for $55. How many of each?",
+   "steps": [
+    "Let x = cheap quarts, y = expensive quarts.",
+    "Count equation: x + y = 10. Money equation: 4x + 7y = 55.",
+    "From the first, x = 10 − y. Substitute: 4(10 − y) + 7y = 55 → 40 + 3y = 55 → y = 5.",
+    "x = 5."
+   ],
+   "answer": "**5 quarts of each.** The pattern, one equation for *how many* and one for *how much money*, solves a huge family of word problems."
+  },
+  {
+   "type": "text",
+   "md": "## How to set up any word problem\n1. **Name the unknowns** clearly: *x = number of adult tickets*.\n2. Find **two separate facts** that link them: usually one about **quantity** and one about **value**.\n3. Write one equation per fact.\n4. Solve, then **check** the answer against the original words, not just your equations."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Stopping after one variable.** A system's solution is a pair.\n- **Sign errors in elimination.** When you subtract an equation, subtract **every** term.\n- **No solution isn't a mistake.** If you get something like 0 = 6, the lines are parallel: the system really has no solution."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Solve y = x + 2 and y = 3x − 4. What is x?",
+   "answer": 3,
+   "why": "x + 2 = 3x − 4 → 6 = 2x → x = 3.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Same system: y = x + 2 and y = 3x − 4. What is y?",
+   "answer": 5,
+   "why": "y = 3 + 2 = 5.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve 2x + y = 11 and x − y = 1. What is x?",
+   "answer": 4,
+   "why": "Add: 3x = 12 → x = 4.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Lines with the same slope and different intercepts have…",
+   "options": [
+    "one solution",
+    "no solution",
+    "infinitely many solutions",
+    "two solutions"
+   ],
+   "answer": 1,
+   "why": "Parallel lines never meet."
+  },
+  {
+   "type": "mc",
+   "q": "Which point solves both x + y = 8 and y = 3x?",
+   "options": [
+    "(2, 6)",
+    "(6, 2)",
+    "(4, 4)",
+    "(1, 3)"
+   ],
+   "answer": 0,
+   "why": "2 + 6 = 8 ✓ and 6 = 3(2) ✓."
+  },
+  {
+   "type": "num",
+   "q": "Adult tickets $12, kid tickets $5. 20 tickets sold for $163. How many adult tickets?",
+   "answer": 9,
+   "why": "x + y = 20; 12x + 5y = 163. 12x + 5(20 − x) = 163 → 7x = 63 → x = 9.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Solving x + y = 5 and x + y = 9 gives 0 = 4. This means…",
+   "options": [
+    "you made an error",
+    "no solution: the lines are parallel",
+    "x = 0",
+    "infinitely many solutions"
+   ],
+   "answer": 1,
+   "why": "Contradictions mean no solution."
+  },
+  {
+   "type": "num",
+   "q": "Plan A: y = 0.1x + 40. Plan B: y = 0.3x. At how many minutes do they cost the same?",
+   "answer": 200,
+   "why": "0.3x = 0.1x + 40 → 0.2x = 40 → x = 200.",
+   "tol": 0.001,
+   "unit": "minutes"
+  },
+  {
+   "type": "num",
+   "q": "Solve 3x + 2y = 16 and 5x − 4y = 1. What is x?",
+   "answer": 3,
+   "why": "Multiply the first by 2: 6x + 4y = 32. Add to 5x − 4y = 1: 11x = 33 → **x = 3** (then y = 3.5).",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Make the y-terms opposites by multiplying the first equation by 2.",
+   "steps": [
+    "2 × (3x + 2y = 16) → 6x + 4y = 32.",
+    "Add 5x − 4y = 1: 11x = 33.",
+    "x = 3."
+   ]
+  },
+  {
+   "type": "num",
+   "q": "A fighter's camp costs $1,200 upfront + $150 per week. Another gym: $350 per week, no upfront. After how many weeks does the first become cheaper?",
+   "answer": 6,
+   "why": "1,200 + 150w = 350w → 1,200 = 200w → w = 6. They're **equal at 6 weeks**; after that, the first camp is cheaper.",
+   "tol": 0.001,
+   "unit": "weeks",
+   "level": "challenge",
+   "hint": "Find where the costs are equal."
+  },
+  {
+   "type": "mc",
+   "q": "2x + 4y = 10 and x + 2y = 5. How many solutions?",
+   "options": [
+    "None",
+    "One",
+    "Infinitely many",
+    "Two"
+   ],
+   "answer": 2,
+   "why": "The first equation is just the second multiplied by 2: they're the **same line**.",
+   "level": "challenge",
+   "hint": "Is one equation a multiple of the other?"
+  },
+  {
+   "type": "num",
+   "q": "You blend $3/lb and $8/lb coffee to make 20 lb that's worth $5/lb overall. How many pounds of the $8 coffee?",
+   "answer": 8,
+   "why": "x + y = 20; 3x + 8y = 5(20) = 100. 3(20 − y) + 8y = 100 → 60 + 5y = 100 → **y = 8**.",
+   "tol": 0.001,
+   "unit": "lb",
+   "level": "challenge",
+   "hint": "Total value of the blend = 20 × $5."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Elementary Algebra 2e",
+   "url": "https://openstax.org/details/books/elementary-algebra-2e"
+  }
+ ]
+}

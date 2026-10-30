@@ -1,0 +1,212 @@
+{
+ "id": "polynomials",
+ "title": "Polynomials",
+ "band": "Grade 9",
+ "minutes": 30,
+ "lede": "Expressions built from terms like 3x², −5x and 7. How to add, subtract and multiply them, and the one squaring mistake almost everyone makes.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Vocabulary\n**3x² − 5x + 7** is a **polynomial**: a sum of **terms**, where each term is a number times a variable raised to a whole-number power.\n\n| Word | In 3x² − 5x + 7 |\n|---|---|\n| **terms** | 3x², −5x, 7 |\n| **coefficients** | 3, −5 (and the constant 7) |\n| **degree** (highest power) | 2 |\n| **leading term** | 3x² |\n\nNames by number of terms: **monomial** (1), **binomial** (2), **trinomial** (3).\nNames by degree: **linear** (1), **quadratic** (2), **cubic** (3).\n\n**Standard form** lists terms from highest power to lowest."
+  },
+  {
+   "type": "text",
+   "md": "## Adding and subtracting: combine like terms\n**Like terms** have the same variable raised to the same power: 4x² and −x² are like terms; 4x² and 4x are not.\n\n(3x² + 2x − 5) + (x² − 6x + 1) = **4x² − 4x − 4**\n\nWhen **subtracting**, distribute the minus sign to **every** term in the second polynomial:\n\n(5x² − 3x + 2) − (2x² + x − 4) = 5x² − 3x + 2 − 2x² − x + 4 = **3x² − 4x + 6**"
+  },
+  {
+   "type": "check",
+   "q": "Simplify: (4x² − 2x) − (x² − 5x).",
+   "options": [
+    "3x² − 7x",
+    "3x² + 3x",
+    "5x² − 7x",
+    "3x² − 3x"
+   ],
+   "answer": 1,
+   "why": "Distribute the minus: 4x² − 2x − x² + 5x = **3x² + 3x**."
+  },
+  {
+   "type": "text",
+   "md": "## Multiplying: distribute every term\nMultiplying powers of the same base adds exponents: **x² · x³ = x⁵**.\n\n- Monomial × polynomial: 3x(x² − 4) = **3x³ − 12x**\n- Binomial × binomial: multiply each term in the first by each term in the second. (x + 3)(x + 5) = x² + 5x + 3x + 15 = **x² + 8x + 15**\n\nThe acronym **FOIL** (First, Outer, Inner, Last) is just this for two binomials. For anything bigger, use a **box (area model)**: rows for one polynomial, columns for the other, multiply into each cell, then combine like terms."
+  },
+  {
+   "type": "example",
+   "title": "Area model",
+   "problem": "(2x − 1)(x² + 3x + 4)",
+   "steps": [
+    "Rows: 2x and −1. Columns: x², 3x, 4.",
+    "Row 2x: 2x³, 6x², 8x.",
+    "Row −1: −x², −3x, −4.",
+    "Combine: 2x³ + (6x² − x²) + (8x − 3x) − 4."
+   ],
+   "answer": "**2x³ + 5x² + 5x − 4**"
+  },
+  {
+   "type": "text",
+   "md": "## The special products\nThese show up constantly. Learn them cold:\n\n- **(a + b)² = a² + 2ab + b²**\n- **(a − b)² = a² − 2ab + b²**\n- **(a + b)(a − b) = a² − b²** (the middle terms cancel)\n\n**The big mistake:** (x + 5)² is **not** x² + 25. It's (x + 5)(x + 5) = **x² + 10x + 25**. Check with numbers: (3 + 5)² = 64, but 3² + 5² = 34. The middle term 2ab is the difference."
+  },
+  {
+   "type": "check",
+   "q": "Expand (x − 4)².",
+   "options": [
+    "x² − 16",
+    "x² + 16",
+    "x² − 8x + 16",
+    "x² − 4x + 16"
+   ],
+   "answer": 2,
+   "why": "(x − 4)(x − 4) = x² − 4x − 4x + 16 = **x² − 8x + 16**."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Squaring a sum isn't squaring each part.** Always write it out twice and multiply.\n- **Subtracting a polynomial** flips the sign of every term in it.\n- **x² + x² = 2x²**, not x⁴. Adding combines coefficients; multiplying adds exponents."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Degree of 7x⁴ − 2x² + x − 9?",
+   "answer": 4,
+   "why": "Highest power is 4.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Simplify (2x² + 3x − 1) + (x² − 5x + 4).",
+   "options": [
+    "3x² − 2x + 3",
+    "3x² + 8x + 3",
+    "2x⁴ − 2x + 3",
+    "3x² − 2x − 5"
+   ],
+   "answer": 0,
+   "why": "Combine like terms."
+  },
+  {
+   "type": "mc",
+   "q": "Simplify (6x − 2) − (4x − 7).",
+   "options": [
+    "2x − 9",
+    "2x + 5",
+    "10x − 9",
+    "2x − 5"
+   ],
+   "answer": 1,
+   "why": "6x − 2 − 4x + 7 = 2x + 5."
+  },
+  {
+   "type": "mc",
+   "q": "x³ · x⁴ =",
+   "options": [
+    "x¹²",
+    "x⁷",
+    "2x⁷",
+    "x"
+   ],
+   "answer": 1,
+   "why": "Add exponents."
+  },
+  {
+   "type": "mc",
+   "q": "Expand (x + 2)(x + 6).",
+   "options": [
+    "x² + 12",
+    "x² + 8x + 12",
+    "x² + 6x + 12",
+    "2x + 8"
+   ],
+   "answer": 1,
+   "why": "x² + 6x + 2x + 12."
+  },
+  {
+   "type": "mc",
+   "q": "Expand (x + 7)².",
+   "options": [
+    "x² + 49",
+    "x² + 14x + 49",
+    "x² + 7x + 49",
+    "2x + 14"
+   ],
+   "answer": 1,
+   "why": "(a + b)² = a² + 2ab + b²."
+  },
+  {
+   "type": "mc",
+   "q": "Expand (x + 9)(x − 9).",
+   "options": [
+    "x² − 81",
+    "x² + 81",
+    "x² − 18x − 81",
+    "x² − 18x + 81"
+   ],
+   "answer": 0,
+   "why": "Difference of squares: middle terms cancel."
+  },
+  {
+   "type": "mc",
+   "q": "3x²(2x − 5) =",
+   "options": [
+    "6x³ − 15x²",
+    "6x² − 15x²",
+    "5x³ − 8x²",
+    "6x³ − 5"
+   ],
+   "answer": 0,
+   "why": "Distribute: 3x² · 2x = 6x³; 3x² · (−5) = −15x²."
+  },
+  {
+   "type": "mc",
+   "q": "Expand (2x − 3)².",
+   "options": [
+    "4x² − 9",
+    "4x² − 12x + 9",
+    "4x² − 6x + 9",
+    "2x² − 12x + 9"
+   ],
+   "answer": 1,
+   "why": "a = 2x, b = 3: (2x)² − 2(2x)(3) + 3² = **4x² − 12x + 9**.",
+   "level": "challenge",
+   "hint": "Square the first term, double the product, square the last."
+  },
+  {
+   "type": "num",
+   "q": "Use (a + b)(a − b) = a² − b² to compute 47 × 53 in your head.",
+   "answer": 2491,
+   "why": "47 × 53 = (50 − 3)(50 + 3) = 50² − 3² = 2,500 − 9 = **2,491**. Algebra as a mental-math weapon.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Both numbers are 3 away from 50."
+  },
+  {
+   "type": "mc",
+   "q": "(x + 1)(x² − x + 1) =",
+   "options": [
+    "x³ + 1",
+    "x³ − 1",
+    "x³ + 2x² + 1",
+    "x³ − 2x + 1"
+   ],
+   "answer": 0,
+   "why": "x³ − x² + x + x² − x + 1: almost everything cancels, leaving **x³ + 1**. (This is the sum-of-cubes pattern.)",
+   "level": "challenge",
+   "hint": "Use the area model, then combine like terms carefully."
+  },
+  {
+   "type": "num",
+   "q": "A square lot has side x + 3 meters. Its area exceeds x² by how many square meters when x = 10?",
+   "answer": 69,
+   "why": "(x + 3)² − x² = 6x + 9. At x = 10: 60 + 9 = **69 m²**. Check: 13² − 10² = 169 − 100 = 69 ✓.",
+   "tol": 0.001,
+   "unit": "m²",
+   "level": "challenge",
+   "hint": "Expand (x + 3)², then subtract x²."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Elementary Algebra 2e",
+   "url": "https://openstax.org/details/books/elementary-algebra-2e"
+  }
+ ]
+}

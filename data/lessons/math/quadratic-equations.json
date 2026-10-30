@@ -1,0 +1,188 @@
+{
+ "id": "quadratic-equations",
+ "title": "Quadratic equations",
+ "band": "Grade 9",
+ "minutes": 36,
+ "lede": "Equations with x². Four ways to solve them, a formula that always works, and the parabola that describes everything thrown, jumped or launched.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Standard form and what solving means\nA **quadratic equation** has the form **ax² + bx + c = 0** (with a ≠ 0). Its graph, **y = ax² + bx + c**, is a U-shaped curve called a **parabola**.\n\nThe **solutions** (also called **roots** or **zeros**) are the x-values where the parabola crosses the x-axis. A quadratic can have **two**, **one** or **zero** real solutions."
+  },
+  {
+   "type": "text",
+   "md": "## Method 1: factoring + the zero product property\nIf a product equals zero, at least one factor **must** be zero.\n\n**x² − 5x + 6 = 0**\n1. Factor: (x − 2)(x − 3) = 0\n2. Set each factor to zero: x − 2 = 0 or x − 3 = 0\n3. **x = 2 or x = 3**\n\nThe equation **must equal zero** first. If you have x² − 5x = −6, move the −6 over before factoring."
+  },
+  {
+   "type": "text",
+   "md": "## Method 2: square roots\nWhen there's no x-term, isolate x² and take the square root of both sides. **Don't forget ±.**\n\n**x² − 49 = 0** → x² = 49 → **x = ±7**\n\n**(x − 3)² = 25** → x − 3 = ±5 → **x = 8 or x = −2**"
+  },
+  {
+   "type": "check",
+   "q": "Solve x² = 81.",
+   "options": [
+    "x = 9",
+    "x = −9",
+    "x = 9 or x = −9",
+    "x = 40.5"
+   ],
+   "answer": 2,
+   "why": "Both 9² and (−9)² equal 81. Forgetting ± loses half the answer."
+  },
+  {
+   "type": "text",
+   "md": "## Method 3: the quadratic formula\nIt works on **every** quadratic, factorable or not:\n\n**x = (−b ± √(b² − 4ac)) ÷ 2a**\n\nThe part under the square root, **b² − 4ac**, is the **discriminant**. It tells you how many real solutions exist before you finish:\n\n| Discriminant | Real solutions | Parabola |\n|---|---|---|\n| positive | **2** | crosses the x-axis twice |\n| zero | **1** | touches it once |\n| negative | **0** | never reaches it |"
+  },
+  {
+   "type": "example",
+   "title": "Using the formula",
+   "problem": "Solve 2x² + 3x − 5 = 0.",
+   "steps": [
+    "a = 2, b = 3, c = −5.",
+    "Discriminant: 3² − 4(2)(−5) = 9 + 40 = 49. Positive, so 2 solutions.",
+    "x = (−3 ± √49) ÷ 4 = (−3 ± 7) ÷ 4.",
+    "x = 4 ÷ 4 = 1, or x = −10 ÷ 4 = −2.5."
+   ],
+   "answer": "**x = 1 or x = −2.5.**"
+  },
+  {
+   "type": "text",
+   "md": "## The parabola's key point: the vertex\nThe **vertex** is the parabola's turning point: its lowest point if a > 0 (opens up), its highest if a < 0 (opens down).\n\n**x-coordinate of the vertex = −b ÷ 2a**. Plug that back in to get the y-coordinate.\n\nThe vertex answers every **maximum/minimum** question: highest point of a throw, lowest cost, biggest profit."
+  },
+  {
+   "type": "example",
+   "title": "Projectile motion",
+   "problem": "A ball is kicked straight up from the ground at 19.6 m/s. Its height in meters after t seconds is **h = −4.9t² + 19.6t**. When does it land, and how high does it go?",
+   "steps": [
+    "**Land:** h = 0 → −4.9t² + 19.6t = 0 → −4.9t(t − 4) = 0 → t = 0 (the kick) or **t = 4 s**.",
+    "**Peak:** vertex at t = −b ÷ 2a = −19.6 ÷ (2 × −4.9) = **2 s**.",
+    "Height at t = 2: −4.9(4) + 19.6(2) = −19.6 + 39.2 = **19.6 m**."
+   ],
+   "answer": "It peaks at **19.6 m** after **2 s** and lands at **4 s**. The −4.9 is half of gravity's 9.8 m/s² from the physics unit: the same equation, d = v₀t + ½at²."
+  },
+  {
+   "type": "text",
+   "md": "## Which method when?\n1. **No x-term?** Square roots.\n2. **Factors easily?** Factor and use the zero product property.\n3. **Otherwise:** the quadratic formula. Always works.\n\n(A fourth method, **completing the square**, is how the quadratic formula is derived. You'll use it in Algebra 2 to find vertex form.)"
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Not setting the equation to 0 first.**\n- **Forgetting ±** when taking square roots.\n- **Formula sign errors:** it's **−b**. If b = −6, then −b = +6. And **b²** is always positive.\n- **Dividing both sides by x** loses the solution x = 0. Factor instead."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Solve (x − 4)(x + 9) = 0. What is the **positive** solution?",
+   "answer": 4,
+   "why": "x − 4 = 0 → x = 4. (The other is −9.)",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve x² − 7x + 10 = 0. What is the **larger** solution?",
+   "answer": 5,
+   "why": "(x − 2)(x − 5) = 0 → x = 2 or 5.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve x² = 144. What is the **negative** solution?",
+   "answer": -12,
+   "why": "x = ±12.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Discriminant of x² + 6x + 9?",
+   "answer": 0,
+   "why": "36 − 36 = 0 → exactly one solution (x = −3).",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "x² + 2x + 5 = 0 has how many real solutions?",
+   "options": [
+    "2",
+    "1",
+    "0",
+    "infinitely many"
+   ],
+   "answer": 2,
+   "why": "Discriminant: 4 − 20 = −16 < 0."
+  },
+  {
+   "type": "num",
+   "q": "x-coordinate of the vertex of y = x² − 8x + 3?",
+   "answer": 4,
+   "why": "−b ÷ 2a = 8 ÷ 2 = 4.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve (x + 1)² = 36. What is the **larger** solution?",
+   "answer": 5,
+   "why": "x + 1 = ±6 → x = 5 or x = −7.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve x² + 3x = 0. What is the non-zero solution?",
+   "answer": -3,
+   "why": "x(x + 3) = 0 → x = 0 or x = −3.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Solve 3x² − 5x − 2 = 0 with the quadratic formula. What is the **negative** solution? (decimal, 2 places)",
+   "answer": -0.33,
+   "why": "Discriminant: 25 + 24 = 49. x = (5 ± 7) ÷ 6 → x = 2 or x = −2/6 = **−1/3 ≈ −0.33**.",
+   "tol": 0.006,
+   "level": "challenge",
+   "hint": "a = 3, b = −5, c = −2. Careful: −b = +5.",
+   "steps": [
+    "b² − 4ac = 25 − 4(3)(−2) = 49.",
+    "x = (5 ± 7) ÷ 6.",
+    "x = 12/6 = 2 or x = −2/6 ≈ −0.33."
+   ]
+  },
+  {
+   "type": "num",
+   "q": "A rock is thrown up from a 20 m cliff: h = −5t² + 15t + 20. When does it hit the ground (t > 0)?",
+   "answer": 4,
+   "why": "−5t² + 15t + 20 = 0 → divide by −5: t² − 3t − 4 = 0 → (t − 4)(t + 1) = 0 → **t = 4 s**. (Ignore −1; time can't be negative.)",
+   "tol": 0.001,
+   "unit": "s",
+   "level": "challenge",
+   "hint": "Set h = 0, divide everything by −5, then factor."
+  },
+  {
+   "type": "num",
+   "q": "Profit from selling x items: P = −2x² + 120x − 1,000. How many items maximize profit?",
+   "answer": 30,
+   "why": "Vertex: x = −b ÷ 2a = −120 ÷ (2 × −2) = **30**. (Max profit = −1,800 + 3,600 − 1,000 = $800.)",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Max or min problems → vertex."
+  },
+  {
+   "type": "num",
+   "q": "For what value of k does x² + kx + 16 = 0 have exactly one solution, with k > 0?",
+   "answer": 8,
+   "why": "One solution means discriminant = 0: k² − 64 = 0 → k = ±8. Positive: **8**. Then x² + 8x + 16 = (x + 4)².",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Set the discriminant equal to 0."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Elementary Algebra 2e",
+   "url": "https://openstax.org/details/books/elementary-algebra-2e"
+  },
+  {
+   "title": "OpenStax, Intermediate Algebra 2e",
+   "url": "https://openstax.org/details/books/intermediate-algebra-2e"
+  }
+ ]
+}

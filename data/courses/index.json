@@ -163,37 +163,44 @@
      {
       "id": "functions-and-slope",
       "title": "Functions and slope",
-      "ready": false
+      "ready": true,
+      "desc": "A function is a rule that turns each input into exactly one output. Slope measures how fast the output changes. Together they describe pay rates, fuel costs and every trend line on a chart."
      },
      {
       "id": "writing-linear-equations",
       "title": "Writing linear equations",
-      "ready": false
+      "ready": true,
+      "desc": "Turn a graph, two points or a real situation into an equation you can use to predict, compare and decide."
      },
      {
       "id": "systems-of-equations",
       "title": "Systems of equations",
-      "ready": false
+      "ready": true,
+      "desc": "Two equations, two unknowns, one answer that works for both. The tool for break-even points, comparing offers and solving any problem with two moving parts."
      },
      {
       "id": "polynomials",
       "title": "Polynomials",
-      "ready": false
+      "ready": true,
+      "desc": "Expressions built from terms like 3x², −5x and 7. How to add, subtract and multiply them, and the one squaring mistake almost everyone makes."
      },
      {
       "id": "factoring",
       "title": "Factoring",
-      "ready": false
+      "ready": true,
+      "desc": "Multiplying runs forward; factoring runs it backward. It's the key that unlocks quadratic equations, and a checklist makes it routine."
      },
      {
       "id": "quadratic-equations",
       "title": "Quadratic equations",
-      "ready": false
+      "ready": true,
+      "desc": "Equations with x². Four ways to solve them, a formula that always works, and the parabola that describes everything thrown, jumped or launched."
      },
      {
       "id": "exponential-growth-and-decay",
       "title": "Exponential growth and decay",
-      "ready": false
+      "ready": true,
+      "desc": "Linear adds the same amount every step. Exponential multiplies. Compound interest, debt, depreciation, viral spread, and why a 50% loss needs a 100% gain to recover."
      }
     ]
    },

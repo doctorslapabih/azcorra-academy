@@ -1,0 +1,214 @@
+{
+ "id": "functions-and-slope",
+ "title": "Functions and slope",
+ "band": "Grade 9",
+ "minutes": 34,
+ "lede": "A function is a rule that turns each input into exactly one output. Slope measures how fast the output changes. Together they describe pay rates, fuel costs and every trend line on a chart.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What a function is\nA **function** is a rule that assigns **exactly one output** to each input. Think of a vending machine: press B4, you get one specific snack. If pressing B4 sometimes gave chips and sometimes gave candy, the machine would be broken. It wouldn't be a function.\n\nWe write functions with **function notation**: **f(x)** (read \"f of x\") means *the output of rule f when the input is x*.\n\nIf **f(x) = 3x + 2**, then **f(4)** = 3(4) + 2 = **14**. The input is 4; the output is 14.\n\n- **Domain**: all allowed inputs.\n- **Range**: all possible outputs."
+  },
+  {
+   "type": "text",
+   "md": "## Spotting a function\n| Representation | It's a function if… |\n|---|---|\n| **List of pairs** | no input (x) appears twice with different outputs |\n| **Table** | each x has one y |\n| **Graph** | it passes the **vertical line test**: no vertical line hits it twice |\n\n{(1, 5), (2, 7), (3, 9)} is a function. {(1, 5), (1, 8), (2, 7)} is **not**: input 1 has two outputs. Two inputs sharing an output is fine: {(1, 5), (2, 5)} is a function."
+  },
+  {
+   "type": "check",
+   "q": "Is {(2, 3), (4, 3), (6, 3)} a function?",
+   "options": [
+    "No: the output 3 repeats",
+    "Yes: each input has exactly one output",
+    "No: it's a horizontal line",
+    "Only if x is positive"
+   ],
+   "answer": 1,
+   "why": "Repeated **outputs** are fine. Only a repeated **input** with different outputs breaks the rule. (It's a horizontal line, and horizontal lines pass the vertical line test.)"
+  },
+  {
+   "type": "text",
+   "md": "## Slope: the rate of change\n**Slope** measures how much the output changes for each one-unit change in the input:\n\n**slope = m = rise ÷ run = (y₂ − y₁) ÷ (x₂ − x₁)**\n\n| Slope | Line | Means |\n|---|---|---|\n| positive | rises left to right | output goes up as input goes up |\n| negative | falls left to right | output goes down |\n| zero | flat | output doesn't change |\n| undefined | vertical | not a function (run = 0) |\n\nSlope is a **unit rate**. If the x-axis is hours and the y-axis is miles, the slope is **miles per hour**."
+  },
+  {
+   "type": "example",
+   "title": "Slope between two points",
+   "problem": "Find the slope between (2, 5) and (6, 17).",
+   "steps": [
+    "Rise: 17 − 5 = 12.",
+    "Run: 6 − 2 = 4.",
+    "Slope = 12 ÷ 4 = 3."
+   ],
+   "answer": "**m = 3.** For every 1 unit right, the line rises 3."
+  },
+  {
+   "type": "example",
+   "title": "Slope in context",
+   "problem": "A truck's fuel cost: at 100 miles it's $60; at 400 miles it's $240.",
+   "steps": [
+    "Points: (100, 60) and (400, 240).",
+    "Slope = (240 − 60) ÷ (400 − 100) = 180 ÷ 300 = 0.6."
+   ],
+   "answer": "**$0.60 per mile.** In context, the slope **is** the fuel cost per mile. Always say what the slope means in units."
+  },
+  {
+   "type": "check",
+   "q": "The slope between (1, 9) and (4, 3) is…",
+   "options": [
+    "2",
+    "−2",
+    "6",
+    "−1/2"
+   ],
+   "answer": 1,
+   "why": "(3 − 9) ÷ (4 − 1) = −6 ÷ 3 = **−2**. The line falls."
+  },
+  {
+   "type": "text",
+   "md": "## Linear vs nonlinear\nA **linear function** has a **constant slope**: its graph is a straight line, and its table goes up by the same amount every step.\n\n| x | 0 | 1 | 2 | 3 | Change per step |\n|---|---|---|---|---|---|\n| Linear: 2x + 1 | 1 | 3 | 5 | 7 | +2 every time |\n| Nonlinear: x² | 0 | 1 | 4 | 9 | +1, +3, +5: changing |\n\nFor nonlinear functions, the slope between two points is called the **average rate of change**: the slope of the straight line connecting them."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Subtract in the same order** on top and bottom: (y₂ − y₁) ÷ (x₂ − x₁). Mixing orders flips the sign.\n- **f(x) doesn't mean f times x.** It's notation for *the output at x*.\n- **Zero slope ≠ undefined slope.** Horizontal = 0. Vertical = undefined."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "If f(x) = 4x − 7, find f(5).",
+   "answer": 13,
+   "why": "4(5) − 7 = 20 − 7 = 13.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "If g(x) = x² + 1, find g(−3).",
+   "answer": 10,
+   "why": "(−3)² + 1 = 9 + 1 = 10. Squaring a negative gives a positive.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Which set is **not** a function?",
+   "options": [
+    "{(1,2), (2,3), (3,4)}",
+    "{(1,2), (1,3), (2,4)}",
+    "{(1,5), (2,5), (3,5)}",
+    "{(0,0), (1,1), (2,4)}"
+   ],
+   "answer": 1,
+   "why": "Input 1 has two different outputs."
+  },
+  {
+   "type": "num",
+   "q": "Slope between (3, 4) and (7, 16)?",
+   "answer": 3,
+   "why": "(16 − 4) ÷ (7 − 3) = 12 ÷ 4 = 3.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Slope between (−2, 8) and (2, 0)?",
+   "answer": -2,
+   "why": "(0 − 8) ÷ (2 − (−2)) = −8 ÷ 4 = −2.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "A vertical line has slope…",
+   "options": [
+    "0",
+    "1",
+    "undefined",
+    "negative"
+   ],
+   "answer": 2,
+   "why": "Run = 0, and you can't divide by 0."
+  },
+  {
+   "type": "mc",
+   "q": "A driver's pay: $0 at 0 miles, $650 at 1,000 miles. The slope means…",
+   "options": [
+    "$650 per trip",
+    "$0.65 per mile",
+    "1,000 miles per dollar",
+    "$1,000 per mile"
+   ],
+   "answer": 1,
+   "why": "650 ÷ 1,000 = 0.65 dollars per mile."
+  },
+  {
+   "type": "mc",
+   "q": "Which table is linear?",
+   "options": [
+    "x: 0,1,2,3 → y: 2,4,8,16",
+    "x: 0,1,2,3 → y: 5,8,11,14",
+    "x: 0,1,2,3 → y: 0,1,4,9",
+    "x: 0,1,2,3 → y: 1,1,2,3"
+   ],
+   "answer": 1,
+   "why": "Constant +3 each step."
+  },
+  {
+   "type": "num",
+   "q": "Average rate of change of f(x) = x² from x = 1 to x = 5?",
+   "answer": 6,
+   "why": "f(1) = 1, f(5) = 25. (25 − 1) ÷ (5 − 1) = 24 ÷ 4 = **6**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Find the two outputs, then use the slope formula."
+  },
+  {
+   "type": "num",
+   "q": "A line passes through (1, 3) with slope 4. What's y when x = 6?",
+   "answer": 23,
+   "why": "From x = 1 to x = 6 is a run of 5. Rise = 4 × 5 = 20. y = 3 + 20 = **23**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Slope × run = rise.",
+   "steps": [
+    "Run = 6 − 1 = 5.",
+    "Rise = 4 × 5 = 20.",
+    "y = 3 + 20 = 23."
+   ]
+  },
+  {
+   "type": "mc",
+   "q": "A trading account's equity graph is a straight line falling from $50,000 to $48,000 over 10 days. What's the slope and what does it mean?",
+   "options": [
+    "+$200/day: growing",
+    "−$200/day: losing $200 a day on average",
+    "−$2,000/day",
+    "−10 days per dollar"
+   ],
+   "answer": 1,
+   "why": "(48,000 − 50,000) ÷ 10 = −200. **Slope in context:** the account loses $200 per day on average.",
+   "level": "challenge",
+   "hint": "Rise is the change in dollars; run is the change in days."
+  },
+  {
+   "type": "mc",
+   "q": "For f(x) = 2x + 1, what is f(a + 1)?",
+   "options": [
+    "2a + 1",
+    "2a + 2",
+    "2a + 3",
+    "a + 3"
+   ],
+   "answer": 2,
+   "why": "Replace x with (a + 1): 2(a + 1) + 1 = 2a + 2 + 1 = **2a + 3**. Inputs can be expressions, not just numbers.",
+   "level": "challenge",
+   "hint": "Substitute the whole expression a + 1 for x."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Elementary Algebra 2e",
+   "url": "https://openstax.org/details/books/elementary-algebra-2e"
+  },
+  {
+   "title": "OpenStax, Intermediate Algebra 2e",
+   "url": "https://openstax.org/details/books/intermediate-algebra-2e"
+  }
+ ]
+}

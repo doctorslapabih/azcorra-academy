@@ -1,0 +1,209 @@
+{
+ "id": "writing-linear-equations",
+ "title": "Writing linear equations",
+ "band": "Grade 9",
+ "minutes": 32,
+ "lede": "Turn a graph, two points or a real situation into an equation you can use to predict, compare and decide.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Slope-intercept form: y = mx + b\n- **m** = slope (the rate)\n- **b** = y-intercept (the starting value, where the line crosses the y-axis, when x = 0)\n\nThis is the most useful form for real life, because so many things work as **starting amount + rate × quantity**:\n\n- Phone plan: **$30 a month + $10 per gigabyte** → y = 10x + 30\n- Truck rental: **$300 + $0.90 per mile** → y = 0.9x + 300\n- Savings: **$500 now + $200 a week** → y = 200x + 500"
+  },
+  {
+   "type": "example",
+   "title": "From slope and intercept",
+   "problem": "A line has slope −3 and crosses the y-axis at 7.",
+   "steps": [
+    "m = −3, b = 7."
+   ],
+   "answer": "**y = −3x + 7**"
+  },
+  {
+   "type": "example",
+   "title": "From two points",
+   "problem": "Write the line through (2, 5) and (6, 13).",
+   "steps": [
+    "Slope: (13 − 5) ÷ (6 − 2) = 8 ÷ 4 = 2.",
+    "Plug one point into y = 2x + b: 5 = 2(2) + b → b = 1."
+   ],
+   "answer": "**y = 2x + 1.** Check with the other point: 2(6) + 1 = 13 ✓."
+  },
+  {
+   "type": "text",
+   "md": "## Point-slope form: y − y₁ = m(x − x₁)\nWhen you know a **slope** and **any point** (not necessarily the intercept), this form writes the equation instantly.\n\nSlope 4, through (3, 10): **y − 10 = 4(x − 3)**. Simplify if you like: y = 4x − 2."
+  },
+  {
+   "type": "text",
+   "md": "## Standard form: Ax + By = C\nUseful when two quantities share a total. *Tickets cost $5 for kids (x) and $12 for adults (y); you have $120*: **5x + 12y = 120**.\n\nIntercepts are easy here: set x = 0 to get the y-intercept (12y = 120, y = 10); set y = 0 to get the x-intercept (5x = 120, x = 24)."
+  },
+  {
+   "type": "check",
+   "q": "A gym charges a $50 sign-up fee plus $25 per month. Which equation gives total cost y after x months?",
+   "options": [
+    "y = 50x + 25",
+    "y = 25x + 50",
+    "y = 75x",
+    "50x + 25y = 0"
+   ],
+   "answer": 1,
+   "why": "Rate (per month) is **m = 25**; the one-time fee is the starting value **b = 50**."
+  },
+  {
+   "type": "text",
+   "md": "## Parallel and perpendicular lines\n- **Parallel** lines have the **same slope** (and different intercepts). They never meet.\n- **Perpendicular** lines have slopes that are **negative reciprocals**: flip the fraction and change the sign. Their product is −1.\n\n| Slope | Parallel slope | Perpendicular slope |\n|---|---|---|\n| 2 | 2 | −1/2 |\n| −3/4 | −3/4 | 4/3 |\n| 1 | 1 | −1 |"
+  },
+  {
+   "type": "example",
+   "title": "Build a model and use it",
+   "problem": "Broker pays a flat $400 per load plus $1.50 per loaded mile. Write the equation and find the pay for a 620-mile load.",
+   "steps": [
+    "Starting value b = 400. Rate m = 1.50.",
+    "Pay = 1.5x + 400.",
+    "x = 620: 1.5(620) + 400 = 930 + 400 = 1,330."
+   ],
+   "answer": "**y = 1.5x + 400**; a 620-mile load pays **$1,330**."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Mixing up m and b** in word problems. The rate (\"per\" something) is m; the one-time amount is b.\n- **Point-slope sign:** y − y₁ = m(x − x₁). If the point is (−2, 5), it's y − 5 = m(x **+ 2**).\n- **Perpendicular needs both changes:** flip **and** change the sign. 2 → −1/2, not 1/2."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "In y = −4x + 9, the y-intercept is…",
+   "options": [
+    "−4",
+    "9",
+    "4",
+    "−9"
+   ],
+   "answer": 1,
+   "why": "b = 9."
+  },
+  {
+   "type": "num",
+   "q": "Line through (0, 3) and (2, 11). What's the slope?",
+   "answer": 4,
+   "why": "(11 − 3) ÷ 2 = 4.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Line with slope 5 through (0, −2):",
+   "options": [
+    "y = −2x + 5",
+    "y = 5x − 2",
+    "y = 5x + 2",
+    "y = −5x − 2"
+   ],
+   "answer": 1,
+   "why": "m = 5, b = −2."
+  },
+  {
+   "type": "num",
+   "q": "Line through (1, 4) and (3, 10). What is b in y = mx + b?",
+   "answer": 1,
+   "why": "m = 6 ÷ 2 = 3. 4 = 3(1) + b → b = 1.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "A slope perpendicular to 3 is…",
+   "options": [
+    "3",
+    "−3",
+    "1/3",
+    "−1/3"
+   ],
+   "answer": 3,
+   "why": "Flip and change sign."
+  },
+  {
+   "type": "mc",
+   "q": "Which line is parallel to y = 2x + 7?",
+   "options": [
+    "y = −2x + 7",
+    "y = 2x − 4",
+    "y = (1/2)x + 7",
+    "y = 7x + 2"
+   ],
+   "answer": 1,
+   "why": "Same slope, 2."
+  },
+  {
+   "type": "num",
+   "q": "In 3x + 4y = 24, what is the x-intercept?",
+   "answer": 8,
+   "why": "Set y = 0: 3x = 24, x = 8.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Truck rental: $300 + $0.90 per mile. Cost for 450 miles?",
+   "answer": 705,
+   "why": "0.9(450) + 300 = 405 + 300 = 705.",
+   "tol": 0.001,
+   "unit": "dollars"
+  },
+  {
+   "type": "mc",
+   "q": "Point-slope form through (−2, 5) with slope 3:",
+   "options": [
+    "y − 5 = 3(x − 2)",
+    "y + 5 = 3(x − 2)",
+    "y − 5 = 3(x + 2)",
+    "y + 5 = 3(x + 2)"
+   ],
+   "answer": 2,
+   "why": "y − y₁ = m(x − x₁) with x₁ = −2: x − (−2) = **x + 2**.",
+   "level": "challenge",
+   "hint": "Subtracting a negative turns into adding."
+  },
+  {
+   "type": "num",
+   "q": "A line is perpendicular to y = (2/3)x − 1 and passes through (0, 4). What's its y-value at x = 6?",
+   "answer": -5,
+   "why": "Perpendicular slope = −3/2. y = −(3/2)x + 4. At x = 6: −9 + 4 = **−5**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Flip 2/3 and change the sign. The point (0, 4) gives you b.",
+   "steps": [
+    "Perpendicular slope: −3/2.",
+    "b = 4 (the line passes through (0, 4)).",
+    "y = −1.5(6) + 4 = −9 + 4 = −5."
+   ]
+  },
+  {
+   "type": "num",
+   "q": "Your account had $1,200 after week 2 and $2,000 after week 6, growing linearly. How much did you start with (week 0)?",
+   "answer": 800,
+   "why": "Slope = (2,000 − 1,200) ÷ (6 − 2) = 200 per week. Going back 2 weeks from week 2: 1,200 − 400 = **$800**.",
+   "tol": 0.001,
+   "unit": "dollars",
+   "level": "challenge",
+   "hint": "Find the weekly rate, then work backward to week 0."
+  },
+  {
+   "type": "mc",
+   "q": "Plan A: $40/month + $0.10/minute. Plan B: $0.30/minute, no monthly fee. Which equations model them (x = minutes)?",
+   "options": [
+    "A: y = 40x + 0.1; B: y = 0.3x",
+    "A: y = 0.1x + 40; B: y = 0.3x",
+    "A: y = 0.1x; B: y = 0.3x + 40",
+    "A: y = 40.1x; B: y = 0.3x"
+   ],
+   "answer": 1,
+   "why": "Rate per minute is m; the monthly fee is b. Next lesson, you'll find where they cost the same.",
+   "level": "challenge",
+   "hint": "Which number is per minute, and which is fixed?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Elementary Algebra 2e",
+   "url": "https://openstax.org/details/books/elementary-algebra-2e"
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "id": "circle-theorems",
+ "title": "Circle theorems",
+ "band": "Grade 10",
+ "minutes": 34,
+ "lede": "Arcs, chords, tangents and the surprising rules that connect their angles. Plus arc length and sector area, the math of tire wear and pizza slices.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Parts of a circle\n| Part | Meaning |\n|---|---|\n| **radius** | center to the edge |\n| **diameter** | edge to edge through the center (2 radii) |\n| **chord** | any segment with both ends on the circle (the diameter is the longest) |\n| **secant** | a line that cuts through the circle at two points |\n| **tangent** | a line that **touches** the circle at exactly one point |\n| **arc** | a piece of the circle's edge |\n| **sector** | a pizza-slice region between two radii |"
+  },
+  {
+   "type": "text",
+   "md": "## Central and inscribed angles\nA **central angle** has its vertex at the **center**. Its measure **equals** the arc it cuts off: a 80° central angle cuts an 80° arc.\n\nAn **inscribed angle** has its vertex **on the circle**. Its measure is **half** the arc it cuts off.\n\n**Inscribed angle = ½ × intercepted arc**"
+  },
+  {
+   "type": "figure",
+   "svg": "<svg viewBox=\"0 0 420 240\" width=\"100%\" style=\"max-width:460px\" role=\"img\" aria-label=\"Central angle and inscribed angle on the same arc\">\n<g font-family=\"inherit\" font-size=\"13\" fill=\"currentColor\">\n<circle cx=\"150\" cy=\"120\" r=\"100\" fill=\"currentColor\" fill-opacity=\".05\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"120\" r=\"3\"/>\n<text x=\"138\" y=\"112\">O</text>\n<line x1=\"150\" y1=\"120\" x2=\"227\" y2=\"184\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"150\" y1=\"120\" x2=\"227\" y2=\"56\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"52\" y1=\"138\" x2=\"227\" y2=\"184\" stroke=\"currentColor\" stroke-dasharray=\"5 4\"/>\n<line x1=\"52\" y1=\"138\" x2=\"227\" y2=\"56\" stroke=\"currentColor\" stroke-dasharray=\"5 4\"/>\n<text x=\"231\" y=\"50\">A</text><text x=\"231\" y=\"200\">B</text><text x=\"36\" y=\"144\">P</text>\n<path d=\"M227 56 A100 100 0 0 1 227 184\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-opacity=\".5\"/>\n<text x=\"268\" y=\"105\">central ∠AOB = 80°</text>\n<text x=\"268\" y=\"125\">inscribed ∠APB = 40°</text>\n<text x=\"268\" y=\"145\">arc AB = 80°</text>\n</g></svg>",
+   "caption": "The central angle and the inscribed angle cut off the same arc. The inscribed one is exactly half."
+  },
+  {
+   "type": "text",
+   "md": "## Three consequences\n1. **Inscribed angles on the same arc are equal.** Every point P on the far side sees AB at the same angle.\n2. **An angle inscribed in a semicircle is 90°.** The arc is 180°, half of that is 90°. (Thales' theorem: any triangle drawn with the diameter as one side and its third corner on the circle is a right triangle.)\n3. **Opposite angles of a quadrilateral inscribed in a circle add to 180°.** Together they intercept the whole 360° circle, and half of 360° is 180°."
+  },
+  {
+   "type": "check",
+   "q": "An inscribed angle intercepts a 110° arc. The angle is…",
+   "options": [
+    "110°",
+    "220°",
+    "55°",
+    "70°"
+   ],
+   "answer": 2,
+   "why": "Half the arc."
+  },
+  {
+   "type": "text",
+   "md": "## Tangent facts\n- A tangent is **perpendicular to the radius** at the point where it touches.\n- Two tangents drawn from the same outside point are **equal in length**.\n\nThe first one makes many problems into right triangles, and then the Pythagorean theorem finishes them.\n\n*A tangent from point P touches a circle of radius 5. P is 13 from the center. How long is the tangent segment?* The radius meets the tangent at 90°: 5² + t² = 13² → t = **12**."
+  },
+  {
+   "type": "text",
+   "md": "## Arc length and sector area\nAn arc or sector is a **fraction** of the whole circle: **θ ÷ 360**.\n\n- **Arc length** = (θ ÷ 360) × 2πr\n- **Sector area** = (θ ÷ 360) × πr²\n\nA 90° arc on a circle of radius 10: (90 ÷ 360) × 2π(10) = ¼ × 62.83 ≈ **15.7**."
+  },
+  {
+   "type": "example",
+   "title": "Tire math",
+   "problem": "A truck tire has a diameter of about 40 inches. How far does the truck move in one full rotation, and how many rotations per mile?",
+   "steps": [
+    "One rotation = circumference = π × 40 ≈ 125.7 in.",
+    "1 mile = 63,360 in.",
+    "63,360 ÷ 125.7 ≈ 504."
+   ],
+   "answer": "**≈126 inches per turn, about 504 turns per mile.** If worn tires shrink the diameter, the wheel turns more times per mile, and the speedometer, which counts rotations, reads a little **high**."
+  },
+  {
+   "type": "check",
+   "q": "A sector has a 60° angle in a circle of radius 6. Its area is…",
+   "options": [
+    "6π",
+    "12π",
+    "36π",
+    "2π"
+   ],
+   "answer": 0,
+   "why": "(60/360) × π × 36 = ⅙ × 36π = 6π."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Inscribed vs central.** Center vertex = equal to the arc. Edge vertex = half the arc.\n- **Arc measure vs arc length.** Measure is in **degrees**; length is a **distance**. Two arcs can both be 60° and have very different lengths on different-size circles.\n- **Diameter vs radius** in formulas. Circumference = πd = 2πr. Area uses r.\n- **The tangent-radius right angle** is often unmarked. You're expected to know it."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "A chord that passes through the center is a…",
+   "options": [
+    "radius",
+    "diameter",
+    "tangent",
+    "secant"
+   ],
+   "answer": 1,
+   "why": "The longest chord."
+  },
+  {
+   "type": "num",
+   "q": "Central angle 72°. Its intercepted arc?",
+   "answer": 72,
+   "why": "Equal.",
+   "tol": 0.001,
+   "unit": "°"
+  },
+  {
+   "type": "num",
+   "q": "Inscribed angle intercepts a 140° arc. The angle?",
+   "answer": 70,
+   "why": "Half.",
+   "tol": 0.001,
+   "unit": "°"
+  },
+  {
+   "type": "num",
+   "q": "An angle inscribed in a semicircle measures…",
+   "answer": 90,
+   "why": "Half of 180°.",
+   "tol": 0.001,
+   "unit": "°"
+  },
+  {
+   "type": "mc",
+   "q": "A tangent and the radius at the point of tangency form…",
+   "options": [
+    "a 45° angle",
+    "a 90° angle",
+    "a 180° angle",
+    "any angle"
+   ],
+   "answer": 1,
+   "why": "Always perpendicular."
+  },
+  {
+   "type": "num",
+   "q": "Inscribed quadrilateral: one angle is 75°. Its opposite angle?",
+   "answer": 105,
+   "why": "Opposite angles add to 180°.",
+   "tol": 0.001,
+   "unit": "°"
+  },
+  {
+   "type": "num",
+   "q": "Arc length of a 180° arc, radius 7? (Use π ≈ 3.14, 2 decimals.)",
+   "answer": 21.98,
+   "why": "½ × 2π(7) = 7π ≈ 21.98.",
+   "tol": 0.01
+  },
+  {
+   "type": "num",
+   "q": "Two tangents from point P are drawn to a circle. One is 9 cm. The other is…",
+   "answer": 9,
+   "why": "Tangents from the same point are equal.",
+   "tol": 0.001,
+   "unit": "cm"
+  },
+  {
+   "type": "num",
+   "q": "Tangent from P touches a circle of radius 8. P is 17 from the center. Tangent length?",
+   "answer": 15,
+   "why": "Right angle at the tangent point: 8² + t² = 17² → t² = 289 − 64 = 225 → **t = 15**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Radius ⟂ tangent: Pythagorean theorem."
+  },
+  {
+   "type": "num",
+   "q": "Sector with a 45° angle in a circle of radius 12. Area, to 1 decimal? (π ≈ 3.1416)",
+   "answer": 56.5,
+   "why": "(45/360) × π × 144 = ⅛ × 144π = 18π ≈ **56.5**.",
+   "tol": 0.06,
+   "level": "challenge",
+   "hint": "Fraction of the circle × πr²."
+  },
+  {
+   "type": "num",
+   "q": "Two inscribed angles intercept the same arc. One is 3x + 10, the other 5x − 20. Find x.",
+   "answer": 15,
+   "why": "Inscribed angles on the same arc are equal: 3x + 10 = 5x − 20 → 30 = 2x → **x = 15** (each angle is 55°).",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "They must be equal."
+  },
+  {
+   "type": "num",
+   "q": "A 40-inch-diameter tire. About how many rotations does it make in 10 miles? (1 mile = 63,360 in; nearest hundred)",
+   "answer": 5000,
+   "why": "Circumference ≈ 125.66 in. 633,600 ÷ 125.66 ≈ 5,042 → **about 5,000**.",
+   "tol": 100,
+   "level": "challenge",
+   "hint": "Total inches ÷ inches per rotation."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Contemporary Mathematics (Geometry chapter)",
+   "url": "https://openstax.org/details/books/contemporary-mathematics"
+  },
+  {
+   "title": "OpenStax, Contemporary Mathematics, Ch. 10: Geometry",
+   "url": "https://openstax.org/books/contemporary-mathematics/pages/10-introduction"
+  }
+ ]
+}

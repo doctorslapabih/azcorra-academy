@@ -1,0 +1,216 @@
+{
+ "id": "coordinate-geometry",
+ "title": "Coordinate geometry",
+ "band": "Grade 10",
+ "minutes": 32,
+ "lede": "Put shapes on a grid and geometry turns into algebra. Distance, midpoints, proving a shape is a rectangle with nothing but numbers, and the equation of a circle.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The distance formula\nThe distance between (x₁, y₁) and (x₂, y₂) is:\n\n**d = √((x₂ − x₁)² + (y₂ − y₁)²)**\n\nIt's just the **Pythagorean theorem**: the horizontal change and the vertical change are the legs of a right triangle, and the distance is the hypotenuse."
+  },
+  {
+   "type": "example",
+   "title": "Distance",
+   "problem": "Find the distance from (1, 2) to (7, 10).",
+   "steps": [
+    "Horizontal change: 7 − 1 = 6.",
+    "Vertical change: 10 − 2 = 8.",
+    "d = √(36 + 64) = √100 = 10."
+   ],
+   "answer": "**10.** (A 6-8-10 triangle: a 3-4-5 doubled.)"
+  },
+  {
+   "type": "text",
+   "md": "## The midpoint formula\nThe midpoint is the **average** of the x's and the average of the y's:\n\n**M = ((x₁ + x₂) ÷ 2, (y₁ + y₂) ÷ 2)**\n\nMidpoint of (2, 8) and (10, 4): ((2 + 10) ÷ 2, (8 + 4) ÷ 2) = **(6, 6)**."
+  },
+  {
+   "type": "check",
+   "q": "Midpoint of (−4, 3) and (6, 9)?",
+   "options": [
+    "(1, 6)",
+    "(2, 12)",
+    "(5, 3)",
+    "(10, 6)"
+   ],
+   "answer": 0,
+   "why": "(−4 + 6) ÷ 2 = 1; (3 + 9) ÷ 2 = 6."
+  },
+  {
+   "type": "text",
+   "md": "## Proving shapes with algebra\nThree tools do almost everything:\n\n| To show… | Use | Look for |\n|---|---|---|\n| sides are **equal** | distance | same lengths |\n| sides are **parallel** | slope | **equal** slopes |\n| sides are **perpendicular** | slope | slopes multiply to **−1** |\n| diagonals **bisect** each other | midpoint | same midpoint |\n\n- **Parallelogram**: both pairs of opposite sides parallel (or diagonals share a midpoint).\n- **Rectangle**: a parallelogram with a right angle (perpendicular sides), or with equal diagonals.\n- **Rhombus**: all four sides equal.\n- **Square**: both a rectangle and a rhombus."
+  },
+  {
+   "type": "example",
+   "title": "Is it a rectangle?",
+   "problem": "Points A(0, 0), B(4, 2), C(3, 4), D(−1, 2).",
+   "steps": [
+    "Slopes: AB = 2/4 = 1/2. BC = 2/(−1) = −2. CD = (2 − 4)/(−1 − 3) = 1/2. DA = 2/(−1) = −2.",
+    "AB ∥ CD and BC ∥ DA → parallelogram.",
+    "AB × BC = (1/2)(−2) = −1 → perpendicular → right angle."
+   ],
+   "answer": "**Yes, a rectangle.** Check: AB = √20, BC = √5, so it's not a square."
+  },
+  {
+   "type": "text",
+   "md": "## The equation of a circle\nA circle is every point at distance **r** from a center (h, k). Write the distance formula with that idea and square both sides:\n\n**(x − h)² + (y − k)² = r²**\n\n- Center (3, −2), radius 5: **(x − 3)² + (y + 2)² = 25**\n- **x² + y² = 49**: center (0, 0), radius 7.\n\nWatch the signs: (y + 2) means k = **−2**."
+  },
+  {
+   "type": "check",
+   "q": "The circle (x + 1)² + (y − 4)² = 36 has center and radius…",
+   "options": [
+    "(1, −4), 36",
+    "(−1, 4), 6",
+    "(−1, 4), 36",
+    "(1, 4), 6"
+   ],
+   "answer": 1,
+   "why": "x + 1 = x − (−1), so h = −1. k = 4. r = √36 = 6."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Subtracting coordinates in different orders** for slope. Keep (y₂ − y₁) and (x₂ − x₁) in the same order.\n- **Forgetting the square root** in the distance formula.\n- **Circle signs:** (x − h) means a **plus** h in the center if you see a minus, and vice versa.\n- **Using r² as the radius.** The right side is r²; take the square root."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Distance from (0, 0) to (3, 4)?",
+   "answer": 5,
+   "why": "√(9 + 16) = 5.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "Distance from (2, −1) to (8, 7)?",
+   "answer": 10,
+   "why": "√(36 + 64) = 10.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Midpoint of (4, 10) and (8, −2)?",
+   "options": [
+    "(6, 4)",
+    "(12, 8)",
+    "(2, 6)",
+    "(6, 6)"
+   ],
+   "answer": 0,
+   "why": "(12 ÷ 2, 8 ÷ 2)."
+  },
+  {
+   "type": "mc",
+   "q": "Slopes 3/4 and −4/3 are…",
+   "options": [
+    "parallel",
+    "perpendicular",
+    "equal",
+    "neither"
+   ],
+   "answer": 1,
+   "why": "Product = −1."
+  },
+  {
+   "type": "mc",
+   "q": "Center of (x − 5)² + (y + 3)² = 16?",
+   "options": [
+    "(5, −3)",
+    "(−5, 3)",
+    "(5, 3)",
+    "(−5, −3)"
+   ],
+   "answer": 0,
+   "why": "Signs flip from the equation."
+  },
+  {
+   "type": "num",
+   "q": "Radius of x² + y² = 81?",
+   "answer": 9,
+   "why": "√81.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "A quadrilateral's diagonals have the same midpoint. It must be a…",
+   "options": [
+    "square",
+    "parallelogram",
+    "trapezoid",
+    "kite"
+   ],
+   "answer": 1,
+   "why": "Diagonals bisecting each other is the parallelogram test."
+  },
+  {
+   "type": "mc",
+   "q": "Equation of the circle with center (0, 2) and radius 3:",
+   "options": [
+    "x² + (y − 2)² = 9",
+    "x² + (y + 2)² = 9",
+    "x² + (y − 2)² = 3",
+    "(x − 2)² + y² = 9"
+   ],
+   "answer": 0,
+   "why": "h = 0, k = 2, r² = 9."
+  },
+  {
+   "type": "num",
+   "q": "M(3, 5) is the midpoint of AB, and A = (1, 1). What is the y-coordinate of B?",
+   "answer": 9,
+   "why": "(1 + y) ÷ 2 = 5 → y = **9**. (And x: (1 + x) ÷ 2 = 3 → x = 5, so B = (5, 9).)",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Set up the midpoint formula and solve for the unknown endpoint."
+  },
+  {
+   "type": "mc",
+   "q": "Is the point (6, 8) on the circle x² + y² = 100?",
+   "options": [
+    "Yes",
+    "No, it's inside",
+    "No, it's outside",
+    "Can't tell"
+   ],
+   "answer": 0,
+   "why": "36 + 64 = 100 ✓. It sits exactly on the circle.",
+   "level": "challenge",
+   "hint": "Plug it in."
+  },
+  {
+   "type": "num",
+   "q": "A truck drives from a depot at (0, 0) to (30, 40) on a map grid in miles, then to (30, 0). Total straight-line miles driven?",
+   "answer": 90,
+   "why": "First leg: √(900 + 1,600) = 50. Second leg: straight down, 40. Total **90 miles**.",
+   "tol": 0.001,
+   "unit": "miles",
+   "level": "challenge",
+   "hint": "Find each leg's distance, then add."
+  },
+  {
+   "type": "mc",
+   "q": "Points P(1, 1), Q(4, 5), R(8, 2), S(5, −2). The shape is a…",
+   "options": [
+    "rectangle but not a square",
+    "square",
+    "rhombus but not a square",
+    "trapezoid"
+   ],
+   "answer": 1,
+   "why": "PQ: slope 4/3, length 5. QR: slope −3/4, length 5. RS: 4/3, 5. SP: −3/4, 5. All sides equal **and** adjacent sides perpendicular → **square**.",
+   "level": "challenge",
+   "hint": "Check all four slopes and all four lengths."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Algebra and Trigonometry 2e",
+   "url": "https://openstax.org/details/books/algebra-and-trigonometry-2e"
+  },
+  {
+   "title": "OpenStax, Contemporary Mathematics (Geometry chapter)",
+   "url": "https://openstax.org/details/books/contemporary-mathematics"
+  }
+ ]
+}

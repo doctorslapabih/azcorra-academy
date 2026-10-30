@@ -212,27 +212,32 @@
      {
       "id": "logic-and-proof",
       "title": "Logic and proof",
-      "ready": false
+      "ready": true,
+      "desc": "Geometry is where math stops asking you to compute and starts asking you to prove. Learn how if-then statements work, why a single counterexample beats a thousand examples, and how to build an airtight argument."
      },
      {
       "id": "congruence-and-similarity",
       "title": "Congruence and similarity",
-      "ready": false
+      "ready": true,
+      "desc": "Same shape and size, or same shape at a different scale. The ideas behind blueprints, maps, model trucks and measuring a tree with its shadow."
      },
      {
       "id": "right-triangle-trigonometry",
       "title": "Right-triangle trigonometry",
-      "ready": false
+      "ready": true,
+      "desc": "Three ratios that let you find any side or angle of a right triangle. How engineers measure what they can't reach, and how a 6% road grade becomes an angle."
      },
      {
       "id": "coordinate-geometry",
       "title": "Coordinate geometry",
-      "ready": false
+      "ready": true,
+      "desc": "Put shapes on a grid and geometry turns into algebra. Distance, midpoints, proving a shape is a rectangle with nothing but numbers, and the equation of a circle."
      },
      {
       "id": "circle-theorems",
       "title": "Circle theorems",
-      "ready": false
+      "ready": true,
+      "desc": "Arcs, chords, tangents and the surprising rules that connect their angles. Plus arc length and sector area, the math of tire wear and pizza slices."
      }
     ]
    },

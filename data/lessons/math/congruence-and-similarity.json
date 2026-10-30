@@ -1,0 +1,206 @@
+{
+ "id": "congruence-and-similarity",
+ "title": "Congruence and similarity",
+ "band": "Grade 10",
+ "minutes": 34,
+ "lede": "Same shape and size, or same shape at a different scale. The ideas behind blueprints, maps, model trucks and measuring a tree with its shadow.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Congruent: identical copies\nTwo figures are **congruent** (≅) if one can be moved onto the other by **sliding, flipping or turning**, with no stretching. All matching sides and all matching angles are equal.\n\nTo prove two **triangles** congruent, you don't need all six parts. These shortcuts are enough:\n\n| Shortcut | What must match |\n|---|---|\n| **SSS** | all three sides |\n| **SAS** | two sides and the angle **between** them |\n| **ASA** | two angles and the side **between** them |\n| **AAS** | two angles and a side **not** between them |\n| **HL** | (right triangles only) hypotenuse and one leg |\n\n**These don't work:**\n- **AAA**: same angles can come in any size (that's similarity, not congruence).\n- **SSA**: two sides and a non-included angle can make two different triangles."
+  },
+  {
+   "type": "check",
+   "q": "Two triangles have all three angles equal. Are they congruent?",
+   "options": [
+    "Yes, AAA",
+    "Not necessarily: one could be a bigger copy",
+    "Yes, if they're right triangles",
+    "Only if they're equilateral"
+   ],
+   "answer": 1,
+   "why": "AAA only guarantees the same **shape**."
+  },
+  {
+   "type": "text",
+   "md": "## CPCTC\nOnce you prove two triangles congruent, every other matching part is equal too: **Corresponding Parts of Congruent Triangles are Congruent.** Proofs often prove triangles congruent as a stepping stone, then use CPCTC to get the side or angle they actually wanted."
+  },
+  {
+   "type": "text",
+   "md": "## Similar: same shape, different size\nTwo figures are **similar** (∼) when all angles match and all side lengths are in the **same ratio**, called the **scale factor** k.\n\nFor triangles, shortcuts again:\n\n| Shortcut | What must hold |\n|---|---|\n| **AA** | two angles match (the third must too) |\n| **SSS∼** | all three side ratios are equal |\n| **SAS∼** | two side ratios equal and the angle between them matches |\n\n**Set up a proportion with matching sides:** small ÷ big = small ÷ big."
+  },
+  {
+   "type": "example",
+   "title": "The shadow trick",
+   "problem": "You're 6 ft tall and cast a 4 ft shadow. At the same moment, a light pole casts a 20 ft shadow. How tall is the pole?",
+   "steps": [
+    "The Sun hits both at the same angle, and both stand straight up: the triangles are similar (AA).",
+    "height ÷ shadow is the same: 6/4 = h/20.",
+    "h = 20 × 6 ÷ 4 = 30."
+   ],
+   "answer": "**30 ft.** Ancient Greek mathematician Thales is said to have measured the height of a pyramid this way."
+  },
+  {
+   "type": "text",
+   "md": "## Scale factor: lengths, areas, volumes\nIf a figure is scaled by **k**:\n\n| Measure | Multiplies by |\n|---|---|\n| lengths (sides, perimeter) | **k** |\n| areas | **k²** |\n| volumes | **k³** |\n\nDouble every dimension of a box (k = 2): its surface area becomes **4×**, its volume **8×**.\n\nThis is why giant animals can't just be scaled-up small ones: weight grows with volume (k³) while bone strength grows with cross-section area (k²). An ant scaled to elephant size would collapse."
+  },
+  {
+   "type": "check",
+   "q": "A 1:64 scale model truck is 9 inches long. The real truck is…",
+   "options": [
+    "64 inches",
+    "576 inches (48 ft)",
+    "9 × 64² inches",
+    "73 inches"
+   ],
+   "answer": 1,
+   "why": "Lengths × 64: 9 × 64 = 576 in = 48 ft."
+  },
+  {
+   "type": "example",
+   "title": "Area scaling",
+   "problem": "A trailer floor plan drawn at 1:50 has an area of 6 square inches on paper. What's the real area in square inches?",
+   "steps": [
+    "Length scale k = 50.",
+    "Area scale k² = 2,500.",
+    "6 × 2,500 = 15,000 in²."
+   ],
+   "answer": "**15,000 in²**, about 104 ft². Forgetting to square the scale factor is the number one mistake here."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Matching the wrong sides.** Line up corresponding vertices first (the order in △ABC ≅ △DEF tells you A↔D, B↔E, C↔F).\n- **SSA and AAA aren't congruence shortcuts.**\n- **Scaling area by k instead of k².**\n- **Congruent figures are similar** (k = 1), but similar figures usually aren't congruent."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which is **not** a valid congruence shortcut?",
+   "options": [
+    "SSS",
+    "SAS",
+    "SSA",
+    "ASA"
+   ],
+   "answer": 2,
+   "why": "Two different triangles can fit SSA."
+  },
+  {
+   "type": "mc",
+   "q": "Similar figures have…",
+   "options": [
+    "equal sides",
+    "equal angles and proportional sides",
+    "equal areas",
+    "equal perimeters"
+   ],
+   "answer": 1,
+   "why": "Same shape, scaled."
+  },
+  {
+   "type": "mc",
+   "q": "△ABC ≅ △XYZ. Which side equals BC?",
+   "options": [
+    "XY",
+    "YZ",
+    "XZ",
+    "AB"
+   ],
+   "answer": 1,
+   "why": "B↔Y, C↔Z."
+  },
+  {
+   "type": "num",
+   "q": "Two similar triangles: sides 3, 4, 5 and the bigger one's shortest side is 9. Its longest side?",
+   "answer": 15,
+   "why": "k = 3. 5 × 3 = 15.",
+   "tol": 0.001
+  },
+  {
+   "type": "num",
+   "q": "A 5 ft person has a 3 ft shadow. A tree's shadow is 27 ft. Tree height?",
+   "answer": 45,
+   "why": "5/3 = h/27 → h = 45.",
+   "tol": 0.001,
+   "unit": "ft"
+  },
+  {
+   "type": "num",
+   "q": "Scale factor 3. Original area 10 cm². New area?",
+   "answer": 90,
+   "why": "10 × 3² = 90.",
+   "tol": 0.001,
+   "unit": "cm²"
+  },
+  {
+   "type": "num",
+   "q": "Scale factor 2. Original volume 50 cm³. New volume?",
+   "answer": 400,
+   "why": "50 × 2³ = 400.",
+   "tol": 0.001,
+   "unit": "cm³"
+  },
+  {
+   "type": "mc",
+   "q": "Two right triangles have equal hypotenuses and one equal leg. They're congruent by…",
+   "options": [
+    "AAA",
+    "HL",
+    "SSA",
+    "AA"
+   ],
+   "answer": 1,
+   "why": "Hypotenuse-Leg."
+  },
+  {
+   "type": "num",
+   "q": "Two similar trailers: the small one has a 12 ft length and 300 ft³ volume. The big one is 24 ft. Its volume?",
+   "answer": 2400,
+   "why": "k = 2, volume × 2³ = 8: 300 × 8 = **2,400 ft³**. Double the length, eight times the space.",
+   "tol": 0.001,
+   "unit": "ft³",
+   "level": "challenge",
+   "hint": "Volume scales by k³."
+  },
+  {
+   "type": "num",
+   "q": "Two similar triangles have areas 16 and 36. If the smaller has a side of 8, what's the matching side of the larger?",
+   "answer": 12,
+   "why": "Area ratio 36/16 = 9/4 = k². So k = 3/2. 8 × 1.5 = **12**.",
+   "tol": 0.001,
+   "level": "challenge",
+   "hint": "Take the square root of the area ratio to get k."
+  },
+  {
+   "type": "mc",
+   "q": "A map scale is 1 inch : 20 miles. A region is 3 in² on the map. Its real area is…",
+   "options": [
+    "60 mi²",
+    "400 mi²",
+    "1,200 mi²",
+    "8,000 mi²"
+   ],
+   "answer": 2,
+   "why": "Area scale = 20² = 400. 3 × 400 = **1,200 mi²**.",
+   "level": "challenge",
+   "hint": "Square the length scale."
+  },
+  {
+   "type": "num",
+   "q": "A 4 ft fence post casts a 6 ft shadow. A building casts a 90 ft shadow. How tall is the building?",
+   "answer": 60,
+   "why": "4/6 = h/90 → h = 90 × 4 ÷ 6 = **60 ft**.",
+   "tol": 0.001,
+   "unit": "ft",
+   "level": "challenge",
+   "hint": "Height to shadow is the same ratio for both."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Contemporary Mathematics (Geometry chapter)",
+   "url": "https://openstax.org/details/books/contemporary-mathematics"
+  }
+ ]
+}

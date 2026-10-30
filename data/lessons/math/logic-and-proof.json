@@ -1,0 +1,221 @@
+{
+ "id": "logic-and-proof",
+ "title": "Logic and proof",
+ "band": "Grade 10",
+ "minutes": 34,
+ "lede": "Geometry is where math stops asking you to compute and starts asking you to prove. Learn how if-then statements work, why a single counterexample beats a thousand examples, and how to build an airtight argument.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Conditional statements\nA **conditional** is an *if–then* statement: **If p, then q.**\n\n- **p** is the **hypothesis** (the condition).\n- **q** is the **conclusion** (what follows).\n\n*If a shape is a square, then it has four right angles.*\n\nA conditional is **false** only in one situation: **p is true and q is false**. One such case, a **counterexample**, is enough to sink it."
+  },
+  {
+   "type": "text",
+   "md": "## Four related statements\nStart with: **If it's raining, then the road is wet.** (True.)\n\n| Name | Form | Example | True? |\n|---|---|---|---|\n| **Conditional** | if p, then q | If it's raining, the road is wet. | ✓ |\n| **Converse** | if q, then p | If the road is wet, it's raining. | ✗ (sprinklers, a spill) |\n| **Inverse** | if not p, then not q | If it's not raining, the road isn't wet. | ✗ |\n| **Contrapositive** | if not q, then not p | If the road isn't wet, it isn't raining. | ✓ |\n\n**The key fact:** a statement and its **contrapositive** are always **both true or both false**. The converse and inverse can go either way.\n\nWhen both a statement and its converse are true, combine them into a **biconditional** with *if and only if*: *An angle is right **if and only if** it measures 90°.* That's what a good definition is."
+  },
+  {
+   "type": "check",
+   "q": "\"If you passed the CDL test, then you studied.\" The **contrapositive** is…",
+   "options": [
+    "If you studied, you passed.",
+    "If you didn't pass, you didn't study.",
+    "If you didn't study, you didn't pass.",
+    "You passed and studied."
+   ],
+   "answer": 2,
+   "why": "Flip **and** negate both parts: if not q, then not p."
+  },
+  {
+   "type": "text",
+   "md": "## Two kinds of reasoning\n- **Inductive reasoning** spots a **pattern** in examples and guesses a rule. *The last 5 Mondays the market opened weak, so Mondays open weak.* Useful for making guesses, called **conjectures**, but never proof.\n- **Deductive reasoning** uses **facts, definitions and accepted rules** to reach a conclusion that **must** be true. That's a proof.\n\nThe classic deductive pattern (**law of detachment**):\n1. If an angle is a right angle, it measures 90°. *(rule)*\n2. ∠A is a right angle. *(fact)*\n3. Therefore ∠A measures 90°. *(must follow)*\n\nTrading is mostly inductive: patterns that **tend** to hold. That's exactly why you need risk management: inductive conclusions can fail."
+  },
+  {
+   "type": "example",
+   "title": "One counterexample",
+   "problem": "Conjecture: *For every number n, n² is greater than n.*",
+   "steps": [
+    "Try n = 3: 9 > 3 ✓. Try n = 10: 100 > 10 ✓.",
+    "Try n = 1: 1 > 1? ✗.",
+    "Try n = 0.5: 0.25 > 0.5? ✗."
+   ],
+   "answer": "**False.** A million examples can't prove a universal claim. **One** counterexample destroys it."
+  },
+  {
+   "type": "text",
+   "md": "## The facts proofs are built from\n| Fact | Says |\n|---|---|\n| **Vertical angles** | the opposite angles where two lines cross are **equal** |\n| **Linear pair** | two angles forming a straight line add to **180°** |\n| **Triangle sum** | a triangle's angles add to **180°** |\n| **Reflexive** | anything equals itself (AB = AB) |\n| **Substitution** | equal things can replace each other |\n| **Transitive** | if a = b and b = c, then a = c |\n| **Parallel lines cut by a transversal** | alternate interior angles are equal; corresponding angles are equal |"
+  },
+  {
+   "type": "text",
+   "md": "## A two-column proof\n**Given:** lines intersect, forming ∠1 and ∠2 as a linear pair and ∠2 and ∠3 as a linear pair.\n**Prove:** ∠1 = ∠3 (vertical angles are equal).\n\n| Statement | Reason |\n|---|---|\n| 1. ∠1 + ∠2 = 180° | linear pair |\n| 2. ∠2 + ∠3 = 180° | linear pair |\n| 3. ∠1 + ∠2 = ∠2 + ∠3 | substitution (both equal 180°) |\n| 4. ∠1 = ∠3 | subtract ∠2 from both sides |\n\nEvery line needs a **reason** that's a definition, a given, or a previously proven fact. *It looks equal* is never a reason."
+  },
+  {
+   "type": "check",
+   "q": "Which is a valid reason in a proof?",
+   "options": [
+    "It looks like a right angle.",
+    "The diagram shows it.",
+    "Vertical angles are equal.",
+    "I measured it with a protractor."
+   ],
+   "answer": 2,
+   "why": "Only proven facts, definitions and givens count. Diagrams can be drawn wrong."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Assuming the converse.** *All squares are rectangles* doesn't mean all rectangles are squares.\n- **Mixing up inverse and contrapositive.** Contrapositive flips **and** negates. Inverse only negates.\n- **Treating a pattern as a proof.** Inductive evidence suggests; deductive reasoning proves.\n- **Trusting the diagram.** Unless it's marked or given, it isn't known."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "In \"If a number is even, then it's divisible by 2,\" the hypothesis is…",
+   "options": [
+    "it's divisible by 2",
+    "a number is even",
+    "if",
+    "the whole sentence"
+   ],
+   "answer": 1,
+   "why": "The part after *if*."
+  },
+  {
+   "type": "mc",
+   "q": "The **converse** of \"If x = 3, then x² = 9\" is…",
+   "options": [
+    "If x² = 9, then x = 3.",
+    "If x ≠ 3, then x² ≠ 9.",
+    "If x² ≠ 9, then x ≠ 3.",
+    "x = 3 and x² = 9"
+   ],
+   "answer": 0,
+   "why": "Swap hypothesis and conclusion."
+  },
+  {
+   "type": "mc",
+   "q": "Is that converse true?",
+   "options": [
+    "Yes, always",
+    "No: x could be −3",
+    "Only for positive numbers, so yes",
+    "Converses are always false"
+   ],
+   "answer": 1,
+   "why": "(−3)² = 9 too: a counterexample."
+  },
+  {
+   "type": "mc",
+   "q": "A statement is always logically equivalent to its…",
+   "options": [
+    "converse",
+    "inverse",
+    "contrapositive",
+    "negation"
+   ],
+   "answer": 2,
+   "why": "Same truth value, always."
+  },
+  {
+   "type": "mc",
+   "q": "\"Every swan I've seen is white, so all swans are white\" is…",
+   "options": [
+    "deductive reasoning",
+    "inductive reasoning",
+    "a proof",
+    "a contrapositive"
+   ],
+   "answer": 1,
+   "why": "Pattern → guess. (Black swans exist in Australia.)"
+  },
+  {
+   "type": "num",
+   "q": "Two lines cross. One angle is 65°. What is its **vertical** angle?",
+   "answer": 65,
+   "why": "Vertical angles are equal.",
+   "tol": 0.001,
+   "unit": "°"
+  },
+  {
+   "type": "num",
+   "q": "Two lines cross. One angle is 65°. What is the angle forming a **linear pair** with it?",
+   "answer": 115,
+   "why": "180 − 65 = 115.",
+   "tol": 0.001,
+   "unit": "°"
+  },
+  {
+   "type": "mc",
+   "q": "How many counterexamples do you need to disprove \"all\" statements?",
+   "options": [
+    "one",
+    "ten",
+    "half the cases",
+    "all of them"
+   ],
+   "answer": 0,
+   "why": "One is enough."
+  },
+  {
+   "type": "mc",
+   "q": "\"If a quadrilateral is a square, then it's a rectangle.\" Which pair is **both true**?",
+   "options": [
+    "conditional and converse",
+    "conditional and contrapositive",
+    "converse and contrapositive",
+    "inverse and contrapositive"
+   ],
+   "answer": 1,
+   "why": "The conditional is true, so its contrapositive (*if not a rectangle, then not a square*) is too. The converse (*rectangle → square*) is false.",
+   "level": "challenge",
+   "hint": "Which statement always matches the original?"
+  },
+  {
+   "type": "mc",
+   "q": "Given: \"If you follow your rules, you won't blow your account.\" You blew your account. Logically you can conclude…",
+   "options": [
+    "You followed your rules.",
+    "You didn't follow your rules.",
+    "Nothing.",
+    "The rules are bad."
+   ],
+   "answer": 1,
+   "why": "This is the contrapositive at work (called *modus tollens*): not q → not p. If the original statement is true, blowing the account means the rules weren't followed.",
+   "level": "challenge",
+   "hint": "Use the contrapositive."
+  },
+  {
+   "type": "num",
+   "q": "In a triangle, one angle is 90° and another is 37°. Using the triangle sum, find the third.",
+   "answer": 53,
+   "why": "180 − 90 − 37 = **53°**.",
+   "tol": 0.001,
+   "unit": "°",
+   "level": "challenge",
+   "hint": "All three add to 180°."
+  },
+  {
+   "type": "mc",
+   "q": "Which is a correct **biconditional** (true both ways)?",
+   "options": [
+    "A number is divisible by 4 if and only if it's even.",
+    "A triangle has a 90° angle if and only if it's a right triangle.",
+    "A shape is a square if and only if it has four sides.",
+    "It's raining if and only if the ground is wet."
+   ],
+   "answer": 1,
+   "why": "That's the definition of a right triangle, so it works in both directions. The others fail one direction (6 is even, not divisible by 4; rectangles have four sides; sprinklers wet the ground).",
+   "level": "challenge",
+   "hint": "Test each in reverse."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Contemporary Mathematics (Geometry chapter)",
+   "url": "https://openstax.org/details/books/contemporary-mathematics"
+  },
+  {
+   "title": "OpenStax, Contemporary Mathematics, 2.5 Equivalent Statements",
+   "url": "https://openstax.org/books/contemporary-mathematics/pages/2-5-equivalent-statements"
+  }
+ ]
+}

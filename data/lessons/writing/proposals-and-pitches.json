@@ -1,0 +1,230 @@
+{
+ "id": "proposals-and-pitches",
+ "title": "Proposals and pitches",
+ "band": "Real world",
+ "minutes": 30,
+ "lede": "Getting a dedicated lane, a sponsor, a loan or a partner all comes down to the same structure: their problem, your solution, your proof, one clear ask.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## It's about them, not you\nThe most common pitch mistake is talking about **yourself**: your goals, your story, how much you need this. The other person is asking one question: **what's in it for me?**\n\nFlip every sentence toward their benefit:\n\n| Me-focused | Them-focused |\n|---|---|\n| I need more consistent loads. | You'll have guaranteed Friday capacity on this lane. |\n| I'm trying to grow my business. | You'll deal with one carrier who knows your docks. |\n| I need a sponsor for my fight. | Your brand will be on camera in front of [number] viewers. |"
+  },
+  {
+   "type": "text",
+   "md": "## The four-part structure\nNearly every good pitch, from a one-minute conversation to a 10-page proposal, follows this:\n\n1. **Problem**: what's costing them time, money or stress *(show you understand their world)*\n2. **Solution**: what you'll do about it, specifically\n3. **Proof**: why they should believe you can (numbers, track record, references)\n4. **Ask**: exactly what you want them to do next, and when\n\nMiss the problem and they don't care. Miss the proof and they don't believe you. Miss the ask and nothing happens."
+  },
+  {
+   "type": "check",
+   "q": "A pitch says what the problem is, what you'll do and why you're credible, then ends with \"Let me know what you think!\" What's missing?",
+   "options": [
+    "The problem",
+    "The solution",
+    "The proof",
+    "A specific ask"
+   ],
+   "answer": 3,
+   "why": "\"Let me know\" isn't an ask. *Can we start with two loads next week?* is."
+  },
+  {
+   "type": "example",
+   "title": "A dedicated-lane pitch",
+   "problem": "You want a broker's weekly Jacksonville → Atlanta freight.",
+   "steps": [
+    "**Problem:** *You've had to re-post the Friday JAX → ATL load three times this month when carriers fell through.*",
+    "**Solution:** *I'll commit to that load every Friday for the next 8 weeks at $2.35/mile.*",
+    "**Proof:** *I've run 14 of your loads since August: 14 on time, zero claims. References from two other brokers are attached.*",
+    "**Ask:** *Can we start this Friday? If it works for four weeks, we can talk about adding Tuesdays.*"
+   ],
+   "answer": "Short, specific and about their headache. And the ask starts small, which makes yes easier."
+  },
+  {
+   "type": "text",
+   "md": "## Proof that persuades\nVague claims (*I'm reliable, I work hard*) are invisible. Everyone says them. Proof is **specific and checkable**:\n\n- **Numbers**: *14 loads, 100% on time, 0 claims*\n- **Track record**: dates, names, results\n- **References**: someone else saying it\n- **A small trial**: *let me prove it on one load*\n- **Guarantees**: *if I'm late, the detention's on me*\n\nIf you're new and don't have a track record yet, offer a **low-risk start**: one load, one month, a lower first rate. You're buying proof."
+  },
+  {
+   "type": "text",
+   "md": "## The 30-second version\nYou'll often get one shot: a phone call, a hallway, a meet-up after a fight. Practice a version you can say in about 30 seconds:\n\n*\"I run a reefer carrier out of Miami focused on Southeast grocery lanes. Brokers use us when they need someone who won't fall through on a Friday: we've been 100% on time this year. If you've got a lane that keeps giving you trouble, give me one load and I'll show you.\"*\n\nWho you are → who you help and how → proof → small ask."
+  },
+  {
+   "type": "example",
+   "title": "A sponsorship pitch",
+   "problem": "You want a local gym-supplement shop to sponsor your next fight.",
+   "steps": [
+    "**Problem (theirs):** *Local supplement shops compete with big online stores and need local visibility.*",
+    "**Solution:** *Your logo on my shorts and banner for my January fight, plus three posts and a gym visit video.*",
+    "**Proof:** *The event streams live; my last fight video got [real number] views. My followers are mostly local fighters and gym members, your exact customers.*",
+    "**Ask:** *$500 for the package. Can we talk Thursday?*"
+   ],
+   "answer": "Sponsors buy **attention from the right people**. Show them who'll see their name and how many, with real numbers."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Leading with your need.** Start with theirs.\n- **Too long.** A first pitch should fit on one screen. Details go in a follow-up.\n- **No number.** Rate, price, date, quantity: be specific.\n- **Asking for too much, too fast.** A small first yes leads to bigger ones.\n- **Inventing numbers.** One fake stat discovered destroys your credibility for good."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "The four parts of a pitch, in order:",
+   "options": [
+    "Ask, proof, problem, solution",
+    "Problem, solution, proof, ask",
+    "Story, feelings, hope, thanks",
+    "Solution, ask, proof, problem"
+   ],
+   "answer": 1,
+   "why": "Problem → solution → proof → ask."
+  },
+  {
+   "type": "mc",
+   "q": "Which line is them-focused?",
+   "options": [
+    "I really need this contract.",
+    "You'll stop having to re-post Friday loads.",
+    "My goal is to grow fast.",
+    "I've always wanted to work with you."
+   ],
+   "answer": 1,
+   "why": "Their benefit."
+  },
+  {
+   "type": "mc",
+   "q": "Which is the strongest proof?",
+   "options": [
+    "I'm very reliable.",
+    "I work harder than anyone.",
+    "26 loads since June, all on time, zero claims.",
+    "Trust me."
+   ],
+   "answer": 2,
+   "why": "Specific and checkable."
+  },
+  {
+   "type": "mc",
+   "q": "Which is a clear ask?",
+   "options": [
+    "Let me know your thoughts.",
+    "Hope to hear from you.",
+    "Can we start with one load this Friday?",
+    "Thanks for reading."
+   ],
+   "answer": 2,
+   "why": "Specific action and time."
+  },
+  {
+   "type": "mc",
+   "q": "You're new with no track record. Best strategy?",
+   "options": [
+    "Make up numbers",
+    "Offer a small, low-risk trial to earn proof",
+    "Don't pitch until you have 5 years",
+    "Promise the moon"
+   ],
+   "answer": 1,
+   "why": "Buy proof with a small start."
+  },
+  {
+   "type": "mc",
+   "q": "A 30-second pitch should include…",
+   "options": [
+    "your life story",
+    "who you are, who you help and how, proof, a small ask",
+    "every service you offer",
+    "only your price"
+   ],
+   "answer": 1,
+   "why": "Tight and complete."
+  },
+  {
+   "type": "mc",
+   "q": "A sponsor mainly wants…",
+   "options": [
+    "to help you",
+    "attention from the right audience",
+    "free merchandise",
+    "to fight"
+   ],
+   "answer": 1,
+   "why": "Visibility to their customers."
+  },
+  {
+   "type": "mc",
+   "q": "Why start with a small ask?",
+   "options": [
+    "It's polite",
+    "A small yes is easier to give and builds trust for a bigger one",
+    "Big asks are illegal",
+    "No reason"
+   ],
+   "answer": 1,
+   "why": "Foot in the door."
+  },
+  {
+   "type": "mc",
+   "q": "Rewrite to be them-focused: \"I want to haul your freight because I need steady work.\"",
+   "options": [
+    "I want your freight, please.",
+    "Steady work is important to me.",
+    "You'll get a carrier who's available every week on your lane, so you stop scrambling for coverage.",
+    "I need this."
+   ],
+   "answer": 2,
+   "why": "Same offer, framed as their benefit.",
+   "level": "challenge",
+   "hint": "What does steady work mean from **their** side?"
+  },
+  {
+   "type": "mc",
+   "q": "A pitch has a great problem and solution, no proof, and a clear ask. The most likely response is…",
+   "options": [
+    "an immediate yes",
+    "\"Sounds good, but why should I believe you can do it?\"",
+    "a rejection for being too short",
+    "they'll pay double"
+   ],
+   "answer": 1,
+   "why": "Without proof, a solution is just a promise.",
+   "level": "challenge",
+   "hint": "What's the missing piece?"
+  },
+  {
+   "type": "mc",
+   "q": "Which pitch opening is best for a busy shipping manager?",
+   "options": [
+    "\"Let me tell you how I got into trucking…\"",
+    "\"Your outbound loads to Orlando have been going out late on Mondays. I can fix that.\"",
+    "\"We are a premier, best-in-class logistics solutions provider.\"",
+    "\"I'm sure you get a lot of these emails, sorry to bother you.\""
+   ],
+   "answer": 1,
+   "why": "Opens on **their** specific problem. C is empty buzzwords; D apologizes for existing; A is about you.",
+   "level": "challenge",
+   "hint": "Which one shows you know their problem?"
+  },
+  {
+   "type": "mc",
+   "q": "You're pitching a lender for a second truck. Which proof matters most to them?",
+   "options": [
+    "How much you love trucking",
+    "12 months of bank statements and load records showing steady revenue and on-time loan payments",
+    "A photo of the truck you want",
+    "Your follower count"
+   ],
+   "answer": 1,
+   "why": "Lenders care whether you'll pay them back. Proof = cash flow history and payment history.",
+   "level": "challenge",
+   "hint": "What's the lender's problem?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Purdue OWL: Workplace Writers",
+   "url": "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/workplace_writers.html"
+  },
+  {
+   "title": "UNC Writing Center: Business Writing",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/business-letters/"
+  }
+ ]
+}

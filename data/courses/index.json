@@ -762,22 +762,26 @@
      {
       "id": "emails-that-get-answered",
       "title": "Emails that get answered",
-      "ready": false
+      "ready": true,
+      "desc": "Busy people skim, then decide in seconds whether to answer now, later, or never. How to write messages that get read, get answered, and get you paid."
      },
      {
       "id": "proposals-and-pitches",
       "title": "Proposals and pitches",
-      "ready": false
+      "ready": true,
+      "desc": "Getting a dedicated lane, a sponsor, a loan or a partner all comes down to the same structure: their problem, your solution, your proof, one clear ask."
      },
      {
       "id": "negotiation-messages",
       "title": "Negotiation messages",
-      "ready": false
+      "ready": true,
+      "desc": "Rates, prices, contracts, purses. The core ideas from negotiation research, BATNA, anchoring and trading instead of conceding, applied to the messages you actually send."
      },
      {
       "id": "summaries-and-reports",
       "title": "Summaries and reports",
-      "ready": false
+      "ready": true,
+      "desc": "Turn a pile of information into something a busy person can act on in two minutes. The skill behind executive summaries, weekly business reviews and a trading journal that actually teaches you something."
      }
     ]
    },

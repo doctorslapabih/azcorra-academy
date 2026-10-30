@@ -1,0 +1,230 @@
+{
+ "id": "summaries-and-reports",
+ "title": "Summaries and reports",
+ "band": "Real world",
+ "minutes": 30,
+ "lede": "Turn a pile of information into something a busy person can act on in two minutes. The skill behind executive summaries, weekly business reviews and a trading journal that actually teaches you something.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## What a summary is (and isn't)\nA **summary** gives the **main idea** and the **key supporting points** of something longer, in your own words, much shorter than the original.\n\nA summary **is not**:\n- **A retelling** of everything in order.\n- **Your opinion** (that's a review or a response).\n- **Copying sentences** (that's quoting, and too much of it isn't summarizing).\n\nA good test: could someone who **never** saw the original make the right decision from your summary?"
+  },
+  {
+   "type": "text",
+   "md": "## How to summarize anything\n1. **Read or watch it all once** without writing.\n2. **Find the main point.** Ask: *if the author could only say one sentence, what would it be?*\n3. **Pick the 2–4 points that support it.** Cut examples, side stories and repetition.\n4. **Write it in your own words**, starting with the main point.\n5. **Check it against the original**: accurate? Anything important missing? Anything you added that wasn't there?\n\n**Length rule of thumb:** a summary is usually about 10–25% of the original. A one-page article becomes a few sentences; a 1-hour video becomes a paragraph."
+  },
+  {
+   "type": "check",
+   "q": "Which belongs in a summary?",
+   "options": [
+    "\"I think the author is wrong.\"",
+    "Every example from the article",
+    "The main point and key supporting points",
+    "Long direct quotes"
+   ],
+   "answer": 2,
+   "why": "Main idea + key supports, in your own words."
+  },
+  {
+   "type": "text",
+   "md": "## The report structure busy people want\nWhether it's a weekly update to a partner, a report to a lender, or a review of your own trading week, use this order:\n\n1. **Summary** (the bottom line in 2–3 sentences, first)\n2. **Key numbers** (in a table, not buried in paragraphs)\n3. **What happened** (findings: what went well, what didn't, why)\n4. **Recommendations / next steps** (specific actions with owners and dates)\n\nThe first part is often called an **executive summary**: written **last**, placed **first**. Many readers will read only that part, so it must stand alone."
+  },
+  {
+   "type": "example",
+   "title": "A weekly trucking report",
+   "problem": "Raw notes: *drove Mon–Fri, 5 loads, one was cancelled Tues and I sat, fuel went up, made 6,800ish, 2,410 miles, 260 of them empty, broker on Thurs paid detention finally, truck needs brakes soon.*",
+   "steps": [
+    "**Summary:** Revenue was $6,800 on 2,410 miles ($2.82 per total mile). A cancelled load on Tuesday cost a day. Brakes need service within two weeks.",
+    "**Key numbers:** a table with loads (5), total miles (2,410), deadhead (260, 10.8%), revenue ($6,800), revenue per total mile ($2.82), detention collected (Yes, Thu).",
+    "**Findings:** Tuesday's cancellation left the truck idle for a day. Fuel prices rose this week.",
+    "**Next steps:** Book brake service by Nov 10. Keep a backup load option on hand for Tuesdays."
+   ],
+   "answer": "Turns scattered notes into something you (or a partner, or a lender) can read in a minute and act on. And it surfaces the number that matters: revenue per mile."
+  },
+  {
+   "type": "text",
+   "md": "## Numbers belong in tables\nCompare:\n\n*In week 1, I took 12 trades and won 7, making $640, while in week 2 I took 19 trades and won 8, losing $310.*\n\n| | Week 1 | Week 2 |\n|---|---|---|\n| Trades | 12 | 19 |\n| Wins | 7 (58%) | 8 (42%) |\n| P&L | +$640 | −$310 |\n\nThe table makes the story jump out: **more trades, lower win rate, losses.** That's an overtrading pattern you'd miss in a sentence."
+  },
+  {
+   "type": "text",
+   "md": "## Findings → recommendations\nThe difference between a report that changes something and one that gets filed:\n\n| Weak | Strong |\n|---|---|\n| Trading was rough this week. | Win rate fell from 58% to 42% as trades rose from 12 to 19. |\n| I should trade better. | Max 3 trades per day next week; journal every trade before the next entry. |\n| Fuel is expensive. | Fuel cost rose 8%. Fuel up at [cheaper chain] on the I-75 route; check fuel card discounts. |\n\nEvery recommendation should be **specific**, **doable** and **checkable** next week."
+  },
+  {
+   "type": "check",
+   "q": "Where does the executive summary go?",
+   "options": [
+    "At the end",
+    "At the beginning, even though it's written last",
+    "In an appendix",
+    "Nowhere: it's optional"
+   ],
+   "answer": 1,
+   "why": "Written last, read first."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Chronological dumping.** Readers want conclusions, not a diary.\n- **Opinions in a summary.** Keep them for the recommendations section, labeled as recommendations.\n- **Numbers in paragraphs.** Put comparisons in tables.\n- **Vague next steps** (*do better*). Make them measurable.\n- **Hiding bad news.** Put it in the summary. A reader who finds it later stops trusting the whole report."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "A summary should be written in…",
+   "options": [
+    "the original author's exact words",
+    "your own words",
+    "bullet points only",
+    "the future tense"
+   ],
+   "answer": 1,
+   "why": "Own words; quotes are the exception."
+  },
+  {
+   "type": "mc",
+   "q": "The first step to summarizing is…",
+   "options": [
+    "start writing immediately",
+    "read or watch the whole thing once",
+    "copy the first paragraph",
+    "write your opinion"
+   ],
+   "answer": 1,
+   "why": "Understand before you shrink it."
+  },
+  {
+   "type": "mc",
+   "q": "A typical summary length is about…",
+   "options": [
+    "the same as the original",
+    "10–25% of the original",
+    "one word",
+    "double the original"
+   ],
+   "answer": 1,
+   "why": "Much shorter."
+  },
+  {
+   "type": "mc",
+   "q": "In a report, the executive summary is written ___ and placed ___.",
+   "options": [
+    "first, first",
+    "last, first",
+    "first, last",
+    "last, last"
+   ],
+   "answer": 1,
+   "why": "You can't summarize what you haven't written yet."
+  },
+  {
+   "type": "mc",
+   "q": "Best place for comparing weekly numbers?",
+   "options": [
+    "a long paragraph",
+    "a table",
+    "a footnote",
+    "the title"
+   ],
+   "answer": 1,
+   "why": "Tables make patterns visible."
+  },
+  {
+   "type": "mc",
+   "q": "Which is a strong recommendation?",
+   "options": [
+    "Do better next week.",
+    "Trade less.",
+    "Max 3 trades per day; stop after 2 losses; review the journal Friday at 5 p.m.",
+    "Try harder."
+   ],
+   "answer": 2,
+   "why": "Specific, doable, checkable."
+  },
+  {
+   "type": "mc",
+   "q": "Bad news in a report should go…",
+   "options": [
+    "at the very end",
+    "in the summary, clearly",
+    "nowhere",
+    "in tiny print"
+   ],
+   "answer": 1,
+   "why": "Hidden bad news destroys trust."
+  },
+  {
+   "type": "num",
+   "q": "2,410 total miles, 260 deadhead. Deadhead percentage? (1 decimal)",
+   "answer": 10.8,
+   "why": "260 ÷ 2,410 ≈ 10.8%.",
+   "tol": 0.06,
+   "unit": "%"
+  },
+  {
+   "type": "mc",
+   "q": "Which is the best one-sentence summary of a video about a fighter who lost his title because he stopped training hard after winning it?",
+   "options": [
+    "He lost.",
+    "The video is about a fighter.",
+    "After winning the title, the champion grew complacent, cut back training, and lost the belt in his first defense.",
+    "I think he should have trained harder, which is obvious."
+   ],
+   "answer": 2,
+   "why": "Main point + key causes, no opinion. A is too thin; B is a topic, not a summary; D is opinion.",
+   "level": "challenge",
+   "hint": "Main point, key support, no opinion."
+  },
+  {
+   "type": "mc",
+   "q": "Week 1: 12 trades, 58% wins, +$640. Week 2: 19 trades, 42% wins, −$310. The best **finding** is…",
+   "options": [
+    "Week 2 was bad luck.",
+    "As trade count rose 58%, win rate fell 16 points and P&L turned negative, suggesting overtrading.",
+    "Trading is hard.",
+    "Week 1 was good."
+   ],
+   "answer": 1,
+   "why": "Ties the numbers together into a cause you can act on. (19 vs 12 trades = +58%.)",
+   "level": "challenge",
+   "hint": "Which one connects the numbers?"
+  },
+  {
+   "type": "num",
+   "q": "Revenue $6,800 on 2,410 total miles. Revenue per total mile? (2 decimals)",
+   "answer": 2.82,
+   "why": "6,800 ÷ 2,410 ≈ **$2.82**. The single most useful number in a trucking report.",
+   "tol": 0.006,
+   "unit": "$/mile",
+   "level": "challenge",
+   "hint": "Revenue ÷ total miles."
+  },
+  {
+   "type": "mc",
+   "q": "A lender asks for a monthly report. Which opening is best?",
+   "options": [
+    "\"Here's what I did each day this month: on the 1st…\"",
+    "\"Revenue was $27,400 (up 6% from September) with all loan payments on time; a $1,900 brake repair was the main unplanned cost.\"",
+    "\"It was a good month, mostly.\"",
+    "\"Please see attached spreadsheet.\""
+   ],
+   "answer": 1,
+   "why": "Bottom line first, the number they care about (payments on time), and the bad news stated plainly.",
+   "level": "challenge",
+   "hint": "Write for the reader's question: will I get paid back?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Purdue OWL: The Report Abstract and Executive Summary",
+   "url": "https://owl.purdue.edu/owl/subject_specific_writing/writing_in_engineering/handbook_on_report_formats/abstracts_and_executive_summaries.html"
+  },
+  {
+   "title": "Purdue OWL: Memo Format",
+   "url": "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/memos/format.html"
+  },
+  {
+   "title": "UNC Writing Center: Writing Concisely",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/conciseness-handout/"
+  }
+ ]
+}

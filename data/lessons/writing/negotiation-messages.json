@@ -1,0 +1,235 @@
+{
+ "id": "negotiation-messages",
+ "title": "Negotiation messages",
+ "band": "Real world",
+ "minutes": 34,
+ "lede": "Rates, prices, contracts, purses. The core ideas from negotiation research, BATNA, anchoring and trading instead of conceding, applied to the messages you actually send.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Know your walk-away before you talk\nTwo numbers to know **before** any negotiation:\n\n- **BATNA**: your **B**est **A**lternative **T**o a **N**egotiated **A**greement. What you'll do if this deal doesn't happen. *If this broker won't pay $2.20, my BATNA is the $2.05 load to Valdosta that's already offered.*\n- **Reservation price (walk-away point)**: the worst deal you'll accept. Anything below it, you take your BATNA instead.\n\nThe term BATNA comes from Roger Fisher and William Ury's book *Getting to Yes* (1981), from the Harvard Negotiation Project.\n\n**Your power in a negotiation comes mostly from your BATNA.** The better your alternative, the more firmly you can hold. That's why it pays to have three load options before you call about one."
+  },
+  {
+   "type": "text",
+   "md": "## Know your costs: the floor under every rate\nYou can't know your walk-away rate without knowing your **cost per mile**. Add up fuel, truck payment, insurance, maintenance, tolls and your own pay, then divide by miles.\n\n*Example:* if your all-in cost is **$1.85/mile**, a $1.80 load **loses money** no matter how good it feels to be moving. Accepting it isn't a negotiation; it's a donation.\n\nAnd count the **deadhead** (empty miles to pickup and back to freight): a $2.20 load with 150 empty miles may pay less per **total** mile than a $2.00 load next door."
+  },
+  {
+   "type": "check",
+   "q": "Your BATNA is…",
+   "options": [
+    "your opening offer",
+    "what you'll do if this deal falls through",
+    "the other side's best offer",
+    "your average rate"
+   ],
+   "answer": 1,
+   "why": "Your best option away from the table."
+  },
+  {
+   "type": "text",
+   "md": "## Anchoring: the first number pulls\n**Anchoring** is a well-documented mental bias: the first number mentioned pulls the whole negotiation toward it. If a broker opens at $1.70, the conversation tends to end near $1.70 to $1.90. If you open at $2.40, it tends to end higher.\n\n- **When you know the market well, consider anchoring first**, ambitious but defensible.\n- **Justify the anchor with something objective**: market rates, your costs, conditions. *Lane average this week is $2.35 on the boards; with a Saturday delivery, I need $2.45.*\n- **If they anchor first and it's low**, don't negotiate up from their number. Re-anchor with yours and your reason."
+  },
+  {
+   "type": "text",
+   "md": "## Positions vs interests\nA **position** is what someone says they want. An **interest** is **why** they want it. *Getting to Yes* argues that deals are found by working on interests.\n\n| Position | Possible interest underneath |\n|---|---|\n| Broker: \"Max I can do is $1.90.\" | Their margin on this load; their customer's budget |\n| Shipper: \"Must deliver by 6 a.m.\" | The store opens at 8; shelves must be stocked |\n| You: \"I need $2.30.\" | Covering a long deadhead; getting home by Saturday |\n\nAsk questions to find interests: *What's driving the 6 a.m. time?* Sometimes the fix isn't the price at all: a 7 a.m. delivery with a drop-trailer might work for everyone."
+  },
+  {
+   "type": "check",
+   "q": "A shipper insists on a 6 a.m. delivery. Asking \"What's driving that time?\" helps you find their…",
+   "options": [
+    "position",
+    "interest",
+    "BATNA",
+    "anchor"
+   ],
+   "answer": 1,
+   "why": "The *why* behind the demand."
+  },
+  {
+   "type": "text",
+   "md": "## Trade, don't concede\nEvery time you give something, **get something back**. Use **if…then**:\n\n- *If you can do $2.25, then I can pick up tonight instead of tomorrow.*\n- *If the rate stays at $2.00, then I'll need detention to start after 1 hour, not 2.*\n- *If we lock in 8 weeks, then I can come down to $2.30.*\n\nGiving ground for nothing teaches the other side that pushing works. Trading teaches them that everything has a price."
+  },
+  {
+   "type": "example",
+   "title": "A rate negotiation in writing",
+   "problem": "Broker texts: *\"Got a JAX → ATL load, 345 miles, pays $650. Can you cover?\"*",
+   "steps": [
+    "Do the math: $650 ÷ 345 ≈ **$1.88/mile**. Your cost is $1.85. Nearly zero profit.",
+    "Check the market: similar loads on the board are averaging about $2.30.",
+    "Reply: *\"I can cover it. Lane's running about $2.30 this week and this delivers Saturday. I can do it for $795 all-in. If you can confirm in the next hour, I'll pick up tonight.\"*",
+    "Broker: *\"Best I can do is $740.\"*",
+    "Reply: *\"I can meet you at $760 if detention starts after 1 hour. Send the rate con and I'm rolling.\"*"
+   ],
+   "answer": "Anchored with a reason, traded (fast pickup, detention terms) instead of just dropping the price, and closed with a clear next step. From $650 to $760 is +$110, about 17%, on one load."
+  },
+  {
+   "type": "text",
+   "md": "## Saying no and closing\n- **Saying no without burning the bridge:** *I can't make that rate work this time, but I'd like to help on the next one. Keep me in mind for this lane.*\n- **Silence is a tool.** After you state your number, stop talking (or stop typing). Rushing to fill the silence usually means negotiating against yourself.\n- **Never agree to anything you haven't seen in writing.** In freight, the **rate confirmation** is the contract. Check the rate, the dates, the addresses, detention and any fees **before** you sign and before you roll."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Not knowing your cost per mile.** You can't negotiate if you don't know your floor.\n- **Splitting the difference by reflex.** It rewards whoever anchored more extremely.\n- **Showing desperation.** *I really need this load* destroys your leverage.\n- **Lying about your BATNA.** If you're caught, every future number you give is doubted.\n- **Rolling before the rate con is signed.**"
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "BATNA stands for…",
+   "options": [
+    "Best Agreement To Negotiate Always",
+    "Best Alternative To a Negotiated Agreement",
+    "Basic Approach To New Arrangements",
+    "Better Alternative Than Nothing Accepted"
+   ],
+   "answer": 1,
+   "why": "From *Getting to Yes*."
+  },
+  {
+   "type": "mc",
+   "q": "Your negotiating power comes mostly from…",
+   "options": [
+    "being loud",
+    "a strong BATNA",
+    "being polite",
+    "talking first"
+   ],
+   "answer": 1,
+   "why": "Good alternatives let you walk away."
+  },
+  {
+   "type": "num",
+   "q": "A load pays $720 for 400 miles. Rate per mile?",
+   "answer": 1.8,
+   "why": "720 ÷ 400 = $1.80.",
+   "tol": 0.001,
+   "unit": "$/mile"
+  },
+  {
+   "type": "mc",
+   "q": "Your cost is $1.90/mile. A load offers $1.85/mile. Accepting it means…",
+   "options": [
+    "a small profit",
+    "losing money on every mile",
+    "breaking even",
+    "it depends on the weather"
+   ],
+   "answer": 1,
+   "why": "Below your cost."
+  },
+  {
+   "type": "mc",
+   "q": "Anchoring means…",
+   "options": [
+    "the first number tends to pull the final deal toward it",
+    "always accepting the first offer",
+    "refusing to negotiate",
+    "splitting the difference"
+   ],
+   "answer": 0,
+   "why": "A well-documented bias."
+  },
+  {
+   "type": "mc",
+   "q": "Which is an **if…then** trade?",
+   "options": [
+    "Okay, I'll take $1.90.",
+    "If you can do $2.20, then I can pick up tonight.",
+    "Please pay more.",
+    "That's too low."
+   ],
+   "answer": 1,
+   "why": "Give something, get something."
+  },
+  {
+   "type": "mc",
+   "q": "\"We need it delivered by 6 a.m.\" is a…",
+   "options": [
+    "position",
+    "BATNA",
+    "anchor",
+    "reservation price"
+   ],
+   "answer": 0,
+   "why": "What they say they want. The interest is why."
+  },
+  {
+   "type": "mc",
+   "q": "In freight, the binding agreement is the…",
+   "options": [
+    "phone call",
+    "rate confirmation",
+    "text message",
+    "load board post"
+   ],
+   "answer": 1,
+   "why": "Check it before you roll."
+  },
+  {
+   "type": "num",
+   "q": "Load A: $1,000 for 400 loaded miles + 100 deadhead. Load B: $900 for 380 loaded miles + 10 deadhead. Which pays more per **total** mile, and what is that rate? (Enter the higher rate, 2 decimals.)",
+   "answer": 2.31,
+   "why": "A: 1,000 ÷ 500 = $2.00. B: 900 ÷ 390 ≈ **$2.31**. The lower-paying load is the better deal once empty miles count.",
+   "tol": 0.006,
+   "unit": "$/mile",
+   "level": "challenge",
+   "hint": "Divide pay by loaded + deadhead miles."
+  },
+  {
+   "type": "mc",
+   "q": "A broker opens at $1.60 for a lane that averages $2.30. Best response?",
+   "options": [
+    "Counter at $1.80 to meet in the middle",
+    "Accept: something is better than nothing",
+    "Re-anchor: \"This lane's averaging $2.30 this week. I'm at $2.35.\"",
+    "Hang up without a word"
+   ],
+   "answer": 2,
+   "why": "Don't negotiate up from their low anchor. Set your own, with an objective reason.",
+   "level": "challenge",
+   "hint": "Whose number should the conversation orbit?"
+  },
+  {
+   "type": "mc",
+   "q": "You state your rate and the broker goes quiet for 20 seconds. The strongest move is…",
+   "options": [
+    "Immediately lower your rate",
+    "Explain again why you need it",
+    "Stay quiet and let them respond",
+    "Apologize"
+   ],
+   "answer": 2,
+   "why": "Filling silence with a lower number is negotiating against yourself.",
+   "level": "challenge",
+   "hint": "Silence is a tool."
+  },
+  {
+   "type": "mc",
+   "q": "A broker won't move off $1.95; your floor is $2.10 and you have a $2.05 backup load. What do you do?",
+   "options": [
+    "Take $1.95 anyway",
+    "Walk away politely and take the backup",
+    "Yell",
+    "Accept, then charge extra fees later"
+   ],
+   "answer": 1,
+   "why": "$1.95 is below your reservation price, and your BATNA ($2.05) beats it. Walk, and keep the relationship: *Can't make it work this time. Keep me in mind for the next one.*",
+   "level": "challenge",
+   "hint": "Compare the offer to your BATNA."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Harvard Program on Negotiation: What is a BATNA?",
+   "url": "https://www.pon.harvard.edu/tag/batna/"
+  },
+  {
+   "title": "Harvard Program on Negotiation: Price Anchoring 101",
+   "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/price-anchoring-101/"
+  },
+  {
+   "title": "Harvard Program on Negotiation: Principled Negotiation: Focus on Interests",
+   "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/"
+  }
+ ]
+}

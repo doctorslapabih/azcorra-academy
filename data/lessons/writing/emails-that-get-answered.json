@@ -1,0 +1,225 @@
+{
+ "id": "emails-that-get-answered",
+ "title": "Emails that get answered",
+ "band": "Real world",
+ "minutes": 28,
+ "lede": "Busy people skim, then decide in seconds whether to answer now, later, or never. How to write messages that get read, get answered, and get you paid.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The reader's three questions\nEvery person opening your message silently asks:\n\n1. **What is this?**\n2. **What do you want from me?**\n3. **How fast can I deal with it?**\n\nIf your email answers all three in the first two lines, it gets handled. If they have to dig, it goes to *later*, and *later* often means never."
+  },
+  {
+   "type": "text",
+   "md": "## The subject line does half the work\nThe subject line decides whether your email is opened. Make it **specific** and, when you need something, put the **action** in it.\n\n| Weak | Strong |\n|---|---|\n| Question | Load #48213: detention for 3 hrs at Publix DC? |\n| Invoice | Invoice #1042 ($2,150): due Nov 14 |\n| Following up | Following up: rate con for Friday's Atlanta load |\n| Hi | Available Mon–Wed: reefer, Southeast lanes |\n\nInclude the **reference number** (load, invoice, PO) whenever there is one. It's how the other person finds the record."
+  },
+  {
+   "type": "text",
+   "md": "## BLUF: bottom line up front\nMilitary and business writing use **BLUF**: state the main point or request **first**, then give the background.\n\n*Buried:* \"Hope you're well. I wanted to touch base about the load last Tuesday. We got there at 7 for the 8 a.m. appointment, but the dock was backed up, and we weren't loaded until 11:30, so I was thinking…\"\n\n*BLUF:* \"I'm requesting **$150 in detention** for Load #48213 (3.5 hrs past the 2-hr free time). Timestamps are below.\"\n\nThe background still goes in the email, **after** the request, in a few lines."
+  },
+  {
+   "type": "check",
+   "q": "Which opening sentence follows BLUF?",
+   "options": [
+    "Hope your week is going well!",
+    "I wanted to reach out regarding something.",
+    "Can you send the signed rate con for Load #551 by 3 p.m. today? Pickup is at 5.",
+    "As you may know, we've worked together for a while."
+   ],
+   "answer": 2,
+   "why": "The request and the deadline come first."
+  },
+  {
+   "type": "text",
+   "md": "## Make it easy to say yes\n- **One email, one main ask.** Two requests in one email usually get one answer.\n- **Give a deadline with a reason.** *By 3 p.m., because pickup is at 5* gets action. *ASAP* gets ignored.\n- **Attach or paste what they need** (the BOL, the timestamps, the invoice). Don't make them search.\n- **Offer choices instead of open questions.** *Can you do Tuesday 9 a.m. or Wednesday 2 p.m.?* beats *When are you free?*\n- **Use short paragraphs and bullets.** People read emails on phones."
+  },
+  {
+   "type": "example",
+   "title": "Before and after",
+   "problem": "A driver needs payment on a late invoice.",
+   "steps": [
+    "**Before:** *Subject: Payment.* \"Hey, just checking on the payment for that load a while ago, haven't seen it yet, let me know, thanks.\"",
+    "**After:** *Subject: Invoice #1042 ($2,150): 12 days past due.*",
+    "\"Hi Dana, Invoice #1042 for Load #48213 (Jacksonville → Atlanta, delivered Oct 2) was due Oct 17 and hasn't been paid. Can you confirm a payment date by Friday? The invoice and signed POD are attached. Thanks, Isaac Azcorra, [Carrier name], MC# ______\""
+   ],
+   "answer": "The second version is answerable in 30 seconds: what, how much, when it was due, what you need, and the proof."
+  },
+  {
+   "type": "text",
+   "md": "## Tone: firm, not hostile\nIn writing, you lose your tone of voice, so messages read **colder** than you meant. A few rules:\n\n- **Assume good faith in the first message.** Escalate only if needed.\n- **Facts, not accusations.** *The invoice is 12 days past due* beats *You guys never pay on time.*\n- **Never send when angry.** Write it, save it as a draft, reread it in an hour.\n- **Every email is a record.** Write as if a judge, your biggest customer, or your mom might read it later."
+  },
+  {
+   "type": "text",
+   "md": "## Following up\nNo answer isn't always a *no*. People get busy.\n\n1. **First follow-up** after 2–3 business days: reply in the **same thread** so the history is there. *Bumping this up: can you confirm the payment date for Invoice #1042?*\n2. **Second** after another few days: add a consequence or next step, calmly. *If I don't hear back by Wednesday, I'll reach out to your accounts payable team directly.*\n3. **Then switch channels**: call.\n\n**When to call instead of email:** anything urgent (today), emotional, or complicated. Then send a short email **confirming** what was agreed, so there's a written record."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Vague subjects** (*Hi*, *Question*, *Update*).\n- **Burying the ask** in paragraph three.\n- **Reply-all** when only one person needs it.\n- **No signature** with your name, company and contact info. In trucking, add your **MC number**.\n- **Agreements made only by phone.** Confirm in writing, every time."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which subject line is strongest?",
+   "options": [
+    "Question",
+    "Load #7720: can we move pickup to 2 p.m.?",
+    "Hey",
+    "Important!!!"
+   ],
+   "answer": 1,
+   "why": "Specific, with a reference number and the ask."
+  },
+  {
+   "type": "mc",
+   "q": "BLUF stands for…",
+   "options": [
+    "Be Loud, Use Facts",
+    "Bottom Line Up Front",
+    "Brief Letters Use Format",
+    "Basic Language, Usual Form"
+   ],
+   "answer": 1,
+   "why": "Main point first."
+  },
+  {
+   "type": "mc",
+   "q": "Best deadline phrasing?",
+   "options": [
+    "ASAP",
+    "Whenever you get a chance",
+    "By 3 p.m. today, because pickup is at 5",
+    "Soon please"
+   ],
+   "answer": 2,
+   "why": "Specific time plus a reason."
+  },
+  {
+   "type": "mc",
+   "q": "No reply after 3 business days. Best first move?",
+   "options": [
+    "Send an angry email",
+    "Reply in the same thread with a short, polite nudge",
+    "Give up",
+    "Start a new email chain with all caps"
+   ],
+   "answer": 1,
+   "why": "Keep the history in one thread."
+  },
+  {
+   "type": "mc",
+   "q": "When should you call instead of email?",
+   "options": [
+    "Never",
+    "When it's urgent, emotional or complicated",
+    "For every message",
+    "Only for good news"
+   ],
+   "answer": 1,
+   "why": "Then confirm in writing."
+  },
+  {
+   "type": "mc",
+   "q": "Which is a fact, not an accusation?",
+   "options": [
+    "You always pay late.",
+    "Your company is a joke.",
+    "Invoice #1042 is 12 days past its due date.",
+    "You guys never respond."
+   ],
+   "answer": 2,
+   "why": "Specific and verifiable."
+  },
+  {
+   "type": "mc",
+   "q": "Why offer two meeting times instead of asking \"When are you free?\"",
+   "options": [
+    "It's more polite",
+    "It makes the reply a quick choice instead of a task",
+    "It's required",
+    "It sounds smarter"
+   ],
+   "answer": 1,
+   "why": "Easy to say yes."
+  },
+  {
+   "type": "mc",
+   "q": "After agreeing to a rate on the phone, you should…",
+   "options": [
+    "do nothing",
+    "send a short email confirming the rate, load number and terms",
+    "post it online",
+    "wait for the broker to remember"
+   ],
+   "answer": 1,
+   "why": "A written record protects both sides."
+  },
+  {
+   "type": "mc",
+   "q": "Which email will most likely get a fast answer?",
+   "options": [
+    "A 5-paragraph story ending with \"thoughts?\"",
+    "\"Hi Mark, can you approve $85 for a lumper on Load #3381? Receipt attached. I need to pay at the dock by 4 p.m.\"",
+    "\"Call me.\"",
+    "\"We need to talk about some stuff.\""
+   ],
+   "answer": 1,
+   "why": "One ask, the amount, the reference, the proof, and a deadline with a reason. Answerable in ten seconds.",
+   "level": "challenge",
+   "hint": "Which one can he say yes to without asking anything back?"
+  },
+  {
+   "type": "mc",
+   "q": "You have two requests for a broker: a rate increase on next week's loads and a detention payment from last week. Best approach?",
+   "options": [
+    "Put both in one long email",
+    "Send two separate emails with clear subject lines",
+    "Mention both in the subject line only",
+    "Call about one, forget the other"
+   ],
+   "answer": 1,
+   "why": "One email, one ask. Separate threads get separate answers, and the detention claim won't get lost in the rate talk.",
+   "level": "challenge",
+   "hint": "One email, one ___."
+  },
+  {
+   "type": "mc",
+   "q": "You're furious about a late payment. What's the professional move?",
+   "options": [
+    "Send it now while you're fired up",
+    "Write it, save it as a draft, and reread it in an hour before sending",
+    "Post about it on a trucking forum first",
+    "Never mention it"
+   ],
+   "answer": 1,
+   "why": "Anger reads even harsher in writing, and every email is a permanent record. Cool off, then send facts.",
+   "level": "challenge",
+   "hint": "Every email is a record."
+  },
+  {
+   "type": "mc",
+   "q": "Which second follow-up is best?",
+   "options": [
+    "\"???\"",
+    "\"Why are you ignoring me?\"",
+    "\"Following up again on Invoice #1042 ($2,150). If I don't hear back by Wednesday, I'll contact your AP department directly. Thanks.\"",
+    "\"I'm reporting you.\""
+   ],
+   "answer": 2,
+   "why": "Same thread, same facts, a calm next step with a date. Firm, not hostile.",
+   "level": "challenge",
+   "hint": "Calm consequence plus a date."
+  }
+ ],
+ "sources": [
+  {
+   "title": "UNC Writing Center: Effective Email Communication",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/effective-e-mail-communication/"
+  },
+  {
+   "title": "UNC Writing Center: Business Writing",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/business-letters/"
+  }
+ ]
+}

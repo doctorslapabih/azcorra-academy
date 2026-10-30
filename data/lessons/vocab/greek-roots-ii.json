@@ -1,0 +1,244 @@
+{
+ "id": "greek-roots-ii",
+ "title": "Greek roots II",
+ "band": "Grades 8–9",
+ "minutes": 30,
+ "lede": "The Greek roots behind the words for people, power, feeling and form, plus how scientists still build new words from them.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Where Greek words live\nLatin gave English most of its everyday and legal vocabulary. **Greek** gave it the vocabulary of **ideas, science, medicine and government**. When someone coins a new technical word today, like *cryptocurrency*, they still reach for Greek. Learn these roots and you can read the vocabulary of every field you'll ever study."
+  },
+  {
+   "type": "text",
+   "md": "## People and power\n| Root | Meaning | Words |\n|---|---|---|\n| **anthrop** | human | anthropology, philanthropy, misanthrope |\n| **dem** | the people | democracy, epidemic, demographic |\n| **crat, cracy** | rule, power | bureaucracy, autocrat, aristocracy, technocrat |\n| **arch** | rule, chief; also ancient | monarchy, anarchy, archbishop; archaeology, archive |\n| **phil** | love | philosophy, philanthropy, bibliophile |\n| **phob** | fear | phobia, claustrophobia, xenophobia |"
+  },
+  {
+   "type": "text",
+   "md": "## Mind, feeling and belief\n| Root | Meaning | Words |\n|---|---|---|\n| **path** | feeling; disease | empathy, sympathy, apathy; pathology, psychopath |\n| **dox** | opinion, belief | orthodox, paradox, heterodox |\n| **ortho** | straight, correct | orthodox, orthodontist, orthopedic |\n| **gno, gnos** | know | diagnosis, prognosis, agnostic |"
+  },
+  {
+   "type": "text",
+   "md": "## Form, kind and number\n| Root | Meaning | Words |\n|---|---|---|\n| **morph** | shape, form | metamorphosis, amorphous, morphology |\n| **gen** | birth, origin, kind | genesis, genetics, generate, homogeneous |\n| **homo / hetero** | same / different | homogeneous, homonym / heterogeneous |\n| **onym, nym** | name, word | synonym, antonym, pseudonym, anonymous, acronym |\n| **pseudo** | false | pseudonym, pseudoscience |\n| **poly / mono** | many / one | polygon, polymath / monopoly, monotone |\n| **pan** | all | pandemic, panorama, panacea |"
+  },
+  {
+   "type": "text",
+   "md": "## Hidden, power and motion\n| Root | Meaning | Words |\n|---|---|---|\n| **crypt** | hidden, secret | cryptic, encrypt, cryptocurrency, crypt |\n| **dyna** | power | dynamic, dynamite, dynasty |\n| **kine, cine** | movement | kinetic, cinema, telekinesis |"
+  },
+  {
+   "type": "text",
+   "md": "## The Greek negative: a- and an-\nGreek uses **a-** (before consonants) or **an-** (before vowels) to mean *without*. You already know *atom* (a- + tom, cut: uncuttable). Now read these:\n\n| Word | Parts | Meaning |\n|---|---|---|\n| apathy | a- + path | without feeling: not caring |\n| anarchy | an- + arch | without a ruler |\n| anonymous | an- + onym | without a name |\n| amorphous | a- + morph | without a definite shape |\n| agnostic | a- + gnos | without knowledge (of whether God exists) |"
+  },
+  {
+   "type": "check",
+   "q": "Someone who is **apathetic** about the election…",
+   "options": [
+    "is angry about it",
+    "doesn't care about it",
+    "is afraid of it",
+    "knows a lot about it"
+   ],
+   "answer": 1,
+   "why": "**a-** (without) + **path** (feeling). No feeling about it either way."
+  },
+  {
+   "type": "text",
+   "md": "## -cracy vs -archy\nBoth mean *rule*, but they ask different questions. **-cracy** asks *who has the power*: democracy (the people), autocracy (one self), bureaucracy (the desk, from French *bureau*: officials), technocracy (technical experts). **-archy** asks *how many are in charge*: monarchy (one), oligarchy (a few), anarchy (none)."
+  },
+  {
+   "type": "example",
+   "title": "Decode a compound",
+   "problem": "**Philanthropy**",
+   "steps": [
+    "**phil** = love. **anthrop** = human. **-y** = the practice of.",
+    "Love of humanity, shown through giving."
+   ],
+   "answer": "**Charitable giving** to help people."
+  },
+  {
+   "type": "example",
+   "title": "Decode a puzzle word",
+   "problem": "**Paradox**",
+   "steps": [
+    "**para-** = beside, beyond, contrary to. **dox** = opinion, belief.",
+    "Something beyond what you'd expect: a statement that seems to contradict itself but may still be true."
+   ],
+   "answer": "\"The more you sweat in training, the less you bleed in a fight\" is a **paradox**: more pain now means less pain later."
+  },
+  {
+   "type": "example",
+   "title": "Decode a modern coinage",
+   "problem": "**Cryptocurrency**",
+   "steps": [
+    "**crypt** = hidden, secret. Cryptography is the science of secret writing.",
+    "**currency** = money (Latin *currere*, to run: money runs from hand to hand)."
+   ],
+   "answer": "**Money secured by cryptography**: hidden codes, not a central bank."
+  },
+  {
+   "type": "text",
+   "md": "## Why scientists still use Greek\nGreek builds long, precise words by stacking roots, often joined with an **-o-**: psych**o**logy, therm**o**meter, hydr**o**phobia. Doctors use it to name things exactly: *gastr* (stomach) + *-itis* (inflammation) = **gastritis**. *Cardi* (heart) + *-o-* + *logy* = **cardiology**. Once you know the parts, a 6-syllable medical word is just a sentence written short."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Homo- (Greek, same) vs homo (Latin, human).** *Homogeneous* is Greek *homos*: of the same kind. *Homo sapiens* is Latin *homo*: human being. Same spelling, different languages.\n- **Empathy vs sympathy.** **Sym-** (with) + path = feeling *for* someone: you feel sorry. **Em-** (in) + path = feeling *into* someone: you feel what they feel.\n- **Gen** is in both Greek and Latin (*genus*, kind). Same idea either way: birth, origin, kind."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "A **demographic** report studies…",
+   "options": [
+    "the population and its makeup",
+    "a political party",
+    "earthquakes",
+    "handwriting"
+   ],
+   "answer": 0,
+   "why": "**dem** (people) + **graph** (write): writing about the people."
+  },
+  {
+   "type": "mc",
+   "q": "**Xenophobia** is…",
+   "options": [
+    "love of travel",
+    "fear or hatred of foreigners",
+    "a fear of heights",
+    "a foreign language"
+   ],
+   "answer": 1,
+   "why": "*xeno* (stranger, foreigner) + **phob** (fear)."
+  },
+  {
+   "type": "mc",
+   "q": "An **amorphous** plan has…",
+   "options": [
+    "too many steps",
+    "no clear shape or structure",
+    "a hidden purpose",
+    "one leader"
+   ],
+   "answer": 1,
+   "why": "**a-** (without) + **morph** (form)."
+  },
+  {
+   "type": "text",
+   "q": "Type the word: **pseudo** (false) + **onym** (name) = a fake name an author writes under.",
+   "answer": [
+    "pseudonym"
+   ],
+   "why": "**pseudonym**. Mark Twain was Samuel Clemens's pseudonym."
+  },
+  {
+   "type": "mc",
+   "q": "A **heterogeneous** group is…",
+   "options": [
+    "all the same",
+    "made of different kinds",
+    "very large",
+    "leaderless"
+   ],
+   "answer": 1,
+   "why": "**hetero** (different) + **gen** (kind)."
+  },
+  {
+   "type": "mc",
+   "q": "**Empathy** means…",
+   "options": [
+    "feeling sorry for someone",
+    "feeling what someone else feels",
+    "not caring",
+    "fear of feelings"
+   ],
+   "answer": 1,
+   "why": "**em-** (in) + **path** (feeling): feeling *into* another person."
+  },
+  {
+   "type": "mc",
+   "q": "A **panacea** is supposed to cure…",
+   "options": [
+    "one disease",
+    "nothing",
+    "everything",
+    "fear"
+   ],
+   "answer": 2,
+   "why": "**pan** (all) + *akos* (remedy). A cure-all. Usually used skeptically: \"There's no panacea for a bad economy.\""
+  },
+  {
+   "type": "mc",
+   "q": "Which word means rule by **one** person?",
+   "options": [
+    "democracy",
+    "oligarchy",
+    "monarchy",
+    "anarchy"
+   ],
+   "answer": 2,
+   "why": "**mono/mon** (one) + **arch** (rule)."
+  },
+  {
+   "type": "mc",
+   "q": "A **misanthrope**…",
+   "options": [
+    "loves humanity",
+    "distrusts and dislikes people",
+    "studies human cultures",
+    "helps the poor"
+   ],
+   "answer": 1,
+   "why": "*mis(o)* (hate) + **anthrop** (human). The opposite of a philanthropist.",
+   "level": "challenge",
+   "hint": "You know **anthrop**. The front means the opposite of *phil*."
+  },
+  {
+   "type": "mc",
+   "q": "A **kleptocracy** is a government where…",
+   "options": [
+    "the people vote directly",
+    "leaders steal from the country",
+    "priests rule",
+    "machines make decisions"
+   ],
+   "answer": 1,
+   "why": "*klepto* (steal, as in kleptomaniac) + **cracy** (rule): rule by thieves.",
+   "level": "challenge",
+   "hint": "What does a *kleptomaniac* do?"
+  },
+  {
+   "type": "mc",
+   "q": "A doctor gives a **prognosis**. She is telling you…",
+   "options": [
+    "what the disease is",
+    "how it will likely turn out",
+    "which medicine to take",
+    "what caused it"
+   ],
+   "answer": 1,
+   "why": "**pro-** (before) + **gnos** (know): knowing beforehand. A *diagnosis* (*dia-*, through) identifies the disease; a *prognosis* predicts its course.",
+   "level": "challenge",
+   "hint": "Compare *diagnosis*. What does *pro-* add?"
+  },
+  {
+   "type": "text",
+   "q": "A person who has mastered **many** fields of learning is a **poly**___ . Type the full word.",
+   "answer": [
+    "polymath"
+   ],
+   "why": "**polymath**: **poly** (many) + *math* (learning; Greek *mathema*, lesson). Leonardo da Vinci is the classic example.",
+   "level": "challenge",
+   "hint": "The second part is the Greek word that also gave us *mathematics*."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Online Etymology Dictionary (Douglas Harper)",
+   "url": "https://www.etymonline.com/"
+  },
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  }
+ ]
+}

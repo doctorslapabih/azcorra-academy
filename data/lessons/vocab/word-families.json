@@ -1,0 +1,230 @@
+{
+ "id": "word-families",
+ "title": "Word families",
+ "band": "Grades 8–9",
+ "minutes": 28,
+ "lede": "Learn one word and you've learned five. How word families work, why their spelling and sound shift, and how to use the right form every time.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## One root, a whole family\nA **word family** is a base word plus every word built from it. Learn the family, not the word:\n\n| Verb | Noun | Adjective | Adverb |\n|---|---|---|---|\n| decide | decision | decisive | decisively |\n| persuade | persuasion | persuasive | persuasively |\n| analyze | analysis | analytical | analytically |\n| compete | competition | competitive | competitively |\n| negotiate | negotiation | negotiable | — |\n| economize | economy | economical, economic | economically |\n\nThis is the most efficient way to grow your vocabulary: every new base word brings three or four others with it."
+  },
+  {
+   "type": "text",
+   "md": "## Two kinds of endings\nEndings do two different jobs:\n\n- **Inflectional endings** change *grammar* but not the word: *talk, talks, talked, talking*. Still the same word, still a verb.\n- **Derivational endings** make a *new word*, often a different part of speech: *talk → talkative* (adjective). *Decide → decision* (noun).\n\nKnowing which part of speech a sentence needs is the whole skill. \"The judge made a final ___\" needs a **noun** (decision). \"She is very ___\" needs an **adjective** (decisive)."
+  },
+  {
+   "type": "check",
+   "q": "\"Her ___ argument convinced the board.\" Which form fits?",
+   "options": [
+    "persuade",
+    "persuasion",
+    "persuasive",
+    "persuasively"
+   ],
+   "answer": 2,
+   "why": "The blank describes *argument*, a noun, so it needs an **adjective**: persuasive."
+  },
+  {
+   "type": "text",
+   "md": "## Families reveal hidden letters\nMany English words have **silent letters** that are only silent in the short form. Add an ending and the letter wakes up:\n\n| Silent | Spoken |\n|---|---|\n| si**g**n | si**g**nature, si**g**nal |\n| mus**c**le | mus**c**ular |\n| bom**b** | bom**b**ard |\n| conde**mn** | conde**mn**ation |\n| autu**mn** | autu**mn**al |\n| solem**n** | solem**n**ity |\n\nThat's why the letter is there. English spelling often keeps a word family **looking** alike even when it doesn't **sound** alike. If you're unsure how to spell a word, say a relative out loud."
+  },
+  {
+   "type": "text",
+   "md": "## Families reveal hidden vowels\nThe same trick fixes vowels you can't hear. In unstressed syllables, most vowels slur into an *uh* sound, so *definite* could be spelled -*ate*, -*ite*, or -*it*. Find a relative where that syllable is **stressed**:\n\n- defin**i**te → def**i**nition (you hear the *i*)\n- comp**e**tition → comp**e**te\n- gramm**a**r → gramm**a**tical\n- hum**a**n → hum**a**nity\n- prepar**a**tion → prep**a**re\n\nThis one habit fixes hundreds of spelling mistakes."
+  },
+  {
+   "type": "check",
+   "q": "*Democrat* or *democrit*? Which relative lets you **hear** the vowel in the last syllable?",
+   "options": [
+    "democracy",
+    "democratic",
+    "demographic",
+    "demolition"
+   ],
+   "answer": 1,
+   "why": "In **demo-CRAT-ic**, that syllable is stressed, so the *a* is loud and clear. In *de-MOC-ra-cy* it's still slurred."
+  },
+  {
+   "type": "text",
+   "md": "## Spelling changes inside families\nSome families change spelling when they change form. These are the ones that trip people up:\n\n| Base | Family member | Watch for |\n|---|---|---|\n| pronounce | pro**nun**ciation | the *o* disappears |\n| explain | expl**an**ation | the *i* disappears |\n| maintain | maint**en**ance | *-tain* becomes *-ten-* |\n| proceed | proc**ed**ure | one *e*, not two |\n| repeat | rep**et**ition | *-eat* becomes *-et-* |\n| generous | gener**os**ity | the *u* disappears |\n| curious | curi**os**ity | the *u* disappears |\n| exclaim | excl**am**ation | the *i* disappears |"
+  },
+  {
+   "type": "example",
+   "title": "Build a family",
+   "problem": "Build the family for **sustain**.",
+   "steps": [
+    "Verb: **sustain** (keep going, hold up). Root **tain/ten** = hold; *sus-* = from below.",
+    "Noun: **sustenance** (*-tain* becomes *-ten-*, like maintain → maintenance) and **sustainability**.",
+    "Adjective: **sustainable**. Adverb: **sustainably**."
+   ],
+   "answer": "**sustain, sustenance, sustainability, sustainable, sustainably.** One root, five words."
+  },
+  {
+   "type": "text",
+   "md": "## Advanced: doublets\nSometimes **one Latin word** entered English **twice**, by two different routes, and became two different words. These are called **doublets**:\n\n| Straight from Latin | Through French | Shared root |\n|---|---|---|\n| fragile | frail | *fragilis*, breakable |\n| regal | royal | *regalis*, of a king |\n| legal | loyal | *legalis*, of the law |\n| hospital | hostel, hotel | *hospitale*, guest house |\n| fact | feat | *factum*, a thing done |\n\nThe Latin-route word usually sounds more formal and technical; the French-route word sounds older and more everyday."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Economic vs economical.** *Economic* = about the economy (\"economic growth\"). *Economical* = saving money (\"an economical truck\").\n- **Historic vs historical.** *Historic* = famous, important in history (\"a historic win\"). *Historical* = about the past (\"historical records\").\n- **Continual vs continuous.** *Continual* = repeated with breaks (\"continual complaints\"). *Continuous* = with no break at all (\"continuous noise\")."
+  },
+  {
+   "type": "note",
+   "label": "The habit that compounds",
+   "md": "Every time you learn a new word, write down its **whole family** in your notes. One new word a day is about 365 a year. One new *family* a day is well over 1,000."
+  }
+ ],
+ "practice": [
+  {
+   "type": "text",
+   "q": "Fill in the right form of **decide**: \"The judge's ___ was final.\"",
+   "answer": [
+    "decision"
+   ],
+   "why": "The blank follows *judge's*, so it needs a **noun**: decision."
+  },
+  {
+   "type": "text",
+   "q": "Fill in the right form of **maintain**: \"Regular ___ prevents breakdowns.\"",
+   "answer": [
+    "maintenance"
+   ],
+   "why": "**maintenance**. *-tain* becomes *-ten-*: main-TEN-ance."
+  },
+  {
+   "type": "text",
+   "q": "Fill in the right form of **pronounce**: \"Check the ___ before your presentation.\"",
+   "answer": [
+    "pronunciation"
+   ],
+   "why": "**pronunciation**. The *o* drops out: pro-NUN-ciation, not pro-NOUN-ciation."
+  },
+  {
+   "type": "mc",
+   "q": "\"She works ___, never wasting a move.\"",
+   "options": [
+    "efficient",
+    "efficiency",
+    "efficiently",
+    "effect"
+   ],
+   "answer": 2,
+   "why": "The blank describes *how she works*, a verb, so it needs an **adverb**: efficiently."
+  },
+  {
+   "type": "mc",
+   "q": "Which word **reveals** the silent *b* in *bomb*?",
+   "options": [
+    "bombed",
+    "bombard",
+    "bomber",
+    "bombs"
+   ],
+   "answer": 1,
+   "why": "In **bombard**, you actually say the *b*."
+  },
+  {
+   "type": "mc",
+   "q": "\"Fuel-efficient trucks are more ___.\"",
+   "options": [
+    "economic",
+    "economical",
+    "economy",
+    "economize"
+   ],
+   "answer": 1,
+   "why": "**Economical** = saving money. *Economic* means about the economy."
+  },
+  {
+   "type": "mc",
+   "q": "Which word proves *competition* has an **e** in its second syllable?",
+   "options": [
+    "compete",
+    "competitor",
+    "competent",
+    "competing"
+   ],
+   "answer": 0,
+   "why": "In **com-PETE**, the stressed syllable makes the *e* clear."
+  },
+  {
+   "type": "text",
+   "q": "Fill in the right form of **generous**: \"Thank you for your ___.\"",
+   "answer": [
+    "generosity"
+   ],
+   "why": "**generosity**. The *u* drops: generous → generOSity, like curious → curiosity."
+  },
+  {
+   "type": "mc",
+   "q": "*Frail* and *fragile* both come from Latin *fragilis*. Word pairs like this are called…",
+   "options": [
+    "synonyms",
+    "doublets",
+    "homonyms",
+    "antonyms"
+   ],
+   "answer": 1,
+   "why": "**Doublets**: one source word that entered English twice, by two routes. *Fragile* came straight from Latin; *frail* came through Old French.",
+   "level": "challenge",
+   "hint": "Think *double*."
+  },
+  {
+   "type": "mc",
+   "q": "Using the doublet pattern, which is the French-route twin of **legal**?",
+   "options": [
+    "legit",
+    "loyal",
+    "lawful",
+    "legion"
+   ],
+   "answer": 1,
+   "why": "**Loyal**, from Old French *loial*. Both come from Latin *legalis*. *Loyal* first meant *lawful, honest*, and only later *faithful*.",
+   "level": "challenge",
+   "hint": "Compare *regal* and *royal*. What happens to the *g* and the *e*?"
+  },
+  {
+   "type": "mc",
+   "q": "\"The ___ of the old warehouse took two days.\" Which form of **demolish** fits?",
+   "options": [
+    "demolishment",
+    "demolition",
+    "demolishing",
+    "demolisher"
+   ],
+   "answer": 1,
+   "why": "**Demolition**, from Latin *demolitio*. Like *abolish → abolition*, the -ish verb takes -ition. A rule this lesson didn't teach directly. Families have patterns you can extend.",
+   "level": "challenge",
+   "hint": "What is the noun form of *abolish*?"
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence uses the word correctly?",
+   "options": [
+    "The historical win made headlines.",
+    "The museum keeps historic tax records from 1890.",
+    "It was a historic night: the first title in 40 years.",
+    "She wrote a historic report on 1890s tax law."
+   ],
+   "answer": 2,
+   "why": "**Historic** = important, famous in history: a first title in 40 years. **Historical** = from or about the past: tax records. The Alamo is *historic*.",
+   "level": "challenge",
+   "hint": "One means *famous in history*; the other means *about the past*."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Online Etymology Dictionary (Douglas Harper)",
+   "url": "https://www.etymonline.com/"
+  },
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  },
+  {
+   "title": "Purdue OWL: Spelling (Purdue University)",
+   "url": "https://owl.purdue.edu/owl/general_writing/mechanics/index.html"
+  }
+ ]
+}

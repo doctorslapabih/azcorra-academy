@@ -1,0 +1,227 @@
+{
+ "id": "number-and-measurement-roots",
+ "title": "Number and measurement roots",
+ "band": "Grades 8–9",
+ "minutes": 28,
+ "lede": "Latin and Greek counted differently. Learn both systems and every number word, from bicycle to gigabyte to sesquicentennial, becomes obvious.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Two counting systems\nEnglish counts with **two** sets of roots: Latin and Greek. That's why a 5-sided shape is a *pentagon* (Greek) but a group of five musicians is a *quintet* (Latin).\n\n| # | Latin | Examples | Greek | Examples |\n|---|---|---|---|---|\n| 1 | uni | unit, uniform, unanimous | mono | monopoly, monologue |\n| 2 | bi, du | bilingual, duet, dual | di | dioxide, dilemma |\n| 3 | tri | triple, trimester | tri | triangle, trilogy |\n| 4 | quad, quart | quadruple, quarter | tetra | tetrahedron |\n| 5 | quint | quintet, quintuple | penta | pentagon, pentathlon |\n| 6 | sex | sextet | hexa | hexagon |\n| 7 | sept | September | hepta | heptagon |\n| 8 | oct | October, octave | octa | octagon, octopus |\n| 9 | nov | November | ennea | enneagon |\n| 10 | dec | December, decimal, decimate | deca | decade, decathlon |\n| 100 | cent | century, percent | hecto | hectare |\n| 1,000 | mill | million, millennium, mile | kilo | kilogram |\n\nShapes and science lean **Greek** (polygons, chemistry). Everyday life and money lean **Latin** (quarter, cents, million)."
+  },
+  {
+   "type": "text",
+   "md": "## Fractions and amounts\n| Root | Meaning | Words |\n|---|---|---|\n| **semi, hemi, demi** | half | semifinal, semiannual; hemisphere; demigod |\n| **sesqui** | one and a half | sesquicentennial (150 years) |\n| **multi, poly** | many | multinational, polygon |\n| **omni, pan** | all | omnivore, omnipresent; pandemic |\n| **ambi, amphi** | both | ambidextrous, ambivalent; amphibian |"
+  },
+  {
+   "type": "check",
+   "q": "An **ambivalent** buyer…",
+   "options": [
+    "is excited about the deal",
+    "has mixed feelings, pulled both ways",
+    "has no feelings about it",
+    "wants two of everything"
+   ],
+   "answer": 1,
+   "why": "**ambi** (both) + *valent* (strong, as in value). Strongly pulled in **both** directions at once. Not the same as *indifferent* (not caring)."
+  },
+  {
+   "type": "text",
+   "md": "## The metric prefixes\nScience and computers use one set of prefixes, set by the International System of Units (SI). Each step is a power of 10:\n\n| Prefix | Symbol | Factor | Example |\n|---|---|---|---|\n| tera- | T | 10¹² (trillion) | terabyte |\n| giga- | G | 10⁹ (billion) | gigawatt, gigabyte |\n| mega- | M | 10⁶ (million) | megahertz |\n| kilo- | k | 10³ (thousand) | kilometer |\n| centi- | c | 10⁻² (hundredth) | centimeter |\n| milli- | m | 10⁻³ (thousandth) | millisecond |\n| micro- | µ | 10⁻⁶ (millionth) | microgram |\n| nano- | n | 10⁻⁹ (billionth) | nanosecond |\n\nNotice the pattern: the **big** prefixes are Greek-derived (*mega*, great; *giga*, giant), and the **small** prefixes come from Latin numbers (*centi*, hundred; *milli*, thousand)."
+  },
+  {
+   "type": "check",
+   "q": "How many milliseconds are in 2.5 seconds?",
+   "options": [
+    "25",
+    "250",
+    "2,500",
+    "25,000"
+   ],
+   "answer": 2,
+   "why": "**milli** = one thousandth, so 1 second = 1,000 ms. 2.5 × 1,000 = **2,500 ms**."
+  },
+  {
+   "type": "text",
+   "md": "## The stories inside number words\n- **September to December** mean 7th to 10th month, but they're the 9th to 12th. The early Roman calendar began in **March**, so September really was the seventh month. When January and February were later placed at the front of the year, the old names stayed.\n- **Decimate** originally meant a Roman army punishment: kill **one in ten** soldiers of a mutinous unit. Today it means to destroy a large part of something.\n- **Mile** comes from Latin *mille passuum*, **a thousand paces** (a Roman pace was two steps).\n- **Quarantine** comes from Venetian Italian *quaranta giorni*, **forty days**: how long ships from plague areas had to wait before landing.\n- **Percent** is Latin *per centum*: **by the hundred**."
+  },
+  {
+   "type": "example",
+   "title": "Decode a big number word",
+   "problem": "**Sesquicentennial**",
+   "steps": [
+    "**sesqui** = one and a half.",
+    "**cent** = hundred. **enn** = year (as in *annual*, *perennial*).",
+    "One and a half hundred years."
+   ],
+   "answer": "A **150th anniversary**."
+  },
+  {
+   "type": "example",
+   "title": "Decode a shape",
+   "problem": "**Dodecagon**",
+   "steps": [
+    "**do-** = two (Greek *duo*). **deca** = ten.",
+    "2 + 10 = 12. **gon** = angle."
+   ],
+   "answer": "A **12-sided** polygon. A dodecahedron (Greek *hedra*, seat or face) is a solid with 12 faces."
+  },
+  {
+   "type": "text",
+   "md": "## The biannual trap\nThis is where even educated writers get burned:\n\n| Word | Means |\n|---|---|\n| **biannual** | twice a year |\n| **semiannual** | twice a year (clearest) |\n| **biennial** | once every two years |\n| **biweekly** | every two weeks **or** twice a week |\n\nBecause *biweekly* and *bimonthly* can mean either, careful writers avoid them in contracts, pay schedules and invoices. Write **every two weeks** or **twice a month** instead. That's a rule that saves real money."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Kilobyte confusion.** In SI, kilo = 1,000, so 1 kilobyte = 1,000 bytes. Computers count in powers of 2, so a separate set of prefixes exists for that: 1 **kibibyte** (KiB) = 1,024 bytes. That's why a \"1 TB\" drive shows about 931 GB in some operating systems.\n- **Billion** means 10⁹ in American and modern British English, but older British usage (and many European languages) used *billion* for 10¹². In international documents, numbers beat words."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "How many years does a **sesquicentennial** celebrate?",
+   "answer": 150,
+   "why": "**sesqui** (1.5) × **cent** (100) = 150.",
+   "tol": 0.001,
+   "unit": "years"
+  },
+  {
+   "type": "num",
+   "q": "How many sides does a **heptagon** have?",
+   "answer": 7,
+   "why": "Greek **hepta** = 7. Latin's version shows up in *September*.",
+   "tol": 0.001,
+   "unit": "sides"
+  },
+  {
+   "type": "mc",
+   "q": "A **biennial** conference happens…",
+   "options": [
+    "twice a year",
+    "every two years",
+    "every two weeks",
+    "twice a week"
+   ],
+   "answer": 1,
+   "why": "**bi** (two) + **enn** (year): every two years. *Biannual* is twice a year."
+  },
+  {
+   "type": "mc",
+   "q": "**Unanimous** means…",
+   "options": [
+    "everyone agrees",
+    "most people agree",
+    "only one person agrees",
+    "nobody votes"
+   ],
+   "answer": 0,
+   "why": "**un(i)** (one) + *animus* (mind): of one mind."
+  },
+  {
+   "type": "num",
+   "q": "How many grams are in 3.2 **kilograms**?",
+   "answer": 3200,
+   "why": "**kilo** = 1,000. 3.2 × 1,000 = 3,200.",
+   "tol": 0.001,
+   "unit": "g"
+  },
+  {
+   "type": "mc",
+   "q": "Which word uses the **Greek** root for 5?",
+   "options": [
+    "quintet",
+    "pentagon",
+    "quintuple",
+    "quinceañera"
+   ],
+   "answer": 1,
+   "why": "**penta** is Greek. *Quint* is Latin; *quince* (15) comes from it through Spanish."
+  },
+  {
+   "type": "mc",
+   "q": "An **omnivore** eats…",
+   "options": [
+    "only plants",
+    "only meat",
+    "both plants and animals: everything",
+    "one food"
+   ],
+   "answer": 2,
+   "why": "**omni** (all) + *vore* (eat, as in *devour*)."
+  },
+  {
+   "type": "num",
+   "q": "A dispatcher clocks a reply in 0.004 seconds. How many **milliseconds** is that?",
+   "answer": 4,
+   "why": "1 s = 1,000 ms. 0.004 × 1,000 = 4.",
+   "tol": 0.001,
+   "unit": "ms"
+  },
+  {
+   "type": "mc",
+   "q": "Your contract says you'll be paid **\"biweekly.\"** What's the smart move?",
+   "options": [
+    "Assume every two weeks",
+    "Assume twice a week",
+    "Ask them to write the exact schedule",
+    "Assume twice a month"
+   ],
+   "answer": 2,
+   "why": "*Biweekly* has two dictionary meanings: every two weeks and twice a week. In anything about money, get it written exactly: \"every other Friday.\"",
+   "level": "challenge",
+   "hint": "Look at the biannual trap table again."
+  },
+  {
+   "type": "mc",
+   "q": "**Octo**ber is the 10th month, but *octo* means 8. Why?",
+   "options": [
+    "The Romans miscounted",
+    "The early Roman year started in March",
+    "It was renamed after a ruler",
+    "October used to have 8 days"
+   ],
+   "answer": 1,
+   "why": "Count from March: March (1), April (2), May (3), June (4), July (5), August (6), September (7), **October (8)**. January and February were later put at the front, and the names never changed.",
+   "level": "challenge",
+   "hint": "Count forward from March."
+  },
+  {
+   "type": "num",
+   "q": "A **gigabyte** (SI) is how many **megabytes**?",
+   "answer": 1000,
+   "why": "**giga** = 10⁹ and **mega** = 10⁶. 10⁹ ÷ 10⁶ = 10³ = 1,000.",
+   "tol": 0.001,
+   "unit": "MB",
+   "level": "challenge",
+   "hint": "Divide the two powers of 10."
+  },
+  {
+   "type": "mc",
+   "q": "The general's army was **decimated**. In the original Roman sense, what fraction of the soldiers died?",
+   "options": [
+    "One half",
+    "One tenth",
+    "Nine tenths",
+    "All of them"
+   ],
+   "answer": 1,
+   "why": "**dec** = ten. Decimation killed one soldier in ten. Today the word just means *heavily destroyed*, but the root still carries the original math.",
+   "level": "challenge",
+   "hint": "The root is the same as in *decimal*."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Online Etymology Dictionary (Douglas Harper)",
+   "url": "https://www.etymonline.com/"
+  },
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  },
+  {
+   "title": "NIST: Metric (SI) prefixes",
+   "url": "https://www.nist.gov/pml/owm/metric-si-prefixes"
+  }
+ ]
+}

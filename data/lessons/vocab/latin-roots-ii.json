@@ -1,0 +1,260 @@
+{
+ "id": "latin-roots-ii",
+ "title": "Latin roots II",
+ "band": "Grades 8–9",
+ "minutes": 30,
+ "lede": "Fourteen more Latin roots, the spelling disguises they hide behind, and a method for decoding words you have never seen.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Why go deeper\nIn Latin Roots I you learned twelve roots like **dict**, **port** and **spect**. Those are the easy ones: they look the same in every word. The roots in this lesson are harder for two reasons. They **change spelling** from word to word (*fac*, *fect*, *fic* are all one root), and their prefixes **change shape** to fit them (*ad* + *fect* becomes *affect*). Learn to see through both disguises and words like *inadvertent*, *insolvent* and *irrevocable* stop being walls and start being sentences."
+  },
+  {
+   "type": "text",
+   "md": "## Movement and action\n| Root | Meaning | Words |\n|---|---|---|\n| **cede, ceed, cess** | go, yield | proceed, exceed, recession, concede, precedent, access |\n| **grad, gress** | step, go | gradual, graduate, progress, aggressive, regress, digress |\n| **pel, puls** | drive, push | compel, expel, propel, repel, impulse, compulsory |\n| **vert, vers** | turn | convert, divert, reverse, versatile, adversary, inadvertent |\n| **fer** | carry, bear | transfer, defer, infer, confer, fertile, referendum |\n| **fac, fact, fect, fic** | make, do | factory, manufacture, affect, efficient, facilitate, artificial |\n| **solv, solu** | loosen, release | solve, dissolve, solvent, insolvent, resolution, absolute |"
+  },
+  {
+   "type": "text",
+   "md": "## Holding, trusting and ordering\n| Root | Meaning | Words |\n|---|---|---|\n| **ten, tain, tin** | hold | tenant, retain, sustain, detain, tenacious, pertinent |\n| **pend, pens** | hang; weigh; pay | pending, suspend, depend, pension, compensate, expensive |\n| **clud, clus, clos** | shut | include, exclude, conclusion, seclusion, preclude, closet |\n| **sequ, secu** | follow | sequence, consequence, subsequent, consecutive, prosecute |\n| **fid** | faith, trust | confidence, fidelity, confide, diffident, bona fide, affidavit |\n| **mand, mend** | order, entrust | mandate, command, mandatory, demand, recommend |\n| **voc, vok** | call, voice | vocal, advocate, provoke, revoke, evoke, vocation, irrevocable |"
+  },
+  {
+   "type": "note",
+   "label": "Why pend means both \"hang\" and \"pay\"",
+   "md": "Before coins were standardized, metal was **weighed** on a hanging scale to pay for things. So *pendere* meant \"to hang, to weigh, to pay.\" That's why a **pension** is a payment, **expensive** means a lot is weighed out, and **compensate** means to weigh things together until they balance."
+  },
+  {
+   "type": "text",
+   "md": "## Disguise 1: the root changes spelling\nLatin verbs had several forms, and English borrowed from different ones. That's why one root shows up in several spellings:\n\n- *facere* (to make) → **fac**tory, **fact**, af**fect**, ef**fic**ient\n- *cedere* (to go) → pro**ceed**, pre**cede**nt, ac**cess**\n- *tenere* (to hold) → **ten**ant, re**tain**, per**tin**ent\n\nRule of thumb: if two spellings share the first two or three letters and the meanings fit, assume they're the same root and test it."
+  },
+  {
+   "type": "text",
+   "md": "## Disguise 2: the prefix changes shape\nWhen a prefix lands next to a root, its last letter often changes to match the root's first letter, so the word is easier to say. This is called **assimilation**.\n\n| Prefix | + root | Becomes |\n|---|---|---|\n| ad- (toward) | + fect | **af**fect |\n| ad- | + tract | **at**tract |\n| ad- | + cess | **ac**cess |\n| con- (together) | + mand | **com**mand |\n| in- (not) | + revocable | **ir**revocable |\n| ex- (out) | + fect | **ef**fect |\n| ob- (against) | + pose | **op**pose |\n\nWhen you see a **doubled consonant** right after the first vowel (*aff-*, *att-*, *irr-*, *comm-*, *opp-*), suspect an assimilated prefix."
+  },
+  {
+   "type": "check",
+   "q": "*Accede* is built from which prefix + root?",
+   "options": [
+    "ac- (sharp) + cede (go)",
+    "ad- (toward) + cede (go)",
+    "a- (without) + cede (go)",
+    "ac- (toward) + ede (eat)"
+   ],
+   "answer": 1,
+   "why": "**ad- + cede**, with the *d* assimilated to *c*. To **accede** is to *go toward* someone's position: to agree to a demand."
+  },
+  {
+   "type": "example",
+   "title": "Decode a three-part word",
+   "problem": "**Inadvertent**: \"The leak was inadvertent.\"",
+   "steps": [
+    "Split it: **in-** (not) + **ad-** (toward) + **vert** (turn) + **-ent** (one that is).",
+    "*Advert* = to turn toward something, to pay attention to it.",
+    "*Inadvertent* = not turning toward it, not paying attention."
+   ],
+   "answer": "**Accidental, done without meaning to.** The leak wasn't planned; it happened because nobody was paying attention."
+  },
+  {
+   "type": "example",
+   "title": "Decode a money word",
+   "problem": "**Insolvent**: \"The carrier was insolvent by spring.\"",
+   "steps": [
+    "**solv** = loosen, release. To *solve* a debt was to release yourself from it by paying.",
+    "**Solvent** = able to pay your debts.",
+    "**in-** = not."
+   ],
+   "answer": "**Unable to pay its debts.** Insolvency is the financial state; *bankruptcy* is the legal process that often follows."
+  },
+  {
+   "type": "example",
+   "title": "Decode a legal word",
+   "problem": "**Irrevocable**: \"an irrevocable trust\"",
+   "steps": [
+    "**ir-** = in- (not), assimilated before *r*.",
+    "**re-** = back. **voc** = call. **-able** = can be.",
+    "Read it inside out: can be called back → not."
+   ],
+   "answer": "**Cannot be taken back or canceled.** Once signed, it's final."
+  },
+  {
+   "type": "text",
+   "md": "## The spelling rule hiding in cede\nThe root **cede** (go) gives English its most-misspelled ending, and the rule is short enough to memorize:\n\n- **One** word ends in *-sede*: **supersede**.\n- **Three** words end in *-ceed*: **exceed, proceed, succeed**.\n- **Everything else** ends in *-cede*: precede, recede, concede, intercede, secede, accede.\n\nNotice the trap: **proceed** has *-ceed*, but its noun **procedure** drops an *e*."
+  },
+  {
+   "type": "check",
+   "q": "Which is spelled correctly?",
+   "options": [
+    "The ruling superceded the old one.",
+    "Prices exceded the budget.",
+    "The new rule supersedes the old one.",
+    "The vice president preceeds the speaker."
+   ],
+   "answer": 2,
+   "why": "Only **supersede** ends in *-sede*. *Exceed* has *-ceed*; *precedes* has *-cede*."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **fer vs port.** Both mean *carry*. *Transfer* and *transport* both mean to carry across, but *fer* leans toward carrying something abstract (transfer money, defer a decision, confer a degree), and *port* toward carrying physical things.\n- **Affect vs effect.** Both come from *fac* (do). **Affect** (ad- + fect) is usually the verb: to *act on* something. **Effect** (ex- + fect) is usually the noun: what comes *out* of the action. \"The rate hike **affected** sales. The **effect** was a 10% drop.\"\n- **Diffident ≠ different.** *Dif-* is *dis-* (not) + **fid** (trust): lacking trust in yourself. It means shy, not unusual."
+  },
+  {
+   "type": "text",
+   "md": "## The decoding method\nWhen you hit an unfamiliar word, run these four steps:\n\n1. **Strip the suffix.** It tells you the part of speech (-able = adjective, -tion = noun).\n2. **Find the root.** Look past spelling changes (*fic* = *fac*) and doubled letters.\n3. **Read the prefix,** undoing assimilation if you see a doubled consonant.\n4. **Translate inside out,** then **check it against the sentence.** Roots give you the neighborhood; context gives you the address.\n\nStep 4 matters. Roots tell you where a word came from, not always where it went. *Pedigree* has nothing to do with *ped* (foot)... except it does: it's from French *pied de grue*, a crane's foot, the shape of a family-tree diagram. Roots are a strong first guess, never the final word."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "To **concede** a point in an argument is to…",
+   "options": [
+    "insist on it",
+    "yield it, admit it",
+    "repeat it",
+    "follow it up"
+   ],
+   "answer": 1,
+   "why": "**con-** (together, completely) + **cede** (go, yield). You give ground."
+  },
+  {
+   "type": "mc",
+   "q": "A **tenacious** negotiator…",
+   "options": [
+    "gives up quickly",
+    "holds on and won't let go",
+    "talks too much",
+    "breaks the rules"
+   ],
+   "answer": 1,
+   "why": "**ten** = hold. *Tenacious* = holding firmly."
+  },
+  {
+   "type": "mc",
+   "q": "Which root means **follow**?",
+   "options": [
+    "sequ",
+    "pend",
+    "fid",
+    "pel"
+   ],
+   "answer": 0,
+   "why": "**sequ**: sequence, consequence, subsequent."
+  },
+  {
+   "type": "mc",
+   "q": "A **mandatory** meeting is one you…",
+   "options": [
+    "may skip",
+    "are ordered to attend",
+    "organize",
+    "attend remotely"
+   ],
+   "answer": 1,
+   "why": "**mand** = order. Mandatory = required."
+  },
+  {
+   "type": "text",
+   "q": "Type the word: *pro-* (forward) + *pel* (drive) = to drive forward.",
+   "answer": [
+    "propel"
+   ],
+   "why": "**propel**. Same root as *compel*, *expel*, *repel* and *propeller*."
+  },
+  {
+   "type": "mc",
+   "q": "**Subsequent** events happen…",
+   "options": [
+    "before",
+    "at the same time",
+    "after",
+    "by accident"
+   ],
+   "answer": 2,
+   "why": "**sub-** (under, next) + **sequ** (follow): following after."
+  },
+  {
+   "type": "mc",
+   "q": "In **affect**, the prefix *af-* is really…",
+   "options": [
+    "a- (without)",
+    "ad- (toward)",
+    "ab- (away)",
+    "ef- (out)"
+   ],
+   "answer": 1,
+   "why": "**ad-** assimilated before *f*. That doubled *ff* is the clue."
+  },
+  {
+   "type": "text",
+   "q": "Spell it right: the **one** English word that ends in *-sede*.",
+   "answer": [
+    "supersede"
+   ],
+   "why": "**supersede**. Exceed, proceed and succeed end in *-ceed*; everything else ends in *-cede*."
+  },
+  {
+   "type": "mc",
+   "q": "A broker's **affidavit** is a…",
+   "options": [
+    "sworn written statement",
+    "commission fee",
+    "business license",
+    "sales quota"
+   ],
+   "answer": 0,
+   "why": "**fid** = faith, trust. Medieval Latin *affidavit* = \"he has pledged his faith.\" It's a statement sworn under oath.",
+   "level": "challenge",
+   "hint": "Find the root in the middle. What does *fid* mean?"
+  },
+  {
+   "type": "mc",
+   "q": "A **diffident** new hire is most likely…",
+   "options": [
+    "arrogant",
+    "unusual",
+    "shy and unsure of himself",
+    "dishonest"
+   ],
+   "answer": 2,
+   "why": "**dif-** (dis-, not) + **fid** (trust): not trusting yourself. Don't let the look-alike *different* fool you.",
+   "level": "challenge",
+   "hint": "*Dif-* is an assimilated form of *dis-*."
+  },
+  {
+   "type": "mc",
+   "q": "**Propensity** most nearly means…",
+   "options": [
+    "a natural tendency",
+    "a property line",
+    "a payment",
+    "a punishment"
+   ],
+   "answer": 0,
+   "why": "**pro-** (forward) + **pens** (hang, lean). A propensity is a leaning forward toward something: a tendency. \"A propensity for risk.\"",
+   "level": "challenge",
+   "hint": "Think of something hanging, leaning forward."
+  },
+  {
+   "type": "mc",
+   "q": "**Incessant** noise is noise that…",
+   "options": [
+    "is very loud",
+    "never stops",
+    "comes from inside",
+    "is barely heard"
+   ],
+   "answer": 1,
+   "why": "**in-** (not) + **cess** (go, yield; Latin *cessare*, to stop). Not stopping. Same family as *cease* and *cessation*.",
+   "level": "challenge",
+   "hint": "Look for the *cess* from *recession* and *access*, then add the prefix."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Online Etymology Dictionary (Douglas Harper)",
+   "url": "https://www.etymonline.com/"
+  },
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  }
+ ]
+}

@@ -427,22 +427,26 @@
      {
       "id": "latin-roots-ii",
       "title": "Latin roots II",
-      "ready": false
+      "ready": true,
+      "desc": "Fourteen more Latin roots, the spelling disguises they hide behind, and a method for decoding words you have never seen."
      },
      {
       "id": "greek-roots-ii",
       "title": "Greek roots II",
-      "ready": false
+      "ready": true,
+      "desc": "The Greek roots behind the words for people, power, feeling and form, plus how scientists still build new words from them."
      },
      {
       "id": "word-families",
       "title": "Word families",
-      "ready": false
+      "ready": true,
+      "desc": "Learn one word and you've learned five. How word families work, why their spelling and sound shift, and how to use the right form every time."
      },
      {
       "id": "number-and-measurement-roots",
       "title": "Number and measurement roots",
-      "ready": false
+      "ready": true,
+      "desc": "Latin and Greek counted differently. Learn both systems and every number word, from bicycle to gigabyte to sesquicentennial, becomes obvious."
      }
     ]
    },

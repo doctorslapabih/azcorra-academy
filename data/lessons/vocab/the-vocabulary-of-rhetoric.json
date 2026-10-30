@@ -1,0 +1,241 @@
+{
+ "id": "the-vocabulary-of-rhetoric",
+ "title": "The vocabulary of rhetoric",
+ "band": "SAT / AP",
+ "minutes": 34,
+ "lede": "The names for the tools great speakers and writers use: anaphora, antithesis, chiasmus and more. Learn to spot them in famous speeches, then put them in your own words.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Why name the tools?\nYou can feel that a sentence is powerful without knowing why. Naming the technique lets you **explain** its effect (the core skill of AP Language) and **use** it on purpose. These are the tools in nearly every famous speech, sales pitch and pre-fight promo."
+  },
+  {
+   "type": "text",
+   "md": "## The foundation: diction, syntax, tone\n| Term | Means | Ask |\n|---|---|---|\n| **diction** | word choice | Formal or casual? Concrete or abstract? Positive or negative connotation? |\n| **syntax** | sentence structure | Long or short? Simple or complex? Questions? Fragments? |\n| **tone** | the writer's attitude | Sarcastic? Urgent? Reverent? Detached? |\n\nTone words to have ready: *sardonic, reverent, indignant, wistful, earnest, detached, defiant, conciliatory, ominous, celebratory.*"
+  },
+  {
+   "type": "text",
+   "md": "## Repetition devices\n| Device | What it is | Example |\n|---|---|---|\n| **anaphora** | repeating words at the **start** of successive clauses | Dr. King's repeated *\"I have a dream\"* |\n| **epistrophe** | repeating words at the **end** | Lincoln: *government of the people, by the people, for the people* |\n| **parallelism** | matching grammatical structures | *I came, I saw, I conquered.* (attributed to Julius Caesar) |\n| **chiasmus** | reversing a structure: A-B, B-A | JFK: *Ask not what your country can do for you; ask what you can do for your country.* |\n\nRepetition makes ideas **memorable** and builds **rhythm**: crowds feel it before they analyze it."
+  },
+  {
+   "type": "check",
+   "q": "\"We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields…\" (Churchill, 1940) mainly uses…",
+   "options": [
+    "chiasmus",
+    "anaphora",
+    "understatement",
+    "allusion"
+   ],
+   "answer": 1,
+   "why": "*We shall fight* repeated at the **start** of each clause."
+  },
+  {
+   "type": "text",
+   "md": "## Contrast devices\n| Device | What it is | Example |\n|---|---|---|\n| **antithesis** | opposing ideas in balanced phrases | Dickens: *It was the best of times, it was the worst of times.* |\n| **juxtaposition** | placing two things side by side to highlight their difference | a photo of a mansion next to a tent camp |\n| **paradox** | a statement that seems contradictory but reveals a truth | *Slow is smooth, smooth is fast.* |\n| **oxymoron** | two contradictory words together | *deafening silence, controlled chaos* |"
+  },
+  {
+   "type": "text",
+   "md": "## Size and sound devices\n| Device | What it is | Example |\n|---|---|---|\n| **hyperbole** | deliberate exaggeration | *I've told you a million times.* |\n| **understatement** | deliberately making something seem smaller | after a brutal war: *a bit of a scuffle* |\n| **litotes** | understatement by denying the opposite | *not bad* (meaning good) |\n| **asyndeton** | leaving out conjunctions | *Train, fight, recover, repeat.* (feels fast, urgent) |\n| **polysyndeton** | piling up conjunctions | *and the heat and the dust and the hours and the miles* (feels endless) |"
+  },
+  {
+   "type": "text",
+   "md": "## Reference and question devices\n| Device | What it is | Example |\n|---|---|---|\n| **allusion** | a brief reference to a well-known person, event or text | *his Achilles' heel*; *a David vs Goliath fight* |\n| **rhetorical question** | a question asked for effect, not an answer | *Are we really going to quit now?* |\n| **imagery** | language appealing to the senses | *the diesel smell of a truck stop at 3 a.m.* |\n| **irony** | a gap between expectation and reality | *verbal*: saying the opposite of what you mean; *situational*: events turn out opposite; *dramatic*: the audience knows what a character doesn't |"
+  },
+  {
+   "type": "example",
+   "title": "Analyze, don't just label",
+   "problem": "\"Ask not what your country can do for you; ask what you can do for your country.\" (John F. Kennedy, 1961)",
+   "steps": [
+    "**Label:** chiasmus (the A-B / B-A reversal), with parallelism.",
+    "**Effect:** the reversal makes the shift feel like a turn of the whole idea, from taking to giving, and the balanced sound makes it unforgettable.",
+    "**Purpose and audience:** a new president asking a Cold War nation for sacrifice and service, framed as a choice of attitude rather than a demand."
+   ],
+   "answer": "In AP Lang, the label is worth almost nothing on its own. **Device → effect → why it matters for this audience and purpose** is the whole skill."
+  },
+  {
+   "type": "check",
+   "q": "\"Train, eat, sleep, repeat\" leaves out *and*. That's…",
+   "options": [
+    "polysyndeton",
+    "asyndeton",
+    "chiasmus",
+    "litotes"
+   ],
+   "answer": 1,
+   "why": "Asyndeton: no conjunctions, quick and relentless."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Labeling without analyzing.** Always explain the effect.\n- **Irony isn't just coincidence.** Rain on your wedding day is bad luck, not necessarily irony.\n- **Anaphora vs epistrophe:** start vs end.\n- **Juxtaposition vs antithesis:** juxtaposition places things side by side; antithesis builds the contrast into balanced grammar."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Word choice is called…",
+   "options": [
+    "syntax",
+    "diction",
+    "tone",
+    "imagery"
+   ],
+   "answer": 1,
+   "why": "Diction."
+  },
+  {
+   "type": "mc",
+   "q": "Sentence structure is called…",
+   "options": [
+    "syntax",
+    "diction",
+    "allusion",
+    "litotes"
+   ],
+   "answer": 0,
+   "why": "Syntax."
+  },
+  {
+   "type": "mc",
+   "q": "\"It was the best of times, it was the worst of times\" is an example of…",
+   "options": [
+    "anaphora only",
+    "antithesis",
+    "hyperbole",
+    "allusion"
+   ],
+   "answer": 1,
+   "why": "Balanced opposites. (It also uses parallelism.)"
+  },
+  {
+   "type": "mc",
+   "q": "Repeating words at the **end** of clauses is…",
+   "options": [
+    "anaphora",
+    "epistrophe",
+    "chiasmus",
+    "asyndeton"
+   ],
+   "answer": 1,
+   "why": "Epi = upon, at the end."
+  },
+  {
+   "type": "mc",
+   "q": "\"This bag weighs a ton\" is…",
+   "options": [
+    "understatement",
+    "hyperbole",
+    "litotes",
+    "irony"
+   ],
+   "answer": 1,
+   "why": "Exaggeration."
+  },
+  {
+   "type": "mc",
+   "q": "\"He's not the worst fighter I've seen\" (meaning he's decent) is…",
+   "options": [
+    "hyperbole",
+    "litotes",
+    "chiasmus",
+    "anaphora"
+   ],
+   "answer": 1,
+   "why": "Understatement by negating the opposite."
+  },
+  {
+   "type": "mc",
+   "q": "Calling a hard opponent \"my Goliath\" is…",
+   "options": [
+    "allusion",
+    "oxymoron",
+    "epistrophe",
+    "asyndeton"
+   ],
+   "answer": 0,
+   "why": "Reference to the Bible story."
+  },
+  {
+   "type": "mc",
+   "q": "\"Jumbo shrimp\" is a(n)…",
+   "options": [
+    "paradox",
+    "oxymoron",
+    "allusion",
+    "litotes"
+   ],
+   "answer": 1,
+   "why": "Two contradictory words."
+  },
+  {
+   "type": "mc",
+   "q": "\"Fair is foul, and foul is fair\" (Shakespeare, *Macbeth*) uses…",
+   "options": [
+    "chiasmus",
+    "litotes",
+    "hyperbole",
+    "polysyndeton"
+   ],
+   "answer": 0,
+   "why": "A-B / B-A reversal: fair-foul, foul-fair.",
+   "level": "challenge",
+   "hint": "Look at the order of the words in each half."
+  },
+  {
+   "type": "mc",
+   "q": "A fire station burns down. That's…",
+   "options": [
+    "verbal irony",
+    "situational irony",
+    "dramatic irony",
+    "not irony"
+   ],
+   "answer": 1,
+   "why": "The outcome is the opposite of what you'd expect from the one place built to stop fires.",
+   "level": "challenge",
+   "hint": "Expectation vs outcome."
+  },
+  {
+   "type": "mc",
+   "q": "Which is the strongest AP-style analysis of anaphora in a speech?",
+   "options": [
+    "The speaker uses anaphora.",
+    "Anaphora is when words repeat at the start.",
+    "By opening five straight sentences with \"We will,\" the speaker builds a drumbeat of resolve that turns individual promises into a collective vow, rallying a discouraged audience.",
+    "The anaphora is good and effective."
+   ],
+   "answer": 2,
+   "why": "Device → specific example → effect → audience. The others only name or define it.",
+   "level": "challenge",
+   "hint": "Which one explains the effect on the audience?"
+  },
+  {
+   "type": "mc",
+   "q": "A pre-fight promo: \"He's got the belt, the hype and the cameras. I've got the cardio and the hunger and the hours and the scars.\" The second sentence uses ___ to make the list feel endless.",
+   "options": [
+    "asyndeton",
+    "polysyndeton",
+    "litotes",
+    "chiasmus"
+   ],
+   "answer": 1,
+   "why": "Repeated *and* = polysyndeton, piling weight onto each item. The first sentence is more conventional by comparison.",
+   "level": "challenge",
+   "hint": "Count the *and*s."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Purdue OWL: Rhetorical Situations",
+   "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/index.html"
+  },
+  {
+   "title": "College Board: AP English Language and Composition course page",
+   "url": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition"
+  },
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  }
+ ]
+}

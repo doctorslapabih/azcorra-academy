@@ -1,0 +1,268 @@
+{
+ "id": "advanced-set-2",
+ "title": "Advanced words, set 2",
+ "band": "SAT / AP",
+ "minutes": 30,
+ "lede": "Twelve more: words for arguments, pride, change and respect. The vocabulary of editorials, biographies and courtroom transcripts.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Words that judge\nMany of these words carry a strong **judgment**. *Hubris* isn't just pride; it's pride that's about to be punished. *Cogent* isn't just an argument; it's one that's hard to resist. Knowing the shade matters as much as knowing the definition."
+  },
+  {
+   "type": "terms",
+   "terms": [
+    {
+     "term": "acrimonious (adj.)",
+     "def": "**Bitter** and angry, especially in speech or a dispute."
+    },
+    {
+     "term": "auspicious (adj.)",
+     "def": "Showing signs of **future success**; favorable."
+    },
+    {
+     "term": "belie (verb)",
+     "def": "To give a **false impression** of; to contradict or hide what's actually true."
+    },
+    {
+     "term": "cogent (adj.)",
+     "def": "Clear, logical and **convincing**."
+    },
+    {
+     "term": "disparate (adj.)",
+     "def": "Essentially **different**; not able to be compared easily."
+    },
+    {
+     "term": "ephemeral (adj.)",
+     "def": "Lasting a **very short** time."
+    },
+    {
+     "term": "fastidious (adj.)",
+     "def": "Very attentive to accuracy and detail; hard to please."
+    },
+    {
+     "term": "hubris (noun)",
+     "def": "Excessive **pride** or self-confidence, often leading to a downfall."
+    },
+    {
+     "term": "iconoclast (noun)",
+     "def": "A person who **attacks** cherished beliefs or traditions."
+    },
+    {
+     "term": "intransigent (adj.)",
+     "def": "**Refusing** to change one's views or compromise."
+    },
+    {
+     "term": "magnanimous (adj.)",
+     "def": "**Generous** and forgiving, especially toward a rival or someone less powerful."
+    },
+    {
+     "term": "venerate (verb)",
+     "def": "To regard with great **respect**; to revere."
+    }
+   ],
+   "label": "The twelve"
+  },
+  {
+   "type": "text",
+   "md": "## Where they come from\n| Word | Comes from | So it means |\n|---|---|---|\n| **acrimonious** | Latin *acer* (sharp) | sharp-tongued (*acrid*, *acid*) |\n| **auspicious** | Latin *auspex*, a priest who read the future from birds (*avis* + *specere*, to look) | the birds look good: a good sign |\n| **belie** | Old English *be-* + *lie* | to tell a lie about: to misrepresent |\n| **cogent** | Latin *cogere* (to drive together, compel) | compelling |\n| **disparate** | Latin *disparatus* (separated) | set apart, unlike |\n| **ephemeral** | Greek *epi* + *hēmera* (day) | lasting only a day |\n| **fastidious** | Latin *fastidium* (disgust, loathing) | so picky that most things disgust you |\n| **hubris** | Greek *hybris* (arrogant outrage) | in Greek tragedy, the pride that offends the gods |\n| **iconoclast** | Greek *eikōn* (image) + *klastēs* (breaker) | originally, someone who smashed religious images |\n| **intransigent** | Spanish *los intransigentes*, a 19th-century faction that refused compromise; Latin *in* + *transigere* (to come to terms) | won't come to terms |\n| **magnanimous** | Latin *magnus* (great) + *animus* (soul) | great-souled |\n| **venerate** | Latin *venerari* (to worship) | to treat as sacred |"
+  },
+  {
+   "type": "text",
+   "md": "## In the wild\n- **acrimonious**: *The partnership ended in an acrimonious split over who owned the trucks.*\n- **auspicious**: *A first-round knockout in your debut is an auspicious start.*\n- **belie**: *His calm face belied how nervous he was before the weigh-in.*\n- **cogent**: *She made a cogent case for a daily loss limit: three data points, one clear rule.*\n- **disparate**: *Trucking, trading and fighting seem disparate, but all three reward discipline over talent.*\n- **ephemeral**: *A viral post brings ephemeral attention; a good reputation lasts years.*\n- **fastidious**: *A fastidious bookkeeper catches the $40 lumper fee nobody reimbursed.*\n- **hubris**: *After a 10-0 start, hubris made him skip camp; he lost to a late replacement.*\n- **iconoclast**: *An iconoclast in the gym, he questioned every drill the old coaches swore by.*\n- **intransigent**: *The intransigent shipper refused any delivery window except 4 a.m.*\n- **magnanimous**: *Magnanimous in victory, he helped his opponent up and praised his heart.*\n- **venerate**: *Young fighters venerate the gym's founder; his photo hangs by the door.*"
+  },
+  {
+   "type": "check",
+   "q": "\"Her small frame ___ her strength; she out-wrestled heavier opponents.\"",
+   "options": [
+    "venerated",
+    "belied",
+    "ameliorated",
+    "obfuscated"
+   ],
+   "answer": 1,
+   "why": "Gave a false impression of: **belied**."
+  },
+  {
+   "type": "text",
+   "md": "## Pairs that sharpen each other\n| Pair | Difference |\n|---|---|\n| **cogent** vs **plausible** | cogent = **convincing** because of strong reasoning; plausible = merely **believable** |\n| **intransigent** vs **recalcitrant** | intransigent = won't **compromise** (in a negotiation or position); recalcitrant = won't **obey** (authority) |\n| **ephemeral** vs **transient** | close synonyms; *ephemeral* stresses **extreme** shortness |\n| **magnanimous** vs **generous** | magnanimous adds **forgiveness** toward someone who wronged or lost to you |\n| **hubris** vs **confidence** | confidence is earned and steady; hubris is excessive and blind to risk |\n| **iconoclast** vs **rebel** | an iconoclast attacks **ideas and traditions**; a rebel resists **authority** |"
+  },
+  {
+   "type": "check",
+   "q": "Which best shows **hubris**?",
+   "options": [
+    "Studying your opponent for weeks",
+    "Doubling your position size after a winning week because you \"can't lose right now\"",
+    "Admitting a mistake",
+    "Taking a rest day"
+   ],
+   "answer": 1,
+   "why": "Excessive confidence, blind to risk, usually right before a fall."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Belie** doesn't mean *believe*. It means to disguise or contradict.\n- **Disparate** ≠ *desperate*.\n- **Auspicious** isn't *suspicious*. It's the opposite: a good sign.\n- **Fastidious** can be a compliment (careful) or a criticism (fussy), depending on context."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "**Ephemeral** most nearly means…",
+   "options": [
+    "eternal",
+    "short-lived",
+    "electric",
+    "imaginary"
+   ],
+   "answer": 1,
+   "why": "Lasting a day."
+  },
+  {
+   "type": "mc",
+   "q": "**Cogent** most nearly means…",
+   "options": [
+    "confusing",
+    "convincing",
+    "angry",
+    "secret"
+   ],
+   "answer": 1,
+   "why": "Compelling."
+  },
+  {
+   "type": "mc",
+   "q": "An **acrimonious** divorce is…",
+   "options": [
+    "friendly",
+    "bitter",
+    "quick",
+    "expensive"
+   ],
+   "answer": 1,
+   "why": "Sharp, angry."
+  },
+  {
+   "type": "mc",
+   "q": "**Magnanimous** literally means…",
+   "options": [
+    "great-souled",
+    "large-handed",
+    "many-named",
+    "magnetic"
+   ],
+   "answer": 0,
+   "why": "*Magnus* + *animus*."
+  },
+  {
+   "type": "text",
+   "q": "One word: \"excessive pride that leads to a downfall\" (starts with *h*).",
+   "answer": [
+    "hubris"
+   ],
+   "why": "**Hubris**."
+  },
+  {
+   "type": "mc",
+   "q": "**Disparate** most nearly means…",
+   "options": [
+    "hopeless",
+    "fundamentally different",
+    "equal",
+    "scattered"
+   ],
+   "answer": 1,
+   "why": "Separated, unlike."
+  },
+  {
+   "type": "mc",
+   "q": "An **auspicious** start is…",
+   "options": [
+    "suspicious",
+    "promising",
+    "slow",
+    "false"
+   ],
+   "answer": 1,
+   "why": "A good sign."
+  },
+  {
+   "type": "mc",
+   "q": "An **iconoclast** originally…",
+   "options": [
+    "painted icons",
+    "smashed religious images",
+    "collected art",
+    "built temples"
+   ],
+   "answer": 1,
+   "why": "Image-breaker."
+  },
+  {
+   "type": "mc",
+   "q": "\"The union and management were both ___; neither would give an inch, and the strike dragged on.\"",
+   "options": [
+    "recalcitrant",
+    "intransigent",
+    "magnanimous",
+    "ephemeral"
+   ],
+   "answer": 1,
+   "why": "Refusing to **compromise** in a dispute = **intransigent**. Recalcitrant is about defying authority.",
+   "level": "challenge",
+   "hint": "Compromise vs obedience."
+  },
+  {
+   "type": "mc",
+   "q": "\"The cheap price ___ the truck's real condition: the frame was rusted through.\"",
+   "options": [
+    "venerated",
+    "belied",
+    "ameliorated",
+    "auspicated"
+   ],
+   "answer": 1,
+   "why": "The price gave a **false impression**.",
+   "level": "challenge",
+   "hint": "It hid the truth."
+  },
+  {
+   "type": "mc",
+   "q": "Which is the best antonym of **fastidious**?",
+   "options": [
+    "careful",
+    "meticulous",
+    "slapdash",
+    "picky"
+   ],
+   "answer": 2,
+   "why": "Slapdash = hasty and careless. The others are near-synonyms.",
+   "level": "challenge",
+   "hint": "Three of these are synonyms."
+  },
+  {
+   "type": "mc",
+   "q": "A writer argues: \"The champion's ___ in the post-fight interview, praising the opponent who'd trash-talked him for months, won him more fans than the win.\"",
+   "options": [
+    "hubris",
+    "magnanimity",
+    "acrimony",
+    "intransigence"
+   ],
+   "answer": 1,
+   "why": "Generosity and forgiveness toward a rival = **magnanimity**, the noun form of magnanimous.",
+   "level": "challenge",
+   "hint": "Noun form of *great-souled*."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  },
+  {
+   "title": "Online Etymology Dictionary (Douglas Harper)",
+   "url": "https://www.etymonline.com/"
+  }
+ ]
+}

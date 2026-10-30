@@ -1,0 +1,229 @@
+{
+ "id": "words-in-context",
+ "title": "Words in context",
+ "band": "SAT / AP",
+ "minutes": 30,
+ "lede": "The hardest test vocabulary isn't rare words. It's common words used in uncommon ways. How to read meaning from the sentence, and the strategy that beats these questions.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Common words, second meanings\nThe SAT and most standardized tests love ordinary words with a **less common meaning**. You know the word, so you pick its usual meaning, and you're wrong.\n\n| Word | Usual meaning | Second meaning | Example |\n|---|---|---|---|\n| **qualify** | meet requirements | **limit**, make less absolute | *She qualified her claim: \"in most cases.\"* |\n| **check** | look at | **stop, hold back** | *The new rule checked the spread of the problem.* |\n| **appreciate** | be grateful | **increase in value**; fully understand | *The land appreciated 40%.* |\n| **address** | a location | **deal with** | *The report addresses three risks.* |\n| **command** | an order | **mastery** | *a command of Spanish* |\n| **novel** | a book | **new, original** | *a novel approach* |\n| **temper** | anger | **moderate, soften** | *tempered his criticism with praise* |\n| **reservation** | a booking | **doubt** | *I have reservations about this deal.* |\n| **arrest** | detain by police | **stop** | *to arrest the decline* |\n| **economy** | the market | **efficiency**, using little | *economy of words* |\n| **discriminate** | treat unfairly | **tell apart** | *discriminate between two sounds* |\n| **cultivate** | grow crops | **develop** | *cultivate a relationship* |"
+  },
+  {
+   "type": "check",
+   "q": "\"The author **qualifies** her argument in the final paragraph.\" Here, *qualifies* means…",
+   "options": [
+    "proves",
+    "earns a license for",
+    "limits or adds conditions to",
+    "repeats"
+   ],
+   "answer": 2,
+   "why": "She makes it less absolute."
+  },
+  {
+   "type": "text",
+   "md": "## The four-step method\n1. **Cover the answer choices.**\n2. **Read the sentence and the one before and after.** Context lives around the word.\n3. **Predict your own word** to fill the blank. Simple is fine: *stop*, *limit*, *good*.\n4. **Uncover the choices and pick the closest match** to your prediction. Then **substitute** it into the sentence and reread.\n\nPredicting first protects you from the trap answer: the word's **usual** meaning, planted to catch people who skip step 3."
+  },
+  {
+   "type": "example",
+   "title": "Run the method",
+   "problem": "\"Though her plan was **sound**, the committee rejected it for political reasons.\" *Sound* most nearly means…  (A) noisy (B) reasonable (C) healthy (D) asleep",
+   "steps": [
+    "Cover choices. Context: *though* signals contrast: the plan was **good**, yet rejected.",
+    "Predict: *good, sensible*.",
+    "Match: (B) reasonable. Substitute: \"Though her plan was reasonable…\" ✓."
+   ],
+   "answer": "**(B).** (A) is the usual meaning, the trap. (C) is close (*sound mind and body*) but doesn't fit a plan."
+  },
+  {
+   "type": "text",
+   "md": "## Context clues that do the work\n| Clue type | Signal words | How it helps |\n|---|---|---|\n| **Contrast** | but, though, however, despite, yet | the word means the **opposite** of something nearby |\n| **Restatement** | that is, in other words, —, : | the meaning is **repeated** in simpler words |\n| **Example** | for instance, such as, including | the examples show what the word covers |\n| **Cause/effect** | because, so, therefore, as a result | the meaning fits the logic of cause and result |\n\n*\"The mayor's speech was **anodyne**: so carefully inoffensive that no one could disagree, or remember it.\"* The colon restates: anodyne = bland, inoffensive."
+  },
+  {
+   "type": "check",
+   "q": "\"Despite the **ostensible** calm in the locker room, the fighters were tense.\" *Ostensible* most nearly means…",
+   "options": [
+    "real",
+    "apparent (on the surface)",
+    "loud",
+    "permanent"
+   ],
+   "answer": 1,
+   "why": "*Despite* signals contrast: the calm **seemed** real but wasn't."
+  },
+  {
+   "type": "text",
+   "md": "## Contronyms: words that are their own opposites\nA few words carry **two opposite** meanings. Only context decides.\n\n| Word | Meaning 1 | Meaning 2 |\n|---|---|---|\n| **sanction** | approve | penalize |\n| **oversight** | supervision | a mistake from not noticing |\n| **left** | remained | departed |\n| **dust** | remove dust | sprinkle with dust (powdered sugar) |\n| **fast** | moving quickly | fixed in place (*held fast*) |\n| **cleave** | split apart | cling to |\n\n*The league sanctioned the fight* (approved it) vs *the league sanctioned the fighter* (punished him)."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Picking the most familiar meaning** without checking the sentence.\n- **Choosing a word that's a synonym in another context** but doesn't fit this one.\n- **Not substituting.** Plug your answer back in. If it sounds wrong, it probably is.\n- **Ignoring the tone.** A positive passage won't use a negative word in that spot."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"Strong earnings helped **arrest** the stock's slide.\" *Arrest* means…",
+   "options": [
+    "detain",
+    "stop",
+    "speed up",
+    "report"
+   ],
+   "answer": 1,
+   "why": "Halt the decline."
+  },
+  {
+   "type": "mc",
+   "q": "\"The writer is known for her **economy** of language.\" *Economy* means…",
+   "options": [
+    "financial system",
+    "efficient, sparing use",
+    "cheapness",
+    "trade"
+   ],
+   "answer": 1,
+   "why": "No wasted words."
+  },
+  {
+   "type": "mc",
+   "q": "\"Few traders can **discriminate** between a real breakout and a trap in real time.\" *Discriminate* means…",
+   "options": [
+    "treat unfairly",
+    "tell apart",
+    "trade",
+    "avoid"
+   ],
+   "answer": 1,
+   "why": "Distinguish."
+  },
+  {
+   "type": "mc",
+   "q": "\"The coach **tempered** his criticism with encouragement.\" *Tempered* means…",
+   "options": [
+    "angered",
+    "softened, balanced",
+    "hardened",
+    "repeated"
+   ],
+   "answer": 1,
+   "why": "Moderated."
+  },
+  {
+   "type": "mc",
+   "q": "\"She has a strong **command** of the material.\" *Command* means…",
+   "options": [
+    "order",
+    "mastery",
+    "army",
+    "request"
+   ],
+   "answer": 1,
+   "why": "Expert control."
+  },
+  {
+   "type": "mc",
+   "q": "\"I have serious **reservations** about signing.\" *Reservations* means…",
+   "options": [
+    "bookings",
+    "doubts",
+    "rights",
+    "savings"
+   ],
+   "answer": 1,
+   "why": "Hesitations."
+  },
+  {
+   "type": "mc",
+   "q": "\"The FAA **sanctioned** the new procedure, and airlines adopted it.\" *Sanctioned* means…",
+   "options": [
+    "penalized",
+    "approved",
+    "studied",
+    "banned"
+   ],
+   "answer": 1,
+   "why": "Context: adopted, so approved."
+  },
+  {
+   "type": "mc",
+   "q": "The **first** step of the words-in-context method is…",
+   "options": [
+    "read the choices",
+    "cover the choices",
+    "pick the longest choice",
+    "skip the sentence"
+   ],
+   "answer": 1,
+   "why": "Predict before you look."
+  },
+  {
+   "type": "mc",
+   "q": "\"The ruling was a **qualified** success: it fixed the main problem but created two smaller ones.\" *Qualified* means…",
+   "options": [
+    "certified",
+    "limited, partial",
+    "complete",
+    "skilled"
+   ],
+   "answer": 1,
+   "why": "The colon explains: success **with limits**.",
+   "level": "challenge",
+   "hint": "What does the rest of the sentence say about the success?"
+  },
+  {
+   "type": "mc",
+   "q": "\"The audit revealed a costly **oversight**: no one had checked the fuel card charges for six months.\" *Oversight* means…",
+   "options": [
+    "supervision",
+    "a mistake from failing to notice",
+    "a view from above",
+    "a meeting"
+   ],
+   "answer": 1,
+   "why": "The contronym's negative sense: something missed. *No one had checked* confirms it.",
+   "level": "challenge",
+   "hint": "Was something being watched, or missed?"
+  },
+  {
+   "type": "mc",
+   "q": "\"His **diffident** manner surprised fans who knew his ferocity in the cage; in interviews he spoke softly and avoided eye contact.\" *Diffident* most nearly means…",
+   "options": [
+    "aggressive",
+    "shy, lacking self-confidence",
+    "different",
+    "arrogant"
+   ],
+   "answer": 1,
+   "why": "The contrast (*surprised… ferocity*) plus the restatement (*spoke softly, avoided eye contact*) define it.",
+   "level": "challenge",
+   "hint": "Use both the contrast and the details after the semicolon."
+  },
+  {
+   "type": "mc",
+   "q": "\"The trucking company's **novel** routing system cut empty miles by a third.\" *Novel* means…",
+   "options": [
+    "fictional",
+    "long",
+    "new and original",
+    "risky"
+   ],
+   "answer": 2,
+   "why": "The usual meaning (a book) is the trap. Here it's an adjective: new.",
+   "level": "challenge",
+   "hint": "What part of speech is it here?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "College Board: SAT Reading and Writing, Words in Context",
+   "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/reading-writing"
+  },
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  }
+ ]
+}

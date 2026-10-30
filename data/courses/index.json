@@ -542,22 +542,26 @@
      {
       "id": "advanced-set-1",
       "title": "Advanced set 1",
-      "ready": false
+      "ready": true,
+      "desc": "Twelve words you'll meet in serious books, editorials and test passages. Several look like they mean the opposite of what they do. Those are the ones that cost points."
      },
      {
       "id": "advanced-set-2",
       "title": "Advanced set 2",
-      "ready": false
+      "ready": true,
+      "desc": "Twelve more: words for arguments, pride, change and respect. The vocabulary of editorials, biographies and courtroom transcripts."
      },
      {
       "id": "words-in-context",
       "title": "Words in context",
-      "ready": false
+      "ready": true,
+      "desc": "The hardest test vocabulary isn't rare words. It's common words used in uncommon ways. How to read meaning from the sentence, and the strategy that beats these questions."
      },
      {
       "id": "the-vocabulary-of-rhetoric",
       "title": "The vocabulary of rhetoric",
-      "ready": false
+      "ready": true,
+      "desc": "The names for the tools great speakers and writers use: anaphora, antithesis, chiasmus and more. Learn to spot them in famous speeches, then put them in your own words."
      }
     ]
    },

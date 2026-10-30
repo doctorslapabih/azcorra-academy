@@ -1,0 +1,272 @@
+{
+ "id": "advanced-set-1",
+ "title": "Advanced words, set 1",
+ "band": "SAT / AP",
+ "minutes": 30,
+ "lede": "Twelve words you'll meet in serious books, editorials and test passages. Several look like they mean the opposite of what they do. Those are the ones that cost points.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The trap words\nAdvanced vocabulary is hard partly because some words **sound** like something else. *Enervate* sounds like *energize* but means the opposite. *Sanguine* comes from *blood* but means cheerful. Learning the roots and stories is what protects you."
+  },
+  {
+   "type": "terms",
+   "terms": [
+    {
+     "term": "ameliorate (verb)",
+     "def": "To make a bad situation **better**."
+    },
+    {
+     "term": "assiduous (adj.)",
+     "def": "Showing great care and **persistent** effort."
+    },
+    {
+     "term": "capricious (adj.)",
+     "def": "Changing mood or behavior **suddenly and unpredictably**."
+    },
+    {
+     "term": "deleterious (adj.)",
+     "def": "**Harmful**, often in a way that isn't obvious at first."
+    },
+    {
+     "term": "enervate (verb)",
+     "def": "To **drain** someone of energy; weaken. (Not *energize*!)"
+    },
+    {
+     "term": "equivocal (adj.)",
+     "def": "Open to more than one interpretation, often **deliberately** vague."
+    },
+    {
+     "term": "esoteric (adj.)",
+     "def": "Understood by only a **small group** with special knowledge."
+    },
+    {
+     "term": "laconic (adj.)",
+     "def": "Using **very few words**."
+    },
+    {
+     "term": "obfuscate (verb)",
+     "def": "To make something **unclear** on purpose."
+    },
+    {
+     "term": "perfunctory (adj.)",
+     "def": "Done with **minimum effort**, as a routine duty, without care."
+    },
+    {
+     "term": "recalcitrant (adj.)",
+     "def": "Stubbornly **refusing** to obey or cooperate."
+    },
+    {
+     "term": "sanguine (adj.)",
+     "def": "**Optimistic**, especially in a difficult situation."
+    }
+   ],
+   "label": "The twelve"
+  },
+  {
+   "type": "text",
+   "md": "## Where they come from\n| Word | Comes from | So it means |\n|---|---|---|\n| **ameliorate** | Latin *melior* (better) | to make better |\n| **assiduous** | Latin *assidere* (to sit beside) | sitting at the task, staying with it |\n| **capricious** | Italian *capriccio* (a sudden whim); often linked, perhaps fancifully, to *capra* (goat) | jumping around like a goat |\n| **deleterious** | Greek *dēlētērios* (harmful) | damaging |\n| **enervate** | Latin *e* (out) + *nervus* (sinew, nerve) | to take the sinews out: weaken |\n| **equivocal** | Latin *aequus* (equal) + *vox* (voice) | speaking equally for two meanings |\n| **esoteric** | Greek *esōterikos* (inner) | for the inner circle only |\n| **laconic** | *Laconia*, the region of ancient Sparta | Spartans were famous for blunt, short replies |\n| **obfuscate** | Latin *ob* + *fuscare* (to darken) | to darken, to cloud |\n| **perfunctory** | Latin *perfungi* (to get through, discharge) | just getting it over with |\n| **recalcitrant** | Latin *re* (back) + *calcitrare* (to kick) | kicking back, like a mule |\n| **sanguine** | Latin *sanguis* (blood) | in old medicine, a 'blood' temperament was cheerful and confident |"
+  },
+  {
+   "type": "text",
+   "md": "## The Spartan reply\nThe word *laconic* comes with a famous (probably polished-up) story. King Philip II of Macedon threatened Sparta: *If I invade Laconia, I will destroy you.* The Spartans reportedly answered with one word:\n\n***If.***\n\nThat's laconic: a whole argument in one syllable."
+  },
+  {
+   "type": "text",
+   "md": "## In the wild\n- **ameliorate**: *A cash reserve won't stop a slow freight month, but it will ameliorate the damage.*\n- **assiduous**: *Her assiduous film study showed the opponent always dropped his left hand after a jab.*\n- **capricious**: *A capricious broker who changes the rate after you're loaded is one to drop.*\n- **deleterious**: *Chronic sleep loss has deleterious effects on reaction time and decision-making.*\n- **enervate**: *Eight hours in the Florida heat at a dock with no shade can enervate anyone.*\n- **equivocal**: *The broker's answer about detention was equivocal: \"We'll see what we can do.\"*\n- **esoteric**: *Order-flow footprint charts can seem esoteric until someone explains them.*\n- **laconic**: *The coach was laconic after the loss: \"Cardio. Monday. Six.\"*\n- **obfuscate**: *The course's sales page obfuscates its refund policy in tiny print.*\n- **perfunctory**: *A perfunctory pre-trip inspection misses the brake line that's about to fail.*\n- **recalcitrant**: *A recalcitrant shipper refused to sign the detention time on the BOL.*\n- **sanguine**: *Down two rounds, he stayed sanguine: his cardio would win the third.*"
+  },
+  {
+   "type": "check",
+   "q": "\"The heat and humidity completely ___ the fighters; by round three they could barely lift their hands.\"",
+   "options": [
+    "energized",
+    "enervated",
+    "ameliorated",
+    "obfuscated"
+   ],
+   "answer": 1,
+   "why": "Drained, weakened: **enervated**. The trap is that it sounds like *energized*."
+  },
+  {
+   "type": "text",
+   "md": "## Opposites and look-alikes\n| Word | Opposite | Don't confuse with |\n|---|---|---|\n| **ameliorate** | worsen, exacerbate | — |\n| **assiduous** | lazy, careless | — |\n| **enervate** | energize, invigorate | *energize* (the opposite!) |\n| **equivocal** | clear, unambiguous | *equivalent* |\n| **laconic** | wordy, verbose, loquacious | *lackluster* |\n| **obfuscate** | clarify, illuminate | — |\n| **perfunctory** | thorough, careful | *preliminary* |\n| **recalcitrant** | obedient, compliant | — |\n| **sanguine** | pessimistic, gloomy | *sanguinary* (bloody, violent) |"
+  },
+  {
+   "type": "check",
+   "q": "Which person is **sanguine**?",
+   "options": [
+    "A trader convinced every trade will lose",
+    "A fighter calmly confident after a rough first round",
+    "A driver furious at traffic",
+    "A coach who never speaks"
+   ],
+   "answer": 1,
+   "why": "Optimistic under pressure."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Enervate** means weaken. Read it as *de-nerve*.\n- **Sanguine** ≠ *sanguinary*. One is cheerful, the other bloody.\n- **Equivocal** often implies **deliberate** vagueness, not just accidental unclearness (that's *ambiguous*).\n- **Laconic** isn't rude by definition; it's just brief."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "**Ameliorate** most nearly means…",
+   "options": [
+    "worsen",
+    "improve",
+    "confuse",
+    "repeat"
+   ],
+   "answer": 1,
+   "why": "From *melior*, better."
+  },
+  {
+   "type": "mc",
+   "q": "A **laconic** reply is…",
+   "options": [
+    "long and detailed",
+    "very brief",
+    "angry",
+    "dishonest"
+   ],
+   "answer": 1,
+   "why": "Spartan."
+  },
+  {
+   "type": "mc",
+   "q": "**Deleterious** most nearly means…",
+   "options": [
+    "deleted",
+    "harmful",
+    "delicious",
+    "delayed"
+   ],
+   "answer": 1,
+   "why": "Damaging."
+  },
+  {
+   "type": "mc",
+   "q": "A **perfunctory** inspection is…",
+   "options": [
+    "thorough",
+    "done carelessly as a routine",
+    "illegal",
+    "expensive"
+   ],
+   "answer": 1,
+   "why": "Minimum effort."
+  },
+  {
+   "type": "text",
+   "q": "One word: \"to make unclear on purpose\" (starts with *o*).",
+   "answer": [
+    "obfuscate"
+   ],
+   "why": "**Obfuscate**: to darken."
+  },
+  {
+   "type": "mc",
+   "q": "**Recalcitrant** comes from a Latin word meaning…",
+   "options": [
+    "to sit beside",
+    "to kick back",
+    "to darken",
+    "to speak equally"
+   ],
+   "answer": 1,
+   "why": "*Calcitrare*."
+  },
+  {
+   "type": "mc",
+   "q": "**Esoteric** knowledge is…",
+   "options": [
+    "common knowledge",
+    "understood by a small, specialized group",
+    "false",
+    "ancient"
+   ],
+   "answer": 1,
+   "why": "For the inner circle."
+  },
+  {
+   "type": "mc",
+   "q": "**Assiduous** most nearly means…",
+   "options": [
+    "careless",
+    "persistent and diligent",
+    "aggressive",
+    "sour"
+   ],
+   "answer": 1,
+   "why": "Sitting at the task."
+  },
+  {
+   "type": "mc",
+   "q": "\"The CEO gave an ___ answer, carefully avoiding a yes or no.\"",
+   "options": [
+    "laconic",
+    "equivocal",
+    "sanguine",
+    "assiduous"
+   ],
+   "answer": 1,
+   "why": "Deliberately open to two readings = **equivocal**. *Laconic* would be brief, not evasive.",
+   "level": "challenge",
+   "hint": "Vague on purpose."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence uses **enervate** correctly?",
+   "options": [
+    "The pre-workout drink enervated him; he felt unstoppable.",
+    "Weeks of poor sleep enervated her; she dragged through every session.",
+    "The crowd enervated the fighter with its cheering.",
+    "Coffee enervates most people in the morning."
+   ],
+   "answer": 1,
+   "why": "Enervate = drain. Every other sentence uses it as if it meant *energize*.",
+   "level": "challenge",
+   "hint": "It's the opposite of what it sounds like."
+  },
+  {
+   "type": "mc",
+   "q": "The medieval idea behind **sanguine** was that…",
+   "options": [
+    "blood made people violent",
+    "a blood-dominant temperament was cheerful and confident",
+    "blood loss made people calm",
+    "red faces meant anger"
+   ],
+   "answer": 1,
+   "why": "The four humors theory: blood → sanguine (cheerful), black bile → melancholic, and so on.",
+   "level": "challenge",
+   "hint": "Think of the old theory of four body fluids."
+  },
+  {
+   "type": "mc",
+   "q": "A market that rallies and dumps with no apparent reason all day is best described as…",
+   "options": [
+    "laconic",
+    "capricious",
+    "assiduous",
+    "sanguine"
+   ],
+   "answer": 1,
+   "why": "Sudden, unpredictable changes = **capricious**.",
+   "level": "challenge",
+   "hint": "Unpredictable, whim-driven."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  },
+  {
+   "title": "Online Etymology Dictionary (Douglas Harper)",
+   "url": "https://www.etymonline.com/"
+  }
+ ]
+}

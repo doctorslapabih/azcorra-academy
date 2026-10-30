@@ -1,0 +1,227 @@
+{
+ "id": "idioms-and-figurative-language",
+ "title": "Idioms and figurative language",
+ "band": "Grades 9–10",
+ "minutes": 28,
+ "lede": "Metaphor, simile, hyperbole and the idioms English borrowed from the boxing ring, the racetrack and the ballpark. Read between the lines and write with punch.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Literal vs figurative\n**Literal** language means exactly what it says. **Figurative** language means something beyond the words. *\"He's a beast in the gym\"* isn't about an animal. Figurative language compresses an idea into an image the reader feels."
+  },
+  {
+   "type": "text",
+   "md": "## The main tools\n| Device | What it does | Example |\n|---|---|---|\n| **Simile** | compares using *like* or *as* | *His jab was like a piston.* |\n| **Metaphor** | says one thing **is** another | *Her focus was a laser.* |\n| **Personification** | gives human traits to non-humans | *The market punished the late buyers.* |\n| **Hyperbole** | exaggerates on purpose | *I've told you a million times.* |\n| **Understatement** | says less than the truth on purpose | *Losing the title was a bit disappointing.* |\n| **Idiom** | a phrase whose meaning isn't the sum of its words | *Throw in the towel.* |\n| **Irony** | the opposite of what's expected or said | *A fire station burning down.* |"
+  },
+  {
+   "type": "check",
+   "q": "\"The trend line was a staircase to the moon.\" This is…",
+   "options": [
+    "a simile",
+    "a metaphor",
+    "personification",
+    "an idiom"
+   ],
+   "answer": 1,
+   "why": "It says the trend line **is** a staircase, with no *like* or *as*: a **metaphor** (with a little hyperbole)."
+  },
+  {
+   "type": "text",
+   "md": "## Idioms from the fight game\nBoxing gave English some of its toughest idioms:\n\n| Idiom | Meaning | From |\n|---|---|---|\n| **throw in the towel** | give up | a cornerman tossing a towel into the ring to stop the fight |\n| **saved by the bell** | rescued at the last second | the bell ending a round before a knockout |\n| **below the belt** | unfair, a cheap shot | punches below the waist are illegal |\n| **on the ropes** | close to defeat | a fighter pinned against the ropes |\n| **take it on the chin** | accept a hit or setback bravely | absorbing a punch |\n| **roll with the punches** | adapt to difficulties | moving with a punch to reduce its force |\n| **come out swinging** | start aggressively | |\n| **down for the count** | defeated, out | the referee's ten-count |"
+  },
+  {
+   "type": "text",
+   "md": "## Idioms from other arenas\n| Idiom | Meaning | From |\n|---|---|---|\n| **down to the wire** | undecided until the very end | horse racing: the finish line was once marked by a wire |\n| **ballpark figure** | rough estimate | baseball |\n| **move the goalposts** | change the rules unfairly mid-game | football and soccer |\n| **hit it out of the park** | do extremely well | baseball |\n| **the bottom line** | the final result, what really matters | accounting: the last line of a financial statement |\n| **in the red / in the black** | losing / making money | bookkeepers wrote losses in red ink |\n| **cut corners** | do something cheaply or badly to save time | taking a shortcut on a route |\n\nSome idiom origins are uncertain, and popular stories about them are often made up. (\"Saved by the bell\" has nothing to do with people buried alive, despite what you may have read online.)"
+  },
+  {
+   "type": "example",
+   "title": "Read an idiom-heavy email",
+   "problem": "\"We're on the ropes with this client. Give me a ballpark figure by Friday, and don't cut corners. The bottom line is we can't afford to throw in the towel.\"",
+   "steps": [
+    "*On the ropes* = close to losing the client.",
+    "*Ballpark figure* = rough estimate.",
+    "*Don't cut corners* = do it properly.",
+    "*Bottom line* = the most important point.",
+    "*Throw in the towel* = give up."
+   ],
+   "answer": "Plain version: **We're close to losing this client. Send a rough estimate by Friday, done properly. We can't give up on this account.**"
+  },
+  {
+   "type": "text",
+   "md": "## When to use figurative language, and when not to\n- **Use it** to make an idea vivid, memorable or persuasive: speeches, stories, pitches, essays.\n- **Avoid it** where precision matters more than color: contracts, instructions, technical reports, anything going to non-native English speakers (idioms don't translate).\n- **Avoid clichés**: idioms so overused they've gone dead (*at the end of the day*, *think outside the box*). A fresh image beats a worn-out one.\n- **Never mix metaphors**: *\"We'll cross that bridge when it comes home to roost\"* jams two images together and makes readers stop."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Simile vs metaphor** is just the *like/as* test.\n- **Irony isn't just coincidence.** Rain on your wedding day is bad luck. A weather forecaster's wedding getting rained out after she promised sunshine is closer to irony.\n- **Hyperbole in business writing** costs credibility. \"This is the best deal ever\" makes readers trust the rest less."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"She fought like a cornered wolf.\"",
+   "options": [
+    "metaphor",
+    "simile",
+    "hyperbole",
+    "idiom"
+   ],
+   "answer": 1,
+   "why": "Uses *like* → **simile**."
+  },
+  {
+   "type": "mc",
+   "q": "\"The deadline crept closer.\"",
+   "options": [
+    "personification",
+    "simile",
+    "irony",
+    "understatement"
+   ],
+   "answer": 0,
+   "why": "Deadlines don't creep: human/animal action given to a thing."
+  },
+  {
+   "type": "mc",
+   "q": "\"Throw in the towel\" means…",
+   "options": [
+    "clean up",
+    "give up",
+    "start a fight",
+    "celebrate"
+   ],
+   "answer": 1,
+   "why": "A cornerman throws the towel to stop the fight."
+  },
+  {
+   "type": "mc",
+   "q": "\"That shot was below the belt.\" The speaker thinks the comment was…",
+   "options": [
+    "accurate",
+    "unfair",
+    "funny",
+    "too quiet"
+   ],
+   "answer": 1,
+   "why": "Illegal punches land below the waist."
+  },
+  {
+   "type": "mc",
+   "q": "\"Give me a ballpark figure\" means give me…",
+   "options": [
+    "an exact number",
+    "a rough estimate",
+    "a sports score",
+    "a final price"
+   ],
+   "answer": 1,
+   "why": "A rough estimate, from baseball."
+  },
+  {
+   "type": "mc",
+   "q": "\"I'm so hungry I could eat a horse.\"",
+   "options": [
+    "understatement",
+    "hyperbole",
+    "simile",
+    "metaphor"
+   ],
+   "answer": 1,
+   "why": "Deliberate exaggeration."
+  },
+  {
+   "type": "mc",
+   "q": "A company \"in the red\" is…",
+   "options": [
+    "profitable",
+    "losing money",
+    "growing",
+    "on fire"
+   ],
+   "answer": 1,
+   "why": "Losses were written in red ink."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence is a **mixed metaphor**?",
+   "options": [
+    "We need to roll with the punches.",
+    "Let's nip it in the bud before it snowballs out of the park.",
+    "The bottom line is clear.",
+    "He took the loss on the chin."
+   ],
+   "answer": 1,
+   "why": "Gardening, snowballs and baseball in one sentence."
+  },
+  {
+   "type": "mc",
+   "q": "After a 10-round war with a broken hand, a fighter says, \"I've had better nights.\" This is…",
+   "options": [
+    "hyperbole",
+    "understatement",
+    "a simile",
+    "personification"
+   ],
+   "answer": 1,
+   "why": "Saying far **less** than the truth on purpose, often for dry humor or toughness.",
+   "level": "challenge",
+   "hint": "Is he saying more or less than what really happened?"
+  },
+  {
+   "type": "mc",
+   "q": "A client keeps adding new requirements after you agreed on the job. The best idiom for this is…",
+   "options": [
+    "roll with the punches",
+    "move the goalposts",
+    "saved by the bell",
+    "down to the wire"
+   ],
+   "answer": 1,
+   "why": "Changing the rules after the game started = **moving the goalposts**.",
+   "level": "challenge",
+   "hint": "Which idiom is about changing the target mid-game?"
+  },
+  {
+   "type": "mc",
+   "q": "You're writing load instructions for a driver who learned English as a second language. Which line is best?",
+   "options": [
+    "Hit the road ASAP and don't drop the ball.",
+    "Leave by 6 AM. Deliver to Dock 4 by noon.",
+    "Get the show on the road and touch base when you land.",
+    "Bring it home by lunch, no ifs, ands or buts."
+   ],
+   "answer": 1,
+   "why": "Idioms often don't translate. Instructions need **literal**, precise language.",
+   "level": "challenge",
+   "hint": "Which version means exactly what it says?"
+  },
+  {
+   "type": "mc",
+   "q": "\"Saved by the bell\" most likely comes from…",
+   "options": [
+    "people buried alive with bells in their coffins",
+    "boxing: the bell ending a round",
+    "school bells",
+    "church bells during wars"
+   ],
+   "answer": 1,
+   "why": "The boxing origin is well documented. The coffin story spread online with no real evidence behind it. Check idiom origins before repeating them.",
+   "level": "challenge",
+   "hint": "Re-read the note at the end of the arenas table."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  },
+  {
+   "title": "Online Etymology Dictionary (Douglas Harper)",
+   "url": "https://www.etymonline.com/"
+  },
+  {
+   "title": "Merriam-Webster: Words at Play (word histories)",
+   "url": "https://www.merriam-webster.com/wordplay"
+  }
+ ]
+}

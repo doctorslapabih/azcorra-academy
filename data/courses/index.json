@@ -462,22 +462,26 @@
      {
       "id": "connotation-same-meaning-different-feel",
       "title": "Connotation: same meaning, different feel",
-      "ready": false
+      "ready": true,
+      "desc": "Thrifty, frugal, cheap and stingy all mean the same thing, and they'll get you four different reactions. How word choice persuades before the argument even starts."
      },
      {
       "id": "shades-of-meaning",
       "title": "Shades of meaning",
-      "ready": false
+      "ready": true,
+      "desc": "\"The difference between the almost right word and the right word is really a large matter: 'tis the difference between the lightning-bug and the lightning.\" (Mark Twain)"
      },
      {
       "id": "commonly-confused-words",
       "title": "Commonly confused words",
-      "ready": false
+      "ready": true,
+      "desc": "The pairs that make smart people look careless in emails, contracts and résumés, with a memory trick for each."
      },
      {
       "id": "idioms-and-figurative-language",
       "title": "Idioms and figurative language",
-      "ready": false
+      "ready": true,
+      "desc": "Metaphor, simile, hyperbole and the idioms English borrowed from the boxing ring, the racetrack and the ballpark. Read between the lines and write with punch."
      }
     ]
    },

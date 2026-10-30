@@ -1,0 +1,163 @@
+from common import *
+
+MW = {"title": "Merriam-Webster Dictionary", "url": "https://www.merriam-webster.com/"}
+ETY = {"title": "Online Etymology Dictionary (Douglas Harper)", "url": "https://www.etymonline.com/"}
+L = []
+
+# ---------------------------------------------------------------- Connotation
+L.append({"id": "connotation-same-meaning-different-feel", "title": "Connotation: same meaning, different feel", "band": "Grades 9–10", "minutes": 26,
+ "lede": "Thrifty, frugal, cheap and stingy all mean the same thing, and they'll get you four different reactions. How word choice persuades before the argument even starts.",
+ "sections": [
+  T("## Denotation vs connotation\n- **Denotation**: the dictionary meaning. What the word points to.\n- **Connotation**: the feeling the word carries. Positive, neutral or negative.\n\nCall a man **thrifty** and you're complimenting him. Call him **stingy** and you're insulting him. Same behavior, same denotation: he doesn't spend much. The connotation does all the work.\n\nSkilled writers, lawyers, salespeople and politicians choose connotation on purpose. Once you can see it, you can't be pushed around by it, and you can use it yourself."),
+  T("## The spectrum\nMost ideas come in a range from positive to negative:\n\n| 👍 Positive | Neutral | 👎 Negative |\n|---|---|---|\n| thrifty, frugal | economical | cheap, stingy |\n| confident, self-assured | assertive | arrogant, cocky |\n| determined, persistent | firm | stubborn, pigheaded |\n| curious, inquisitive | interested | nosy, prying |\n| slender, lean | thin | skinny, scrawny |\n| vintage, classic | old | outdated, obsolete |\n| bold, daring | risky | reckless |\n| youthful | young | immature, childish |\n| relaxed, easygoing | calm | lazy, apathetic |\n\nThe neutral middle column is what you use when you want to **report**, not judge."),
+  CHECK("A reference letter says a driver is \"persistent.\" A complaint says the same driver is \"stubborn.\" What changed?", ["The driver's behavior", "The denotation", "The connotation", "Nothing"], 2,
+        "Both describe someone who won't give up. One frames it as a strength, the other as a flaw."),
+  T("## Euphemism and its opposite\n- A **euphemism** swaps a harsh word for a soft one: *passed away* (died), *let go* (fired), *pre-owned* (used), *downsizing* (layoffs), *negative growth* (decline).\n- A **dysphemism** does the reverse, making something sound worse: *gas guzzler*, *pencil pusher*, *ambulance chaser*.\n\nEuphemisms can be kind (talking to a grieving family) or slippery (a company calling layoffs a *workforce realignment* to dodge the bad news). Ask: **what would the plain word be, and why didn't they use it?**"),
+  T("## Loaded language\nThe same event, two headlines:\n\n- *City **invests** $40 million in new bus lanes.*\n- *City **spends** $40 million on new bus lanes.*\n\n- *Protesters **gathered** downtown.*\n- *A **mob** descended on downtown.*\n\nNone of these sentences is false. Each one tells you how to **feel** before you know any details. When you read news, reviews or ads, underline the words that carry a judgment and ask what the neutral version would be."),
+  E("Rewrite to change the effect", "Neutral: \"The fighter is aggressive and doesn't back down.\"",
+    ["**Praise it** (a coach's scouting report): *The fighter is **relentless** and **fearless**.*", "**Criticize it** (a rival's trash talk): *The fighter is **reckless** and too **hotheaded** to think.*"],
+    "Same fighter, same facts. The reader's opinion was decided by two word choices."),
+  E("Spot the slant", "\"Despite the CEO's **lavish** pay package, the company **slashed** worker benefits.\"",
+    ["*Lavish* (vs *large*) suggests excess and waste.", "*Slashed* (vs *reduced*) suggests a violent, careless cut.", "*Despite* sets up a contrast that implies unfairness."],
+    "The facts might be accurate, but the sentence is an **argument**, not a report."),
+  N("Common traps", "- **Connotation can change by context.** *Aggressive* is negative for a driver on the highway and positive for a fighter or an investor.\n- **Connotation drifts over time.** *Awful* once meant *full of awe*. *Nice* once meant *foolish*.\n- **\"Just being honest\"** is often a dysphemism in disguise. Plain, neutral words are honest. Harsh words are a choice.")
+ ],
+ "practice": [
+  MC("Which word has the most **positive** connotation?", ["cheap", "stingy", "frugal", "tight-fisted"], 2, "*Frugal* praises careful spending. The others criticize it."),
+  MC("Which word has the most **negative** connotation?", ["confident", "self-assured", "arrogant", "assertive"], 2, "*Arrogant* adds superiority and disrespect."),
+  MC("\"Pre-owned vehicle\" is an example of…", ["a dysphemism", "a euphemism", "an idiom", "a simile"], 1, "A softer way to say *used car*."),
+  MC("Which is the most **neutral** description?", ["The truck is a rust bucket.", "The truck is a vintage classic.", "The truck is 22 years old.", "The truck is a dinosaur."], 2, "Only C states a fact without judging."),
+  TXT("Type a **positive** word for someone who asks a lot of questions (it starts with *i*).", ["inquisitive", "inquiring"], "**inquisitive** (or *curious*). The negative version is *nosy*.", hint="The negative version is *nosy*."),
+  MC("A company announces \"a workforce realignment.\" Most likely, it is…", ["hiring", "laying people off", "giving raises", "moving offices"], 1, "A classic corporate euphemism for layoffs."),
+  MC("\"Bureaucrat\" and \"public servant\" can describe the same government worker. Which is positive?", ["bureaucrat", "public servant", "both are neutral", "both are negative"], 1, "*Public servant* stresses service; *bureaucrat* suggests red tape."),
+  MC("*Nice* originally meant…", ["kind", "foolish, ignorant", "beautiful", "rich"], 1, "From Latin *nescius*, not knowing. Its connotation flipped over centuries."),
+  MC("A broker writes: \"Your rate is **firm**.\" You reply that the broker is being \"**inflexible**.\" You've…", ["agreed with the broker", "changed the denotation", "reframed the same fact negatively", "used a euphemism"], 2,
+     "Firm and inflexible describe the same refusal to move. You picked the word that makes it sound unreasonable: a negotiating move.",
+     level="challenge", hint="Same fact, different feel. Which way did you push it?"),
+  MC("Which headline is written to make readers **oppose** the project?", ["Council approves $2M for park renovation", "Council invests $2M to revitalize park", "Council blows $2M on park makeover", "Council allocates $2M to park"], 2,
+     "*Blows* suggests waste and *makeover* suggests something cosmetic. A, D are neutral; B leans positive (*invests*, *revitalize*).",
+     level="challenge", hint="Look for the words that judge, not just report."),
+  MC("A scouting report calls a fighter \"**cerebral**.\" A rival's camp calls him \"**timid**.\" The fact both are describing is most likely that he…", ["fights recklessly", "is patient and doesn't rush in", "is physically weak", "talks a lot"], 1,
+     "*Cerebral* (thoughtful, strategic) and *timid* (afraid) are two spins on the same behavior: he waits instead of charging in.",
+     level="challenge", hint="Find the neutral behavior both words could describe."),
+  TXT("Rewrite as a **euphemism** in one word: a company that's losing money is said to be \"**un**___.\" (Hint: think *profitable*.)", ["unprofitable"], "**unprofitable**: softer than *losing money*. Even softer: *experiencing negative earnings*.",
+      level="challenge", hint="Add a prefix to *profitable*."),
+ ],
+ "sources": [MW, ETY]})
+
+# ---------------------------------------------------------------- Shades of meaning
+L.append({"id": "shades-of-meaning", "title": "Shades of meaning", "band": "Grades 9–10", "minutes": 26,
+ "lede": "\"The difference between the almost right word and the right word is really a large matter: 'tis the difference between the lightning-bug and the lightning.\" (Mark Twain)",
+ "sections": [
+  T("## Synonyms are never twins\nNo two words mean exactly the same thing. **Synonyms** overlap, but each has its own **intensity**, **tone** or **picture**. Picking the precise one is what makes writing vivid and clear instead of vague.\n\nThe weak version of a sentence uses a general word plus a modifier: *very big*, *walked slowly*, *said angrily*. The strong version finds the **one word** that already means all of it: *enormous*, *trudged*, *snapped*."),
+  T("## Intensity scales\nArrange words from weakest to strongest:\n\n| Weak → → → Strong |\n|---|\n| cool → cold → frigid → freezing |\n| warm → hot → scorching → blistering |\n| like → admire → adore → worship |\n| dislike → resent → detest → loathe |\n| small → tiny → minuscule → microscopic |\n| big → large → huge → enormous → colossal |\n| tired → weary → exhausted → depleted |\n| annoyed → irritated → angry → furious → livid |\n| happy → glad → delighted → ecstatic |\n\nUsing the top of a scale for small things (\"I'm *starving*,\" \"this is *epic*\") wears the strong words out. Save them."),
+  CHECK("Which is the strongest?", ["irritated", "annoyed", "livid", "angry"], 2, "*Livid* sits at the top of the anger scale: so angry your face changes color."),
+  T("## Verbs carry pictures\nVerbs are where precision pays most. Each of these is a kind of **walk**, and each paints a different person:\n\n| Verb | Picture |\n|---|---|\n| stroll | relaxed, in no hurry |\n| stride | long, confident steps |\n| march | firm, purposeful, rhythmic |\n| trudge | heavy, tired, effortful |\n| saunter | casual, a little cocky |\n| shuffle | dragging feet, low energy |\n| stagger | unsteady, about to fall |\n| prowl | quiet, hunting |\n\n*He walked into the cage* tells you almost nothing. *He sauntered into the cage* tells you who he is."),
+  T("## Ways to say \"said\"\nDialogue tags carry tone. Use them when the tone isn't already obvious, and use plain *said* when it is (it's nearly invisible to readers, which is good).\n\n| Verb | Means |\n|---|---|\n| muttered | said low, unhappily |\n| insisted | said firmly, against pushback |\n| conceded | admitted, reluctantly |\n| asserted | stated confidently as fact |\n| retorted | answered sharply |\n| remarked | commented casually |\n| pleaded | begged |\n| snapped | said sharply, irritated |"),
+  E("Upgrade a vague sentence", "\"The market went down a lot really fast.\"",
+    ["*Went down a lot really fast* = one verb with intensity and speed built in.", "Options: **plunged**, **plummeted**, **crashed**, **tanked**. *Dipped* or *slipped* would be too weak."], "*The market **plummeted**.*"),
+  E("Match the shade to the situation", "Your trade lost money. Which verb fits a calm journal entry?", ["*Got destroyed* exaggerates and adds emotion.", "*Lost* is plain and accurate.", "*Bled* suggests a slow, painful leak."], "**\"Lost 1R.\"** A journal wants neutral precision. Save the dramatic shades for stories."),
+  N("Common traps", "- **Thesaurus roulette.** Swapping in a fancy synonym you don't know can say something you didn't mean. *Pulchritudinous* means beautiful, but it sounds like a disease. Only use words whose shade you understand.\n- **Stacking intensifiers.** *Very very extremely huge* is weaker than *colossal*.\n- **Literally** means *actually, not figuratively*. \"I literally died\" says the opposite of what you mean.")
+ ],
+ "practice": [
+  MC("Order from weakest to strongest: **loathe, dislike, detest**", ["dislike, detest, loathe", "loathe, detest, dislike", "detest, dislike, loathe", "dislike, loathe, detest"], 0, "*Dislike* is mild; *loathe* is the strongest."),
+  MC("He was so tired he could barely lift his feet as he ___ up the hill.", ["strode", "trudged", "sauntered", "marched"], 1, "**Trudge** = heavy, tired, effortful."),
+  MC("Which word best replaces \"very small\"?", ["minuscule", "average", "compact", "reduced"], 0, "**Minuscule** = extremely small."),
+  MC("\"Fine, you're right,\" she ___, finally admitting the mistake.", ["insisted", "conceded", "asserted", "retorted"], 1, "**Conceded** = admitted reluctantly."),
+  MC("Which word is **strongest**?", ["glad", "happy", "ecstatic", "delighted"], 2, "*Ecstatic* is overwhelming joy."),
+  TXT("One word for \"fell very fast and very far\" (price action). Starts with *p*.", ["plummeted", "plunged", "plummet", "plunge"], "**plummeted** or **plunged**."),
+  MC("A confident fighter walks to the cage slowly, casually, almost cocky. He…", ["staggered", "shuffled", "sauntered", "trudged"], 2, "**Saunter** = casual with a hint of swagger."),
+  MC("\"I literally died laughing\" is a problem because…", ["*laughing* is wrong", "*literally* means it actually happened", "*died* is too formal", "it's a run-on"], 1, "*Literally* means *actually*. Use *nearly* or drop it."),
+  MC("Which sentence is most **precise**?", ["The driver went quickly to the truck.", "The driver hurried to the truck.", "The driver sprinted to the truck.", "The driver moved to the truck."], 2,
+     "*Sprinted* gives the exact speed and effort in one verb. *Hurried* is close but less specific; *went quickly* and *moved* are vague.",
+     level="challenge", hint="Which verb gives you the clearest picture of how fast?"),
+  MC("A news report says a politician \"**admitted**\" a fact. Another says he \"**noted**\" it. What's the difference in shade?", ["None", "*Admitted* implies it's damaging or was hidden; *noted* is neutral", "*Noted* implies guilt", "*Admitted* is more formal"], 1,
+     "*Admit* suggests something reluctantly confessed. Reporters choose between these on purpose.",
+     level="challenge", hint="Which one makes the fact sound like a confession?"),
+  MC("Order from weakest to strongest: **furious, irritated, livid, annoyed**", ["annoyed, irritated, furious, livid", "irritated, annoyed, livid, furious", "annoyed, furious, irritated, livid", "livid, furious, irritated, annoyed"], 0,
+     "Annoyed → irritated → furious → livid.",
+     level="challenge", hint="Find the mildest and the most extreme first."),
+  TXT("Replace \"said loudly and angrily\" with one verb (6 letters, starts with *s*, the sound a dog makes when it bites).", ["snapped", "snarled"], "**snapped** (or *snarled*).",
+      level="challenge", hint="What does a dog do with its jaws?"),
+ ],
+ "sources": [MW, {"title": "Mark Twain quotations: \"Word\" (twainquotes.com)", "url": "https://twainquotes.com/Word.html"}]})
+
+# ---------------------------------------------------------------- Commonly confused words
+L.append({"id": "commonly-confused-words", "title": "Commonly confused words", "band": "Grades 9–10", "minutes": 30,
+ "lede": "The pairs that make smart people look careless in emails, contracts and résumés, with a memory trick for each.",
+ "sections": [
+  T("## Why these matter\nSpell-check won't catch them: every one is a real word. Readers judge you on them anyway. One *loose* for *lose* in a cover letter can cost an interview. These are the pairs that show up most in professional writing."),
+  T("## The everyday pairs\n| Pair | Use | Trick |\n|---|---|---|\n| **then / than** | *then* = time; *than* = comparison | th**e**n = wh**e**n; th**a**n = comp**a**re |\n| **lose / loose** | *lose* = misplace or fail to win; *loose* = not tight | *loose* has a loose extra *o* |\n| **accept / except** | *accept* = receive; *except* = excluding | **ex**cept = **ex**clude |\n| **affect / effect** | *affect* = verb (to influence); *effect* = noun (the result) | **A**ffect is the **A**ction; **E**ffect is the **E**nd result |\n| **your / you're** | *your* = belongs to you; *you're* = you are | expand it: does *you are* fit? |\n| **who's / whose** | *who's* = who is; *whose* = belongs to whom | expand it |"),
+  T("## The professional pairs\n| Pair | Use | Trick |\n|---|---|---|\n| **principal / principle** | *principal* = main, chief, or a sum of money; *principle* = a rule or belief | the princip**al** is your p**al**; a princip**le** is a ru**le** |\n| **complement / compliment** | *complement* = completes or goes well with; *compliment* = praise | compl**e**ment **e**nhances; compl**i**ment: **I** like you |\n| **ensure / insure / assure** | *ensure* = make certain; *insure* = buy coverage; *assure* = reassure a person | **in**sure = **in**surance; **as**sure a person |\n| **fewer / less** | *fewer* = things you count; *less* = amounts you measure | fewer trucks, less fuel |\n| **farther / further** | *farther* = physical distance; *further* = degree, more | **far**ther = **far** on a map |\n| **discreet / discrete** | *discreet* = careful, private; *discrete* = separate | in di**scre**te, the *e*'s are **separated** by the *t* |\n| **stationary / stationery** | *stationary* = not moving; *stationery* = paper and envelopes | station**e**ry = l**e**tters |\n| **adverse / averse** | *adverse* = harmful (*adverse weather*); *averse* = opposed to (*risk-averse*) | **ad**verse = **ad** (bad) conditions |\n| **elicit / illicit** | *elicit* = draw out (a response); *illicit* = illegal | **ill**icit = **ill**egal |\n| **precede / proceed** | *precede* = come before; *proceed* = go forward | **pre** = before |\n| **waive / wave** | *waive* = give up a right (*waive the fee*); *wave* = move your hand | a waiv**er** gives up a right |"),
+  CHECK("\"The client is risk-___, so keep the position small.\"", ["adverse", "averse"], 1, "**Averse** = opposed to. *Adverse* means harmful: *adverse conditions*."),
+  T("## The pairs even editors argue about\n- **Disinterested vs uninterested.** *Disinterested* = impartial, with nothing to gain (*a disinterested referee*). *Uninterested* = bored. Many people now use *disinterested* for *bored*, but in formal writing, keep them separate.\n- **Comprise vs compose.** The whole **comprises** the parts: *The fleet comprises 12 trucks.* The parts **compose** the whole: *Twelve trucks compose the fleet.* \"Comprised of\" is very common but still flagged by careful editors; *composed of* or *consists of* is always safe.\n- **Fewer vs less with time and money.** *Less than $500* and *less than 10 minutes* are correct, because you're treating the amount as one quantity, not counting dollars or minutes one by one."),
+  E("Fix a real email", "\"Your going to loose the load if you don't except the rate. Its less trucks then last week.\"",
+    ["*Your* → **You're** (you are).", "*loose* → **lose**.", "*except* → **accept**.", "*Its* → **It's** (it is).", "*less trucks* → **fewer trucks** (countable).", "*then* → **than** (comparison)."],
+    "*\"**You're** going to **lose** the load if you don't **accept** the rate. It's **fewer** trucks **than** last week.\"* Six errors in two sentences, and spell-check catches none of them."),
+  T("## Loan payments: principal\nA loan payment has two parts: **principal** (paying down the amount you borrowed) and **interest** (the lender's fee). Early in a loan, most of each payment is interest. Every extra dollar toward **principal** shrinks the interest you'll pay later. Spelling the word right is good. Understanding it is better."),
+  N("Common traps", "- **Alot** isn't a word. It's **a lot** (or *allot*, which means to assign: *allot two hours*).\n- **Could care less** literally means you do care a bit. The original is **couldn't care less**.\n- **Irregardless** is in dictionaries but marked nonstandard. Use **regardless**.\n- **Supposably** → **supposedly**. **For all intensive purposes** → **for all intents and purposes**.")
+ ],
+ "practice": [
+  MC("\"This route is shorter ___ the last one.\"", ["then", "than"], 1, "Comparison → **than**."),
+  MC("\"Don't ___ your log book.\"", ["loose", "lose"], 1, "*Lose* = misplace."),
+  MC("\"We ___ the offer.\"", ["accepted", "excepted"], 0, "*Accept* = receive, agree to."),
+  MC("\"The new tires had a big ___ on fuel mileage.\"", ["affect", "effect"], 1, "A noun, the result → **effect**."),
+  MC("\"We need ___ drivers this month.\"", ["less", "fewer"], 1, "Drivers can be counted → **fewer**."),
+  MC("\"The ___ reason I left was the pay.\"", ["principle", "principal"], 1, "*Principal* = main."),
+  MC("\"Please be ___; this deal isn't public yet.\"", ["discrete", "discreet"], 1, "*Discreet* = careful, private."),
+  TXT("Fill in: \"The broker agreed to ___ the late fee.\" (give it up)", ["waive"], "**waive** = give up a right or a charge. A *waiver* is the document."),
+  MC("\"The jury should be ___: no stake in the outcome.\"", ["uninterested", "disinterested"], 1,
+     "**Disinterested** = impartial. *Uninterested* = bored. A bored jury is a different problem.",
+     level="challenge", hint="Which one means *having nothing to gain*?"),
+  MC("Which is correct in careful formal writing?", ["The fleet is comprised of 12 trucks.", "The fleet comprises 12 trucks.", "12 trucks comprise of the fleet.", "The fleet comprises of 12 trucks."], 1,
+     "The whole **comprises** the parts, no *of*. *Is composed of* also works.",
+     level="challenge", hint="Does *comprise* need an *of*?"),
+  MC("\"Let's discuss this ___ tomorrow.\"", ["farther", "further"], 1,
+     "Not physical distance, but more discussion (degree) → **further**.",
+     level="challenge", hint="Is this about miles on a map?"),
+  MC("How many errors: \"Its alot less work then I thought, irregardless of the weather.\"", ["2", "3", "4", "5"], 2,
+     "**Four**: *Its* → **It's**, *alot* → **a lot**, *then* → **than**, *irregardless* → **regardless**. *Less work* is correct, because work is an amount, not something you count.",
+     level="challenge", hint="Check each word against this lesson. Is *less* right for *work*?"),
+ ],
+ "sources": [MW, {"title": "Purdue OWL: Mechanics (Purdue University)", "url": "https://owl.purdue.edu/owl/general_writing/mechanics/index.html"}]})
+
+# ---------------------------------------------------------------- Idioms and figurative language
+L.append({"id": "idioms-and-figurative-language", "title": "Idioms and figurative language", "band": "Grades 9–10", "minutes": 28,
+ "lede": "Metaphor, simile, hyperbole and the idioms English borrowed from the boxing ring, the racetrack and the ballpark. Read between the lines and write with punch.",
+ "sections": [
+  T("## Literal vs figurative\n**Literal** language means exactly what it says. **Figurative** language means something beyond the words. *\"He's a beast in the gym\"* isn't about an animal. Figurative language compresses an idea into an image the reader feels."),
+  T("## The main tools\n| Device | What it does | Example |\n|---|---|---|\n| **Simile** | compares using *like* or *as* | *His jab was like a piston.* |\n| **Metaphor** | says one thing **is** another | *Her focus was a laser.* |\n| **Personification** | gives human traits to non-humans | *The market punished the late buyers.* |\n| **Hyperbole** | exaggerates on purpose | *I've told you a million times.* |\n| **Understatement** | says less than the truth on purpose | *Losing the title was a bit disappointing.* |\n| **Idiom** | a phrase whose meaning isn't the sum of its words | *Throw in the towel.* |\n| **Irony** | the opposite of what's expected or said | *A fire station burning down.* |"),
+  CHECK("\"The trend line was a staircase to the moon.\" This is…", ["a simile", "a metaphor", "personification", "an idiom"], 1, "It says the trend line **is** a staircase, with no *like* or *as*: a **metaphor** (with a little hyperbole)."),
+  T("## Idioms from the fight game\nBoxing gave English some of its toughest idioms:\n\n| Idiom | Meaning | From |\n|---|---|---|\n| **throw in the towel** | give up | a cornerman tossing a towel into the ring to stop the fight |\n| **saved by the bell** | rescued at the last second | the bell ending a round before a knockout |\n| **below the belt** | unfair, a cheap shot | punches below the waist are illegal |\n| **on the ropes** | close to defeat | a fighter pinned against the ropes |\n| **take it on the chin** | accept a hit or setback bravely | absorbing a punch |\n| **roll with the punches** | adapt to difficulties | moving with a punch to reduce its force |\n| **come out swinging** | start aggressively | |\n| **down for the count** | defeated, out | the referee's ten-count |"),
+  T("## Idioms from other arenas\n| Idiom | Meaning | From |\n|---|---|---|\n| **down to the wire** | undecided until the very end | horse racing: the finish line was once marked by a wire |\n| **ballpark figure** | rough estimate | baseball |\n| **move the goalposts** | change the rules unfairly mid-game | football and soccer |\n| **hit it out of the park** | do extremely well | baseball |\n| **the bottom line** | the final result, what really matters | accounting: the last line of a financial statement |\n| **in the red / in the black** | losing / making money | bookkeepers wrote losses in red ink |\n| **cut corners** | do something cheaply or badly to save time | taking a shortcut on a route |\n\nSome idiom origins are uncertain, and popular stories about them are often made up. (\"Saved by the bell\" has nothing to do with people buried alive, despite what you may have read online.)"),
+  E("Read an idiom-heavy email", "\"We're on the ropes with this client. Give me a ballpark figure by Friday, and don't cut corners. The bottom line is we can't afford to throw in the towel.\"",
+    ["*On the ropes* = close to losing the client.", "*Ballpark figure* = rough estimate.", "*Don't cut corners* = do it properly.", "*Bottom line* = the most important point.", "*Throw in the towel* = give up."],
+    "Plain version: **We're close to losing this client. Send a rough estimate by Friday, done properly. We can't give up on this account.**"),
+  T("## When to use figurative language, and when not to\n- **Use it** to make an idea vivid, memorable or persuasive: speeches, stories, pitches, essays.\n- **Avoid it** where precision matters more than color: contracts, instructions, technical reports, anything going to non-native English speakers (idioms don't translate).\n- **Avoid clichés**: idioms so overused they've gone dead (*at the end of the day*, *think outside the box*). A fresh image beats a worn-out one.\n- **Never mix metaphors**: *\"We'll cross that bridge when it comes home to roost\"* jams two images together and makes readers stop."),
+  N("Common traps", "- **Simile vs metaphor** is just the *like/as* test.\n- **Irony isn't just coincidence.** Rain on your wedding day is bad luck. A weather forecaster's wedding getting rained out after she promised sunshine is closer to irony.\n- **Hyperbole in business writing** costs credibility. \"This is the best deal ever\" makes readers trust the rest less.")
+ ],
+ "practice": [
+  MC("\"She fought like a cornered wolf.\"", ["metaphor", "simile", "hyperbole", "idiom"], 1, "Uses *like* → **simile**."),
+  MC("\"The deadline crept closer.\"", ["personification", "simile", "irony", "understatement"], 0, "Deadlines don't creep: human/animal action given to a thing."),
+  MC("\"Throw in the towel\" means…", ["clean up", "give up", "start a fight", "celebrate"], 1, "A cornerman throws the towel to stop the fight."),
+  MC("\"That shot was below the belt.\" The speaker thinks the comment was…", ["accurate", "unfair", "funny", "too quiet"], 1, "Illegal punches land below the waist."),
+  MC("\"Give me a ballpark figure\" means give me…", ["an exact number", "a rough estimate", "a sports score", "a final price"], 1, "A rough estimate, from baseball."),
+  MC("\"I'm so hungry I could eat a horse.\"", ["understatement", "hyperbole", "simile", "metaphor"], 1, "Deliberate exaggeration."),
+  MC("A company \"in the red\" is…", ["profitable", "losing money", "growing", "on fire"], 1, "Losses were written in red ink."),
+  MC("Which sentence is a **mixed metaphor**?", ["We need to roll with the punches.", "Let's nip it in the bud before it snowballs out of the park.", "The bottom line is clear.", "He took the loss on the chin."], 1, "Gardening, snowballs and baseball in one sentence."),
+  MC("After a 10-round war with a broken hand, a fighter says, \"I've had better nights.\" This is…", ["hyperbole", "understatement", "a simile", "personification"], 1,
+     "Saying far **less** than the truth on purpose, often for dry humor or toughness.",
+     level="challenge", hint="Is he saying more or less than what really happened?"),
+  MC("A client keeps adding new requirements after you agreed on the job. The best idiom for this is…", ["roll with the punches", "move the goalposts", "saved by the bell", "down to the wire"], 1,
+     "Changing the rules after the game started = **moving the goalposts**.",
+     level="challenge", hint="Which idiom is about changing the target mid-game?"),
+  MC("You're writing load instructions for a driver who learned English as a second language. Which line is best?", ["Hit the road ASAP and don't drop the ball.", "Leave by 6 AM. Deliver to Dock 4 by noon.", "Get the show on the road and touch base when you land.", "Bring it home by lunch, no ifs, ands or buts."], 1,
+     "Idioms often don't translate. Instructions need **literal**, precise language.",
+     level="challenge", hint="Which version means exactly what it says?"),
+  MC("\"Saved by the bell\" most likely comes from…", ["people buried alive with bells in their coffins", "boxing: the bell ending a round", "school bells", "church bells during wars"], 1,
+     "The boxing origin is well documented. The coffin story spread online with no real evidence behind it. Check idiom origins before repeating them.",
+     level="challenge", hint="Re-read the note at the end of the arenas table."),
+ ],
+ "sources": [MW, ETY, {"title": "Merriam-Webster: Words at Play (word histories)", "url": "https://www.merriam-webster.com/wordplay"}]})
+
+save("vocab", L)

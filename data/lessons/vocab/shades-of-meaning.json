@@ -1,0 +1,223 @@
+{
+ "id": "shades-of-meaning",
+ "title": "Shades of meaning",
+ "band": "Grades 9–10",
+ "minutes": 26,
+ "lede": "\"The difference between the almost right word and the right word is really a large matter: 'tis the difference between the lightning-bug and the lightning.\" (Mark Twain)",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Synonyms are never twins\nNo two words mean exactly the same thing. **Synonyms** overlap, but each has its own **intensity**, **tone** or **picture**. Picking the precise one is what makes writing vivid and clear instead of vague.\n\nThe weak version of a sentence uses a general word plus a modifier: *very big*, *walked slowly*, *said angrily*. The strong version finds the **one word** that already means all of it: *enormous*, *trudged*, *snapped*."
+  },
+  {
+   "type": "text",
+   "md": "## Intensity scales\nArrange words from weakest to strongest:\n\n| Weak → → → Strong |\n|---|\n| cool → cold → frigid → freezing |\n| warm → hot → scorching → blistering |\n| like → admire → adore → worship |\n| dislike → resent → detest → loathe |\n| small → tiny → minuscule → microscopic |\n| big → large → huge → enormous → colossal |\n| tired → weary → exhausted → depleted |\n| annoyed → irritated → angry → furious → livid |\n| happy → glad → delighted → ecstatic |\n\nUsing the top of a scale for small things (\"I'm *starving*,\" \"this is *epic*\") wears the strong words out. Save them."
+  },
+  {
+   "type": "check",
+   "q": "Which is the strongest?",
+   "options": [
+    "irritated",
+    "annoyed",
+    "livid",
+    "angry"
+   ],
+   "answer": 2,
+   "why": "*Livid* sits at the top of the anger scale: so angry your face changes color."
+  },
+  {
+   "type": "text",
+   "md": "## Verbs carry pictures\nVerbs are where precision pays most. Each of these is a kind of **walk**, and each paints a different person:\n\n| Verb | Picture |\n|---|---|\n| stroll | relaxed, in no hurry |\n| stride | long, confident steps |\n| march | firm, purposeful, rhythmic |\n| trudge | heavy, tired, effortful |\n| saunter | casual, a little cocky |\n| shuffle | dragging feet, low energy |\n| stagger | unsteady, about to fall |\n| prowl | quiet, hunting |\n\n*He walked into the cage* tells you almost nothing. *He sauntered into the cage* tells you who he is."
+  },
+  {
+   "type": "text",
+   "md": "## Ways to say \"said\"\nDialogue tags carry tone. Use them when the tone isn't already obvious, and use plain *said* when it is (it's nearly invisible to readers, which is good).\n\n| Verb | Means |\n|---|---|\n| muttered | said low, unhappily |\n| insisted | said firmly, against pushback |\n| conceded | admitted, reluctantly |\n| asserted | stated confidently as fact |\n| retorted | answered sharply |\n| remarked | commented casually |\n| pleaded | begged |\n| snapped | said sharply, irritated |"
+  },
+  {
+   "type": "example",
+   "title": "Upgrade a vague sentence",
+   "problem": "\"The market went down a lot really fast.\"",
+   "steps": [
+    "*Went down a lot really fast* = one verb with intensity and speed built in.",
+    "Options: **plunged**, **plummeted**, **crashed**, **tanked**. *Dipped* or *slipped* would be too weak."
+   ],
+   "answer": "*The market **plummeted**.*"
+  },
+  {
+   "type": "example",
+   "title": "Match the shade to the situation",
+   "problem": "Your trade lost money. Which verb fits a calm journal entry?",
+   "steps": [
+    "*Got destroyed* exaggerates and adds emotion.",
+    "*Lost* is plain and accurate.",
+    "*Bled* suggests a slow, painful leak."
+   ],
+   "answer": "**\"Lost 1R.\"** A journal wants neutral precision. Save the dramatic shades for stories."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Thesaurus roulette.** Swapping in a fancy synonym you don't know can say something you didn't mean. *Pulchritudinous* means beautiful, but it sounds like a disease. Only use words whose shade you understand.\n- **Stacking intensifiers.** *Very very extremely huge* is weaker than *colossal*.\n- **Literally** means *actually, not figuratively*. \"I literally died\" says the opposite of what you mean."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Order from weakest to strongest: **loathe, dislike, detest**",
+   "options": [
+    "dislike, detest, loathe",
+    "loathe, detest, dislike",
+    "detest, dislike, loathe",
+    "dislike, loathe, detest"
+   ],
+   "answer": 0,
+   "why": "*Dislike* is mild; *loathe* is the strongest."
+  },
+  {
+   "type": "mc",
+   "q": "He was so tired he could barely lift his feet as he ___ up the hill.",
+   "options": [
+    "strode",
+    "trudged",
+    "sauntered",
+    "marched"
+   ],
+   "answer": 1,
+   "why": "**Trudge** = heavy, tired, effortful."
+  },
+  {
+   "type": "mc",
+   "q": "Which word best replaces \"very small\"?",
+   "options": [
+    "minuscule",
+    "average",
+    "compact",
+    "reduced"
+   ],
+   "answer": 0,
+   "why": "**Minuscule** = extremely small."
+  },
+  {
+   "type": "mc",
+   "q": "\"Fine, you're right,\" she ___, finally admitting the mistake.",
+   "options": [
+    "insisted",
+    "conceded",
+    "asserted",
+    "retorted"
+   ],
+   "answer": 1,
+   "why": "**Conceded** = admitted reluctantly."
+  },
+  {
+   "type": "mc",
+   "q": "Which word is **strongest**?",
+   "options": [
+    "glad",
+    "happy",
+    "ecstatic",
+    "delighted"
+   ],
+   "answer": 2,
+   "why": "*Ecstatic* is overwhelming joy."
+  },
+  {
+   "type": "text",
+   "q": "One word for \"fell very fast and very far\" (price action). Starts with *p*.",
+   "answer": [
+    "plummeted",
+    "plunged",
+    "plummet",
+    "plunge"
+   ],
+   "why": "**plummeted** or **plunged**."
+  },
+  {
+   "type": "mc",
+   "q": "A confident fighter walks to the cage slowly, casually, almost cocky. He…",
+   "options": [
+    "staggered",
+    "shuffled",
+    "sauntered",
+    "trudged"
+   ],
+   "answer": 2,
+   "why": "**Saunter** = casual with a hint of swagger."
+  },
+  {
+   "type": "mc",
+   "q": "\"I literally died laughing\" is a problem because…",
+   "options": [
+    "*laughing* is wrong",
+    "*literally* means it actually happened",
+    "*died* is too formal",
+    "it's a run-on"
+   ],
+   "answer": 1,
+   "why": "*Literally* means *actually*. Use *nearly* or drop it."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence is most **precise**?",
+   "options": [
+    "The driver went quickly to the truck.",
+    "The driver hurried to the truck.",
+    "The driver sprinted to the truck.",
+    "The driver moved to the truck."
+   ],
+   "answer": 2,
+   "why": "*Sprinted* gives the exact speed and effort in one verb. *Hurried* is close but less specific; *went quickly* and *moved* are vague.",
+   "level": "challenge",
+   "hint": "Which verb gives you the clearest picture of how fast?"
+  },
+  {
+   "type": "mc",
+   "q": "A news report says a politician \"**admitted**\" a fact. Another says he \"**noted**\" it. What's the difference in shade?",
+   "options": [
+    "None",
+    "*Admitted* implies it's damaging or was hidden; *noted* is neutral",
+    "*Noted* implies guilt",
+    "*Admitted* is more formal"
+   ],
+   "answer": 1,
+   "why": "*Admit* suggests something reluctantly confessed. Reporters choose between these on purpose.",
+   "level": "challenge",
+   "hint": "Which one makes the fact sound like a confession?"
+  },
+  {
+   "type": "mc",
+   "q": "Order from weakest to strongest: **furious, irritated, livid, annoyed**",
+   "options": [
+    "annoyed, irritated, furious, livid",
+    "irritated, annoyed, livid, furious",
+    "annoyed, furious, irritated, livid",
+    "livid, furious, irritated, annoyed"
+   ],
+   "answer": 0,
+   "why": "Annoyed → irritated → furious → livid.",
+   "level": "challenge",
+   "hint": "Find the mildest and the most extreme first."
+  },
+  {
+   "type": "text",
+   "q": "Replace \"said loudly and angrily\" with one verb (6 letters, starts with *s*, the sound a dog makes when it bites).",
+   "answer": [
+    "snapped",
+    "snarled"
+   ],
+   "why": "**snapped** (or *snarled*).",
+   "level": "challenge",
+   "hint": "What does a dog do with its jaws?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  },
+  {
+   "title": "Mark Twain quotations: \"Word\" (twainquotes.com)",
+   "url": "https://twainquotes.com/Word.html"
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "id": "commonly-confused-words",
+ "title": "Commonly confused words",
+ "band": "Grades 9–10",
+ "minutes": 30,
+ "lede": "The pairs that make smart people look careless in emails, contracts and résumés, with a memory trick for each.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Why these matter\nSpell-check won't catch them: every one is a real word. Readers judge you on them anyway. One *loose* for *lose* in a cover letter can cost an interview. These are the pairs that show up most in professional writing."
+  },
+  {
+   "type": "text",
+   "md": "## The everyday pairs\n| Pair | Use | Trick |\n|---|---|---|\n| **then / than** | *then* = time; *than* = comparison | th**e**n = wh**e**n; th**a**n = comp**a**re |\n| **lose / loose** | *lose* = misplace or fail to win; *loose* = not tight | *loose* has a loose extra *o* |\n| **accept / except** | *accept* = receive; *except* = excluding | **ex**cept = **ex**clude |\n| **affect / effect** | *affect* = verb (to influence); *effect* = noun (the result) | **A**ffect is the **A**ction; **E**ffect is the **E**nd result |\n| **your / you're** | *your* = belongs to you; *you're* = you are | expand it: does *you are* fit? |\n| **who's / whose** | *who's* = who is; *whose* = belongs to whom | expand it |"
+  },
+  {
+   "type": "text",
+   "md": "## The professional pairs\n| Pair | Use | Trick |\n|---|---|---|\n| **principal / principle** | *principal* = main, chief, or a sum of money; *principle* = a rule or belief | the princip**al** is your p**al**; a princip**le** is a ru**le** |\n| **complement / compliment** | *complement* = completes or goes well with; *compliment* = praise | compl**e**ment **e**nhances; compl**i**ment: **I** like you |\n| **ensure / insure / assure** | *ensure* = make certain; *insure* = buy coverage; *assure* = reassure a person | **in**sure = **in**surance; **as**sure a person |\n| **fewer / less** | *fewer* = things you count; *less* = amounts you measure | fewer trucks, less fuel |\n| **farther / further** | *farther* = physical distance; *further* = degree, more | **far**ther = **far** on a map |\n| **discreet / discrete** | *discreet* = careful, private; *discrete* = separate | in di**scre**te, the *e*'s are **separated** by the *t* |\n| **stationary / stationery** | *stationary* = not moving; *stationery* = paper and envelopes | station**e**ry = l**e**tters |\n| **adverse / averse** | *adverse* = harmful (*adverse weather*); *averse* = opposed to (*risk-averse*) | **ad**verse = **ad** (bad) conditions |\n| **elicit / illicit** | *elicit* = draw out (a response); *illicit* = illegal | **ill**icit = **ill**egal |\n| **precede / proceed** | *precede* = come before; *proceed* = go forward | **pre** = before |\n| **waive / wave** | *waive* = give up a right (*waive the fee*); *wave* = move your hand | a waiv**er** gives up a right |"
+  },
+  {
+   "type": "check",
+   "q": "\"The client is risk-___, so keep the position small.\"",
+   "options": [
+    "adverse",
+    "averse"
+   ],
+   "answer": 1,
+   "why": "**Averse** = opposed to. *Adverse* means harmful: *adverse conditions*."
+  },
+  {
+   "type": "text",
+   "md": "## The pairs even editors argue about\n- **Disinterested vs uninterested.** *Disinterested* = impartial, with nothing to gain (*a disinterested referee*). *Uninterested* = bored. Many people now use *disinterested* for *bored*, but in formal writing, keep them separate.\n- **Comprise vs compose.** The whole **comprises** the parts: *The fleet comprises 12 trucks.* The parts **compose** the whole: *Twelve trucks compose the fleet.* \"Comprised of\" is very common but still flagged by careful editors; *composed of* or *consists of* is always safe.\n- **Fewer vs less with time and money.** *Less than $500* and *less than 10 minutes* are correct, because you're treating the amount as one quantity, not counting dollars or minutes one by one."
+  },
+  {
+   "type": "example",
+   "title": "Fix a real email",
+   "problem": "\"Your going to loose the load if you don't except the rate. Its less trucks then last week.\"",
+   "steps": [
+    "*Your* → **You're** (you are).",
+    "*loose* → **lose**.",
+    "*except* → **accept**.",
+    "*Its* → **It's** (it is).",
+    "*less trucks* → **fewer trucks** (countable).",
+    "*then* → **than** (comparison)."
+   ],
+   "answer": "*\"**You're** going to **lose** the load if you don't **accept** the rate. It's **fewer** trucks **than** last week.\"* Six errors in two sentences, and spell-check catches none of them."
+  },
+  {
+   "type": "text",
+   "md": "## Loan payments: principal\nA loan payment has two parts: **principal** (paying down the amount you borrowed) and **interest** (the lender's fee). Early in a loan, most of each payment is interest. Every extra dollar toward **principal** shrinks the interest you'll pay later. Spelling the word right is good. Understanding it is better."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Alot** isn't a word. It's **a lot** (or *allot*, which means to assign: *allot two hours*).\n- **Could care less** literally means you do care a bit. The original is **couldn't care less**.\n- **Irregardless** is in dictionaries but marked nonstandard. Use **regardless**.\n- **Supposably** → **supposedly**. **For all intensive purposes** → **for all intents and purposes**."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"This route is shorter ___ the last one.\"",
+   "options": [
+    "then",
+    "than"
+   ],
+   "answer": 1,
+   "why": "Comparison → **than**."
+  },
+  {
+   "type": "mc",
+   "q": "\"Don't ___ your log book.\"",
+   "options": [
+    "loose",
+    "lose"
+   ],
+   "answer": 1,
+   "why": "*Lose* = misplace."
+  },
+  {
+   "type": "mc",
+   "q": "\"We ___ the offer.\"",
+   "options": [
+    "accepted",
+    "excepted"
+   ],
+   "answer": 0,
+   "why": "*Accept* = receive, agree to."
+  },
+  {
+   "type": "mc",
+   "q": "\"The new tires had a big ___ on fuel mileage.\"",
+   "options": [
+    "affect",
+    "effect"
+   ],
+   "answer": 1,
+   "why": "A noun, the result → **effect**."
+  },
+  {
+   "type": "mc",
+   "q": "\"We need ___ drivers this month.\"",
+   "options": [
+    "less",
+    "fewer"
+   ],
+   "answer": 1,
+   "why": "Drivers can be counted → **fewer**."
+  },
+  {
+   "type": "mc",
+   "q": "\"The ___ reason I left was the pay.\"",
+   "options": [
+    "principle",
+    "principal"
+   ],
+   "answer": 1,
+   "why": "*Principal* = main."
+  },
+  {
+   "type": "mc",
+   "q": "\"Please be ___; this deal isn't public yet.\"",
+   "options": [
+    "discrete",
+    "discreet"
+   ],
+   "answer": 1,
+   "why": "*Discreet* = careful, private."
+  },
+  {
+   "type": "text",
+   "q": "Fill in: \"The broker agreed to ___ the late fee.\" (give it up)",
+   "answer": [
+    "waive"
+   ],
+   "why": "**waive** = give up a right or a charge. A *waiver* is the document."
+  },
+  {
+   "type": "mc",
+   "q": "\"The jury should be ___: no stake in the outcome.\"",
+   "options": [
+    "uninterested",
+    "disinterested"
+   ],
+   "answer": 1,
+   "why": "**Disinterested** = impartial. *Uninterested* = bored. A bored jury is a different problem.",
+   "level": "challenge",
+   "hint": "Which one means *having nothing to gain*?"
+  },
+  {
+   "type": "mc",
+   "q": "Which is correct in careful formal writing?",
+   "options": [
+    "The fleet is comprised of 12 trucks.",
+    "The fleet comprises 12 trucks.",
+    "12 trucks comprise of the fleet.",
+    "The fleet comprises of 12 trucks."
+   ],
+   "answer": 1,
+   "why": "The whole **comprises** the parts, no *of*. *Is composed of* also works.",
+   "level": "challenge",
+   "hint": "Does *comprise* need an *of*?"
+  },
+  {
+   "type": "mc",
+   "q": "\"Let's discuss this ___ tomorrow.\"",
+   "options": [
+    "farther",
+    "further"
+   ],
+   "answer": 1,
+   "why": "Not physical distance, but more discussion (degree) → **further**.",
+   "level": "challenge",
+   "hint": "Is this about miles on a map?"
+  },
+  {
+   "type": "mc",
+   "q": "How many errors: \"Its alot less work then I thought, irregardless of the weather.\"",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 2,
+   "why": "**Four**: *Its* → **It's**, *alot* → **a lot**, *then* → **than**, *irregardless* → **regardless**. *Less work* is correct, because work is an amount, not something you count.",
+   "level": "challenge",
+   "hint": "Check each word against this lesson. Is *less* right for *work*?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  },
+  {
+   "title": "Purdue OWL: Mechanics (Purdue University)",
+   "url": "https://owl.purdue.edu/owl/general_writing/mechanics/index.html"
+  }
+ ]
+}

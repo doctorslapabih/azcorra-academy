@@ -1,0 +1,221 @@
+{
+ "id": "connotation-same-meaning-different-feel",
+ "title": "Connotation: same meaning, different feel",
+ "band": "Grades 9–10",
+ "minutes": 26,
+ "lede": "Thrifty, frugal, cheap and stingy all mean the same thing, and they'll get you four different reactions. How word choice persuades before the argument even starts.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Denotation vs connotation\n- **Denotation**: the dictionary meaning. What the word points to.\n- **Connotation**: the feeling the word carries. Positive, neutral or negative.\n\nCall a man **thrifty** and you're complimenting him. Call him **stingy** and you're insulting him. Same behavior, same denotation: he doesn't spend much. The connotation does all the work.\n\nSkilled writers, lawyers, salespeople and politicians choose connotation on purpose. Once you can see it, you can't be pushed around by it, and you can use it yourself."
+  },
+  {
+   "type": "text",
+   "md": "## The spectrum\nMost ideas come in a range from positive to negative:\n\n| 👍 Positive | Neutral | 👎 Negative |\n|---|---|---|\n| thrifty, frugal | economical | cheap, stingy |\n| confident, self-assured | assertive | arrogant, cocky |\n| determined, persistent | firm | stubborn, pigheaded |\n| curious, inquisitive | interested | nosy, prying |\n| slender, lean | thin | skinny, scrawny |\n| vintage, classic | old | outdated, obsolete |\n| bold, daring | risky | reckless |\n| youthful | young | immature, childish |\n| relaxed, easygoing | calm | lazy, apathetic |\n\nThe neutral middle column is what you use when you want to **report**, not judge."
+  },
+  {
+   "type": "check",
+   "q": "A reference letter says a driver is \"persistent.\" A complaint says the same driver is \"stubborn.\" What changed?",
+   "options": [
+    "The driver's behavior",
+    "The denotation",
+    "The connotation",
+    "Nothing"
+   ],
+   "answer": 2,
+   "why": "Both describe someone who won't give up. One frames it as a strength, the other as a flaw."
+  },
+  {
+   "type": "text",
+   "md": "## Euphemism and its opposite\n- A **euphemism** swaps a harsh word for a soft one: *passed away* (died), *let go* (fired), *pre-owned* (used), *downsizing* (layoffs), *negative growth* (decline).\n- A **dysphemism** does the reverse, making something sound worse: *gas guzzler*, *pencil pusher*, *ambulance chaser*.\n\nEuphemisms can be kind (talking to a grieving family) or slippery (a company calling layoffs a *workforce realignment* to dodge the bad news). Ask: **what would the plain word be, and why didn't they use it?**"
+  },
+  {
+   "type": "text",
+   "md": "## Loaded language\nThe same event, two headlines:\n\n- *City **invests** $40 million in new bus lanes.*\n- *City **spends** $40 million on new bus lanes.*\n\n- *Protesters **gathered** downtown.*\n- *A **mob** descended on downtown.*\n\nNone of these sentences is false. Each one tells you how to **feel** before you know any details. When you read news, reviews or ads, underline the words that carry a judgment and ask what the neutral version would be."
+  },
+  {
+   "type": "example",
+   "title": "Rewrite to change the effect",
+   "problem": "Neutral: \"The fighter is aggressive and doesn't back down.\"",
+   "steps": [
+    "**Praise it** (a coach's scouting report): *The fighter is **relentless** and **fearless**.*",
+    "**Criticize it** (a rival's trash talk): *The fighter is **reckless** and too **hotheaded** to think.*"
+   ],
+   "answer": "Same fighter, same facts. The reader's opinion was decided by two word choices."
+  },
+  {
+   "type": "example",
+   "title": "Spot the slant",
+   "problem": "\"Despite the CEO's **lavish** pay package, the company **slashed** worker benefits.\"",
+   "steps": [
+    "*Lavish* (vs *large*) suggests excess and waste.",
+    "*Slashed* (vs *reduced*) suggests a violent, careless cut.",
+    "*Despite* sets up a contrast that implies unfairness."
+   ],
+   "answer": "The facts might be accurate, but the sentence is an **argument**, not a report."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Connotation can change by context.** *Aggressive* is negative for a driver on the highway and positive for a fighter or an investor.\n- **Connotation drifts over time.** *Awful* once meant *full of awe*. *Nice* once meant *foolish*.\n- **\"Just being honest\"** is often a dysphemism in disguise. Plain, neutral words are honest. Harsh words are a choice."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Which word has the most **positive** connotation?",
+   "options": [
+    "cheap",
+    "stingy",
+    "frugal",
+    "tight-fisted"
+   ],
+   "answer": 2,
+   "why": "*Frugal* praises careful spending. The others criticize it."
+  },
+  {
+   "type": "mc",
+   "q": "Which word has the most **negative** connotation?",
+   "options": [
+    "confident",
+    "self-assured",
+    "arrogant",
+    "assertive"
+   ],
+   "answer": 2,
+   "why": "*Arrogant* adds superiority and disrespect."
+  },
+  {
+   "type": "mc",
+   "q": "\"Pre-owned vehicle\" is an example of…",
+   "options": [
+    "a dysphemism",
+    "a euphemism",
+    "an idiom",
+    "a simile"
+   ],
+   "answer": 1,
+   "why": "A softer way to say *used car*."
+  },
+  {
+   "type": "mc",
+   "q": "Which is the most **neutral** description?",
+   "options": [
+    "The truck is a rust bucket.",
+    "The truck is a vintage classic.",
+    "The truck is 22 years old.",
+    "The truck is a dinosaur."
+   ],
+   "answer": 2,
+   "why": "Only C states a fact without judging."
+  },
+  {
+   "type": "text",
+   "q": "Type a **positive** word for someone who asks a lot of questions (it starts with *i*).",
+   "answer": [
+    "inquisitive",
+    "inquiring"
+   ],
+   "why": "**inquisitive** (or *curious*). The negative version is *nosy*.",
+   "hint": "The negative version is *nosy*."
+  },
+  {
+   "type": "mc",
+   "q": "A company announces \"a workforce realignment.\" Most likely, it is…",
+   "options": [
+    "hiring",
+    "laying people off",
+    "giving raises",
+    "moving offices"
+   ],
+   "answer": 1,
+   "why": "A classic corporate euphemism for layoffs."
+  },
+  {
+   "type": "mc",
+   "q": "\"Bureaucrat\" and \"public servant\" can describe the same government worker. Which is positive?",
+   "options": [
+    "bureaucrat",
+    "public servant",
+    "both are neutral",
+    "both are negative"
+   ],
+   "answer": 1,
+   "why": "*Public servant* stresses service; *bureaucrat* suggests red tape."
+  },
+  {
+   "type": "mc",
+   "q": "*Nice* originally meant…",
+   "options": [
+    "kind",
+    "foolish, ignorant",
+    "beautiful",
+    "rich"
+   ],
+   "answer": 1,
+   "why": "From Latin *nescius*, not knowing. Its connotation flipped over centuries."
+  },
+  {
+   "type": "mc",
+   "q": "A broker writes: \"Your rate is **firm**.\" You reply that the broker is being \"**inflexible**.\" You've…",
+   "options": [
+    "agreed with the broker",
+    "changed the denotation",
+    "reframed the same fact negatively",
+    "used a euphemism"
+   ],
+   "answer": 2,
+   "why": "Firm and inflexible describe the same refusal to move. You picked the word that makes it sound unreasonable: a negotiating move.",
+   "level": "challenge",
+   "hint": "Same fact, different feel. Which way did you push it?"
+  },
+  {
+   "type": "mc",
+   "q": "Which headline is written to make readers **oppose** the project?",
+   "options": [
+    "Council approves $2M for park renovation",
+    "Council invests $2M to revitalize park",
+    "Council blows $2M on park makeover",
+    "Council allocates $2M to park"
+   ],
+   "answer": 2,
+   "why": "*Blows* suggests waste and *makeover* suggests something cosmetic. A, D are neutral; B leans positive (*invests*, *revitalize*).",
+   "level": "challenge",
+   "hint": "Look for the words that judge, not just report."
+  },
+  {
+   "type": "mc",
+   "q": "A scouting report calls a fighter \"**cerebral**.\" A rival's camp calls him \"**timid**.\" The fact both are describing is most likely that he…",
+   "options": [
+    "fights recklessly",
+    "is patient and doesn't rush in",
+    "is physically weak",
+    "talks a lot"
+   ],
+   "answer": 1,
+   "why": "*Cerebral* (thoughtful, strategic) and *timid* (afraid) are two spins on the same behavior: he waits instead of charging in.",
+   "level": "challenge",
+   "hint": "Find the neutral behavior both words could describe."
+  },
+  {
+   "type": "text",
+   "q": "Rewrite as a **euphemism** in one word: a company that's losing money is said to be \"**un**___.\" (Hint: think *profitable*.)",
+   "answer": [
+    "unprofitable"
+   ],
+   "why": "**unprofitable**: softer than *losing money*. Even softer: *experiencing negative earnings*.",
+   "level": "challenge",
+   "hint": "Add a prefix to *profitable*."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  },
+  {
+   "title": "Online Etymology Dictionary (Douglas Harper)",
+   "url": "https://www.etymonline.com/"
+  }
+ ]
+}

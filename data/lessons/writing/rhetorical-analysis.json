@@ -1,0 +1,225 @@
+{
+ "id": "rhetorical-analysis",
+ "title": "Rhetorical analysis",
+ "band": "AP Lang",
+ "minutes": 36,
+ "lede": "You're handed a speech or essay and asked: how does the writer persuade this audience? Not whether you agree. How it works. The skill transfers to every ad, pitch and promo you'll ever see.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The task\nA rhetorical analysis explains **the choices a writer makes** and **why those choices work** (or don't) for a specific **audience** and **purpose**.\n\nIt is **not**:\n- a summary of what the text says,\n- your opinion of the topic,\n- a list of devices you spotted.\n\nIt **is** an argument about **how** the text persuades."
+  },
+  {
+   "type": "text",
+   "md": "## Start with SPACECAT\nBefore writing, map the rhetorical situation. One common tool:\n\n| Letter | Ask |\n|---|---|\n| **S**peaker | Who's talking? What gives them authority, or what do they lack? |\n| **P**urpose | What do they want the audience to think, feel or do? |\n| **A**udience | Who's listening? What do they already believe or fear? |\n| **C**ontext | When and where? What's happening that makes this urgent? |\n| **E**xigence | What specific event prompted this text? |\n| **C**hoices | What rhetorical choices does the writer make? |\n| **A**ppeals | How do those choices build ethos, pathos, logos? |\n| **T**one | What's the attitude, and does it shift? |\n\nThe **choices** must connect back to **purpose** and **audience**. That connection is the analysis."
+  },
+  {
+   "type": "text",
+   "md": "## Choices to look for\nThe best essays focus on **choices**, written as verbs: the writer *contrasts*, *invokes*, *concedes*, *shifts*, *recounts*, *juxtaposes*, *questions*.\n\n- **Structure**: How does it open and close? Where does it shift?\n- **Diction**: What words carry weight? What connotations?\n- **Syntax**: Short punchy sentences? Long, building ones? Questions?\n- **Evidence**: Stories, statistics, authority, history?\n- **Appeals**: ethos, pathos, logos (from the argument unit)\n- **Devices**: anaphora, antithesis, allusion (from the rhetoric vocabulary)\n\nWeak: *The author uses pathos.*\nStrong: *The author **recounts** a single mother's eviction to make a statistic personal for legislators who have never faced one.*"
+  },
+  {
+   "type": "check",
+   "q": "Which thesis is best for a rhetorical analysis?",
+   "options": [
+    "The speaker makes good points about education.",
+    "The speaker uses ethos, pathos and logos.",
+    "To persuade skeptical school board members to fund vocational programs, the speaker pairs graduation data with a former student's story, then reframes the cost as an investment rather than an expense.",
+    "I agree with the speaker."
+   ],
+   "answer": 2,
+   "why": "It names the **audience**, the **purpose** and the **specific choices**, and implies **why** they work."
+  },
+  {
+   "type": "text",
+   "md": "## The body paragraph formula\nOrganize by **choice** or by **section of the text** (beginning, middle, end), not by appeal (a paragraph on ethos, one on pathos, one on logos is the classic weak structure).\n\nEach body paragraph:\n\n1. **Claim**: the choice and its purpose. *Early on, the speaker establishes common ground.*\n2. **Evidence**: a short, embedded quote. *She opens with \"Like many of you, I grew up in this county.\"*\n3. **Commentary** (the most important part): **how** this works on **this** audience, and **why** it matters. *By presenting herself as a neighbor rather than an outsider, she disarms board members who distrust state officials, making them more willing to consider the data that follows.*\n4. **Link** back to the thesis.\n\nAim for **more commentary than quotation**. A useful habit: after every quote, write at least two sentences explaining it."
+  },
+  {
+   "type": "example",
+   "title": "Commentary: from weak to strong",
+   "problem": "Quote: Kennedy, 1961: *\"Ask not what your country can do for you; ask what you can do for your country.\"*",
+   "steps": [
+    "**Weak:** This is chiasmus. It is very effective.",
+    "**Better:** Kennedy uses chiasmus to reverse the relationship between citizen and nation.",
+    "**Strong:** By reversing *country* and *you*, Kennedy flips the expected direction of obligation. For a Cold War audience anxious about national strength, the balanced, memorable structure turns a request for sacrifice into a call to identity: serving the country becomes something citizens choose, not something they're ordered to do."
+   ],
+   "answer": "The strong version: **device → what it does → why it works on this audience in this moment**."
+  },
+  {
+   "type": "text",
+   "md": "## How these essays are scored\nAP Language scores each of its three essays (synthesis, rhetorical analysis, argument) on the same **6-point** rubric:\n\n| Row | Points | What earns it |\n|---|---|---|\n| **Thesis** | 0–1 | a defensible claim that responds to the prompt |\n| **Evidence and commentary** | 0–4 | specific evidence **plus** explanation of how it supports the thesis; the commentary is what separates a 2 from a 4 |\n| **Sophistication** | 0–1 | complex understanding: explaining tensions, situating the argument in a broader context, or a consistently vivid, persuasive style |\n\nThe big lesson: **4 of the 6 points are evidence and commentary.** Explaining your evidence is where scores are won.\n\n*(Check the College Board's exam page for current timing and format; the rubric structure has been stable since 2019.)*"
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Summarizing.** If you could write the sentence without having read the text closely, it's not analysis.\n- **Device-hunting.** Five labeled devices with no explanation earn less than one choice fully explained.\n- **Organizing by ethos/pathos/logos.** Organize by the writer's moves instead.\n- **Ignoring the audience.** Every claim should answer: *why does this work on these people?*\n- **Weak verbs:** *uses, shows, says.* Prefer *juxtaposes, concedes, invokes, reframes, undercuts.*"
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "A rhetorical analysis mainly explains…",
+   "options": [
+    "whether you agree",
+    "what the text says",
+    "how the writer's choices persuade a specific audience",
+    "the author's biography"
+   ],
+   "answer": 2,
+   "why": "How it works."
+  },
+  {
+   "type": "mc",
+   "q": "In SPACECAT, \"exigence\" is…",
+   "options": [
+    "the speaker's tone",
+    "the event or problem that prompted the text",
+    "the audience",
+    "the length"
+   ],
+   "answer": 1,
+   "why": "Why now."
+  },
+  {
+   "type": "mc",
+   "q": "The weakest way to organize body paragraphs is usually…",
+   "options": [
+    "by section of the text",
+    "by rhetorical choice",
+    "one paragraph each for ethos, pathos, logos",
+    "chronologically through the speech"
+   ],
+   "answer": 2,
+   "why": "It turns into device-labeling."
+  },
+  {
+   "type": "mc",
+   "q": "Which verb is strongest for analysis?",
+   "options": [
+    "uses",
+    "says",
+    "juxtaposes",
+    "shows"
+   ],
+   "answer": 2,
+   "why": "Precise rhetorical verbs."
+  },
+  {
+   "type": "mc",
+   "q": "The most important part of a body paragraph is…",
+   "options": [
+    "the quote",
+    "the commentary explaining how and why",
+    "the topic sentence only",
+    "the transition"
+   ],
+   "answer": 1,
+   "why": "4 of 6 rubric points."
+  },
+  {
+   "type": "mc",
+   "q": "A good rhetorical analysis thesis includes…",
+   "options": [
+    "your opinion of the topic",
+    "the audience, purpose and specific choices",
+    "a list of every device",
+    "a summary of the text"
+   ],
+   "answer": 1,
+   "why": "What, to whom, and how."
+  },
+  {
+   "type": "mc",
+   "q": "How much of the AP Lang essay rubric is evidence and commentary?",
+   "options": [
+    "1 of 6",
+    "2 of 6",
+    "4 of 6",
+    "6 of 6"
+   ],
+   "answer": 2,
+   "why": "Thesis 1, sophistication 1, evidence and commentary 4."
+  },
+  {
+   "type": "mc",
+   "q": "After each quote, a useful habit is to…",
+   "options": [
+    "add another quote",
+    "write at least two sentences explaining it",
+    "move to the next paragraph",
+    "define the device"
+   ],
+   "answer": 1,
+   "why": "Commentary > quotation."
+  },
+  {
+   "type": "mc",
+   "q": "Which commentary is strongest about a CEO's apology letter that opens \"I failed you\"?",
+   "options": [
+    "This shows ethos.",
+    "The CEO admits fault.",
+    "By opening with a blunt, first-person admission instead of corporate passive voice, the CEO takes personal responsibility, which disarms angry customers primed to expect excuses and makes the fixes that follow seem credible.",
+    "This is a good opening."
+   ],
+   "answer": 2,
+   "why": "Choice (blunt first person vs passive voice) → effect → audience (angry customers) → why it matters for purpose.",
+   "level": "challenge",
+   "hint": "Which one explains why it works on these readers?"
+  },
+  {
+   "type": "mc",
+   "q": "A speech to striking workers opens with jokes, then turns grave halfway through. The best analytical move is to…",
+   "options": [
+    "ignore the jokes",
+    "analyze the tonal shift: why build rapport first, then turn serious?",
+    "count the jokes",
+    "summarize both halves"
+   ],
+   "answer": 1,
+   "why": "Shifts are gold: they're deliberate choices with a purpose (earning goodwill before delivering hard news).",
+   "level": "challenge",
+   "hint": "Look for where the writer changes direction."
+  },
+  {
+   "type": "mc",
+   "q": "Which is a summary, not analysis?",
+   "options": [
+    "The author describes three closed factories and their laid-off workers.",
+    "By moving from the closed factories to the laid-off workers' kitchen tables, the author narrows a national statistic into a household scale that readers can feel.",
+    "The author's shift from data to scene invites readers to see job losses as personal rather than abstract.",
+    "Juxtaposing the CEO's bonus with a worker's final paycheck sharpens the reader's sense of unfairness."
+   ],
+   "answer": 0,
+   "why": "A only reports content. The others explain how choices affect the reader.",
+   "level": "challenge",
+   "hint": "Which one could you write without explaining any effect?"
+  },
+  {
+   "type": "mc",
+   "q": "What most often earns the sophistication point in rhetorical analysis?",
+   "options": [
+    "using big vocabulary words",
+    "explaining the significance of the writer's choices within the broader rhetorical situation, including tensions or complexities",
+    "writing more than five paragraphs",
+    "quoting a lot"
+   ],
+   "answer": 1,
+   "why": "Sophistication = complex understanding, such as how the writer navigates a divided audience or a tension in the situation.",
+   "level": "challenge",
+   "hint": "Depth of understanding, not decoration."
+  }
+ ],
+ "sources": [
+  {
+   "title": "College Board: AP English Language and Composition Exam",
+   "url": "https://apcentral.collegeboard.org/courses/ap-english-language-and-composition/exam"
+  },
+  {
+   "title": "College Board: AP English Language FRQ Scoring Rubrics",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-frqs-1-2-3-scoring-rubrics.pdf"
+  },
+  {
+   "title": "Purdue OWL: Rhetorical Situations",
+   "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/index.html"
+  }
+ ]
+}

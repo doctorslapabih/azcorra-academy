@@ -806,22 +806,26 @@
      {
       "id": "rhetorical-analysis",
       "title": "Rhetorical analysis",
-      "ready": false
+      "ready": true,
+      "desc": "You're handed a speech or essay and asked: how does the writer persuade this audience? Not whether you agree. How it works. The skill transfers to every ad, pitch and promo you'll ever see."
      },
      {
       "id": "the-synthesis-essay",
       "title": "The synthesis essay",
-      "ready": false
+      "ready": true,
+      "desc": "You get a question and a packet of sources: articles, charts, images. Your job: take a position and build it from the sources, in conversation with each other. The skill behind every good research report and business decision memo."
      },
      {
       "id": "the-argument-essay",
       "title": "The argument essay",
-      "ready": false
+      "ready": true,
+      "desc": "No sources this time. Just a claim, a question, and whatever you know. How to take a position fast, pull evidence from your own life and knowledge, and make it convincing."
      },
      {
       "id": "style-and-syntax",
       "title": "Style and syntax",
-      "ready": false
+      "ready": true,
+      "desc": "Sentences have shapes, and the shape changes the meaning. Learn to control length, rhythm and emphasis so your writing hits the way you mean it."
      }
     ]
    }

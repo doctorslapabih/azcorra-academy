@@ -1,0 +1,241 @@
+{
+ "id": "style-and-syntax",
+ "title": "Style and syntax",
+ "band": "AP Lang",
+ "minutes": 32,
+ "lede": "Sentences have shapes, and the shape changes the meaning. Learn to control length, rhythm and emphasis so your writing hits the way you mean it.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Sentence types by structure\n| Type | Structure | Example |\n|---|---|---|\n| **Simple** | one independent clause | *He trained.* |\n| **Compound** | two independent clauses joined | *He trained, but he lost.* |\n| **Complex** | independent + dependent clause | *Although he trained, he lost.* |\n| **Compound-complex** | 2+ independent + 1+ dependent | *Although he trained, he lost, and the loss changed him.* |\n\nNone is better. Each does something different. Variety keeps a reader awake; repetition of one type makes prose feel flat or frantic."
+  },
+  {
+   "type": "text",
+   "md": "## Length is a tool\n- **Short sentences** hit hard. They emphasize. They slow the reader down. They feel certain.\n- **Long sentences** carry the reader forward through a series of linked ideas, building momentum and complexity, letting one thought lead into the next until the sentence lands where you wanted it all along.\n\nThe classic move: **several long sentences, then a short one**. The contrast makes the short one land.\n\n*He had studied the tape for weeks, drilled the counter until he could do it half-asleep, cut the weight without losing his legs, and walked out to the cage believing every detail had been handled. Then the first punch landed.*"
+  },
+  {
+   "type": "check",
+   "q": "Why end a paragraph of long sentences with a very short one?",
+   "options": [
+    "to save space",
+    "the contrast gives the short sentence emphasis",
+    "grammar requires it",
+    "it's more formal"
+   ],
+   "answer": 1,
+   "why": "Rhythm creates emphasis."
+  },
+  {
+   "type": "text",
+   "md": "## Where emphasis lives\nReaders naturally stress the **end** of a sentence. Put the key word there.\n\n- *The account was blown by revenge trading.* (ends on the cause)\n- *Revenge trading blew the account.* (ends on the result)\n\n**Periodic sentence**: holds the main point until the end, building suspense.\n*After three months of losses, two blown evaluations and one long talk with himself, he finally wrote down a rule.*\n\n**Loose (cumulative) sentence**: main point first, then details pile on.\n*He wrote down a rule, after three months of losses, two blown evaluations and one long talk with himself.*\n\nPeriodic = suspense and drama. Loose = natural, conversational, detailed."
+  },
+  {
+   "type": "text",
+   "md": "## Other syntax tools\n| Tool | Effect | Example |\n|---|---|---|\n| **Fragment** (on purpose) | punch, emphasis | *He tapped out. Twelve seconds.* |\n| **Rhetorical question** | engages, challenges | *What's a strategy worth if you won't follow it?* |\n| **Parallelism** | rhythm, clarity, force | *to plan the trade, to trade the plan, to review the result* |\n| **Inversion** | unusual word order for emphasis | *Rare is the trader who reviews his wins as carefully as his losses.* |\n| **Dash** | sudden turn or emphasis | *He had one rule — and he broke it.* |\n| **Colon** | sets up an explanation or reveal | *The problem was simple: he never journaled.* |"
+  },
+  {
+   "type": "example",
+   "title": "Revise for style",
+   "problem": "Flat: *I started trucking. It was hard. I didn't know anything. I learned a lot. Now I'm better at it.*",
+   "steps": [
+    "Five simple sentences of the same length and shape: monotonous.",
+    "Combine for flow, then end short for punch.",
+    "*When I started trucking, I didn't know how to read a rate con, plan a fuel stop or talk to a broker without sounding new. Every mistake cost money, and I made most of them. I learned anyway.*"
+   ],
+   "answer": "Same facts. Variety in length, a list in parallel form, and a short final sentence that lands."
+  },
+  {
+   "type": "text",
+   "md": "## Analyzing syntax in AP Lang\nWhen you analyze a writer's syntax, the move is the same as always: **choice → effect → purpose**.\n\n*Weak:* The author uses short sentences.\n*Strong:* After a long, winding description of the factory's history, the author drops to three fragments (*Locked. Empty. Gone.*), and the sudden halt mirrors the town's abrupt loss of its livelihood."
+  },
+  {
+   "type": "check",
+   "q": "\"Rare is the fighter who enjoys cutting weight.\" This uses…",
+   "options": [
+    "a fragment",
+    "inversion",
+    "polysyndeton",
+    "a loose sentence"
+   ],
+   "answer": 1,
+   "why": "Normal order would be *The fighter who enjoys cutting weight is rare.*"
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **All sentences the same length.** Monotone.\n- **Accidental fragments.** Intentional fragments are a style choice; accidental ones are errors. Use them sparingly and on purpose.\n- **Burying the key word mid-sentence.** Move it to the end.\n- **Over-styling.** Every sentence can't be dramatic. Style works by contrast."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "\"Although she was tired, she finished the run.\" is…",
+   "options": [
+    "simple",
+    "compound",
+    "complex",
+    "compound-complex"
+   ],
+   "answer": 2,
+   "why": "Independent + dependent clause."
+  },
+  {
+   "type": "mc",
+   "q": "\"He trained, and she coached.\" is…",
+   "options": [
+    "simple",
+    "compound",
+    "complex",
+    "a fragment"
+   ],
+   "answer": 1,
+   "why": "Two independent clauses."
+  },
+  {
+   "type": "mc",
+   "q": "Readers tend to stress the ___ of a sentence.",
+   "options": [
+    "beginning",
+    "middle",
+    "end",
+    "punctuation"
+   ],
+   "answer": 2,
+   "why": "End position = emphasis."
+  },
+  {
+   "type": "mc",
+   "q": "A sentence that saves its main point for the end is…",
+   "options": [
+    "loose",
+    "periodic",
+    "compound",
+    "a fragment"
+   ],
+   "answer": 1,
+   "why": "Builds suspense."
+  },
+  {
+   "type": "mc",
+   "q": "\"The problem was simple: he never journaled.\" The colon…",
+   "options": [
+    "joins two lists",
+    "sets up a reveal or explanation",
+    "is a mistake",
+    "creates a question"
+   ],
+   "answer": 1,
+   "why": "Setup → payoff."
+  },
+  {
+   "type": "mc",
+   "q": "Short sentences tend to create…",
+   "options": [
+    "complexity",
+    "emphasis and certainty",
+    "confusion",
+    "formality"
+   ],
+   "answer": 1,
+   "why": "Punch."
+  },
+  {
+   "type": "mc",
+   "q": "\"to plan the trade, to trade the plan, to review the result\" uses…",
+   "options": [
+    "inversion",
+    "parallelism",
+    "a fragment",
+    "a periodic structure"
+   ],
+   "answer": 1,
+   "why": "Matching structures."
+  },
+  {
+   "type": "mc",
+   "q": "Intentional fragments should be used…",
+   "options": [
+    "in every paragraph",
+    "sparingly, for effect",
+    "never",
+    "only in formal reports"
+   ],
+   "answer": 1,
+   "why": "Style through contrast."
+  },
+  {
+   "type": "mc",
+   "q": "Which revision puts the most emphasis on \"discipline\"?",
+   "options": [
+    "Discipline is what separates pros from amateurs.",
+    "What separates pros from amateurs is discipline.",
+    "Pros and amateurs are separated by many things, discipline being one.",
+    "Amateurs often lack discipline, unlike pros."
+   ],
+   "answer": 1,
+   "why": "End position = emphasis, and the sentence builds to the word.",
+   "level": "challenge",
+   "hint": "Where do readers put the stress?"
+  },
+  {
+   "type": "mc",
+   "q": "Which is a **loose** (cumulative) sentence?",
+   "options": [
+    "After the bell, after the doctor's check, after the long walk back, he finally sat down.",
+    "He sat down, exhausted, hands taped, the crowd still roaring above him.",
+    "Exhausted, he sat.",
+    "Rarely had he felt so tired."
+   ],
+   "answer": 1,
+   "why": "Main clause first (*He sat down*), then details pile on. A is periodic; D is inversion.",
+   "level": "challenge",
+   "hint": "Where's the main clause?"
+  },
+  {
+   "type": "mc",
+   "q": "Analyzing syntax: an essay about a hospital ER uses one 90-word sentence listing everything happening at once. The best commentary is…",
+   "options": [
+    "The sentence is long.",
+    "The author uses a long sentence, which is a syntax choice.",
+    "The single breathless sentence, stacking patient after patient without a full stop, recreates the overwhelming pace of the ER, making readers feel the staff's lack of time to pause.",
+    "Long sentences are hard to read."
+   ],
+   "answer": 2,
+   "why": "Choice → effect on the reader → connection to the subject.",
+   "level": "challenge",
+   "hint": "Connect the form to the meaning."
+  },
+  {
+   "type": "mc",
+   "q": "Revise for rhythm: \"I lost. I was angry. I traded again. I lost more.\" Which version best uses variety and ending emphasis?",
+   "options": [
+    "I lost, and I was angry, and I traded again, and I lost more.",
+    "After the first loss, angry and certain I could win it back, I traded again. I lost more.",
+    "Losing, angry, trading, losing.",
+    "I lost and I was angry so I traded again and lost more money."
+   ],
+   "answer": 1,
+   "why": "A longer sentence carries the emotional spiral; the short final one lands the consequence.",
+   "level": "challenge",
+   "hint": "Long build, short hit."
+  }
+ ],
+ "sources": [
+  {
+   "title": "College Board: AP English Language and Composition Exam",
+   "url": "https://apcentral.collegeboard.org/courses/ap-english-language-and-composition/exam"
+  },
+  {
+   "title": "Purdue OWL: Strategies for Variation",
+   "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/sentence_variety/index.html"
+  },
+  {
+   "title": "Purdue OWL: Sentence and Clause Arrangement for Emphasis",
+   "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/adding_emphasis/sentence_and_clause_arrangement.html"
+  },
+  {
+   "title": "UNC Writing Center: Style",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/style/"
+  }
+ ]
+}

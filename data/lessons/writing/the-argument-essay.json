@@ -1,0 +1,225 @@
+{
+ "id": "the-argument-essay",
+ "title": "The argument essay",
+ "band": "AP Lang",
+ "minutes": 34,
+ "lede": "No sources this time. Just a claim, a question, and whatever you know. How to take a position fast, pull evidence from your own life and knowledge, and make it convincing.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The task\nThe argument prompt presents a quotation or idea and asks you to develop a position on it. There are no sources: the evidence comes from **your own reading, observation and experience**.\n\nThat's a gift if you've lived. Trucking, trading, fighting, work and family are all evidence, if you **explain** them well. Strong essays mix **personal examples** with **broader ones** (history, current events, science, books)."
+  },
+  {
+   "type": "text",
+   "md": "## Taking a position fast\nYou have limited time. Use the first few minutes to:\n\n1. **Restate the prompt** in plain words.\n2. **Brainstorm both sides** quickly: two or three examples each.\n3. **Pick the side you can support best**, not necessarily the one you feel strongest about.\n4. **Qualify it**: when, where, for whom is it true?\n\n*Prompt idea: Is failure necessary for success?*\n- **Simple:** *Yes, failure is necessary.*\n- **Qualified:** *Failure isn't necessary for success, but analyzed failure is the fastest teacher, because it exposes weaknesses that comfort hides.*"
+  },
+  {
+   "type": "check",
+   "q": "Which is the best argument thesis on whether competition brings out the best in people?",
+   "options": [
+    "Competition is good.",
+    "Competition brings out the best in people when it's measured against a standard they respect, but it brings out the worst when winning becomes the only identity.",
+    "Some people like competition and some don't.",
+    "Competition: a definition."
+   ],
+   "answer": 1,
+   "why": "Defensible, qualified, and sets up the essay's reasoning."
+  },
+  {
+   "type": "text",
+   "md": "## Evidence that works without sources\n| Type | Example | Strength |\n|---|---|---|\n| **Personal experience** | your first losing month trading | vivid, authentic |\n| **Observation** | what happens to drivers who skip pre-trip inspections | concrete, credible |\n| **History** | a well-known historical example | broad, authoritative |\n| **Current events** | a recent, widely known business or sports story | relevant, shows awareness |\n| **Literature / film** | a character's choices | shows range |\n| **Science / data you know** | sleep and reaction time | logical weight |\n\n**Specific beats general.** *Many athletes overcome setbacks* is weak. *A fighter who loses by knockout, rebuilds his defense for a year, and wins the rematch* is evidence.\n\n**Only use facts you're sure of.** A vivid personal example beats a half-remembered statistic."
+  },
+  {
+   "type": "text",
+   "md": "## Line of reasoning\nThe essay needs a **line of reasoning**: each paragraph advances the argument a step, not just adds another example of the same thing.\n\n**Weak (list):** failure helped athlete X / failure helped business Y / failure helped student Z.\n\n**Strong (progression):**\n1. Failure exposes weaknesses success hides (a losing trade reveals a rule you broke).\n2. But only **analyzed** failure teaches; repeated failure without review teaches nothing (traders who blow accounts the same way twice).\n3. So the real ingredient isn't failure itself but **honest review** (fighters studying their losses on film), which is why some succeed without dramatic failure at all.\n\nEach step builds on the last, and the third paragraph **refines** the thesis. That's the kind of thinking that earns sophistication."
+  },
+  {
+   "type": "example",
+   "title": "Turn your life into evidence",
+   "problem": "Claim: discipline is a system, not a personality trait.",
+   "steps": [
+    "**Example:** a daily trading rule: stop after two losses.",
+    "**Weak commentary:** This shows discipline.",
+    "**Strong commentary:** The rule doesn't depend on feeling disciplined in the moment. After two losses, the trader is exactly the person least able to make good decisions, so the decision is made in advance, when he's calm. Discipline lives in the system, which is why people who \"lack willpower\" can still follow it."
+   ],
+   "answer": "The strong version explains **why** the example proves the claim, and it would persuade a reader who's never traded."
+  },
+  {
+   "type": "text",
+   "md": "## How these essays are scored\nAP Language scores each of its three essays (synthesis, rhetorical analysis, argument) on the same **6-point** rubric:\n\n| Row | Points | What earns it |\n|---|---|---|\n| **Thesis** | 0–1 | a defensible claim that responds to the prompt |\n| **Evidence and commentary** | 0–4 | specific evidence **plus** explanation of how it supports the thesis; the commentary is what separates a 2 from a 4 |\n| **Sophistication** | 0–1 | complex understanding: explaining tensions, situating the argument in a broader context, or a consistently vivid, persuasive style |\n\nThe big lesson: **4 of the 6 points are evidence and commentary.** Explaining your evidence is where scores are won.\n\n*(Check the College Board's exam page for current timing and format; the rubric structure has been stable since 2019.)*"
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **One-sided absolutes.** Qualify.\n- **A list of examples** instead of a line of reasoning.\n- **Vague examples** (*many people*, *throughout history*).\n- **Made-up statistics.** Readers can tell, and it destroys ethos.\n- **Telling a story without explaining it.** A personal example is evidence only after you explain what it proves."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "The argument essay's evidence comes from…",
+   "options": [
+    "a packet of sources",
+    "your own knowledge, reading and experience",
+    "the rubric",
+    "the prompt only"
+   ],
+   "answer": 1,
+   "why": "No sources provided."
+  },
+  {
+   "type": "mc",
+   "q": "Which example is most specific?",
+   "options": [
+    "Many people fail before they succeed.",
+    "Throughout history, people have struggled.",
+    "After losing his first two businesses, a founder took the lessons into his third.",
+    "Failure is common."
+   ],
+   "answer": 2,
+   "why": "Concrete beats general."
+  },
+  {
+   "type": "mc",
+   "q": "A \"line of reasoning\" means…",
+   "options": [
+    "many examples of the same point",
+    "each paragraph advances the argument a step further",
+    "a long thesis",
+    "lots of quotes"
+   ],
+   "answer": 1,
+   "why": "Progression, not a list."
+  },
+  {
+   "type": "mc",
+   "q": "In the first minutes, you should…",
+   "options": [
+    "start writing immediately",
+    "brainstorm both sides and pick the one you can support best",
+    "count words",
+    "memorize the prompt"
+   ],
+   "answer": 1,
+   "why": "Plan briefly."
+  },
+  {
+   "type": "mc",
+   "q": "Personal experience is valid evidence if…",
+   "options": [
+    "it's dramatic",
+    "you explain what it proves",
+    "it's long",
+    "it happened recently"
+   ],
+   "answer": 1,
+   "why": "Explanation makes it evidence."
+  },
+  {
+   "type": "mc",
+   "q": "Inventing a statistic in an argument essay…",
+   "options": [
+    "is smart if it sounds real",
+    "damages your credibility",
+    "earns sophistication",
+    "is required"
+   ],
+   "answer": 1,
+   "why": "Use only facts you're sure of."
+  },
+  {
+   "type": "mc",
+   "q": "A qualified thesis…",
+   "options": [
+    "is weak",
+    "takes a position while defining its limits",
+    "takes no position",
+    "is longer than one paragraph"
+   ],
+   "answer": 1,
+   "why": "Defensible and nuanced."
+  },
+  {
+   "type": "mc",
+   "q": "The argument essay is scored on…",
+   "options": [
+    "the 6-point rubric",
+    "length",
+    "number of examples",
+    "vocabulary only"
+   ],
+   "answer": 0,
+   "why": "Same rubric."
+  },
+  {
+   "type": "mc",
+   "q": "Which paragraph sequence shows the strongest line of reasoning for \"Comfort is the enemy of growth\"?",
+   "options": [
+    "Example 1, Example 2, Example 3, all showing comfort is bad",
+    "Comfort hides weaknesses → but some comfort (rest, recovery) is needed for growth → so growth requires deliberate discomfort balanced with deliberate recovery",
+    "Definition, history, conclusion",
+    "Three personal stories with no connection"
+   ],
+   "answer": 1,
+   "why": "Each step refines the last, ending in a more precise claim than the start.",
+   "level": "challenge",
+   "hint": "Which one gets smarter as it goes?"
+  },
+  {
+   "type": "mc",
+   "q": "Your example: you blew a trading account by revenge trading. Which commentary best supports \"Emotions make poor decision-makers\"?",
+   "options": [
+    "That was a bad day.",
+    "This shows emotions are bad.",
+    "After the first loss, anger made the next trade feel urgent rather than optional; I sized up to win it back, the opposite of my plan. The emotion didn't just add risk, it rewrote my rules in the moment.",
+    "I learned my lesson."
+   ],
+   "answer": 2,
+   "why": "Explains the mechanism (urgency, sizing up, rules rewritten) linking example to claim.",
+   "level": "challenge",
+   "hint": "Which one explains how the emotion caused the decision?"
+  },
+  {
+   "type": "mc",
+   "q": "Which thesis is likeliest to earn the sophistication point on \"Is ambition admirable?\"",
+   "options": [
+    "Ambition is admirable.",
+    "Ambition is not admirable.",
+    "Ambition is admirable when it's aimed at mastery rather than status, because the first builds the person while the second can justify cutting any corner to be seen as successful.",
+    "Ambition has pros and cons."
+   ],
+   "answer": 2,
+   "why": "Takes a side, draws a precise distinction, and explains why: complex understanding.",
+   "level": "challenge",
+   "hint": "Look for a distinction that explains a tension."
+  },
+  {
+   "type": "mc",
+   "q": "Which is the best way to use a well-known historical example you only half-remember?",
+   "options": [
+    "Add specific dates and numbers to make it sound authoritative",
+    "Use only the parts you're sure of, or swap it for an example you know well",
+    "Skip commentary",
+    "Put it in the thesis"
+   ],
+   "answer": 1,
+   "why": "Precision you can't back up undermines ethos. A smaller example you know cold is stronger.",
+   "level": "challenge",
+   "hint": "What protects your credibility?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "College Board: AP English Language and Composition Exam",
+   "url": "https://apcentral.collegeboard.org/courses/ap-english-language-and-composition/exam"
+  },
+  {
+   "title": "College Board: AP English Language FRQ Scoring Rubrics",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-frqs-1-2-3-scoring-rubrics.pdf"
+  },
+  {
+   "title": "UNC Writing Center: Argument",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/argument/"
+  }
+ ]
+}

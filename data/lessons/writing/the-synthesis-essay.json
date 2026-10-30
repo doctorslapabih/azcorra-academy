@@ -1,0 +1,226 @@
+{
+ "id": "the-synthesis-essay",
+ "title": "The synthesis essay",
+ "band": "AP Lang",
+ "minutes": 34,
+ "lede": "You get a question and a packet of sources: articles, charts, images. Your job: take a position and build it from the sources, in conversation with each other. The skill behind every good research report and business decision memo.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The task\nThe synthesis prompt gives you a debatable issue and a set of short sources (typically six or seven, including at least one visual like a chart). You must:\n\n1. Take a **position** on the issue.\n2. Support it using **at least three** of the sources.\n3. Make the sources **talk to each other**, not just line up one by one.\n\n**Synthesis ≠ summary.** Don't walk through Source A, then B, then C. Your argument leads; the sources are your evidence."
+  },
+  {
+   "type": "text",
+   "md": "## Reading the sources fast and smart\nFor each source, note in the margin:\n\n- **Position**: for, against, mixed?\n- **Type of evidence**: data, expert, story, history?\n- **Who and why**: the author's perspective or possible bias\n- **Connections**: which other source does this agree with or challenge?\n\nThen group them: *Sources A, D, F support limits. B and E oppose. C is data both sides could use.* That map is your outline."
+  },
+  {
+   "type": "check",
+   "q": "What's the main difference between synthesis and summary?",
+   "options": [
+    "Synthesis is shorter",
+    "In synthesis, your argument leads and sources serve it in combination",
+    "Synthesis uses no sources",
+    "Summary needs a thesis"
+   ],
+   "answer": 1,
+   "why": "Your claim drives; sources are woven in as evidence."
+  },
+  {
+   "type": "text",
+   "md": "## Making sources talk\nThe move that separates a strong synthesis essay:\n\n- **Corroborate**: *Source B's survey finds 70% of drivers sleep poorly in sleeper berths, and Source E's crash data suggests why that matters.*\n- **Complicate**: *While Source A argues electronic logs improve safety, Source D notes that rigid hours can push drivers onto the road when they're tired, a tension any policy must address.*\n- **Qualify**: *Source C's study supports this, but only for long-haul drivers, so the claim applies most strongly there.*\n\nCite sources the way the prompt asks, usually **(Source A)** or by author name."
+  },
+  {
+   "type": "example",
+   "title": "Build a paragraph",
+   "problem": "Prompt: Should companies adopt a four-day work week? Thesis: *Companies should pilot four-day weeks for office roles, where evidence shows productivity holds, but not assume it works for every industry.*",
+   "steps": [
+    "**Claim:** For knowledge work, a shorter week can maintain output while reducing burnout.",
+    "**Source + commentary:** Source B's trial data shows output stayed steady while sick days fell. That matters because burnout costs show up later as turnover, which the trial's short time frame might understate.",
+    "**Second source, connected:** Source E's interviews explain the mechanism: employees cut low-value meetings to fit the shorter week.",
+    "**Complication:** Yet Source D, a manufacturer's account, warns that a production line can't compress hours the same way, which is why the thesis limits the claim to office roles."
+   ],
+   "answer": "Three sources, connected to each other and to the thesis, with a complication that **strengthens** the argument by showing its limits."
+  },
+  {
+   "type": "text",
+   "md": "## Thesis for synthesis\nStrong synthesis theses are often **qualified**: they take a side but define its limits. That's honest, and it's often how you earn the sophistication point.\n\n- **Too broad:** *Social media is bad.*\n- **One-sided:** *Schools should ban phones completely.*\n- **Qualified and defensible:** *Schools should restrict phones during class time, where the evidence on distraction is strongest, while allowing them between classes for safety and communication.*"
+  },
+  {
+   "type": "text",
+   "md": "## How these essays are scored\nAP Language scores each of its three essays (synthesis, rhetorical analysis, argument) on the same **6-point** rubric:\n\n| Row | Points | What earns it |\n|---|---|---|\n| **Thesis** | 0–1 | a defensible claim that responds to the prompt |\n| **Evidence and commentary** | 0–4 | specific evidence **plus** explanation of how it supports the thesis; the commentary is what separates a 2 from a 4 |\n| **Sophistication** | 0–1 | complex understanding: explaining tensions, situating the argument in a broader context, or a consistently vivid, persuasive style |\n\nThe big lesson: **4 of the 6 points are evidence and commentary.** Explaining your evidence is where scores are won.\n\n*(Check the College Board's exam page for current timing and format; the rubric structure has been stable since 2019.)*"
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Source-by-source tours.** Organize by your **reasons**, not by sources.\n- **Using fewer than three sources.** It's a hard requirement.\n- **Quoting without commentary.** Same rule as always: explain how it supports your claim.\n- **Ignoring the visual source.** Charts are often the most underused evidence in the packet.\n- **Treating every source as neutral.** Noting a source's perspective or limits is commentary."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "The synthesis essay requires using at least how many of the provided sources?",
+   "options": [
+    "one",
+    "two",
+    "three",
+    "all of them"
+   ],
+   "answer": 2,
+   "why": "At least three."
+  },
+  {
+   "type": "mc",
+   "q": "The best way to organize a synthesis essay is…",
+   "options": [
+    "one paragraph per source, in order",
+    "by your reasons, with sources woven in",
+    "alphabetically by source",
+    "all quotes first, then analysis"
+   ],
+   "answer": 1,
+   "why": "Your argument leads."
+  },
+  {
+   "type": "mc",
+   "q": "\"Source C supports Source A's findings, but only for adults\" is an example of…",
+   "options": [
+    "summary",
+    "making sources talk (qualifying/corroborating)",
+    "plagiarism",
+    "a thesis"
+   ],
+   "answer": 1,
+   "why": "Connecting sources."
+  },
+  {
+   "type": "mc",
+   "q": "Before writing, you should map each source's…",
+   "options": [
+    "word count",
+    "position, evidence type, perspective and connections",
+    "font",
+    "publication city only"
+   ],
+   "answer": 1,
+   "why": "That map becomes the outline."
+  },
+  {
+   "type": "mc",
+   "q": "Which thesis is most defensible and nuanced?",
+   "options": [
+    "Remote work is the best.",
+    "Remote work is terrible.",
+    "Remote work boosts productivity for focused individual tasks but weakens mentoring for new employees, so companies should adopt hybrid schedules.",
+    "Some people like remote work."
+   ],
+   "answer": 2,
+   "why": "Qualified and specific."
+  },
+  {
+   "type": "mc",
+   "q": "A chart in the source packet is…",
+   "options": [
+    "decoration you can skip",
+    "evidence you can analyze and cite",
+    "not allowed in the essay",
+    "always biased"
+   ],
+   "answer": 1,
+   "why": "Often underused."
+  },
+  {
+   "type": "mc",
+   "q": "Noting that a source is written by an industry group with a financial stake is…",
+   "options": [
+    "off-topic",
+    "useful commentary about perspective",
+    "plagiarism",
+    "required in every sentence"
+   ],
+   "answer": 1,
+   "why": "Evaluating sources is analysis."
+  },
+  {
+   "type": "mc",
+   "q": "Synthesis essays are scored on…",
+   "options": [
+    "a 9-point holistic scale only",
+    "the 6-point rubric: thesis, evidence and commentary, sophistication",
+    "length",
+    "number of sources"
+   ],
+   "answer": 1,
+   "why": "Same rubric as the other two essays."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence best synthesizes two sources?",
+   "options": [
+    "Source A says X. Source B says Y.",
+    "According to Source A, teens sleep less than before.",
+    "Source A's finding that teens average under seven hours of sleep helps explain Source D's data on falling first-period grades, suggesting later start times address a cause, not just a symptom.",
+    "Sources A and D are both interesting."
+   ],
+   "answer": 2,
+   "why": "It links two sources into one causal argument that serves a claim.",
+   "level": "challenge",
+   "hint": "Which one builds something neither source says alone?"
+  },
+  {
+   "type": "mc",
+   "q": "Your thesis supports a policy, but one strong source opposes it. Best move?",
+   "options": [
+    "Ignore the source",
+    "Address it: acknowledge its point and explain why your position still holds or how you'd limit it",
+    "Change your thesis to match it",
+    "Say the source is wrong without explanation"
+   ],
+   "answer": 1,
+   "why": "Engaging the opposition is counterargument, and it often earns sophistication.",
+   "level": "challenge",
+   "hint": "Think back to counterclaims and rebuttals."
+  },
+  {
+   "type": "mc",
+   "q": "Which body-paragraph topic sentence best fits a synthesis essay?",
+   "options": [
+    "Source B is about tuition costs.",
+    "Rising tuition, more than declining interest, explains falling enrollment at community colleges.",
+    "First, I will discuss Source B.",
+    "Many sources talk about college."
+   ],
+   "answer": 1,
+   "why": "A claim that's yours, which sources will support. The others are about sources, not the argument.",
+   "level": "challenge",
+   "hint": "Claim, not source description."
+  },
+  {
+   "type": "mc",
+   "q": "Prompt: Should cities require trucks to use designated routes downtown? The weakest thesis is…",
+   "options": [
+    "Designated routes reduce congestion and accidents, but cities must pair them with loading-zone access or delivery costs will rise for local businesses.",
+    "Trucks are big.",
+    "Cities should require designated routes during peak hours, when data show pedestrian injuries cluster, while allowing flexible routing at night.",
+    "Mandatory routes protect residents but risk pushing deliveries onto narrow side streets unless enforcement is paired with smart signage."
+   ],
+   "answer": 1,
+   "why": "\"Trucks are big\" isn't a position on the question. The others take defensible, qualified stances.",
+   "level": "challenge",
+   "hint": "Which one doesn't answer the prompt?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "College Board: AP English Language and Composition Exam",
+   "url": "https://apcentral.collegeboard.org/courses/ap-english-language-and-composition/exam"
+  },
+  {
+   "title": "College Board: AP English Language FRQ Scoring Rubrics",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-frqs-1-2-3-scoring-rubrics.pdf"
+  },
+  {
+   "title": "UNC Writing Center: Evidence",
+   "url": "https://writingcenter.unc.edu/tips-and-tools/evidence/"
+  }
+ ]
+}

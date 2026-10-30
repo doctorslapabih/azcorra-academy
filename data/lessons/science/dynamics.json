@@ -1,0 +1,200 @@
+{
+ "id": "dynamics",
+ "title": "Dynamics",
+ "band": "Grades 11–12",
+ "minutes": 36,
+ "lede": "Newton's second law with real forces: friction, normal force and slopes. Why trucks lose traction on ice, what holds a load on a grade, and how to solve any force problem with one diagram.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Free-body diagrams first\nEvery force problem starts with a **free-body diagram**: draw the object as a dot or box and draw an arrow for **each force acting on it**.\n\nThe common forces:\n\n| Force | Symbol | Direction |\n|---|---|---|\n| **Weight** (gravity) | W = mg | straight down |\n| **Normal force** | N | perpendicular to the surface, pushing out |\n| **Friction** | f | along the surface, opposing sliding (or the tendency to slide) |\n| **Tension** | T | along a rope or chain, pulling |\n| **Applied force** | F | whatever direction it's applied |\n\nThen use **Newton's second law** in each direction: **ΣF = ma**. If the object isn't accelerating in a direction, the forces in that direction **balance** (ΣF = 0)."
+  },
+  {
+   "type": "text",
+   "md": "## Weight vs mass, and the normal force\n- **Mass** (kg) is how much matter; it's the same everywhere.\n- **Weight** (N) is gravity's pull: **W = mg**. A 70 kg person weighs 70 × 9.8 = **686 N** on Earth.\n\nOn a flat surface, the **normal force** equals the weight (N = mg), because the floor pushes up just enough to stop you sinking. It's not always equal to mg: on a slope, or if someone pushes down on you, it changes."
+  },
+  {
+   "type": "text",
+   "md": "## Friction\n**Friction** opposes sliding between surfaces. Its maximum size is:\n\n**f = μN**, where μ (mu) is the **coefficient of friction**.\n\n- **Static friction** (μₛ): holds things still. It can be anything up to its max.\n- **Kinetic friction** (μₖ): acts while sliding. It's usually **smaller** than static, which is why it takes more force to start sliding a box than to keep it moving, and why a **skidding** tire grips less than a rolling one. That's the idea behind anti-lock brakes (ABS): keep the tires rolling at the edge of grip instead of locking up.\n\n| Tire on road | Approximate μ |\n|---|---|\n| dry asphalt | ~0.7–0.8 |\n| wet asphalt | ~0.4–0.6 |\n| packed snow | ~0.2–0.3 |\n| ice | ~0.1 |"
+  },
+  {
+   "type": "check",
+   "q": "Why do anti-lock brakes help you stop?",
+   "options": [
+    "They add weight",
+    "They keep tires from locking, so static friction (higher) is used instead of kinetic",
+    "They remove friction",
+    "They cool the road"
+   ],
+   "answer": 1,
+   "why": "Rolling tires use static friction, which is stronger than sliding friction."
+  },
+  {
+   "type": "example",
+   "title": "Ice vs dry road",
+   "problem": "The maximum braking deceleration from friction is a = μg. Compare stopping from 20 m/s on dry asphalt (μ = 0.7) and ice (μ = 0.1).",
+   "steps": [
+    "Dry: a = 0.7 × 9.8 = 6.86 m/s². Distance = 400 ÷ (2 × 6.86) ≈ 29 m.",
+    "Ice: a = 0.1 × 9.8 = 0.98 m/s². Distance = 400 ÷ (2 × 0.98) ≈ 204 m."
+   ],
+   "answer": "**About 7× farther on ice.** Notice mass cancels out: a = μg doesn't depend on weight, so a heavier truck doesn't stop shorter on ice. (In practice, heavy vehicles also have brake and load-transfer limits that make them stop longer.)"
+  },
+  {
+   "type": "text",
+   "md": "## Slopes: split the weight\nOn a slope at angle θ, split gravity into two parts:\n\n- **Along the slope**: **mg sin θ** (pulls the object downhill)\n- **Into the slope**: **mg cos θ** (balanced by the normal force: N = mg cos θ)\n\nAn object stays put if static friction can match the downhill pull: μₛ · mg cos θ ≥ mg sin θ, which simplifies to **tan θ ≤ μₛ**.\n\n*A 10° grade:* sin 10° ≈ 0.17. On a 36,000 kg truck, gravity pulls about 0.17 × 36,000 × 9.8 ≈ **60,000 N** downhill. That's what the brakes or engine must hold back on a long descent."
+  },
+  {
+   "type": "check",
+   "q": "On a slope, the normal force is…",
+   "options": [
+    "mg",
+    "mg cos θ",
+    "mg sin θ",
+    "zero"
+   ],
+   "answer": 1,
+   "why": "Only the component pressing into the surface."
+  },
+  {
+   "type": "text",
+   "md": "## Solving any force problem\n1. **Draw** the free-body diagram.\n2. **Choose axes** (on a slope, tilt them along and perpendicular to the slope).\n3. **Write ΣF = ma** for each axis.\n4. **Solve**, and check units and whether the answer makes sense."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Normal force isn't always mg.** Check the slope and other forces.\n- **Friction opposes motion relative to the surface**, not always \"backward.\" Static friction is what pushes a car **forward** (tires push back on the road; the road pushes the car forward).\n- **Mass ≠ weight.** kg vs N.\n- **Forces on different objects don't go on the same diagram.** Only forces acting **on** your object."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Weight of an 80 kg fighter on Earth? (g = 9.8)",
+   "answer": 784,
+   "why": "80 × 9.8.",
+   "tol": 0.001,
+   "unit": "N"
+  },
+  {
+   "type": "num",
+   "q": "Net force to accelerate 1,500 kg at 2 m/s²?",
+   "answer": 3000,
+   "why": "F = ma.",
+   "tol": 0.001,
+   "unit": "N"
+  },
+  {
+   "type": "num",
+   "q": "Normal force on a 50 kg box on flat ground? (g = 9.8)",
+   "answer": 490,
+   "why": "N = mg.",
+   "tol": 0.001,
+   "unit": "N"
+  },
+  {
+   "type": "num",
+   "q": "Max friction force: μ = 0.4, normal force 1,000 N?",
+   "answer": 400,
+   "why": "f = μN.",
+   "tol": 0.001,
+   "unit": "N"
+  },
+  {
+   "type": "mc",
+   "q": "Usually, compared to static friction, kinetic friction is…",
+   "options": [
+    "larger",
+    "smaller",
+    "the same",
+    "zero"
+   ],
+   "answer": 1,
+   "why": "Sliding grips less."
+  },
+  {
+   "type": "mc",
+   "q": "Which surface has the lowest friction coefficient for tires?",
+   "options": [
+    "dry asphalt",
+    "wet asphalt",
+    "snow",
+    "ice"
+   ],
+   "answer": 3,
+   "why": "~0.1."
+  },
+  {
+   "type": "num",
+   "q": "A 10 kg box is pushed with 50 N; friction is 20 N. Acceleration?",
+   "answer": 3,
+   "why": "ΣF = 30 N; a = 30 ÷ 10.",
+   "tol": 0.001,
+   "unit": "m/s²"
+  },
+  {
+   "type": "mc",
+   "q": "On a slope, the component of gravity pulling an object downhill is…",
+   "options": [
+    "mg cos θ",
+    "mg sin θ",
+    "mg",
+    "μmg"
+   ],
+   "answer": 1,
+   "why": "Along the slope."
+  },
+  {
+   "type": "num",
+   "q": "Max braking deceleration on wet asphalt with μ = 0.5? (g = 9.8)",
+   "answer": 4.9,
+   "why": "a = μg = 0.5 × 9.8 = **4.9 m/s²**. Mass cancels.",
+   "tol": 0.01,
+   "unit": "m/s²",
+   "level": "challenge",
+   "hint": "Friction force ÷ mass."
+  },
+  {
+   "type": "mc",
+   "q": "A box sits on a ramp without sliding. As you slowly raise the ramp, it starts to slide when…",
+   "options": [
+    "sin θ = μₛ",
+    "tan θ = μₛ",
+    "cos θ = μₛ",
+    "θ = 45° always"
+   ],
+   "answer": 1,
+   "why": "Sliding starts when mg sin θ = μₛ mg cos θ → tan θ = μₛ.",
+   "level": "challenge",
+   "hint": "Set the downhill pull equal to max static friction."
+  },
+  {
+   "type": "num",
+   "q": "A 2,000 kg car on a 30° frictionless slope. Downhill acceleration? (g = 9.8; sin 30° = 0.5)",
+   "answer": 4.9,
+   "why": "a = g sin θ = 9.8 × 0.5 = **4.9 m/s²**. Again, mass cancels.",
+   "tol": 0.01,
+   "unit": "m/s²",
+   "level": "challenge",
+   "hint": "Divide the downhill force by mass."
+  },
+  {
+   "type": "num",
+   "q": "Stopping distance from 25 m/s on packed snow (μ = 0.25, g = 9.8)? (Nearest meter)",
+   "answer": 128,
+   "why": "a = 0.25 × 9.8 = 2.45 m/s². d = 625 ÷ (2 × 2.45) ≈ **128 m**.",
+   "tol": 1,
+   "unit": "m",
+   "level": "challenge",
+   "hint": "a = μg, then v² ÷ (2a)."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/details/books/college-physics-2e"
+  },
+  {
+   "title": "OpenStax, College Physics 2e, 5.1 Friction",
+   "url": "https://openstax.org/books/college-physics-2e/pages/5-1-friction"
+  }
+ ]
+}

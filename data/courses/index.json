@@ -1088,27 +1088,32 @@
      {
       "id": "kinematics",
       "title": "Kinematics",
-      "ready": false
+      "ready": true,
+      "desc": "The math of motion: four equations that predict where anything will be and how fast it's going. Then the most practical use of physics a driver will ever need: stopping distance."
      },
      {
       "id": "dynamics",
       "title": "Dynamics",
-      "ready": false
+      "ready": true,
+      "desc": "Newton's second law with real forces: friction, normal force and slopes. Why trucks lose traction on ice, what holds a load on a grade, and how to solve any force problem with one diagram."
      },
      {
       "id": "work-and-energy",
       "title": "Work and energy",
-      "ready": false
+      "ready": true,
+      "desc": "Energy can't be created or destroyed, only moved and transformed. That one law explains why brakes fade on long downgrades, why speed is so deadly, and how much horsepower really means."
      },
      {
       "id": "momentum",
       "title": "Momentum",
-      "ready": false
+      "ready": true,
+      "desc": "Why a jab and a cross feel so different, why rolling with a punch saves your jaw, why airbags work, and what happens to a car that hits a truck."
      },
      {
       "id": "rotation",
       "title": "Rotation",
-      "ready": false
+      "ready": true,
+      "desc": "Wheels, wrenches, spinning kicks and highway curves. The rotational version of Newton's laws, and the physics behind rollovers."
      }
     ]
    }

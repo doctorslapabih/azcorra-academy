@@ -1,0 +1,220 @@
+{
+ "id": "rotation",
+ "title": "Rotation",
+ "band": "Grades 11–12",
+ "minutes": 36,
+ "lede": "Wheels, wrenches, spinning kicks and highway curves. The rotational version of Newton's laws, and the physics behind rollovers.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Angular quantities\nRotation has its own versions of the linear quantities:\n\n| Linear | Rotational |\n|---|---|\n| distance x (m) | angle θ (radians) |\n| velocity v (m/s) | angular velocity ω (rad/s) |\n| acceleration a | angular acceleration α |\n| mass m | rotational inertia I |\n| force F | torque τ |\n\nA **radian** is the angle where the arc length equals the radius. One full turn = **2π radians** ≈ 6.28 rad.\n\n**Linking them:** a point at radius r on a spinning object moves at **v = rω**. The outer edge of a wheel moves faster than points near the hub."
+  },
+  {
+   "type": "text",
+   "md": "## Torque: the rotational force\n**Torque** is how effectively a force causes rotation:\n\n**τ = r · F · sin θ**\n\n- **r**: distance from the pivot to where the force is applied\n- **F**: the force\n- **θ**: angle between the lever arm and the force (90° is best: sin 90° = 1)\n\nThat's why a **longer wrench** loosens a stuck lug nut more easily, why you push a door far from the hinges, and why pushing **perpendicular** to the handle works best.\n\nUnits: N·m (or ft·lb in the U.S.). Wheel lug nuts are tightened to a **specified torque**, using a torque wrench, because too loose lets wheels come off and too tight can stretch or break studs. Always use the manufacturer's spec."
+  },
+  {
+   "type": "example",
+   "title": "Wrench math",
+   "problem": "A lug nut needs 600 N·m to break loose. How much force at the end of a 0.5 m breaker bar? At 1.0 m?",
+   "steps": [
+    "F = τ ÷ r (pushing at 90°).",
+    "0.5 m: 600 ÷ 0.5 = 1,200 N.",
+    "1.0 m: 600 ÷ 1.0 = 600 N."
+   ],
+   "answer": "**Double the bar length, half the force.** A cheater pipe works on physics, not magic."
+  },
+  {
+   "type": "check",
+   "q": "Where should you push on a door to open it most easily?",
+   "options": [
+    "near the hinges",
+    "far from the hinges, perpendicular to the door",
+    "in the middle, at an angle",
+    "it doesn't matter"
+   ],
+   "answer": 1,
+   "why": "Maximum r and sin θ = 1."
+  },
+  {
+   "type": "text",
+   "md": "## Rotational inertia\n**Rotational inertia (I)** is resistance to changes in spin. It depends on mass **and on how far the mass is from the axis**: mass far out counts much more (I grows with r²).\n\n- A tightrope walker's long pole has big rotational inertia, slowing any tip and giving time to correct.\n- A full wheel rim is harder to spin up than the same mass concentrated at the hub.\n\n**Newton's second law for rotation: τ = Iα.**"
+  },
+  {
+   "type": "text",
+   "md": "## Conservation of angular momentum\n**Angular momentum L = Iω.** With no outside torque, it's conserved.\n\nA figure skater pulls her arms in: I drops, so ω must rise, and she spins faster. Arms out: she slows down.\n\nDivers and gymnasts **tuck** to flip faster and **open up** to slow down before landing. A fighter throwing a spinning back kick turns faster by keeping the body compact during the spin, then extends the leg at the end."
+  },
+  {
+   "type": "check",
+   "q": "A spinning skater pulls her arms in. Her spin rate…",
+   "options": [
+    "decreases",
+    "increases",
+    "stays the same",
+    "stops"
+   ],
+   "answer": 1,
+   "why": "Less I, more ω, same L."
+  },
+  {
+   "type": "text",
+   "md": "## Moving in circles: centripetal force\nAnything moving in a circle is **accelerating toward the center**, even at constant speed, because its direction keeps changing:\n\n**a = v² ÷ r** and **F = mv² ÷ r**\n\nSomething must **supply** that inward force: friction between tires and road, a banked road, a string. There's no outward \"centrifugal force\" pushing you; you feel pressed outward because your body tends to keep going straight (inertia) while the vehicle turns.\n\n**v²** again: double the speed in a curve and the required force **quadruples**."
+  },
+  {
+   "type": "example",
+   "title": "A highway curve",
+   "problem": "A truck takes a curve of radius 100 m at 20 m/s (about 45 mph).",
+   "steps": [
+    "a = v² ÷ r = 400 ÷ 100 = 4 m/s².",
+    "That's 4 ÷ 9.8 ≈ 0.41 g of sideways acceleration.",
+    "At 25 m/s (56 mph): 625 ÷ 100 = 6.25 m/s² ≈ 0.64 g."
+   ],
+   "answer": "A car can often handle that grip-wise on dry pavement. A **loaded tractor-trailer** has a high center of mass, so it can **tip over** before its tires slide: rollover thresholds for heavy trucks are commonly cited as low as roughly **0.3 to 0.4 g**. That's why curve and ramp speed advisories matter so much more for trucks, and why a tall, top-heavy load is more dangerous."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Torque needs the perpendicular distance.** Pushing toward the hinge does nothing.\n- **Constant speed in a circle is still acceleration** (direction changes).\n- **There's no outward centrifugal force** acting on you from an inertial point of view; you're resisting the inward turn.\n- **Rotational inertia depends on where the mass is**, not just how much."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Torque from 50 N applied perpendicular at 0.4 m?",
+   "answer": 20,
+   "why": "τ = rF.",
+   "tol": 0.001,
+   "unit": "N·m"
+  },
+  {
+   "type": "mc",
+   "q": "A longer wrench makes loosening easier because it…",
+   "options": [
+    "adds force",
+    "increases the lever arm r",
+    "reduces friction",
+    "adds mass"
+   ],
+   "answer": 1,
+   "why": "τ = rF."
+  },
+  {
+   "type": "num",
+   "q": "One full revolution in radians (2 decimals, π ≈ 3.1416)?",
+   "answer": 6.28,
+   "why": "2π.",
+   "tol": 0.01,
+   "unit": "rad"
+  },
+  {
+   "type": "num",
+   "q": "Point on a wheel at r = 0.5 m, ω = 10 rad/s. Speed?",
+   "answer": 5,
+   "why": "v = rω.",
+   "tol": 0.001,
+   "unit": "m/s"
+  },
+  {
+   "type": "mc",
+   "q": "Pulling arms in during a spin increases spin speed because…",
+   "options": [
+    "torque is added",
+    "rotational inertia decreases and angular momentum is conserved",
+    "gravity helps",
+    "friction drops"
+   ],
+   "answer": 1,
+   "why": "L = Iω."
+  },
+  {
+   "type": "num",
+   "q": "Centripetal acceleration at 10 m/s on a 50 m radius curve?",
+   "answer": 2,
+   "why": "100 ÷ 50.",
+   "tol": 0.001,
+   "unit": "m/s²"
+  },
+  {
+   "type": "mc",
+   "q": "What supplies the centripetal force for a car turning on a flat road?",
+   "options": [
+    "engine",
+    "friction between tires and road",
+    "air",
+    "centrifugal force"
+   ],
+   "answer": 1,
+   "why": "Static friction, pointing inward."
+  },
+  {
+   "type": "mc",
+   "q": "Double the speed through a curve, and the required centripetal force…",
+   "options": [
+    "doubles",
+    "quadruples",
+    "halves",
+    "stays the same"
+   ],
+   "answer": 1,
+   "why": "v²."
+  },
+  {
+   "type": "num",
+   "q": "A stuck bolt needs 300 N·m. You can push 400 N. Minimum wrench length (perpendicular push)?",
+   "answer": 0.75,
+   "why": "r = τ ÷ F = 300 ÷ 400 = **0.75 m**.",
+   "tol": 0.001,
+   "unit": "m",
+   "level": "challenge",
+   "hint": "Rearrange τ = rF."
+  },
+  {
+   "type": "num",
+   "q": "A 36,000 kg truck rounds a 150 m radius curve at 15 m/s. Required centripetal force?",
+   "answer": 54000,
+   "why": "F = mv² ÷ r = 36,000 × 225 ÷ 150 = **54,000 N**.",
+   "tol": 0.001,
+   "unit": "N",
+   "level": "challenge",
+   "hint": "F = mv² ÷ r."
+  },
+  {
+   "type": "num",
+   "q": "Lateral acceleration in g for 25 m/s on a 100 m radius ramp? (g = 9.8; 2 decimals)",
+   "answer": 0.64,
+   "why": "a = 625 ÷ 100 = 6.25 m/s². ÷ 9.8 ≈ **0.64 g**, above the rollover threshold often cited for loaded tractor-trailers.",
+   "tol": 0.006,
+   "unit": "g",
+   "level": "challenge",
+   "hint": "v² ÷ r, then divide by 9.8."
+  },
+  {
+   "type": "mc",
+   "q": "Why is a top-heavy loaded trailer more likely to roll over in a curve than an empty one?",
+   "options": [
+    "It's slower",
+    "Its center of mass is higher, so less sideways acceleration is needed to tip it",
+    "It has more friction",
+    "Centrifugal force is bigger"
+   ],
+   "answer": 1,
+   "why": "A higher center of mass makes the tipping torque win at lower lateral acceleration.",
+   "level": "challenge",
+   "hint": "Think about torque around the outside wheels."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/details/books/college-physics-2e"
+  },
+  {
+   "title": "OpenStax, College Physics 2e, 6.3 Centripetal Force",
+   "url": "https://openstax.org/books/college-physics-2e/pages/6-3-centripetal-force"
+  },
+  {
+   "title": "FMCSA: Cargo Tank Truck Rollover Prevention",
+   "url": "https://www.fmcsa.dot.gov/rolloverprevention"
+  }
+ ]
+}

@@ -1,0 +1,212 @@
+{
+ "id": "momentum",
+ "title": "Momentum",
+ "band": "Grades 11–12",
+ "minutes": 34,
+ "lede": "Why a jab and a cross feel so different, why rolling with a punch saves your jaw, why airbags work, and what happens to a car that hits a truck.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Momentum\n**Momentum** is mass in motion: **p = mv** (unit: kg·m/s). It has direction.\n\nA 36,000 kg truck at 1 m/s has the same momentum as a 1,200 kg car at 30 m/s: **36,000 kg·m/s**. That's why something heavy moving slowly can be just as hard to stop as something light moving fast."
+  },
+  {
+   "type": "text",
+   "md": "## Impulse: force × time\nChanging momentum takes a force applied over time:\n\n**Impulse J = F · Δt = Δp**\n\nFor the **same change in momentum**, a **longer** time means a **smaller** force. A shorter time means a **bigger** force.\n\nThis one idea explains a lot:\n- **Airbags and crumple zones** stretch out the stopping time of your body, cutting the force.\n- **Rolling with a punch** (moving your head with it) increases the contact time, reducing the peak force on your jaw and brain.\n- **Bending your knees** when landing a jump does the same for your joints.\n- A **snapping, stiff** strike shortens contact time with the target, concentrating force."
+  },
+  {
+   "type": "check",
+   "q": "Why do airbags reduce injuries?",
+   "options": [
+    "They reduce your momentum change",
+    "They increase the time of the stop, lowering the force",
+    "They add mass",
+    "They speed you up"
+   ],
+   "answer": 1,
+   "why": "Same Δp, longer Δt, smaller F."
+  },
+  {
+   "type": "example",
+   "title": "Force from stopping time",
+   "problem": "A 70 kg person moving at 15 m/s is brought to a stop. Compare a 0.01 s stop (hitting a hard surface) with a 0.2 s stop (airbag).",
+   "steps": [
+    "Δp = 70 × 15 = 1,050 kg·m/s in both cases.",
+    "Hard stop: F = 1,050 ÷ 0.01 = 105,000 N.",
+    "Airbag: F = 1,050 ÷ 0.2 = 5,250 N."
+   ],
+   "answer": "**20× less force** with the airbag. The momentum change was identical; only the time changed."
+  },
+  {
+   "type": "text",
+   "md": "## Conservation of momentum\nIn a collision where no outside force acts, **total momentum before = total momentum after**:\n\n**m₁v₁ + m₂v₂ = m₁v₁′ + m₂v₂′**\n\n- **Elastic** collisions: objects bounce, and kinetic energy is also conserved (billiard balls come close).\n- **Inelastic** collisions: some KE turns into heat, sound and deformation. **Perfectly inelastic**: they stick together.\n\nMomentum is conserved in **both**; kinetic energy only in elastic."
+  },
+  {
+   "type": "example",
+   "title": "Car hits a truck",
+   "problem": "A 2,000 kg car at 20 m/s rear-ends a 36,000 kg truck stopped at a light. They lock together. How fast do they move just after?",
+   "steps": [
+    "Before: 2,000 × 20 + 36,000 × 0 = 40,000 kg·m/s.",
+    "After: (2,000 + 36,000) × v = 40,000 → v ≈ 1.05 m/s.",
+    "The car's velocity changed by about 19 m/s; the truck's by about 1 m/s."
+   ],
+   "answer": "Same force on each (Newton's third law), but the car's occupants experience about **18 times** the velocity change. In car–truck crashes, physics is brutally unfair to the smaller vehicle."
+  },
+  {
+   "type": "text",
+   "md": "## Recoil\nWhen a gun fires, the bullet goes forward and the gun kicks back. Before firing, total momentum was zero, so after, it's still zero: **m_bullet × v_bullet = m_gun × v_gun** (in opposite directions). The gun is much heavier, so it moves much slower.\n\nRockets work the same way: pushing exhaust backward pushes the rocket forward, even in empty space with nothing to push against."
+  },
+  {
+   "type": "check",
+   "q": "Two skaters push apart from rest. The heavier one moves…",
+   "options": [
+    "faster",
+    "slower",
+    "at the same speed",
+    "not at all"
+   ],
+   "answer": 1,
+   "why": "Equal and opposite momentum: bigger mass, smaller speed."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Momentum is conserved in all collisions** (with no outside forces). Kinetic energy isn't.\n- **Direction matters.** Use signs: right +, left −.\n- **Equal forces don't mean equal effects.** The lighter object gets the bigger acceleration.\n- **Impulse is the change in momentum**, not momentum itself."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Momentum of a 1,000 kg car at 25 m/s?",
+   "answer": 25000,
+   "why": "p = mv.",
+   "tol": 0.001,
+   "unit": "kg·m/s"
+  },
+  {
+   "type": "num",
+   "q": "Impulse from a 500 N force for 0.2 s?",
+   "answer": 100,
+   "why": "J = FΔt.",
+   "tol": 0.001,
+   "unit": "N·s"
+  },
+  {
+   "type": "mc",
+   "q": "For the same momentum change, increasing the stopping time…",
+   "options": [
+    "increases force",
+    "decreases force",
+    "has no effect",
+    "doubles momentum"
+   ],
+   "answer": 1,
+   "why": "F = Δp ÷ Δt."
+  },
+  {
+   "type": "mc",
+   "q": "In which collisions is momentum conserved (no outside forces)?",
+   "options": [
+    "elastic only",
+    "inelastic only",
+    "both",
+    "neither"
+   ],
+   "answer": 2,
+   "why": "Always."
+  },
+  {
+   "type": "mc",
+   "q": "Rolling with a punch reduces force mainly by…",
+   "options": [
+    "adding mass",
+    "increasing contact time",
+    "reducing your speed to zero",
+    "changing the punch's direction"
+   ],
+   "answer": 1,
+   "why": "Longer Δt."
+  },
+  {
+   "type": "num",
+   "q": "Velocity change of a 0.5 kg ball given an impulse of 10 N·s?",
+   "answer": 20,
+   "why": "Δv = J ÷ m.",
+   "tol": 0.001,
+   "unit": "m/s"
+  },
+  {
+   "type": "mc",
+   "q": "A rocket in empty space accelerates by…",
+   "options": [
+    "pushing on air",
+    "pushing exhaust backward (conservation of momentum)",
+    "gravity",
+    "it can't"
+   ],
+   "answer": 1,
+   "why": "Recoil."
+  },
+  {
+   "type": "num",
+   "q": "A 1 kg cart at 4 m/s hits a stationary 1 kg cart; they stick. Speed after?",
+   "answer": 2,
+   "why": "4 = 2v → v = 2.",
+   "tol": 0.001,
+   "unit": "m/s"
+  },
+  {
+   "type": "num",
+   "q": "A 0.01 kg bullet leaves a 4 kg rifle at 400 m/s. Recoil speed of the rifle?",
+   "answer": 1,
+   "why": "0.01 × 400 = 4 × v → **v = 1 m/s** backward.",
+   "tol": 0.001,
+   "unit": "m/s",
+   "level": "challenge",
+   "hint": "Total momentum stays zero."
+  },
+  {
+   "type": "num",
+   "q": "A 75 kg fighter's head-and-body system needs a momentum change of 30 kg·m/s from a strike. If the contact time doubles from 0.01 s to 0.02 s, what's the new average force?",
+   "answer": 1500,
+   "why": "F = 30 ÷ 0.02 = **1,500 N** (vs 3,000 N at 0.01 s). Doubling the time halves the force.",
+   "tol": 0.001,
+   "unit": "N",
+   "level": "challenge",
+   "hint": "F = Δp ÷ Δt. (The 75 kg isn't needed.)"
+  },
+  {
+   "type": "num",
+   "q": "A 1,500 kg car at 20 m/s collides head-on with a 1,000 kg car at 10 m/s going the opposite way. They stick. Velocity after (in the first car's direction)?",
+   "answer": 8,
+   "why": "Right +: 1,500(20) + 1,000(−10) = 30,000 − 10,000 = 20,000. ÷ 2,500 = **8 m/s**.",
+   "tol": 0.001,
+   "unit": "m/s",
+   "level": "challenge",
+   "hint": "Give the second car's velocity a negative sign."
+  },
+  {
+   "type": "mc",
+   "q": "A collision where the objects stick together…",
+   "options": [
+    "conserves both momentum and kinetic energy",
+    "conserves momentum but loses kinetic energy",
+    "conserves neither",
+    "conserves kinetic energy only"
+   ],
+   "answer": 1,
+   "why": "Perfectly inelastic: momentum conserved, some KE becomes heat and deformation.",
+   "level": "challenge",
+   "hint": "Sticking = maximum KE loss."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/details/books/college-physics-2e"
+  },
+  {
+   "title": "OpenStax, College Physics 2e, 8.3 Conservation of Momentum",
+   "url": "https://openstax.org/books/college-physics-2e/pages/8-3-conservation-of-momentum"
+  }
+ ]
+}

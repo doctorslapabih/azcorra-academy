@@ -1,0 +1,199 @@
+{
+ "id": "work-and-energy",
+ "title": "Work and energy",
+ "band": "Grades 11–12",
+ "minutes": 36,
+ "lede": "Energy can't be created or destroyed, only moved and transformed. That one law explains why brakes fade on long downgrades, why speed is so deadly, and how much horsepower really means.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Work\nIn physics, **work** means transferring energy by applying a force over a distance:\n\n**W = F · d · cos θ**, where θ is the angle between the force and the motion.\n\n- Push in the direction of motion: positive work (adds energy).\n- Force opposite to motion (friction, brakes): negative work (removes energy).\n- Force perpendicular to motion: **zero work**. Carrying a box level across a room does no work **on the box** by this definition, even though you get tired.\n\nUnit: the **joule** (J) = 1 newton × 1 meter."
+  },
+  {
+   "type": "text",
+   "md": "## Kinetic and potential energy\n- **Kinetic energy** (motion): **KE = ½mv²**\n- **Gravitational potential energy** (height): **PE = mgh**\n\nKE depends on **v²**: double the speed and you have **four times** the energy. That energy has to go somewhere when you stop or crash.\n\n**Work–energy theorem:** the net work done on an object equals its change in kinetic energy. Brakes do negative work equal to the truck's KE to bring it to a stop."
+  },
+  {
+   "type": "example",
+   "title": "How much energy is a loaded truck carrying?",
+   "problem": "An 80,000 lb truck (about 36,000 kg) at 29 m/s (about 65 mph).",
+   "steps": [
+    "KE = ½ × 36,000 × 29² = ½ × 36,000 × 841.",
+    "= 15,138,000 J ≈ 15 MJ."
+   ],
+   "answer": "**About 15 megajoules**, all of which the brakes must turn into heat to stop. A 1,500 kg car at the same speed carries about 0.63 MJ: the truck has **24 times** the energy."
+  },
+  {
+   "type": "check",
+   "q": "If speed triples, kinetic energy becomes…",
+   "options": [
+    "3×",
+    "6×",
+    "9×",
+    "27×"
+   ],
+   "answer": 2,
+   "why": "KE ∝ v²: 3² = 9."
+  },
+  {
+   "type": "text",
+   "md": "## Conservation of energy\n**Energy is never created or destroyed**, only transformed. Total energy before = total energy after.\n\nOn a frictionless slide, PE at the top becomes KE at the bottom: **mgh = ½mv²**, so **v = √(2gh)**. (Mass cancels again.)\n\nIn real life, friction and air resistance turn some energy into **heat** and sound. It isn't lost; it's just no longer useful mechanical energy."
+  },
+  {
+   "type": "example",
+   "title": "Why brakes fade on long downgrades",
+   "problem": "The same 36,000 kg truck descends a mountain grade, dropping 300 m in elevation at a steady speed.",
+   "steps": [
+    "Speed is constant, so KE doesn't change.",
+    "PE lost = mgh = 36,000 × 9.8 × 300 ≈ 106,000,000 J ≈ 106 MJ.",
+    "That energy must go somewhere: if the service brakes absorb it, it becomes heat in the brake drums."
+   ],
+   "answer": "**About 106 MJ** of heat, seven times what a full stop from highway speed takes. Brakes that overheat lose friction (**brake fade**). That's why drivers use a **lower gear** and **engine braking** to absorb energy on descents, and why runaway truck ramps exist."
+  },
+  {
+   "type": "text",
+   "md": "## Power: how fast energy moves\n**Power = work ÷ time** (or energy ÷ time). Unit: the **watt** (W) = 1 J/s.\n\n**1 horsepower ≈ 746 W.** A 450 hp diesel engine can deliver about 336,000 J every second at full output.\n\nPower is why the same climb takes a loaded truck longer than an empty one: lifting more mass up the same hill takes more energy, and the engine can only deliver it so fast."
+  },
+  {
+   "type": "text",
+   "md": "## Efficiency\nNo engine turns all its fuel energy into motion. **Efficiency = useful output ÷ total input.**\n\n- Large modern diesel engines can turn roughly **40% or more** of fuel energy into work at their best operating point.\n- Typical gasoline car engines are lower, around **25–35%**.\n- The rest leaves mostly as **heat** through the exhaust and cooling system.\n\nYour muscles are only about **20–25%** efficient, which is why exercise makes you hot."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **KE ∝ v²**, not v.\n- **Zero work when force ⊥ motion.**\n- **Energy isn't lost** to friction; it becomes heat.\n- **Power ≠ energy.** Power is the **rate**."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Work done pushing a cart 20 N over 15 m (force along motion)?",
+   "answer": 300,
+   "why": "W = Fd.",
+   "tol": 0.001,
+   "unit": "J"
+  },
+  {
+   "type": "num",
+   "q": "KE of a 2 kg object at 10 m/s?",
+   "answer": 100,
+   "why": "½ × 2 × 100.",
+   "tol": 0.001,
+   "unit": "J"
+  },
+  {
+   "type": "num",
+   "q": "PE of a 10 kg box 5 m up? (g = 9.8)",
+   "answer": 490,
+   "why": "10 × 9.8 × 5.",
+   "tol": 0.001,
+   "unit": "J"
+  },
+  {
+   "type": "mc",
+   "q": "Carrying a box horizontally at constant speed, the work done on the box by your upward force is…",
+   "options": [
+    "positive",
+    "negative",
+    "zero",
+    "infinite"
+   ],
+   "answer": 2,
+   "why": "Force is perpendicular to motion."
+  },
+  {
+   "type": "mc",
+   "q": "Double the speed, and kinetic energy…",
+   "options": [
+    "doubles",
+    "quadruples",
+    "halves",
+    "stays the same"
+   ],
+   "answer": 1,
+   "why": "v²."
+  },
+  {
+   "type": "num",
+   "q": "Power if 3,000 J of work is done in 10 s?",
+   "answer": 300,
+   "why": "P = W ÷ t.",
+   "tol": 0.001,
+   "unit": "W"
+  },
+  {
+   "type": "num",
+   "q": "About how many watts in 2 horsepower? (1 hp = 746 W)",
+   "answer": 1492,
+   "why": "2 × 746.",
+   "tol": 0.001,
+   "unit": "W"
+  },
+  {
+   "type": "mc",
+   "q": "Energy lost to friction becomes mostly…",
+   "options": [
+    "nothing",
+    "heat",
+    "mass",
+    "potential energy"
+   ],
+   "answer": 1,
+   "why": "Transformed, not destroyed."
+  },
+  {
+   "type": "num",
+   "q": "Frictionless slide from 20 m high. Speed at the bottom? (v = √(2gh), g = 9.8; 1 decimal)",
+   "answer": 19.8,
+   "why": "√(2 × 9.8 × 20) = √392 ≈ **19.8 m/s**.",
+   "tol": 0.06,
+   "unit": "m/s",
+   "level": "challenge",
+   "hint": "Set mgh = ½mv²."
+  },
+  {
+   "type": "num",
+   "q": "A 1,500 kg car brakes from 20 m/s to 0. How much energy do the brakes convert to heat?",
+   "answer": 300000,
+   "why": "KE = ½ × 1,500 × 400 = **300,000 J** (300 kJ).",
+   "tol": 0.001,
+   "unit": "J",
+   "level": "challenge",
+   "hint": "All the KE goes to the brakes."
+  },
+  {
+   "type": "num",
+   "q": "An engine produces 200 kW of power at 40% efficiency. How much fuel energy per second goes in, in kW?",
+   "answer": 500,
+   "why": "Input = output ÷ efficiency = 200 ÷ 0.4 = **500 kW**. The other 300 kW leaves as heat.",
+   "tol": 0.001,
+   "unit": "kW",
+   "level": "challenge",
+   "hint": "Efficiency = out ÷ in."
+  },
+  {
+   "type": "mc",
+   "q": "A truck descends a long grade at steady speed using only its service brakes. Where does the lost potential energy go?",
+   "options": [
+    "into kinetic energy",
+    "mostly into heat in the brakes",
+    "it disappears",
+    "back into fuel"
+   ],
+   "answer": 1,
+   "why": "Constant speed means KE doesn't change, so the PE becomes brake heat, which is how brakes fade.",
+   "level": "challenge",
+   "hint": "Speed is constant; energy is conserved."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/details/books/college-physics-2e"
+  },
+  {
+   "title": "OpenStax, College Physics 2e, 7.6 Conservation of Energy",
+   "url": "https://openstax.org/books/college-physics-2e/pages/7-6-conservation-of-energy"
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "id": "kinematics",
+ "title": "Kinematics",
+ "band": "Grades 11–12",
+ "minutes": 38,
+ "lede": "The math of motion: four equations that predict where anything will be and how fast it's going. Then the most practical use of physics a driver will ever need: stopping distance.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The quantities\n| Symbol | Quantity | Unit |\n|---|---|---|\n| Δx | displacement (change in position, with direction) | m |\n| v₀ | initial velocity | m/s |\n| v | final velocity | m/s |\n| a | acceleration (rate of change of velocity) | m/s² |\n| t | time | s |\n\n**Velocity has direction**; speed doesn't. Pick a positive direction at the start of every problem and stick to it. Slowing down while moving forward means **negative** acceleration."
+  },
+  {
+   "type": "text",
+   "md": "## The four equations (constant acceleration)\n1. **v = v₀ + at** (no Δx)\n2. **Δx = v₀t + ½at²** (no v)\n3. **v² = v₀² + 2aΔx** (no t)\n4. **Δx = ½(v₀ + v)t** (no a)\n\n**How to choose:** list the three quantities you know and the one you want. Pick the equation that contains exactly those four. Each equation is missing one variable; choose the one missing the variable you don't know and don't need."
+  },
+  {
+   "type": "example",
+   "title": "Merging onto the highway",
+   "problem": "A truck accelerates from 10 m/s to 25 m/s at 0.75 m/s². How long does it take, and how far does it travel?",
+   "steps": [
+    "Known: v₀ = 10, v = 25, a = 0.75. Want: t, Δx.",
+    "Time: v = v₀ + at → 25 = 10 + 0.75t → t = 20 s.",
+    "Distance: Δx = ½(v₀ + v)t = ½(35)(20) = 350 m."
+   ],
+   "answer": "**20 seconds and 350 m**, longer than most on-ramps. That's why heavy trucks build speed earlier and need room to merge."
+  },
+  {
+   "type": "text",
+   "md": "## Free fall\nNear Earth's surface, ignoring air resistance, everything falls with the same acceleration: **g = 9.8 m/s² downward**, whatever its mass. Galileo argued this; astronaut David Scott demonstrated it on the Moon in 1971 by dropping a hammer and a feather, which landed together in the airless conditions.\n\nIf you drop something from rest, with down as positive: **v = gt** and **d = ½gt²**.\n- After 1 s: falling 9.8 m/s, fallen 4.9 m.\n- After 2 s: 19.6 m/s, fallen 19.6 m.\n- After 3 s: 29.4 m/s, fallen 44.1 m."
+  },
+  {
+   "type": "check",
+   "q": "Ignoring air resistance, a bowling ball and a tennis ball dropped together…",
+   "options": [
+    "the bowling ball lands first",
+    "land at the same time",
+    "the tennis ball lands first",
+    "it depends on height"
+   ],
+   "answer": 1,
+   "why": "Same acceleration, g, regardless of mass."
+  },
+  {
+   "type": "text",
+   "md": "## Projectiles: two independent motions\nA thrown or launched object moves **horizontally at constant velocity** (no horizontal force, ignoring air) while **falling vertically** with acceleration g. The two motions don't affect each other.\n\nSurprising result: a bullet fired horizontally and a bullet dropped from the same height at the same instant hit the ground at the **same time** (on flat ground, ignoring air resistance). The fired one just lands much farther away."
+  },
+  {
+   "type": "text",
+   "md": "## Stopping distance: physics on the road\n**Total stopping distance = reaction distance + braking distance**\n\n- **Reaction distance** = speed × reaction time. You keep moving at full speed while you notice and react.\n- **Braking distance** = v² ÷ (2a), from equation 3 with v = 0.\n\nThe **v²** is the important part: **double your speed, and braking distance quadruples**. Heavy loaded trucks also typically decelerate less sharply than cars, and air brakes add a short delay before they fully engage."
+  },
+  {
+   "type": "example",
+   "title": "Run the numbers",
+   "problem": "A loaded truck travels at 29 m/s (about 65 mph). Assume a 1.5 s reaction time and braking deceleration of 4.5 m/s². What's the total stopping distance?",
+   "steps": [
+    "Reaction distance: 29 × 1.5 = 43.5 m.",
+    "Braking distance: v² ÷ (2a) = 29² ÷ 9 = 841 ÷ 9 ≈ 93.4 m.",
+    "Total ≈ 137 m."
+   ],
+   "answer": "**About 137 m (≈ 450 ft)**, roughly one and a half football fields, under these assumed conditions. On a wet road, with worn brakes or a heavier load, it's longer. Following distance isn't politeness; it's this math. (Your CDL manual gives the official guidance.)"
+  },
+  {
+   "type": "check",
+   "q": "If speed doubles, braking distance…",
+   "options": [
+    "doubles",
+    "quadruples",
+    "stays the same",
+    "halves"
+   ],
+   "answer": 1,
+   "why": "Braking distance ∝ v²."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Velocity and acceleration can point opposite ways** (braking).\n- **At the top of a throw, velocity is 0 but acceleration is still g.** It never switches off.\n- **Units:** convert mph to m/s (1 mph ≈ 0.447 m/s) before using the equations.\n- **Constant acceleration only.** These equations don't apply if acceleration changes."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "A car goes from 0 to 20 m/s in 5 s. Acceleration?",
+   "answer": 4,
+   "why": "a = Δv ÷ t = 20 ÷ 5.",
+   "tol": 0.001,
+   "unit": "m/s²"
+  },
+  {
+   "type": "num",
+   "q": "Starting at 5 m/s with a = 2 m/s², what's the velocity after 6 s?",
+   "answer": 17,
+   "why": "v = 5 + 2(6).",
+   "tol": 0.001,
+   "unit": "m/s"
+  },
+  {
+   "type": "num",
+   "q": "Dropped from rest, how far does an object fall in 2 s? (g = 9.8)",
+   "answer": 19.6,
+   "why": "½ × 9.8 × 4.",
+   "tol": 0.01,
+   "unit": "m"
+  },
+  {
+   "type": "num",
+   "q": "Dropped from rest, speed after 3 s? (g = 9.8)",
+   "answer": 29.4,
+   "why": "9.8 × 3.",
+   "tol": 0.01,
+   "unit": "m/s"
+  },
+  {
+   "type": "mc",
+   "q": "At the very top of a ball's upward flight, its acceleration is…",
+   "options": [
+    "0",
+    "9.8 m/s² downward",
+    "9.8 m/s² upward",
+    "changing direction"
+   ],
+   "answer": 1,
+   "why": "Gravity never turns off."
+  },
+  {
+   "type": "num",
+   "q": "Reaction distance at 25 m/s with a 2 s reaction time?",
+   "answer": 50,
+   "why": "25 × 2.",
+   "tol": 0.001,
+   "unit": "m"
+  },
+  {
+   "type": "mc",
+   "q": "A horizontally fired bullet and a dropped bullet (same height) land…",
+   "options": [
+    "fired one first",
+    "dropped one first",
+    "at the same time",
+    "it depends on gun"
+   ],
+   "answer": 2,
+   "why": "Vertical motion is independent."
+  },
+  {
+   "type": "num",
+   "q": "Convert 60 mph to m/s (1 mph = 0.447 m/s). One decimal.",
+   "answer": 26.8,
+   "why": "60 × 0.447 = 26.82.",
+   "tol": 0.06,
+   "unit": "m/s"
+  },
+  {
+   "type": "num",
+   "q": "Braking from 20 m/s to a stop at 5 m/s². Braking distance?",
+   "answer": 40,
+   "why": "v² = v₀² + 2aΔx → 0 = 400 − 10Δx → **Δx = 40 m**.",
+   "tol": 0.001,
+   "unit": "m",
+   "level": "challenge",
+   "hint": "Use the equation with no time in it."
+  },
+  {
+   "type": "num",
+   "q": "Same truck, same braking (5 m/s²), but from 40 m/s. Braking distance?",
+   "answer": 160,
+   "why": "1,600 ÷ 10 = **160 m**. Double the speed → **4×** the distance.",
+   "tol": 0.001,
+   "unit": "m",
+   "level": "challenge",
+   "hint": "v² ÷ (2a)."
+  },
+  {
+   "type": "num",
+   "q": "A rock dropped off a bridge hits the water 3 s later. How high is the bridge? (g = 9.8, ignore air)",
+   "answer": 44.1,
+   "why": "d = ½gt² = ½ × 9.8 × 9 = **44.1 m**.",
+   "tol": 0.01,
+   "unit": "m",
+   "level": "challenge",
+   "hint": "Free fall from rest."
+  },
+  {
+   "type": "num",
+   "q": "A ball is thrown straight up at 19.6 m/s. How many seconds until it reaches the top?",
+   "answer": 2,
+   "why": "v = v₀ + at → 0 = 19.6 − 9.8t → **t = 2 s**. (And another 2 s to come back down.)",
+   "tol": 0.001,
+   "unit": "s",
+   "level": "challenge",
+   "hint": "At the top, v = 0. Up is positive, so a = −9.8."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/details/books/college-physics-2e"
+  },
+  {
+   "title": "OpenStax, College Physics 2e, 2.5 Motion Equations for Constant Acceleration in One Dimension",
+   "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension"
+  },
+  {
+   "title": "NASA: The Apollo 15 Hammer-Feather Drop",
+   "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_15_feather_drop.html"
+  }
+ ]
+}

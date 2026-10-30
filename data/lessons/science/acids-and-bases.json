@@ -1,0 +1,211 @@
+{
+ "id": "acids-and-bases",
+ "title": "Acids and bases",
+ "band": "Grades 10–11",
+ "minutes": 34,
+ "lede": "From stomach acid to truck batteries to the bicarbonate buffer keeping your blood in a narrow range: what acids and bases are, how pH works, and why the scale is logarithmic.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Two definitions\n| Definition | Acid | Base |\n|---|---|---|\n| **Arrhenius** | makes **H⁺** in water | makes **OH⁻** in water |\n| **Brønsted–Lowry** | **donates** a proton (H⁺) | **accepts** a proton |\n\nHCl in water: HCl → H⁺ + Cl⁻ (acid). NaOH in water: NaOH → Na⁺ + OH⁻ (base).\n\nAmmonia (NH₃) has no OH⁻ to release, but it's still a base by Brønsted–Lowry: it **accepts** a proton from water: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻."
+  },
+  {
+   "type": "text",
+   "md": "## Properties\n| Acids | Bases |\n|---|---|\n| taste sour (citrus, vinegar) | taste bitter, feel slippery (soap) |\n| turn blue litmus **red** | turn red litmus **blue** |\n| react with many metals, releasing H₂ gas | react with fats (that's how soap and drain cleaners work) |\n| pH below 7 | pH above 7 |\n\n**Never taste or touch lab chemicals to test them.** Both strong acids and strong bases cause serious burns. A truck's lead-acid battery holds **sulfuric acid**: eye protection and gloves when servicing it."
+  },
+  {
+   "type": "text",
+   "md": "## The pH scale\n**pH = −log[H⁺]**, where [H⁺] is the hydrogen-ion concentration in moles per liter.\n\nBecause it's a **log** scale, each step of 1 is a **10×** change in [H⁺]. pH 3 is **10 times** more acidic than pH 4, and **1,000 times** more acidic than pH 6.\n\n| pH | Example |\n|---|---|\n| ~1–3 | stomach acid |\n| ~2 | lemon juice |\n| ~3 | soda |\n| ~5 | black coffee |\n| 7 | pure water (neutral, at 25 °C) |\n| 7.35–7.45 | human blood |\n| ~8–9 | baking soda solution, seawater ~8 |\n| ~11 | ammonia cleaner |\n| ~13 | bleach, drain cleaner |"
+  },
+  {
+   "type": "check",
+   "q": "[H⁺] = 1 × 10⁻⁴ M. The pH is…",
+   "options": [
+    "−4",
+    "4",
+    "10",
+    "0.0001"
+   ],
+   "answer": 1,
+   "why": "−log(10⁻⁴) = 4."
+  },
+  {
+   "type": "text",
+   "md": "## Strong vs weak\n- **Strong** acids and bases **ionize completely** in water: HCl, H₂SO₄ (first proton), HNO₃; NaOH, KOH.\n- **Weak** ones only **partially** ionize, reaching an equilibrium: acetic acid (vinegar), carbonic acid; ammonia.\n\n**Strong ≠ concentrated.** *Strong* describes how completely it ionizes. *Concentrated* describes how much is dissolved. You can have a dilute strong acid or a concentrated weak one."
+  },
+  {
+   "type": "text",
+   "md": "## Neutralization\nAcid + base → **salt + water**\n\nHCl + NaOH → NaCl + H₂O\n\nAntacids work this way: a weak base (like calcium carbonate) neutralizes excess stomach acid. Chemists use **titration** (adding a base of known concentration drop by drop until an indicator changes color) to measure exactly how much acid a sample contains."
+  },
+  {
+   "type": "text",
+   "md": "## Buffers: resisting change\nA **buffer** is a mix of a weak acid and its partner base that **resists pH changes**. Add acid, and the base half absorbs it; add base, and the acid half absorbs that.\n\nYour blood's main buffer is the **carbonic acid–bicarbonate** system (from the equilibrium lesson). It holds blood pH in a tight range around **7.4**. Outside roughly 6.8 to 7.8, enzymes and nerves start failing, which is why that buffer, and your breathing, work nonstop."
+  },
+  {
+   "type": "example",
+   "title": "Compare two solutions",
+   "problem": "Coffee is about pH 5. Lemon juice is about pH 2. How many times greater is lemon juice's [H⁺]?",
+   "steps": [
+    "Difference: 5 − 2 = 3 pH units.",
+    "Each unit is ×10: 10³ = 1,000."
+   ],
+   "answer": "**About 1,000 times.** The log scale makes small-looking differences huge."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Lower pH = more acidic.**\n- **Each pH unit is 10×**, not +1.\n- **Strong ≠ concentrated.**\n- **Neutral is 7 at 25 °C.** (It shifts slightly at other temperatures, but 7 is the standard reference.)"
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "A Brønsted–Lowry acid…",
+   "options": [
+    "accepts a proton",
+    "donates a proton",
+    "makes OH⁻",
+    "has pH above 7"
+   ],
+   "answer": 1,
+   "why": "Proton donor."
+  },
+  {
+   "type": "mc",
+   "q": "pH 7 is…",
+   "options": [
+    "acidic",
+    "neutral",
+    "basic",
+    "impossible"
+   ],
+   "answer": 1,
+   "why": "Pure water at 25 °C."
+  },
+  {
+   "type": "mc",
+   "q": "Which is most acidic?",
+   "options": [
+    "pH 2",
+    "pH 5",
+    "pH 7",
+    "pH 12"
+   ],
+   "answer": 0,
+   "why": "Lowest pH."
+  },
+  {
+   "type": "num",
+   "q": "pH 3 has how many times more H⁺ than pH 5?",
+   "answer": 100,
+   "why": "10².",
+   "tol": 0.001,
+   "unit": "×"
+  },
+  {
+   "type": "num",
+   "q": "pH of a solution with [H⁺] = 1 × 10⁻⁹ M?",
+   "answer": 9,
+   "why": "−log(10⁻⁹).",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Acid + base produces…",
+   "options": [
+    "salt and water",
+    "only gas",
+    "oxygen",
+    "more acid"
+   ],
+   "answer": 0,
+   "why": "Neutralization."
+  },
+  {
+   "type": "mc",
+   "q": "A strong acid…",
+   "options": [
+    "is always concentrated",
+    "ionizes completely in water",
+    "has pH 7",
+    "is a base"
+   ],
+   "answer": 1,
+   "why": "Strength = degree of ionization."
+  },
+  {
+   "type": "mc",
+   "q": "Normal blood pH is about…",
+   "options": [
+    "2",
+    "5",
+    "7.4",
+    "10"
+   ],
+   "answer": 2,
+   "why": "7.35–7.45."
+  },
+  {
+   "type": "mc",
+   "q": "Ammonia (NH₃) is a base even though it has no OH⁻. Why?",
+   "options": [
+    "It's a metal",
+    "It accepts a proton from water, producing OH⁻",
+    "It donates electrons to oxygen",
+    "It isn't a base"
+   ],
+   "answer": 1,
+   "why": "Brønsted–Lowry: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻.",
+   "level": "challenge",
+   "hint": "Use the proton-acceptor definition."
+  },
+  {
+   "type": "num",
+   "q": "Blood at pH 7.4 vs stomach acid at pH 1.4. How many times higher is stomach acid's [H⁺]?",
+   "answer": 1000000,
+   "why": "6 pH units → 10⁶ = **1,000,000×**.",
+   "tol": 0.001,
+   "unit": "×",
+   "level": "challenge",
+   "hint": "Difference in pH → power of 10."
+  },
+  {
+   "type": "mc",
+   "q": "Which is a correct pairing?",
+   "options": [
+    "dilute strong acid: a little HCl in lots of water",
+    "concentrated weak acid: always a strong acid",
+    "strong acid: partially ionizes",
+    "weak base: NaOH"
+   ],
+   "answer": 0,
+   "why": "Strength and concentration are independent. NaOH is a strong base; strong acids ionize completely.",
+   "level": "challenge",
+   "hint": "Strength vs concentration."
+  },
+  {
+   "type": "mc",
+   "q": "Why does a buffer resist pH change when a little acid is added?",
+   "options": [
+    "It boils the acid off",
+    "Its base component absorbs the added H⁺",
+    "It's always neutral",
+    "It contains no water"
+   ],
+   "answer": 1,
+   "why": "The weak base half reacts with the added H⁺, keeping [H⁺] nearly steady.",
+   "level": "challenge",
+   "hint": "Which half of the buffer reacts with acid?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e"
+  },
+  {
+   "title": "OpenStax, Chemistry 2e, 14.2 pH and pOH",
+   "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh"
+  }
+ ]
+}

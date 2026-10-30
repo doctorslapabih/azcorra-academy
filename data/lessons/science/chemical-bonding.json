@@ -1,0 +1,221 @@
+{
+ "id": "chemical-bonding",
+ "title": "Chemical bonding",
+ "band": "Grades 10–11",
+ "minutes": 36,
+ "lede": "Why atoms stick together, the three ways they do it, and how the shape of a molecule decides whether it mixes with water, boils easily or holds a crystal together.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Why atoms bond\nAtoms bond to reach a **more stable**, lower-energy arrangement of electrons. For most main-group atoms, that means a full outer shell of **8 valence electrons**: the **octet rule** (hydrogen and helium are satisfied with 2).\n\n**Valence electrons** are the outer-shell electrons that take part in bonding. For main-group elements, the group number tells you: group 1 has 1, group 2 has 2, groups 13–18 have 3–8.\n\nThere are three main ways to get there: **transfer** electrons, **share** them, or **pool** them."
+  },
+  {
+   "type": "text",
+   "md": "## The three bond types\n| Bond | How | Between | Properties | Example |\n|---|---|---|---|---|\n| **Ionic** | electrons **transferred**; opposite ions attract | metal + nonmetal | hard crystals, high melting points, conduct electricity when melted or dissolved | NaCl (table salt) |\n| **Covalent** | electrons **shared** | nonmetal + nonmetal | individual molecules; often lower melting points; usually don't conduct | H₂O, CO₂, CH₄ |\n| **Metallic** | valence electrons **pooled** in a shared \"sea\" | metal atoms | conduct electricity and heat, shiny, bendable | copper wire, iron |\n\nSodium (1 valence electron) gives it up to chlorine (7): Na⁺ and Cl⁻, both now with full shells, stick together by **electrostatic attraction**."
+  },
+  {
+   "type": "check",
+   "q": "Which pair most likely forms an ionic bond?",
+   "options": [
+    "C and O",
+    "K and Br",
+    "N and H",
+    "Cu and Cu"
+   ],
+   "answer": 1,
+   "why": "Potassium (a metal) + bromine (a nonmetal): transfer → ionic."
+  },
+  {
+   "type": "text",
+   "md": "## Writing ionic formulas\nThe charges must **balance to zero**.\n\n| Ions | Balance | Formula |\n|---|---|---|\n| Na⁺, Cl⁻ | 1 : 1 | **NaCl** |\n| Mg²⁺, Cl⁻ | one Mg²⁺ needs two Cl⁻ | **MgCl₂** |\n| Al³⁺, O²⁻ | 2 × (+3) = +6; 3 × (−2) = −6 | **Al₂O₃** |\n\n**Criss-cross shortcut:** the size of each ion's charge becomes the other ion's subscript (then reduce if possible)."
+  },
+  {
+   "type": "text",
+   "md": "## Polar and nonpolar covalent bonds\n**Electronegativity** measures how strongly an atom pulls on shared electrons. It increases toward the **upper right** of the periodic table; **fluorine** is the highest.\n\n| Electronegativity difference (roughly) | Bond |\n|---|---|\n| near 0 (below ~0.4) | **nonpolar covalent**: equal sharing (H–H, C–H) |\n| ~0.4 to ~1.7 | **polar covalent**: unequal sharing, partial charges (O–H) |\n| above ~1.7 | mostly **ionic** |\n\nThese cutoffs are rules of thumb; bonding is a spectrum, not three boxes."
+  },
+  {
+   "type": "text",
+   "md": "## Shape decides polarity: VSEPR\nElectron pairs around a central atom push each other as far apart as possible (**valence shell electron pair repulsion**). That sets the molecule's shape:\n\n| Molecule | Shape | Angle | Polar? |\n|---|---|---|---|\n| CO₂ | linear | 180° | **no**: the two polar bonds point in opposite directions and cancel |\n| H₂O | bent | ~104.5° | **yes**: the bonds don't cancel |\n| CH₄ | tetrahedral | ~109.5° | no |\n| NH₃ | trigonal pyramidal | ~107° | yes |\n\nWater being **bent** (because of oxygen's two lone pairs) is why it's polar, and why it dissolves salt, sticks to itself and has such a high boiling point for its size."
+  },
+  {
+   "type": "check",
+   "q": "CO₂ has polar bonds, but the molecule is nonpolar. Why?",
+   "options": [
+    "Carbon has no electrons",
+    "The linear shape makes the two bond dipoles cancel",
+    "Oxygen isn't electronegative",
+    "It's ionic"
+   ],
+   "answer": 1,
+   "why": "Equal pulls in opposite directions cancel out."
+  },
+  {
+   "type": "text",
+   "md": "## Between molecules: intermolecular forces\nForces **between** molecules (much weaker than bonds within them) decide boiling points and what mixes:\n\n| Force | Strength | Found in |\n|---|---|---|\n| **Hydrogen bonding** | strongest | H bonded to N, O or F (water, DNA base pairs) |\n| **Dipole–dipole** | medium | polar molecules |\n| **London dispersion** | weakest per molecule, but present in all | everything; dominant in nonpolar molecules |\n\n**\"Like dissolves like\":** polar dissolves polar (salt and sugar in water); nonpolar dissolves nonpolar (grease in gasoline). Oil and water don't mix because water molecules attract each other far more than they attract oil."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Polar bonds ≠ polar molecule.** Shape can cancel them (CO₂, CH₄).\n- **Ionic compounds aren't molecules.** They're repeating crystal lattices; NaCl is a ratio, not a single molecule.\n- **Hydrogen bonds aren't bonds to hydrogen in general.** They're attractions between molecules involving H on N, O or F.\n- **Melting or boiling breaks intermolecular forces**, not the covalent bonds inside molecules. Boiling water makes water vapor, not hydrogen and oxygen."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "How many valence electrons does oxygen (group 16) have?",
+   "answer": 6,
+   "why": "Group 16 → 6.",
+   "tol": 0.001
+  },
+  {
+   "type": "mc",
+   "q": "Electrons are **shared** in a(n) ___ bond.",
+   "options": [
+    "ionic",
+    "covalent",
+    "metallic",
+    "hydrogen"
+   ],
+   "answer": 1,
+   "why": "Sharing = covalent."
+  },
+  {
+   "type": "mc",
+   "q": "Formula for the compound of Ca²⁺ and Cl⁻?",
+   "options": [
+    "CaCl",
+    "CaCl₂",
+    "Ca₂Cl",
+    "Ca₂Cl₃"
+   ],
+   "answer": 1,
+   "why": "+2 needs two −1."
+  },
+  {
+   "type": "mc",
+   "q": "Formula for the compound of Al³⁺ and O²⁻?",
+   "options": [
+    "AlO",
+    "Al₃O₂",
+    "Al₂O₃",
+    "AlO₃"
+   ],
+   "answer": 2,
+   "why": "Criss-cross 3 and 2."
+  },
+  {
+   "type": "mc",
+   "q": "The most electronegative element is…",
+   "options": [
+    "oxygen",
+    "chlorine",
+    "fluorine",
+    "cesium"
+   ],
+   "answer": 2,
+   "why": "Upper right."
+  },
+  {
+   "type": "mc",
+   "q": "Water's shape is…",
+   "options": [
+    "linear",
+    "bent",
+    "tetrahedral",
+    "flat triangle"
+   ],
+   "answer": 1,
+   "why": "Lone pairs push the bonds down."
+  },
+  {
+   "type": "mc",
+   "q": "Which conducts electricity as a solid?",
+   "options": [
+    "salt crystal",
+    "sugar",
+    "copper",
+    "ice"
+   ],
+   "answer": 2,
+   "why": "Metallic bonding: mobile electrons."
+  },
+  {
+   "type": "mc",
+   "q": "Oil doesn't dissolve in water because…",
+   "options": [
+    "oil is heavier",
+    "oil is nonpolar and water is polar",
+    "water is ionic",
+    "oil is a metal"
+   ],
+   "answer": 1,
+   "why": "Like dissolves like."
+  },
+  {
+   "type": "mc",
+   "q": "When water boils, what breaks?",
+   "options": [
+    "O–H covalent bonds",
+    "hydrogen bonds between molecules",
+    "nuclei",
+    "ionic bonds"
+   ],
+   "answer": 1,
+   "why": "Molecules separate from each other; each H₂O stays intact. Steam is still water.",
+   "level": "challenge",
+   "hint": "Does boiling water make hydrogen gas?"
+  },
+  {
+   "type": "mc",
+   "q": "CCl₄ (tetrahedral, polar C–Cl bonds) is…",
+   "options": [
+    "polar, because C–Cl bonds are polar",
+    "nonpolar, because the symmetric shape cancels the dipoles",
+    "ionic",
+    "metallic"
+   ],
+   "answer": 1,
+   "why": "Four identical bonds pointing to the corners of a tetrahedron cancel out, like CH₄.",
+   "level": "challenge",
+   "hint": "Same idea as CO₂, in 3D."
+  },
+  {
+   "type": "mc",
+   "q": "Why does water (H₂O, molar mass 18) boil at 100 °C while methane (CH₄, molar mass 16) boils near −162 °C?",
+   "options": [
+    "Water is heavier",
+    "Water has hydrogen bonding; methane has only weak dispersion forces",
+    "Methane is ionic",
+    "Water has more atoms"
+   ],
+   "answer": 1,
+   "why": "Similar size, massively different boiling points. The difference is the strong attraction between water molecules.",
+   "level": "challenge",
+   "hint": "Think about forces between molecules, not mass."
+  },
+  {
+   "type": "mc",
+   "q": "Mg (group 2) and N (group 15, forms N³⁻). The formula is…",
+   "options": [
+    "MgN",
+    "Mg₂N₃",
+    "Mg₃N₂",
+    "MgN₂"
+   ],
+   "answer": 2,
+   "why": "Mg²⁺ and N³⁻: 3 × (+2) = +6 and 2 × (−3) = −6 → **Mg₃N₂**.",
+   "level": "challenge",
+   "hint": "Criss-cross the charges."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e"
+  },
+  {
+   "title": "OpenStax, Chemistry 2e, 7.6 Molecular Structure and Polarity",
+   "url": "https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity"
+  }
+ ]
+}

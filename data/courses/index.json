@@ -1051,27 +1051,32 @@
      {
       "id": "chemical-bonding",
       "title": "Chemical bonding",
-      "ready": false
+      "ready": true,
+      "desc": "Why atoms stick together, the three ways they do it, and how the shape of a molecule decides whether it mixes with water, boils easily or holds a crystal together."
      },
      {
       "id": "moles-and-stoichiometry",
       "title": "Moles and stoichiometry",
-      "ready": false
+      "ready": true,
+      "desc": "Atoms are too small to count one by one, so chemists count them by the mole. Then they use balanced equations like recipes, to predict exactly how much you'll make, and why a gallon of diesel produces more than its own weight in CO₂."
      },
      {
       "id": "reaction-rates-and-equilibrium",
       "title": "Reaction rates and equilibrium",
-      "ready": false
+      "ready": true,
+      "desc": "Why food lasts longer in the fridge, how a catalytic converter and the DEF in a diesel truck clean exhaust, and the principle that predicts which way a reaction will shift when you push on it."
      },
      {
       "id": "acids-and-bases",
       "title": "Acids and bases",
-      "ready": false
+      "ready": true,
+      "desc": "From stomach acid to truck batteries to the bicarbonate buffer keeping your blood in a narrow range: what acids and bases are, how pH works, and why the scale is logarithmic."
      },
      {
       "id": "thermochemistry",
       "title": "Thermochemistry",
-      "ready": false
+      "ready": true,
+      "desc": "Heat in, heat out. Why hand warmers get hot and cold packs get cold, how much energy it takes to heat water, and what a food Calorie really measures."
      }
     ]
    },

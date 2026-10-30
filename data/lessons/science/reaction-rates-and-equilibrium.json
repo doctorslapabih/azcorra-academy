@@ -1,0 +1,225 @@
+{
+ "id": "reaction-rates-and-equilibrium",
+ "title": "Reaction rates and equilibrium",
+ "band": "Grades 10–11",
+ "minutes": 34,
+ "lede": "Why food lasts longer in the fridge, how a catalytic converter and the DEF in a diesel truck clean exhaust, and the principle that predicts which way a reaction will shift when you push on it.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Collision theory\nFor molecules to react, they must **collide** with enough energy (the **activation energy**) and in the right orientation. Anything that increases effective collisions speeds a reaction up.\n\n| Factor | Effect | Why | Everyday example |\n|---|---|---|---|\n| **Temperature** ↑ | faster | molecules move faster and hit harder | food spoils faster outside the fridge |\n| **Concentration** ↑ | faster | more particles, more collisions | pure oxygen makes things burn fiercely |\n| **Surface area** ↑ | faster | more exposed particles | powdered sugar dissolves faster than a cube |\n| **Catalyst** added | faster | provides a lower-energy pathway | enzymes; catalytic converters |\n\nA rough rule of thumb: many reactions go about **twice as fast** for every **10 °C** rise."
+  },
+  {
+   "type": "text",
+   "md": "## Catalysts\nA **catalyst** speeds a reaction by lowering the activation energy, and it's **not used up**.\n\n- **Enzymes** are biological catalysts (from the biochemistry lesson).\n- A car's **catalytic converter** uses metals like platinum, palladium and rhodium to turn toxic carbon monoxide, unburned fuel and nitrogen oxides into less harmful CO₂, water and nitrogen.\n- Modern diesel trucks use **selective catalytic reduction (SCR)**: **diesel exhaust fluid (DEF)**, a urea solution, is sprayed into the exhaust, and over a catalyst it converts **nitrogen oxides (NOx)** into **nitrogen and water**. That's why the DEF tank matters."
+  },
+  {
+   "type": "check",
+   "q": "A catalyst speeds up a reaction by…",
+   "options": [
+    "raising the temperature",
+    "lowering the activation energy",
+    "being consumed",
+    "adding more reactants"
+   ],
+   "answer": 1,
+   "why": "A lower-energy path; it's not used up."
+  },
+  {
+   "type": "text",
+   "md": "## Reversible reactions and equilibrium\nMany reactions can run **both ways**, written with ⇌.\n\nAt first the forward reaction is fast. As products build up, the reverse reaction speeds up. Eventually both run at the **same rate**: **dynamic equilibrium**. The reactions haven't stopped; they're balanced, so the **amounts** stay constant.\n\n*Picture a busy store:* people enter and leave constantly, but if the rates match, the number inside stays the same.\n\nThe **equilibrium constant K** compares products to reactants at equilibrium:\n- **K ≫ 1**: mostly products at equilibrium\n- **K ≪ 1**: mostly reactants"
+  },
+  {
+   "type": "text",
+   "md": "## Le Chatelier's principle\nWhen you disturb a system at equilibrium, it **shifts to counteract the change**.\n\nThe classic example is the **Haber process**, which makes ammonia for fertilizer (and helps feed a large share of the world's population):\n\n**N₂ + 3 H₂ ⇌ 2 NH₃ + heat** (exothermic)\n\n| Change | System shifts | Why |\n|---|---|---|\n| add N₂ or H₂ | → right (more NH₃) | uses up the added reactant |\n| remove NH₃ | → right | replaces what was removed |\n| raise pressure | → right | 2 gas molecules on the right vs 4 on the left: fewer molecules relieves pressure |\n| raise temperature | ← left | heat acts like a product; the system absorbs the added heat |\n| add a catalyst | **no shift** | reaches equilibrium faster, same position |\n\nThat creates a real-world trade-off: lower temperatures give **more** ammonia but form it **slowly**. Industry compromises with moderate temperature, high pressure, a catalyst, and constant removal of ammonia."
+  },
+  {
+   "type": "check",
+   "q": "For N₂ + 3 H₂ ⇌ 2 NH₃, increasing pressure shifts the equilibrium…",
+   "options": [
+    "left",
+    "right",
+    "not at all",
+    "randomly"
+   ],
+   "answer": 1,
+   "why": "Toward fewer gas molecules: 2 on the right vs 4 on the left."
+  },
+  {
+   "type": "example",
+   "title": "Equilibrium in your blood",
+   "problem": "CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. During hard sparring, your muscles release CO₂ into the blood. Which way does it shift, and what does your body do?",
+   "steps": [
+    "More CO₂ (a reactant) → the equilibrium shifts **right**.",
+    "More H⁺ forms → blood becomes slightly more acidic.",
+    "Your brain senses this and makes you **breathe harder**, blowing off CO₂ to shift it back left."
+   ],
+   "answer": "Heavy breathing after a round isn't just about getting oxygen in. It's Le Chatelier in your bloodstream: dumping CO₂ to control blood acidity."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Equilibrium doesn't mean equal amounts.** It means equal **rates**.\n- **Catalysts don't shift equilibrium.** They just get there faster.\n- **Temperature is the only factor that changes K itself.** Concentration and pressure shift the position without changing K.\n- **Faster ≠ more.** Rate (how fast) and equilibrium (how far) are different questions."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Why does crushed ice melt faster than a block?",
+   "options": [
+    "it's colder",
+    "more surface area",
+    "it's a catalyst",
+    "less pressure"
+   ],
+   "answer": 1,
+   "why": "More exposed surface."
+  },
+  {
+   "type": "mc",
+   "q": "Refrigeration slows spoilage because…",
+   "options": [
+    "it adds a catalyst",
+    "lower temperature means fewer energetic collisions",
+    "it removes oxygen",
+    "it increases concentration"
+   ],
+   "answer": 1,
+   "why": "Slower molecules."
+  },
+  {
+   "type": "mc",
+   "q": "Dynamic equilibrium means…",
+   "options": [
+    "the reaction stopped",
+    "forward and reverse rates are equal",
+    "equal amounts of everything",
+    "all reactants are used"
+   ],
+   "answer": 1,
+   "why": "Balanced rates."
+  },
+  {
+   "type": "mc",
+   "q": "DEF in diesel trucks helps convert NOx into…",
+   "options": [
+    "CO₂",
+    "nitrogen and water",
+    "ozone",
+    "sulfur"
+   ],
+   "answer": 1,
+   "why": "Selective catalytic reduction."
+  },
+  {
+   "type": "mc",
+   "q": "Adding a catalyst to a system at equilibrium…",
+   "options": [
+    "shifts it right",
+    "shifts it left",
+    "doesn't shift it",
+    "stops it"
+   ],
+   "answer": 2,
+   "why": "Same position, faster."
+  },
+  {
+   "type": "mc",
+   "q": "K ≫ 1 means at equilibrium there are mostly…",
+   "options": [
+    "reactants",
+    "products",
+    "catalysts",
+    "equal amounts"
+   ],
+   "answer": 1,
+   "why": "Products favored."
+  },
+  {
+   "type": "mc",
+   "q": "Adding more reactant to an equilibrium shifts it…",
+   "options": [
+    "toward reactants",
+    "toward products",
+    "nowhere",
+    "it explodes"
+   ],
+   "answer": 1,
+   "why": "Uses up the addition."
+  },
+  {
+   "type": "mc",
+   "q": "Le Chatelier's principle says a disturbed equilibrium will…",
+   "options": [
+    "stay the same",
+    "shift to counteract the change",
+    "always shift right",
+    "stop"
+   ],
+   "answer": 1,
+   "why": "Push back."
+  },
+  {
+   "type": "mc",
+   "q": "For the exothermic Haber process, why don't factories run it at low temperature to maximize ammonia?",
+   "options": [
+    "Low temperature shifts it left",
+    "Low temperature gives more ammonia at equilibrium but makes the reaction too slow",
+    "Catalysts don't work cold",
+    "Ammonia freezes"
+   ],
+   "answer": 1,
+   "why": "Classic trade-off between **how far** (equilibrium favors low T) and **how fast** (rate favors high T).",
+   "level": "challenge",
+   "hint": "Rate vs position."
+  },
+  {
+   "type": "mc",
+   "q": "2 NO₂ (brown) ⇌ N₂O₄ (colorless) + heat. You heat the flask. The color…",
+   "options": [
+    "gets lighter",
+    "gets darker brown",
+    "doesn't change",
+    "turns blue"
+   ],
+   "answer": 1,
+   "why": "Exothermic forward: heat acts like a product, so adding heat shifts left, toward brown NO₂.",
+   "level": "challenge",
+   "hint": "Treat heat as a product."
+  },
+  {
+   "type": "mc",
+   "q": "H₂(g) + I₂(g) ⇌ 2 HI(g). Raising pressure…",
+   "options": [
+    "shifts right",
+    "shifts left",
+    "doesn't shift the equilibrium",
+    "doubles K"
+   ],
+   "answer": 2,
+   "why": "2 gas molecules on each side. Pressure has nothing to relieve.",
+   "level": "challenge",
+   "hint": "Count gas molecules on each side."
+  },
+  {
+   "type": "num",
+   "q": "Using the rule of thumb that rate doubles every 10 °C, how many times faster is a reaction at 50 °C than at 20 °C?",
+   "answer": 8,
+   "why": "30 °C rise = 3 doublings: 2³ = **8×**.",
+   "tol": 0.001,
+   "unit": "×",
+   "level": "challenge",
+   "hint": "How many 10° steps?"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e"
+  },
+  {
+   "title": "OpenStax, Chemistry 2e, 13.3 Shifting Equilibria: Le Châtelier's Principle",
+   "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle"
+  }
+ ]
+}

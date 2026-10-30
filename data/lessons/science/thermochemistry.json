@@ -1,0 +1,209 @@
+{
+ "id": "thermochemistry",
+ "title": "Thermochemistry",
+ "band": "Grades 10–11",
+ "minutes": 34,
+ "lede": "Heat in, heat out. Why hand warmers get hot and cold packs get cold, how much energy it takes to heat water, and what a food Calorie really measures.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Heat vs temperature\n- **Temperature** measures the **average** kinetic energy of particles: how fast they're moving.\n- **Heat** is **energy transferred** because of a temperature difference, always flowing from hot to cold.\n\nA bathtub of warm water holds far more heat energy than a cup of boiling water, even though the cup is hotter. More particles, more total energy.\n\n**Units:** the **joule (J)** is the SI unit. 1 **calorie** = 4.184 J. A **food Calorie** (capital C) is a **kilocalorie** = 1,000 calories = 4,184 J."
+  },
+  {
+   "type": "text",
+   "md": "## Exothermic vs endothermic\n| | Exothermic | Endothermic |\n|---|---|---|\n| Energy | **released** to surroundings | **absorbed** from surroundings |\n| Surroundings feel | warmer | colder |\n| ΔH (enthalpy change) | **negative** | **positive** |\n| Examples | burning fuel, hand warmers (iron rusting fast), respiration | instant cold packs (ammonium nitrate dissolving), melting ice, photosynthesis |\n\n**Bonds and energy:** **breaking** bonds always **absorbs** energy; **forming** bonds always **releases** it. A reaction is exothermic when the bonds formed release more energy than the bonds broken absorbed."
+  },
+  {
+   "type": "check",
+   "q": "An instant cold pack feels cold because the reaction is…",
+   "options": [
+    "exothermic",
+    "endothermic",
+    "nuclear",
+    "a catalyst"
+   ],
+   "answer": 1,
+   "why": "It absorbs heat from your hand."
+  },
+  {
+   "type": "text",
+   "md": "## Specific heat and q = mcΔT\n**Specific heat (c)** is the energy needed to raise **1 gram** of a substance by **1 °C**.\n\n| Substance | c (J/g·°C) |\n|---|---|\n| water | **4.184** (very high) |\n| aluminum | 0.897 |\n| iron | 0.449 |\n| copper | 0.385 |\n\n**q = m · c · ΔT**\n- q = heat energy (J)\n- m = mass (g)\n- c = specific heat\n- ΔT = change in temperature (°C)\n\nWater's high specific heat is why coastal climates are mild, why your body (mostly water) holds a steady temperature, and why engines use water-based coolant."
+  },
+  {
+   "type": "example",
+   "title": "Heat some water",
+   "problem": "How much energy to heat 500 g of water from 20 °C to 80 °C?",
+   "steps": [
+    "q = m · c · ΔT",
+    "= 500 × 4.184 × (80 − 20)",
+    "= 500 × 4.184 × 60 = 125,520 J"
+   ],
+   "answer": "**About 125.5 kJ** (≈ 30 food Calories' worth of energy)."
+  },
+  {
+   "type": "text",
+   "md": "## Phase changes take energy without changing temperature\nWhile ice melts, its temperature stays at **0 °C** even as you add heat. The energy goes into breaking the attractions between molecules, not into speeding them up.\n\n- **Heat of fusion** of water: **334 J/g** (melting)\n- **Heat of vaporization** of water: about **2,260 J/g** (boiling)\n\nBoiling 1 gram of water takes over **five times** the energy needed to heat it from 0 °C all the way to 100 °C (418 J). That's why **sweating** cools you so well: each gram that evaporates carries off a lot of heat."
+  },
+  {
+   "type": "check",
+   "q": "Why does temperature stay at 0 °C while ice melts?",
+   "options": [
+    "The thermometer breaks",
+    "The added energy breaks attractions between molecules instead of raising temperature",
+    "Ice is endothermic",
+    "Heat stops flowing"
+   ],
+   "answer": 1,
+   "why": "Phase change energy."
+  },
+  {
+   "type": "text",
+   "md": "## Combustion: energy from fuel\nBurning fuel is a strongly **exothermic** reaction with oxygen. Energy content is measured as **heat of combustion**.\n\n| Fuel | Approx. energy |\n|---|---|\n| gasoline | ~46 MJ/kg |\n| diesel | ~45 MJ/kg |\n| fat (food) | ~37 kJ/g (= 9 kcal/g) |\n| carbohydrate/protein (food) | ~17 kJ/g (= 4 kcal/g) |\n\nThe 4-4-9 numbers from nutrition are heats of combustion: your body \"burns\" food by cellular respiration, a slow, controlled combustion."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Heat ≠ temperature.**\n- **Food Calorie = kilocalorie.** A 200 Calorie snack is 200,000 calories.\n- **Exothermic ΔH is negative** (the system loses energy).\n- **Breaking bonds never releases energy.** It always takes energy.\n- **ΔT is a change**, so it's the same in °C and K."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "Temperature measures…",
+   "options": [
+    "total energy",
+    "average kinetic energy of particles",
+    "heat flow",
+    "mass"
+   ],
+   "answer": 1,
+   "why": "Average motion."
+  },
+  {
+   "type": "mc",
+   "q": "An exothermic reaction has ΔH that is…",
+   "options": [
+    "positive",
+    "negative",
+    "zero",
+    "undefined"
+   ],
+   "answer": 1,
+   "why": "Energy leaves the system."
+  },
+  {
+   "type": "mc",
+   "q": "Breaking chemical bonds…",
+   "options": [
+    "releases energy",
+    "absorbs energy",
+    "has no energy change",
+    "creates mass"
+   ],
+   "answer": 1,
+   "why": "Always takes energy."
+  },
+  {
+   "type": "num",
+   "q": "1 food Calorie = how many joules?",
+   "answer": 4184,
+   "why": "1 kcal = 4,184 J.",
+   "tol": 0.001,
+   "unit": "J"
+  },
+  {
+   "type": "num",
+   "q": "Energy to heat 100 g of water by 10 °C? (c = 4.184)",
+   "answer": 4184,
+   "why": "100 × 4.184 × 10.",
+   "tol": 0.001,
+   "unit": "J"
+  },
+  {
+   "type": "mc",
+   "q": "Which has the highest specific heat?",
+   "options": [
+    "iron",
+    "copper",
+    "water",
+    "aluminum"
+   ],
+   "answer": 2,
+   "why": "4.184 J/g·°C."
+  },
+  {
+   "type": "mc",
+   "q": "A hand warmer gets hot because iron oxidizing is…",
+   "options": [
+    "endothermic",
+    "exothermic",
+    "a phase change",
+    "nuclear"
+   ],
+   "answer": 1,
+   "why": "Releases heat."
+  },
+  {
+   "type": "num",
+   "q": "Energy to melt 10 g of ice at 0 °C? (heat of fusion 334 J/g)",
+   "answer": 3340,
+   "why": "10 × 334.",
+   "tol": 0.001,
+   "unit": "J"
+  },
+  {
+   "type": "num",
+   "q": "Energy to heat 2,000 g of engine coolant (treat as water) from 20 °C to 90 °C, in kJ? (1 decimal)",
+   "answer": 585.8,
+   "why": "2,000 × 4.184 × 70 = 585,760 J ≈ **585.8 kJ**.",
+   "tol": 0.06,
+   "unit": "kJ",
+   "level": "challenge",
+   "hint": "q = mcΔT, then ÷ 1,000."
+  },
+  {
+   "type": "num",
+   "q": "The same 500 J heats 10 g of copper (c = 0.385) by how many °C? (1 decimal)",
+   "answer": 129.9,
+   "why": "ΔT = q ÷ (mc) = 500 ÷ (10 × 0.385) = 500 ÷ 3.85 ≈ **129.9 °C**. The same energy would warm 10 g of water by only ~12 °C.",
+   "tol": 0.06,
+   "unit": "°C",
+   "level": "challenge",
+   "hint": "Rearrange q = mcΔT for ΔT."
+  },
+  {
+   "type": "mc",
+   "q": "Why does sweating cool you so effectively?",
+   "options": [
+    "Sweat is cold",
+    "Evaporating water absorbs a large heat of vaporization from your skin",
+    "Sweat contains salt",
+    "It's exothermic"
+   ],
+   "answer": 1,
+   "why": "About 2,260 J per gram leaves with the evaporating water.",
+   "level": "challenge",
+   "hint": "Phase change energy."
+  },
+  {
+   "type": "num",
+   "q": "A meal-prep container has 600 kcal. How many kJ is that? (1 kcal = 4.184 kJ; nearest whole)",
+   "answer": 2510,
+   "why": "600 × 4.184 = 2,510.4 ≈ **2,510 kJ**. (Many countries' labels show kJ.)",
+   "tol": 1,
+   "unit": "kJ",
+   "level": "challenge",
+   "hint": "Multiply by 4.184."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e"
+  },
+  {
+   "title": "OpenStax, Chemistry 2e, 5.2 Calorimetry",
+   "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry"
+  }
+ ]
+}

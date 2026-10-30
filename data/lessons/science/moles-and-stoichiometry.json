@@ -1,0 +1,201 @@
+{
+ "id": "moles-and-stoichiometry",
+ "title": "Moles and stoichiometry",
+ "band": "Grades 10–11",
+ "minutes": 38,
+ "lede": "Atoms are too small to count one by one, so chemists count them by the mole. Then they use balanced equations like recipes, to predict exactly how much you'll make, and why a gallon of diesel produces more than its own weight in CO₂.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## The mole: a chemist's dozen\nA **dozen** is 12 of anything. A **mole** is **6.022 × 10²³** of anything (**Avogadro's number**).\n\nWhy that number? It's chosen so that **1 mole of an element weighs its atomic mass in grams**. Carbon's atomic mass is about 12, so 1 mole of carbon atoms weighs about **12 grams**.\n\nTo picture the size: a mole of sand grains would bury the entire United States tens of meters deep. A mole of water molecules is just **18 grams**, a little more than a tablespoon."
+  },
+  {
+   "type": "text",
+   "md": "## Molar mass\nThe **molar mass** of a compound is the sum of its atoms' masses (in g/mol).\n\n| Atom | Mass (g/mol) |\n|---|---|\n| H | 1.008 |\n| C | 12.01 |\n| N | 14.01 |\n| O | 16.00 |\n| Na | 22.99 |\n| Cl | 35.45 |\n\n- H₂O: 2(1.008) + 16.00 = **18.02 g/mol**\n- CO₂: 12.01 + 2(16.00) = **44.01 g/mol**\n- NaCl: 22.99 + 35.45 = **58.44 g/mol**\n\n**The conversions:**\n- grams ÷ molar mass = **moles**\n- moles × molar mass = **grams**\n- moles × 6.022 × 10²³ = **particles**"
+  },
+  {
+   "type": "check",
+   "q": "How many moles are in 36 g of water (18 g/mol)?",
+   "options": [
+    "0.5",
+    "2",
+    "18",
+    "648"
+   ],
+   "answer": 1,
+   "why": "36 ÷ 18 = 2."
+  },
+  {
+   "type": "text",
+   "md": "## Balancing equations\nAtoms aren't created or destroyed (**conservation of mass**), so both sides must have the same number of each atom. Change **coefficients** (the big numbers in front), never subscripts.\n\n**Methane burning:** CH₄ + O₂ → CO₂ + H₂O\n\n1. C: 1 left, 1 right ✓\n2. H: 4 left, 2 right → put **2** in front of H₂O\n3. O: now 2 + 2 = 4 on the right → put **2** in front of O₂\n\n**CH₄ + 2 O₂ → CO₂ + 2 H₂O** ✓\n\nTip: balance the element that appears in the fewest compounds first, and save H and O (or whichever appears alone, like O₂) for last."
+  },
+  {
+   "type": "text",
+   "md": "## Stoichiometry: the recipe math\nA balanced equation is a recipe in **moles**. CH₄ + 2 O₂ → CO₂ + 2 H₂O means **1 mol methane reacts with 2 mol oxygen** to make **1 mol CO₂ and 2 mol water**.\n\n**The road map:**\n**grams of A → moles of A → (mole ratio) → moles of B → grams of B**"
+  },
+  {
+   "type": "example",
+   "title": "How much CO₂?",
+   "problem": "Propane burns: **C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O**. How many grams of CO₂ come from 88 g of propane (44.1 g/mol)?",
+   "steps": [
+    "grams → moles: 88 ÷ 44.1 ≈ 2.0 mol C₃H₈.",
+    "mole ratio: 3 CO₂ per 1 C₃H₈ → 6.0 mol CO₂.",
+    "moles → grams: 6.0 × 44.01 ≈ 264 g CO₂."
+   ],
+   "answer": "**About 264 g of CO₂** from 88 g of propane: three times the fuel's mass. The carbon combines with oxygen from the air, which adds weight. Same reason the EPA estimates that burning one gallon of diesel (which weighs roughly 3.2 kg) produces about **10.2 kg of CO₂**."
+  },
+  {
+   "type": "text",
+   "md": "## Limiting reactant and yield\nIn a real reaction, one reactant usually **runs out first**. That's the **limiting reactant**; it decides how much product you get. The other is **in excess**.\n\n*Sandwich logic:* 10 slices of bread and 3 slices of cheese make only 3 cheese sandwiches (2 bread + 1 cheese each). Cheese limits; 4 bread slices are left over.\n\n**Percent yield** = actual ÷ theoretical × 100. Real reactions usually yield **less** than theory: side reactions, incomplete reactions, losses in transfer."
+  },
+  {
+   "type": "check",
+   "q": "2 H₂ + O₂ → 2 H₂O. You have 4 mol H₂ and 1 mol O₂. Which is limiting?",
+   "options": [
+    "H₂",
+    "O₂",
+    "neither",
+    "H₂O"
+   ],
+   "answer": 1,
+   "why": "4 mol H₂ would need 2 mol O₂; you only have 1. O₂ runs out first."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Never change subscripts to balance.** H₂O → H₂O₂ changes water into hydrogen peroxide.\n- **Use the mole ratio**, not the gram ratio. Equations are in moles.\n- **Molar mass of diatomic elements:** O₂ is 32.00 g/mol, not 16.\n- **Theoretical yield** comes from the **limiting** reactant."
+  }
+ ],
+ "practice": [
+  {
+   "type": "num",
+   "q": "Molar mass of CO₂ (C 12.01, O 16.00)? (2 decimals)",
+   "answer": 44.01,
+   "why": "12.01 + 32.00.",
+   "tol": 0.01,
+   "unit": "g/mol"
+  },
+  {
+   "type": "num",
+   "q": "Moles in 88 g of CO₂ (44 g/mol)?",
+   "answer": 2,
+   "why": "88 ÷ 44.",
+   "tol": 0.001,
+   "unit": "mol"
+  },
+  {
+   "type": "num",
+   "q": "Grams in 3 mol of water (18 g/mol)?",
+   "answer": 54,
+   "why": "3 × 18.",
+   "tol": 0.001,
+   "unit": "g"
+  },
+  {
+   "type": "num",
+   "q": "Molar mass of NaCl? (2 decimals)",
+   "answer": 58.44,
+   "why": "22.99 + 35.45.",
+   "tol": 0.01,
+   "unit": "g/mol"
+  },
+  {
+   "type": "mc",
+   "q": "Balance: __ H₂ + __ O₂ → __ H₂O",
+   "options": [
+    "1, 1, 1",
+    "2, 1, 2",
+    "1, 2, 2",
+    "2, 2, 1"
+   ],
+   "answer": 1,
+   "why": "2 H₂ + O₂ → 2 H₂O."
+  },
+  {
+   "type": "mc",
+   "q": "Balance: __ N₂ + __ H₂ → __ NH₃",
+   "options": [
+    "1, 3, 2",
+    "1, 1, 1",
+    "2, 3, 2",
+    "1, 3, 1"
+   ],
+   "answer": 0,
+   "why": "N₂ + 3 H₂ → 2 NH₃."
+  },
+  {
+   "type": "num",
+   "q": "In CH₄ + 2 O₂ → CO₂ + 2 H₂O, how many moles of O₂ react with 5 mol CH₄?",
+   "answer": 10,
+   "why": "Ratio 1 : 2.",
+   "tol": 0.001,
+   "unit": "mol"
+  },
+  {
+   "type": "mc",
+   "q": "The limiting reactant is the one that…",
+   "options": [
+    "is in largest amount",
+    "runs out first",
+    "is a gas",
+    "is a product"
+   ],
+   "answer": 1,
+   "why": "It caps the product."
+  },
+  {
+   "type": "num",
+   "q": "Molar mass of glucose, C₆H₁₂O₆? (C 12.01, H 1.008, O 16.00; 1 decimal)",
+   "answer": 180.2,
+   "why": "6(12.01) + 12(1.008) + 6(16.00) = 72.06 + 12.10 + 96.00 = **180.16 ≈ 180.2 g/mol**.",
+   "tol": 0.06,
+   "unit": "g/mol",
+   "level": "challenge",
+   "hint": "Multiply each atom's mass by its count."
+  },
+  {
+   "type": "num",
+   "q": "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O. Grams of water from 2 mol of propane? (H₂O = 18 g/mol)",
+   "answer": 144,
+   "why": "2 mol × 4 = 8 mol H₂O. × 18 = **144 g**.",
+   "tol": 0.001,
+   "unit": "g",
+   "level": "challenge",
+   "hint": "Mole ratio first, then grams."
+  },
+  {
+   "type": "num",
+   "q": "Theoretical yield 50 g; you collect 42 g. Percent yield?",
+   "answer": 84,
+   "why": "42 ÷ 50 × 100 = **84%**.",
+   "tol": 0.001,
+   "unit": "%",
+   "level": "challenge",
+   "hint": "Actual ÷ theoretical."
+  },
+  {
+   "type": "mc",
+   "q": "N₂ + 3 H₂ → 2 NH₃. You have 2 mol N₂ and 3 mol H₂. How many mol NH₃ can form?",
+   "options": [
+    "4",
+    "2",
+    "6",
+    "3"
+   ],
+   "answer": 1,
+   "why": "2 mol N₂ would need 6 mol H₂; you only have 3. H₂ limits: 3 mol H₂ → 2 mol NH₃.",
+   "level": "challenge",
+   "hint": "Find the limiting reactant first."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e"
+  },
+  {
+   "title": "U.S. EPA: Greenhouse Gas Emissions from a Typical Passenger Vehicle (CO₂ per gallon of gasoline and diesel)",
+   "url": "https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle"
+  }
+ ]
+}

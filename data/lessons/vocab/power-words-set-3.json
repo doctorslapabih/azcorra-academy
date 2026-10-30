@@ -1,0 +1,280 @@
+{
+ "id": "power-words-set-3",
+ "title": "Power words, set 3: action and change",
+ "band": "Grades 9–12",
+ "minutes": 30,
+ "lede": "Twelve verbs for making things better, worse, faster or slower. The words that give news articles, reports and arguments their force.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Strong verbs beat adverbs\n*Made the problem a lot worse* is five words. ***Exacerbated*** is one. Precise verbs carry both the action and its direction, which is why serious writing leans on them.\n\nThis set comes in **pairs of opposites**. Learn them as pairs and you'll learn twice as fast."
+  },
+  {
+   "type": "terms",
+   "terms": [
+    {
+     "term": "exacerbate (verb)",
+     "def": "To make a problem, pain or bad situation **worse**."
+    },
+    {
+     "term": "mitigate (verb)",
+     "def": "To make something bad **less severe**. (Opposite of exacerbate.)"
+    },
+    {
+     "term": "impede (verb)",
+     "def": "To **slow down or block** progress."
+    },
+    {
+     "term": "facilitate (verb)",
+     "def": "To make a process **easier**. (Opposite of impede.)"
+    },
+    {
+     "term": "undermine (verb)",
+     "def": "To **weaken** gradually, often from below or in secret."
+    },
+    {
+     "term": "bolster (verb)",
+     "def": "To **support or strengthen**. (Opposite of undermine.)"
+    },
+    {
+     "term": "deteriorate (verb)",
+     "def": "To become progressively **worse**."
+    },
+    {
+     "term": "galvanize (verb)",
+     "def": "To **shock or excite** someone into action."
+    },
+    {
+     "term": "scrutinize (verb)",
+     "def": "To examine **closely and critically**."
+    },
+    {
+     "term": "substantiate (verb)",
+     "def": "To provide **evidence** that something is true."
+    },
+    {
+     "term": "precipitate (verb)",
+     "def": "To cause something (usually bad) to happen **suddenly** or sooner."
+    },
+    {
+     "term": "circumvent (verb)",
+     "def": "To find a way **around** an obstacle or rule."
+    }
+   ],
+   "label": "The twelve"
+  },
+  {
+   "type": "text",
+   "md": "## Where they come from\nEvery word here has a story. Know the story and the meaning sticks.\n\n| Word | Comes from | So it means |\n|---|---|---|\n| **exacerbate** | Latin *ex* + *acerbus* (harsh, bitter) | to make more bitter (*acerbic*) |\n| **mitigate** | Latin *mitis* (soft, gentle) | to soften |\n| **impede** | Latin *in* + *pes, pedis* (foot) | to shackle the feet (*pedal*, *pedestrian*) |\n| **facilitate** | Latin *facilis* (easy) | to make easy (*facile*) |\n| **undermine** | Old military tactic: dig a tunnel *under* a castle wall | to weaken from below, unseen |\n| **bolster** | Old English *bolster* (a long pillow) | to prop up, like a cushion |\n| **deteriorate** | Latin *deterior* (worse) | to get worse |\n| **galvanize** | Luigi Galvani, whose electric shocks made frogs' legs twitch (1700s) | to jolt into action |\n| **scrutinize** | Latin *scrutari* (to search, to examine) | to search through carefully |\n| **substantiate** | Latin *substantia* (substance) | to give *substance* to a claim |\n| **precipitate** | Latin *praeceps* (headlong) | to throw headlong: sudden, too soon |\n| **circumvent** | Latin *circum* (around) + *venire* (to come) | to come around (*circumference*, *convention*) |"
+  },
+  {
+   "type": "text",
+   "md": "## In the wild\nSee each word doing real work, in places you actually live: the road, the chart, the gym.\n\n- **exacerbate**: *Skipping sleep during a weight cut exacerbates the fatigue.*\n- **mitigate**: *A hard stop mitigates the damage from a bad entry.*\n- **impede**: *Construction on I-75 impeded every delivery that week.*\n- **facilitate**: *A load board app facilitates finding backhauls.*\n- **undermine**: *Revenge trading undermines everything your plan was built to protect.*\n- **bolster**: *Two weeks of clean, rule-following trades bolstered his confidence.*\n- **deteriorate**: *His technique deteriorated in the third round as fatigue set in.*\n- **galvanize**: *Losing the title shot galvanized him: he was in the gym the next morning.*\n- **scrutinize**: *Scrutinize every rate confirmation before you sign it.*\n- **substantiate**: *\"This strategy wins 70%\" means nothing until you substantiate it with logged trades.*\n- **precipitate**: *The surprise rate decision precipitated a 400-point drop in minutes.*\n- **circumvent**: *Opening a second account to circumvent your daily loss limit defeats the purpose of having one.*"
+  },
+  {
+   "type": "check",
+   "q": "Your stop-loss is meant to ___ losses; moving it further away when price nears it would ___ them.",
+   "options": [
+    "exacerbate … mitigate",
+    "mitigate … exacerbate",
+    "facilitate … impede",
+    "bolster … undermine"
+   ],
+   "answer": 1,
+   "why": "A stop **softens** (mitigates) the damage. Widening it as price approaches makes the damage **worse** (exacerbates)."
+  },
+  {
+   "type": "text",
+   "md": "## The four pairs\n| Make it better / easier | Make it worse / harder |\n|---|---|\n| **mitigate** (soften the bad) | **exacerbate** (worsen the bad) |\n| **facilitate** (make easier) | **impede** (slow, block) |\n| **bolster** (prop up) | **undermine** (weaken from below) |\n| — | **deteriorate** (get worse on its own) |\n\n**Doing vs happening:** *exacerbate* needs a cause (*the heat exacerbated his cramps*). *Deteriorate* can happen on its own (*his health deteriorated*).\n\n**Partners:** mitigate *risk* / *damage* · exacerbate *a problem* / *tensions* · scrutinize *a contract* / *the data* · substantiate *a claim* · circumvent *a rule* / *a law* · galvanize *support* / *a team* into action."
+  },
+  {
+   "type": "example",
+   "title": "Write it like a report",
+   "problem": "Plain: \"The new rule made things harder for small carriers, and the big fuel jump made the problem worse. A few tax credits helped a little.\"",
+   "steps": [
+    "*made things harder* → **impeded**",
+    "*made the problem worse* → **exacerbated**",
+    "*helped a little* → **mitigated**"
+   ],
+   "answer": "*The new rule **impeded** small carriers, and the fuel spike **exacerbated** the problem. Tax credits **mitigated** some of the damage.* That reads like a professional wrote it."
+  },
+  {
+   "type": "check",
+   "q": "\"Investigators found no records to ___ his claim that he drove 14 hours.\" Best fit:",
+   "options": [
+    "circumvent",
+    "substantiate",
+    "galvanize",
+    "precipitate"
+   ],
+   "answer": 1,
+   "why": "Give *substance* (evidence) to a claim: **substantiate**."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Exacerbate vs exasperate.** *Exacerbate* worsens a **situation**. *Exasperate* annoys a **person**. *The delay exacerbated the backlog and exasperated the driver.*\n- **Mitigate vs militate.** *Militate against* means to be a strong factor against (*his record militates against parole*). Different word.\n- **Precipitate vs precipitous.** The verb *precipitate* = cause suddenly. The adjective *precipitous* = steep or dangerously fast (*a precipitous drop*).\n- **Mitigate doesn't mean eliminate.** It lessens."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "**Mitigate** most nearly means…",
+   "options": [
+    "worsen",
+    "lessen the severity of",
+    "investigate",
+    "delay"
+   ],
+   "answer": 1,
+   "why": "From *mitis*, soft."
+  },
+  {
+   "type": "mc",
+   "q": "The opposite of **facilitate** is…",
+   "options": [
+    "impede",
+    "bolster",
+    "substantiate",
+    "galvanize"
+   ],
+   "answer": 0,
+   "why": "Make easier ↔ block."
+  },
+  {
+   "type": "text",
+   "q": "One word: \"to examine closely and critically.\" (starts with *s*)",
+   "answer": [
+    "scrutinize",
+    "scrutinise"
+   ],
+   "why": "**Scrutinize**, from *scrutari*, to search."
+  },
+  {
+   "type": "mc",
+   "q": "The root *ped* in **impede** means…",
+   "options": [
+    "child",
+    "foot",
+    "push",
+    "path"
+   ],
+   "answer": 1,
+   "why": "As in *pedal* and *pedestrian*: to shackle the feet."
+  },
+  {
+   "type": "mc",
+   "q": "A rumor spread by teammates that slowly weakens the coach's authority ___ him.",
+   "options": [
+    "bolsters",
+    "undermines",
+    "galvanizes",
+    "facilitates"
+   ],
+   "answer": 1,
+   "why": "Weaken from below, unseen."
+  },
+  {
+   "type": "mc",
+   "q": "\"The engine kept running worse each week.\" One verb:",
+   "options": [
+    "exacerbated",
+    "deteriorated",
+    "precipitated",
+    "mitigated"
+   ],
+   "answer": 1,
+   "why": "Got worse on its own: *deteriorated*. (*Exacerbate* needs something doing the worsening.)"
+  },
+  {
+   "type": "mc",
+   "q": "**Galvanize** comes from…",
+   "options": [
+    "a Greek god",
+    "a scientist whose shocks made frogs' legs twitch",
+    "a Latin word for iron",
+    "a type of metal coating"
+   ],
+   "answer": 1,
+   "why": "Luigi Galvani. (Galvanized steel is named after him too.)"
+  },
+  {
+   "type": "mc",
+   "q": "Using a loophole to get around a weight limit is trying to ___ the rule.",
+   "options": [
+    "substantiate",
+    "scrutinize",
+    "circumvent",
+    "mitigate"
+   ],
+   "answer": 2,
+   "why": "*Circum* + *venire*: to come around."
+  },
+  {
+   "type": "mc",
+   "q": "\"The long delay ___ the driver and ___ the backlog at the dock.\"",
+   "options": [
+    "exacerbated … exasperated",
+    "exasperated … exacerbated",
+    "mitigated … impeded",
+    "galvanized … bolstered"
+   ],
+   "answer": 1,
+   "why": "A **person** is exasperated (annoyed). A **situation** is exacerbated (worsened).",
+   "level": "challenge",
+   "hint": "Which one happens to people, and which to problems?"
+  },
+  {
+   "type": "mc",
+   "q": "\"News of the layoffs ___ a selloff, and the stock's ___ drop wiped out a year of gains.\"",
+   "options": [
+    "precipitated … precipitous",
+    "precipitous … precipitated",
+    "mitigated … precipitous",
+    "precipitated … mitigating"
+   ],
+   "answer": 0,
+   "why": "*Precipitate* (verb) = cause suddenly. *Precipitous* (adjective) = steep, dangerously fast.",
+   "level": "challenge",
+   "hint": "One slot needs a verb, the other an adjective."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence uses **bolster** correctly?",
+   "options": [
+    "The scandal bolstered his reputation into ruin.",
+    "Strong earnings bolstered investor confidence.",
+    "He bolstered the rule by ignoring it.",
+    "The bridge bolstered and collapsed."
+   ],
+   "answer": 1,
+   "why": "*Bolster* = prop up, strengthen. Only B uses it in that direction.",
+   "level": "challenge",
+   "hint": "Bolster always points toward stronger."
+  },
+  {
+   "type": "mc",
+   "q": "A trader says his method is \"proven\" but has no logged trades. A skeptic would ask him to ___ the claim, and should ___ any numbers he gives.",
+   "options": [
+    "circumvent … galvanize",
+    "substantiate … scrutinize",
+    "mitigate … facilitate",
+    "undermine … bolster"
+   ],
+   "answer": 1,
+   "why": "Ask for **evidence** (substantiate), then **examine it closely** (scrutinize). That's the whole defense against trading-guru scams.",
+   "level": "challenge",
+   "hint": "First he has to give evidence. Then you have to check it."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  },
+  {
+   "title": "Online Etymology Dictionary (Douglas Harper)",
+   "url": "https://www.etymonline.com/"
+  }
+ ]
+}

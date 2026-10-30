@@ -1,0 +1,281 @@
+{
+ "id": "power-words-set-4",
+ "title": "Power words, set 4: judgment and quality",
+ "band": "Grades 9–12",
+ "minutes": 30,
+ "lede": "Twelve adjectives for sizing things up: how likely, how strong, how risky, how deep. The vocabulary of good decisions.",
+ "sections": [
+  {
+   "type": "text",
+   "md": "## Words for judging\nEvery decision (take the load or pass, take the trade or wait, take the fight or not) is a judgment about **likelihood**, **risk** and **value**. These twelve words let you think and talk about those judgments precisely. Notice how many of them sound like a risk manager talking."
+  },
+  {
+   "type": "terms",
+   "terms": [
+    {
+     "term": "plausible (adj.)",
+     "def": "Seeming **reasonable or likely**; believable (but not proven)."
+    },
+    {
+     "term": "tenuous (adj.)",
+     "def": "Very **weak or thin**; easily broken. *A tenuous connection.*"
+    },
+    {
+     "term": "viable (adj.)",
+     "def": "Capable of **working** or succeeding; workable."
+    },
+    {
+     "term": "volatile (adj.)",
+     "def": "Liable to change **rapidly and unpredictably**, especially for the worse."
+    },
+    {
+     "term": "prudent (adj.)",
+     "def": "Acting with **care and thought for the future**; wise."
+    },
+    {
+     "term": "adverse (adj.)",
+     "def": "**Harmful** or unfavorable. *Adverse weather, adverse effects.*"
+    },
+    {
+     "term": "inevitable (adj.)",
+     "def": "Certain to happen; **unavoidable**."
+    },
+    {
+     "term": "obsolete (adj.)",
+     "def": "No longer used or useful; **out of date**."
+    },
+    {
+     "term": "pervasive (adj.)",
+     "def": "Spreading **throughout** something; present everywhere in it."
+    },
+    {
+     "term": "ubiquitous (adj.)",
+     "def": "Seeming to be **everywhere** at once."
+    },
+    {
+     "term": "profound (adj.)",
+     "def": "Very **deep**: deep insight, deep effect, deep feeling."
+    },
+    {
+     "term": "superfluous (adj.)",
+     "def": "More than needed; **unnecessary**."
+    }
+   ],
+   "label": "The twelve"
+  },
+  {
+   "type": "text",
+   "md": "## Where they come from\nEvery word here has a story. Know the story and the meaning sticks.\n\n| Word | Comes from | So it means |\n|---|---|---|\n| **plausible** | Latin *plaudere* (to applaud) | worthy of applause, so: acceptable, believable |\n| **tenuous** | Latin *tenuis* (thin) | thin, like a thread (*attenuate*) |\n| **viable** | French *vie* (life), from Latin *vita* | able to live (*vital*, *vitamin*) |\n| **volatile** | Latin *volare* (to fly) | flying off: evaporating, unstable (*volley*) |\n| **prudent** | Latin *providens* (foreseeing), shortened | seeing ahead (*provide*) |\n| **adverse** | Latin *ad* (toward) + *vertere* (to turn) | turned against you (*reverse*, *convert*) |\n| **inevitable** | Latin *in* (not) + *evitare* (to avoid) | not avoidable |\n| **obsolete** | Latin *obsolescere* (to fall out of use) | worn out by time |\n| **pervasive** | Latin *per* (through) + *vadere* (to go) | going through everything (*invade*, *evade*) |\n| **ubiquitous** | Latin *ubique* (everywhere) | everywhere |\n| **profound** | Latin *pro* + *fundus* (bottom) | from the bottom: deep (*fund*, *foundation*) |\n| **superfluous** | Latin *super* (over) + *fluere* (to flow) | overflowing: more than needed (*fluid*) |"
+  },
+  {
+   "type": "text",
+   "md": "## In the wild\nSee each word doing real work, in places you actually live: the road, the chart, the gym.\n\n- **plausible**: *\"The rate dropped because the shipper found a cheaper carrier\" is plausible. Confirm it before you assume.*\n- **tenuous**: *A trade idea based on one indicator and a hunch is tenuous.*\n- **viable**: *Running one truck is viable at $2.50 a mile; at $1.60 it isn't.*\n- **volatile**: *NQ is volatile around the 8:30 a.m. data releases: size down or stay out.*\n- **prudent**: *It's prudent to keep three months of truck payments in reserve.*\n- **adverse**: *Adverse weather shut down I-80 for two days.*\n- **inevitable**: *Losing trades are inevitable. Losing your account isn't.*\n- **obsolete**: *Paper logbooks became obsolete for most drivers after the ELD mandate.*\n- **pervasive**: *Phone addiction is pervasive: it's in every part of the day, not just one.*\n- **ubiquitous**: *Energy drinks are ubiquitous at truck stops.*\n- **profound**: *Sleep has a profound effect on reaction time, mood and weight cut.*\n- **superfluous**: *Cut superfluous indicators off the chart. Price, volume, levels.*"
+  },
+  {
+   "type": "check",
+   "q": "\"Losing trades are ___; blowing up your account is not.\" Best fit:",
+   "options": [
+    "obsolete",
+    "inevitable",
+    "superfluous",
+    "tenuous"
+   ],
+   "answer": 1,
+   "why": "Every strategy has losers. They're **unavoidable**. Big drawdowns are a choice, controlled by risk rules."
+  },
+  {
+   "type": "text",
+   "md": "## Fine distinctions\n| Pair | Difference |\n|---|---|\n| **plausible** vs **proven** | plausible = believable, **not yet** shown to be true |\n| **pervasive** vs **ubiquitous** | *pervasive* = spread **through** one thing (a culture, a company); *ubiquitous* = found **everywhere** you go. Pervasive often sounds negative (*pervasive corruption*). |\n| **viable** vs **plausible** | viable = it can **work**; plausible = it could be **true** |\n| **prudent** vs **cautious** | prudent adds **wisdom about the future**; cautious just means careful |\n| **adverse** vs **averse** | *adverse* = harmful (*adverse effects*); *averse* = opposed, unwilling (a **person** is *risk-averse*) |\n| **volatile** vs **unstable** | volatile emphasizes **sudden swings**; it's the standard finance word for price movement |"
+  },
+  {
+   "type": "example",
+   "title": "Write it like a risk memo",
+   "problem": "Situation: \"Market's swinging wildly. My setup sort of makes sense but the evidence is thin. Trading today would be dumb for the future. Extra screens aren't helping.\"",
+   "steps": [
+    "*swinging wildly* → **volatile**",
+    "*sort of makes sense* → **plausible**",
+    "*evidence is thin* → **tenuous**",
+    "*dumb for the future* → not **prudent**",
+    "*extra … aren't helping* → **superfluous**"
+   ],
+   "answer": "*Conditions are **volatile**. The setup is **plausible**, but the evidence is **tenuous**, so trading today isn't **prudent**. The extra screens are **superfluous**.* That's a pro's journal entry."
+  },
+  {
+   "type": "check",
+   "q": "A conservative investor who avoids risky bets is risk-___.",
+   "options": [
+    "adverse",
+    "averse",
+    "inverse",
+    "diverse"
+   ],
+   "answer": 1,
+   "why": "A **person** who's unwilling = *averse*. *Adverse* describes harmful things."
+  },
+  {
+   "type": "note",
+   "label": "Common traps",
+   "md": "- **Adverse vs averse** (above): conditions are adverse; people are averse.\n- **Plausible doesn't mean true.** Scammers specialize in plausible stories.\n- **Volatile isn't only negative in markets.** Traders need some volatility to profit; it's the **unpredictability** that's dangerous.\n- **Inevitable** is strong. If there's any way around it, use *likely* instead."
+  }
+ ],
+ "practice": [
+  {
+   "type": "mc",
+   "q": "**Tenuous** most nearly means…",
+   "options": [
+    "strong",
+    "thin, weak",
+    "tense",
+    "lasting"
+   ],
+   "answer": 1,
+   "why": "From *tenuis*, thin."
+  },
+  {
+   "type": "mc",
+   "q": "A business plan that can actually work is…",
+   "options": [
+    "obsolete",
+    "viable",
+    "superfluous",
+    "adverse"
+   ],
+   "answer": 1,
+   "why": "From *vie*, life: able to live."
+  },
+  {
+   "type": "text",
+   "q": "One word: \"more than needed; unnecessary.\" (starts with *s*)",
+   "answer": [
+    "superfluous"
+   ],
+   "why": "**Superfluous**: overflowing."
+  },
+  {
+   "type": "mc",
+   "q": "**Prudent** comes from a Latin word meaning…",
+   "options": [
+    "proud",
+    "foreseeing",
+    "careful hands",
+    "praise"
+   ],
+   "answer": 1,
+   "why": "*Providens*: seeing ahead."
+  },
+  {
+   "type": "mc",
+   "q": "Fax machines in most offices are now…",
+   "options": [
+    "ubiquitous",
+    "obsolete",
+    "volatile",
+    "profound"
+   ],
+   "answer": 1,
+   "why": "Out of use."
+  },
+  {
+   "type": "mc",
+   "q": "**Pervasive** contains *per* + *vadere*, meaning…",
+   "options": [
+    "to go through",
+    "to look over",
+    "to push away",
+    "to fly up"
+   ],
+   "answer": 0,
+   "why": "As in *invade* and *evade*."
+  },
+  {
+   "type": "mc",
+   "q": "Which describes **adverse** conditions?",
+   "options": [
+    "clear skies, dry roads",
+    "ice storm, 50 mph winds",
+    "light traffic",
+    "a quick load"
+   ],
+   "answer": 1,
+   "why": "Harmful, unfavorable."
+  },
+  {
+   "type": "mc",
+   "q": "The root of **volatile**, *volare*, means…",
+   "options": [
+    "to turn",
+    "to fly",
+    "to boil",
+    "to wish"
+   ],
+   "answer": 1,
+   "why": "Things that *fly off*: evaporate, swing."
+  },
+  {
+   "type": "mc",
+   "q": "A story is **plausible** but not **substantiated**. You should…",
+   "options": [
+    "accept it as fact",
+    "reject it as false",
+    "treat it as possible and look for evidence",
+    "repeat it to others"
+   ],
+   "answer": 2,
+   "why": "Plausible = believable, not proven. The prudent move is to check.",
+   "level": "challenge",
+   "hint": "Believable isn't the same as proven."
+  },
+  {
+   "type": "mc",
+   "q": "\"Distrust was ___ in the company: every department, every meeting.\" Best fit:",
+   "options": [
+    "ubiquitous",
+    "pervasive",
+    "viable",
+    "tenuous"
+   ],
+   "answer": 1,
+   "why": "Spread **through** one thing (the company) and negative → *pervasive*. *Ubiquitous* is more about being found everywhere you go.",
+   "level": "challenge",
+   "hint": "Spread through one thing, and it's bad."
+  },
+  {
+   "type": "mc",
+   "q": "Which sentence is correct?",
+   "options": [
+    "The drug had averse side effects.",
+    "She's averse to taking big risks.",
+    "Adverse to change, he kept the old system.",
+    "Averse weather delayed the flight."
+   ],
+   "answer": 1,
+   "why": "People are **averse** (unwilling). Effects and weather are **adverse** (harmful).",
+   "level": "challenge",
+   "hint": "Which one describes a person's unwillingness?"
+  },
+  {
+   "type": "mc",
+   "q": "Your mentor's one sentence, \"protect the account and the profits take care of themselves,\" changed how you trade. The idea was…",
+   "options": [
+    "superfluous",
+    "profound",
+    "tenuous",
+    "obsolete"
+   ],
+   "answer": 1,
+   "why": "Deep in meaning and effect: **profound**. From *fundus*, the bottom. It goes all the way down.",
+   "level": "challenge",
+   "hint": "From *fundus*: bottom, depth."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Merriam-Webster Dictionary",
+   "url": "https://www.merriam-webster.com/"
+  },
+  {
+   "title": "Online Etymology Dictionary (Douglas Harper)",
+   "url": "https://www.etymonline.com/"
+  }
+ ]
+}

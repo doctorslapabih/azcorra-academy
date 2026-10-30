@@ -500,22 +500,26 @@
      {
       "id": "power-words-set-1",
       "title": "Power words set 1",
-      "ready": false
+      "ready": true,
+      "desc": "Twelve words that show up in every textbook, contract, news article and debate. Words for making a case, judging one, and saying exactly what you mean."
      },
      {
       "id": "power-words-set-2",
       "title": "Power words set 2",
-      "ready": false
+      "ready": true,
+      "desc": "Twelve words for describing how people think, act and carry themselves. Use them to read people, write about characters, and know exactly what a coach or a review is saying about you."
      },
      {
       "id": "power-words-set-3",
       "title": "Power words set 3",
-      "ready": false
+      "ready": true,
+      "desc": "Twelve verbs for making things better, worse, faster or slower. The words that give news articles, reports and arguments their force."
      },
      {
       "id": "power-words-set-4",
       "title": "Power words set 4",
-      "ready": false
+      "ready": true,
+      "desc": "Twelve adjectives for sizing things up: how likely, how strong, how risky, how deep. The vocabulary of good decisions."
      }
     ]
    },
